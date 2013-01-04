@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load train_extras %}
+{% load station_extras %}
+{% load utils %}
+{% load timetable_extras %}
+
+{% block title %}strona informacyjna pociągu{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
+
+{% endblock %}
+
+{% block content %}
+
+<div class="train-info">
+
+	{% train_overview train %}
+
+	<div class="details">
+		<p class="relation">
+			{{ train.get_relation_string }}
+		</p>
+
+		<div class="timetables">
+			<p>Dni kursowania pociągu:</p>
+			
+			<table>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>{% print_month train -1 %}</td>
+				</tr>
+				<tr>
+					<td>{% print_month train 0 %}</td>
+					<td>{% print_month train 1 %}</td>
+					<td>{% print_month train 2 %}</td>
+				</tr>
+				<tr>
+					<td>{% print_month train 3 %}</td>
+					<td>{% print_month train 4 %}</td>
+					<td>{% print_month train 5 %}</td>
+				</tr>
+				<tr>
+					<td>{% print_month train 6 %}</td>
+					<td>{% print_month train 7 %}</td>
+					<td>{% print_month train 8 %}</td>
+				</tr>
+				<tr>
+					<td>{% print_month train 9 %}</td>
+					<td>{% print_month train 10 %}</td>
+					<td>{% print_month train 11 %}</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="notes">
+			<p>Średnia ocena opóźnienienia: <b>{% percentage train.get_average_delay 5 %}%</b></p>
+			<p>Średnia ocena czystości: <b>{% percentage train.get_average_clean 5 %}%</b></p>
+			<p>Zestawienia:</p>
+			<table>
+				<tr><th>liczba</th><th>zestawienie</th></tr>
+				{% for row in train.get_compositions %}
+				<tr>
+					<td>{{row.num}}</td>
+					<td style="text-align: left;">{% print_composition row.composition__composition %}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

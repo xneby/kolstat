@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load train_extras %}
+{% load station_extras %}
+
+{% block title %}nowa podróż{% endblock %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+
+<div id="header">
+	<p>Część podróży ze stacji {% get_pretty_name start %} do stacji {% get_pretty_name end %}. Wybierz pociąg:</p>
+	{% for conn in connections %}
+		<pre>{{conn}}</pre>
+	{% endfor %}
+	<table>
+	{% for train, timetable, start, end in trains %}
+		<tr>
+			<td rowspan="2"><img src="{{ train.category.category_img }}" /></td>
+			<td rowspan="2">{{ train.category }} {{ train.number }}</td>
+			<td{% if start.station.id == train.first_stop.station.id %} rowspan="2"{% endif %}><strong>{{ timetable.first_stop.departure|time:"H:i" }}</strong> {% get_pretty_name timetable.first_stop.station %}</td>
+			<td rowspan="2"> -- </td>
+			<td{% if end.station.id == train.last_stop.station.id %} rowspan="2"{% endif %}><strong>{{ timetable.last_stop.arrival|time:"H:i" }}</strong> {% get_pretty_name timetable.last_stop.station %}</td>
+			<td rowspan="2"><form action="{% url journey-add-step3 %}" method="post"> <input type="hidden" value="{{ train.category }} {{ train.number }} {{ train.variant }}" name="tid" />{% csrf_token %} <input type="submit" value="Wybierz"/> </form> </td>
+			<td rowspan="2"><a href="{{ train.get_absolute_url }}">Info o pociągu</a></td>
+		</tr>
+		<tr>
+			{% if start.station.id != train.first_stop.station.id %}
+				<td><strong>{{ start.departure|time:"H:i" }}</strong> {% get_pretty_name start.station %}</td>
+			{% endif %}	
+			{% if end.station.id != train.last_stop.station.id %}
+				<td><strong>{{ end.arrival|time:"H:i" }}</strong> {% get_pretty_name end.station %}</td>
+			{% endif %}	
+		</tr>
+	{%endfor%}
+	</table>
+</div>
+
+{% endblock %}

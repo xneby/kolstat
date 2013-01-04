@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load train_extras %}
+{% load station_extras %}
+{% load utils %}
+
+{% block title %}strona informacyjna pociągu{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
+
+</script>
+{% endblock %}
+
+{% block content %}
+
+<div class="train-info">
+	
+	{% train_overview train %}
+
+	<div class="details">
+		<p class="relation">
+			<span class="departure">
+				<span class="time">{{ timetable.first_stop.departure|time:"H:i" }}</span>
+				<span class="station">{% get_pretty_name timetable.first_stop.station %}</span>
+				</span> <span>--</span> <span class="arrival">
+				<span class="time">{{ timetable.last_stop.arrival|time:"H:i" }}</span>
+				<span class="station">{% get_pretty_name timetable.last_stop.station %}</span>
+	
+			</span>
+		</p>
+
+		<p class="distance">
+			<span class="value">~{{ timetable.approximate_distance|floatformat:3 }}km</span>
+		</p>
+		
+		<p class="distance">
+			<span class="value">{{ timetable.duration|timedelta }}, {{ timetable.average_velocity|floatformat:3 }} km/h </span>
+		</p>
+
+		{% comment %}
+		<div class="stops">
+			<table class="rozklad">
+				<tr><th>km</th><th>Stacja</th><th class="typ"></th><th>{{ train.category }} {{train.number}}</th></tr>
+				{% for stop in timetable.stops %}
+					{% if stop.is_short or forloop.first or forloop.last %}
+					<tr><td class="km">{{ stop.distance|floatformat:"3" }}</td><td class="stacja{% if forloop.first or forloop.last %} poczkon{% endif %}">{% get_pretty_name stop.station %} <span class="kurs90">{{ stop.station.kurs90ID }}</span></td>
+						{% if forloop.first %}
+							<td class="typ">o</td>
+						{% elif forloop.last %}
+							<td class="typ">p</td>
+						{% else %}
+							<td class="typ"></td>
+						{% endif %}
+						<td class="godzina"> {% if forloop.last %} {{stop.arrival|time:"H:i"}} {% else %} {{ stop.departure|time:"H:i" }} {% endif %}</td></tr>
+					{% else %}
+						<tr class="przyjazd"><td class="km" rowspan="2">{{ stop.distance|floatformat:"3" }}</td><td class="stacja" rowspan="2">{% get_pretty_name stop.station %} <span class="kurs90">{{ stop.station.kurs90ID }}</span></td>
+							<td class="typ">p</td><td class="godzina">{{stop.arrival|time:"H:i"}}</td></tr>
+						<tr><td class="typ">o</td><td class="godzina">{{stop.departure|time:"H:i"}}</td></tr>
+					{% endif %}
+				{% endfor %}
+			</table>
+		</div>
+
+		{% endcomment %}
+		<div class="stops">
+			<table class="rozklad">
+				<tr>
+					<th colspan="{{ ile }}">km</th>
+					<th>Stacja</th>
+					<th class="typ"></th>
+					{% for t in trains %}
+					<th>{{ t.category }} {{t.number}}</th>
+					{% endfor %}
+				</tr>
+				{% for km, stacja, short, pocz, kon, stops in table %}
+					{% if short or pocz or kon %}
+					<tr>
+						{% for x in km %}
+							<td class="km">{{ x|floatformat:"3" }}</td>
+						{% endfor %}
+						<td class="stacja{% if pocz or kon %} poczkon{% endif %}">{% get_pretty_name stacja %} <span class="kurs90">{{ stacja.kurs90ID }}</span></td>
+						{% if pocz %}
+							<td class="typ">o</td>
+						{% elif kon %}
+							<td class="typ">p</td>
+						{% else %}
+							<td class="typ"></td>
+						{% endif %}
+						{% for stop in stops %}
+							<td class="godzina"> {% if kon %} {{stop.arrival|time:"H:i"}} {% else %} {{ stop.departure|time:"H:i" }} {% endif %}</td>
+						{% endfor %}
+						</tr>
+
+					{% else %}
+						<tr class="przyjazd">
+						{% for x in km %}
+							<td class="km" rowspan="2">{{ x|floatformat:"3" }}</td>
+						{% endfor %}
+						<td class="stacja" rowspan="2">{% get_pretty_name stacja %} <span class="kurs90">{{ stacja.kurs90ID }}</span></td>
+						<td class="typ">p</td>
+						{% for stop in stops %}
+							<td class="godzina">{{stop.arrival|time:"H:i"}}</td>
+						{% endfor %}
+						</tr>
+
+						<tr>
+						<td class="typ">o</td>
+						{% for stop in stops %}
+							<td class="godzina">{{stop.departure|time:"H:i"}}</td>
+						{% endfor %}
+						</tr>
+					{% endif %}
+			{% endfor %}
+			</table>
+		</div>
+
+		<div class="notes">
+			<p>Średnia ocena opóźnienienia: <b>{% percentage train.get_average_delay 5 %}%</b></p>
+			<p>Średnia ocena czystości: <b>{% percentage train.get_average_clean 5 %}%</b></p>
+			<p>Zestawienia:</p>
+			<table>
+				<tr><th>liczba</th><th>zestawienie</th></tr>
+				{% for row in train.get_compositions %}
+				<tr>
+					<td>{{row.num}}</td>
+					<td style="text-align: left;">{% print_composition row.composition__composition %}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

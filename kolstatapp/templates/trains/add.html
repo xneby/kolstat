@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+
+{% block title %}panel megaczłowieka{% endblock %}
+
+{% block content %}
+
+<p>Dodaj nowy pociąg</p>
+<form action="{% url admin-add-train %}" method="post"> {% csrf_token %}
+	<table class="table-form">
+		{{ form }}
+	</table>
+	<input type="submit" class="button" value="Dodaj" />
+</form>
+{% endblock %}

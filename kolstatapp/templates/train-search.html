@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load train_extras %}
+
+{% block title %}wybór pociągu{% endblock %}
+
+{% block head %}
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".categories img").click(function(){
+			$(this).parent().parent().find('.selected').removeClass('selected');
+				$(this).addClass('selected');
+				$('#operator').val($(this).attr('alt'));
+		});
+		$('#operator').keyup(function(){
+			$('.categories img').removeClass('selected');
+			$('.categories img[alt=' + $(this).val() + ']').addClass('selected');
+		});
+
+//		$('.categories .button').button();
+	});
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+<div id="train-search-by-number">
+	<div class="categories">
+		{% traincat_get as categories %}
+		<p>
+		{% for category in categories %}
+			<img src="{{category.url}}" alt="{{category.name}}" class="selectable" />
+		{% endfor %}
+		</p>
+
+		<div>
+			<form method="post" action="{% url kolstat-trains-search %}" >{% csrf_token %}
+				<input type="text" name="operator" id="operator" maxlength="5" value="{{ search_operator }}" /> <input type="text" name="number" id="number" maxlength="6" value="{{ search_number }}" /><input type="submit" class="button" value="Szukaj" />
+			</form>
+		</div>
+	</div>
+
+	{% if message %}
+		<p><b>{{ message }}</b></p>
+	{% endif %}
+
+	{% if trains %}
+		<p>Podane kryteria spełnia więcej niż jeden pociąg. Oto one:</p>
+		<ul>
+			{% for train in trains %}
+				<li><a href="{% url kolstat-train-variant train.category train.number train.variant %}">{{ train.category }} {{ train.number }}</a> ({{train.get_relation_string}})</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>
+
+{% endblock %}

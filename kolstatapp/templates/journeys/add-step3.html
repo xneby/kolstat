@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% load train_extras %}
+{% load station_extras %}
+
+{% block title %}nowa podróż{% endblock %}
+
+{% block head %}
+
+<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
+
+<script type="text/javascript" src="{{STATIC_PREFIX}}/js/train.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('.hselect button').button().click(function(){
+			$(this).addClass("selected").siblings().removeClass("selected");
+			val = $(this).index();
+			type = $(this).parent().attr('id');
+			
+			$('input[name=' + type + ']').val(val);
+		});
+
+		$('input[type=submit]').button();
+
+		$('button.compselect').button().click(function(){
+			$('button.compselect').removeClass('selected');
+			$(this).addClass("selected");
+			update_form();
+		});
+
+	});
+
+</script>
+
+
+
+{% endblock %}
+
+{% block content %}
+
+<div id="header">
+	<pre>{{train.toString}}</pre>
+	<p>Część podróży od stacji {% get_pretty_name train.source %} do stacji {% get_pretty_name train.destination %} odbywa się pociągiem {{train.type}} {{train.number}}. Oceń pociąg:</p>
+	<p>Ocena punktualności:</p>
+	<p><div id="delay" class="hselect">
+		<button class="selected">brak oceny</button>
+		<button>&lt; 5 minut</button>
+		<button>6 -- 15 minut</button>
+		<button>16 -- 30 minut</button>
+		<button>31 -- 60 minut</button>
+		<button>&gt; 60 minut</button>
+	</div></p>
+	
+	<p>Ocena czystości</p>
+	<p><div id="clean" class="hselect">
+		<button class="selected">brak oceny</button>
+		<button>5 gwiazdek</button>
+		<button>4 gwiazdki</button>
+		<button>3 gwiazdki</button>
+		<button>śmietnik</button>
+		<button>wysypisko śmieci</button>
+	</div></p>
+
+	<p>Skład:</p>
+
+	<p>Najpopularniejsze zestawienia:</p>
+	<table>
+	{% for comp in compositions %}
+	<tr>
+		<td style="text-align: left">{% print_composition comp.composition__composition %}</td><td><button class="compselect">Wybierz</button></td>
+	</tr>
+	{% endfor %}
+	</table>
+	<div class="composition">&nbsp;</div>
+	
+	<form action="{% url journey-add-finitialize %}" method="post">{% csrf_token %}
+		<input type="hidden" name="delay" value="0" />
+		<input type="hidden" name="clean" value="0" />
+		<input type="hidden" name="composition" />
+		<input type="submit" value="Dalej" />
+	</form>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load station_extras %}
+
+{% block title %}panel użytkownika{% endblock %}
+
+{% block content %}
+<h1>Podróże użytkownika</h1>
+
+{% for j,t in journeys%}
+
+<div class="journey_stat">
+	<p>Ze stacji <span class="station">{% get_pretty_name j.source %}</span> do stacji <span class="station">{% get_pretty_name j.destination %}</span><br />
+	dnia {{j.date|date:"Y-m-d H:i"}} odbyła się pociągiem {{ t.operator }} {{ t.number }}.</p>
+</div>
+
+{% empty %}
+<p>Brak podróży.</p>
+{% endfor %}
+
+{% endblock %}

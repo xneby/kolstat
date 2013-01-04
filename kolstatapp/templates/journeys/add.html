@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load train_extras %}
+{% load station_extras %}
+
+{% block title %}nowa podróż{% endblock %}
+
+{% block head %}
+
+<script type="text/javascript">
+	var nVia = 0;
+
+	ajax = Dajaxice.kolstat.kolstatapp;
+
+	function isNumber(x){
+		return !isNaN(parseFloat(x)) && isFinite(x);
+	}
+
+	function numberToStation(){
+		if(!isNumber($(this).val())) return true;
+
+		var x = this;
+
+		ajax.searchStation(function(res){
+			if(res.length == 1) $(x).val(res[0][1]);
+		}, {'name': $(this).val()});
+	}
+
+	function prepare(){
+		$(".stName").focusout(numberToStation);
+
+		$('#addvia').click(function(){
+			nVia ++;	
+			x = $('<input name="via' + nVia + '" class="stName" />');
+			x.focusout(numberToStation);
+			$('.vias').append(x);
+			
+			return false;
+		});
+
+		var validated = 0;
+
+		function validate_st(x){
+			val = x.val();
+
+			ajax.searchStation(function(resp){
+				if(resp.length == 1) validated ++;
+				else {
+				nx = $('<select/>', {name: x.attr('name')});
+					$.each(resp, function(arr) {
+						nx.append($('<option/>', {value: resp[arr][0], text: resp[arr][1]}));
+					});
+
+					x.replaceWith(nx);
+				}
+				if(validated == 2+nVia){
+					alert('ok');
+					$('form').submit();
+				}
+			}, {name: val});
+		}
+
+		$('#submitbtn').click(function(){
+			var ok = true;
+			$('.stName').each(function(){
+				validate_st($(this));
+			});
+			return false;
+		});
+
+
+		$('.date').datepicker({dateFormat: "dd-mm-yy"});
+	}
+	
+	$(document).ready(prepare);
+</script>
+{% endblock %}
+
+{% block content %}
+
+<div id="header">
+	<form action="{% url journey-add %}" method="post">{% csrf_token %}
+		<p>Początek podróży:</p>
+		<p><input name="start" class="stName" /></p>
+	
+		<p>Przesiadki: [<a href="#" id="addvia">dodaj przesiadkę</a>]</p>
+		<p class="vias"></p>
+	
+		<p>Cel podróży:</p>
+		<p><input name="end" class="stName" /></p>
+
+		<p>Data rozpoczęcia podróży: </p>
+		<p><input name="date" class="date" />
+
+		<input type="submit" value="Dalej" id="submitbtn" />
+	</form>
+</div>
+
+{% endblock %}

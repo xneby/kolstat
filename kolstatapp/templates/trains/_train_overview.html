@@ -1,0 +1,15 @@
+{% load train_extras %}
+<div class="overview">
+	<p class="top-line">
+		<span class="operator">{% train_operator train %}</span>
+	</p>
+	<p class="middle-line">
+		<span class="category {% train_category_class train %}">{% train_category train %}</span>
+		<span class="number {% train_category_class train %}">{{ train.number }} {% if train.has_variants %}"{{ train.variant }}"{% endif %}</span>
+		<span class="name">{% train_name train %}</span>
+	</p>
+	<p class="bottom-line">
+	<span class="category-explanation {% train_category_class train %}">{% train_category_explanation train %}</span>
+	</p>
+</div>
+

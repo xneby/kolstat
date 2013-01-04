@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+
+{% block title %}panel megaczłowieka{% endblock %}
+
+{% block content %}
+
+<h1>Dzień dobry panie Administratorze!</h1>
+<p>Może małą kawunię?</p>
+<ul>
+	<li><a href="{% url admin-trains %}">Pociągi</a></li>
+</ul>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}panel użytkownika{% endblock %}
+
+{% block content %}
+<h1>Profil użytkownika</h1>
+
+<p><b>Imię i nazwisko</b>: {{ user.get_full_name }}</p>
+<p><b>Adres email</b>: {{ user.email }}</p>
+<p><b>Nazwa użytkownika</b>: {{ user.username }}</p>
+{% endblock %}

@@ -1,0 +1,5006 @@
+1::Żnin
+2::Damasławek
+3::Wągrowiec
+4::Sława Wielkopolska
+5::Poznań Główny
+6::Inowrocław
+7::Janowiec Wielkopolski
+8::Gniezno
+9::Mogilno
+10::Oborniki Wielkopolskie
+8203::Zarszyn
+8204::Długie
+13::Piła Główna
+8206::Sanok Dąbrówka
+8207::Sanok Miasto
+16::Zakopane
+17::Chełm
+18::Kcynia
+19::Nakło nad Notecią
+20::Gołańcz
+8213::Lesko Łukawica
+22::Strzelno
+23::Kwieciszewo
+24::Orchowo
+25::Bydgoszcz Główna
+26::Krzyż
+27::Toruń Główny
+28::Maksymilianowo
+29::Kruszwica
+3547::Bursztynowo
+8223::Jankowce
+8224::Uherce Tunel
+8225::Uherce
+8226::Olszanica
+8227::Ustianowa
+36::Jabłonowo Wielkopolskie
+37::Margonin
+38::Gębice
+39::Złotów
+40::Wierzchowo Człuchowskie
+41::Chojnice
+43::Jastrowie
+44::Płytnica
+45::Więcbork
+46::Wałcz
+47::Szczecinek
+48::Człuchów
+49::Czarne
+50::Pruszcz-Bagienica
+51::Terespol Pomorski
+52::Wierzchucin
+53::Bąk
+54::Świecie nad Wisłą
+55::Tuchola
+56::Laskowice Pomorskie
+57::Koronowo
+16442::Bielsko-Biała Komorowice
+16443::Żywiec Browar
+60::Lipusz
+16445::Smardy (podg)
+16446::Wrocław Jw2451
+16447::Bolko
+8256::Medzilaborce Mesto
+16449::Szczygłowice
+16450::Radlin Obszary (podg.)
+67::Tczew
+68::Grudziądz
+69::Gdańsk Główny
+70::Malbork
+71::Szymankowo
+72::Nowy Dwór Gdański
+73::Pruszcz Gdański
+74::Stara Piła
+75::Żukowo Wschodnie
+76::Kartuzy
+77::Gdańsk Osowa
+78::Kokoszki
+8205::Nowosielce
+80::Somonino
+81::Gołubie Kaszubskie
+82::Ugoszcz
+83::Bytów
+84::Pomysk
+14::Barcin
+86::Jerzkowice
+87::Lębork
+88::Łeba
+89::Sopot
+90::Wejherowo
+91::Słupsk
+92::Czosnowo
+24669::Vydraň
+94::Słosinko
+95::Korzybie
+96::Ustka
+97::Sławno
+98::Darłowo
+99::Białogard
+100::Czaplinek
+24677::Bieruń Stary Mleczarnia
+24680::Kraków Wilga
+105::Koszalin
+106::Runowo Pomorskie
+107::Stargard Szczeciński
+108::Kołobrzeg
+549::Bieruń Stary
+110::Gryfice
+2749::Papowo Toruńskie
+112::Mielno Koszalińskie
+113::Wrzeście
+8211::Załuż
+116::Choczewo
+117::Płoty
+118::Szczecin Dąbie
+9577::Rosow
+120::Resko Północne
+121::Wyszogóra
+122::Nowogard
+125::Goleniów
+126::Kamień Pomorski
+21::Szubin
+128::Wysoka Kamieńska
+129::Wolin Pomorski
+130::Międzyzdroje
+9579::Neu Rosow
+132::Świnoujście
+133::Drawsko Pomorskie
+134::Złocieniec
+2753::Zieleń
+136::Wierzchowo Pomorskie
+137::Rudki
+138::Człopa
+139::Choszczno
+8332::Pobiedziska Letnisko
+8333::Mrowino
+142::Dobiegniew
+143::Gorzów Wielkopolski
+144::Kostrzyn
+145::Świdwin
+146::Smardzko
+147::Redło
+8340::Lubosina
+149::Połczyn Zdrój
+150::Barwice
+8343::Lubosz koło Międzychodu
+152::Łubowo
+8345::Kwilcz
+8346::Prusim
+155::Lubiana
+156::Strzelce Krajeńskie Wschód
+157::Strzelce Krajeńskie
+158::Myślibórz
+159::Pyrzyce
+160::Płońsko Pyrzyckie
+8353::Ryżyn
+162::Ulikowo
+163::Stare Czarnowo
+8356::Kikowo
+165::Szczecin Zdroje
+166::Szczecin Główny
+167::Stobno Szczecińskie
+168::Chojna
+16553::Wytwórnia Chemiczna
+24746::Zawada LHS
+16555::Ornontowice Budryk
+16556::Żabieniec
+173::Rzepin
+174::Skwierzyna
+175::Międzyrzecz
+176::Gorzów Wielkopolski Zamoście
+177::Międzychód
+179::Sulęcin
+24756::Cygany
+24757::Tarnowska Wola
+182::Czerwieńsk
+183::Zbąszyń
+184::Lutol Suchy
+185::Pniewy Szamotulskie
+186::Chrzypsko Wielkie
+31::Szamotuły
+188::Toporów
+189::Sulechów
+190::Gubin
+191::Kunowice
+8384::Luboszów Przystanek
+32::Wronki
+194::Oskowo
+195::Barnowo
+197::Wolsztyn
+198::Grodzisk Wielkopolski
+33::Drawski Młyn
+200::Trzebiechów
+201::Konotop
+202::Świebodzin
+8395::Brzustów
+8396::Tomaszów Mazowiecki Białobrzegi
+34::Bzowo Goraj
+206::Sława Śląska
+207::Głogów
+208::Wschowa
+209::Opalenica
+210::Ujazd Wielkopolski
+211::Kościan
+212::Luboń koło Poznania
+213::Zielona Góra
+214::Rudna Gwizdanów
+215::Legnica
+217::Wrocław Główny
+218::Leszno
+219::Grodziec Mały
+220::Szlichtyngowa
+221::Góra Śląska
+222::Bojanowo
+223::Krzelów
+224::Ścinawa
+225::Wąsosz
+226::Rawicz
+227::Miejska Górka
+16613::Kraków Tonie
+230::Nowogród Osiedle
+231::Stypułów
+232::Szprotawa
+233::Bieniów
+234::Żary
+235::Żagań
+16620::Ostojów
+16621::Sporniak
+238::Niegosławice
+240::Rokitki
+241::Lubin Górniczy
+242::Jankowa Żagańska
+243::Bolesławiec
+244::Zebrzydowa
+245::Węgliniec
+246::Ruszów
+247::Jasień
+248::Lubsko
+249::Kołbaskowo
+16634::Widełka ORLEN
+251::Szczecin Drzetowo
+252::Police
+253::Jasienica
+254::Trzebież Szczeciński
+255::Cybinka
+256::Tuplice
+258::Krosno Odrzańskie
+259::Obora Wielkopolska
+260::Gniezno Winiary
+261::Olekszyn
+262::Dębnica Wielkopolska
+263::Kłecko Wielkopolskie
+264::Przewóz
+265::Błotnica
+266::Włoszakowice
+267::Sanice
+268::Zasieki
+269::Modła
+270::Chojnów
+271::Złotoryja
+272::Wilków Złotoryjski
+24849::Wrocław Stadion
+274::Nowa Wieś Grodziska
+275::Gozdnica
+277::Jędrzychowice
+278::Lubań Śląski
+279::Bielawa Dolna
+280::Lwówek Śląski
+281::Warta Bolesławiecka
+282::Wleń
+283::Gryfów Śląski
+284::Krysin
+285::Mikułowa
+286::Rybnica
+287::Sulików
+16673::Strzała
+290::Trzciniec Zgorzelecki
+291::Turoszów
+24868::Sprowa
+16677::Krex Czuprynowo
+295::Świeradów Zdrój
+296::Siedlęcin
+16681::Wieruszów Prospan
+16682::Powodowo Prefbet
+16684::Królewo Malborskie Bocznica
+16685::Wielkie Wieżno
+16686::Autostrada Bocznica
+16688::Grudziądz WWT
+16689::Czarne bocznica
+16690::Osława Prefabet
+16691::Bocznica Kral
+308::Wałbrzych Fabryczny
+309::Jedlina Zdrój
+16694::Wielewo Bos
+16695::Pierzchały
+312::Wałbrzych Szczawienko
+313::Kowary
+314::Mysłakowice
+315::Jelenia Góra Cieplice
+316::Piechowice
+317::Szklarska Poręba Górna
+318::Miłków
+556::Dobrodzień
+320::Wojcieszów Górny
+321::Bolków
+322::Kamienna Góra
+323::Sędzisław
+324::Lubawka
+325::Okrzeszyn
+326::Świdnica Kraszowice
+327::Jugowice
+329::Jaworzyna Śląska
+330::Dzierżoniów Śląski
+331::Sobótka Zachodnia
+332::Strzegom
+333::Roztoka
+334::Jawor
+335::Malczyce
+11::Rogoźno Wielkopolskie
+16721::Kolonia Bocznica
+16722::Ruciane Nida Jw156
+16723::Ełk Tartak
+16724::Olsztyn Gietkowska
+16725::Pruszcz Gdański GPRD
+16726::Pruszcz Gdański CARGILL
+16727::Pruszcz Gdański GS
+16728::Kolbudy Rolbet
+16729::Lębork Elewator
+16730::Pęklewo
+16731::Karolewo
+348::Bielawa Zachodnia
+58::Czersk
+351::Ciepłowody
+352::Henryków
+353::Kondratowice
+354::Kamieniec Ząbkowicki
+59::Zblewo
+357::Złoty Stok
+358::Ziębice
+359::Bardo Śląskie
+360::Bystrzyca Kłodzka
+361::Międzylesie
+362::Szczytna
+365::Przeworno
+366::Grodków Śląski
+61::Szlachta
+368::Wiązów
+369::Strzelin
+16754::Wałcz JW2398
+16755::Białogard CPN
+62::Kościerzyna
+374::Kudowa Zdrój
+16759::Budowo JW1013
+376::Lądek Zdrój
+377::Stronie Śląskie
+378::Pustków Żurowski
+63::Skórcz
+380::Łagiewniki Dzierżoniowskie
+381::Niemcza
+382::Boreczek
+383::Nysa
+384::Oława
+64::Smętowo
+387::Czempiń
+388::Śrem
+389::Kietrz
+390::Mieszków
+391::Swarzędz
+392::Poznań Wschód
+393::Gubinek
+394::Kluczbork
+395::Jarocin
+396::Ostrów Wielkopolski
+66::Skarszewy
+398::Września
+399::Strzałkowo
+400::Książ Wielkopolski
+8593::Skalmierz
+402::Milicz
+16451::Dziergowice
+404::Oleśnica
+405::Gostyń
+16790::Kraków Bronowice
+407::Krobia
+8600::Bukownica Wielkopolska
+409::Koźmin Wielkopolski
+410::Karzec
+2799::Sopot Wyścigi
+412::Kąkolewo
+413::Pakosław
+414::Odolanów
+415::Międzybórz Sycowski
+416::Bukowina Sycowska
+417::Fosowskie
+418::Syców
+419::Gołębice
+420::Pawłowice Namysłowskie
+421::Bukowa Śląska
+422::Namysłów
+423::Rychtal
+424::Wrocław Brochów Osobowy
+425::Brzeg
+426::Jelcz Miłoszyce
+427::Opole Groszowice
+428::Opole Główne
+429::Wrocław Psie Pole
+430::Trzebnica
+431::Brochocin Trzebnicki
+432::Nadolice Wielkie
+433::Lipowa Śląska
+434::Pakosławice
+435::Gracze
+436::Niemodlin
+437::Szydłów
+439::Kałków Łąka
+16824::Warszawa Włochy T3Ł
+441::Nowy Świętów
+442::Pokrzywna
+443::Prudnik
+444::Sławniowice Nyskie
+445::Racławice Śląskie
+446::Głubczyce
+447::Kędzierzyn Koźle
+448::Biała Prudnicka
+449::Gogolin
+450::Gliwice
+451::Baborów
+452::Pietrowice Wielkie
+453::Racibórz
+454::Pietrowice Głubczyckie
+16839::Słudźwia
+456::Pilszcz
+457::Reńska Wieś
+458::Kędzierzyn Koźle Zachodnie
+459::Jełowa
+461::Zawadzkie
+462::Strzelce Opolskie
+463::Toszek
+464::Leśnica
+465::Pyskowice
+16850::Białystok Elektrociepłownia
+467::Gliwice Łabędy
+468::Zabrze Biskupice
+470::Tworóg Brynek
+471::Tarnowskie Góry
+472::Zabrze Mikulczyce
+473::Racibórz Markowice
+474::Nędza
+475::Chałupki
+476::Krzanowice Południowe
+477::Brzezie nad Odrą
+478::Syrynia
+479::Lubomia
+480::Sumina
+481::Rydułtowy
+482::Rybnik Gotartowice
+483::Rybnik
+484::Rybnik Towarowy
+485::Leszczyny
+486::Orzesze Jaśkowice
+487::Orzesze
+488::Mikołów
+489::Radlin Obszary
+490::Wodzisław Śląski
+491::Olza
+492::Pszów
+493::Jastrzębie Zdrój
+494::Jastrzębie Zdrój Moszczenica
+495::Zebrzydowice
+496::Żory
+497::Knurów
+498::Gierałtowice
+499::Zabrze Makoszowy
+500::Ruda Bielszowice
+501::Katowice Ligota
+502::Ruda Kochłowice
+503::Pawłowice Śląskie
+504::Chybie
+505::Cieszyn
+506::Czechowice Dziedzice
+507::Bielsko-Biała Główna
+508::Skoczów
+509::Goleszów
+510::Wadowice
+511::Kalwaria Zebrzydowska Lanckorona
+512::Ustroń
+513::Ustroń Polana
+514::Wisła Uzdrowisko
+515::Wisła Głębce
+516::Żywiec
+517::Zwardoń
+518::Sucha Beskidzka
+519::Chabówka
+520::Nowy Sącz
+16905::Podchojny
+16906::Gniewięcin
+523::Spytkowice
+524::Bolęcin
+525::Trzebinia
+526::Pszczyna
+527::Łaziska Średnie
+528::Tychy
+529::Bytom
+530::Chorzów Stary
+531::Chorzów Miasto
+532::Ruda Orzegów
+533::Ruda Śląska Chebzie
+534::Ruda Wschodnia
+536::Chorzów Batory
+537::Hajduki
+538::Mysłowice
+539::Katowice Szopienice Południowe
+540::Katowice
+541::Radzionków
+542::Siemianowice Śląskie
+543::Katowice Janów
+544::Katowice Murcki
+546::Brzeziny Śląskie
+547::Piekary Śląskie
+548::Będzin Grodziec
+16933::Tedex-Oil
+550::Lędziny Lo
+16935::Wapienno Przystanek
+16936::Ruciane Nida ZPPiW
+553::Mysłowice Kosztowy
+554::Nowy Bieruń
+555::Olesno Śląskie
+16940::Paterek
+557::Kalety
+558::Liswarta
+559::Praszka
+560::Częstochowa Osobowa
+561::Włoszczowa
+562::Kielce
+563::Oświęcim
+564::Kraków Główny Osobowy
+565::Chrzanów
+568::Katowice Zawodzie
+569::Katowice Dąbrówka Mała
+571::Sosnowiec Główny
+572::Będzin
+573::Dąbrowa Górnicza
+574::Dąbrowa Górnicza Gołonóg
+575::Dąbrowa Górnicza Ząbkowice
+576::Dąbrowa Górnicza Piekło
+577::Zawiercie
+578::Sosnowiec Kazimierz
+579::Dąbrowa Górnicza Strzemieszyce
+580::Sosnowiec Maczki
+581::Jaworzno-Szczakowa
+582::Mysłowice Brzezinka
+583::Dęblin
+584::Radom
+585::Olkusz
+586::Bukowno
+587::Jaworzno
+588::Tarnów
+589::Stróże
+590::Muszyna
+591::Leluchów
+16976::Alwernia Zakłady Chemiczne
+593::Nowy Targ
+16978::Limanowa Sowliny CPN
+16979::Klęczany KSS
+16980::Nowy Sącz Skład Opału PKP
+597::Jasło
+16982::Libusza CPN
+599::Gorlice Zagórzany
+16984::Krosno Hsgi
+601::Pszczółki
+602::Strzyżów nad Wisłokiem
+603::Rzeszów Główny
+16988::Zagórz ZUT
+605::Komańcza
+606::Krościenko
+607::Łupków
+608::Dębica
+609::Przeworsk
+610::Kolbuszowa
+611::Przemyśl Główny
+612::Medyka
+613::Stalowa Wola Rozwadów
+614::Jarosław
+16999::Kopalnia Bazaltu
+616::Hrebenne
+617::Bełżec
+618::Werchrata
+619::Dęba Rozalin
+620::Ocice
+621::Sobów
+622::Grębów
+623::Sandomierz
+624::Chmielów koło Tarnobrzega
+625::Rytwiany
+626::Ostrowiec Świętokrzyski
+627::Szczucin koło Tarnowa
+628::Kraków Batowice
+629::Miechów
+630::Tunel
+631::Radzice Przystanek
+632::Poręba
+633::Kozłów
+634::Koniecpol
+635::Psary
+636::Busko-Zdrój
+637::Sitkówka Nowiny
+638::Włoszczowice
+639::Grzybów
+640::Kraków Nowa Huta
+641::Kraków Mydlniki
+642::Podłęże
+643::Niepołomice
+644::Kraków Bieżanów
+645::Wieliczka Rynek
+17030::Miedzyrzecz Susz
+17031::Górażdże Cement
+17032::RPR Różański
+649::Koluszki
+650::Tomaszów Mazowiecki
+651::Opoczno
+652::Skarżysko-Kamienna
+653::Chorzew Siemkowice
+654::Piotrków Trybunalski
+655::Skierniewice
+656::Herby Nowe
+657::Herby Stare
+660::Wyczerpy
+661::Zduńska Wola Karsznice
+662::Woźniki Śląskie
+663::Strzebiń
+664::Warszawa Centralna
+665::Grodzisk Mazowiecki
+666::Łowicz Główny
+667::Bedoń
+668::Łódź Kaliska
+669::Drzewica
+670::Szeligi
+671::Idzikowice
+672::Marków
+673::Zapowiedź
+674::Pilawa
+675::Sochaczew
+676::Kalisz
+677::Zgierz
+678::Ociąż
+679::Nowe Skalmierzyce
+680::Kucharki
+681::Kutno
+682::Konin
+683::Płock
+684::Barłogi
+685::Inowrocław Mątwy
+686::Bydgoszcz Wschód
+687::Bydgoszcz Fordon
+688::Nowa Wieś Wielka
+689::Unisław Pomorski
+690::Chełmża
+115::Garczegorze
+692::Olek
+693::Toruń Północny
+695::Toruń Wschodni
+696::Lubicz
+697::Chełmno
+698::Kornatowo
+699::Kowalewo Pomorskie
+700::Mełno
+701::Aleksandrów Kujawski
+702::Jabłonowo Pomorskie
+703::Sierpc
+704::Włocławek
+705::Ciechocinek
+706::Brodnica
+708::Lidzbark
+709::Działdowo
+710::Iława Główna
+711::Nowe Miasto Lubawskie
+712::Zajączkowo Lubawskie
+713::Montowo
+714::Lubawa
+715::Kwidzyn
+716::Kisielice
+717::Prabuty
+718::Biskupiec Pomorski
+719::Ostróda
+720::Myślice
+721::Małdyty
+722::Elbląg
+723::Miłomłyn
+724::Morąg
+725::Bogaczewo
+726::Braniewo
+727::Pieniężno
+728::Tolkmicko
+729::Gdańsk Nowy Port
+730::Puck
+731::Hel
+732::Reda
+733::Krokowa
+734::Prusewo
+735::Gdynia Chylonia
+736::Gdynia Port Oksywie
+737::Morzeszczyn
+738::Gniew
+739::Olsztyn Główny
+740::Orneta
+741::Olsztynek
+744::Sątopy Samulewo
+745::Lidzbark Warmiński
+746::Słobity
+747::Górowo Iławeckie
+748::Czerwonka
+750::Bartoszyce
+751::Głomno
+752::Kętrzyn
+753::Korsze
+755::Skandawa
+756::Dzikowo Iławeckie
+757::Jarzeń
+758::Węgorzewo
+759::Reszel
+760::Giżycko
+761::Ełk
+763::Gołdap
+764::Kruklanki
+767::Olecko
+770::Suwałki
+771::Trakiszki
+772::Kamienna Nowa
+774::Sidra
+775::Sokółka
+776::Prostki
+777::Pisz
+778::Orzysz
+779::Mrągowo
+780::Ruciane Nida
+781::Biskupiec Reszelski
+782::Szczytno
+783::Wąbrzeźno Miasto
+784::Wąbrzeźno
+785::Nidzica
+786::Wielbark
+787::Ostrołęka
+788::Jabłonka
+789::Dźwierzuty
+791::Białystok
+792::Czeremcha
+793::Zubki Białostockie
+794::Kuźnica Białostocka
+795::Małkinia
+796::Łapy
+797::Czerwony Bór
+798::Śniadowo
+799::Zambrów
+800::Łomża
+801::Mława
+802::Mińsk Mazowiecki
+803::Tłuszcz
+804::Worowo
+805::Nasielsk
+806::Lublin
+807::Dorohusk
+808::Płock Trzepowo
+809::Siedlce
+810::Łuków
+811::Terespol
+813::Czachówek Południowy
+815::Podkowa Leśna Główna
+816::Milanówek Grudów
+817::Gardeja
+819::Hajnówka
+820::Bielsk Podlaski
+821::Białowieża Towarowa
+822::Ławszowa
+823::Świętoszów
+824::Twarda Góra
+825::Nowe
+826::Karszno
+827::Nowe Warpno
+828::Siemianówka
+829::Sępopol
+830::Wiatrowiec Warmiński
+831::Legionowo
+832::Wieliszew
+833::Zegrze
+834::Jaryszewo Obornickie
+835::Ostrzeszów
+836::Namysłaki
+838::Bąkowiec
+839::Kozienice
+840::Wysokie Koło
+841::Spała
+842::Środa Śląska
+844::Warszawa Rembertów
+845::Zielonka
+846::Żurawica
+847::Biłgoraj
+848::Zwierzyniec Towarowy
+849::Szczawno Śląski Zdrój
+850::Mieroszów
+851::Warszawa Włochy
+853::Pruszków
+854::Otwock
+855::Żyrardów
+856::Łazy
+857::Kraków Płaszów
+858::Bogumiłowice
+859::Lipie Góry
+860::Sędziszów
+861::Sieradz
+862::Włoszczowa Północ
+863::Mrozy
+864::Lublin Zemborzyce
+865::Biała Podlaska
+866::Krupski Młyn
+867::Borowiany
+868::Świdnik
+869::Łochów
+870::Wyszków
+871::Wróblin Głogowski
+872::Czyżew
+873::Jaszczów
+874::Szczaniec
+875::Bytom Odrzański
+876::Szepietowo
+877::Mordy
+878::Rejowiec
+879::Krasnystaw
+880::Zawada
+881::Zamość
+882::Werbkowice
+883::Hrubieszów Miasto
+884::Huta Krzeszowska
+885::Stalowa Wola
+886::Włodawa
+887::Ciechanów
+888::Florek
+889::Tuchów
+890::Miłkowice
+16942::Młyn Pałucki
+892::Nowe Czarnowo
+893::Grybów
+894::Gromnik
+895::Tama Brodzka
+896::Marcinkowice
+898::Biskupice Oławskie
+899::Rybno Kaszubskie
+900::Wąchock
+901::Rudnik nad Sanem
+902::Popielów
+904::Lubomierz
+905::Sieniawa Lubuska
+30::Rokietnica
+907::Słonawy
+908::Obrzycko
+909::Lewki
+910::Krzeszów
+911::Trzebień
+912::Miasteczko Śląskie Żyglin
+913::Mierzęcice Zawierciańskie
+914::Lewiczynek
+915::Małujowice
+916::Sągnity
+917::Jerzmanice Zdrój
+918::Prochowice Śląskie
+919::Kurzagóra
+920::Głazów
+16943::Bagicz BSZ
+922::Wieliczka Park
+923::Sieniawa Żarska
+12033::Wiącków
+925::Turza Wielka
+926::Radoszyn
+927::Piaski Wielkopolskie
+928::Banie
+929::Stare Bielice
+930::Lipinka Głogowska
+931::Swarzewo
+932::Paczyna
+9125::Prabuty Góry
+934::Dołuje
+9713::Nowa Wieś Cierpkie
+936::Wymiarki
+937::Chełmsko Śląskie
+938::Dobra Szczecińska
+939::Nowy Targ Fabryczny
+940::Opalenie Tczewskie
+9714::Zielonka Pasłęcka
+943::Botkuny
+944::Samborowo
+946::Zbąszynek
+947::Chyrzyno
+948::Gorzów Wielkopolski Zieleniec
+949::Wierzbno
+951::Władysławowo
+952::Wojcieszów Dolny
+953::Lipowa Tucholska
+954::Kujan
+955::Gniewino
+4207::Swobodna
+957::Gdańsk Wrzeszcz
+958::Połaniec
+959::Kazimierz Biskupi
+960::Baczyna
+961::Barnówko
+962::Grotniki Drawskie
+963::Dziembówko
+12::Chodzież
+965::Gutkowo
+966::Trzebinia Siersza
+967::Sosnowiec Zagórze
+968::Dąbrowa Górnicza Południowa
+969::Dorota
+970::Sławków
+971::Katowice Piotrowice
+973::Sosnowiec Jęzor
+974::Katowice Ochojec
+975::Katowice Muchowiec
+976::Rudziniec Gliwicki
+977::Nowogrodziec
+978::Nowy Dwór Mazowiecki
+979::Bogatynia
+980::Głogów Małopolski
+981::Gdańsk Port Północny
+982::Bełchatów Miasto
+983::Biały Ług
+984::Warka
+985::Gutowiec
+986::Cigacice
+987::Mirosławiec
+988::Nietoperek
+989::Kotla
+990::Krzepielów
+991::Iwiny
+992::Raciborowice Górne
+993::Mirosław Ujski
+994::Łukowice Brzeskie
+995::Lipka Krajeńska
+8358::Dobrojewo
+998::Studniska
+999::Las
+1000::Tantow
+1002::Bohumín
+17028::Ołdrzychowice SZKB
+921::Przechlewo
+1008::Kopaczów
+8360::Ostroróg
+1011::Královec
+1012::Frankfurt (Oder)
+169::Gryfino
+1016::Krosnowice Kłodzkie
+1019::Medzilaborce
+16554::Jastrzębie Zdrój Zofiówka (PBSZ)
+171::Godków
+9554::Buk Szczeciński
+1031::Kornievo
+172::Siekierki
+9228::Długokąty
+9229::Puszcza Mariańska
+9230::Grabce
+9231::Grzegorzewice
+9232::Jeżewice
+9233::Tarczyn
+9234::Gąski
+9235::Prażmów
+9236::Czachówek Środkowy
+24750::Kraków SAMBUD-2
+1050::Harrachov
+15719::Ptaszkowo (ład)
+1057::Chróścina Nyska
+1058::Nowy Młyn
+1064::Szczutowo
+1065::Pikulice
+1066::Hurko
+1067::Munina
+1068::Warszawa Zachodnia
+1069::Warszawa Wschodnia
+1070::Krusze
+1071::Warszawa Główna Osobowa
+1072::Warszawa Wileńska
+1073::Warszawa Gdańska
+1074::Warszawa Praga
+1075::Warszawa Śródmieście WKD
+1076::Lublin Północny
+1077::Stalowa Wola Południe
+1078::Świerże Górne
+1079::Janików
+1080::Wola Baranowska LHS
+1081::Padew
+1082::Puławy Azoty
+1083::Jarosławiec
+1084::Łódź Olechów
+1085::Łódź Widzew
+1086::Łódź Fabryczna
+1087::Łódź Chojny
+1088::Bednary
+1089::Łowicz Przedmieście
+1090::Mikołajów
+1091::Regny
+1092::Olendry
+1093::Furmany
+1095::Malhowice
+1096::Małkowice
+1097::Krówniki
+1098::Wrocław Mikołajów
+1099::Toszek Północ
+1100::Bytom Bobrek
+1101::Bytom Karb
+1102::Gliwice Sośnica
+1103::Dąbrowa Górnicza Towarowa
+1104::Kędzierzyn Koźle Port
+1105::Kłodnica
+1106::Sosnowiec Pogoń
+1107::Racibórz Studzienna
+1753::Letnica
+1109::Warszawa Główna Towarowa
+1110::Józefinów
+1111::Grodzisk Mazowiecki Radońska
+1115::Kraków Bonarka
+1116::Gaj PODG
+1117::Kraków Prokocim Towarowy
+1118::Kraków Olsza
+1119::Lublin Tatary
+1120::Adampol Podg
+1122::Chałupki Medyckie
+1123::Most Wisła
+1124::Częstochowa Stradom
+1125::Poraj
+1126::Kucelinka
+1127::Częstochowa Towarowa
+1128::Inowrocław Rąbinek
+1129::Rumia
+1130::Opole Zachodnie
+1131::Dziarnowo
+1132::Opole Wschodnie
+1133::Gdańsk Zaspa Towarowa
+1134::Kościelec Kujawski
+1135::Elbląg Zdrój Przystanek
+1136::Tropy
+1137::Zajączkowo Tczewskie
+1138::Wrocław Świebodzki
+1139::Wrocław Muchobór
+1140::Wałbrzych Miasto
+1141::Dobrzykowice Wrocławskie
+1142::Wrocław Sołtysowice
+1143::Wrocław Osobowice
+1144::Wielkie Piekary
+1145::Kłodzko Nowe
+1146::Nowa Ruda Słupiec
+1147::Świeradów Nadleśnictwo
+1148::Wilka
+1150::Liberec
+1152::Wrocław Kuźniki
+1153::Święta Katarzyna
+1154::Poznań Starołęka
+1155::Poznań POD
+1156::Stary Raduszec
+1157::Odrzycko
+1158::Cigacice Port
+1159::Poznań Krzesiny
+1160::Kobylnica
+1161::Zieliniec
+1162::Kiekrz
+1163::Poznań Piątkowo
+1164::Suchy Las PODG
+1165::Świnoujście Port
+1166::Piła Północ
+1167::Wałcz Raduń
+1168::Szczecin Turzyn
+1169::Oleszna
+1170::Szczecin Słoneczne
+1171::Szczecin Port Centralny
+1172::Szczecin Podjuchy
+1174::Chotomów
+1175::Legionowo Piaski
+1176::Komorów
+1177::Jasienica Mazowiecka TOW
+1178::Treblinka
+1179::Prostyń Bug
+1180::Złotniki
+1181::Łąck
+1182::Płock Radziwie
+1183::Ludwikowice Kłodzkie
+1184::Rabka Zdrój
+1185::Białystok Starosielce
+1186::Wólka Okopska
+1187::Osusz
+1188::Durzyn
+1189::Radom Potkanów
+1190::Gałkówek
+1191::Słotwiny
+1192::Żakowice Południowe
+1193::Pękowice
+1194::Bęzelin
+199::Rakoniewice
+1196::Grodzisko Dolne
+1197::Żulin
+1198::Jasło Towarowe
+1199::Świdnica Miasto
+1200::Szobiszowice
+1201::Gliwice Port
+1202::Tychy Miasto
+1203::Dąbrowa Oleśnicka
+1204::Poznań Franowo
+1205::Police Chemia
+1206::Warszawa Śródmieście
+1207::Turczyn
+1208::Papiernia
+1209::Las Suwalski
+1210::Łęgówek
+1211::Lesk
+1212::Doły
+1213::Ujrzanów
+1214::Stojadła
+1215::Mińsk Mazowiecki R101
+1216::Trzaskoniec
+1217::Poważe
+1218::Jaźwiny
+1219::Żołnierka
+1220::Czachówek Zachodni
+1221::Czachówek Wschodni
+1222::Czachówek Południowy CZP11
+1223::Miedniewice
+1224::Skierniewice SK1
+1225::Skierniewice Park
+1226::Skierniewka
+1227::Łowicz Główny ŁG1
+1228::Arkadia
+1229::Placencja
+1230::Sieraków Wielkopolski
+205::Nowa Sól
+1232::Ludynia
+1233::Łódź Kaliska Towarowa
+1234::Retkinia
+1235::Borszewice
+1236::Zduńska Wola
+1237::Dionizów
+1238::Gajewniki
+1239::Borysławice
+1240::Zamków
+1241::Ponętów
+1242::Rejowiec Zachodni
+1246::Charzewice
+1247::Stalowa Wola Rozwadów Towarowy
+1248::Skarżysko Kamienna A
+1250::Kielce Piaski
+1251::Kielce Herbskie
+1252::Górki Szczukowskie
+1253::Radkowice
+1254::Brzeziny
+1255::Starzyny
+1256::Czarnca
+1257::Knapówka
+1258::Żelisławice
+1259::Wolanów
+1260::Rożki
+1261::Garbatka Letnisko
+1262::Sieciechów
+1263::Stawy
+1264::Wieprz
+1265::Wisła
+1266::Kraków Główny Towarowy
+1267::Kraków Przedmieście
+1268::Raciborowice
+1269::Kraków Dłubnia
+1270::Rudzice
+1271::Podgrabie
+1272::Tarnów Filia
+1273::Tarnów Wschód
+1274::Rzeszów Staroniwa
+1275::Rzeszów Zachodni
+1276::Przeworsk Gorliczyna
+1277::Przemyśl Bakończyce
+1278::Jelinka
+1280::Zagórz
+1281::Zagórz R101
+1282::Sobniów
+1283::Stróże SR4
+1285::Basznia
+1287::Horyniec Zdrój
+1288::Panewnik
+1289::Brynów
+1290::Sosnowiec Południowy
+1291::Okradzionów
+1292::Kozioł
+1293::Sosnowiec Kazimierz SKz2
+1294::Sosnowiec Kazimierz SKz1
+1295::Długoszyn
+1296::Borowa Górka
+1297::Pieczyska
+1298::Zabrze Makoszowy Kopalnia
+1299::Mizerów
+1300::Nowa Wieś
+1301::Stare Koźle
+1302::Czarków
+1303::Droniowiczki
+1304::Jawornica
+1305::Kalina
+1306::Studzionka
+1307::Dębina
+1308::Jastrzębie Zdrój Moszczenica R22
+1309::Jasztrzębie Zdrój Moszczenica R21
+1310::Nędza Wieś
+1311::Turze
+1312::Zabrzeg
+1313::Zabrzeg Czarnolesie
+1314::Zawiercie R125
+9507::Wartule
+1316::Gdańsk Południowy
+1317::Motława Most
+1318::Gdańsk Wiślany
+1319::Malinowo
+1320::Górki
+1321::Tczew Suchostrzygi
+1322::Tczew Południe
+1323::Tczew Wisła
+1324::Wielbark Las
+1325::Suchy Las
+1326::Nieszawka
+1327::Toruń Towarowy TRB
+1328::Grębocin
+1329::Katarzynka
+1332::Mimowola
+1333::Jaksice
+1335::Szczecin Wstowo
+1336::Szczecin Port Centralny SPB
+1337::Szczecin Port Centralny SPA
+1338::Dziewoklicz
+1339::Regalica
+1340::Szczecin Dąbie SDA1
+1341::Szczecin Dąbie SDC
+1343::Szczecin Główny SG11
+1345::Daleszewo Gryfińskie
+1346::Krzywin Gryfiński
+1347::Witnica Chojeńska
+1348::Mieszkowice
+1349::Namyślin
+1350::Kostrzyn Towarowy
+1351::Bielsko-Biała Lipnik
+1352::Wilkowice Bystra
+1355::Potęgowo
+1356::Ochodza
+1357::Bronów PODG
+1358::Bieniowiec
+1359::OwC
+1360::Oświęcim SkpH
+9784::Jonkowo
+1362::Dwory
+1364::Kaczyce
+9557::Rzędziny Cegielnia
+9558::Rzędziny
+1368::Bierawa
+1369::Zakłady Azotowe Kędzierzyn
+1370::Radoszowy
+9563::Ludwigshof
+9564::Hintersee Nord
+1373::Nakło Śląskie
+1374::Katowice Szopienice Północne
+1375::Szabelnia
+1376::Sosnowiec Dańdówka
+1377::Stawiska Sk1 r2
+1378::Stawiska Sk1 r3
+1379::Sławków Południowy
+1380::Maciejów Północny
+9573::Nowe Warpno Żalno
+1382::Mysłowice Kosztowy MKsA
+1383::KOc1
+1384::Staszic
+1385::Czyżkówko
+1386::Wrocław Gądów
+1387::Wrocław Zachodni
+1389::Wrocław Popowice WP3
+1390::Tychowo
+1391::Podborsko
+1392::Silnowo
+1393::Sopot Kamienny Potok
+1394::Gdynia Orłowo
+1395::Wrocław Grabiszyn
+1397::Stadion
+1398::Wrocław Mikołajów WP2
+1399::Wrocław Nowy Dwór
+1400::Jeżyny
+1401::Wrocław Osobowice WO2
+1402::Siechnice
+1404::Lamowice
+1405::Łukanów
+1406::Smardy
+1407::Kuniów
+1408::Gotartów
+1600::Polnica
+1410::Świdnica Przedmieście
+1411::Strzegom Miasto
+1413::Boguszów Gorce
+1414::Boguszów Gorce Towarowy
+1415::Marciszów Górny
+1416::Krużyn
+1417::Jezierzany
+1418::Bolesławiec Wschód
+1419::Zgorzelec Miasto
+1420::Zgorzelec
+1421::Poznań Górczyn
+1422::PSK
+1423::Poznań Antoninek
+1424::Nowa Wieś Poznańska podg.
+1425::Stary Młyn
+1426::Podstolice
+1427::Sokołowo Wrzesińskie
+1428::Stary Staw
+1429::Franklinów
+1430::Hanulin
+1431::Kępno Kp1
+1432::Leszno Grzybowo
+1433::Leszno LOG
+1434::Marysiewice
+1435::Drzeńsko
+1436::Jerzmanice Lubuskie
+1437::WS
+1438::Stawiska
+1439::Motycz
+1440::Łopatki
+1441::Kleszczów
+1442::Ciepłownia
+1443::Suszec Rudziczka (post.)
+1444::KWK Krupiński
+1445::Ornontowice
+1446::Skorzewo
+1449::Tymbark
+1450::Limanowa
+1451::Zamostne
+1452::Baszewice
+1453::Gąbin
+1454::Krojanty
+1455::Kasina Wielka
+1456::Mszana Dolna
+1457::Chudów
+1459::Tworków
+1460::Strumień
+1461::Bielsko-Biała Wapienica
+1462::Jaworze Jasienica
+16628::Kraków Krzesławice
+1467::Gralewo
+1470::Poznań Dębiec
+12324::Ścinawka Średnia Dworzec Mały
+1475::Gorzów Wielkopolski Karnin
+1476::Barwałd Średni
+1477::Swarożyn
+1478::Mikołajki Pomorskie
+1479::Grabina Śląska
+1480::Bolesławiec C. 1
+1481::Sławęcice Górowskie
+1482::Raciborowice Dolne
+1486::Wieleń Północny
+1487::Nowe Drezdenko
+1488::Santok
+1490::Cewice
+1491::Wierzchucin Stary
+1492::Kętrzyno
+1494::Gdynia Wielki Kack
+1495::Rudnica Mały Dworzec
+1496::Rudnica (przystanek)
+1497::Wędrzyn
+1498::Poznań Wola
+1499::Drawiny
+1500::Podlesiec
+1501::Piwniczna
+1502::Warszawa Jagiellonka
+1503::Warszawa Targówek
+1504::Warszawa Michałów
+1505::Warszawa Wschodnia Towarowa
+1506::Warszawa Wileńska Marki
+1507::Warszawa Gocławek
+1508::Warszawa Antoninów
+1509::Warszawa Gołąbki
+1510::Warszawa Bema
+1511::Warszawa Wola
+1512::Mokrzyca Wielka
+1513::Parłówko
+1515::Ożarów Mazowiecki
+1516::Błonie
+1517::Koło
+1519::Glińcz
+1520::Radzyń Podlaski
+1521::Milanów
+1522::Parczew
+1523::Lubartów
+1524::Bystrzyca koło Lublina
+1525::Oborzyska Stare
+1526::Drużyna Poznańska
+9719::Dobrocin
+1528::Pabianice
+1529::Kalisz Winiary
+1530::Rogóźno Pomorskie
+1531::Piastoszyn
+1532::Pogorzelice
+1533::Sycewice
+1534::Rurka
+1535::Trzemeszno Lubuskie
+1536::Ujście Noteckie
+1537::Podkowa Leśna Zachodnia
+1538::Milanówek
+1541::Stępuchowo
+1542::Manieczki
+1543::Drozdowice Wielkie
+1544::Gdańsk Brzeźno
+1545::Brzeg Dolny
+1546::Krucz
+1548::Stara Kopernia
+1549::Oborniki Most
+1551::Płock Radziwie Port
+1552::Janikowo
+1553::Pobiedziska
+1554::Węgierska Górka
+1555::Imielin
+1556::Budziwojów
+1557::Drawno
+1558::Jedlanka
+1559::Radomsko
+1560::Gorzkowice
+1561::Domaniewice
+1562::Stryków
+1563::Sędzice
+1564::Radliczyce
+1565::Witonia
+1566::Waplewo
+1567::Warszawa Podskarbińska
+1569::Kotuń
+1570::Małaszewicze
+1571::Niedźwiedź
+1572::Zastów
+1575::Brzoza Bydgoska
+1576::Trzciniec
+1577::Zajezierze koło Dęblina
+1578::Sobótka
+1583::Wieliczki Oleckie
+1584::Kolonia
+1585::Mikołajki
+1586::Baranowo
+1587::Kurowo Braniewskie
+1588::Kliniska
+1589::Szczecin Załom
+1590::Brzeźno Człuchowskie
+153::Borne Sulinowo
+1592::Biskupnica
+1593::Bińcze
+1594::Domisław
+9787::Wołowno
+1596::Żółtnica
+1597::Czarnobór
+1598::Kiełpin
+9792::Kozia Góra
+9794::Żabi Róg
+1603::Sąpolno Człuchowskie
+1605::Smolec
+9798::Morąg Kolonia
+1607::Wałowice
+1609::Gębice Gubińskie
+3393::Gębarzewo
+1616::Mierków
+1617::Jasienica Gubińska
+16821::Warszawa Wschodnia Towarowa Ut
+1629::Tuplice Dębinka
+273::Świerzawa
+1643::Lipa Łużycka
+8467::Wiry
+3601::Gołaszewo
+1658::Przylep
+1661::Stary Kisielin
+1663::Niedoradz
+1667::Głogów Huta
+1670::Brzeg Głogowski
+1671::Czerna
+1673::Klenica
+1675::Bojadła
+1679::Krzyż Rudno
+1682::Lubięcin
+1684::Lipiny Odrzańskie
+1687::Stany
+1688::Bobrowniki Odrzańskie
+1690::Ciepielów
+3013::Olsztyn Zachodni
+1698::Jelenin Żagański
+1702::Starkowo
+1703::Boszkowo
+1705::Krzycko Wielkie
+1707::Wilkowice
+1709::Stare Bojanowo
+1711::Górka Duchowna
+1712::Lipno Nowe
+1714::Jerka
+1715::Lubiń Kościański
+1717::Bieżyń
+1718::Bielewo
+3876::Warnowo
+3019::Lęgajny
+9924::Ochódno
+9925::Nowe Kiejkuty
+9926::Olszewki Mazurskie
+9927::Grodziska
+9928::Rudziska
+16674::Białe Błota Prefabet
+1743::Biedrzychowice Dolne
+16675::Konin Elektrownia
+1750::Słone
+1752::Buchałów
+292::Leśna
+3023::Łankiejmy
+1756::Koźla Kożuchowska
+1757::Bogaczów
+1758::Nowogród Bobrzański
+293::Mirsk
+1764::Lubanice
+3025::Drogosze
+297::Jelenia Góra
+1796::Żukowice
+1800::Ciosaniec
+1801::Szreniawa Sulechowska
+4817::Biesowice
+1805::Stare Strącze
+1811::Chociemyśl
+1812::Kamiona
+9062::Chorągiewka
+1814::Bogomice
+1816::Łysiny
+1819::Stare Drzewce
+1820::Głogówko
+1825::Serby Zachód
+1826::Serby Wschód
+1827::Wilków Głogowski
+1829::Wygnańczyce
+1830::Lasocice
+305::Wałbrzych Główny
+1832::Dryżyna
+1834::Naratów
+1835::Strumienna
+306::Boguszów Gorce Wschód
+16751::Kołobrzeg ORLEN
+307::Marciszów
+1759::Dąbrowiec
+35::Czarnków
+1856::Borszyn Mały
+1858::Borszyn Wielki
+310::Nowa Ruda
+1863::Rydzyna
+1864::Kaczkowo
+311::Świebodzice
+1870::Garzyn
+1871::Krzemieniewo
+9552::Redlica
+1873::Kosowo Wielkopolskie
+1874::Gola
+17002::Kopalnia Thorez
+1877::Pawłowice
+1878::Poniec
+1881::Dzięczyn
+1882::Krobia Miasto
+9576::Warzymice
+1887::Niepart
+1902::Kunowo
+336::Krapkowice
+1906::Strumiany
+1907::Zalesie Wielkopolskie
+319::Karpacz
+1916::Lipie Wielkopolskie
+1918::Szelejewo
+1921::Bodzewo
+1923::Grabonóg
+1929::Brzostów Wielkopolski
+9560::Lenzen
+1933::Góra
+1936::Łobzowiec
+1937::Wojciechowo
+1938::Golina
+1939::Obra Stara
+1941::Borzęciczki
+10134::Altmädewitz
+10135::Altreetz
+10136::Neurüdnitz
+1948::Pogorzela
+1950::Bułaków
+1951::Wymysłowo
+1952::Włostowo
+1953::Pępowo
+1954::Czeluścin
+1955::Smolice
+65::Starogard Gdański
+1959::Jutrosin
+1960::Dłoń
+1962::Oczkowice
+1964::Ziółkowo
+1966::Wolenice
+1967::Bożacin
+1968::Kuklinów
+1969::Dzierżanów Wielkopolski
+1982::Świebodzice Ciernie
+1983::Szybowice Wałbrzyskie
+1984::Boguszów Gorce Zachód
+1985::Witków Śląski
+1986::Ciechanowice
+1987::Janowice Wielkie
+1988::Trzcińsko
+1989::Wojanów
+1990::Zębice Wrocławskie
+1991::Lizawice
+1992::Ślizów
+1993::Dziadowa Kłoda
+1994::Radzowice
+1995::Smogorzów
+1996::Głuszyna
+2001::Oleśnica Rataje
+2002::Dobroszyce
+164::Sobieradz
+2008::Lipki
+2009::Chrząstawa Wielka
+2010::Borowa Oleśnicka
+2011::Długołęka
+2012::Wrocław Zakrzów
+2013::Wrocław Pawłowice
+2014::Pasikurowice
+2015::Siedlec Trzebnicki
+2016::Wilków Namysłowski
+2017::Bierutów
+2018::Solniki Wielkie
+2019::Twardogóra Sycowska
+2020::Pawłów Wielkopolski
+2021::Sośnie Ostrowskie
+2022::Granowiec
+2023::Garki
+2024::Tarchały Wielkie
+2025::Topola Osiedle
+2026::Bukowice Trzebnickie
+2027::Krośnice
+2028::Wierzchowice
+10221::Wolbórka
+339::Wołów
+340::Kłodzko Główne
+341::Ścinawka Średnia
+2052::Rakoniewice Milickie
+2053::Cieszków
+2054::Zduny
+2055::Garbce
+2056::Korzeńsko
+2057::Wrocław Popowice
+2058::Wrocław Pracze
+2059::Brzezinka Średzka
+2061::Księginice
+2062::Łososiowice
+2063::Wrocław Żerniki
+2064::Wrocław Leśnica
+2065::Mrozów
+2066::Miękinia
+2067::Przedmoście Święte
+10260::Sławków Południowy LHS
+10262::Bukowno LHS
+2071::Małowice Wołowskie
+2072::Ścinawa Odra
+10268::Zarzecze LHS
+10270::Kępie
+2079::Wodniki
+2080::Cieszkowice
+2081::Wieża
+2082::Piskorzyna
+2797::Gdańsk Oliwa
+2084::Kobyla Głowa
+2085::Tomice
+2086::Szklary Ząbkowickie
+10279::Sędziszów LHS
+2088::Stary Henryków
+2089::Targowica
+2090::Dobrzenice Południowe
+2091::Dobrzenice
+2092::Dobrzenice Północne
+2093::Kowalskie Żelowice
+2094::Księginice Wielkie
+2095::Mikoszów
+2096::Karszów
+2097::Biały Kościół
+2098::Przystronie Śląskie
+2099::Wilków Wielki
+2100::Bielawa Wschodnia
+16735::Gdynia Postojowa
+2087::Zwrócona
+2113::Starczów
+2114::Rożnów
+2115::Gałązczyce
+2116::Wojtowice
+2117::Muchowiec
+2118::Jegłowa
+2119::Krzywina
+2120::Warkocz
+16983::Jedlicze M.Zpre
+2129::Smardzów Wrocławski
+2130::Żórawina
+2131::Węgry
+2132::Ogorzelec
+2133::Kowary Górne
+2134::Kowary Średnie
+2135::Kowary Zdrój
+2136::Kowary Ścięgny
+2137::Kostrzyca
+2138::Łomnica
+2139::Łomnica Dolna
+2140::Łomnica Średnia
+2141::Przerzeczyn Zdrój
+2142::Szczepankowice Wrocławskie
+2143::Budziszów
+2144::Pustków Wilczkowski
+2145::Wilczkowice
+2146::Jordanów Śląski
+2147::Trzebnik
+2148::Dąbrowa Bolesławiecka
+2149::Golnice
+2150::Siekierzyce
+2151::Czernica
+2152::Borów
+2153::Mojesz
+2154::Pławna Dolna
+2155::Pławna Średnia
+2156::Pławna Górna
+2157::Nielubia
+2158::Kłobuczyn
+2159::Gaworzyce
+2160::Przecław Szprotawski
+2163::Pątnów Legnicki
+2164::Legnica Północna
+2165::Kulin Kłodzki
+2166::Lewin Kłodzki
+2167::Kłodzko Książek
+2168::Kłodzko Zagórze
+2169::Stary Wielisław
+2170::Polanica Zdrój
+10364::Gierłoż
+16746::Mokrzyca Wielka (p.odg.)
+2180::Błażkowa
+2181::Byczeń
+2182::Sosnowa Śląska
+2183::Płonica Śląska
+2184::Skorzenice
+2185::Płakowice
+2186::Pielgrzymka
+2187::Czaple
+2188::Jerzmanki
+2189::Zaręba
+2190::Batowice Lubańskie
+2191::Ubocze
+2192::Olszyna Lubańska
+2193::Dębowa Góra
+2194::Stara Kamienica
+2195::Kwieciszowice
+2196::Rębiszów
+2197::Młyńsko
+2198::Rakowice Wielkie
+2199::Radłówka
+2200::Niwnice
+2201::Gościszów
+2202::Gościszów Dolny
+2203::Ołdrzychów
+2204::Zebrzydowa Wieś
+2205::Jeżów Sudecki
+2206::Pilchowice Zapora
+2207::Pilchowice Nielestno
+2208::Pilchowice Nielestno Towarowe
+2209::Marczów
+2210::Dębowy Gaj
+16753::Mosty JW3646
+3347::Napiwoda
+2219::Proszków Śląski
+2220::Bukówek
+2221::Ujazd Górny
+2222::Lasowice Wrocławskie
+2223::Ruja
+2224::Tyniec Legnicki
+2225::Brennik
+2226::Biernatki
+16937::Elbląg Zdrój
+2228::Wądroże Małe
+2229::Mierczyce
+2230::Snowidza Dolna
+2231::Snowidza Górna
+2232::Grzegorzów Jaworski
+2233::Gierałtów Wykroty
+2234::Gierałtów
+2235::Księginki
+16818::Pruszków (BSZ)
+373::Duszniki Zdrój
+16758::Borujsko JW4499
+2248::Koźlice
+2249::Rynarcice
+2250::Rudna Miasto
+2251::Rzeszotary
+16939::Orzechowo Most
+2253::Gorzelin
+2254::Chróstnik
+2255::Iwno
+2256::Goliszów
+2257::Unisław Śląski
+2258::Biały Kamień
+3107::Gądków Wielki
+2260::Kaczorów
+2261::Stara Kraśnica
+2262::Sędziszowa
+2263::Nowy Kościół
+2264::Pawłowice Małe
+2265::Wilczyce
+2266::Kozów
+2267::Radomil
+16762::Smoleń PZZ
+2270::Żelazno
+2271::Ołdrzychowice Kłodzkie
+2272::Trzebieszowice
+2273::Radochów
+2274::Lądek Stójków
+379::Kobierzyce
+15::Skoki
+2285::Czaple Kamieniołom
+2286::Rożnowiec
+2287::Grodziec Zamczysko
+2288::Warta Złotnicka
+2289::Kruszynek
+2290::Godnów
+2291::Bolesławiec Piastów
+2292::Mysłakowice Orzeł
+349::Piława Górna
+2295::Wierzbowa Śląska
+2296::Studzianka
+2297::Leszno Górne
+2298::Małomice
+2299::Okrąglica
+2300::Iłowa Żagańska
+2301::Konin Żagański
+2302::Stary Węgliniec
+2303::Jagodzin
+2304::Bierkowice
+2305::Gorzuchów Kłodzki
+2306::Nowa Ruda Przedmieście
+2307::Zdrojowisko
+2308::Świerki Dolne
+2309::Bartnica
+2310::Głuszyca Górna
+385::Puszczykówko
+2312::Jedlina Górna
+2315::Jedlina Dolna
+2316::Bystrzyca Dolna
+2317::Bystrzyca Górna
+2318::Lubachów
+2319::Zagórze Śląskie
+2320::Kłaczyna
+2321::Kłodzko Miasto
+2322::Suszka
+2323::Bardo Przyłęk
+2324::Ławica
+2325::Zakrzów Kotowice
+2326::Czernica Wrocławska
+2327::Biała Złotoryjska
+2328::Zamienice
+2329::Nowa Wieś Złotoryjska
+2330::Zagrodno
+2331::Brochocin
+2332::Tomisław
+2333::Osiecznica Kliczków
+2334::Przejęsław
+2335::Jawiszów
+2336::Uniemyśl
+2337::Czadrówek
+2338::Czadrów
+2341::Pieńsk
+2342::Lasów
+15409::Przysieki 1
+2344::Szczepanów
+2345::Marcinowice Świdnickie
+2346::Pszenno
+2347::Wierzbice Wrocławskie
+2348::Olbrachtowice
+2349::Rogów Sobócki
+2350::Wrocław Tarnogaj
+2351::Wrocław Wojszyce
+2352::Wrocław Partynice
+2353::Wrocław Klecina
+2354::Bielany Wrocławskie
+2355::Domasław
+2356::Krzydłowice
+2357::Grębocice
+2358::Krzepów
+2359::Chełmek Wołowski
+2360::Szczedrzykowice
+2361::Jaśkowice Legnickie
+2362::Krosnowice Górne
+2363::Gorzanów
+2364::Bystrzyca Kłodzka Przedmieście
+2365::Długopole Zdrój
+2366::Domaszków
+2367::Roztoki Bystrzyckie
+2368::Osetnica
+2369::Okmiany
+2370::Tomaszów Bolesławiecki
+2371::Karczmarka
+2372::Borówki
+2373::Grodzanowiec
+2374::Gromadka
+2375::Wolimierz
+2376::Mroczkowice
+2377::Krobica
+79::Gdynia Główna
+3127::Ciemnice
+2380::Proszówka
+2381::Brzeziniec
+397::Kępno
+16819::Łódź Dąbrowa
+2391::Wrocław Nadodrze
+2398::Szklarska Poręba Huta
+2399::Szklarska Poręba Jakuszyce
+2400::Nowy Świat
+2401::Górzyniec
+2402::Szklarska Poręba Dolna
+2403::Szklarska Poręba Średnia
+2404::Radomierzyce
+2405::Ręczyn
+401::Krotoszyn
+2408::Szklenice
+2409::Wrocław Wojnów
+2410::Wrocław Swojczyce
+2411::Wrocław Kowale
+2413::Jelenia Góra Zachodnia
+2414::Jelenia Góra Celwiskoza
+2415::Jelenia Góra Orle
+2416::Jelenia Góra Sobieszów
+2417::Piechowice Dolne
+2418::Stare Rochowice
+403::Grabowno Wielkie
+2420::Domanów Jaworski
+4815::Przytocko
+2424::Hrádek nad Nisou
+2427::Ruszów Szklarnia
+2428::Parszowice
+2429::Wielowieś Legnicka
+2430::Turoszów Kopalnia
+2431::Bratków Zgorzelecki
+2433::Hirschfelde
+406::Domachowo
+2438::Hagenwerder
+2439::Pisarzowice
+16448::Tarnowskie Góry Fazos
+2441::Leszczyniec
+11538::Kopytkowo
+8599::Godziętowy
+9127::Szczecin Pomorzany
+2452::Kąty Wrocławskie
+2453::Mietków
+2454::Imbramowice
+2455::Żarów
+2464::Jelcz Laskowice
+2465::Kopalina
+2466::Minkowice Oławskie
+2467::Borucice
+2468::Rogalice
+2469::Mąkoszyce
+2470::Tarnowiec Brzeski
+2471::Karłowice
+2472::Chróścice
+2473::Dobrzeń Wielki
+2474::Borki Opolskie
+2475::Czarnowąsy
+2482::Luboszów
+16995::Czepino Bocznica
+2484::Dobre nad Kwisą
+2485::Trzebów
+2490::Buczek
+2491::Trzcinica Wielkopolska
+2492::Laski-Smardze
+2493::Mroczeń
+2494::Kępno Zachodnie
+2495::Kamienna Namysłowska
+2496::Olszanka
+2497::Czeska Wieś
+10690::Biel
+2499::Skoroszyce
+2500::Myśliczyn
+10693::Jelonki
+10695::Daniszewo
+2504::Dłużnica
+10697::Jarnuty
+10699::Gucin
+10702::Gocły
+2511::Biała Nyska
+2512::Koperniki
+16996::Głogów Famaba
+2514::Tłustomosty
+2515::Bernacice
+2516::Zopowy Równe
+2517::Mokre Kolonia
+2518::Głubczyce Las
+2519::Ściborzyce Małe
+2520::Sławięcice
+2522::Kędzierzyn Koźle Azoty
+2524::Kuźnia Raciborska
+2530::Szymiszów
+2531::Kamień Śląski
+2532::Tarnów Opolski
+2533::Chróścina Opolska
+2534::Dąbrowa Niemodlińska
+2535::Przecza
+2536::Lewin Brzeski
+2537::Łosiów
+2538::Czerwonków
+2539::Nowa Cerekwia
+2540::Nasiedle
+2731::Czersk Świecki
+2542::Długomiłowice
+2543::Sukowice
+2544::Jaborowice
+2545::Grzędzin Kozielski
+2546::Pawłowiczki
+2547::Maciowakrze
+2548::Gródczanki
+2549::Józefówek
+2550::Lubrza
+3631::Biniew
+85::Miastko
+2560::Sady
+2562::Szydłowiec Śląski
+2563::Tułowice Niemodlińskie
+2564::Sowin
+2565::Łambinowice
+2566::Budziszowice
+2567::Jasienica Dolna
+2568::Mańkowice
+2569::Kubice
+2570::Wyszków Śląski
+2571::Chmielowice
+2572::Komprachcice
+2573::Polska Nowa Wieś
+2574::Zalesie Śląskie
+2575::Zimna Wódka
+2576::Łąki Kozielskie
+2577::Raszowa
+2578::Zdzieszowice
+2579::Jasiona
+2580::Górażdże
+2581::Przywory Opolskie
+2582::Opole Grotowice
+2583::Opole Gosławice
+2584::Kotórz Mały
+2585::Osowiec Przystanek
+2586::Osowiec Śląski
+2587::Boroszów
+2588::Jamy
+2589::Kozłowice
+2590::Pawłowice Gorzowskie
+2591::Więckowice
+10784::Łączyn
+2593::Nowa Wieś Oleska
+2596::Byczyna Kluczborska
+2597::Kostów
+10790::Gołuchów LHS
+2599::Słupia
+2600::Ciasna
+2601::Sieraków Śląski
+10794::Raczyce LHS
+2603::Stare Olesno
+10796::Staszów LHS (południowy)
+2605::Wołczyn
+2606::Wierzbica Górna
+2607::Domaszowice
+2608::Gręboszów
+10801::Niekrasów
+2610::Krapkowice Otmęt
+2611::Steblów
+10804::Drozdów
+2613::Strzeleczki
+2614::Zielina
+2615::Moszna
+10808::Puszcza LHS
+2617::Krobusz
+2618::Kały
+2619::Laskowice Oleskie
+2620::Tuły
+2621::Bukowo
+2622::Borkowice
+2623::Mańczok
+2624::Murów
+2625::Okoły
+2626::Pokój
+2627::Dąbrowa Namysłowska
+2628::Biestrzykowice
+10821::Szczebrzeszyn LHS (południowy)
+2630::Ziemiełowice
+2631::Staniszcze Małe
+2632::Krasiejów
+10825::Zamość Bortatycze LHS
+2634::Dębska Kuźnia
+2635::Chrząstowice
+2636::Suchy Bór Opolski
+2637::Lisowice
+2638::Pawonków
+2639::Pludry
+10832::Hrubieszów LHS
+2641::Zębowice
+2642::Szumirad
+2643::Lasowice Małe Oleskie
+2644::Rozmierka
+2645::Kadłub
+2646::Sporok
+10839::Zamość Północny LHS
+2648::Tarnowskie Góry Strzybnica
+16763::Wałcz Paszutil
+17039::KWB Turów Bocznica 5
+3173::Witnica
+17001::Lubań Księginiki1
+12364::Kondratowice Dworzec Mały
+2673::Pławty Wielkie
+2674::Pólko Pomorskie
+2680::Tuchorza
+2681::Belęcin Wielkopolski
+2682::Stefanowo
+2683::Zbąszyń Przedmieście
+2684::Zielomyśl
+7274::Dąbrowa Górnicza Huta Katowice
+2686::Policko
+2687::Bobowicko
+2688::Zerbuń
+2689::Jeziorany
+2690::Franknowo
+2691::Tolniki Wielkie
+2692::Czarny Kierz
+2693::Nerwiki
+2705::Przysieka Stara
+2706::Iłowiec
+2707::Mosina
+2714::Dzikowice
+2715::Bukowina Bobrzańska
+2716::Karsin
+2717::Kołodziejewo
+2718::Jankowo Dolne
+2719::Trzemeszno
+2720::Wydartowo
+3184::Słonice
+2722::Promno
+17003::Złotniki Zakłady Chemiczne
+2724::Fałkowo
+2725::Pierzyska
+2726::Ligowiec
+2727::Poznań Garbary
+2729::Będźmirowice
+2730::Dąbrowy
+455::Polska Cerekiew
+2732::Kwiatki
+2733::Osie
+2734::Tleń
+2735::Łążek
+2737::Śliwiczki
+2738::Śliwice
+2739::Lipowa Wschodnia
+2740::Perkowo
+2741::Nowa Wieś Mochy
+2742::Nowy Solec
+2743::Wroniawy
+2744::Więcławice
+2745::Wierzchosławice
+2746::Gniewkowo
+2747::Suchatówka
+2748::Toruń Miasto
+16842::Tychnowy
+2750::Turzno
+2751::Kamionki Jezioro
+2752::Rychnowo Wielkie
+17004::Żagań JW 718
+2754::Książki
+2755::Ostrowite koło Jabłonowa
+2756::Lipinki
+2757::Jamielnik
+2758::Nowa Wieś Szlachecka
+2759::Buk Pomorski
+2760::Szarnoś
+2761::Łasin Pomorski
+2762::Zawdzka Wola
+2763::Iława Miasto
+2764::Ząbrowo
+2765::Redaki
+2766::Susz
+2767::Babiak
+2768::Zaryń
+2769::Piotrków Kujawski
+2770::Chełmce
+2771::Bachorce
+2772::Karczyn
+2773::Złotniki Kujawskie
+2774::Chmielniki Bydgoskie
+2775::Rynkowo Wiadukt
+2776::Rynkowo
+2777::Kotomierz
+2778::Pruszcz Pomorski
+2779::Parlin
+2780::Warlubie
+2781::Majewo
+2782::Kulice Tczewskie
+2783::Pelplin
+2784::Subkowy
+2785::Czarlin
+2786::Skowarcz
+2787::Różyny
+2788::Cieplewo
+2789::Najmowo
+2790::Konojady
+2791::Gdańsk Święty Wojciech
+2792::Gdańsk Lipce
+2793::Gdańsk Orunia
+2794::Gdańsk Politechnika
+2795::Gdańsk Zaspa
+2796::Gdańsk Przymorze-Uniwersytet
+466::Lubliniec
+2798::Gdańsk Żabianka AWFiS
+10991::Czarny Blok
+2800::Gdynia Redłowo
+2801::Gdynia Wzgórze Św. Maksymiliana
+2802::Gdynia Stocznia
+2803::Gdynia Grabówek
+2804::Gdynia Leszczynki
+2805::Gdynia Cisowa
+2806::Rumia Janowo
+2807::Reda Rekowo
+2808::Mrzezino
+2809::Żelistrzewo
+2810::Władysławowo Port
+2811::Chałupy
+2812::Kuźnica (Hel)
+2813::Jastarnia
+2814::Jurata
+2815::Grabik
+2816::Żary Kunice
+2817::Lipinki Łużyckie
+2819::Obroki
+2824::Jaworzno Ciężkowice
+2825::Balin
+2826::Orzesze Zawada
+2827::Palowice
+2828::Palowice Kolonia
+2829::Wojtal
+2830::Szałamaje
+2831::Łąg Południowy
+2832::Olpuch
+2833::Olpuch Wdzydze
+2834::Podleś
+2835::Leszno Kartuskie
+2836::Prokowo
+2837::Garcz
+2838::Reskowo
+2839::Miechucino
+2840::Mojusz
+2841::Sierakowice
+2842::Kamienica Królewska
+2843::Niepoczołowice
+2844::Nawcz
+2845::Rozłazino
+2846::Linia Zakrzewo
+2847::Studzieniec
+2848::Różyna Warmińska
+2849::Sępopol Roszarnia
+2850::Dulowa
+2851::Wola Filipowska
+2852::Krzeszowice
+2853::Rudawa
+2854::Zabierzów
+2855::Kraków Mydlniki Wapiennik
+2856::Kraków Łobzów
+2857::Kraków Zabłocie
+2858::Kraków Prokocim Osobowy
+2859::Kokotów
+2860::Węgrzce Wielkie
+2861::Staniątki
+2862::Szarów
+2863::Kłaj
+2864::Stanisławice
+2865::Cikowice
+2866::Bochnia
+2867::Jasień Brzeski
+2868::Rzezawa
+2869::Brzesko Okocim
+2870::Sterkowiec
+2871::Biadoliny
+2872::Kłokowa
+2873::Łowczówek Pleśna
+2874::Łowczów
+2875::Polna
+2876::Szalowa
+2877::Wola Łużańska
+2878::Moszczenica Małopolska
+2879::Lubaszowa
+2880::Siedliska koło Tuchowa
+2881::Chojnik
+2882::Bogoniowice Ciężkowice
+2883::Pławna
+2884::Bobowa
+2885::Bobowa Miasto
+2886::Jankowa
+2887::Wilczyska
+2888::Paczkowo
+2889::Kostrzyn Wielkopolski
+2890::Gułtowy
+2891::Nekla
+2892::Gutowo Wielkopolskie
+2893::Otoczna
+2894::Wólka
+2895::Słupca
+2896::Cienin
+2897::Cienin Kościelny
+2898::Spławie
+2899::Kawnice
+2900::Konin Zachód
+2901::Patrzyków
+2902::Kramsk
+2903::Budki Nowe
+2904::Kłodawa
+2905::Turzynów
+2906::Krzewie
+2907::Nowe Kutnowskie
+2908::Sklęczki
+2909::Złotniki Kutnowskie
+2910::Żychlin
+2911::Zosinów
+2912::Jackowice
+2913::Niedźwiada Łowicka
+2914::Mysłaków
+2915::Jasionna Łowicka
+2916::Kęszyce
+2917::Leonów
+2918::Kornelin
+2919::Płochocin
+2920::Witanów
+2921::Boża Wola
+2922::Seroki
+2923::Teresin Niepokalanów
+2924::Piasecznica
+2925::Warszawa Ursus Północny
+4189::Jabłowo
+2927::Sieradz Męka
+2928::Sieradz Warta
+2929::Łask
+2930::Kolumna
+2931::Dobroń
+2932::Chechło
+2933::Lublinek
+2934::Błaszki
+2935::Opatówek
+2936::Piwonice
+2937::Kalisz Szczypiorno
+2938::Czekanów
+2939::Warszawa Ursus
+2940::Piastów
+2941::Brwinów
+2942::Jaktorów
+2943::Międzyborów
+2944::Sucha Żyrardowska
+2945::Jesionka
+2946::Radziwiłłów Mazowiecki
+2947::Skierniewice Rawka
+2948::Dąbrowice Skierniewickie
+2949::Maków
+2950::Płyćwia
+2951::Lipce Reymontowskie
+2952::Krosnowa
+2953::Przyłęk Duży
+2954::Rogów
+2955::Wągry
+2956::Żakowice
+2957::Justynów
+2959::Wola Rzędzińska
+2960::Wałki
+2961::Czarna Tarnowska
+2962::Grabiny
+2963::Grabiny BOCZ
+2964::Dębica Wschodnia
+2965::Lubzina
+2966::Ropczyce
+2967::Ropczyce-Witkowice
+2968::Sędziszów Małopolski
+2969::Będziemyśl
+2970::Trzciana
+2971::Świlcza
+2972::Rudna Wielka
+2973::Rzeszów Załęże
+2974::Strażów
+2975::Krzemienica
+2976::Łańcut
+2977::Głuchów
+2978::Kosina
+2979::Rogóżno koło Łańcuta
+2980::Grzęska
+2981::Przeworsk Towarowy
+2982::Pełkinie
+2983::Ostrowiecko
+2984::Radymno
+2985::Sośnica Jarosławska
+2986::Walawa
+2987::Żurawica Rozrządowa
+2988::Przemyśl Zasanie
+2989::Medyka Towarowa
+2990::Medyka Rozrządowa
+2992::Lisów
+2993::Kochanowice
+2994::Częstochowa Gnaszyn
+2995::Blachownia
+2996::Kusięta Las
+2997::Kusięta Nowe
+2998::Turów
+2999::Lusławice
+3000::Julianka
+3001::Staropole Częstochowskie
+3002::Podlesie
+3003::Ludynia Dwór
+3005::Bukowa
+3006::Małogoszcz
+3007::Wierna Rzeka
+3008::Rykoszyn
+3009::Piekoszów
+3010::Kielce Czarnów
+3011::Rudzienice Suskie
+3012::Pikus
+8694::Leśnice
+3014::Naterki
+3015::Unieszewo
+3016::Biesal
+3017::Stare Jabłonki
+3018::Lubajny
+8695::Głuszyno Pomorskie
+3020::Barczewo
+3021::Wipsowo
+3022::Górowo
+17013::Nowogrodziec Surmin
+3024::Parys
+8696::Strzyżyno Słupskie
+3026::Modgarby (Anielin)
+3028::Szczytniki nad Kaczawą
+3029::Bieniowice
+3030::Katowice Brynów
+8697::Damnica
+3032::Katowice Podlesie
+3033::Mąkołowiec
+3034::Tychy Żwaków
+3035::Kobiór
+3036::Piasek
+3037::Goczałkowice
+3038::Goczałkowice Zdrój
+3039::Czechowice Dziedzice Przystanek
+3040::Czechowice Dziedzice Południowe
+3041::Bielsko-Biała Północ Fiat
+3042::Bielsko-Biała Północ
+3043::Skarżysko Zachodnie
+3044::Suchedniów Północny
+3045::Suchedniów
+3046::Berezów
+3047::Łączna
+3048::Zagnańsk
+3049::Tumlin
+3050::Kostomłoty
+3051::Karolinówka
+3052::Ruda Opalin
+3053::Uhrusk Przystanek
+3054::Uhrusk
+3055::Majdan Stuleński
+3056::Stulno
+3057::Sobibór
+3058::Płoskie Zamojskie
+3059::Cześniki
+3060::Miączyn
+3061::Koniuchy
+3062::Frankamionka
+3063::Konopne
+3064::Metelin
+3065::Powałki
+3066::Męcikał
+3067::Żabno koło Chojnic
+3068::Brusy
+3069::Lubnia
+3070::Raduń
+3071::Dziemiany Kaszubskie
+3072::Kalisz Kaszubski
+3073::Lipuska Huta
+3074::Zielonka Pomorska
+3075::Małe Gacno
+3076::Zarośle
+3077::Rosochatka
+3078::Krzeszna
+3079::Wieżyca
+3080::Sławki
+3081::Kiełpino Kartuskie
+3082::Babi Dół
+3083::Borkowo
+3084::Pępowo Kartuskie
+3085::Rębiechowo
+3086::Ząbki
+3087::Kobyłka Ossów
+3088::Kobyłka
+3089::Wołomin
+3090::Wołomin Słoneczna
+3091::Zagościniec
+3092::Dobczyn
+3093::Klembów
+3094::Jasienica Mazowiecka
+3096::Mirostowice Dolne
+3097::Mirostowice Górne
+3098::Straszów
+3099::Olszyniec
+3100::Lipsk Żarski
+3101::Czerwieńsk Towarowy
+3102::Nietkowice
+3103::Radnica
+3104::Bytnica
+3105::Budachów
+3106::Pliszka
+4195::Wilcza Góra
+3108::Rzepinek
+3109::Słubice
+3110::Chlastawa
+3111::Urad
+3112::Dąbrówka Zbąska
+3113::Kupienino
+3114::Wilkowo Świebodzińskie
+3115::Mostki
+3116::Bucze
+3117::Drzewce
+3118::Torzym
+3119::Boczów
+3120::Kręcko
+3121::Babimost
+3122::Kolesin
+3123::Łęgowo Sulechowskie
+3124::Pomorsko
+3125::Nietków
+3126::Laski Odrzańskie
+521::Skawce
+3128::Wężyska
+3129::Mozów
+3130::Głogusz Kije
+3131::Pałck Niekarzyn
+3132::Chociule
+522::Skawina
+3134::Kębłowo
+3135::Świętno
+4619::Łasin Koszaliński
+3140::Radowice
+3141::Okunin
+3142::Smolno Wielkie
+17017::Pszenno Cukrownia
+3144::Kargowa
+3145::Kopanica
+11338::Warszawa Praga WPC
+3147::Powodowo
+3148::Drzeńsko (p.odg.)
+3149::Kowalów
+3150::Radów
+3151::Laski Lubuskie
+3152::Górzyca
+3153::Ługi Górzyckie
+3154::Bielin
+3155::Boleszkowice
+3156::Gorzyń Wielkopolski
+3157::Głażewo
+3158::Łowyń
+3159::Lewice
+3160::Zachodzko
+3161::Szklarka Trzcielska
+3162::Prądówka
+3163::Przychodzko
+3164::Strzyżewo Zbąskie
+3165::Goraj
+3166::Przytoczna
+3167::Rokitno
+3168::Chełmsko
+3169::Gorzów Wielkopolski Wieprzyce
+3170::Łupowo
+3171::Bogdaniec
+3172::Nowiny Wielkie
+11365::Polesie
+3174::Kamień Mały
+3175::Dąbroszyn
+3176::Stare Kurowo
+3177::Sarbiewo
+3178::Górki Noteckie
+3179::Czechów
+3180::Wawrów
+3181::Mierzęcin Strzelecki
+3182::Bierzwnik
+3183::Rębusz
+11376::Warszawa Aleje Jerozolimskie
+3185::Stary Klukom
+3195::Rościn Krajeński
+3196::Różańsko
+3197::Dyszno
+3198::Dębno Lubuskie
+3199::Cychry
+3200::Krześnica Sarbinowo
+3201::Gorzów Wielkopolski Chróścik
+135::Kalisz Pomorski
+3203::Lubiszyn
+3204::Ściechów
+11397::Góra Kalwaria
+11398::Warszówka
+11399::Osieck
+11400::Sufczyn
+3209::Dąbrówka Wielkopolska
+11402::Grzebowilk
+3211::Panowice
+3212::Bukowiec Międzyrzecki
+11405::Arynów
+3214::Popowo Skwierzyńskie
+11407::Pustelnik
+11408::Dąbrowica BOCZ
+3217::Deszczno
+11410::Barcząca
+11411::Mienia
+11412::Cegłów
+3221::Gościkowo
+11414::Grodziszcze Mazowieckie
+3223::Łagów
+11416::Sosnowe
+11417::Koszewnica
+11418::Sabinka
+3227::Gościm
+3228::Goszczanowiec
+3229::Goszczanowo
+3230::Murzynowo
+3231::Skwierzyna Gaj
+3232::Gorzyca
+1904::Borek Wielkopolski
+3234::Templewo
+3235::Smogory
+3236::Ośno Lubuskie
+3237::Lubiechnia Mała
+3238::Ulim
+3239::Płonica Bolemin
+3240::Kołczyn
+19625::Warszawa Żwirki i Wigury
+3242::Muszkowo
+3243::Lemierzyce
+3244::Czarnów
+16946::PZZ Kostrzyn Elewator
+3249::Cieksyn
+3250::Wkra
+3251::Dalanówek
+3252::Płońsk
+3253::Arcelin
+3254::Baboszewo
+3255::Kaczorowo
+3256::Raciąż
+3257::Koziebrody
+3258::Zawidz Kościelny
+3259::Zawidz
+3260::Mieszaki
+3261::Rybnik Paruszowiec
+3262::Knurów Kopalnia
+3263::Knurów Szczygłowice
+3264::Szczygłowice Kopalnia
+3265::Przyszowice
+3268::Wisła Obłaziec
+3269::Wisła Dziechcinka
+3271::Warszawa Powiśle
+3272::Warszawa Stadion
+109::Trzebiatów
+12930::Trębaczew
+4201::Wysoka Braniewska
+17022::Krzeniów I Kosd.
+3295::Surochów
+3296::Bobrówka
+3297::Zagrody
+3298::Korzenica
+3299::Nowa Grobla
+3300::Oleszyce
+3301::Lubaczów
+3302::Basznia Dolna
+3303::Dziewięcierz
+3304::Siedliska Tomaszowskie
+3305::Pszczyna Czarków
+3306::Radostowice
+3307::Suszec
+3309::Szczejkowice
+3310::Rybnik Piaski
+3311::RbC
+3312::Jejkowice
+3313::Górki Śląskie
+3314::Szymocice
+3315::Żory Baranowice
+3316::Warszowice
+3317::Jastrzębie Zdrój Bzie
+3318::Jastrzębie Zdrój Górne
+3319::Skoczów Bładnice
+3320::Zabłocie Czuchów
+3321::Zaborze
+3322::Pierściec
+3323::Rybnik Niedobczyce
+3324::Rybnik Niewiadom
+3325::Łuków Śląski
+3326::Sumina Wieś
+3327::Mikołów Jamna
+3328::Łaziska Górne
+3329::Łaziska Górne Brada
+3330::Czerwionka
+3331::Czerwionka Dębieńsko
+3332::Olszyny
+3333::Jeruty
+11526::Białki Siedleckie
+11527::Borki Kosy
+11528::Dziewule
+3337::Ruciane Nida Zachód
+3338::Szeroki Bór
+3339::Przykopka
+11532::Krynka Łukowska
+3341::Kijewo
+3342::Olecko Małe
+3343::Stożne
+3344::Kowale Oleckie
+11537::Grudki
+3346::Górne
+11539::Gdańsk Biskupia Górka
+3348::Muszaki
+3349::Puchałowo
+3350::Przeździęk Welki
+3351::Grabowo
+3352::Nowa Wieś Kościelna
+3353::Zabiele Wielkie
+3354::Jastrząbka
+3355::Parciaki
+3356::Olszewka
+3357::Raszujka
+3358::Chorzele
+3359::Piwnice
+3360::Jesionowiec
+3361::Szymany
+3362::Siódmak
+3363::Klewki
+3364::Marcinkowo
+3365::Pasym
+3366::Grom
+3367::Działdowo R102
+3368::Pierławki
+3369::Prioma
+3370::Płośnica
+3371::Lidzbark Miasto
+3372::Klonowo koło Lidzbarka
+3373::Gutowo Pomorskie
+3374::Radoszki
+11567::Szczecin Port Centralny SPC21
+3376::Sarnowa
+3377::Rawicz Wschód
+3378::Chojno Wielkopolskie
+3379::Pamiątkowo
+3380::Baborówko
+3381::Pęckowo
+3382::Mokrz
+11575::Siedlce Zachodnie
+3384::Radlin Wielkopolski
+3385::Żerków
+3386::Orzechowo
+3387::Miłosław
+3388::Książno
+3389::Chwalibogowo
+3390::Marzenin
+3391::Czerniejewo
+3392::Żydowo
+11585::Nowy Młyn ZAMK
+3394::Zdziechowa
+3395::Świątniki
+11588::Płochocin Polmos
+3397::Gącz
+3398::Dąbrowa Międzylesie
+11591::Gdynia Cisowa Elektrowozownia
+3400::Rusiec
+3401::Szczepice
+3402::Studzienki
+3403::Kozia Góra Krajeńska
+3404::Mrocza
+3405::Witosław
+3406::Rajgród
+3407::Runowo Krajeńskie
+3408::Wysoka Krajeńska
+3409::Świdwie Sępoleńskie
+3410::Sępólno Krajeńskie
+3411::Kamień Krajeński
+3412::Obkas
+3413::Ogorzeliny
+17026::Gniewków Zimnik
+3415::Czerwonak
+3416::Owińska
+3417::Bolechowo
+3418::Murowana Goślina
+3419::Łopuchowo
+3420::Roszkowo Wągrowieckie
+3421::Przysieczyn
+3424::Kobylec
+3425::Grylewo
+3426::Laskownica
+3427::Panigródz
+3428::Grocholin
+3429::Szaradowo Zalesie
+3430::Pińsko Wielkopolskie
+3431::Kołaczkowo
+3432::Rynarzewo
+3433::Jasiniec Białebłota
+3434::Procyń
+3435::Różanna
+3436::Domanin
+3437::Antonin
+3438::Przygodzice
+3439::Niedźwiedź Wielkopolski
+3440::Janków Przygodzki
+3442::Kościelnik
+3443::Kościelniki Średnie
+17027::Grodziec Niemodliński
+3446::Kościelniki Górne
+11641::Słutowo
+3452::Konary Grabowo
+3453::Lipiny Wielkopolskie
+3454::Szamocin
+3455::Raczyn
+3456::Zacharzyn
+3458::Niemczynek Werkowo
+3459::Rąbczyn
+3460::Wiatrowiec
+3461::Runowo koło Wągrowca
+3462::Ostrowy
+3463::Rutkowice
+3464::Kaliska Kujawskie
+3465::Wiktorowo
+3466::Czerniewice
+3467::Gołaszewo Kujawskie
+3468::Warząchewka
+3469::Włocławek Zazamcze
+3471::Włocławek Brzezie
+3472::Lubanie
+3473::Nieszawa Waganiec
+3474::Turzno Kujawskie
+3475::Otłoczyn
+3476::Brzoza Toruńska
+3477::Toruń Czerniewice
+3478::Odolion
+3479::Kalwaria Zebrzydowska
+3480::Barwałd Górny
+3481::Klecza Górna
+3482::Klecza Dolna
+3483::Chocznia
+3484::Chocznia Górna
+3485::Inwałd
+3486::Andrychów
+3487::Andrychów Górnica
+3488::Bulowice
+3489::Zamek Bulowicki
+3490::Kęty
+3491::Kęty Podlesie
+3492::Kozy Zagroda
+3493::Kozy
+3494::Kozy Krzemionki
+3495::Bielsko-Biała Wschód
+3496::Huta Czechy
+11689::Łódź Olechów ŁOC
+11690::Łódź Olechów ŁOA
+3499::Iwowe
+3500::Stoczek Łukowski
+3501::Kobiałki
+3502::Zdżary
+3503::Krzna
+3504::Łuków Zapowiednik
+3505::Matysy
+3506::Szaniawy
+3507::Brzozowica
+3508::Misie
+3509::Międzyrzec Podlaski
+3510::Sitno
+3511::Szachy
+3512::Sokule
+3513::Kobylany
+3514::Biała Podlaska Rozrządowa
+3515::Ogrodniki
+3516::Chotyłów
+3517::Dobrynka
+3519::Niekłonice
+3520::Dunowo
+3521::Nosówko
+3522::Kościernica
+3523::Reblino
+3524::Wrześnica
+3525::Karwice
+3526::Wiekowo
+3527::Skibno
+3528::Chełmska Góra
+3529::Białystok Fabryczny
+3530::Kuriany
+3531::Zajezierce
+3532::Żednia
+3533::Sokole Białostockie
+3534::Waliły
+3536::Korzystno
+3537::Stary Borek
+3538::Głowaczewo
+3539::Karcino
+3540::Bieczyno Pomorskie
+3541::Górzyca Reska
+3542::Stobno
+3543::Biała Pilska
+3544::Trzcianka
+3545::Siedlisko Czarnkowskie
+3546::Biernatowo
+16975::Przemyśl
+3548::Linowo
+3549::Boguszewo
+3550::Nicwałd
+592::Krynica
+9565::Hintersee
+16977::Tymbark Ppps
+594::Podczerwone
+8698::Jezierzyce Słupskie
+595::Gorlice
+596::Nowy Zagórz
+119::Golczewo Pomorskie
+16981::Rzepedź Drew-San
+598::Sanok
+3592::Kazimierówka
+3593::Brzózki
+3594::Grodzisk Mazowiecki Okrężna
+3595::Grodzisk Mazowiecki Piaskowa
+3596::Grodzisk Mazowiecki Jordanowice
+3597::Bydgoszcz Emilianowo
+3598::Bydgoszcz Żółwin
+3599::Bydgoszcz Bielawy
+3600::Bydgoszcz Leśna
+600::Sobowidz
+3602::Mieścisko
+3603::Popowo Kościelne
+3604::Bonikowo
+3605::Sepno
+3606::Plastowo
+3607::Słociniec
+3608::Urbanowo
+8485::Ciołkowo
+16986::Łukawica Ppd
+1606::Sadowice Wrocławskie
+16987::Ustianowa Górna
+3334::Świętajno
+604::Ustrzyki Dolne
+3626::Zatom Stary
+3335::Spychowo
+16989::Gorlice Rafi
+3632::Bronów
+3336::Karwica Mazurska
+3634::Pleszew
+3635::Kotlin
+3636::Witaszyce
+16990::Gorlice Glin
+12378::Ząbkowice Śląskie Dworzec Mały
+16991::Trzebinia Szyb Włodzimierz
+16761::Wardyń CPN
+11531::Sarnów koło Wysokiego Koła
+17034::Wrocław Muchobór Podg.
+3340::Chełchy
+3658::Ostaszewo Toruńskie
+3659::Grzywna
+3660::Wrocławki
+16994::Rycerka Bocznica
+3662::Gorzuchowo Chełmińskie
+11533::Słowiki Nowe
+3664::Grudziądz Mniszek
+3665::Grudziądz Przedmieście
+3666::Grudziądz Owczarki
+3667::Podwierzbie
+3668::Koziołek
+3669::Czermno
+3670::Skępe
+3671::Karnkowo
+3672::Lipno
+3673::Konotopie
+3674::Ograszka
+3675::Czernikowo
+3676::Obrowo
+3677::Dobrzejewice
+3678::Dragacz
+3679::Górna Grupa
+3680::Grupa
+3681::Dubielno
+3682::Jeżewo
+17035::Cigacice ROCKWOO
+16998::Boguszów Gorce Wschód Podg.
+3345::Pogorzel
+3396::Mieleszyn
+3690::Drużyny
+3691::Niewierz
+3692::Małki
+3693::Kawki
+3694::Wrocki
+3695::Tokary
+3696::Gałczewko
+3697::Golub Dobrzyń
+3698::Ostrowite koło Golubia
+3699::Chełmoniec
+3700::Kowalewo Pomorskie Miasto
+3701::Moszczenica Pomorska
+3702::Rytel Wieś
+11895::Miączyn LHS
+11896::Zwierzyniec Towarowy LHS
+3705::Pinczyn
+11898::Biłgoraj LHS
+11899::Olkusz LHS
+3708::Kamienna Karczma
+3709::Czarna Woda
+3710::Łąg
+3711::Toruń Kluczyki
+3712::Toruń Podgórz
+3713::Cierpice
+3714::Przyłubie
+3715::Solec Kujawski
+3716::Bydgoszcz Łęgnowo
+3717::Stronno
+3718::Wudzyn
+3719::Serock
+3720::Świekatowo
+3721::Lipienica
+3722::Błądzim
+3723::Podobowice
+3724::Bronisław
+3725::Kunowo Kujawskie
+3726::Szczeglin
+17005::Strzelin Cukrownia
+3732::Wyszomierz
+17006::Kłodzko Skład opału
+3734::Mosty
+3735::Żabowo
+3736::Dębostrów
+3737::Niekłończyca Uniemyśl
+3738::Szczecin Pogodno
+17007::Ciepłownia Opole Wsch.
+3740::Szczecin Niebuszewo
+3741::Szczecin Żelechowo
+3742::Szczecin Golęcino
+3743::Szczecin Gocław
+17037::Legnica Wschód
+17008::Zgorzelec Miasto PODG
+3746::Szczecin Mścięcino
+3747::Police Zakład
+3749::Reda Pieleszewo
+3750::Wejherowo Śmiechowo
+3751::Wejherowo Nanice
+3752::Gościcino Wejherowskie
+3753::Luzino
+3754::Strzebielino Morskie
+3755::Bożepole Wielkie
+3756::Godętowo
+17010::Ruszów Nadleśnictwo
+11954::Stalowa Wola Centrum
+17011::Jelenia Góra PEC
+11957::Ciebłowice Duże
+16765::Szczecin SEC
+17012::Welczów BZMO
+11963::Radiowo
+3772::Wodzisław Śląski Radlin
+3773::Czyżowice
+3774::Bełsznica
+3775::Rudyszwałd
+11968::Prądy
+3777::Konin Marantów
+11970::Gardeja ZB
+3779::Gosławice
+3780::Pątnów
+3781::Pątnów Elektrownia
+3782::Wyry
+3783::Łaziska Kopanina
+3784::Łaziska Huta
+3785::Orzesze Zawiść
+3786::Orzesze Miasto
+3787::Jastrzębie Zdrój Zofiówka
+3788::Jastrzębie Zdrój Ruptawa
+3789::Kończyce
+3790::Pogwizdów
+3791::Cieszyn Marklowice
+3792::Katowice Kostuchna
+17016::Rogów Sobócki (ładownia)
+3794::Gliwice Kuźnica
+3795::Ruda Wirek
+3796::Krzyżanowice
+3797::Roszków Raciborski
+3799::Wielowieś Kujawska
+3800::Pakość
+3801::Piechcin
+3802::Bielawy
+3803::Wapienno
+3804::Jadowniki
+3806::Dolaszewo Wałeckie
+3807::Szydłowo Krajeńskie
+3808::Skrzatusz
+3809::Dobino Wałeckie
+3810::Cybowo
+17019::Bartnica KSS
+3812::Żółwino
+3813::Recz Pomorski
+12006::Jacków
+3815::Tarnowo Pomorskie
+3816::Sulino
+3817::Barzkowice
+3818::Pęzino
+127::Łożnica
+3820::Bydgoszcz Brdyujście
+3821::Warszawa Rakowiec
+12014::Nowosady
+3823::Warszawa Okęcie
+3824::Warszawa Dawidy
+3825::Warszawa Jeziorki
+3826::Nowa Iwiczna
+3827::Piaseczno
+3828::Zalesie Górne
+12021::Mikłaszewo
+3831::Czachówek Górny
+3832::Sułkowice
+12025::Zabłotczyzna
+3834::Krężel
+12027::Skupowo
+3836::Gośniewice
+3837::Grabów nad Pilicą
+3838::Strzyżyna
+3839::Dobieszyn
+3840::Kruszyna
+3841::Wola Bierwiecka
+3842::Bartodzieje
+3843::Lesiów
+3844::Trzebieńczyce
+3845::Grodzisko
+3846::Woźniki
+3847::Radocza
+3848::Ptaszkowa
+12041::Lubaszcz
+3850::Nowy Sącz Jamnica
+3851::Chrzęsne
+12044::Grodzisk Mazowiecki Radońska/Sienkiewicza
+3853::Szewnica
+3854::Urle
+3855::Barchów
+3856::Ostrówek Węgrowski
+3857::Topór
+3858::Sadowne Węgrowskie
+3859::Prostyń
+3860::Zaręby Kościelne
+3861::Kietlanka
+3862::Szulborze Koty
+3863::Kity
+3864::Dąbrowa Łazy
+3865::Szymbory
+3866::Jabłoń Kościelna
+3867::Racibory
+3868::Zdrody Nowe
+3869::Łapy Osse
+3870::Szczecin Dąbie Osiedle
+17029::Miedzyrzecz UMiG
+16938::Luboń koło Poznania LuC
+3873::Troszyn
+3874::Recław
+3875::Ładzin
+12068::Izbiska
+3877::Lubiewo
+3878::Świnoujście Przytór
+3883::Pisz (p.odg.)
+3888::Góra Włodowska
+3889::Chrusty Nowe
+3890::Rokiciny
+3891::Łaznów
+3892::Baby
+3893::Moszczenica
+3894::Jarosty
+3895::Lublin Zalew
+3896::Moskale
+3897::Nisko Osiedle
+3898::Nisko
+3899::Nisko Racławice
+3900::Nisko Podwolina
+3901::Rudnik Stróża
+3902::Łętownia
+3903::Nowa Sarzyna Kolonia
+3904::Nowa Sarzyna
+3905::Jelna
+3906::Leżajsk
+3907::Wierzawice
+3914::Osuch
+3383::Miały
+3916::Kruszewo Wielkopolskie
+3917::Milejów
+3918::Rozprza
+3919::Luciążanka
+3920::Wilkoszewice
+3921::Gorzędów
+3922::Kamieńsk
+3923::Gomunice
+3924::Dobryszyce koło Radomska
+3925::Bobry
+3926::Widzów Teklinów
+3927::Kłomnice
+3928::Rzerzęczyce
+3929::Rudniki koło Częstochowy
+3930::Częstochowa Aniołów
+3931::Wesoła
+3932::Łódź Niciarniana
+3933::Straszewo Białostockie
+3934::Waliły Las
+3935::Tryńcza
+3936::Gniewczyna
+17040::Bogatynia Kwb
+3938::Daszewo
+3939::Wrzosowo
+3940::Jazy
+3941::Dygowo
+3942::Stramnica
+3943::Zabrze Północ
+3944::Ligota Toszecka
+3945::Błotnica Strzelecka
+3946::Czekanów Wieś
+3947::Czekanów Śląski
+3948::Przezchlebie
+3950::Łódź Andrzejów
+3951::Koszęcin
+3952::Rusinowice
+12145::Rury
+3954::Sarnów
+3955::Borowina
+3956::Krzywda
+3957::Hordzieżka
+3958::Okrzeja
+3959::Grabów Szlachecki
+3960::Leopoldów
+3961::Ryki
+3962::Lipińskie Małe
+3963::Ełk Szyba Wschód
+3964::Uhowo
+3965::Bojary
+3966::Baciuty
+3967::Trypucie
+3968::Niewodnica
+3969::Klepacze
+3970::Białystok Wiadukt
+3971::Białystok Bacieczki
+3972::Fasty
+3973::Dobrzyniewo Duże
+3974::Borsukówka
+3975::Knyszyn
+3976::Zastocze
+3977::Czechowizna
+3978::Mońki
+3979::Goniądz
+3980::Osowiec
+3981::Podlasek
+3982::Ruda
+3983::Grajewo
+3984::Kleszczele
+3985::Suchowolce
+3986::Gregorowce
+3987::Podbiele
+3988::Rajsk
+3989::Strabla
+3990::Zimnochy
+3991::Hołówki Duże
+3992::Lewickie
+3993::Białystok Stadion
+3994::Wasilków
+3995::Wólka Ratowiecka
+3996::Czarna Białostocka
+3997::Machnacz
+3998::Rozedranka
+3999::Gieniusze
+4000::Kundzin
+4001::Czuprynowo
+4003::Gliniszcze
+4004::Racewo
+4005::Płociczno koło Suwałk
+4006::Szczepki
+4007::Blizna
+4008::Augustów Port
+4009::Augustów
+4010::Balinka
+4011::Jastrzębna
+4012::Ostrowie Biebrzańskie
+4013::Ostromecko
+4014::Dąbrowa Chełmińska
+4015::Gzin
+4016::Mlewiec
+4017::Mirakowo
+4018::Głuchowo
+4019::Nawra
+4020::Grzybno
+4021::Piotrków Trybunalski Towarowy
+4022::Wola Krzysztoporska
+4023::Bogdanów
+4024::Bełchatów
+4025::Zarzecze (łódzkie)
+4026::Rogowiec
+12959::Nakło
+4028::Regulice
+4029::Alwernia
+4030::Okleśna
+4031::Miejsce
+4033::Kraków Lubocza
+4034::Kraków Kościelniki
+9574::Grzybnica
+4036::Strzelinko
+4038::Charnowo Słupskie
+4039::Mokrzyca
+4040::Łebcz
+4041::Starzyński Dwór
+4042::Radoszewo
+4043::Kłanino
+4044::Sławoszyno
+4045::Wejherowo Cementownia
+4046::Orle
+4047::Góra Pomorska
+4048::Słuszewo
+4049::Kostkowo
+12242::Mieszko
+4051::Strzebielinko Lęborskie
+12244::Nałęcz
+4053::Lublewo
+4054::Osieki Lęborskie
+4055::Choczewko
+4056::Kurowo
+4057::Przebędowo Lęborskie
+4058::Zwartowo
+4059::Zwartówko
+4060::Gościęcino
+4061::Tawęcino
+4062::Karlikowo
+4063::Rekowo Lęborskie
+4064::Obliwice
+12956::Czarnca (PODG)
+4067::Warszawa Żerań
+4068::Warszawa Płudy
+4069::Warszawa Choszczówka
+4070::Legionowo Przystanek
+4071::Janówek
+4072::Modlin
+4073::Pomiechówek
+4074::Brody Warszawskie
+4075::Studzianki Nowe
+4076::Przyny
+4077::Tłoki
+4078::Rostarzewo
+4079::Drzymałowo
+4080::Ruchocice
+4081::Młyniewo Nowotomyskie
+4082::Ptaszkowo Wielkopolskie
+4083::Granowo Nowotomyskie
+4084::Strykowo Poznańskie
+4085::Stęszew
+4086::Trzebaw Rosnówko
+4087::Szreniawa
+4088::Siedlce Wschodnie
+4089::Stok Lacki
+4090::Krzymosze
+4091::Mordy Miasto
+4092::Cierpigórz
+4093::Niemojki
+4094::Patków
+4095::Platerów
+4096::Sarnaki
+4097::Fronołów
+4098::Siemiatycze
+4099::Sycze
+4100::Nurzec
+4101::Nowy Nurzec
+4102::Borowiki
+4103::Berezyszcze
+4104::Dobrowoda
+4105::Policzna
+4106::Witowo
+4107::Orzeszkowo
+4108::Gnilec
+4110::Narewka
+4111::Cisówka
+4113::Stawiszcze
+4115::Orlanka
+4116::Morze
+4117::Stare Berezowo
+4118::Nieznany Bór
+4119::Czerlonka
+10244::Bieniów Górny
+4123::Parleza Wielka
+4124::Dąbrówka Kobułcka
+4125::Sorkwity
+4126::Bagienice
+4127::Kosewo
+4128::Zełwągi
+4129::Woźnice
+4130::Olszewo
+4131::Dąbrówka Górkło
+4132::Tuchlin
+4133::Okartowo
+4134::Odoje
+4135::Skomack Wielki
+4136::Rogale
+4137::Mołdzie
+4138::Bartosze
+4139::Ełk Zachód
+4140::Józefów Roztoczański
+4141::Długi Kąt
+4142::Nowiny
+4143::Susiec
+4144::Maziły
+4145::Lubycza Królewska
+691::Starogród
+411::Maszewo
+12353::Grodzisko PODS
+4162::Strączno
+4163::Rutwica
+4164::Jeziorki Wałeckie
+4165::Krępa Krajeńska
+4166::Biały Zdrój Południowy
+4167::Szozdy
+4168::Tereszpol Biłgorajski
+4169::Wola Duża
+4170::Dąbrowica
+4171::Ciosmy
+4172::Golce
+4173::Huta Deręgowska
+4174::Kłyżów
+12367::Bielawa Zachodnia Dworzec Mały
+4774::Przemysław
+4792::Dobrzyń
+4793::Bujaki
+12376::Henryków Dworzec Mały
+4185::Stara Jania
+4186::Mirotki
+4187::Pączewo
+4188::Bobowo Pomorskie
+4794::Gryźliny
+4190::Starogard Gdański Przedmieście
+4191::Chełm Wschodni
+4192::Chełm Cementownia
+4193::Brzeźno
+4194::Mąkowarsko
+4795::Stawiguda
+4196::Buszkowo
+4197::Brzuchowo
+4198::Przyrowa
+4199::Gostycyn
+4200::Żugienie
+4796::Gągławki
+4202::Jarzębiec
+4203::Grodzie
+4204::Henrykowo
+4205::Bukwałd
+4206::Cerkiewnik
+4797::Bartąg
+4208::Dobre Miasto
+4209::Bzowiec
+4210::Rogiedle
+4211::Lubomino
+4216::Poledno
+4217::Bukowiec Świecki
+4218::Świekatowo Wschodnie
+4219::Bruchniewo
+4220::Klonowo nad Brdą
+4221::Konopat
+4222::Świecie Przechowo
+4224::Zawadówka
+4225::Chełm Miasto
+3414::Poznań Karolin
+2070::Orzeszków
+4239::Mała Klonia
+4240::Obodowo
+4241::Sośno Sępoleńskie
+4242::Ostrówek
+4244::Zakrzewska Kolonia
+4245::Sypniewo
+4246::Dorotowo
+4247::Nowa Święta
+4248::Żukowo Zachodnie
+4249::Dzierżążno
+4250::Komorowo Żuławskie
+4251::Stegny
+4252::Młynary
+4253::Chruściel
+4254::Bemowizna
+4255::Garwolin
+4256::Ruda Talubska
+4257::Wola Rowska
+4258::Łaskarzew Przystanek
+4259::Leokadia
+4260::Sobolew
+4261::Wygoda
+4262::Mika
+4263::Życzyn
+4264::Rokitnia Stara
+4265::Rogaczewo
+4266::Choryń
+4267::Racot
+4268::Kożuchy Wielkie
+4269::Pieczonki
+4270::Dęblin Towarowy
+4271::Zarzeka
+4272::Gołąb
+4273::Puławy Miasto
+4274::Puławy
+4275::Pożóg
+4276::Klementowice
+4277::Nałęczów
+4278::Sadurki
+4279::Miłocin Lubelski
+4281::Motycz Leśny
+4282::Stasin Polny
+1915::Godurowo
+4301::Chmielnik Buski
+4302::Raczyce
+4303::Staszów
+4304::Strzegomek
+4305::Osiek Staszowski
+4306::Chodków
+2083::Wińsko
+4308::Drzonowo
+4309::Biały Bór
+4310::Krasnystaw Fabryczny
+4311::Izbica
+4312::Tarzymiechy
+4313::Ruskie Piaski
+4314::Złojec
+4315::Wólka Niedzieliska
+4316::Klemensów
+4317::Szczebrzeszyn
+4318::Zwierzyniec
+4319::Jajkowo
+4320::Kaługa
+4321::Kurzętnik
+4322::Bratian
+4323::Radomno
+4324::Lipniak
+4325::Kaletnik
+4326::Ławocie
+4327::Wilkasy
+4328::Cimochy
+4329::Raczki
+4330::Poddubówek
+4331::Kurpie
+4332::Żyźniewo
+4333::Koziki
+4334::Płonka
+4335::Roszki Leśne
+4336::Sokoły
+4337::Jamiołki
+4338::Wnory
+4339::Kulesze Kościelne
+4340::Czarnowo Undy
+4341::Kołaki
+4342::Łubnica Łomżyńska
+4349::Puszcza Rządowa
+4350::Rypin
+4351::Kretki
+11648::Kołobrzeg Kostrzewno
+4354::Mysłowice Brzęczkowice
+4355::Wólka Okrąglik
+4356::Kosów Lacki
+4357::Telaki
+4358::Kostki
+4359::Sokołów Podlaski
+4360::Bielany Podlaskie
+4361::Podnieśno
+4362::Borki Siedleckie
+4363::Kątne
+4364::Jackowo Dworskie
+4365::Świercze
+4366::Kałęczyn
+4367::Gąsocin
+4368::Gołotczyzna
+4369::Ciechanów Przemysłowy
+4370::Czeruchy
+4371::Krośnice Mazowieckie
+4372::Konopki
+4373::Stupsk Mazowiecki
+4374::Wyszyny
+4375::Mława Miasto
+4376::Iłowo
+4377::Narzym
+12570::Czesławice
+4390::Rabka Zaryte
+4391::Raba Niżna
+4392::Mszana Dolna Marki
+4393::Skrzydlna
+4394::Dobra koło Limanowej
+4395::Piekiełko
+4396::Łososina Górna
+4397::Pisarzowa
+4398::Męcina Podgórze
+4399::Chomranice
+4400::Męcina
+4401::Klęczany
+4402::Nowy Sącz Chełmiec
+4403::Nowy Sącz Miasto
+4404::Świdnik Miasto
+4405::Świdnik Wschód
+4406::Minkowice
+4407::Podzamcze
+4408::Dominów
+4409::Biskupice Lubelskie
+4410::Trawniki
+4411::Wólka Kańska
+4412::Kanie
+4413::Zalesie Kraszeńskie
+4414::Gorlice Glinik
+4415::Muszyna Poprad
+4416::Muszyna Zdrój
+4417::Powroźnik
+4418::Nowy Sącz Biegonice
+4419::Stary Sącz
+4420::Barcice
+4421::Rytro
+4422::Młodów
+4423::Piwniczna Zdrój
+4424::Łomnica Zdrój
+4425::Wierchomla Wielka
+4426::Zubrzyk
+4427::Żegiestów
+4428::Żegiestów Zdrój
+4429::Milik
+11661::Międzyborze Białogardzkie
+12625::KMB
+12629::Puławy Chemia
+4443::Krężnica Jara
+4444::Majdan
+4445::Niedrzwica
+4446::Niedrzwica Kościelna
+4447::Leśniczówka
+4448::Wilkołaz Wieś
+4449::Wilkołaz
+4450::Pułankowice
+4451::Kraśnik
+4452::Sulów
+4453::Szastarka
+4454::Polichna Kraśnicka
+4455::Rzeczyca Kolonia
+4457::Potok Kraśnicki
+4458::Zaklików
+4459::Lipa
+4460::Kępa
+4461::Pilchów
+4462::Kielce Białogon
+4463::Słowik Przystanek
+4464::Wolica
+4465::Sobków
+4466::Miąsowa
+4467::Jędrzejów
+4468::Potok
+4469::Krzcięcice
+4470::Klimontów
+4471::Korwinów
+4472::Masłońskie Natalin
+4473::Żarki Letnisko
+4474::Myszków Nowa Wieś
+4475::Myszków
+4476::Myszków Światowit
+4477::Myszków Mrzygłód
+4478::Zawiercie Borowe Pole
+4479::Częstochowa Mirów
+4480::Wiesiółka
+4481::Chruszczobród
+4482::Dąbrowa Górnicza Sikorka
+4483::Dąbrowa Górnicza Pogoria
+4484::Będzin Ksawera
+4485::Będzin Miasto
+4486::Sosnowiec Główny r 52
+12679::Przeworsk PK
+4488::Jaworzno Szczakowa Lokomotywownia
+4489::Kraków Łagiewniki
+4490::Kraków Swoszowice
+4491::Kraków Sidzina
+4492::Rubno Wielkie
+4493::Jagodna
+4494::Kamiennica Elbląska
+4495::Nadbrzeże
+4496::Suchacz Zamek
+4497::Kadyny
+4498::Święty Kamień
+4499::Frombork
+4500::Stępień
+4501::Braniewo Brama
+4502::Radom Zachodni
+4503::Radom Południowy
+4504::Ruda Wielka
+4505::Wola Lipieniecka
+4506::Jastrząb
+4507::Gąsawy Plebańskie
+4508::Szydłowiec
+4509::Lipowe Pole
+4510::Skarżysko Kamienna Północ
+4511::Dziadówki
+4512::Kamieńczyce
+4513::Szczepanowice
+4514::Smroków
+4515::Słomniki
+4516::Słomniki Miasto
+4517::Goszcza
+4518::Łuczyce
+4519::Baranówka
+4520::Zesławice
+4521::Maków Podhalański
+4522::Juszczyn
+4523::Kojszówka
+4524::Osielec
+4525::Bystra Podhalańska
+4526::Jordanów
+4527::Skawa
+4528::Skawa Środkowa
+4529::Gdakowo
+4530::Mleczewo
+4531::Dąbrówka Malborska
+4532::Gronajny
+4533::Chocicza
+4534::Solec Wielkopolski
+4535::Sulęcinek
+4536::Środa Wielkopolska
+4537::Pierzchno
+4538::Kórnik
+4539::Gądki
+16997::Electrolux Polska
+4541::Poznań Główny Towarowy
+4542::Tarnowo Rogozińskie
+4543::Sokołowo Budzyńskie
+4544::Budzyń
+4545::Ostrówki koło Chodzieży
+4546::Milcz
+4547::Piła Kalina
+4548::Piła Leszków
+4549::Stara Łubianka
+4550::Ptusza
+4551::Podgaje Koszalińskie
+4552::Okonek
+4553::Brokęcino
+4554::Turowo Pomorskie
+4555::Lotyń
+4556::Szczecinek Chyże
+4557::Dalęcino
+4558::Przeradz
+4559::Iwin
+4560::Wielanowo
+4561::Rzeszów Zwięczyca
+4562::Boguchwała
+4563::Wisłoczanka
+4564::Babica
+4565::Babica Kolonia
+4566::Czudec
+4567::Zaborów
+4568::Dobrzechów
+4569::Kalembina
+4570::Wiśniowa
+4571::Frysztak
+4572::Przybówka
+4573::Wojaszówka
+4574::Szebnie
+4575::Czartak
+4576::Mucharz
+4577::Zagórze przy Skawcach
+8336::Kaźmierz Wielkopolski
+4592::Juszkowo
+4593::Straszyn Prędzieszyn
+4594::Goszyn
+4595::Bielkowo
+4596::Pręgowo Gdańskie
+4597::Kolbudy
+4598::Łapino
+3497::Parysów
+4600::Niestępowo
+4601::Lębork Nowy Świat
+4602::Nowa Wieś Lęborska
+4603::Lędziechowo
+4604::Steknica
+4605::Malbork Kałdowo
+4606::Stogi Malborskie
+4607::Lisewo
+4608::Szaflary
+4609::Szaflary Wieś
+4610::Biały Dunajec
+4611::Poronin
+4612::Zembrzyce
+4613::Kraków Bieżanów Drożdżownia
+4614::Kazimierz Pomorski
+4615::Będzino
+8337::Pólko
+12809::Warszawa Czyste
+12810::Warszawa Szczęśliwice
+12811::Widok
+12812::Szczecin Kijewo
+12813::Wrzosy
+12814::Kleszczewo
+12815::Jaglisko
+12816::Rolewiec
+12817::Łokacz
+12818::Krzywołęka
+12819::Gaj
+12821::Łunowo
+154::Barlinek
+12824::Miłachowo
+12827::Dolna Odra
+4645::Czerniki
+4646::Parcz
+4647::Radzieje Węgorzewskie
+4648::Kamionek Wielki
+4649::Przystań
+4650::Bielsko Pomorskie
+12843::Cykowo
+4652::Łękinia
+4653::Wręczyca
+4654::Kłobuck
+4655::Mokra Częstochowska
+4656::Miedźno
+4657::Annolesie
+4658::Działoszyn
+4659::Korytów
+4660::Cieszymowo Wielkie
+4661::Jakubowo
+4662::Obrzynowo
+4663::Gonty
+4664::Licze
+4665::Rakowiec Pomorski
+4666::Mała Karczma
+4667::Zelgoszcz
+4668::Lubichowo
+4669::Ocypel
+4670::Osieczna
+4671::Kownatki
+4672::Jaski
+4673::Lisiowólka
+4674::Bezwola
+4675::Gródek
+4676::Brzeźnica Bychawska
+4677::Tarło
+4678::Szczekarków
+4679::Wandzin
+4680::Ciecierzyn
+4681::Rudnik Przystanek
+4682::Azory
+4683::Raciborów Kutnowski
+4684::Strzelce Kujawskie
+4685::Sierakówek
+4686::Gostynin
+4687::Rogożew
+4688::Proboszczewice Płockie
+4689::Gozdowo
+4690::Susk
+4691::Budwity
+4692::Połowite
+4693::Prakwice
+4694::Dzierzgoń
+4695::Morany
+4696::Waplewo Wielkie
+4697::Tropy Igły
+4698::Szropy
+4699::Łagiewniki Średzkie
+4700::Piekary Udanin
+4701::Jaroszów
+4702::Grzędzice Stargardzkie
+4703::Miedwiecko
+4704::Reptowo
+4705::Szczecin Zdunowo
+4706::Wielowieś
+12432::Rybocice
+17171::Ziegenhals Stadt
+17172::Buchberg
+12922::Łomnica PODS
+12923::Kochcice
+12927::Dębie
+4736::Ostrów Wielkopolski Gorzyce
+4737::Łąkociny
+4738::Daniszyn
+4739::Biadki
+4740::Gorzupia
+4741::Czarnowęsy Pomorskie
+4742::Rąbino
+4743::Nielep
+12936::Sadowiec
+4745::Łobez
+4746::Lesięcin
+4747::Cieszyno Łobeskie
+4748::Chociwel
+4749::Lisowo
+4750::Trąbki
+4751::Gogolewo
+4752::Woszczele
+4753::Stare Juchy
+4754::Wydminy
+4755::Siedliska
+4756::Niegocin
+4757::Sterławki Małe
+4758::Sterławki Wielkie
+4759::Martiany
+4760::Linkowo
+4761::Tołkiny
+4762::Charsznica
+4763::Gajówka
+4764::Jeżówka
+4765::Wolbrom
+4767::Chrząstowice Olkuskie
+4768::Jaroszowiec Olkuski
+4769::Bukowno Przymiarki
+4770::Dąbrowa Górnicza Wschodnia
+4771::Sosnowiec Porąbka
+4772::Poradz
+4773::Bełczna
+11583::Pokrzywno
+4775::Starogard Łobeski
+4776::Maćkowo
+4777::Komorowo Pomorskie
+4778::Dobiesław
+4779::Częstocice
+4780::Miechowice Oławskie
+4781::Sowno
+4782::Mechowo Łobeskie
+4783::Truskolas
+4784::Unibórz
+4785::Kretlewo
+4787::Działdowo R101
+4788::Komorniki
+4789::Krasnołąka
+4790::Zakrzów Sarnowo
+4791::Kozłowo
+12984::Miasteczko Ślaskie Brynica
+12985::Ożarowice
+12986::Dubiele
+12987::Zwierzyniec PODS
+12988::Jup
+12989::Dąbrówka
+4798::Kłębowiec
+12991::Wiśnicze
+4800::Kolno Wałeckie
+4801::Kłosowo
+4802::Wielboki
+4803::Świerczyna Drawska
+4804::Sośnica Pomorska
+4806::Wrocław Różanka (L)
+4807::Wrocław Świniary
+4808::Szewce
+4809::Pęgów
+4810::Oborniki Śląskie
+4811::Osola
+4812::Skokowa
+13005::Wanda
+13006::Rozbark
+13007::Żabiniec
+13008::Antonowiec
+13009::Ruda Orzegów PODG
+4818::Kępka
+4819::Kępice
+4820::Wrząca Pomorska
+4821::Słonowice
+4822::Widzino
+4823::Kobylnica Słupska
+4824::Róg
+13017::Szczerbice
+4826::Borzytuchom
+4827::Kołczygłówki
+4828::Zielin Miastecki
+4829::Gumieniec
+4830::Barcino
+12436::Prochowiec
+13027::Czyżowice mijanka
+4839::Łubiana
+4840::Garczyn
+4841::Osława Dąbrowa
+4842::Pomiłowo
+4843::Studzienice
+4844::Klukowo
+13039::Żwaków
+13044::Katowice Towarowa
+13048::Pogwizdów B
+4799::Karsibór
+12437::Świecko
+4865::Warszawa Olszynka Grochowska
+4866::Warszawa Wawer
+4867::Warszawa Anin
+4868::Warszawa Międzylesie
+4869::Warszawa Radość
+4870::Warszawa Miedzeszyn
+4871::Warszawa Falenica
+4872::Michalin
+4873::Józefów
+4874::Świder
+4875::Śródborów
+4876::Pogorzel Warszawska
+4877::Stara Wieś
+4878::Celestynów
+4879::Kołbiel
+4880::Chrosna
+4881::Zabieżki
+4882::Augustówka
+4883::Bielsko-Biała Leszczyny
+4884::Bielsko-Biała Mikuszowice
+4885::Łodygowice Górne
+4886::Łodygowice
+4887::Pietrzykowice Żywieckie
+4888::Radziechowy Wieprz
+4889::Cięcina Dolna
+4890::Cięcina
+4891::Cisiec
+4892::Milówka
+4894::Rajcza
+4895::Rajcza Centrum
+4896::Rycerka
+4897::Sól
+4898::Sól Kiczora
+4899::Laliki
+170::Swobnica
+1527::Puszczykowo
+16945::Barnówko KERiGP
+4931::Żelisławki
+4932::Gołębiewko
+4933::Więckowy
+4934::Głodowo Kościerskie
+4935::Liniewo Pomorskie
+4936::Liniewko Kaszubskie
+4937::Nowy Barkoczyn
+4938::Wielki Klincz
+4939::Miłobądz
+4940::Rokitki Tczewskie
+4957::Stogi
+4958::Tralewo
+4959::Nowy Staw
+4960::Marynowy
+11351::Burowo
+15714::Role
+12441::Maczków
+8361::Szczepankowo
+6294::Dzikowo Myśliborskie
+5006::Królewo Malborskie
+13199::Kruki
+5008::Fiszewo
+5009::Gronowo Elbląskie
+5010::Stawek
+5013::Łódź Żabieniec
+5014::Brody Pomorskie
+5015::Brodzkie Młyny
+5016::Dziwno
+13209::Juliusz
+5018::Białki
+5019::Brachlewo
+5020::Ryjewo
+5021::Sztumska Wieś
+5022::Sztum
+5023::Grzępa
+5024::Gościszewo
+5025::Bukowo Człuchowskie
+5026::Zakrzewo Złotowskie
+5027::Krajenka
+5028::Dolnik
+5029::Skórka
+13222::Ściernie
+5031::Piła Podlasie
+5032::Skawina Zachodnia
+5033::Podbory Skawińskie
+5034::Zelczyna
+5035::Wielkie Drogi
+5036::Jaśkowice
+5037::Brzeźnica
+5038::Półwieś
+13231::Browarek
+13232::Bory CMK
+13233::Bugaj
+5042::Kielcza
+5043::Żędowice
+5044::Kolonowskie
+5045::Oleszna Podgórska
+5046::Zator
+5047::Przeciszów
+5048::Włosienica
+5049::Wykno
+5050::Zaosie
+5051::Skrzynki
+5052::Tarnawa Dolna
+5053::Czaszyn
+5054::Morochów
+5055::Mokre Małopolskie
+5056::Wysoczany
+5057::Szczawne Kulaszne
+5058::Rzepedź
+5059::Komańcza Letnisko
+5060::Osławica
+5061::Nowy Łupków
+5062::Pigża
+5063::Zamek Bierzgłowski
+5064::Łubianka Toruńska
+5065::Wybcz
+13258::Sosnowiec Główny R3
+5067::Polanowice
+5068::Racice
+5069::Lachmirowice
+5070::Gopło
+5071::Wronowy
+5072::Młyny
+5073::Rożniaty
+5074::Anieliny
+5075::Samostrzel
+5076::Wyrzysk Osiek
+5077::Krostkowo
+5078::Białośliwie
+5079::Miasteczko Krajeńskie
+5080::Kaczory
+5081::Bydgoszcz Zachód
+5082::Pawłówek
+5083::Zielonczyn
+5084::Ślesin
+5086::Bągart
+5087::Płutowo
+5088::Brzozowo Chełmińskie
+7676::Lędziny Ly
+5100::Grudze
+5101::Kamień Łowicki
+5102::Głowno
+5103::Bratoszewice
+5104::Swędów
+5105::Glinnik
+5107::Jeleń
+5108::Bratków
+5109::Szadkowice
+5110::Słomianka
+5111::Sitowa
+5112::Petrykozy
+5113::Ruda Białaczowska
+5114::Kornica
+5115::Końskie
+5116::Wąsosz Konecki
+5117::Czarniecka Góra
+5118::Stąporków
+5119::Wólka Plebańska
+5120::Sołtyków
+5121::Gilów
+5122::Bliżyn
+5123::Brzask
+5124::Skarżysko Milica
+5125::Warszawa Jelonki
+5127::Zbydniów
+5128::Turbia
+3444::Kościelniki Dolne
+15720::Kotowo (ład)
+24722::Katowice Towarowa KTC
+13354::Grzybów LHS
+5163::Biała Rawska
+5164::Strzałki
+5165::Opoczno Południe
+5166::Olszamowice
+5167::Warszawa Ochota WKD
+5168::Warszawa Zachodnia WKD
+5169::Warszawa Reduta Ordona
+5170::Warszawa Aleje Jerozolimskie WKD
+5171::Warszawa Raków
+5172::Warszawa Salomea
+5173::Opacz
+5174::Michałowice
+5175::Reguły
+5176::Malichy
+5177::Tworki
+5178::Pruszków EKD
+5179::Nowa Wieś Warszawska
+5180::Kanie Helenowskie
+5181::Otrębusy
+5182::Podkowa Leśna Wschodnia
+5183::Huta
+5184::Rusiec Łódzki
+5185::Chociw Łaski
+5186::Siedlce Łaskie
+5187::Kozuby
+5188::Kustrzyce
+5189::Zduńska Wola Karsznice Południowe
+5192::Chrzanów Śródmieście
+5193::Łódź Stoki
+5194::Łódź Radogoszcz
+5195::Łódź Arturówek
+5196::Zgierz Północny
+5197::Jedlicze Łódzkie
+5198::Grotniki
+5199::Chociszew
+5200::Ozorków
+5201::Sierpów
+5202::Łęczyca
+5203::Gawrony
+5204::Tarnów Północny
+5205::Tarnów Klikowa
+5206::Łukowa Tarnowska
+5207::Łęg Tarnowski
+5208::Niedomice
+5209::Żabno
+5210::Fiuk
+5211::Dąbrowa Tarnowska
+5212::Olesno Tarnowskie
+5213::Dąbrówki Breńskie
+5214::Mędrzechów
+5215::Delastowice
+5216::Szadek
+5217::Otok
+5218::Poddębice
+5219::Kłudna
+5220::Kraski
+5221::Dąbie nad Nerem
+5222::Wrotków
+5223::Burkat
+5224::Żabiny
+5225::Tuczki
+5226::Rybno Pomorskie
+5227::Jeglia
+5228::Hartowiec
+5229::Rakowice
+5230::Smolniki
+5233::Krosno
+5235::Ostrów Mazowiecka
+5236::Ostrów Mazowiecka Miasto
+5237::Pasłęk
+5239::Radzymin
+5240::Rzeszów Osiedle
+5241::Rzozów
+5242::Smardzew
+5243::Soszyca
+5244::Warszawa Grochów
+5245::Warszawa Koło
+5246::Warszawa Kasprzaka
+5247::Warszawa Ochota
+5248::Warszawa ZOO
+5249::Zielonka Bankowa
+5250::Bernardczyzna
+12031::Planta
+5256::Częstochowa Raków
+5257::Różanystok
+5258::Dąbrowa Białostocka
+5261::Kraków Krzemionki
+5262::Modła Dworzec Mały
+5265::Nowa Wieś Człuchowska
+5266::Spytkowice Kępki
+5267::Tarnobrzeg
+5268::Tarnów Mościce
+5269::Zaborowice
+4813::Osiek Drawski
+5284::Chronów
+5285::Podbór
+5286::Wieniawa
+5287::Skrzynno
+5289::Przysucha
+5290::Smogorzów Przysuski
+5292::Zygmuntów
+5293::Bieliny Opoczyńskie
+5295::Dęba Opoczyńska
+4814::Kawcze
+5318::Lisie Pole
+5319::Widuchowa
+5320::Pacholęta
+2252::Raszówka
+5322::Boleszewo
+5323::Nowy Jarosław
+5324::Sińczyca
+5326::Stryszów
+5327::Stronie
+5328::Przytkowice
+5329::Leńcze
+5330::Podolany
+5331::Wola Radziszowska
+5332::Radziszów
+5334::Górki Pomorskie
+5335::Jarszewo
+5336::Stawno
+5337::Ruda Halemba
+5338::Skarżysko Kościelne
+5339::Grzybowa Góra
+5340::Marcinków
+5341::Starachowice
+5342::Starachowice Wschodnie
+5343::Starachowice Michałów
+5344::Styków Iłżecki
+5345::Brody Iłżeckie
+5346::Staw Kunowski
+5347::Kunów
+5348::Boksycka
+5352::Wieleń Południowy
+5353::Wrzeszczyna
+5354::Rosko
+5355::Gulcz
+5356::Lubasz koło Czarnkowa
+5357::Jędrzejewo Wielkopolskie
+5358::Ciążyń
+5359::Połajewo
+5360::Ryczywół
+5361::Wiardunki
+5362::Siemianowice Bytków
+2259::Płonina
+3625::Kłosowice
+4816::Ciecholub
+3627::Międzychód Letnisko
+5382::Dębica Towarowa
+5383::Bodzechów
+5384::Brzóstowa Opatowska
+5385::Ćmielów
+5386::Drygulec
+5387::Ożarów Cementownia
+5388::Jasice
+5389::Jakubowice
+5390::Stary Garbów
+5391::Dwikozy
+5392::Metan
+5393::Dąbrowica Małopolska
+5394::Skopanie
+5395::Baranów Sandomierski
+5396::Jaślany
+5397::Tuszów Narodowy
+5398::Chorzelów
+5399::Mielec
+5400::Wojsław
+5401::Rzochów
+5402::Rzemień
+5403::Przecław Tuszyma
+5404::Dąbie koło Dębicy
+5405::Pustków
+5406::Kochanówka Pustków
+5407::Pustynia
+1371::Gottwald
+180::Krzeszyce
+3399::Wapno
+3633::Taczanów
+5418::Suszec Kopalnia
+5419::Bytom Północny
+5420::Radzionków Rojca
+5422::Suszec Rudziczka
+5423::Jelenino
+5424::Czarne Małe
+5425::Żelisławie Pomorskie
+5426::Bobrowo Pomorskie
+5427::Rzęśnica
+5428::Suliszewo Drawskie
+5429::Jankowo Pomorskie
+5430::Wiewiecko
+5431::Węgorzyno
+5432::Kamień
+5433::Olszynka
+5434::Żytkowice
+5435::Pionki
+5436::Pionki Zachodnie
+5437::Jedlnia Kościelna
+5438::Jedlnia Letnisko
+5439::Antoniówka
+5440::Rajec Poduchowny
+5441::Radom Wschodni
+5442::Jastrzębie Zdrój Szotkowice
+5443::Godów
+5444::Łaziska Śląskie
+5445::Turza Śląska
+5446::Nowy Widzim
+5449::Boronów
+5450::Miasteczko Śląskie
+16750::Koszalin Prdm
+13649::Radom Krychnowice
+5458::Witkowo Pyrzyckie
+5459::Strzebielewo Pyrzyckie
+5460::Kolin
+5461::Morzyca
+5462::Dolice
+5463::Ziemomyśl
+5007::Stare Pole
+3146::Żodyń
+181::Słońsk
+16949::Bydg. Bocz.Zach.
+5017::Sadlinki
+5539::Kotowiecko
+5540::Kurów
+21926::Rozmierka Polspa
+21927::Iłowa Żagańska Vitrosil
+21928::Żary Kunice Sekurit
+21929::Nowogród Bobrzański Gór.
+21930::Nowogród Bobrzański Elwar
+21931::Nowogród Bobrzański WBK71
+21932::Mirostowice Dolne At
+13749::Czerwony Potok
+3657::Łysomice
+2640::Myślina Lubliniecka
+13216::Kosztowy Krasowy
+13217::Mysłowice Wesoła
+3661::Firlus
+3663::Wałdowo Szlacheckie
+16895::Wrocław Patenice
+5030::Płociczno
+935::Maszewo Lęborskie
+16947::Zajączkowo Tczewskie Warsztaty
+187::Trzciel
+13831::Wesoła PODG
+13228::Przemiarki
+4825::Dąbrówka Bytowska
+7547::Stobnica
+5040::Ryczów
+5041::Tworóg
+2311::Głuszyca
+13881::Pudlov
+16557::Kamieniec
+13920::Jaźwiny (podg.)
+2647::Staniszcze Wielkie
+192::Nojewo
+5795::Szczecin Klucz
+5796::Czepino
+93::Nowa Brda
+193::Binino
+440::Głuchołazy
+5066::Toruń Barbarka
+5822::Szczecin Lotnisko
+11893::Krzeniów
+3703::Rytel
+3704::Piesienice
+3706::Bytonia
+3707::Kaliska
+2343::Strzelce Świdnickie
+11903::Kanał
+11904::Bycina
+12443::Koziczyn
+7017::Wielawino
+11655::Dzierzgów
+9566::Zopfenbeck
+997::Niechlów
+367::Głęboka Śląska
+11656::Parsów
+3733::Osina
+11657::Stare Chrapowo
+1003::Görlitz
+8595::Grabów nad Prosną
+11658::Darłowiec
+16841::Skolwin
+3739::Szczecin Łękno
+3202::Wysoka Gorzowska
+12030::Oskierki
+3744::Szczecin Glinki
+3745::Szczecin Skolwin
+203::Kolsko
+11660::Liszkowo
+6112::Koniecpol Magdasz
+7023::Dobino Białogardzkie
+6125::Mińsk Mazowiecki Anielina
+1021::Zittau
+204::Otyń
+3205::Staw
+6152::Stare Guty
+6153::Kaliszki
+6154::Biała koło Piszu
+6155::Drygały
+6156::Pogorzel Wielka
+6157::Bajtkowo
+6158::Nowa Wieś Ełcka
+6159::Ełk Szyba Zachód
+6160::Jadachy
+6161::Nowa Dęba
+6162::Majdan Królewski
+6163::Komorów Podmurynia
+6164::Cmolas
+6165::Zarębki
+6166::Widełka
+6167::Budy Głogowskie
+6169::Zaczernie
+6171::Targowska Wola
+6172::Kobułty
+6173::Barany
+6174::Jastarnia Wczasy
+6175::Hel Bór
+7857::Niepołomice Pasternik
+3143::Chwalim
+11663::Drzewoszewo
+3207::Ławy
+17023::Szklarska Poręba JKS
+3133::Widzim Stary
+3208::Myśliborzyce
+1039::Wriezen
+16941::Poznań Golęcin
+2407::Zagajnik
+8334::Przybroda
+1043::Stolec
+111::Mścice
+1044::Stolzenburger Glashütte
+3776::Konin Niesłusz
+6274::Szczecin Zdroje Wschodnie
+6275::Urok
+6277::Struga Szczecińska
+6278::Kłobucko Gryfińskie
+6280::Wrzosy Pomorskie
+6281::Nowielin
+6282::Mielęcin Myśliborski
+6284::Lipiany
+3778::Maliniec
+6292::Sulimierz
+6293::Mostkowo
+3210::Chociszewo Rogoziniec
+6296::Pełczyce
+3206::Świątki
+6299::Nowe Chrapowo
+6300::Linie
+6301::Bielice Parsów
+6302::Skrzynice
+6303::Jezioro Wirów
+6304::Wirów
+6305::Żórawie
+6306::Borzym
+6307::Sosnowo Gryfińskie
+6308::Lubanowo
+6309::Baniewice
+6311::Sobieradz (II)
+6312::Żelisławiec Kartno
+6313::Glinna
+6314::Dębina Pomorska
+6315::Kołbacz
+151::Grzmiąca
+6318::Płotno
+6321::Zamęcin
+6322::Mechowo Pyrzyckie
+2419::Poręba Górska
+6324::Brzesko Pomorskie
+6325::Kosin
+6326::Przelewice Pyrzyckie
+6327::Rosiny
+6328::Kłodzino Płońskie
+9562::Rieth
+17009::Jagodzin Tartak
+3213::Głębokie Międzyrzeckie
+19609::Dobramyśl
+6389::Psary Śląskie
+6403::Kokotek
+6406::Lubsza Śląska
+11991::Przeradz B
+16768::Strzelce Krajeńskie CPN
+11994::Moczyłki
+3215::Trzebiszewo
+2440::Szarocin
+16737::Warszawa Ochota Postojowa
+4307::Gwda Mała
+3216::Brzozowiec Gorzowski
+3811::Prostynia
+3814::Sokoliniec
+12009::Warszawa Jelonki Wat
+12010::Warszawa Jelonki Prk7
+12011::Babice Jw4271
+12012::Warszawa Jel Wprd
+3822::Warszawa Służewiec
+289::Krzewina Zgorzelecka
+12015::Chryzanów
+6556::Jastrzębsko
+6557::Nowy Tomyśl
+6558::Sątopy
+6559::Porażyn
+6560::Wojnowice Wielkopolskie
+6561::Buk
+6562::Otusz
+6555::Chrośnica
+6564::Palędzie
+6565::Poznań Junikowo
+6566::Plewiska
+6567::Racławki
+6568::Silno
+6569::Żalno
+6570::Cekcyn
+6571::Lniano
+6572::Jastrzębie Pomorskie
+6574::Leosia
+6575::Gdańsk Stocznia
+6576::Gdynia Obłuże
+6578::Gdynia Pogórze
+6580::Panienka
+14750::Zadębie
+6582::Konarskie
+6583::Wieszczyczyn
+6584::Pysząca
+6585::Śrem Odlewnia
+11676::Wieleń Pomorski
+6587::Grabianowo
+6588::Szołdry
+14781::Lekomin
+6592::Strzelce Krajeńskie Osiedle
+3220::Kaława
+6597::Trzebieszewo Kamieńskie
+6598::Jatki
+6599::Gostyniec
+6600::Niczonów
+6601::Karnice
+6602::Gocławice
+6603::Czaplin
+6604::Trzebiatkowo
+14797::Szczukowice
+13389::Kosieczyn
+6563::Dopiewo
+6614::Miedary
+3833::Chynów
+6617::Zbrosławice
+6623::Kotulin
+3835::Michalczew
+6643::Lekartów
+6645::Wojnowice
+6646::Krzanowice
+6648::Racibórz Lokomotywownia
+1108::Gdynia Port Centralny
+6651::Brzezie Dębicz
+3222::Staropole
+6655::Bluszczów
+6656::Buglowiec
+6660::Ciechno
+6661::Podańsko
+6662::Danowo
+6663::Budzieszowce
+6664::Radzanek
+12037::Głuchowiec
+2483::Łozy
+3849::Kamionka Wielka
+3224::Gronów
+6581::Chwałkowo Kościelne
+3852::Mokra Wieś
+3225::Drezdenko
+2227::Wądroże Wielkie
+6586::Grzymsław
+3498::Chromin
+6589::Borowo
+6769::Gosek
+3226::Trzebicz Krajeński
+6781::Piekary Śląskie Szarlej
+6782::Dąbrówka Wielka
+6790::Kuźnica
+9578::Przecław
+2498::Stary Grodków
+6804::Zabrze Południowe
+6811::Zabrze Wschód
+6814::Ruda Śląska Południe
+6817::Ruda Chebzie RCC
+6818::Kopalnia Zabrze - Bielszowice
+6821::Kokociniec
+6825::Ruda Śląska Nowy Bytom
+6826::Ruda Czarny Las
+6827::Ruda Nowy Wirek
+2505::Biskupów
+3871::Białuń
+3872::Rokita
+7969::Pruchna
+11685::Widlice
+2510::Podkamień
+7972::Drogomyśl
+10703::Barnisławice
+229::Żmigród
+2513::Buków Jodłów
+2685::Pszczew
+1867::Dusina
+6615::Wieszowa
+9505::Stary Dzierzgoń
+6926::Gostomia
+6927::Dzikowo Wałeckie
+6928::Prusinowo Wałeckie
+6929::Rusinowo
+6930::Mielęcin Wałecki
+6931::Bukowo Krąpiel
+6932::Przelewice
+6933::Żelichowo
+6934::Kuźnica Żelichowska
+6935::Janopole
+6936::Huta Szklana
+6937::Lubcz Mały
+4050::Lisewo Kaszubskie
+7984::Bażanowice
+140::Ognica
+6964::Borujsko
+6966::Stara Korytnica
+6968::Biały Zdrój Północny
+6969::Kalisz Pomorski Miasto
+6970::Dębsko Pomorskie
+6978::Sieniawa Drawieńska
+6980::Kiełpino
+6982::Suliszewo Choszczeńskie
+6983::Smoleń
+6984::Wardyń
+3233::Kursko
+12928::Więcki
+16185::Zborowice
+4052::Toliszczek
+16186::Mszalnica
+16187::Nowy Sącz Expol
+7016::Lubogoszcz
+16188::Skawina Zakłady Metalowe
+7018::Stary Chwalim
+7019::Łęknica Koszalińska
+7020::Piaski Pomorskie
+7021::Kołacz
+7022::Zajączkowo Połczyńskie
+16189::Skawina Szks
+7024::Toporzyk
+7025::Chlebowo
+7026::Gawroniec
+7027::Cieszyno Drawskie
+16190::Jasienica koło Bielska
+7041::Cieszeniewo
+16956::Cigacice (tow)
+2541::Ludmierzyce
+236::Kożuchów
+3375::Sobiałkowo
+3915::Sarbia
+16764::Szczecin Gryfbet
+9786::Gotki
+16769::Strzelce Krajeńskie Tartak
+7208::Michałów Reginów
+7209::Nieporęt
+7210::Beniaminów
+7211::Dąbkowizna
+7212::Emilianów
+7213::Jarzębia Łąka
+7214::Grzegorzewo
+7215::Mostówka
+7216::Lucynów
+7217::Rybienko
+7218::Leszczydół
+7219::Dalekie
+7220::Zygmuntowo Mazowieckie
+7221::Przetycz
+7222::Pasieki
+7223::Goworowo
+7224::Gierwaty
+3241::Krasnołęg
+9788::Gamerki Wielkie
+7232::Szczekociny
+7233::Węgrzynów Stary
+7234::Mstyczów
+7235::Marcinowice
+3937::Karlino
+17015::Wrocław Agroma
+7241::Wola Kuczkowska
+7244::Siewierz
+7248::Będzin Łagisza
+7249::Gródków
+7256::Będzin Wojkowice
+7265::Babia Ława
+15466::Ludźmierz
+7276::Warszawa Wesoła
+7277::Warszawa Wola Grzybowska
+7278::Sulejówek
+7279::Sulejówek Miłosna
+7280::Halinów
+7281::Cisie
+7282::Dębe Wielkie
+7283::Nowe Dębe Wielkie
+7284::Wrzosów
+23690::Com 40 LTD
+23696::Nakły
+4651::Koczała
+23716::Drausendorf
+3953::Łuków Łapiguz
+12433::Kunice Odrzańskie
+23734::Chwiram Most
+5321::Gwiazdówko
+23736::Zawalów
+23739::Brwice Małe
+2592::Gorzów Śląski
+23746::Czerwonak Osiedle
+23747::Kotowo
+23748::Zielone Wzgórza
+1231::Tuczno Krajeńskie
+2598::Łęka Opatowska
+148::Stare Ludzicko
+2602::Sowczyce
+7425::Tychy Czułów
+2604::Bąków
+1195::Zieleń PODG
+16752::Trzebiatów CPN
+7463::Koziegłowy
+7464::Naramowice
+7466::Lębork Dretowo
+7467::Osowo Lęborskie
+7468::Kostroga
+7469::Czarna Dąbrówka
+7470::Jasień NI
+7471::Mszczonów
+7473::Bydgoszcz Osowa Góra
+7474::Ostrów Wielkopolski Zachodni
+7475::Sierakowice Skierniewickie
+7476::Mokra
+7477::Bełchów
+7478::Bobrowniki
+7479::Piławki
+2612::Łowkowice
+13535::Będów
+7484::Gdańsk Nowe Szkoty
+7485::Gdańsk Kolonia
+15690::Worowo podg. 1
+15693::Suwałki CPN
+15694::Okuniowiec
+15695::Nieznany Bór (Bsz)
+15696::Konewka
+15697::Glinnik BOCZ
+15698::Stara Wieś ??
+15699::Rudnicze
+15701::Szczecin Dąbie SDA
+15702::Szczecin Zdroje p.odg
+15703::Białogard PZM
+15704::Dębczyno
+250::Szczecin Gumieńce
+7522::Jadwiżyn
+15718::Żółczyce
+7527::Parkowo
+7528::Rożnowo
+7530::Oborniki Wielkopolskie Miasto
+7531::Wargowo
+7532::Chludowo
+7533::Golęczewo
+7534::Poznań Podolany
+7535::Poznań Strzeszyn
+7545::Bąblin
+15738::Lubania Lipiny
+15739::Kraków Business Park
+7548::Ordzin
+4616::Słowienkowo
+7562::Motylewo
+7563::Ujście Południowe
+9453::Gdańsk Olszynka
+9454::Wisła Most
+2629::Jastrzębie Śląskie
+1381::Gliwice Sośnica Towarowa
+4617::Miłogoszcz
+9457::Szpęgawsk
+7600::Rybno Wielkie
+7601::Kiszkowo
+7602::Stawiany
+2633::Ozimek
+4618::Tymień
+7619::Mieszko SH
+10829::Werbkowice Zachodnie
+7644::Knieje
+7649::Jaworzno Niedzieliska
+7653::Jaworzno Azot
+7655::Jaworzno Szyb Sobieski
+9468::Nowy Dwór Kwidzyński
+7662::Bory
+7664::Jaworzno Byczyna
+7667::Chrzanów Kąty
+7546::Kiszewo
+7670::Tychy Zachodnie
+7671::Tychy Urbanowice
+7672::Tychy Świerczyniec
+7673::Górki-Ściernie
+7674::Górki Ścierne
+6925::Chwiram
+15868::Podolany PODG
+7677::Lędziny Świniowy
+4620::Ustronie Morskie
+7681::Libiąż
+7683::Chełmek
+7684::Chełmek Fabryka
+7685::Chełm Śląski
+7688::Gorzów Chrzanowski
+7691::Pogorzyce
+7692::Płaza
+141::Lipki Wielkie
+7707::Kraków Nadwiśle
+4621::Bagicz
+7737::Podgrabie Wisła
+4622::Podczele
+8344::Wituchowo
+16898::Wilcza Góra R1
+4027::Regulice Górne
+4805::Będlino
+7801::Nida
+7802::Dębska Wola
+7803::Kije
+7804::Stawiany Pińczowskie
+7805::Szarbków
+7806::Grochowiska
+2616::Łącznik
+161::Chwarstnica
+16015::Będzin R41
+16018::Sosnowiec Główny R7
+4035::Włynkowo
+16021::Sosnowiec Główny R40
+16022::Sosnowiec Główny R104
+16024::Katowice Zawodzie R1
+16027::Katowice R36
+16048::Tunel R12
+16049::Kobylin
+16051::Sielinko
+4744::Klępnica
+16065::Mienia PBSZ
+16066::Kosiorki
+16067::Radomyśl
+16068::Porosiuki
+16069::Perkowice
+16070::Mętraki
+16071::Magdalenka
+16072::Małaszewice Południowe
+9506::Folwark
+7900::Kupienin
+16098::Kraków Centrostal
+16099::Piaski koło Kielc
+16100::Stara Wola
+16102::Łaskarzew
+16103::Zarzeka (tow.)
+16903::Żabczyce
+16105::Uherka
+16108::Lublin Północny Podg.
+16109::Damazy
+16110::Krutgas
+16111::Tezet
+16112::Białystok Towarowy
+16113::Gieniusze B
+16114::Łosośna
+16115::Łosośna (b.szl.)
+16116::Bocznica Krubin
+16117::Smolniki Bocznica
+16118::Łódź Uniwersytet
+16119::Kępa Gliniecka
+16120::Sieradz Męka Bsz
+16121::Szprotawa DZM
+16122::Barść
+16123::Mielęcin
+16124::Bocznica Wawel
+16126::Antoniów
+16128::Radzice
+16129::Kończyce Radomskie
+16131::Zalesie Gorzyckie
+16132::Grębocin Podg.
+16133::Garbarnia
+16134::Dobrowoda "Z"
+16135::Witowo (mijanka)
+16136::Lewki Podg.
+16137::Białystok JW 157
+16138::Białystok Fabryczny IKAJ
+16139::Sokole (CPN)
+16140::Ełk Towarowy PŁD
+16141::Wasilówka
+16142::Suwałki Jw150
+16143::Sokółka Prefab
+16144::Sokółka CPN
+16145::Sokółka Zadw
+16146::Roszornia
+16147::Sajenek
+16148::Ełk Towarowy PŁN
+16150::Botkuny bocznica
+16151::Chytra
+16157::Teodorów
+16158::Fabryka Lin i Drutu
+16160::Borek
+16161::Krasnystaw Miasto
+16163::Bełżec Drugi
+16164::Podlesina
+16165::Malce
+7974::Chybie Mnich
+16167::Starzyny (podg.)
+16168::Hedwiżyn Bocznica
+7977::Grodziec Śląski
+7978::Pogórze
+16171::Nowa Osada
+16172::Hrubieszów CPN
+16173::Zamość Bortatycze
+7983::Goleszów Górny
+16176::Rybnik Rymer
+7985::Cieszyn Mnisztwo
+16183::Kłokowa B
+16184::Wierchomla
+7993::Kaniów
+7994::Dankowice
+7995::Jawiszowice Jaźnik
+7996::Brzeszcze Jawiszowice
+7997::Brzeszcze Kopalnia
+7998::Brzeszcze
+6298::Rzepnowo
+8036::Lachowice
+8037::Stryszawa
+8038::Kurów Suski
+8039::Lachowice Centrum
+8040::Hucisko
+8042::Pewel Wielka
+12263::Puszczew
+8045::Jeleśnia
+8046::Pewel Wielka Centrum
+8047::Pewel Mała
+8049::Żywiec Sporysz
+2723::Lednogóra
+8060::Pyzówka
+8061::Lasek
+8062::Sieniawa
+8063::Raba Wyżna
+8064::Rokiciny Podhalańskie
+8070::Rogoźnik Podhalański
+8071::Czarny Dunajec
+16270::Trzebinia Szyb Andrzej
+16271::Trzebionka
+16274::Andoria
+16275::Chałupki Med CZH
+16276::Chrzanów Żelatowa
+16277::Chrzanów Zmo
+16278::Chrzanów CPN
+16279::Lubotyń
+16280::Lipki Podg
+16281::Lizawice Podg
+16282::Dąbrowa Górnicza Huta Katowice podg
+8129::Andrzejówka
+2721::Biskupice Wielkopolskie
+8143::Libusza
+8144::Biecz
+8145::Siepietnica
+8146::Skołyszyn
+8147::Przysieki
+8148::Jasło Niegłowice
+9572::Szczecin Gocław Towarowy
+9551::Wąwelnica Szczecińska
+8159::Gliniczek
+8160::Tarnowiec
+8161::Jedlicze Męcinka
+8162::Jedlicze
+8163::Krosno Turaszówka
+8164::Krosno Polanka
+8167::Krosno Miasto
+8169::Targowiska
+8170::Widacz
+8171::Wróblik Szlachecki
+8172::Milcza
+8173::Besko
+8179::Niziny
+24567::Łososina Tartak
+8189::Hermanowice
+13448::N/A
+13445::N/A
+4066::N/A
+3829::Ustanówek
+4456::Rzeczyca
+6168::Rogoźnica koło Rzeszowa
+6170::Miłocin
+24871::Warszawa Lotnisko Chopina
+3819::Bydgoszcz Akademia
+2820::Zabrze

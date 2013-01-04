@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+{% load utils %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% load dajaxice_templatetags %}
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Karol Farbiś, Maciej Kacprzak" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>Kolstat - {% block title %}[untitled]{% endblock %}</title>
+
+	
+	<link type="text/css" href="{{ STATIC_PREFIX }}css/ui-lightness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+	<link type="image/x-icon" href="{{ STATIC_PREFIX }}img/favicon.ico" rel="icon" />
+	<link type="text/css" href="{{ STATIC_PREFIX }}css/style.css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="{{ STATIC_PREFIX}}js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_PREFIX}}js/jquery-ui-1.8.21.custom.min.js"></script>
+
+	<script type="text/javascript">
+
+		function ready(){
+			$('a.del').click(function(){
+				return confirm('Jesteś pewien?');
+			});
+		}
+
+		$(document).ready(ready);
+	</script>	
+
+	{% dajaxice_js_import %}
+
+	{% block head %}
+
+	{% endblock %}
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="main-menu">
+			<ul>
+				<li> <a href="{% url journey-add %}"><div>Dodaj podróż</div></a></li>
+				<li> <a href="#"><div>Planuj</div></a></li>
+				<li> <a href="{% url kolstat-trains-search %}"><div>Pociągi</div></a></li>
+				<li> <a href="#"><div>Baza taboru</div></a></li>
+				<li> <a href="#"><div>Stacje</div></a></li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<div id="loginbox">
+				{% if not user.is_authenticated %}
+					<form action="{% url django-login %}" method="post">{% csrf_token %}
+						<fieldset><legend>Panel logowania</legend>
+							{% get_login_form "as_p" %}
+							<input class="button" type="submit" value="Zaloguj" />
+							<button><a href="{% url socialauth_begin "google-oauth2" %}">Zaloguj z Google</a></button>
+						</fieldset>
+					</form>
+				{% else %}
+					<p>Witaj, <b>{{user.first_name}}</b>!</p>
+					<p><a href="{% url user-journeys %}">Moje podróże</a></p>
+					{% if user.is_superuser %} <p><a href="{% url admin %}">AdminPanel</a></p> {% endif %}
+					<p><a href="{% url django-logout %}">Wyloguj się</a></p>
+				{% endif %}
+			</div>
+		{% block content %}
+		{% endblock %}
+		</div>
+
+		<footer>
+			<p>&copy; 2012 by Kolstat Development Inc.</p>
+		</footer>
+	</div>
+</body>
+
+</html>
