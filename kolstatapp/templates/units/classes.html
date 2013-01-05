@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}baza taboru - serie{% endblock %}
+
+{% block content %}
+<h1>Serie</h1>
+<ul>
+	{% for x in classes %}
+	<li><i>{{ x.category }}</i> <b>{{ x.name}}</b> - {{x.producer}}</li>
+	{% endfor %}
+</ul>
+{% endblock %}
