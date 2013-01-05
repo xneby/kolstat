@@ -24,5 +24,6 @@ urlpatterns = patterns('kolstatapp.views',
 	url(r'admin/trains/$', 'train_list', name='admin-trains'),
 	url(r'admin/trains/add$', 'train_add', name='admin-add-train'),
 	url(r'admin/trains/(?P<train_id>\d+)/delete/', 'train_delete', name='admin-train-delete'),
+	url(r'units/classes/', 'units_classes', name='units-classes'),
 
 )

@@ -55,3 +55,12 @@ class TrainNameAdmin(admin.ModelAdmin):
 	list_filter = ('name',)
 admin.site.register(models.TrainName, TrainNameAdmin)
 
+class UnitClassAdmin(admin.ModelAdmin):
+	list_display = ('name', 'category', 'producer')
+	list_filter = ('producer', 'category',)
+admin.site.register(models.UnitClass, UnitClassAdmin)
+
+class UnitAdmin(admin.ModelAdmin):
+	list_display = ('name', 'evn', 'unitclass', 'producer', 'yearofbuild')
+	list_filter = ('unitclass', 'producer', 'yearofbuild')
+admin.site.register(models.Unit, UnitAdmin)
