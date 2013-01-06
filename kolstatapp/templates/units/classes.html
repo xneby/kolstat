@@ -3,10 +3,14 @@
 {% block title %}baza taboru - serie{% endblock %}
 
 {% block content %}
-<h1>Serie</h1>
+<h1>Baza taboru</h1>
+
+{% for c in classes %}
+<h2>{{ c.name }}</h2>
 <ul>
-	{% for x in classes %}
-	<li><i>{{ x.category }}</i> <b>{{ x.name}}</b> - {{x.producer}}</li>
+	{% for x in c.classes %}
+	<li><b><a href="{% url units-class x.name %}">{{ x.name }}</a></b> ({{ x.producer }})</li>
 	{% endfor %}
 </ul>
+{% endfor %}
 {% endblock %}
