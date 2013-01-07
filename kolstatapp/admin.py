@@ -55,3 +55,7 @@ class TrainNameAdmin(admin.ModelAdmin):
 	list_filter = ('name',)
 admin.site.register(models.TrainName, TrainNameAdmin)
 
+class DiscountAdmin(admin.ModelAdmin):
+	list_display = ('kurs90Name', 'description')
+	fields = (('kurs90ID', 'kurs90Name'), ('discount', ), ('description', 'documentName'))
+admin.site.register(models.Discount, DiscountAdmin)

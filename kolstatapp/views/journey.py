@@ -81,11 +81,14 @@ def journey_add_step3(request):
 
 	request.session['tid'] = tid
 
-	train = HafasTrain.fromId(tid)
+	trains = Train.search(tid)
 
-	ktrain = Train.fromHafas(train)
+	if len(trains) != 1:
+		raise Redirec(reverse('journey-add'))
 
-	return dict(train = train, compositions = ktrain.get_compositions()[:5])
+	train, = trains
+
+	return dict(train = train, compositions = train.get_compositions()[:5], start = stations[step-1], end = stations[step])
 
 @expose('')
 def journey_add_finitialize(request):

@@ -1,7 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin-ext);
+﻿@import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin-ext);
 
 body {
-	font-family: sans;
+	font-family: sans-serif;
 }
 
 .train-type-img {
@@ -374,4 +374,53 @@ table.rozklad tr:hover {
 }
 table.rozklad td.poczkon {
 	font-weight: bold;
+}
+
+/* CENNIK */
+
+.cennik td.type, .cennik td.price, .cennik td.stats_name, .cennik td.first_stats {
+	border-top: solid 1px black;
+}
+
+.cennik td.price {
+	border-right: solid 1px black;
+}
+
+.cennik td.price, .cennik td.discount, .cennik td.relation, .cennik td.type, .cennik td.stats_name {
+	border-left: solid 1px black;
+}
+
+.cennik td.stats_name {
+	text-align: right;
+	padding-right: 5px;
+	width: 150px;
+}
+
+.cennik .razem {
+	font-weight: bold;
+}
+
+.cennik .last_row  {
+	border-bottom: solid 1px black;
+}
+
+.cennik {
+	border-spacing: 0px;
+}
+
+.cennik td {
+	padding: 2px;
+}
+
+.cennik td.type, .cennik td.discount {
+	width: 400px;
+	text-align: left;
+}
+
+.cennik td.price {
+	width: 100px;
+}
+
+.cennik td.relation, .cennik td.razem {
+	font-size: 150%;
 }

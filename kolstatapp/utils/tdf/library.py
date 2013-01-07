@@ -10,6 +10,10 @@ def time_from_yaml(t):
 	if t is None:
 		return None
 
+	if type(t) in (type(u'00:00'), type('00:00')):
+		h, m = map(int, t.split(':'))
+		t = 60*h+m
+		
 	return time(minute = t % 60, hour = t // 60)
 
 def import_train(yaml):

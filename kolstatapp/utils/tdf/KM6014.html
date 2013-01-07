@@ -1,0 +1,763 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="pl">
+<head>
+<!-- hafas 1 -->
+<title>Tw&#243;j Plan Podr&#243;&#380;y - Poci&#261;gi i linie</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="accept-charset" content="utf-8">
+<meta name="keywords" content="pkp,rozk&#322;ad jazdy,rozklad jazdy,kolej,poci&#261;g,poci&#261;gi,po&#322;&#261;czenia,polaczenia,po&#322;aczenia,pociag,poci&#261;gi,stacje,stacja,rozklad,rozk&#322;ad,relacje,kolejowy,kolej,koleje,inter city,intercity,dworzec,dworzec g&#322;&#243;wny,podr&#243;&#380;e,podroze,pozd&#243;ze,podro&#380;e,hotel,hotele,podr&#243;&#380;owa&#263;,podr&#243;&#380;owanie,wyszukiwarka,nocleg,noclegi,weekend,wekend,wolny czas,pogoda,prognoza pogody,pogodynka,rezerwacja,rezerwacje,spa,wypoczynek,wakacje,nocowanie, Poland, polish rail, timetables, schedules, PKP, fares, polish railways, polish railway, polish, Euope, European, railways, return, ptp, rail, travel, railway timetable, timetable, warsaw, poznan, wroclaw, gdansk, krakow">
+<meta name="description" content="Centrum obs&#322;ugi pasa&#380;era, portal dla podr&#243;&#380;nych - aktualne po&#322;&#261;czenia, przydatne informacje, ciekawe miejsca, informacje dla niepe&#322;nosprawnych, mobilny rozk&#322;ad PKP, SMS, WAP, poci&#261;gi on line.">
+<script type="text/javascript" src="/hafas-res/js/hafas_standard.js"></script>
+<script type="text/javascript" src="/hafas-res/js/hafas_standard_map_checkbrowser.js"></script>
+<script type="text/javascript" language="javascript">
+<!--
+var imgPath = "/hafas-res/img/";
+var mapwidth = 669;
+var mapheight = 549;
+var globalMap = "";
+var mapBaseURL = "http://rozklad-pkp.pl/bin/query.exe/pn?ld=s32&amp;".replace(/&amp;/g,"&");
+var askUserText = "";
+var offsetCorrection = "";
+var confirmCoordinateClickedByJS = "yes";
+var bUseInputsForMapActions = false;
+// -->
+</script>
+<script type="text/javascript" src="/hafas-res/js/hafas_standard_calendar_new.js"></script>
+<script type="text/javascript" src="/hafas-res/js/hafas_utilities.js"></script>
+<script type="text/javascript">
+<!--
+var baseUrl = "http://rozklad-pkp.pl/bin/stboard.exe/pn?";
+var gBaseUrl = "http://rozklad-pkp.pl/bin/query.exe/pn?";
+var gUrlTravelPlannerJSON = "http://rozklad-pkp.pl/bin/query.exe/pn";
+var helpBaseUrl = "http://rozklad-pkp.pl/bin/help.exe/pn?";
+var waitIcon = "http://rozklad-pkp.pl/hafas-res/img/wait_ani.gif";
+var okIcon   = "http://rozklad-pkp.pl/hafas-res/img/ok.gif";
+var cancelIcon   = "http://rozklad-pkp.pl/hafas-res/img/failure.gif";
+var newIcon   = "http://rozklad-pkp.pl/hafas-res/img/new.gif";
+var tTime = "Czas";
+var tLine = "Kurs";
+var tRT = "RT";
+var tDirection = "Kierunek";
+var tWait = "Prosz&#281; czeka&#263; ...";
+var tError = "B&#322;&#261;d";
+var tTryAgain = "Pr&#243;buj od nowa";
+//-->
+</script>
+<script type="text/javascript" language="javascript">
+<!--
+function startHafasSearch(){
+input = document.getElementById('hafasQuickSearch').value;
+//		var matches = "[a-zA-Z0-9&#228;&#246;&#252;&#196;&#214;&#220;&#223;]";
+if (input.match(/^(.+)-(.+)$/) ){
+var erg = input.match(/^(.+)-(.+)$/);
+window.location.href = "/bin/query.exe/pn?S="+erg[1]+"&Z="+erg[2]+"&identifyLocation=1";
+} else if (input.match(/^\s*(\d+)\s*$/)){
+var erg = input.match(/^\s*(\d+)\s*$/);
+window.location.href = "/bin/trainsearch.exe/pn?trainname="+erg[1];
+} else {
+var erg = input.match(/^\s*(.+)\s*$/);
+window.location.href = "/bin/stboard.exe/pn?input="+erg[1]+"&time=16:43";
+}
+}
+//-->
+</script>
+<script type="text/javascript" src="/hafas-res/js/jquery/jquery-1.4.3.js"></script>
+<script type="text/javascript" src="/hafas-res/js/showhidediv.js"></script>
+<script type="text/javascript" src="/hafas-res/js/jquery/jquery-ui-1.8.6.min.js"></script>
+<link rel="stylesheet" href="/hafas-res/js/jquery/css/smoothness/jquery-ui-1.8.6.css">
+<script type="text/javascript" language="javascript">
+jQuery.noConflict();
+function validateEvaNumbers(){
+var fromEvaNr =jQuery( "#from" ).attr("evaNr");
+var toEvaNr =jQuery( "#to" ).attr("evaNr");
+var bg = jQuery("#from").css("backgroundColor");
+//for Opera(?)
+if(bg == 'transparent'){
+bg = "#FFFFFF";
+}
+if(fromEvaNr != null && fromEvaNr !=''){
+jQuery("#from").css("color",bg);
+jQuery("#from").val(fromEvaNr);
+}
+if(toEvaNr != null && toEvaNr !=''){
+jQuery("#to").css("color",bg);
+jQuery("#to").val(toEvaNr);
+}
+}
+jQuery(document).ready(function() {
+jQuery( "#from" ).autocomplete({
+source: function( request, response ) {
+jQuery.ajax({
+url: "http://rozklad-pkp.pl/stops.php",
+dataType: "jsonp",
+data: {
+q:request.term,
+maxRows: 12
+},
+success: function( data ) {
+response( jQuery.map( data.stops, function( item ) {
+return {
+label: item.name,
+value: item.name,
+evaNr: item.evaNr
+}
+}));
+},
+contentType:"application/x-www-form-urlencoded;charset=UTF-8"
+});
+},
+minLength: 3,
+delay:100,
+open: function() {
+jQuery( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+jQuery( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+},
+select: function(event, ui) {
+jQuery("#from").attr("evaNr",ui.item.evaNr);
+}
+});
+jQuery( "#to" ).autocomplete({
+source: function( request, response ) {
+jQuery.ajax({
+url: "http://rozklad-pkp.pl/stops.php",
+dataType: "jsonp",
+data: {
+q:request.term,
+maxRows: 12
+},
+success: function( data ) {
+response( jQuery.map( data.stops, function( item ) {
+return {
+label: item.name,
+value: item.name,
+evaNr: item.evaNr
+}
+}));
+}
+});
+},
+minLength: 3,
+delay:100,
+open: function() {
+jQuery( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+jQuery( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+},
+select: function(event, ui) {
+jQuery("#to").attr("evaNr",ui.item.evaNr);
+}
+});
+});
+</script>
+<script type="text/javascript" src="/hafas-res/js/prototype.js"></script>
+<script type="text/javascript" src="/hafas-res/js/effects.js"></script>
+<script type="text/javascript" src="/hafas-res/js/dragdrop.js"></script>
+<script type="text/javascript" src="/hafas-res/js/stBoardTicker.js"></script>
+<link rel="stylesheet" type="text/css" href="/hafas-res/css/pkp_hafas_2008.css">
+<link rel="stylesheet" type="text/css" href="/hafas-res/css/pkp_hafas_2008_calendar.css">
+<style type="text/css">
+<!--
+table.grey th.querysummary, table.grey td{
+background-color:transparent !important;
+}
+/*--
+div.baton div.btl {
+background: url("/hafas-res/img/ok/1.gif") center left no-repeat;
+}
+div.baton div.bts {
+background: url("/hafas-res/img/ok/2.gif") center repeat-x;
+}
+div.baton div.btr {
+background: url("/hafas-res/img/ok/3.gif") center right no-repeat;
+}
+div.baton div.btlb {
+background: url("/hafas-res/img/ok/1a.gif") center left no-repeat;
+}
+div.baton div.btrb {
+background: url("/hafas-res/img/ok/3a.gif") center right no-repeat;
+}
+div.baton div.bpl {
+background: url("/hafas-res/img/ok/4.gif") center left no-repeat;
+}
+div.baton div.bplb {
+background: url("/hafas-res/img/ok/4a.gif") center left no-repeat;
+}
+div.baton div.bpr {
+background: url("/hafas-res/img/ok/6.gif") center right no-repeat;
+}
+div.baton div.bprb {
+background: url("/hafas-res/img/ok/6a.gif") center right no-repeat;
+}
+div.baton div.bps {
+background: url("/hafas-res/img/ok/5.gif") center left repeat-x;
+}
+div.border {
+background: #f0f1f3;
+}
+div.border div.tl {
+background: url("/hafas-res/img/ok/box_01.gif") top left no-repeat;
+}
+div.border div.top {
+background: url("/hafas-res/img/ok/box_02.gif") top left repeat-x;
+}
+div.border div.tr {
+background: url("/hafas-res/img/ok/box_03.gif") top right no-repeat;
+}
+div.border div.left {
+background: url("/hafas-res/img/ok/box_04.gif") top left repeat-y;
+}
+div.border div.right {
+background: url("/hafas-res/img/ok/box_06.gif") top right repeat-y;
+}
+div.border div.bl {
+background: url("/hafas-res/img/ok/box_07.gif") bottom left no-repeat;
+}
+div.border div.br {
+background: url("/hafas-res/img/ok/box_09.gif") bottom right no-repeat;
+}
+div.border div.btm {
+background: url("/hafas-res/img/ok/box_08.gif") bottom left repeat-x;
+}
+--*/
+div.border div.content {
+font-family: Verdana, Arial, Helvetica;
+padding: 0px;
+font-size: 11px;
+height:100%;
+background-color:#f6f6f6;
+border: 1px solid #e7e7e7;
+}
+div.contentSlider {
+background-image:url("/hafas-res/img/ok/kw.gif");
+}
+.menu {
+background:url("/hafas-res/img/menu/kreska.gif") 0px 0px no-repeat;
+}
+.menu1 {
+background:url("/hafas-res/img/menu/empty.gif") 3px 2px no-repeat;
+}
+ul#menu li ul li a {
+background: url("/hafas-res/img/menu/li.gif") left no-repeat #e4e4e4;
+border-bottom: 1px solid #b3b3b3;
+}
+#hafasNavigation a.sub {
+background:#fff;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+-->
+</style>
+</head>
+<body onload="initAllTickerFromCookie(); if (document.getElementById('mapForm')) document.getElementById('mapForm').submit();initAllTickerFromCookie();"  style="padding:0;margin:0;" >
+<script type="text/javascript">
+var language="p";
+</script>
+<a name="top"></a>
+<div id="popUpRect"><img src="/hafas-res/img/space.gif" width="1" height="1" alt=""></div>
+<div align="center" id="HFSALL">
+<div id="ram">
+<div style="width:985px; text-align:left;  background-color:#efefef; display:block;">
+<div id="hafasHeader">
+<div><a href="http://www.tktelekom.pl/" target="_blank" title="TK Telekom"><img src="/hafas-res/img/header/tk-logo.gif" border="0" width="281" height="71" alt=""></a><a href="/" title="Strona G&#322;&#243;wna"><img src="/hafas-res/img/header/pl-header.gif" border="0" width="413" height="71" alt=""></a><a href="http://dworzecpolski.pl" target="_blank" title="Dworzec Polski"><img src="/hafas-res/img/header/dp-logo.gif" border="0" width="282" height="71" alt="DP"></a></div>
+<div style="border-top: 0px solid #e1640a;border-bottom: 0px solid #e1640a; width:100%; padding: 1px 0px 1px 0px;">
+</div>
+</div>
+</div>
+<div id="hafasContent2" style="padding:0px;left:0px;">
+<table cellpadding="0" cellspacing="0" style="position:relative;top:0px;left:0px;width:980px;height:300px;">
+<tr>
+<td colspan="2">
+<div style="width:970px;">
+<div id="hafasNavigationMenu">
+<div class="white">
+<ul class="mega-menu" id="mega-menu-9">
+<li><a class="" href="/bin/query.exe/pn?">Strona g&#322;&#243;wna<!--[if IE 7]><!-- -- --></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+<li><a class="" href="/bin/stboard.exe/pn?">Odjazdy/przyjazdy</a></li>
+<li><a class="active" href="/bin/trainsearch.exe/pn?">Poci&#261;gi i linie</a></li>
+<li><a href="http://rozklad-pkp.pl/bin/help.exe/pn?tpl=him_map&amp;"><span class="wykrzyknik">Utrudnienia</span></a></li>
+<li><a class="" href="/bin/query.exe/pn?ld=s32&amp;tpl=map&amp;AjaxMap=CPTVMap">Mapa</a></li>
+<li><a href="http://rozklad-pkp.pl/bin/help.exe/pn?tpl=sms&amp;">Rozk&#322;ad SMS/WAP</a></li>
+<li><a href="http://rozklad-pkp.pl/bin/help.exe/pn?tpl=aktualizacja&amp;">Rozk&#322;ad CD</a></li>
+<li><a href="http://rozklad-pkp.pl/bin/help.exe/pn?tpl=kontakt&amp;">Kontakt</a></li>
+</ul>
+<div class="lang">
+<a class="activelanguage" href="http://rozklad-pkp.pl/bin/trainsearch.exe/pn?newrequest=yes&amp;"><img class="language" src="/hafas-res/img/flag_poland.gif" border="0" width="16" height="10" alt="Polski" title="Polski"></a>
+<a class="language" href="http://rozklad-pkp.pl/bin/trainsearch.exe/en?newrequest=yes&amp;"><img class="language" src="/hafas-res/img/flag_uk.gif" border="0" width="16" height="10" alt="English" title="English"></a>
+<a class="language" href="http://rozklad-pkp.pl/bin/trainsearch.exe/dn?newrequest=yes&amp;"><img class="language" src="/hafas-res/img/flag_germany.gif" border="0" width="16" height="10" alt="Deutsch" title="Deutsch"></a>
+<a class="language" href="http://rozklad-pkp.pl/bin/trainsearch.exe/rn?newrequest=yes&amp;"><img class="language" src="/hafas-res/img/flag_russia.gif" border="0" width="16" height="10" alt="P&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;" title="P&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;"></a>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr><td style="vertical-align:top;">
+<script type="text/javascript" language="javascript">
+function tq_query_content_setactiveslider( number ){
+for( var i=0;i<=4;i++){
+document.getElementById('tq_query_content_slider_' + i.toString()).className='';
+}
+document.getElementById('tq_query_content_slider_' + number.toString()).className='active';
+document.getElementById('look_tripmap_div').style.display = 'none';
+tripmap.showvehicles=false;
+tripmap.updatetime=0;
+tripmap.stop();
+document.getElementById('look_linemap_div').style.display = 'none';
+linemap.showvehicles=false;
+linemap.updatetime=0;
+linemap.stop();
+document.getElementById('look_perlline_div').style.display = 'none';
+perlline.showvehicles=false;
+perlline.updatetime=0;
+perlline.stop();
+document.getElementById('look_perltrip_div').style.display = 'none';
+perltrip.showvehicles=false;
+perltrip.updatetime=0;
+perltrip.stop();
+document.getElementById('tq_trainroute_content_table_alteAnsicht').style.display = 'none';
+switch (number) {
+case 0:
+document.getElementById('tq_trainroute_content_table_alteAnsicht').style.display = 'block';
+break;
+case 1:
+perltrip.showvehicles = false;
+perltrip.startbytrain('230706/255113/184480/15339/55', 'currenttime', 0 );
+document.getElementById('look_perltrip_div').style.display = 'block';
+break;
+case 2:
+perlline.showvehicles = false;
+perlline.startbytrain('230706/255113/184480/15339/55', 'currenttime', 0 );
+document.getElementById('look_perlline_div').style.display = 'block';
+break;
+case 3:
+tripmap.showvehicles = false;
+tripmap.startbytrain('230706/255113/184480/15339/55', 'currenttime', 0 );
+document.getElementById('look_tripmap_div').style.display = 'block';
+break;
+case 4:
+linemap.showvehicles = false;
+linemap.startbytrain('230706/255113/184480/15339/55', 'currenttime', 0 );
+document.getElementById('look_linemap_div').style.display = 'block';
+break;
+}
+}
+</script>
+<div class="contentSlider">
+Poci&#261;gi/linie
+</div>
+<div class="hafasHint">
+</div>
+<div class="hafasContentTable">
+<script type="text/javascript" src="/hafas-res/js/look.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookMouse.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookTrainDrawer.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookStopDrawer.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookChain.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookStops.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLookTrains.js"></script>
+<script type="text/javascript" src="/hafas-res/js/CLiveMap.js"></script>
+<!--[if IE]><script type="text/javascript" src="/hafas-res/js/excanvas.js"></script><![endif]-->
+<script type="text/javascript" language="javascript">
+function look_gettpl(tplvar){
+if (tplvar == 'imagePath') return '/hafas-res/img/'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookPerlUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&_lookperl=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookChainUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&lookchain=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookSingleChainUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&looksinglechain=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookStopUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&lookstops=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookPoiUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&lookpois=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookTrainUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&_looktrains=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLookSingleTrainUpdate') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&looksingletrain=yes&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLook') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlLocating') return '/bin/query.exe/pn?ld=s32&amp;mapDisplay=look&'.replace(/&amp;/g,"&");
+if (tplvar == 'urlStandard') return '/bin/query.exe/pn?ld=s32&amp;'.replace(/&amp;/g,"&");
+if (tplvar == 'mapPixelWidth') return '';
+if (tplvar == 'mapPixelHeight') return '';
+if (tplvar == 'mapActiveZoomLevel') return '';
+if (tplvar == 'catenateRedirectorParameter') return 'ld=s32&amp;'.replace(/&amp;/g,"&");
+if (tplvar == 'catenateDefaultParameters') return ''.replace(/&amp;/g,"&");
+return '';
+}
+var gImagePath = '/hafas-res/img/';
+var gUrlTravelPlannerAbsolute = '/bin/query.exe/pn?';
+var gCatenateRequiredParameters = 'ld=s32&amp;'.replace(/&amp;/g,"&");
+</script>
+<script type="text/javascript" language="javascript">
+function look_getproductclasscolour( productclass ){
+productclass = Math.round( Math.log( productclass ) / Math.log( 2 ) );
+switch (productclass){
+case 0:
+return "rgba(148,148,148,1)";
+case 1:
+return "rgba(0,0,255,1)";
+case 2:
+return "rgba(153,0,0,1)";
+case 3:
+return "rgba(239,111,50,1)";
+case 4:
+return "rgba(255,255,0,1)";
+case 5:
+return "rgba(8,132,74,1)";
+case 6:
+return "rgba(0,0,00,1)"
+case 7:
+return "rgba(0,82,140,1)";
+case 8:
+return "rgba(220,43,25,1)";
+case 9:
+return "rgba(220,220,150,1)";
+default:
+return "rgba(100,100,100,1)";
+}
+}
+var gPOIDATA = new Array();
+gPOIDATA[1] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Public.gif",
+name:"Instytucje publiczne",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[2] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Trading.gif",
+name:"Handel",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[4] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Hotels.gif",
+name:"Hotele",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[3] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Restaurants.gif",
+name:"Gastronomia",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[5] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Entertainment.gif",
+name:"Kultura i rozrywka",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[6] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Sports.gif",
+name:"Sport",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[7] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Tourism.gif",
+name:"Turystyka",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[8] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Health.gif",
+name:"Zdrowie",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[9] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Flight.gif",
+name:"Ruch lotniczy",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[10] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Parking.gif",
+name:"Parkingi",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[11] = { mapiconimgsrc:"/hafas-res/img/look/poimap_Cars.gif",
+name:"Samoch&#243;d i akcesoria",
+mapiconwidth:10,
+mapiconheight:10 };
+gPOIDATA[12] = { mapiconimgsrc:"/hafas-res/img/look/poimap_EURO2012.gif",
+name:"EURO 2012",
+mapiconwidth:10,
+mapiconheight:10 };
+</script>
+<div class="border"><div class="top"><div class="left"><div class="right"><div class="btm"><div class="tl"><div class="tr"><div class="bl"><div class="br"><div class="content">
+<div class="greyBox">
+<h2 class="separator ">
+<span></span>
+Wyb&#243;r
+</h2>
+<table class="hafasResult" cellspacing="0" style="margin-left:7px;">
+<tr>
+<td class="querysummary">
+<img src="/hafas-res/img/km_pic.gif" width="28" height="30" alt="">
+<span class="bold">KM  6014 KM 801</span>
+</td>
+<td class="querysummary nowrap">
+06.01.13
+</td>
+</tr>
+</table>
+</div>
+<br></div></div></div></div></div></div></div></div></div></div>
+<table class="hafasButtons" cellspacing="0">
+<tr>
+<td><a href="http://rozklad-pkp.pl/bin/trainsearch.exe/pn?"><img class="icon" src="/hafas-res/img/buttons/icon_arrow_2.gif" width="11" height="11" alt=""> Nowe zapytanie</a><a href="http://rozklad-pkp.pl/bin/trainsearch.exe/pn?start=yes&amp;trainname=6014&amp;date=06.01.13&amp;"><img class="icon" src="/hafas-res/img/buttons/icon_arrow_2.gif" width="11" height="11" alt=""> Powr&#243;t</a><a href="http://rozklad-pkp.pl/bin/traininfo.exe/pn/795198/443277/392280/68927/55?ld=s32&amp;date=06.01.13&amp;journeyStartIdx=10&amp;journeyEndIdx=-1&amp;pageViewMode=PRINT&amp;" target="Printview" onclick="openPopup('about:blank','Printview',20,200,685,600,'001000');" accesskey="p"><img class="icon" src="/hafas-res/img/buttons/icon_print.gif" width="14" height="14" alt=""> Strona do wydruku (Poci&#261;gi/linie)</a><a href="http://rozklad-pkp.pl/bin/traininfo.exe/pn/230706/255113/184480/15339/55?ld=s32&amp;date=06.01.13&amp;journeyStartIdx=10&amp;journeyEndIdx=-1&amp;"><img class="icon" src="/hafas-res/img/buttons/icon_arrow_2.gif" width="11" height="11" alt=""> aktualnie</a></td><td></td></tr>
+</table>
+<div class="border"><div class="top"><div class="left"><div class="right"><div class="btm"><div class="tl"><div class="tr"><div class="bl"><div class="br"><div class="content">
+<div id="tq_trainroute_content_table_alteAnsicht" style="display:block">
+<div class="greyBox">
+<h2 class="separator ">
+<span></span>
+Kurs
+</h2>
+<table class="hafasResult grey" cellspacing="0" style="width:980px;">
+<tr>
+<th class="border">&nbsp;</th>
+<th class="border">Stacja/przystanek</th>
+<th class="border">Przyjazd</th>
+<th class="border">Odjazd</th>
+<th class="border">Kurs</th>
+</tr>
+<tr class="zebracol-2">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_start.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=now&amp;input=5100209&amp;boardType=dep&amp;productsFilter=1111111&amp;">Skar&#380;ysko-Kamienna</a>
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+<td class="center sepline">
+07:24
+</td>
+<td class="center sepline">
+KM  6014
+KM 801
+</td>
+</tr>
+<tr class="zebracol-1">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:29&amp;input=5102098&amp;boardType=dep&amp;productsFilter=1111111&amp;">Lipowe Pole</a>
+</td>
+<td class="center sepline">
+07:29
+</td>
+<td class="center sepline">
+07:29
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-2">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:35&amp;input=5103698&amp;boardType=dep&amp;productsFilter=1111111&amp;">Szyd&#322;owiec</a>
+</td>
+<td class="center sepline">
+07:35
+</td>
+<td class="center sepline">
+07:35
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-1">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:39&amp;input=5101069&amp;boardType=dep&amp;productsFilter=1111111&amp;">G&#261;sawy Pleba&#324;skie</a>
+</td>
+<td class="center sepline">
+07:39
+</td>
+<td class="center sepline">
+07:39
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-2">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:42&amp;input=5101469&amp;boardType=dep&amp;productsFilter=1111111&amp;">Jastrz&#261;b</a>
+</td>
+<td class="center sepline">
+07:42
+</td>
+<td class="center sepline">
+07:42
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-1">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:47&amp;input=5104070&amp;boardType=dep&amp;productsFilter=1111111&amp;">Wola Lipieniecka</a>
+</td>
+<td class="center sepline">
+07:47
+</td>
+<td class="center sepline">
+07:47
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-2">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:50&amp;input=5103201&amp;boardType=dep&amp;productsFilter=1111111&amp;">Ruda Wielka</a>
+</td>
+<td class="center sepline">
+07:50
+</td>
+<td class="center sepline">
+07:50
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-1">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:54&amp;input=5103234&amp;boardType=dep&amp;productsFilter=1111111&amp;">Ro&#380;ki</a>
+</td>
+<td class="center sepline">
+07:54
+</td>
+<td class="center sepline">
+07:54
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-2">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_middle.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=07:58&amp;input=5103065&amp;boardType=dep&amp;productsFilter=1111111&amp;">Radom Po&#322;udniowy</a>
+</td>
+<td class="center sepline">
+07:58
+</td>
+<td class="center sepline">
+07:58
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+<tr class="zebracol-1">
+<td class="center nopadding sepline"><img src="/hafas-res/img/pearl_end.gif" width="18" height="21" alt="" title=""></td>
+<td class="nowrap sepline">
+<a href="http://rozklad-pkp.pl/bin/stboard.exe/pn?ld=s32&amp;time=now&amp;input=5100052&amp;boardType=dep&amp;productsFilter=1111111&amp;">Radom</a>
+</td>
+<td class="center sepline">
+08:04
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+<td class="center sepline">
+&nbsp;
+</td>
+</tr>
+</table>
+<table class="hafasResult grey" cellspacing="0" style="width:960px;margin:10px 0 0 10px;">
+<tr>
+<td>
+<span class="bold">Dalsze informacje:</span>
+<br>
+tylko 2 kl.
+<br>
+Koleje Mazowieckie
+<br>
+poci&#261;g z elektrycznych zespo&#322;&#243;w trakcyjnych (EZT)
+</td>
+</tr>
+</table>
+</div>
+</div>
+<br></div></div></div></div></div></div></div></div></div></div>
+<div id="look_perltrip_div" style="position:relative;display:none;">
+<div style="position:relative;">
+</div>
+<p>
+<div id="look_mainelem_perltrip" style="position:relative;width:600px;z-level:+10;">
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var perltrip = new CLookPerlTrip('perltrip','look_mainelem_perltrip');
+perltrip.constantwidth = 750;
+perltrip.imagePath ='/hafas-res/img/'
+perltrip.updatetime = 0;
+perltrip.titletext = "Perl trip";
+perltrip.stop();
+perltrip.showvehicledetails=true;
+perltrip.showstopnames='all';
+</script>
+<div id="look_perlline_div" style="position:relative;display:none;">
+<div style="position:relative;">
+</div>
+<p>
+<div id="look_mainelem_perlline" style="position:relative;width:600px;z-level:+10;">
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var perlline = new CLookPerlLine('perlline','look_mainelem_perlline');
+perlline.constantwidth = 750;
+perlline.imagePath ='/hafas-res/img/'
+perlline.updatetime = 0;
+perlline.titletext = "Perl line";
+perlline.stop();
+perlline.showvehicledetails=true;
+perlline.showstopnames='all';
+</script>
+<div id="look_tripmap_div" style="position:relative;display:none;">
+<div style="position:relative;">
+</div>
+<p>
+<div id="look_mainelem_tripmap" style="position:relative;width:600px;height:600px;z-level:+10;">
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var tripmap = new CLookTripMap('tripmap','look_mainelem_tripmap');
+tripmap.constantwidth = 600;
+tripmap.constantheight = 600;
+tripmap.imagePath ='/hafas-res/img/'
+tripmap.updatetime = 0;
+tripmap.titletext = "Mapa kursu";
+tripmap.setMapAlpha(50);
+tripmap.stop();
+tripmap.showvehicledetails=false;
+tripmap.showstopnames='some';
+</script>
+<div id="look_linemap_div" style="position:relative;display:none;">
+<div style="position:relative;">
+</div>
+<p>
+<div id="look_mainelem_linemap" style="position:relative;width:600px;height:600px;z-level:+10;">
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var linemap = new CLookLineMap('linemap','look_mainelem_linemap');
+linemap.constantwidth = 600;
+linemap.constantheight = 600;
+linemap.imagePath ='/hafas-res/img/'
+linemap.updatetime = 0;
+linemap.titletext = "Mapa linii";
+linemap.setMapAlpha(50);
+linemap.stop();
+linemap.showvehicledetails=false;
+linemap.showstopnames='some';
+</script>
+</div>
+<script type="text/javascript" language="javascript">
+</script>
+<div id="hafasFooter">
+</div>
+</td>
+</tr></table></div>
+<table style="border-top: 3px solid #bcbaba; margin-top:8px;" width="100%"><tbody><tr>
+<td style="padding-right: 10px; border-right: 1px solid #bcbaba;"><a href="/hafas-res/img/Regulamin.pdf" target="_blank">Regulamin</a></td><td style="padding: 0 10px; border-right: 1px solid #777777;"><a href="http://dworzecpolski.pl/oferty/oferta-reklamowa" target="_blank">Oferta reklamowa</td><td style="padding-left: 10px;"><span style="color:#5f6973;">Aktualizacja - 06.01.13 (Hafas 32)</span></td>
+<td width="26%">&nbsp;</td>
+<td align="right" width="30%">&#169;&nbsp;2013&nbsp;<a href="http://www.tktelekom.pl/" target="_blank">TKTelekom</a>&nbsp;&&nbsp;<a href="http://www.dworzecpolski.pl/" target="_blank">Dworzec Polski</a></td>
+</tr></tbody></table>
+</div>
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>

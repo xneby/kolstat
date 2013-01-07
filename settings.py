@@ -16,8 +16,8 @@ ADMINS = (
 INSTALL_DIR = os.path.split(os.path.realpath(__file__))[0]
 CACHE_DIR = os.path.join(INSTALL_DIR, 'cache')
 
-HOST = socket.gethostbyaddr(socket.gethostname())[0]
-DEPLOY = (HOST == 'kkjudge')
+#HOST = socket.gethostbyaddr(socket.gethostname())[0]
+DEPLOY = not DEBUG
 
 MANAGERS = ADMINS
 

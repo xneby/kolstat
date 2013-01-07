@@ -25,4 +25,6 @@ urlpatterns = patterns('kolstatapp.views',
 	url(r'admin/trains/add$', 'train_add', name='admin-add-train'),
 	url(r'admin/trains/(?P<train_id>\d+)/delete/', 'train_delete', name='admin-train-delete'),
 
+	url(r'prices/$', TemplateView.as_view(template_name = 'prices/form.html'), name = 'kolstat-prices-form'),
+	url(r'prices/show/$', 'prices_show', name = 'kolstat-prices-show'),
 )

@@ -33,7 +33,11 @@ class Train(models.Model):
 		self.delete()
 
 	def has_variants(self):
-		return len(Train.objects.filter(category = self.category, number = self.number)) > 1
+		if hasattr(self, '_has_variants'):
+			return self._has_variants
+		else:
+			self._has_variants = len(Train.objects.filter(category = self.category, number = self.number)) > 1
+			return self._has_variants
 
 	@staticmethod
 	def in_hafas(oper, number, connection = None, hafas = None):
@@ -113,7 +117,12 @@ class Train(models.Model):
 	@staticmethod
 	def search(name, variant = None):
 		if ' ' in name:
-			oper, number = name.split(' ')
+			list = name.split(' ')
+
+			if len(list) == 2:
+				oper, number = list
+			else:
+				oper, number, variant = list
 
 			try:
 				oper = TrainCategory.objects.get(name = oper)

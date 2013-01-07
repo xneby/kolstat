@@ -5,9 +5,39 @@ from django.core.urlresolvers import reverse
 from dajaxice.decorators import dajaxice_register
 
 from kolstatapp.models import Station
-from kolstatapp.models import TrainName
+from kolstatapp.models import TrainName, Train, TrainTimetable
 from kolstatapp.utils.hafas import Hafas
 from kolstatapp.utils.traincat import get_img_url
+
+from datetime import datetime
+
+@dajaxice_register
+def prices_search_train(request, name, date):
+	def make_error(message):
+		return simplejson.dumps(dict(status = 'ERROR', message = message))
+
+	date = datetime.strptime(date, '%d-%m-%Y').date()
+
+	trains = Train.search(name)
+
+	if len(trains) == 0:
+		return make_error('Brak takiego pociągu w bazie danych.')
+
+	if len(trains) > 1:
+		return make_error('Wiele pociągów o takiej nazwie. TODO [!]')
+
+	train, = trains
+
+	try:
+		tt = train.timetables().get(date = date)
+	except TrainTimetable.DoesNotExist:
+		return make_error('Pociąg nie kursuje w podanej dacie.')
+
+	result = dict()
+	result['status'] = 'OK'
+	result['stations'] = [(x.station.name, x.station.id) for x in tt.stops()]
+
+	return simplejson.dumps(result)
 
 @dajaxice_register
 def searchStation(request, name):

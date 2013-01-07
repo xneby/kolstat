@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load station_extras %}
+
+{% block title %}kalkulator cen{% endblock %}
+
+{% block content %}
+<p>Data: {{ date|date:"d-m-Y" }}</p>
+<table class="cennik">
+	{% for name, oferta, typ, args, znizka, cena in out %}
+	<tr class="main1">
+		<td class="type" colspan="2">{{ typ.name }} (<i>{{ oferta.name }}</i>)</td>
+		<td class="price" rowspan="{% if znizka %}3{% else %}2{% endif %}">{{ cena|floatformat:"2" }}zł</td>
+	</tr>
+	<tr class="main2">
+		<td class="relation" colspan="2">
+		{% if name == "base" %}
+			{% get_pretty_name args.0.station %} -- {% get_pretty_name args.1.station %}
+		{% elif name == "additional" %}
+			{{ args.category }} {{ args.number }}
+		{% endif %}
+		</td>
+	</tr>
+	{% if znizka %}
+	<tr class="main3">
+		<td colspan="2" class="discount">Zniżka {{znizka.discount}}% ({{ znizka.kurs90Name }} - {{ znizka.description }})</td>
+	</tr>
+	{% endif %}
+	{% endfor %}
+	{% for type, cena in stats.items %}
+	<tr>
+		<td{% if forloop.first %} class="first_stats"{% endif %}/>
+		<td class="stats_name">{{ type.name_plural }}</td>
+		<td class="price">{{ cena|floatformat:"2" }}zł</td>
+	</tr>
+	{% endfor %}
+	{% for operator, cena in operators.items %}
+	<tr>
+		<td/>
+		<td class="stats_name">{{ operator.name }}</td>
+		<td class="price">{{ cena|floatformat:"2" }}zł</td>
+	</tr>
+	{% endfor %}
+	<tr>
+		<td/>
+		<td class="razem stats_name last_row">Razem</td>
+		<td class="razem price last_row">{{ razem|floatformat:"2" }}zł</td>
+	</tr>
+</table>
+{% endblock %}

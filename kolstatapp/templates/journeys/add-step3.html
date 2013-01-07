@@ -8,9 +8,9 @@
 
 {% block head %}
 
-<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
+<link rel="stylesheet" href="{{STATIC_PREFIX}}css/hselect.css" type="text/css" />
 
-<script type="text/javascript" src="{{STATIC_PREFIX}}/js/train.js"></script>
+<script type="text/javascript" src="{{STATIC_PREFIX}}js/train.js"></script>
 <script type="text/javascript">
 
 	$(document).ready(function(){
@@ -22,7 +22,7 @@
 			$('input[name=' + type + ']').val(val);
 		});
 
-		$('input[type=submit]').button();
+		$('input[type=submit].buttonize').button();
 
 		$('button.compselect').button().click(function(){
 			$('button.compselect').removeClass('selected');
@@ -42,7 +42,7 @@
 
 <div id="header">
 	<pre>{{train.toString}}</pre>
-	<p>Część podróży od stacji {% get_pretty_name train.source %} do stacji {% get_pretty_name train.destination %} odbywa się pociągiem {{train.type}} {{train.number}}. Oceń pociąg:</p>
+	<p>Część podróży od stacji {% get_pretty_name start %} do stacji {% get_pretty_name end %} odbywa się pociągiem {{train.type}} {{train.number}}. Oceń pociąg:</p>
 	<p>Ocena punktualności:</p>
 	<p><div id="delay" class="hselect">
 		<button class="selected">brak oceny</button>
@@ -79,7 +79,7 @@
 		<input type="hidden" name="delay" value="0" />
 		<input type="hidden" name="clean" value="0" />
 		<input type="hidden" name="composition" />
-		<input type="submit" value="Dalej" />
+		<input type="submit" value="Dalej" class="buttonize" />
 	</form>
 </div>
 
