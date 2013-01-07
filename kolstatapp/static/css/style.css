@@ -424,3 +424,35 @@ table.rozklad td.poczkon {
 .cennik td.relation, .cennik td.razem {
 	font-size: 150%;
 }
+
+/* szalona twórczość dla bazy taboru */
+div.unit_class h1 {
+	font-family: "PT Sans Narrow", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	color: #21211a;
+}
+div.unit_class span.category {
+	color: #aaa;
+	font-size: 12px;
+}
+
+div.unit_class div {
+	margin-bottom: 10px;
+	border-bottom: 2px #fcb821 solid;
+}
+
+div.unit_class div.description {
+	-webkit-box-shadow: inset 0px 0px 20px 5px #eee;
+	box-shadow: inset 0px 0px 20px 5px #eee;
+	border: 0px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+span.first_class { color: #fcb821; font-weight: bold; }
+span.second_class { color: #298a40; font-weight: bold; }
+span.couchette { color: #2973b8; font-weight: bold; }
+span.sleeping { color: #001245; font-weight: bold; }
+span.dining { color: #8A1214; font-weight: bold; }

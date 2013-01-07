@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}baza taboru - {{ thisclass.name }}{% endblock %}
+
+{% block content %}
+<div class="unit_class">
+<div>
+	<span class="category">{{ thisclass.get_polish_category }}</span>
+	<h1>{{ thisclass.name }}</h1>
+	<span class="category">Producent: {{ thisclass.producer }}</span>
+</div>
+<div class="description">{{ thisclass.description|safe }}</div>
+</div>
+
+<table>
+	<tr><th>Oznaczenie</th><th>EVN</th><th>rok produkcji</th></tr>
+	{% for x in units %}
+	<tr><td>{{ x.name }}</td><td>{{ x.evn }}</td><td>{{ x.yearofbuild }}</td></tr>
+	{% endfor %}
+</table>
+{% endblock %}
