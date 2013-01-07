@@ -1,3 +1,4 @@
+# coding: utf-8
 from base import Oferta, Discounts, TICKET, SEAT
 
 from kolstatapp.models import TrainCategory, Operator, Station

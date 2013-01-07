@@ -1,4 +1,4 @@
-from TLK import TLKOfert
+from TLK import TLKOferta
 from KM import KMOferta
 from KM_Radom_Pionki import KMRadomPionki
 from KW import KWOferta
