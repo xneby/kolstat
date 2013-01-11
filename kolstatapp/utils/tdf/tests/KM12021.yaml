@@ -1,0 +1,18 @@
+name: KM 12021
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:48', station: Pilawa}
+  - {arrival: '05:55', departure: '05:55', station: Garwolin}
+  - {arrival: '06:00', departure: '06:00', station: Ruda Talubska}
+  - {arrival: '06:05', departure: '06:05', station: Wola Rowska}
+  - {arrival: '06:08', departure: '06:08', station: "\u0141askarzew Przystanek"}
+  - {arrival: '06:12', departure: '06:12', station: Leokadia}
+  - {arrival: '06:16', departure: '06:16', station: Sobolew}
+  - {arrival: '06:21', departure: '06:21', station: Wygoda}
+  - {arrival: '06:26', departure: '06:26', station: Mika}
+  - {arrival: '06:29', departure: '06:29', station: "\u017Byczyn"}
+  - {arrival: '06:34', departure: '06:34', station: Rokitnia Stara}
+  - {arrival: '06:39', station: "D\u0119blin"}
+type: train

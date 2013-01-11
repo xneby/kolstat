@@ -1,0 +1,23 @@
+name: KM 88521
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:23', station: Siedlce}
+  - {arrival: '06:32', departure: '06:32', station: Stok Lacki}
+  - {arrival: '06:37', departure: '06:37', station: Krzymosze}
+  - {arrival: '06:42', departure: '06:42', station: Mordy}
+  - {arrival: '06:46', departure: '06:46', station: Mordy Miasto}
+  - {arrival: '06:51', departure: '06:51', station: "Cierpig\xF3rz"}
+  - {arrival: '06:59', departure: '06:59', station: Niemojki}
+  - {arrival: '07:03', departure: '07:03', station: "Patk\xF3w"}
+  - {arrival: '07:09', departure: '07:09', station: "Plater\xF3w"}
+  - {arrival: '07:14', departure: '07:14', station: Sarnaki}
+  - {arrival: '07:20', departure: '07:20', station: "Frono\u0142\xF3w"}
+  - {arrival: '07:24', departure: '07:24', station: Siemiatycze}
+  - {arrival: '07:30', departure: '07:30', station: Sycze}
+  - {arrival: '07:37', departure: '07:37', station: Nurzec}
+  - {arrival: '07:44', departure: '07:44', station: Nowy Nurzec}
+  - {arrival: '07:48', departure: '07:48', station: Borowiki}
+  - {arrival: '07:58', station: Czeremcha}
+type: train

@@ -1,0 +1,26 @@
+name: KM 618
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:20', station: Nasielsk}
+  - {arrival: '19:24', departure: '19:24', station: Studzianki Nowe}
+  - {arrival: '19:27', departure: '19:27', station: Brody Warszawskie}
+  - {arrival: '19:31', departure: '19:31', station: "Pomiech\xF3wek"}
+  - {arrival: '19:35', departure: '19:35', station: Modlin}
+  - {arrival: '19:39', departure: '19:39', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '19:42', departure: '19:42', station: "Jan\xF3wek"}
+  - {arrival: '19:47', departure: '19:47', station: "Chotom\xF3w"}
+  - {arrival: '19:50', departure: '19:50', station: Legionowo Przystanek}
+  - {arrival: '19:53', departure: '19:53', station: Legionowo}
+  - {arrival: '19:57', departure: '19:57', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '20:00', departure: '20:00', station: "Warszawa P\u0142udy"}
+  - {arrival: '20:03', departure: '20:03', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '20:06', departure: '20:06', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '20:08', departure: '20:08', station: Warszawa Praga}
+  - {arrival: '20:12', departure: '20:12', station: Warszawa ZOO}
+  - {arrival: '20:16', departure: '20:16', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '20:22', departure: '20:22', station: "Warszawa Ko\u0142o"}
+  - {arrival: '20:25', departure: '20:25', station: Warszawa Kasprzaka}
+  - {arrival: '20:29', station: Warszawa Zach. per.8}
+type: train

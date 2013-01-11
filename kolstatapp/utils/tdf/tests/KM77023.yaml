@@ -1,0 +1,19 @@
+name: KM 77023
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:13', station: Drzewica}
+  - {arrival: '16:17', departure: '16:17', station: "Bieliny Opoczy\u0144skie"}
+  - {arrival: '16:25', departure: '16:25', station: "Zygmunt\xF3w"}
+  - {arrival: '16:30', departure: '16:30', station: "Smogorz\xF3w Przysuski"}
+  - {arrival: '16:35', departure: '16:35', station: Przysucha}
+  - {arrival: '16:42', departure: '16:42', station: Skrzynno}
+  - {arrival: '16:48', departure: '16:48', station: Wieniawa}
+  - {arrival: '16:54', departure: '16:54', station: "Podb\xF3r"}
+  - {arrival: '16:59', departure: '16:59', station: "Chron\xF3w"}
+  - {arrival: '17:09', departure: '17:09', station: "Wolan\xF3w"}
+  - {arrival: '17:13', departure: '17:13', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '17:19', departure: '17:19', station: "Radom Potkan\xF3w"}
+  - {arrival: '17:27', station: Radom}
+type: train

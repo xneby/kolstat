@@ -1,0 +1,19 @@
+name: KM 9360
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:42', station: Grodzisk Maz. (PKP)}
+  - {arrival: '17:46', departure: '17:46', station: "Milan\xF3wek"}
+  - {arrival: '17:50', departure: '17:50', station: "Brwin\xF3w"}
+  - {arrival: '17:56', departure: '17:56', station: "Pruszk\xF3w"}
+  - {arrival: '18:00', departure: '18:00', station: "Piast\xF3w"}
+  - {arrival: '18:05', departure: '18:05', station: Warszawa Ursus}
+  - {arrival: '18:08', departure: '18:08', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:14', departure: '18:14', station: Warszawa Zachodnia}
+  - {arrival: '18:17', departure: '18:17', station: Warszawa Ochota}
+  - {arrival: '18:20', departure: '18:20', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:23', departure: '18:23', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:26', departure: '18:26', station: Warszawa Stadion}
+  - {arrival: '18:28', station: Warszawa Wschodnia}
+type: train

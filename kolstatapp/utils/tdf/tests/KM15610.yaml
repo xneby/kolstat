@@ -1,0 +1,40 @@
+name: KM 15610
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:45', station: "T\u0142uszcz"}
+  - {arrival: '12:52', departure: '12:52', station: Krusze}
+  - {arrival: '13:06', departure: '13:06', station: Radzymin}
+  - {arrival: '13:13', departure: '13:13', station: "D\u0105bkowizna"}
+  - {arrival: '13:17', departure: '13:17', station: "Niepor\u0119t"}
+  - {arrival: '13:22', departure: '13:22', station: Wieliszew}
+  - {arrival: '13:25', departure: '13:25', station: "Micha\u0142\xF3w Regin\xF3w"}
+  - {arrival: '13:28', departure: '13:28', station: Legionowo Piaski}
+  - {arrival: '13:30', departure: '13:31', station: Legionowo}
+  - {arrival: '13:42', departure: '13:42', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '13:48', departure: '13:48', station: Warszawa ZOO}
+  - {arrival: '13:51', departure: '14:03', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '14:06', departure: '14:06', station: Warszawa ZOO}
+  - {arrival: '14:10', departure: '14:10', station: Warszawa Praga}
+  - {arrival: '14:13', departure: '14:13', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '14:23', departure: '14:23', station: Legionowo}
+  - {arrival: '14:26', departure: '14:26', station: Legionowo Przystanek}
+  - {arrival: '14:28', departure: '14:28', station: "Chotom\xF3w"}
+  - {arrival: '14:37', departure: '14:37', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '14:41', departure: '14:41', station: Modlin}
+  - {arrival: '14:53', departure: '14:58', station: Nasielsk}
+  - {arrival: '15:10', departure: '15:10', station: Cieksyn}
+  - {arrival: '15:17', departure: '15:17', station: Wkra}
+  - {arrival: '15:26', departure: '15:26', station: "Dalan\xF3wek"}
+  - {arrival: '15:38', departure: '15:38', station: "P\u0142o\u0144sk"}
+  - {arrival: '15:47', departure: '15:47', station: Arcelin}
+  - {arrival: '15:53', departure: '15:53', station: Baboszewo}
+  - {arrival: '16:03', departure: '16:03', station: Kaczorowo}
+  - {arrival: '16:13', departure: '16:13', station: "Raci\u0105\u017C"}
+  - {arrival: '16:23', departure: '16:23', station: Koziebrody}
+  - {arrival: '16:32', departure: '16:32', station: "Zawidz Ko\u015Bcielny"}
+  - {arrival: '16:35', departure: '16:35', station: Zawidz}
+  - {arrival: '16:43', departure: '16:43', station: Mieszaki}
+  - {arrival: '16:52', station: Sierpc}
+type: train

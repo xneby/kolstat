@@ -1,0 +1,15 @@
+name: KM 8840
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:29', station: "\u0141uk\xF3w"}
+  - {arrival: '12:38', departure: '12:38', station: "Krynka \u0141ukowska"}
+  - {arrival: '12:41', departure: '12:41', station: "Radomy\u015Bl"}
+  - {arrival: '12:45', departure: '12:45', station: Dziewule}
+  - {arrival: '12:49', departure: '12:49', station: Borki Kosy}
+  - {arrival: '12:52', departure: '12:52', station: Kosiorki}
+  - {arrival: '12:56', departure: '12:56', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '12:59', departure: '12:59', station: Siedlce Wschodnie}
+  - {arrival: '13:02', station: Siedlce}
+type: train

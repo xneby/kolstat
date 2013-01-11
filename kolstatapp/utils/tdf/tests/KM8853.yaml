@@ -1,0 +1,23 @@
+name: KM 8853
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:26', station: Siedlce}
+  - {arrival: "21:30\n</td>\n<td class=\"sepline\">\n\_", departure: '21:30', station: Siedlce
+      Wschodnie}
+  - {arrival: "21:33\n</td>\n<td class=\"sepline\">\n\_", departure: '21:33', station: "Bia\u0142\
+      ki Siedleckie"}
+  - {arrival: "21:36\n</td>\n<td class=\"sepline\">\n\_", departure: '21:36', station: Kosiorki}
+  - {arrival: "21:39\n</td>\n<td class=\"sepline\">\n\_", departure: '21:39', station: Borki
+      Kosy}
+  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: Dziewule}
+  - {arrival: "21:47\n</td>\n<td class=\"sepline\">\n\_", departure: '21:47', station: "Radomy\u015B\
+      l"}
+  - {arrival: "21:51\n</td>\n<td class=\"sepline\">\n\_", departure: '21:51', station: "Krynka\
+      \ \u0141ukowska"}
+  - {arrival: "21:58\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: "\u0141uk\xF3w"}
+type: train

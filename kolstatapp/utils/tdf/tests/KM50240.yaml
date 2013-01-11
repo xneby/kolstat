@@ -1,0 +1,31 @@
+name: KM 50240
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:31', station: Otwock}
+  - {arrival: '13:35', departure: '13:35', station: "\u015Awider"}
+  - {arrival: '13:38', departure: '13:38', station: "J\xF3zef\xF3w"}
+  - {arrival: '13:40', departure: '13:40', station: Michalin}
+  - {arrival: '13:43', departure: '13:43', station: Warszawa Falenica}
+  - {arrival: '13:45', departure: '13:45', station: Warszawa Miedzeszyn}
+  - {arrival: '13:48', departure: '13:48', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '13:51', departure: '13:51', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '13:53', departure: '13:53', station: Warszawa Anin}
+  - {arrival: '13:56', departure: '13:56', station: Warszawa Wawer}
+  - {arrival: '13:58', departure: '13:58', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '14:01', departure: '14:01', station: Warszawa Olsz.Groch.}
+  - {arrival: '14:07', departure: '14:07', station: Warszawa Wschodnia}
+  - {arrival: '14:10', departure: '14:10', station: Warszawa Stadion}
+  - {arrival: '14:13', departure: '14:13', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:16', departure: '14:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:18', departure: '14:18', station: Warszawa Ochota}
+  - {arrival: '14:22', departure: '14:22', station: Warszawa Zachodnia}
+  - {arrival: '14:28', departure: '14:28', station: "Warszawa W\u0142ochy"}
+  - {arrival: '14:31', departure: '14:31', station: Warszawa Ursus}
+  - {arrival: '14:35', departure: '14:35', station: "Piast\xF3w"}
+  - {arrival: '14:39', departure: '14:39', station: "Pruszk\xF3w"}
+  - {arrival: '14:45', departure: '14:45', station: "Brwin\xF3w"}
+  - {arrival: '14:49', departure: '14:49', station: "Milan\xF3wek"}
+  - {arrival: '14:53', station: Grodzisk Maz. (PKP)}
+type: train

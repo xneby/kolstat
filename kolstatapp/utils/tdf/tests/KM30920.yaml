@@ -1,0 +1,20 @@
+name: KM 30920
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:09', station: Grodzisk Maz. (PKP)}
+  - {arrival: '16:14', departure: '16:14', station: "Milan\xF3wek"}
+  - {arrival: '16:18', departure: '16:18', station: "Brwin\xF3w"}
+  - {arrival: '16:24', departure: '16:24', station: "Pruszk\xF3w"}
+  - {arrival: '16:27', departure: '16:27', station: "Piast\xF3w"}
+  - {arrival: '16:31', departure: '16:31', station: Warszawa Ursus}
+  - {arrival: '16:35', departure: '16:35', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:40', departure: '16:40', station: Warszawa Zachodnia}
+  - {arrival: '16:43', departure: '16:43', station: Warszawa Ochota}
+  - {arrival: '16:46', departure: '16:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:49', departure: '16:49', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:52', departure: '16:52', station: Warszawa Stadion}
+  - {arrival: '16:55', departure: '16:55', station: Warszawa Wschodnia}
+  - {arrival: '17:05', station: "Warszawa Rembert\xF3w"}
+type: train

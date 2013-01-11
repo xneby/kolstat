@@ -1,0 +1,20 @@
+name: KM 21228
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:24', station: Radom}
+  - {arrival: '05:56', departure: '05:56', station: Dobieszyn}
+  - {arrival: '06:20', departure: '06:20', station: Warka}
+  - {arrival: '06:36', departure: '06:36', station: "Chyn\xF3w"}
+  - {arrival: '06:44', departure: '06:44', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '06:51', departure: '06:51', station: "Zalesie G\xF3rne"}
+  - {arrival: '06:57', departure: '06:57', station: Piaseczno}
+  - {arrival: '07:02', departure: '07:02', station: Nowa Iwiczna}
+  - {arrival: '07:13', departure: '07:13', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '07:16', departure: '07:16', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '07:18', departure: '07:18', station: Warszawa Rakowiec}
+  - {arrival: '07:24', departure: '07:26', station: Warszawa Zachodnia}
+  - {arrival: '07:31', departure: '07:35', station: Warszawa Centralna}
+  - {arrival: '07:42', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,17 @@
+name: KM 33121
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:18', station: Warszawa Wschodnia}
+  - {arrival: '16:25', departure: '16:34', station: Warszawa Centralna}
+  - {arrival: '16:39', departure: '16:39', station: Warszawa Zachodnia}
+  - {arrival: '17:02', departure: '17:02', station: "Jaktor\xF3w"}
+  - {arrival: '17:08', departure: '17:08', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '17:12', departure: '17:12', station: "\u017Byrard\xF3w"}
+  - {arrival: '17:21', departure: '17:21', station: "Sucha \u017Byrardowska"}
+  - {arrival: '17:23', departure: '17:23', station: Jesionka}
+  - {arrival: '17:28', departure: '17:28', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '17:32', departure: '17:32', station: Skierniewice Rawka}
+  - {arrival: '17:38', station: Skierniewice}
+type: train

@@ -1,0 +1,20 @@
+name: KM 803
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '00:30', station: Warszawa Zachodnia}
+  - {arrival: '00:35', departure: '00:36', station: Warszawa Centralna}
+  - {arrival: '00:43', departure: '00:44', station: Warszawa Wschodnia}
+  - {arrival: '00:53', departure: '00:53', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '00:58', departure: '00:58', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '01:00', departure: '01:00', station: Warszawa-Wola Grzyb.}
+  - {arrival: '01:03', departure: '01:03', station: "Sulej\xF3wek"}
+  - {arrival: '01:06', departure: '01:06', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '01:10', departure: '01:10', station: "Halin\xF3w"}
+  - {arrival: '01:13', departure: '01:13', station: Cisie}
+  - {arrival: '01:16', departure: '01:16', station: "D\u0119be Wielkie"}
+  - {arrival: '01:19', departure: '01:19', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '01:22', departure: '01:22', station: "Wrzos\xF3w"}
+  - {arrival: '01:27', station: "Mi\u0144sk Mazowiecki"}
+type: train

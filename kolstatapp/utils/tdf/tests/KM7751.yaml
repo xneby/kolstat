@@ -1,0 +1,18 @@
+name: KM 7751
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:50', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '16:58', departure: '16:58', station: "Z\u0105bki"}
+  - {arrival: '17:03', departure: '17:03', station: Zielonka}
+  - {arrival: '17:06', departure: '17:06', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '17:09', departure: '17:09', station: "Koby\u0142ka"}
+  - {arrival: '17:13', departure: '17:13', station: "Wo\u0142omin"}
+  - {arrival: '17:16', departure: '17:16', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '17:19', departure: '17:19', station: "Zago\u015Bciniec"}
+  - {arrival: '17:22', departure: '17:22', station: Dobczyn}
+  - {arrival: '17:26', departure: '17:26', station: "Klemb\xF3w"}
+  - {arrival: '17:30', departure: '17:30', station: Jasienica Mazowiecka}
+  - {arrival: '17:33', station: "T\u0142uszcz"}
+type: train

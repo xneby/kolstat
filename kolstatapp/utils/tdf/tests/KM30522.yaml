@@ -1,0 +1,31 @@
+name: KM 30522
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:33', station: Grodzisk Maz. (PKP)}
+  - {arrival: '18:37', departure: '18:37', station: "Milan\xF3wek"}
+  - {arrival: '18:41', departure: '18:41', station: "Brwin\xF3w"}
+  - {arrival: '18:47', departure: '18:47', station: "Pruszk\xF3w"}
+  - {arrival: '18:51', departure: '18:51', station: "Piast\xF3w"}
+  - {arrival: '18:56', departure: '18:56', station: Warszawa Ursus}
+  - {arrival: '18:59', departure: '18:59', station: "Warszawa W\u0142ochy"}
+  - {arrival: '19:04', departure: '19:06', station: Warszawa Zachodnia}
+  - {arrival: '19:10', departure: '19:10', station: Warszawa Ochota}
+  - {arrival: '19:13', departure: '19:13', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:15', departure: '19:15', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '19:18', departure: '19:18', station: Warszawa Stadion}
+  - {arrival: '19:21', departure: '19:21', station: Warszawa Wschodnia}
+  - {arrival: '19:27', departure: '19:27', station: Warszawa Olsz.Groch.}
+  - {arrival: '19:30', departure: '19:30', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '19:32', departure: '19:32', station: Warszawa Wawer}
+  - {arrival: '19:35', departure: '19:35', station: Warszawa Anin}
+  - {arrival: '19:37', departure: '19:37', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '19:40', departure: '19:40', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '19:43', departure: '19:43', station: Warszawa Miedzeszyn}
+  - {arrival: '19:45', departure: '19:45', station: Warszawa Falenica}
+  - {arrival: '19:48', departure: '19:48', station: Michalin}
+  - {arrival: '19:50', departure: '19:50', station: "J\xF3zef\xF3w"}
+  - {arrival: '19:53', departure: '19:53', station: "\u015Awider"}
+  - {arrival: '19:56', station: Otwock}
+type: train

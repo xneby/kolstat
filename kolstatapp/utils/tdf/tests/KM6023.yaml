@@ -1,38 +1,16 @@
-type: train
 name: KM 6023
-timetables:
-    - stops: &tt1
-        - station: Radom
-          departure: 15:46
-        - station: Radom Południowy
-          arrival: 15:53
-          departure: 15:53
-        - station: Rożki
-          arrival: 15:57
-          departure: 15:57
-        - station: Ruda Wielka
-          arrival: 16:02
-          departure: 16:02
-        - station: Wola Lipieniecka
-          arrival: 16:05
-          departure: 16:05
-        - station: Jastrząb
-          arrival: 16:10
-          departure: 16:10
-        - station: Gąsawy Plebańskie
-          arrival: 16:13
-          departure: 16:13
-        - station: Szydłowiec
-          arrival: 16:17
-          departure: 16:17
-        - station: Lipowe Pole
-          arrival: 16:23
-          departure: 16:23
-        - station: Skarżysko-Kamienna
-          arrival: 16:28
 operations:
-    - mode: interval
-      timetable: *tt1
-      from: 2013-01-01
-      to: 2013-02-01
-
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:46', station: Radom}
+  - {arrival: '15:53', departure: '15:53', station: "Radom Po\u0142udniowy"}
+  - {arrival: '15:57', departure: '15:57', station: "Ro\u017Cki"}
+  - {arrival: '16:02', departure: '16:02', station: Ruda Wielka}
+  - {arrival: '16:05', departure: '16:05', station: Wola Lipieniecka}
+  - {arrival: '16:10', departure: '16:10', station: "Jastrz\u0105b"}
+  - {arrival: '16:13', departure: '16:13', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '16:17', departure: '16:17', station: "Szyd\u0142owiec"}
+  - {arrival: '16:23', departure: '16:23', station: Lipowe Pole}
+  - {arrival: '16:28', station: "Skar\u017Cysko-Kamienna"}
+type: train

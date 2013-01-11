@@ -1,0 +1,18 @@
+name: KM 489
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:30', station: Warszawa Wschodnia}
+  - {arrival: '17:32', departure: '17:32', station: Warszawa Stadion}
+  - {arrival: '17:35', departure: '17:35', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '17:38', departure: '17:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '17:40', departure: '17:40', station: Warszawa Ochota}
+  - {arrival: '17:44', departure: '17:44', station: Warszawa Zachodnia}
+  - {arrival: '17:51', departure: '17:51', station: "Warszawa W\u0142ochy"}
+  - {arrival: '17:55', departure: '17:55', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '17:57', departure: '17:57', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '18:01', departure: '18:01', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '18:06', departure: '18:06', station: "P\u0142ochocin"}
+  - {arrival: '18:11', station: "B\u0142onie"}
+type: train

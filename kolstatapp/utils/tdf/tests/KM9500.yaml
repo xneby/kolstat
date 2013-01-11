@@ -1,0 +1,24 @@
+name: KM 9500
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:05', station: Otwock}
+  - {arrival: '06:09', departure: '06:09', station: "\u015Awider"}
+  - {arrival: '06:12', departure: '06:12', station: "J\xF3zef\xF3w"}
+  - {arrival: '06:14', departure: '06:14', station: Michalin}
+  - {arrival: '06:17', departure: '06:17', station: Warszawa Falenica}
+  - {arrival: '06:19', departure: '06:19', station: Warszawa Miedzeszyn}
+  - {arrival: '06:22', departure: '06:22', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '06:25', departure: '06:25', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '06:27', departure: '06:27', station: Warszawa Anin}
+  - {arrival: '06:30', departure: '06:30', station: Warszawa Wawer}
+  - {arrival: '06:32', departure: '06:32', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '06:35', departure: '06:35', station: Warszawa Olsz.Groch.}
+  - {arrival: '06:41', departure: '06:41', station: Warszawa Wschodnia}
+  - {arrival: '06:43', departure: '06:43', station: Warszawa Stadion}
+  - {arrival: '06:46', departure: '06:46', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:49', departure: '06:49', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:51', departure: '06:51', station: Warszawa Ochota}
+  - {arrival: '06:55', station: Warszawa Zachodnia}
+type: train

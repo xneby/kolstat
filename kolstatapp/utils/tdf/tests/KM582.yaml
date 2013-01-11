@@ -1,0 +1,13 @@
+name: KM 582
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:03', station: Radom}
+  - {arrival: '18:10', departure: '18:10', station: Rajec Poduchowny}
+  - {arrival: '18:14', departure: '18:14', station: "Antoni\xF3wka"}
+  - {arrival: '18:17', departure: '18:17', station: Jedlnia Letnisko}
+  - {arrival: '18:23', departure: '18:23', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '18:26', departure: '18:26', station: Pionki Zach.}
+  - {arrival: '18:29', station: Pionki}
+type: train

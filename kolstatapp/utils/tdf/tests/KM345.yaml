@@ -1,0 +1,19 @@
+name: KM 345
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:11', station: Warszawa Wschodnia}
+  - {arrival: '12:14', departure: '12:14', station: Warszawa Stadion}
+  - {arrival: '12:17', departure: '12:17', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '12:20', departure: '12:20', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '12:22', departure: '12:22', station: Warszawa Ochota}
+  - {arrival: '12:26', departure: '12:26', station: Warszawa Zachodnia}
+  - {arrival: '12:32', departure: '12:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '12:35', departure: '12:35', station: Warszawa Ursus}
+  - {arrival: '12:39', departure: '12:39', station: "Piast\xF3w"}
+  - {arrival: '12:43', departure: '12:43', station: "Pruszk\xF3w"}
+  - {arrival: '12:49', departure: '12:49', station: "Brwin\xF3w"}
+  - {arrival: '12:53', departure: '12:53', station: "Milan\xF3wek"}
+  - {arrival: '12:57', station: Grodzisk Maz. (PKP)}
+type: train

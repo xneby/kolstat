@@ -1,0 +1,44 @@
+name: KM 2134
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:24', station: "D\u0119blin"}
+  - {arrival: '11:29', departure: '11:29', station: Rokitnia Stara}
+  - {arrival: '11:34', departure: '11:34', station: "\u017Byczyn"}
+  - {arrival: '11:38', departure: '11:38', station: Mika}
+  - {arrival: '11:42', departure: '11:42', station: Wygoda}
+  - {arrival: '11:47', departure: '11:47', station: Sobolew}
+  - {arrival: '11:51', departure: '11:51', station: Leokadia}
+  - {arrival: '11:55', departure: '11:55', station: "\u0141askarzew Przystanek"}
+  - {arrival: '11:59', departure: '11:59', station: Wola Rowska}
+  - {arrival: '12:03', departure: '12:03', station: Ruda Talubska}
+  - {arrival: '12:08', departure: '12:08', station: Garwolin}
+  - {arrival: '12:17', departure: '12:17', station: Pilawa}
+  - {arrival: '12:21', departure: '12:21', station: "August\xF3wka"}
+  - {arrival: '12:25', departure: '12:25', station: "Zabie\u017Cki"}
+  - {arrival: '12:29', departure: '12:29', station: Chrosna}
+  - {arrival: '12:31', departure: '12:31', station: "Ko\u0142biel"}
+  - {arrival: '12:35', departure: '12:41', station: "Celestyn\xF3w"}
+  - {arrival: '12:46', departure: '12:46', station: "Stara Wie\u015B"}
+  - {arrival: '12:49', departure: '12:49', station: Pogorzel Warszawska}
+  - {arrival: '12:52', departure: '12:52', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '12:57', departure: '12:57', station: Otwock}
+  - {arrival: '13:00', departure: '13:00', station: "\u015Awider"}
+  - {arrival: '13:03', departure: '13:03', station: "J\xF3zef\xF3w"}
+  - {arrival: '13:06', departure: '13:06', station: Michalin}
+  - {arrival: '13:08', departure: '13:08', station: Warszawa Falenica}
+  - {arrival: '13:11', departure: '13:11', station: Warszawa Miedzeszyn}
+  - {arrival: '13:13', departure: '13:13', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '13:16', departure: '13:16', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '13:19', departure: '13:19', station: Warszawa Anin}
+  - {arrival: '13:21', departure: '13:21', station: Warszawa Wawer}
+  - {arrival: '13:24', departure: '13:24', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '13:27', departure: '13:27', station: Warszawa Olsz.Groch.}
+  - {arrival: '13:33', departure: '13:33', station: Warszawa Wschodnia}
+  - {arrival: '13:36', departure: '13:36', station: Warszawa Stadion}
+  - {arrival: '13:39', departure: '13:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:42', departure: '13:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:44', departure: '13:44', station: Warszawa Ochota}
+  - {arrival: '13:47', station: Warszawa Zachodnia}
+type: train

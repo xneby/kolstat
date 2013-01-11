@@ -1,0 +1,15 @@
+name: KM 8832
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:27', station: "\u0141uk\xF3w"}
+  - {arrival: '06:36', departure: '06:36', station: "Krynka \u0141ukowska"}
+  - {arrival: '06:39', departure: '06:39', station: "Radomy\u015Bl"}
+  - {arrival: '06:43', departure: '06:43', station: Dziewule}
+  - {arrival: '06:47', departure: '06:47', station: Borki Kosy}
+  - {arrival: '06:50', departure: '06:50', station: Kosiorki}
+  - {arrival: '06:54', departure: '06:54', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '06:57', departure: '06:57', station: Siedlce Wschodnie}
+  - {arrival: '07:00', station: Siedlce}
+type: train

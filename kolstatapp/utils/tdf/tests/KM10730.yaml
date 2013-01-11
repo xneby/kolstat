@@ -1,0 +1,37 @@
+name: KM 10730
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:58', station: "G\xF3ra Kalwaria"}
+  - {arrival: '18:08', departure: '18:08', station: "Czach\xF3wek Wsch."}
+  - {arrival: '18:16', departure: '18:16', station: "Ustan\xF3wek"}
+  - {arrival: '18:21', departure: '18:21', station: "Zalesie G\xF3rne"}
+  - {arrival: '18:27', departure: '18:27', station: Piaseczno}
+  - {arrival: '18:31', departure: '18:31', station: Nowa Iwiczna}
+  - {arrival: '18:35', departure: '18:35', station: Warszawa Jeziorki}
+  - {arrival: '18:38', departure: '18:38', station: Warszawa Dawidy}
+  - {arrival: '18:43', departure: '18:43', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '18:46', departure: '18:46', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '18:48', departure: '18:48', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '18:51', departure: '18:51', station: Warszawa Rakowiec}
+  - {arrival: '18:54', departure: '18:54', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '19:02', departure: '19:02', station: Warszawa Zachodnia}
+  - {arrival: '19:06', departure: '19:06', station: Warszawa Ochota}
+  - {arrival: '19:09', departure: '19:09', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:11', departure: '19:11', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '19:14', departure: '19:14', station: Warszawa Stadion}
+  - {arrival: '19:17', departure: '19:17', station: Warszawa Wschodnia}
+  - {arrival: '19:27', departure: '19:27', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '19:36', departure: '19:36', station: Zielonka Bankowa}
+  - {arrival: '19:40', departure: '19:40', station: Zielonka}
+  - {arrival: '19:44', departure: '19:44', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '19:47', departure: '19:47', station: "Koby\u0142ka"}
+  - {arrival: '19:50', departure: '19:50', station: "Wo\u0142omin"}
+  - {arrival: '19:53', departure: '19:53', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '19:56', departure: '19:56', station: "Zago\u015Bciniec"}
+  - {arrival: '20:00', departure: '20:00', station: Dobczyn}
+  - {arrival: '20:03', departure: '20:03', station: "Klemb\xF3w"}
+  - {arrival: '20:07', departure: '20:07', station: Jasienica Mazowiecka}
+  - {arrival: '20:11', station: "T\u0142uszcz"}
+type: train

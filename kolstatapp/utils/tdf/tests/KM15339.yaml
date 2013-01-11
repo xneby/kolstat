@@ -1,0 +1,21 @@
+name: KM 15339
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:48', station: Kutno}
+  - {arrival: '17:53', departure: '17:53', station: Azory}
+  - {arrival: '18:02', departure: '18:02', station: "Racibor\xF3w Kutnowski"}
+  - {arrival: '18:08', departure: '18:08', station: Strzelce Kujawskie}
+  - {arrival: '18:16', departure: '18:16', station: "Sierak\xF3wek"}
+  - {arrival: '18:25', departure: '18:25', station: Gostynin}
+  - {arrival: '18:33', departure: '18:33', station: "Rogo\u017Cew"}
+  - {arrival: '18:40', departure: '18:40', station: "\u0141\u0105ck"}
+  - {arrival: '18:51', departure: '18:51', station: "P\u0142ock Radziwie"}
+  - {arrival: '18:59', departure: '18:59', station: "P\u0142ock"}
+  - {arrival: '19:05', departure: '19:05', station: "P\u0142ock Trzepowo"}
+  - {arrival: '19:13', departure: '19:13', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '19:20', departure: '19:20', station: Gozdowo}
+  - {arrival: '19:26', departure: '19:26', station: Susk}
+  - {arrival: '19:35', station: Sierpc}
+type: train

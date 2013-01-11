@@ -1,0 +1,19 @@
+name: KM 21244
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:21', station: Radom}
+  - {arrival: '13:54', departure: '13:54', station: Dobieszyn}
+  - {arrival: '14:18', departure: '14:18', station: Warka}
+  - {arrival: '14:42', departure: '14:42', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '14:50', departure: '14:50', station: "Zalesie G\xF3rne"}
+  - {arrival: '14:56', departure: '14:56', station: Piaseczno}
+  - {arrival: '15:01', departure: '15:01', station: Nowa Iwiczna}
+  - {arrival: '15:13', departure: '15:13', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '15:15', departure: '15:15', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '15:17', departure: '15:17', station: Warszawa Rakowiec}
+  - {arrival: '15:25', departure: '15:25', station: Warszawa Zachodnia}
+  - {arrival: '15:30', departure: '15:35', station: Warszawa Centralna}
+  - {arrival: '15:42', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,28 @@
+name: KM 881
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:55', station: Warszawa Zachodnia}
+  - {arrival: '14:58', departure: '14:58', station: Warszawa Ochota}
+  - {arrival: '15:01', departure: '15:01', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:04', departure: '15:04', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:07', departure: '15:07', station: Warszawa Stadion}
+  - {arrival: '15:11', departure: '15:11', station: Warszawa Wschodnia}
+  - {arrival: '15:20', departure: '15:20', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '15:25', departure: '15:25', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '15:27', departure: '15:27', station: Warszawa-Wola Grzyb.}
+  - {arrival: '15:30', departure: '15:30', station: "Sulej\xF3wek"}
+  - {arrival: '15:33', departure: '15:33', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '15:37', departure: '15:37', station: "Halin\xF3w"}
+  - {arrival: '15:40', departure: '15:40', station: Cisie}
+  - {arrival: '15:43', departure: '15:43', station: "D\u0119be Wielkie"}
+  - {arrival: '15:46', departure: '15:46', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '15:49', departure: '15:49', station: "Wrzos\xF3w"}
+  - {arrival: '15:55', departure: '15:55', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '15:58', departure: '15:58', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '16:01', departure: '16:01', station: "Barcz\u0105ca"}
+  - {arrival: '16:06', departure: '16:06', station: Mienia}
+  - {arrival: '16:09', departure: '16:09', station: "Ceg\u0142\xF3w"}
+  - {arrival: '16:14', station: Mrozy}
+type: train

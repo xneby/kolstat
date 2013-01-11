@@ -1,0 +1,30 @@
+name: KM 553
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:57', station: Warszawa Zachodnia}
+  - {arrival: '04:02', departure: '04:03', station: Warszawa Centralna}
+  - {arrival: '04:10', departure: '04:14', station: Warszawa Wschodnia}
+  - {arrival: '04:19', departure: '04:19', station: Warszawa Olsz.Groch.}
+  - {arrival: '04:22', departure: '04:22', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '04:25', departure: '04:25', station: Warszawa Wawer}
+  - {arrival: '04:27', departure: '04:27', station: Warszawa Anin}
+  - {arrival: '04:30', departure: '04:30', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '04:33', departure: '04:33', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '04:35', departure: '04:35', station: Warszawa Miedzeszyn}
+  - {arrival: '04:38', departure: '04:38', station: Warszawa Falenica}
+  - {arrival: '04:40', departure: '04:40', station: Michalin}
+  - {arrival: '04:43', departure: '04:43', station: "J\xF3zef\xF3w"}
+  - {arrival: '04:46', departure: '04:46', station: "\u015Awider"}
+  - {arrival: '04:50', departure: '04:50', station: Otwock}
+  - {arrival: '04:54', departure: '04:54', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '04:58', departure: '04:58', station: Pogorzel Warszawska}
+  - {arrival: '05:01', departure: '05:01', station: "Stara Wie\u015B"}
+  - {arrival: '05:06', departure: '05:14', station: "Celestyn\xF3w"}
+  - {arrival: '05:17', departure: '05:17', station: "Ko\u0142biel"}
+  - {arrival: '05:19', departure: '05:19', station: Chrosna}
+  - {arrival: '05:23', departure: '05:30', station: "Zabie\u017Cki"}
+  - {arrival: '05:34', departure: '05:34', station: "August\xF3wka"}
+  - {arrival: '05:38', station: Pilawa}
+type: train

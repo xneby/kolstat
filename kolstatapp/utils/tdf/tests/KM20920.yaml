@@ -1,0 +1,28 @@
+name: KM 20920
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:21', station: Skierniewice}
+  - {arrival: '04:27', departure: '04:27', station: Skierniewice Rawka}
+  - {arrival: '04:33', departure: '04:33', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '04:37', departure: '04:37', station: Jesionka}
+  - {arrival: '04:41', departure: '04:41', station: "Sucha \u017Byrardowska"}
+  - {arrival: '04:50', departure: '04:50', station: "\u017Byrard\xF3w"}
+  - {arrival: '04:54', departure: '04:54', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '05:01', departure: '05:01', station: "Jaktor\xF3w"}
+  - {arrival: '05:09', departure: '05:09', station: Grodzisk Maz. (PKP)}
+  - {arrival: '05:13', departure: '05:13', station: "Milan\xF3wek"}
+  - {arrival: '05:17', departure: '05:17', station: "Brwin\xF3w"}
+  - {arrival: '05:23', departure: '05:23', station: "Pruszk\xF3w"}
+  - {arrival: '05:27', departure: '05:27', station: "Piast\xF3w"}
+  - {arrival: '05:32', departure: '05:32', station: Warszawa Ursus}
+  - {arrival: '05:35', departure: '05:35', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:40', departure: '05:40', station: Warszawa Zachodnia}
+  - {arrival: '05:44', departure: '05:44', station: Warszawa Ochota}
+  - {arrival: '05:47', departure: '05:47', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:49', departure: '05:49', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:52', departure: '05:52', station: Warszawa Stadion}
+  - {arrival: '05:54', departure: '05:55', station: Warszawa Wschodnia}
+  - {arrival: '06:05', station: "Warszawa Rembert\xF3w"}
+type: train

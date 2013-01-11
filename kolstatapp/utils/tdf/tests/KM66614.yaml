@@ -1,0 +1,20 @@
+name: KM 66614
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:19', station: Sierpc}
+  - {arrival: '14:27', departure: '14:27', station: Mieszaki}
+  - {arrival: '14:35', departure: '14:35', station: Zawidz}
+  - {arrival: '14:38', departure: '14:38', station: "Zawidz Ko\u015Bcielny"}
+  - {arrival: '14:46', departure: '14:46', station: Koziebrody}
+  - {arrival: '14:58', departure: '14:58', station: "Raci\u0105\u017C"}
+  - {arrival: '15:06', departure: '15:06', station: Kaczorowo}
+  - {arrival: '15:15', departure: '15:15', station: Baboszewo}
+  - {arrival: '15:21', departure: '15:21', station: Arcelin}
+  - {arrival: '15:40', departure: '15:40', station: "P\u0142o\u0144sk"}
+  - {arrival: '15:50', departure: '15:50', station: "Dalan\xF3wek"}
+  - {arrival: '15:58', departure: '15:58', station: Wkra}
+  - {arrival: '16:06', departure: '16:06', station: Cieksyn}
+  - {arrival: '16:20', station: Nasielsk}
+type: train

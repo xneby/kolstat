@@ -1,0 +1,12 @@
+name: KM 33222
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:55', station: "\u017Byrard\xF3w"}
+  - {arrival: '05:59', departure: '05:59', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '06:07', departure: '06:07', station: "Jaktor\xF3w"}
+  - {arrival: '06:34', departure: '06:34', station: Warszawa Zachodnia}
+  - {arrival: '06:39', departure: '06:41', station: Warszawa Centralna}
+  - {arrival: '06:48', station: Warszawa Wschodnia}
+type: train

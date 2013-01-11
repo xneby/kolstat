@@ -1,0 +1,21 @@
+name: KM 9170
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:12', station: Piaseczno}
+  - {arrival: '20:17', departure: '20:17', station: Nowa Iwiczna}
+  - {arrival: '20:20', departure: '20:20', station: Warszawa Jeziorki}
+  - {arrival: '20:24', departure: '20:24', station: Warszawa Dawidy}
+  - {arrival: '20:29', departure: '20:29', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '20:31', departure: '20:31', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '20:34', departure: '20:34', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '20:36', departure: '20:36', station: Warszawa Rakowiec}
+  - {arrival: '20:39', departure: '20:39', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '20:44', departure: '20:47', station: Warszawa Zachodnia}
+  - {arrival: '20:51', departure: '20:51', station: Warszawa Ochota}
+  - {arrival: '20:54', departure: '20:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:56', departure: '20:56', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:59', departure: '20:59', station: Warszawa Stadion}
+  - {arrival: '21:01', station: Warszawa Wschodnia}
+type: train

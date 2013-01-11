@@ -1,0 +1,15 @@
+name: KM 8841
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:12', station: Siedlce}
+  - {arrival: '13:16', departure: '13:16', station: Siedlce Wschodnie}
+  - {arrival: '13:19', departure: '13:19', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '13:22', departure: '13:22', station: Kosiorki}
+  - {arrival: '13:25', departure: '13:25', station: Borki Kosy}
+  - {arrival: '13:30', departure: '13:30', station: Dziewule}
+  - {arrival: '13:33', departure: '13:33', station: "Radomy\u015Bl"}
+  - {arrival: '13:37', departure: '13:37', station: "Krynka \u0141ukowska"}
+  - {arrival: '13:44', station: "\u0141uk\xF3w"}
+type: train

@@ -1,0 +1,21 @@
+name: KM 11328
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:50', station: Warszawa Lot. Chopina}
+  - {arrival: '08:53', departure: '08:53', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '08:56', departure: '08:56', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '08:58', departure: '08:58', station: Warszawa Rakowiec}
+  - {arrival: '09:00', departure: '09:00', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '09:05', departure: '09:05', station: Warszawa Zachodnia}
+  - {arrival: '09:12', departure: '09:15', station: Warszawa Centralna}
+  - {arrival: '09:22', departure: '09:23', station: Warszawa Wschodnia}
+  - {arrival: '09:31', departure: '09:31', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '09:36', departure: '09:36', station: "Warszawa P\u0142udy"}
+  - {arrival: '09:42', departure: '09:42', station: Legionowo}
+  - {arrival: '09:45', departure: '09:45', station: Legionowo Przystanek}
+  - {arrival: '09:47', departure: '09:47', station: "Chotom\xF3w"}
+  - {arrival: '09:55', departure: '09:55', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '09:59', station: Modlin}
+type: train

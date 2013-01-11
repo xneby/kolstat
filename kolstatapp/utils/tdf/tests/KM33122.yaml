@@ -1,0 +1,17 @@
+name: KM 33122
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:18', station: Skierniewice}
+  - {arrival: '06:24', departure: '06:24', station: Skierniewice Rawka}
+  - {arrival: '06:29', departure: '06:29', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '06:34', departure: '06:34', station: Jesionka}
+  - {arrival: '06:37', departure: '06:37', station: "Sucha \u017Byrardowska"}
+  - {arrival: '06:46', departure: '06:46', station: "\u017Byrard\xF3w"}
+  - {arrival: '06:49', departure: '06:49', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '06:54', departure: '06:54', station: "Jaktor\xF3w"}
+  - {arrival: '07:20', departure: '07:20', station: Warszawa Zachodnia}
+  - {arrival: '07:25', departure: '07:30', station: Warszawa Centralna}
+  - {arrival: '07:37', station: Warszawa Wschodnia}
+type: train

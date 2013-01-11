@@ -1,0 +1,31 @@
+name: KM 15429
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:33', station: Warszawa Zach. per.8}
+  - {arrival: '16:36', departure: '16:36', station: Warszawa Kasprzaka}
+  - {arrival: '16:40', departure: '16:40', station: "Warszawa Ko\u0142o"}
+  - {arrival: '16:48', departure: '16:48', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '16:51', departure: '16:51', station: Warszawa ZOO}
+  - {arrival: '16:57', departure: '16:57', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '17:06', departure: '17:06', station: Legionowo}
+  - {arrival: '17:10', departure: '17:10', station: "Chotom\xF3w"}
+  - {arrival: '17:17', departure: '17:17', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '17:22', departure: '17:22', station: Modlin}
+  - {arrival: '17:26', departure: '17:26', station: "Pomiech\xF3wek"}
+  - {arrival: '17:34', departure: '17:34', station: Nasielsk}
+  - {arrival: '17:42', departure: '17:42', station: "\u015Awiercze"}
+  - {arrival: '17:48', departure: '17:48', station: "G\u0105socin"}
+  - {arrival: '18:03', departure: '18:03', station: "Ciechan\xF3w"}
+  - {arrival: '18:09', departure: '18:09', station: Czeruchy}
+  - {arrival: '18:13', departure: '18:13', station: "Kro\u015Bnice Maz."}
+  - {arrival: '18:17', departure: '18:17', station: Konopki}
+  - {arrival: '18:21', departure: '18:21', station: Stupsk Mazowiecki}
+  - {arrival: '18:26', departure: '18:26', station: Wyszyny}
+  - {arrival: '18:31', departure: '18:31', station: "M\u0142awa Miasto"}
+  - {arrival: '18:36', departure: '18:41', station: "M\u0142awa"}
+  - {arrival: '18:48', departure: '18:48', station: "I\u0142owo"}
+  - {arrival: '18:52', departure: '18:52', station: Narzym}
+  - {arrival: '19:01', station: "Dzia\u0142dowo"}
+type: train

@@ -1,0 +1,21 @@
+name: KM 11350
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:50', station: Warszawa Lot. Chopina}
+  - {arrival: '19:53', departure: '19:53', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '19:56', departure: '19:56', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '19:58', departure: '19:58', station: Warszawa Rakowiec}
+  - {arrival: '20:00', departure: '20:00', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '20:05', departure: '20:05', station: Warszawa Zachodnia}
+  - {arrival: '20:10', departure: '20:15', station: Warszawa Centralna}
+  - {arrival: '20:23', departure: '20:23', station: Warszawa Wschodnia}
+  - {arrival: '20:31', departure: '20:31', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '20:36', departure: '20:36', station: "Warszawa P\u0142udy"}
+  - {arrival: '20:42', departure: '20:42', station: Legionowo}
+  - {arrival: '20:44', departure: '20:44', station: Legionowo Przystanek}
+  - {arrival: '20:47', departure: '20:47', station: "Chotom\xF3w"}
+  - {arrival: '20:54', departure: '20:54', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '20:58', station: Modlin}
+type: train

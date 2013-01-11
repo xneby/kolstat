@@ -1,0 +1,26 @@
+name: KM 606
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:38', station: Nasielsk}
+  - {arrival: '07:42', departure: '07:42', station: Studzianki Nowe}
+  - {arrival: '07:45', departure: '07:45', station: Brody Warszawskie}
+  - {arrival: '07:49', departure: '07:49', station: "Pomiech\xF3wek"}
+  - {arrival: '07:53', departure: '07:53', station: Modlin}
+  - {arrival: '07:57', departure: '07:57', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '08:00', departure: '08:00', station: "Jan\xF3wek"}
+  - {arrival: '08:05', departure: '08:05', station: "Chotom\xF3w"}
+  - {arrival: '08:08', departure: '08:08', station: Legionowo Przystanek}
+  - {arrival: '08:11', departure: '08:11', station: Legionowo}
+  - {arrival: '08:15', departure: '08:15', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '08:18', departure: '08:18', station: "Warszawa P\u0142udy"}
+  - {arrival: '08:21', departure: '08:21', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '08:24', departure: '08:24', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '08:26', departure: '08:26', station: Warszawa Praga}
+  - {arrival: '08:30', departure: '08:30', station: Warszawa ZOO}
+  - {arrival: '08:34', departure: '08:34', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '08:40', departure: '08:40', station: "Warszawa Ko\u0142o"}
+  - {arrival: '08:43', departure: '08:43', station: Warszawa Kasprzaka}
+  - {arrival: '08:47', station: Warszawa Zach. per.8}
+type: train

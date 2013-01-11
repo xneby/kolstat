@@ -1,0 +1,24 @@
+name: KM 88162
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:37', station: "\u0141uk\xF3w"}
+  - {arrival: '05:45', departure: '05:45', station: "Krynka \u0141ukowska"}
+  - {arrival: '05:48', departure: '05:48', station: "Radomy\u015Bl"}
+  - {arrival: '05:52', departure: '05:52', station: Dziewule}
+  - {arrival: '05:56', departure: '05:56', station: Borki Kosy}
+  - {arrival: '05:59', departure: '05:59', station: Kosiorki}
+  - {arrival: '06:02', departure: '06:02', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '06:05', departure: '06:05', station: Siedlce Wschodnie}
+  - {arrival: '06:09', departure: '06:10', station: Siedlce}
+  - {arrival: '06:14', departure: '06:14', station: Siedlce Zachodnie}
+  - {arrival: '06:24', departure: '06:24', station: "Kotu\u0144"}
+  - {arrival: '06:35', departure: '06:35', station: Mrozy}
+  - {arrival: '06:40', departure: '06:40', station: "Ceg\u0142\xF3w"}
+  - {arrival: '06:49', departure: '06:49', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '07:01', departure: '07:01', station: "Halin\xF3w"}
+  - {arrival: '07:21', departure: '07:23', station: Warszawa Wschodnia}
+  - {arrival: '07:30', departure: '07:35', station: Warszawa Centralna}
+  - {arrival: '07:39', station: Warszawa Zachodnia}
+type: train

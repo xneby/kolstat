@@ -1,0 +1,15 @@
+name: KM 4441
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:06', station: Warka}
+  - {arrival: '05:14', departure: '05:14', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '05:21', departure: '05:21', station: "Strzy\u017Cyna"}
+  - {arrival: '05:29', departure: '05:35', station: Dobieszyn}
+  - {arrival: '05:43', departure: '05:51', station: Kruszyna}
+  - {arrival: '05:55', departure: '05:55', station: Wola Bierwiecka}
+  - {arrival: '05:59', departure: '05:59', station: Bartodzieje}
+  - {arrival: '06:05', departure: '06:11', station: "Lesi\xF3w"}
+  - {arrival: '06:24', station: Radom}
+type: train

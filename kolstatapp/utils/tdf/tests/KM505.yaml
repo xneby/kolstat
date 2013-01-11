@@ -1,0 +1,24 @@
+name: KM 505
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:09', station: Warszawa Zachodnia}
+  - {arrival: '13:12', departure: '13:12', station: Warszawa Ochota}
+  - {arrival: '13:15', departure: '13:15', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:18', departure: '13:18', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:21', departure: '13:21', station: Warszawa Stadion}
+  - {arrival: '13:23', departure: '13:26', station: Warszawa Wschodnia}
+  - {arrival: '13:31', departure: '13:31', station: Warszawa Olsz.Groch.}
+  - {arrival: '13:34', departure: '13:34', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '13:37', departure: '13:37', station: Warszawa Wawer}
+  - {arrival: '13:39', departure: '13:39', station: Warszawa Anin}
+  - {arrival: '13:42', departure: '13:42', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '13:45', departure: '13:45', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '13:47', departure: '13:47', station: Warszawa Miedzeszyn}
+  - {arrival: '13:50', departure: '13:50', station: Warszawa Falenica}
+  - {arrival: '13:52', departure: '13:52', station: Michalin}
+  - {arrival: '13:55', departure: '13:55', station: "J\xF3zef\xF3w"}
+  - {arrival: '13:58', departure: '13:58', station: "\u015Awider"}
+  - {arrival: '14:01', station: Otwock}
+type: train

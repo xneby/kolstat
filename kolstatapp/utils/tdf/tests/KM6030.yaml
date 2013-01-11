@@ -1,0 +1,35 @@
+name: KM 6030
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:30', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: "21:35\n</td>\n<td class=\"sepline\">\n\_", departure: '21:35', station: Lipowe
+      Pole}
+  - {arrival: "21:41\n</td>\n<td class=\"sepline\">\n\_", departure: '21:41', station: "Szyd\u0142\
+      owiec"}
+  - {arrival: "21:45\n</td>\n<td class=\"sepline\">\n\_", departure: '21:45', station: "G\u0105\
+      sawy Pleba\u0144skie"}
+  - {arrival: "21:48\n</td>\n<td class=\"sepline\">\n\_", departure: '21:48', station: "Jastrz\u0105\
+      b"}
+  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:53', station: Wola Lipieniecka}
+  - {arrival: "21:56\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:56', station: Ruda Wielka}
+  - {arrival: "22:00\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:00', station: "Ro\u017Cki"}
+  - {arrival: "22:04\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:04', station: "Radom Po\u0142udniowy"}
+  - {arrival: "22:10\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: Radom}
+type: train

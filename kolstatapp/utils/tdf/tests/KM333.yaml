@@ -1,0 +1,19 @@
+name: KM 333
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:03', station: Warszawa Wschodnia}
+  - {arrival: '05:06', departure: '05:06', station: Warszawa Stadion}
+  - {arrival: '05:09', departure: '05:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:12', departure: '05:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:14', departure: '05:14', station: Warszawa Ochota}
+  - {arrival: '05:18', departure: '05:18', station: Warszawa Zachodnia}
+  - {arrival: '05:24', departure: '05:24', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:27', departure: '05:27', station: Warszawa Ursus}
+  - {arrival: '05:31', departure: '05:31', station: "Piast\xF3w"}
+  - {arrival: '05:35', departure: '05:35', station: "Pruszk\xF3w"}
+  - {arrival: '05:41', departure: '05:41', station: "Brwin\xF3w"}
+  - {arrival: '05:45', departure: '05:45', station: "Milan\xF3wek"}
+  - {arrival: '05:49', station: Grodzisk Maz. (PKP)}
+type: train

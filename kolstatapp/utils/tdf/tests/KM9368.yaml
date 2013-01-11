@@ -1,0 +1,19 @@
+name: KM 9368
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:22', station: Grodzisk Maz. (PKP)}
+  - {arrival: '20:27', departure: '20:27', station: "Milan\xF3wek"}
+  - {arrival: '20:31', departure: '20:31', station: "Brwin\xF3w"}
+  - {arrival: '20:37', departure: '20:37', station: "Pruszk\xF3w"}
+  - {arrival: '20:41', departure: '20:41', station: "Piast\xF3w"}
+  - {arrival: '20:45', departure: '20:45', station: Warszawa Ursus}
+  - {arrival: '20:49', departure: '20:49', station: "Warszawa W\u0142ochy"}
+  - {arrival: '20:53', departure: '20:55', station: Warszawa Zachodnia}
+  - {arrival: '20:58', departure: '20:58', station: Warszawa Ochota}
+  - {arrival: '21:01', departure: '21:01', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '21:04', departure: '21:04', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '21:07', departure: '21:07', station: Warszawa Stadion}
+  - {arrival: '21:09', station: Warszawa Wschodnia}
+type: train

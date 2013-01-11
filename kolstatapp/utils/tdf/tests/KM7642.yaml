@@ -1,0 +1,12 @@
+name: KM 7642
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:25', station: "Wo\u0142omin"}
+  - {arrival: '18:28', departure: '18:28', station: "Koby\u0142ka"}
+  - {arrival: '18:31', departure: '18:31', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '18:36', departure: '18:36', station: Zielonka}
+  - {arrival: '18:40', departure: '18:40', station: "Z\u0105bki"}
+  - {arrival: '18:48', station: "Warszawa Wile\u0144ska"}
+type: train

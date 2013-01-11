@@ -1,0 +1,35 @@
+name: KM 80320
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:25', station: Mrozy}
+  - {arrival: '04:30', departure: '04:30', station: "Ceg\u0142\xF3w"}
+  - {arrival: '04:33', departure: '04:33', station: Mienia}
+  - {arrival: '04:38', departure: '04:38', station: "Barcz\u0105ca"}
+  - {arrival: '04:41', departure: '04:41', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '04:45', departure: '04:45', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '04:50', departure: '04:50', station: "Wrzos\xF3w"}
+  - {arrival: '04:53', departure: '04:53', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '04:56', departure: '04:56', station: "D\u0119be Wielkie"}
+  - {arrival: '04:59', departure: '04:59', station: Cisie}
+  - {arrival: '05:02', departure: '05:02', station: "Halin\xF3w"}
+  - {arrival: '05:06', departure: '05:06', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '05:09', departure: '05:09', station: "Sulej\xF3wek"}
+  - {arrival: '05:12', departure: '05:12', station: Warszawa-Wola Grzyb.}
+  - {arrival: '05:14', departure: '05:14', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '05:19', departure: '05:19', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '05:28', departure: '05:30', station: Warszawa Wschodnia}
+  - {arrival: '05:32', departure: '05:32', station: Warszawa Stadion}
+  - {arrival: '05:35', departure: '05:35', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:38', departure: '05:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:40', departure: '05:40', station: Warszawa Ochota}
+  - {arrival: '05:44', departure: '05:46', station: Warszawa Zachodnia}
+  - {arrival: '05:52', departure: '05:52', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:55', departure: '05:55', station: Warszawa Ursus}
+  - {arrival: '05:59', departure: '05:59', station: "Piast\xF3w"}
+  - {arrival: '06:03', departure: '06:03', station: "Pruszk\xF3w"}
+  - {arrival: '06:09', departure: '06:09', station: "Brwin\xF3w"}
+  - {arrival: '06:13', departure: '06:13', station: "Milan\xF3wek"}
+  - {arrival: '06:17', station: Grodzisk Maz. (PKP)}
+type: train

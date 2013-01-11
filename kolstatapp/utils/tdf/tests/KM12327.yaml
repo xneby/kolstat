@@ -1,0 +1,28 @@
+name: KM 12327
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '23:45', station: Warszawa Wschodnia}
+  - {arrival: '23:52', departure: '23:53', station: Warszawa Centralna}
+  - {arrival: '23:58', departure: '00:01', station: Warszawa Zachodnia}
+  - {arrival: '00:05', departure: '00:05', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '00:08', departure: '00:08', station: Warszawa Rakowiec}
+  - {arrival: '00:11', departure: '00:11', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '00:13', departure: '00:13', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '00:16', departure: '00:16', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '00:20', departure: '00:20', station: Warszawa Dawidy}
+  - {arrival: '00:24', departure: '00:24', station: Warszawa Jeziorki}
+  - {arrival: '00:27', departure: '00:27', station: Nowa Iwiczna}
+  - {arrival: '00:32', departure: '00:32', station: Piaseczno}
+  - {arrival: '00:37', departure: '00:37', station: "Zalesie G\xF3rne"}
+  - {arrival: '00:42', departure: '00:42', station: "Ustan\xF3wek"}
+  - {arrival: '00:46', departure: '00:46', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '00:48', departure: '00:48', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '00:54', departure: '00:54', station: "Su\u0142kowice"}
+  - {arrival: '00:58', departure: '00:58', station: "Chyn\xF3w"}
+  - {arrival: '01:03', departure: '01:03', station: "Kr\u0119\u017Cel"}
+  - {arrival: '01:08', departure: '01:08', station: Michalczew}
+  - {arrival: '01:13', departure: '01:13', station: "Go\u015Bniewice"}
+  - {arrival: '01:17', station: Warka}
+type: train

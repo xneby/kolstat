@@ -1,0 +1,28 @@
+name: KM 15431
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:58', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '18:01', departure: '18:01', station: Warszawa ZOO}
+  - {arrival: '18:07', departure: '18:07', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '18:17', departure: '18:17', station: Legionowo}
+  - {arrival: '18:20', departure: '18:20', station: "Chotom\xF3w"}
+  - {arrival: '18:28', departure: '18:28', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '18:32', departure: '18:32', station: Modlin}
+  - {arrival: '18:37', departure: '18:37', station: "Pomiech\xF3wek"}
+  - {arrival: '18:45', departure: '18:45', station: Nasielsk}
+  - {arrival: '18:53', departure: '18:53', station: "\u015Awiercze"}
+  - {arrival: '18:59', departure: '18:59', station: "G\u0105socin"}
+  - {arrival: '19:15', departure: '19:15', station: "Ciechan\xF3w"}
+  - {arrival: '19:21', departure: '19:21', station: Czeruchy}
+  - {arrival: '19:26', departure: '19:26', station: "Kro\u015Bnice Maz."}
+  - {arrival: '19:30', departure: '19:30', station: Konopki}
+  - {arrival: '19:35', departure: '19:35', station: Stupsk Mazowiecki}
+  - {arrival: '19:40', departure: '19:40', station: Wyszyny}
+  - {arrival: '19:45', departure: '19:45', station: "M\u0142awa Miasto"}
+  - {arrival: '19:50', departure: '20:00', station: "M\u0142awa"}
+  - {arrival: '20:09', departure: '20:09', station: "I\u0142owo"}
+  - {arrival: '20:14', departure: '20:14', station: Narzym}
+  - {arrival: '20:22', station: "Dzia\u0142dowo"}
+type: train

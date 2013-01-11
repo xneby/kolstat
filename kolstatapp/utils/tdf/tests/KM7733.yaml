@@ -1,0 +1,18 @@
+name: KM 7733
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:15', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '12:23', departure: '12:23', station: "Z\u0105bki"}
+  - {arrival: '12:28', departure: '12:28', station: Zielonka}
+  - {arrival: '12:31', departure: '12:31', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '12:34', departure: '12:34', station: "Koby\u0142ka"}
+  - {arrival: '12:38', departure: '12:38', station: "Wo\u0142omin"}
+  - {arrival: '12:41', departure: '12:41', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '12:44', departure: '12:44', station: "Zago\u015Bciniec"}
+  - {arrival: '12:47', departure: '12:47', station: Dobczyn}
+  - {arrival: '12:51', departure: '12:51', station: "Klemb\xF3w"}
+  - {arrival: '12:55', departure: '12:55', station: Jasienica Mazowiecka}
+  - {arrival: '12:58', station: "T\u0142uszcz"}
+type: train

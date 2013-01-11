@@ -1,0 +1,24 @@
+name: KM 9452
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:45', station: Sochaczew}
+  - {arrival: '15:51', departure: '15:51', station: Piasecznica}
+  - {arrival: '15:55', departure: '15:55', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '15:58', departure: '15:58', station: Seroki}
+  - {arrival: '16:02', departure: '16:02', station: "Bo\u017Ca Wola"}
+  - {arrival: '16:06', departure: '16:06', station: "Witan\xF3w"}
+  - {arrival: '16:10', departure: '16:10', station: "B\u0142onie"}
+  - {arrival: '16:15', departure: '16:15', station: "P\u0142ochocin"}
+  - {arrival: '16:20', departure: '16:20', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '16:24', departure: '16:24', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '16:27', departure: '16:27', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '16:30', departure: '16:30', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:36', departure: '16:36', station: Warszawa Zachodnia}
+  - {arrival: '16:40', departure: '16:40', station: Warszawa Ochota}
+  - {arrival: '16:43', departure: '16:43', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:45', departure: '16:45', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:48', departure: '16:48', station: Warszawa Stadion}
+  - {arrival: '16:50', station: Warszawa Wschodnia}
+type: train

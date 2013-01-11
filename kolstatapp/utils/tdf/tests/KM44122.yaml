@@ -1,0 +1,19 @@
+name: KM 44122
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:56', station: "P\u0142ock"}
+  - {arrival: '05:18', departure: '05:18', station: "\u0141\u0105ck"}
+  - {arrival: '05:34', departure: '05:34', station: Gostynin}
+  - {arrival: '05:51', departure: '05:51', station: Strzelce Kujawskie}
+  - {arrival: '06:10', departure: '06:11', station: Kutno}
+  - {arrival: '06:37', departure: '06:37', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: '06:54', departure: '06:54', station: Sochaczew}
+  - {arrival: '07:01', departure: '07:01', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '07:10', departure: '07:10', station: "B\u0142onie"}
+  - {arrival: '07:19', departure: '07:19', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '07:30', departure: '07:30', station: Warszawa Zachodnia}
+  - {arrival: '07:35', departure: '07:40', station: Warszawa Centralna}
+  - {arrival: '07:47', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,18 @@
+name: KM 7718
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:26', station: "T\u0142uszcz"}
+  - {arrival: '05:31', departure: '05:31', station: Jasienica Mazowiecka}
+  - {arrival: '05:36', departure: '05:36', station: "Klemb\xF3w"}
+  - {arrival: '05:40', departure: '05:40', station: Dobczyn}
+  - {arrival: '05:43', departure: '05:43', station: "Zago\u015Bciniec"}
+  - {arrival: '05:46', departure: '05:46', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '05:50', departure: '05:50', station: "Wo\u0142omin"}
+  - {arrival: '05:53', departure: '05:53', station: "Koby\u0142ka"}
+  - {arrival: '05:56', departure: '05:56', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '06:01', departure: '06:01', station: Zielonka}
+  - {arrival: '06:05', departure: '06:05', station: "Z\u0105bki"}
+  - {arrival: '06:13', station: "Warszawa Wile\u0144ska"}
+type: train

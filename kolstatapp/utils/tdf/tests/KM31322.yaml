@@ -1,0 +1,12 @@
+name: KM 31322
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:10', station: Warszawa Zachodnia}
+  - {arrival: '04:15', departure: '04:17', station: Warszawa Centralna}
+  - {arrival: '04:25', departure: '04:25', station: Warszawa Wschodnia}
+  - {arrival: '04:40', departure: '04:40', station: Legionowo}
+  - {arrival: '04:50', departure: '04:50', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '04:54', station: Modlin}
+type: train

@@ -1,0 +1,43 @@
+name: KM 40420
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:43', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: '04:48', departure: '04:48', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '04:51', departure: '04:58', station: Bednary}
+  - {arrival: '05:02', departure: '05:02', station: "Jasionna \u0141owicka"}
+  - {arrival: '05:05', departure: '05:05', station: "K\u0119szyce"}
+  - {arrival: '05:08', departure: '05:08', station: "Leon\xF3w"}
+  - {arrival: '05:12', departure: '05:12', station: Kornelin}
+  - {arrival: '05:16', departure: '05:16', station: Sochaczew}
+  - {arrival: '05:22', departure: '05:22', station: Piasecznica}
+  - {arrival: '05:26', departure: '05:26', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '05:29', departure: '05:29', station: Seroki}
+  - {arrival: '05:33', departure: '05:33', station: "Bo\u017Ca Wola"}
+  - {arrival: '05:37', departure: '05:37', station: "Witan\xF3w"}
+  - {arrival: '05:40', departure: '05:40', station: "B\u0142onie"}
+  - {arrival: '05:45', departure: '05:45', station: "P\u0142ochocin"}
+  - {arrival: '05:51', departure: '05:51', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '05:55', departure: '05:55', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '05:57', departure: '05:57', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '06:00', departure: '06:00', station: "Warszawa W\u0142ochy"}
+  - {arrival: '06:06', departure: '06:06', station: Warszawa Zachodnia}
+  - {arrival: '06:10', departure: '06:10', station: Warszawa Ochota}
+  - {arrival: '06:13', departure: '06:13', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:15', departure: '06:15', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:18', departure: '06:18', station: Warszawa Stadion}
+  - {arrival: '06:21', departure: '06:21', station: Warszawa Wschodnia}
+  - {arrival: '06:27', departure: '06:27', station: Warszawa Olsz.Groch.}
+  - {arrival: '06:30', departure: '06:30', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '06:32', departure: '06:32', station: Warszawa Wawer}
+  - {arrival: '06:35', departure: '06:35', station: Warszawa Anin}
+  - {arrival: '06:37', departure: '06:37', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '06:40', departure: '06:40', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '06:43', departure: '06:43', station: Warszawa Miedzeszyn}
+  - {arrival: '06:45', departure: '06:45', station: Warszawa Falenica}
+  - {arrival: '06:48', departure: '06:48', station: Michalin}
+  - {arrival: '06:50', departure: '06:50', station: "J\xF3zef\xF3w"}
+  - {arrival: '06:53', departure: '06:53', station: "\u015Awider"}
+  - {arrival: '06:56', station: Otwock}
+type: train

@@ -1,0 +1,18 @@
+name: KM 7712
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:31', station: "T\u0142uszcz"}
+  - {arrival: '04:36', departure: '04:36', station: Jasienica Mazowiecka}
+  - {arrival: '04:41', departure: '04:41', station: "Klemb\xF3w"}
+  - {arrival: '04:45', departure: '04:45', station: Dobczyn}
+  - {arrival: '04:48', departure: '04:48', station: "Zago\u015Bciniec"}
+  - {arrival: '04:51', departure: '04:51', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '04:55', departure: '04:55', station: "Wo\u0142omin"}
+  - {arrival: '04:58', departure: '04:58', station: "Koby\u0142ka"}
+  - {arrival: '05:01', departure: '05:01', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '05:06', departure: '05:06', station: Zielonka}
+  - {arrival: '05:10', departure: '05:10', station: "Z\u0105bki"}
+  - {arrival: '05:18', station: "Warszawa Wile\u0144ska"}
+type: train

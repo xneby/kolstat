@@ -1,0 +1,16 @@
+name: KM 6027
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:19', station: Radom}
+  - {arrival: '18:26', departure: '18:26', station: "Radom Po\u0142udniowy"}
+  - {arrival: '18:30', departure: '18:30', station: "Ro\u017Cki"}
+  - {arrival: '18:35', departure: '18:35', station: Ruda Wielka}
+  - {arrival: '18:38', departure: '18:38', station: Wola Lipieniecka}
+  - {arrival: '18:43', departure: '18:43', station: "Jastrz\u0105b"}
+  - {arrival: '18:46', departure: '18:46', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '18:50', departure: '18:50', station: "Szyd\u0142owiec"}
+  - {arrival: '18:56', departure: '18:56', station: Lipowe Pole}
+  - {arrival: '19:01', station: "Skar\u017Cysko-Kamienna"}
+type: train

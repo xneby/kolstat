@@ -1,0 +1,22 @@
+name: KM 70320
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:00', station: "Ostro\u0142\u0119ka"}
+  - {arrival: '03:11', departure: '03:11', station: Gierwaty}
+  - {arrival: '03:20', departure: '03:20', station: Goworowo}
+  - {arrival: '03:30', departure: '03:30', station: Pasieki}
+  - {arrival: '03:37', departure: '03:37', station: "Prabuty G\xF3ry"}
+  - {arrival: '03:44', departure: '03:44', station: Przetycz}
+  - {arrival: '03:50', departure: '03:50', station: Zygmuntowo Mazow.}
+  - {arrival: '03:58', departure: '03:58', station: Dalekie}
+  - {arrival: '04:03', departure: '04:03', station: "Leszczyd\xF3\u0142"}
+  - {arrival: '04:10', departure: '04:10', station: "Wyszk\xF3w"}
+  - {arrival: '04:14', departure: '04:14', station: Rybienko}
+  - {arrival: '04:18', departure: '04:18', station: "Lucyn\xF3w"}
+  - {arrival: '04:23', departure: '04:23', station: "Most\xF3wka"}
+  - {arrival: '04:28', departure: '04:28', station: Grzegorzewo}
+  - {arrival: '04:32', departure: '04:32', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '04:37', station: "T\u0142uszcz"}
+type: train

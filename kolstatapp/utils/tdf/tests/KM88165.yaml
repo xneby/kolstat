@@ -1,0 +1,24 @@
+name: KM 88165
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:15', station: Warszawa Zachodnia}
+  - {arrival: '16:20', departure: '16:25', station: Warszawa Centralna}
+  - {arrival: '16:33', departure: '16:33', station: Warszawa Wschodnia}
+  - {arrival: '16:53', departure: '16:53', station: "Halin\xF3w"}
+  - {arrival: '17:07', departure: '17:07', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '17:15', departure: '17:15', station: "Ceg\u0142\xF3w"}
+  - {arrival: '17:20', departure: '17:20', station: Mrozy}
+  - {arrival: '17:31', departure: '17:31', station: "Kotu\u0144"}
+  - {arrival: '17:39', departure: '17:39', station: Siedlce Zachodnie}
+  - {arrival: '17:47', departure: '17:47', station: Siedlce}
+  - {arrival: '17:50', departure: '17:50', station: Siedlce Wschodnie}
+  - {arrival: '17:53', departure: '17:53', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '17:57', departure: '17:57', station: Kosiorki}
+  - {arrival: '18:00', departure: '18:00', station: Borki Kosy}
+  - {arrival: '18:04', departure: '18:04', station: Dziewule}
+  - {arrival: '18:07', departure: '18:07', station: "Radomy\u015Bl"}
+  - {arrival: '18:10', departure: '18:10', station: "Krynka \u0141ukowska"}
+  - {arrival: '18:17', station: "\u0141uk\xF3w"}
+type: train

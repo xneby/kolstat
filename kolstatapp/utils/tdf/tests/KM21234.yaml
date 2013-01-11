@@ -1,0 +1,19 @@
+name: KM 21234
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:40', station: Radom}
+  - {arrival: '08:14', departure: '08:14', station: Dobieszyn}
+  - {arrival: '08:37', departure: '08:37', station: Warka}
+  - {arrival: '09:04', departure: '09:04', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '09:12', departure: '09:12', station: "Zalesie G\xF3rne"}
+  - {arrival: '09:17', departure: '09:17', station: Piaseczno}
+  - {arrival: '09:21', departure: '09:21', station: Nowa Iwiczna}
+  - {arrival: '09:33', departure: '09:33', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '09:35', departure: '09:35', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '09:37', departure: '09:37', station: Warszawa Rakowiec}
+  - {arrival: '09:45', departure: '09:45', station: Warszawa Zachodnia}
+  - {arrival: '09:49', departure: '09:51', station: Warszawa Centralna}
+  - {arrival: '09:58', station: Warszawa Wschodnia}
+type: train

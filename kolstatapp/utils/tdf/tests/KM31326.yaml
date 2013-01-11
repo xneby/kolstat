@@ -1,0 +1,14 @@
+name: KM 31326
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '23:50', station: Warszawa Lot. Chopina}
+  - {arrival: '23:53', departure: '23:53', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '23:56', departure: '23:56', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '23:58', departure: '23:58', station: Warszawa Rakowiec}
+  - {arrival: '00:01', departure: '00:01', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '00:06', departure: '00:06', station: Warszawa Zachodnia}
+  - {arrival: '00:10', departure: '00:12', station: Warszawa Centralna}
+  - {arrival: '00:19', station: Warszawa Wschodnia}
+type: train

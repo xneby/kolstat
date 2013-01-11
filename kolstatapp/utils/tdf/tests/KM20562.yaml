@@ -1,0 +1,39 @@
+name: KM 20562
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:02', station: Skierniewice}
+  - {arrival: '13:09', departure: '13:09', station: Skierniewice Rawka}
+  - {arrival: '13:15', departure: '13:15', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '13:20', departure: '13:20', station: Jesionka}
+  - {arrival: '13:23', departure: '13:23', station: "Sucha \u017Byrardowska"}
+  - {arrival: '13:32', departure: '13:32', station: "\u017Byrard\xF3w"}
+  - {arrival: '13:36', departure: '13:36', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '13:42', departure: '13:42', station: "Jaktor\xF3w"}
+  - {arrival: '13:48', departure: '13:48', station: Grodzisk Maz. (PKP)}
+  - {arrival: '13:52', departure: '13:52', station: "Milan\xF3wek"}
+  - {arrival: '13:56', departure: '13:56', station: "Brwin\xF3w"}
+  - {arrival: '14:02', departure: '14:02', station: "Pruszk\xF3w"}
+  - {arrival: '14:06', departure: '14:06', station: "Piast\xF3w"}
+  - {arrival: '14:10', departure: '14:10', station: Warszawa Ursus}
+  - {arrival: '14:14', departure: '14:14', station: "Warszawa W\u0142ochy"}
+  - {arrival: '14:18', departure: '14:21', station: Warszawa Zachodnia}
+  - {arrival: '14:24', departure: '14:24', station: Warszawa Ochota}
+  - {arrival: '14:27', departure: '14:27', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:30', departure: '14:30', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:33', departure: '14:33', station: Warszawa Stadion}
+  - {arrival: '14:35', departure: '14:36', station: Warszawa Wschodnia}
+  - {arrival: '14:41', departure: '14:41', station: Warszawa Olsz.Groch.}
+  - {arrival: '14:44', departure: '14:44', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '14:47', departure: '14:47', station: Warszawa Wawer}
+  - {arrival: '14:49', departure: '14:49', station: Warszawa Anin}
+  - {arrival: '14:52', departure: '14:52', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '14:55', departure: '14:55', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '14:57', departure: '14:57', station: Warszawa Miedzeszyn}
+  - {arrival: '15:00', departure: '15:00', station: Warszawa Falenica}
+  - {arrival: '15:02', departure: '15:02', station: Michalin}
+  - {arrival: '15:05', departure: '15:05', station: "J\xF3zef\xF3w"}
+  - {arrival: '15:08', departure: '15:08', station: "\u015Awider"}
+  - {arrival: '15:11', station: Otwock}
+type: train

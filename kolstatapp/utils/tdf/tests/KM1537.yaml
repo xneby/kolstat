@@ -1,0 +1,34 @@
+name: KM 1537
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:07', station: Warszawa Zach. per.8}
+  - {arrival: '22:11', departure: '22:11', station: Warszawa Kasprzaka}
+  - {arrival: '22:14', departure: '22:14', station: "Warszawa Ko\u0142o"}
+  - {arrival: '22:22', departure: '22:22', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '22:25', departure: '22:25', station: Warszawa ZOO}
+  - {arrival: '22:28', departure: '22:28', station: Warszawa Praga}
+  - {arrival: '22:31', departure: '22:31', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '22:34', departure: '22:34', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '22:37', departure: '22:37', station: "Warszawa P\u0142udy"}
+  - {arrival: '22:40', departure: '22:40', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '22:45', departure: '22:45', station: Legionowo}
+  - {arrival: '22:47', departure: '22:47', station: Legionowo Przystanek}
+  - {arrival: '22:50', departure: '22:50', station: "Chotom\xF3w"}
+  - {arrival: '22:55', departure: '22:55', station: "Jan\xF3wek"}
+  - {arrival: '22:59', departure: '22:59', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '23:03', departure: '23:03', station: Modlin}
+  - {arrival: '23:07', departure: '23:07', station: "Pomiech\xF3wek"}
+  - {arrival: '23:11', departure: '23:11', station: Brody Warszawskie}
+  - {arrival: '23:14', departure: '23:14', station: Studzianki Nowe}
+  - {arrival: '23:18', departure: '23:18', station: Nasielsk}
+  - {arrival: '23:21', departure: '23:21', station: "K\u0105tne"}
+  - {arrival: '23:24', departure: '23:24', station: Jackowo Dworskie}
+  - {arrival: '23:29', departure: '23:29', station: "\u015Awiercze"}
+  - {arrival: '23:32', departure: '23:32', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '23:36', departure: '23:36', station: "G\u0105socin"}
+  - {arrival: '23:41', departure: '23:41', station: "Go\u0142otczyzna"}
+  - {arrival: '23:48', departure: '23:48', station: "Ciechan\xF3w Przemys\u0142."}
+  - {arrival: '23:53', station: "Ciechan\xF3w"}
+type: train

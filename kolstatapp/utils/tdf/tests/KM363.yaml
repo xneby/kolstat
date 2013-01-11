@@ -1,0 +1,19 @@
+name: KM 363
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:49', station: Warszawa Wschodnia}
+  - {arrival: '17:51', departure: '17:51', station: Warszawa Stadion}
+  - {arrival: '17:54', departure: '17:54', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '17:57', departure: '17:57', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '17:59', departure: '17:59', station: Warszawa Ochota}
+  - {arrival: '18:03', departure: '18:03', station: Warszawa Zachodnia}
+  - {arrival: '18:09', departure: '18:09', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:12', departure: '18:12', station: Warszawa Ursus}
+  - {arrival: '18:16', departure: '18:16', station: "Piast\xF3w"}
+  - {arrival: '18:20', departure: '18:20', station: "Pruszk\xF3w"}
+  - {arrival: '18:26', departure: '18:26', station: "Brwin\xF3w"}
+  - {arrival: '18:30', departure: '18:30', station: "Milan\xF3wek"}
+  - {arrival: '18:34', station: Grodzisk Maz. (PKP)}
+type: train

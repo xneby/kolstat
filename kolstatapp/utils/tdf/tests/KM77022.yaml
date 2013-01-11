@@ -1,0 +1,19 @@
+name: KM 77022
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:57', station: Radom}
+  - {arrival: '20:06', departure: '20:06', station: "Radom Potkan\xF3w"}
+  - {arrival: '20:13', departure: '20:13', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '20:18', departure: '20:18', station: "Wolan\xF3w"}
+  - {arrival: '20:25', departure: '20:25', station: "Chron\xF3w"}
+  - {arrival: '20:30', departure: '20:30', station: "Podb\xF3r"}
+  - {arrival: '20:37', departure: '20:37', station: Wieniawa}
+  - {arrival: '20:44', departure: '20:44', station: Skrzynno}
+  - {arrival: '20:51', departure: '20:51', station: Przysucha}
+  - {arrival: '20:58', departure: '20:58', station: "Smogorz\xF3w Przysuski"}
+  - {arrival: '21:02', departure: '21:02', station: "Zygmunt\xF3w"}
+  - {arrival: '21:11', departure: '21:11', station: "Bieliny Opoczy\u0144skie"}
+  - {arrival: '21:17', station: Drzewica}
+type: train

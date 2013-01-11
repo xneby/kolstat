@@ -1,0 +1,18 @@
+name: KM 7744
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:46', station: "T\u0142uszcz"}
+  - {arrival: '12:51', departure: '12:51', station: Jasienica Mazowiecka}
+  - {arrival: '12:56', departure: '12:56', station: "Klemb\xF3w"}
+  - {arrival: '13:00', departure: '13:00', station: Dobczyn}
+  - {arrival: '13:03', departure: '13:03', station: "Zago\u015Bciniec"}
+  - {arrival: '13:06', departure: '13:06', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '13:10', departure: '13:10', station: "Wo\u0142omin"}
+  - {arrival: '13:13', departure: '13:13', station: "Koby\u0142ka"}
+  - {arrival: '13:16', departure: '13:16', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '13:21', departure: '13:21', station: Zielonka}
+  - {arrival: '13:25', departure: '13:25', station: "Z\u0105bki"}
+  - {arrival: '13:33', station: "Warszawa Wile\u0144ska"}
+type: train

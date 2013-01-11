@@ -1,0 +1,20 @@
+name: KM 801
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:10', station: Warszawa Zachodnia}
+  - {arrival: '22:15', departure: '22:19', station: Warszawa Centralna}
+  - {arrival: '22:26', departure: '22:28', station: Warszawa Wschodnia}
+  - {arrival: '22:37', departure: '22:37', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '22:41', departure: '22:41', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '22:44', departure: '22:44', station: Warszawa-Wola Grzyb.}
+  - {arrival: '22:47', departure: '22:47', station: "Sulej\xF3wek"}
+  - {arrival: '22:49', departure: '22:49', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '22:53', departure: '22:53', station: "Halin\xF3w"}
+  - {arrival: '22:57', departure: '22:57', station: Cisie}
+  - {arrival: '23:00', departure: '23:00', station: "D\u0119be Wielkie"}
+  - {arrival: '23:02', departure: '23:02', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '23:06', departure: '23:06', station: "Wrzos\xF3w"}
+  - {arrival: '23:11', station: "Mi\u0144sk Mazowiecki"}
+type: train

@@ -1,0 +1,14 @@
+name: KM 11344
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:17', station: Warszawa Wschodnia}
+  - {arrival: '17:27', departure: '17:27', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '17:32', departure: '17:32', station: "Warszawa P\u0142udy"}
+  - {arrival: '17:37', departure: '17:37', station: Legionowo}
+  - {arrival: '17:40', departure: '17:40', station: Legionowo Przystanek}
+  - {arrival: '17:42', departure: '17:42', station: "Chotom\xF3w"}
+  - {arrival: '17:50', departure: '17:50', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '17:54', station: Modlin}
+type: train

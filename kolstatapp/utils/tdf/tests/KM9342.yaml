@@ -1,0 +1,19 @@
+name: KM 9342
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:19', station: Grodzisk Maz. (PKP)}
+  - {arrival: '07:23', departure: '07:23', station: "Milan\xF3wek"}
+  - {arrival: '07:28', departure: '07:28', station: "Brwin\xF3w"}
+  - {arrival: '07:34', departure: '07:34', station: "Pruszk\xF3w"}
+  - {arrival: '07:37', departure: '07:37', station: "Piast\xF3w"}
+  - {arrival: '07:42', departure: '07:42', station: Warszawa Ursus}
+  - {arrival: '07:45', departure: '07:45', station: "Warszawa W\u0142ochy"}
+  - {arrival: '07:51', departure: '07:51', station: Warszawa Zachodnia}
+  - {arrival: '07:55', departure: '07:55', station: Warszawa Ochota}
+  - {arrival: '07:58', departure: '07:58', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:00', departure: '08:00', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:03', departure: '08:03', station: Warszawa Stadion}
+  - {arrival: '08:05', station: Warszawa Wschodnia}
+type: train

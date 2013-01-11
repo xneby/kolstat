@@ -1,0 +1,18 @@
+name: KM 523
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:10', station: "D\u0119blin"}
+  - {arrival: '05:16', departure: '05:16', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '05:24', departure: '05:24', station: "B\u0105kowiec"}
+  - {arrival: '05:30', departure: '05:30', station: Garbatka Letnisko}
+  - {arrival: '05:35', departure: '05:35', station: "\u017Bytkowice"}
+  - {arrival: '05:41', departure: '05:41', station: Pionki}
+  - {arrival: '05:43', departure: '05:43', station: Pionki Zach.}
+  - {arrival: '05:47', departure: '05:47', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '05:52', departure: '05:52', station: Jedlnia Letnisko}
+  - {arrival: '05:56', departure: '05:56', station: "Antoni\xF3wka"}
+  - {arrival: '06:00', departure: '06:00', station: Rajec Poduchowny}
+  - {arrival: '06:08', station: Radom}
+type: train

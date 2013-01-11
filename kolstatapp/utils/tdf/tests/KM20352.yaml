@@ -1,0 +1,21 @@
+name: KM 20352
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:23', station: Modlin}
+  - {arrival: '20:27', departure: '20:27', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '20:34', departure: '20:34', station: "Chotom\xF3w"}
+  - {arrival: '20:37', departure: '20:37', station: Legionowo Przystanek}
+  - {arrival: '20:39', departure: '20:39', station: Legionowo}
+  - {arrival: '20:45', departure: '20:45', station: "Warszawa P\u0142udy"}
+  - {arrival: '20:49', departure: '20:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '20:58', departure: '20:58', station: Warszawa Wschodnia}
+  - {arrival: '21:05', departure: '21:10', station: Warszawa Centralna}
+  - {arrival: '21:14', departure: '21:14', station: Warszawa Zachodnia}
+  - {arrival: '21:19', departure: '21:19', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '21:22', departure: '21:22', station: Warszawa Rakowiec}
+  - {arrival: '21:24', departure: '21:24', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '21:26', departure: '21:26', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '21:30', station: Warszawa Lot. Chopina}
+type: train

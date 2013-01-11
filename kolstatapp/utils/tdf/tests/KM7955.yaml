@@ -1,0 +1,95 @@
+name: KM 7955
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:45', station: "Warszawa Wile\u0144ska"}
+  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:53', station: "Z\u0105bki"}
+  - {arrival: "21:58\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:58', station: Zielonka}
+  - {arrival: "22:01\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:01', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: "22:04\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:04', station: "Koby\u0142ka"}
+  - {arrival: "22:08\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:08', station: "Wo\u0142omin"}
+  - {arrival: "22:11\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:11', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: "22:14\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:14', station: "Zago\u015Bciniec"}
+  - {arrival: "22:17\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:17', station: Dobczyn}
+  - {arrival: "22:21\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:21', station: "Klemb\xF3w"}
+  - {arrival: "22:25\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:25', station: Jasienica Mazowiecka}
+  - {arrival: "22:29\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:29', station: "T\u0142uszcz"}
+  - {arrival: "22:32\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:32', station: "Chrz\u0119sne"}
+  - {arrival: "22:35\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:35', station: "Mokra Wie\u015B"}
+  - {arrival: "22:41\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:41', station: Szewnica}
+  - {arrival: "22:47\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:47', station: Urle}
+  - {arrival: "22:51\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:51', station: "Barch\xF3w"}
+  - {arrival: "22:56\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:56', station: "\u0141och\xF3w"}
+  - {arrival: "23:02\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '23:02', station: "Ostr\xF3wek W\u0119growski"}
+  - {arrival: "23:07\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '23:07', station: "Top\xF3r"}
+  - {arrival: "23:11\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '23:11', station: "Sadowne W\u0119growskie"}
+  - {arrival: "23:20\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '23:20', station: "Prosty\u0144"}
+  - {arrival: "23:28\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: "Ma\u0142kinia"}
+type: train

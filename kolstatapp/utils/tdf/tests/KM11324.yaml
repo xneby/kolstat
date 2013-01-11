@@ -1,0 +1,21 @@
+name: KM 11324
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:50', station: Warszawa Lot. Chopina}
+  - {arrival: '06:53', departure: '06:53', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '06:56', departure: '06:56', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '06:58', departure: '06:58', station: Warszawa Rakowiec}
+  - {arrival: '07:00', departure: '07:00', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '07:05', departure: '07:05', station: Warszawa Zachodnia}
+  - {arrival: '07:10', departure: '07:15', station: Warszawa Centralna}
+  - {arrival: '07:23', departure: '07:23', station: Warszawa Wschodnia}
+  - {arrival: '07:32', departure: '07:32', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '07:36', departure: '07:36', station: "Warszawa P\u0142udy"}
+  - {arrival: '07:42', departure: '07:42', station: Legionowo}
+  - {arrival: '07:44', departure: '07:44', station: Legionowo Przystanek}
+  - {arrival: '07:47', departure: '07:47', station: "Chotom\xF3w"}
+  - {arrival: '07:54', departure: '07:54', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '07:58', station: Modlin}
+type: train

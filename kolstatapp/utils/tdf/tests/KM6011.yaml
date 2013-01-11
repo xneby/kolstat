@@ -1,0 +1,16 @@
+name: KM 6011
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:17', station: Radom}
+  - {arrival: '05:24', departure: '05:24', station: "Radom Po\u0142udniowy"}
+  - {arrival: '05:28', departure: '05:28', station: "Ro\u017Cki"}
+  - {arrival: '05:33', departure: '05:33', station: Ruda Wielka}
+  - {arrival: '05:36', departure: '05:36', station: Wola Lipieniecka}
+  - {arrival: '05:41', departure: '05:41', station: "Jastrz\u0105b"}
+  - {arrival: '05:44', departure: '05:44', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '05:48', departure: '05:48', station: "Szyd\u0142owiec"}
+  - {arrival: '05:54', departure: '05:54', station: Lipowe Pole}
+  - {arrival: '05:59', station: "Skar\u017Cysko-Kamienna"}
+type: train

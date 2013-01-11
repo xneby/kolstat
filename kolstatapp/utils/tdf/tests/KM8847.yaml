@@ -1,0 +1,15 @@
+name: KM 8847
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:15', station: Siedlce}
+  - {arrival: '16:19', departure: '16:19', station: Siedlce Wschodnie}
+  - {arrival: '16:22', departure: '16:22', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '16:25', departure: '16:25', station: Kosiorki}
+  - {arrival: '16:28', departure: '16:28', station: Borki Kosy}
+  - {arrival: '16:33', departure: '16:33', station: Dziewule}
+  - {arrival: '16:36', departure: '16:36', station: "Radomy\u015Bl"}
+  - {arrival: '16:40', departure: '16:40', station: "Krynka \u0141ukowska"}
+  - {arrival: '16:47', station: "\u0141uk\xF3w"}
+type: train

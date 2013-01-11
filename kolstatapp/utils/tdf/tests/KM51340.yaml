@@ -1,0 +1,21 @@
+name: KM 51340
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:42', station: Sierpc}
+  - {arrival: '19:49', departure: '19:49', station: Susk}
+  - {arrival: '19:54', departure: '19:54', station: Gozdowo}
+  - {arrival: '20:02', departure: '20:02', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '20:11', departure: '20:11', station: "P\u0142ock Trzepowo"}
+  - {arrival: '20:17', departure: '20:17', station: "P\u0142ock"}
+  - {arrival: '20:26', departure: '20:26', station: "P\u0142ock Radziwie"}
+  - {arrival: '20:39', departure: '20:39', station: "\u0141\u0105ck"}
+  - {arrival: '20:46', departure: '20:46', station: "Rogo\u017Cew"}
+  - {arrival: '20:54', departure: '20:54', station: Gostynin}
+  - {arrival: '21:03', departure: '21:03', station: "Sierak\xF3wek"}
+  - {arrival: '21:11', departure: '21:11', station: Strzelce Kujawskie}
+  - {arrival: '21:17', departure: '21:17', station: "Racibor\xF3w Kutnowski"}
+  - {arrival: '21:26', departure: '21:26', station: Azory}
+  - {arrival: '21:31', station: Kutno}
+type: train

@@ -1,0 +1,43 @@
+name: KM 88142
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:45', station: "\u0141uk\xF3w"}
+  - {arrival: '03:53', departure: '03:53', station: "Krynka \u0141ukowska"}
+  - {arrival: '03:56', departure: '03:56', station: "Radomy\u015Bl"}
+  - {arrival: '03:59', departure: '03:59', station: Dziewule}
+  - {arrival: '04:03', departure: '04:03', station: Borki Kosy}
+  - {arrival: '04:05', departure: '04:05', station: Kosiorki}
+  - {arrival: '04:08', departure: '04:08', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '04:11', departure: '04:11', station: Siedlce Wschodnie}
+  - {arrival: '04:14', departure: '04:15', station: Siedlce}
+  - {arrival: '04:19', departure: '04:19', station: Siedlce Zachodnie}
+  - {arrival: '04:24', departure: '04:24', station: Sabinka}
+  - {arrival: '04:30', departure: '04:30', station: "Kotu\u0144"}
+  - {arrival: '04:34', departure: '04:34', station: Koszewnica}
+  - {arrival: '04:37', departure: '04:37', station: Sosnowe}
+  - {arrival: '04:41', departure: '04:41', station: Grodziszcze Maz.}
+  - {arrival: '04:45', departure: '04:54', station: Mrozy}
+  - {arrival: '04:58', departure: '04:58', station: "Ceg\u0142\xF3w"}
+  - {arrival: '05:01', departure: '05:01', station: Mienia}
+  - {arrival: '05:05', departure: '05:05', station: "Barcz\u0105ca"}
+  - {arrival: '05:08', departure: '05:08', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '05:12', departure: '05:12', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '05:16', departure: '05:16', station: "Wrzos\xF3w"}
+  - {arrival: '05:19', departure: '05:19', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '05:21', departure: '05:21', station: "D\u0119be Wielkie"}
+  - {arrival: '05:24', departure: '05:24', station: Cisie}
+  - {arrival: '05:27', departure: '05:27', station: "Halin\xF3w"}
+  - {arrival: '05:30', departure: '05:30', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '05:33', departure: '05:33', station: "Sulej\xF3wek"}
+  - {arrival: '05:35', departure: '05:35', station: Warszawa-Wola Grzyb.}
+  - {arrival: '05:38', departure: '05:38', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '05:42', departure: '05:42', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '05:51', departure: '05:52', station: Warszawa Wschodnia}
+  - {arrival: '05:54', departure: '05:54', station: Warszawa Stadion}
+  - {arrival: '05:57', departure: '05:57', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:00', departure: '06:00', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:02', departure: '06:02', station: Warszawa Ochota}
+  - {arrival: '06:06', station: Warszawa Zachodnia}
+type: train

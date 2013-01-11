@@ -1,0 +1,44 @@
+name: KM 51426
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:30', station: "Dzia\u0142dowo"}
+  - {arrival: '08:38', departure: '08:38', station: Narzym}
+  - {arrival: '08:42', departure: '08:42', station: "I\u0142owo"}
+  - {arrival: '08:49', departure: '08:55', station: "M\u0142awa"}
+  - {arrival: '08:59', departure: '08:59', station: "M\u0142awa Miasto"}
+  - {arrival: '09:04', departure: '09:04', station: Wyszyny}
+  - {arrival: '09:10', departure: '09:10', station: Stupsk Mazowiecki}
+  - {arrival: '09:14', departure: '09:14', station: Konopki}
+  - {arrival: '09:18', departure: '09:18', station: "Kro\u015Bnice Maz."}
+  - {arrival: '09:21', departure: '09:21', station: Czeruchy}
+  - {arrival: '09:28', departure: '09:29', station: "Ciechan\xF3w"}
+  - {arrival: '09:32', departure: '09:32', station: "Ciechan\xF3w Przemys\u0142."}
+  - {arrival: '09:40', departure: '09:40', station: "Go\u0142otczyzna"}
+  - {arrival: '09:45', departure: '09:45', station: "G\u0105socin"}
+  - {arrival: '09:49', departure: '09:49', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '09:52', departure: '09:52', station: "\u015Awiercze"}
+  - {arrival: '09:57', departure: '09:57', station: Jackowo Dworskie}
+  - {arrival: '10:00', departure: '10:00', station: "K\u0105tne"}
+  - {arrival: '10:05', departure: '10:05', station: Nasielsk}
+  - {arrival: '10:08', departure: '10:08', station: Studzianki Nowe}
+  - {arrival: '10:11', departure: '10:11', station: Brody Warszawskie}
+  - {arrival: '10:15', departure: '10:15', station: "Pomiech\xF3wek"}
+  - {arrival: '10:19', departure: '10:19', station: Modlin}
+  - {arrival: '10:23', departure: '10:23', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '10:26', departure: '10:26', station: "Jan\xF3wek"}
+  - {arrival: '10:31', departure: '10:31', station: "Chotom\xF3w"}
+  - {arrival: '10:34', departure: '10:34', station: Legionowo Przystanek}
+  - {arrival: '10:37', departure: '10:37', station: Legionowo}
+  - {arrival: '10:41', departure: '10:41', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '10:44', departure: '10:44', station: "Warszawa P\u0142udy"}
+  - {arrival: '10:46', departure: '10:46', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '10:49', departure: '10:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '10:52', departure: '10:52', station: Warszawa Praga}
+  - {arrival: '10:55', departure: '10:55', station: Warszawa ZOO}
+  - {arrival: '10:59', departure: '10:59', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '11:05', departure: '11:05', station: "Warszawa Ko\u0142o"}
+  - {arrival: '11:08', departure: '11:08', station: Warszawa Kasprzaka}
+  - {arrival: '11:12', station: Warszawa Zach. per.8}
+type: train

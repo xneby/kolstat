@@ -1,0 +1,15 @@
+name: KM 8842
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:52', station: "\u0141uk\xF3w"}
+  - {arrival: '14:01', departure: '14:01', station: "Krynka \u0141ukowska"}
+  - {arrival: '14:04', departure: '14:04', station: "Radomy\u015Bl"}
+  - {arrival: '14:08', departure: '14:08', station: Dziewule}
+  - {arrival: '14:12', departure: '14:12', station: Borki Kosy}
+  - {arrival: '14:15', departure: '14:15', station: Kosiorki}
+  - {arrival: '14:19', departure: '14:19', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '14:22', departure: '14:22', station: Siedlce Wschodnie}
+  - {arrival: '14:25', station: Siedlce}
+type: train

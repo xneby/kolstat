@@ -1,0 +1,23 @@
+name: KM 613
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:03', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '16:06', departure: '16:06', station: Warszawa ZOO}
+  - {arrival: '16:10', departure: '16:10', station: Warszawa Praga}
+  - {arrival: '16:13', departure: '16:13', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '16:16', departure: '16:16', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '16:19', departure: '16:19', station: "Warszawa P\u0142udy"}
+  - {arrival: '16:22', departure: '16:22', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '16:27', departure: '16:27', station: Legionowo}
+  - {arrival: '16:29', departure: '16:29', station: Legionowo Przystanek}
+  - {arrival: '16:32', departure: '16:32', station: "Chotom\xF3w"}
+  - {arrival: '16:38', departure: '16:38', station: "Jan\xF3wek"}
+  - {arrival: '16:42', departure: '16:42', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '16:46', departure: '16:46', station: Modlin}
+  - {arrival: '16:50', departure: '16:50', station: "Pomiech\xF3wek"}
+  - {arrival: '16:54', departure: '16:54', station: Brody Warszawskie}
+  - {arrival: '16:57', departure: '16:57', station: Studzianki Nowe}
+  - {arrival: '17:00', station: Nasielsk}
+type: train

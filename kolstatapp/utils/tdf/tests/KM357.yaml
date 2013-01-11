@@ -1,0 +1,19 @@
+name: KM 357
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:03', station: Warszawa Wschodnia}
+  - {arrival: '15:06', departure: '15:06', station: Warszawa Stadion}
+  - {arrival: '15:09', departure: '15:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:12', departure: '15:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:14', departure: '15:14', station: Warszawa Ochota}
+  - {arrival: '15:18', departure: '15:18', station: Warszawa Zachodnia}
+  - {arrival: '15:24', departure: '15:24', station: "Warszawa W\u0142ochy"}
+  - {arrival: '15:27', departure: '15:27', station: Warszawa Ursus}
+  - {arrival: '15:31', departure: '15:31', station: "Piast\xF3w"}
+  - {arrival: '15:35', departure: '15:35', station: "Pruszk\xF3w"}
+  - {arrival: '15:41', departure: '15:41', station: "Brwin\xF3w"}
+  - {arrival: '15:45', departure: '15:45', station: "Milan\xF3wek"}
+  - {arrival: '15:48', station: Grodzisk Maz. (PKP)}
+type: train

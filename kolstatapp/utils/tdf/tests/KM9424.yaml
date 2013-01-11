@@ -1,0 +1,28 @@
+name: KM 9424
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:59', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: '22:04', departure: '22:04', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '22:07', departure: '22:07', station: Bednary}
+  - {arrival: '22:11', departure: '22:11', station: "Jasionna \u0141owicka"}
+  - {arrival: '22:14', departure: '22:14', station: "K\u0119szyce"}
+  - {arrival: '22:17', departure: '22:17', station: "Leon\xF3w"}
+  - {arrival: '22:21', departure: '22:21', station: Kornelin}
+  - {arrival: '22:26', departure: '22:26', station: Sochaczew}
+  - {arrival: '22:31', departure: '22:31', station: Piasecznica}
+  - {arrival: '22:35', departure: '22:44', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '22:47', departure: '22:47', station: Seroki}
+  - {arrival: '22:51', departure: '22:51', station: "Bo\u017Ca Wola"}
+  - {arrival: '22:55', departure: '22:55', station: "Witan\xF3w"}
+  - {arrival: '22:59', departure: '22:59', station: "B\u0142onie"}
+  - {arrival: '23:04', departure: '23:04', station: "P\u0142ochocin"}
+  - {arrival: '23:09', departure: '23:09', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '23:13', departure: '23:13', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '23:16', departure: '23:16', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '23:19', departure: '23:19', station: "Warszawa W\u0142ochy"}
+  - {arrival: '23:24', departure: '23:30', station: Warszawa Zachodnia}
+  - {arrival: '23:35', departure: '23:40', station: Warszawa Centralna}
+  - {arrival: '23:47', station: Warszawa Wschodnia}
+type: train

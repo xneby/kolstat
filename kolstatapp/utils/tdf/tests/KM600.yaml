@@ -1,0 +1,23 @@
+name: KM 600
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:37', station: Nasielsk}
+  - {arrival: '04:41', departure: '04:41', station: Studzianki Nowe}
+  - {arrival: '04:44', departure: '04:44', station: Brody Warszawskie}
+  - {arrival: '04:48', departure: '04:48', station: "Pomiech\xF3wek"}
+  - {arrival: '04:52', departure: '04:52', station: Modlin}
+  - {arrival: '04:56', departure: '04:56', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '04:59', departure: '04:59', station: "Jan\xF3wek"}
+  - {arrival: '05:04', departure: '05:04', station: "Chotom\xF3w"}
+  - {arrival: '05:07', departure: '05:07', station: Legionowo Przystanek}
+  - {arrival: '05:10', departure: '05:10', station: Legionowo}
+  - {arrival: '05:14', departure: '05:14', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '05:17', departure: '05:17', station: "Warszawa P\u0142udy"}
+  - {arrival: '05:19', departure: '05:19', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '05:22', departure: '05:22', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '05:25', departure: '05:25', station: Warszawa Praga}
+  - {arrival: '05:28', departure: '05:28', station: Warszawa ZOO}
+  - {arrival: '05:31', station: "Warszawa Gda\u0144ska"}
+type: train

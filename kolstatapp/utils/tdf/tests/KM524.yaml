@@ -1,0 +1,18 @@
+name: KM 524
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:51', station: Radom}
+  - {arrival: '06:58', departure: '06:58', station: Rajec Poduchowny}
+  - {arrival: '07:01', departure: '07:01', station: "Antoni\xF3wka"}
+  - {arrival: '07:05', departure: '07:05', station: Jedlnia Letnisko}
+  - {arrival: '07:10', departure: '07:10', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '07:14', departure: '07:14', station: Pionki Zach.}
+  - {arrival: '07:16', departure: '07:16', station: Pionki}
+  - {arrival: '07:22', departure: '07:22', station: "\u017Bytkowice"}
+  - {arrival: '07:27', departure: '07:27', station: Garbatka Letnisko}
+  - {arrival: '07:33', departure: '07:33', station: "B\u0105kowiec"}
+  - {arrival: '07:40', departure: '07:40', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '07:46', station: "D\u0119blin"}
+type: train

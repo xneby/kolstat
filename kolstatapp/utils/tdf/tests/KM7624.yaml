@@ -1,0 +1,12 @@
+name: KM 7624
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:20', station: "Wo\u0142omin"}
+  - {arrival: '08:23', departure: '08:23', station: "Koby\u0142ka"}
+  - {arrival: '08:26', departure: '08:26', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '08:31', departure: '08:31', station: Zielonka}
+  - {arrival: '08:35', departure: '08:35', station: "Z\u0105bki"}
+  - {arrival: '08:43', station: "Warszawa Wile\u0144ska"}
+type: train

@@ -1,0 +1,19 @@
+name: KM 12231
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:48', station: Warszawa Wschodnia}
+  - {arrival: '10:55', departure: '11:00', station: Warszawa Centralna}
+  - {arrival: '11:04', departure: '11:08', station: Warszawa Zachodnia}
+  - {arrival: '11:14', departure: '11:14', station: Warszawa Rakowiec}
+  - {arrival: '11:17', departure: '11:17', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '11:19', departure: '11:19', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '11:31', departure: '11:31', station: Nowa Iwiczna}
+  - {arrival: '11:36', departure: '11:36', station: Piaseczno}
+  - {arrival: '11:41', departure: '11:41', station: "Zalesie G\xF3rne"}
+  - {arrival: '11:49', departure: '11:49', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '12:14', departure: '12:14', station: Warka}
+  - {arrival: '12:35', departure: '12:35', station: Dobieszyn}
+  - {arrival: '13:08', station: Radom}
+type: train

@@ -1,0 +1,14 @@
+name: KM 4051
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:56', station: Sochaczew}
+  - {arrival: '05:00', departure: '05:00', station: Kornelin}
+  - {arrival: '05:04', departure: '05:04', station: "Leon\xF3w"}
+  - {arrival: '05:07', departure: '05:07', station: "K\u0119szyce"}
+  - {arrival: '05:09', departure: '05:09', station: "Jasionna \u0141owicka"}
+  - {arrival: '05:13', departure: '05:13', station: Bednary}
+  - {arrival: '05:16', departure: '05:16', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '05:21', station: "\u0141owicz G\u0142\xF3wny"}
+type: train

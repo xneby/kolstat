@@ -1,0 +1,24 @@
+name: KM 9240
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:28', station: Skierniewice}
+  - {arrival: '22:35', departure: '22:35', station: Skierniewice Rawka}
+  - {arrival: '22:41', departure: '22:41', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '22:46', departure: '22:46', station: Jesionka}
+  - {arrival: '22:49', departure: '22:49', station: "Sucha \u017Byrardowska"}
+  - {arrival: '22:58', departure: '22:58', station: "\u017Byrard\xF3w"}
+  - {arrival: '23:02', departure: '23:02', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '23:08', departure: '23:08', station: "Jaktor\xF3w"}
+  - {arrival: '23:14', departure: '23:14', station: Grodzisk Maz. (PKP)}
+  - {arrival: '23:18', departure: '23:18', station: "Milan\xF3wek"}
+  - {arrival: '23:22', departure: '23:22', station: "Brwin\xF3w"}
+  - {arrival: '23:28', departure: '23:28', station: "Pruszk\xF3w"}
+  - {arrival: '23:32', departure: '23:32', station: "Piast\xF3w"}
+  - {arrival: '23:37', departure: '23:37', station: Warszawa Ursus}
+  - {arrival: '23:40', departure: '23:40', station: "Warszawa W\u0142ochy"}
+  - {arrival: '23:45', departure: '23:46', station: Warszawa Zachodnia}
+  - {arrival: '23:50', departure: '23:52', station: Warszawa Centralna}
+  - {arrival: '23:59', station: Warszawa Wschodnia}
+type: train

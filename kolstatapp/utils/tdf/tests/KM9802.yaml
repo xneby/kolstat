@@ -1,0 +1,23 @@
+name: KM 9802
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:54', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '06:59', departure: '06:59', station: "Wrzos\xF3w"}
+  - {arrival: '07:02', departure: '07:02', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '07:05', departure: '07:05', station: "D\u0119be Wielkie"}
+  - {arrival: '07:08', departure: '07:08', station: Cisie}
+  - {arrival: '07:11', departure: '07:11', station: "Halin\xF3w"}
+  - {arrival: '07:15', departure: '07:15', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '07:18', departure: '07:18', station: "Sulej\xF3wek"}
+  - {arrival: '07:21', departure: '07:21', station: Warszawa-Wola Grzyb.}
+  - {arrival: '07:23', departure: '07:23', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '07:28', departure: '07:28', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '07:36', departure: '07:37', station: Warszawa Wschodnia}
+  - {arrival: '07:40', departure: '07:40', station: Warszawa Stadion}
+  - {arrival: '07:43', departure: '07:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:46', departure: '07:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:48', departure: '07:48', station: Warszawa Ochota}
+  - {arrival: '07:51', station: Warszawa Zachodnia}
+type: train

@@ -1,0 +1,14 @@
+name: KM 20342
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:23', station: Modlin}
+  - {arrival: '15:27', departure: '15:27', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '15:34', departure: '15:34', station: "Chotom\xF3w"}
+  - {arrival: '15:37', departure: '15:37', station: Legionowo Przystanek}
+  - {arrival: '15:39', departure: '15:39', station: Legionowo}
+  - {arrival: '15:45', departure: '15:45', station: "Warszawa P\u0142udy"}
+  - {arrival: '15:49', departure: '15:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '15:57', station: Warszawa Wschodnia}
+type: train

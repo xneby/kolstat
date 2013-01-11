@@ -1,0 +1,24 @@
+name: KM 447
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:48', station: Warszawa Wschodnia}
+  - {arrival: '10:51', departure: '10:51', station: Warszawa Stadion}
+  - {arrival: '10:54', departure: '10:54', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '10:57', departure: '10:57', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '10:59', departure: '10:59', station: Warszawa Ochota}
+  - {arrival: '11:03', departure: '11:03', station: Warszawa Zachodnia}
+  - {arrival: '11:09', departure: '11:09', station: "Warszawa W\u0142ochy"}
+  - {arrival: '11:13', departure: '11:13', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '11:16', departure: '11:16', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '11:20', departure: '11:20', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '11:25', departure: '11:25', station: "P\u0142ochocin"}
+  - {arrival: '11:30', departure: '11:30', station: "B\u0142onie"}
+  - {arrival: '11:33', departure: '11:33', station: "Witan\xF3w"}
+  - {arrival: '11:36', departure: '11:36', station: "Bo\u017Ca Wola"}
+  - {arrival: '11:40', departure: '11:40', station: Seroki}
+  - {arrival: '11:44', departure: '11:44', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '11:48', departure: '11:48', station: Piasecznica}
+  - {arrival: '11:53', station: Sochaczew}
+type: train

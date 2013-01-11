@@ -1,0 +1,31 @@
+name: KM 21324
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:52', station: Warka}
+  - {arrival: '12:57', departure: '12:57', station: "Go\u015Bniewice"}
+  - {arrival: '13:02', departure: '13:02', station: Michalczew}
+  - {arrival: '13:07', departure: '13:07', station: "Kr\u0119\u017Cel"}
+  - {arrival: '13:12', departure: '13:12', station: "Chyn\xF3w"}
+  - {arrival: '13:16', departure: '13:16', station: "Su\u0142kowice"}
+  - {arrival: '13:21', departure: '13:21', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '13:23', departure: '13:23', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '13:27', departure: '13:27', station: "Ustan\xF3wek"}
+  - {arrival: '13:32', departure: '13:32', station: "Zalesie G\xF3rne"}
+  - {arrival: '13:38', departure: '13:38', station: Piaseczno}
+  - {arrival: '13:43', departure: '13:43', station: Nowa Iwiczna}
+  - {arrival: '13:47', departure: '13:47', station: Warszawa Jeziorki}
+  - {arrival: '13:51', departure: '13:51', station: Warszawa Dawidy}
+  - {arrival: '13:57', departure: '13:57', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '14:00', departure: '14:00', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '14:03', departure: '14:03', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '14:05', departure: '14:05', station: Warszawa Rakowiec}
+  - {arrival: '14:08', departure: '14:08', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '14:13', departure: '14:17', station: Warszawa Zachodnia}
+  - {arrival: '14:21', departure: '14:21', station: Warszawa Ochota}
+  - {arrival: '14:24', departure: '14:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:26', departure: '14:26', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:29', departure: '14:29', station: Warszawa Stadion}
+  - {arrival: '14:31', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,19 @@
+name: KM 9226
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:54', station: Grodzisk Maz. (PKP)}
+  - {arrival: '17:58', departure: '17:58', station: "Milan\xF3wek"}
+  - {arrival: '18:02', departure: '18:02', station: "Brwin\xF3w"}
+  - {arrival: '18:08', departure: '18:08', station: "Pruszk\xF3w"}
+  - {arrival: '18:12', departure: '18:12', station: "Piast\xF3w"}
+  - {arrival: '18:16', departure: '18:16', station: Warszawa Ursus}
+  - {arrival: '18:20', departure: '18:20', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:25', departure: '18:25', station: Warszawa Zachodnia}
+  - {arrival: '18:28', departure: '18:28', station: Warszawa Ochota}
+  - {arrival: '18:31', departure: '18:31', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:34', departure: '18:34', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:37', departure: '18:37', station: Warszawa Stadion}
+  - {arrival: '18:39', station: Warszawa Wschodnia}
+type: train

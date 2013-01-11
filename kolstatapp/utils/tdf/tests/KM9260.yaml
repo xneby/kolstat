@@ -1,0 +1,22 @@
+name: KM 9260
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:28', station: "\u017Byrard\xF3w"}
+  - {arrival: '04:33', departure: '04:33', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '04:40', departure: '04:40', station: "Jaktor\xF3w"}
+  - {arrival: '04:47', departure: '04:47', station: Grodzisk Maz. (PKP)}
+  - {arrival: '04:51', departure: '04:51', station: "Milan\xF3wek"}
+  - {arrival: '04:55', departure: '04:55', station: "Brwin\xF3w"}
+  - {arrival: '05:01', departure: '05:01', station: "Pruszk\xF3w"}
+  - {arrival: '05:05', departure: '05:05', station: "Piast\xF3w"}
+  - {arrival: '05:09', departure: '05:09', station: Warszawa Ursus}
+  - {arrival: '05:13', departure: '05:13', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:18', departure: '05:18', station: Warszawa Zachodnia}
+  - {arrival: '05:21', departure: '05:21', station: Warszawa Ochota}
+  - {arrival: '05:24', departure: '05:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:27', departure: '05:27', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:30', departure: '05:30', station: Warszawa Stadion}
+  - {arrival: '05:32', station: Warszawa Wschodnia}
+type: train

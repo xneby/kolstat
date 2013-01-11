@@ -1,0 +1,24 @@
+name: KM 245
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:23', station: Warszawa Wschodnia}
+  - {arrival: '22:30', departure: '22:31', station: Warszawa Centralna}
+  - {arrival: '22:36', departure: '22:37', station: Warszawa Zachodnia}
+  - {arrival: '22:44', departure: '22:44', station: "Warszawa W\u0142ochy"}
+  - {arrival: '22:47', departure: '22:47', station: Warszawa Ursus}
+  - {arrival: '22:50', departure: '22:50', station: "Piast\xF3w"}
+  - {arrival: '22:54', departure: '22:54', station: "Pruszk\xF3w"}
+  - {arrival: '23:00', departure: '23:00', station: "Brwin\xF3w"}
+  - {arrival: '23:04', departure: '23:04', station: "Milan\xF3wek"}
+  - {arrival: '23:09', departure: '23:09', station: Grodzisk Maz. (PKP)}
+  - {arrival: '23:15', departure: '23:15', station: "Jaktor\xF3w"}
+  - {arrival: '23:22', departure: '23:22', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '23:27', departure: '23:27', station: "\u017Byrard\xF3w"}
+  - {arrival: '23:36', departure: '23:36', station: "Sucha \u017Byrardowska"}
+  - {arrival: '23:39', departure: '23:39', station: Jesionka}
+  - {arrival: '23:44', departure: '23:44', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '23:49', departure: '23:49', station: Skierniewice Rawka}
+  - {arrival: '23:54', station: Skierniewice}
+type: train

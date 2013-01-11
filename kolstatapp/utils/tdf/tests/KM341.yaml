@@ -1,0 +1,19 @@
+name: KM 341
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:11', station: Warszawa Wschodnia}
+  - {arrival: '10:13', departure: '10:13', station: Warszawa Stadion}
+  - {arrival: '10:16', departure: '10:16', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '10:19', departure: '10:19', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '10:21', departure: '10:21', station: Warszawa Ochota}
+  - {arrival: '10:25', departure: '10:25', station: Warszawa Zachodnia}
+  - {arrival: '10:32', departure: '10:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '10:35', departure: '10:35', station: Warszawa Ursus}
+  - {arrival: '10:38', departure: '10:38', station: "Piast\xF3w"}
+  - {arrival: '10:42', departure: '10:42', station: "Pruszk\xF3w"}
+  - {arrival: '10:48', departure: '10:48', station: "Brwin\xF3w"}
+  - {arrival: '10:52', departure: '10:52', station: "Milan\xF3wek"}
+  - {arrival: '10:56', station: Grodzisk Maz. (PKP)}
+type: train

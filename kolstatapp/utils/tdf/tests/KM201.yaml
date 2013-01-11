@@ -1,0 +1,24 @@
+name: KM 201
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:49', station: Warszawa Wschodnia}
+  - {arrival: '03:56', departure: '03:57', station: Warszawa Centralna}
+  - {arrival: '04:01', departure: '04:01', station: Warszawa Zachodnia}
+  - {arrival: '04:08', departure: '04:08', station: "Warszawa W\u0142ochy"}
+  - {arrival: '04:11', departure: '04:11', station: Warszawa Ursus}
+  - {arrival: '04:15', departure: '04:15', station: "Piast\xF3w"}
+  - {arrival: '04:19', departure: '04:19', station: "Pruszk\xF3w"}
+  - {arrival: '04:25', departure: '04:25', station: "Brwin\xF3w"}
+  - {arrival: '04:29', departure: '04:29', station: "Milan\xF3wek"}
+  - {arrival: '04:34', departure: '04:34', station: Grodzisk Maz. (PKP)}
+  - {arrival: '04:40', departure: '04:40', station: "Jaktor\xF3w"}
+  - {arrival: '04:46', departure: '04:46', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '04:53', departure: '04:53', station: "\u017Byrard\xF3w"}
+  - {arrival: '05:02', departure: '05:02', station: "Sucha \u017Byrardowska"}
+  - {arrival: '05:05', departure: '05:05', station: Jesionka}
+  - {arrival: '05:10', departure: '05:10', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '05:15', departure: '05:15', station: Skierniewice Rawka}
+  - {arrival: '05:21', station: Skierniewice}
+type: train

@@ -1,0 +1,19 @@
+name: KM 355
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:48', station: Warszawa Wschodnia}
+  - {arrival: '14:51', departure: '14:51', station: Warszawa Stadion}
+  - {arrival: '14:54', departure: '14:54', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:57', departure: '14:57', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:59', departure: '14:59', station: Warszawa Ochota}
+  - {arrival: '15:03', departure: '15:03', station: Warszawa Zachodnia}
+  - {arrival: '15:09', departure: '15:09', station: "Warszawa W\u0142ochy"}
+  - {arrival: '15:12', departure: '15:12', station: Warszawa Ursus}
+  - {arrival: '15:16', departure: '15:16', station: "Piast\xF3w"}
+  - {arrival: '15:20', departure: '15:20', station: "Pruszk\xF3w"}
+  - {arrival: '15:26', departure: '15:26', station: "Brwin\xF3w"}
+  - {arrival: '15:30', departure: '15:30', station: "Milan\xF3wek"}
+  - {arrival: '15:34', station: Grodzisk Maz. (PKP)}
+type: train

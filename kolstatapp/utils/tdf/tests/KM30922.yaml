@@ -1,0 +1,20 @@
+name: KM 30922
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:08', station: Grodzisk Maz. (PKP)}
+  - {arrival: '17:13', departure: '17:13', station: "Milan\xF3wek"}
+  - {arrival: '17:17', departure: '17:17', station: "Brwin\xF3w"}
+  - {arrival: '17:23', departure: '17:23', station: "Pruszk\xF3w"}
+  - {arrival: '17:27', departure: '17:27', station: "Piast\xF3w"}
+  - {arrival: '17:31', departure: '17:31', station: Warszawa Ursus}
+  - {arrival: '17:35', departure: '17:35', station: "Warszawa W\u0142ochy"}
+  - {arrival: '17:40', departure: '17:40', station: Warszawa Zachodnia}
+  - {arrival: '17:43', departure: '17:43', station: Warszawa Ochota}
+  - {arrival: '17:46', departure: '17:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '17:49', departure: '17:49', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '17:52', departure: '17:52', station: Warszawa Stadion}
+  - {arrival: '17:55', departure: '17:55', station: Warszawa Wschodnia}
+  - {arrival: '18:05', station: "Warszawa Rembert\xF3w"}
+type: train

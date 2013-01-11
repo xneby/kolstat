@@ -1,0 +1,19 @@
+name: KM 365
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:11', station: Warszawa Wschodnia}
+  - {arrival: '18:14', departure: '18:14', station: Warszawa Stadion}
+  - {arrival: '18:17', departure: '18:17', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:20', departure: '18:20', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:22', departure: '18:22', station: Warszawa Ochota}
+  - {arrival: '18:26', departure: '18:26', station: Warszawa Zachodnia}
+  - {arrival: '18:32', departure: '18:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:35', departure: '18:35', station: Warszawa Ursus}
+  - {arrival: '18:39', departure: '18:39', station: "Piast\xF3w"}
+  - {arrival: '18:43', departure: '18:43', station: "Pruszk\xF3w"}
+  - {arrival: '18:49', departure: '18:49', station: "Brwin\xF3w"}
+  - {arrival: '18:53', departure: '18:53', station: "Milan\xF3wek"}
+  - {arrival: '18:57', station: Grodzisk Maz. (PKP)}
+type: train

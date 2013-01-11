@@ -1,0 +1,19 @@
+name: KM 367
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:37', station: Warszawa Wschodnia}
+  - {arrival: '18:40', departure: '18:40', station: Warszawa Stadion}
+  - {arrival: '18:43', departure: '18:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:46', departure: '18:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:48', departure: '18:48', station: Warszawa Ochota}
+  - {arrival: '18:51', departure: '18:55', station: Warszawa Zachodnia}
+  - {arrival: '19:02', departure: '19:02', station: "Warszawa W\u0142ochy"}
+  - {arrival: '19:05', departure: '19:05', station: Warszawa Ursus}
+  - {arrival: '19:08', departure: '19:08', station: "Piast\xF3w"}
+  - {arrival: '19:12', departure: '19:12', station: "Pruszk\xF3w"}
+  - {arrival: '19:18', departure: '19:18', station: "Brwin\xF3w"}
+  - {arrival: '19:22', departure: '19:22', station: "Milan\xF3wek"}
+  - {arrival: '19:26', station: Grodzisk Maz. (PKP)}
+type: train

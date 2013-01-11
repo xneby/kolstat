@@ -1,0 +1,18 @@
+name: KM 541
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:54', station: "D\u0119blin"}
+  - {arrival: '20:00', departure: '20:00', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '20:08', departure: '20:08', station: "B\u0105kowiec"}
+  - {arrival: '20:14', departure: '20:14', station: Garbatka Letnisko}
+  - {arrival: '20:19', departure: '20:19', station: "\u017Bytkowice"}
+  - {arrival: '20:25', departure: '20:25', station: Pionki}
+  - {arrival: '20:27', departure: '20:27', station: Pionki Zach.}
+  - {arrival: '20:31', departure: '20:31', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '20:36', departure: '20:36', station: Jedlnia Letnisko}
+  - {arrival: '20:40', departure: '20:40', station: "Antoni\xF3wka"}
+  - {arrival: '20:43', departure: '20:43', station: Rajec Poduchowny}
+  - {arrival: '20:51', station: Radom}
+type: train

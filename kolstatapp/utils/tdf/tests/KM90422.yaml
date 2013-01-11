@@ -1,0 +1,32 @@
+name: KM 90422
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:50', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '18:00', departure: '18:00', station: Warszawa Wschodnia}
+  - {arrival: '18:02', departure: '18:02', station: Warszawa Stadion}
+  - {arrival: '18:05', departure: '18:05', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:08', departure: '18:08', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:10', departure: '18:10', station: Warszawa Ochota}
+  - {arrival: '18:14', departure: '18:14', station: Warszawa Zachodnia}
+  - {arrival: '18:21', departure: '18:21', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:25', departure: '18:25', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '18:27', departure: '18:27', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '18:31', departure: '18:31', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '18:36', departure: '18:36', station: "P\u0142ochocin"}
+  - {arrival: '18:42', departure: '18:42', station: "B\u0142onie"}
+  - {arrival: '18:45', departure: '18:45', station: "Witan\xF3w"}
+  - {arrival: '18:48', departure: '18:48', station: "Bo\u017Ca Wola"}
+  - {arrival: '18:52', departure: '18:52', station: Seroki}
+  - {arrival: '18:55', departure: '19:05', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '19:09', departure: '19:09', station: Piasecznica}
+  - {arrival: '19:14', departure: '19:24', station: Sochaczew}
+  - {arrival: '19:28', departure: '19:28', station: Kornelin}
+  - {arrival: '19:31', departure: '19:31', station: "Leon\xF3w"}
+  - {arrival: '19:34', departure: '19:34', station: "K\u0119szyce"}
+  - {arrival: '19:37', departure: '19:37', station: "Jasionna \u0141owicka"}
+  - {arrival: '19:41', departure: '19:41', station: Bednary}
+  - {arrival: '19:44', departure: '19:44', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '19:48', station: "\u0141owicz G\u0142\xF3wny"}
+type: train

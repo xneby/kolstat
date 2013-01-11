@@ -1,0 +1,35 @@
+name: KM 80420
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:44', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '18:49', departure: '18:49', station: "Wrzos\xF3w"}
+  - {arrival: '18:52', departure: '18:52', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '18:54', departure: '18:54', station: "D\u0119be Wielkie"}
+  - {arrival: '18:57', departure: '18:57', station: Cisie}
+  - {arrival: '19:01', departure: '19:01', station: "Halin\xF3w"}
+  - {arrival: '19:04', departure: '19:04', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '19:07', departure: '19:07', station: "Sulej\xF3wek"}
+  - {arrival: '19:09', departure: '19:09', station: Warszawa-Wola Grzyb.}
+  - {arrival: '19:12', departure: '19:12', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '19:16', departure: '19:16', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '19:26', departure: '19:26', station: Warszawa Wschodnia}
+  - {arrival: '19:28', departure: '19:28', station: Warszawa Stadion}
+  - {arrival: '19:31', departure: '19:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '19:34', departure: '19:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:36', departure: '19:36', station: Warszawa Ochota}
+  - {arrival: '19:40', departure: '19:40', station: Warszawa Zachodnia}
+  - {arrival: '19:47', departure: '19:47', station: "Warszawa W\u0142ochy"}
+  - {arrival: '19:51', departure: '19:51', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '19:53', departure: '19:53', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '19:57', departure: '19:57', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '20:02', departure: '20:02', station: "P\u0142ochocin"}
+  - {arrival: '20:08', departure: '20:08', station: "B\u0142onie"}
+  - {arrival: '20:11', departure: '20:11', station: "Witan\xF3w"}
+  - {arrival: '20:15', departure: '20:15', station: "Bo\u017Ca Wola"}
+  - {arrival: '20:18', departure: '20:18', station: Seroki}
+  - {arrival: '20:22', departure: '20:22', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '20:26', departure: '20:26', station: Piasecznica}
+  - {arrival: '20:31', station: Sochaczew}
+type: train

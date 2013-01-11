@@ -1,0 +1,19 @@
+name: KM 9334
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:31', station: Grodzisk Maz. (PKP)}
+  - {arrival: '05:35', departure: '05:35', station: "Milan\xF3wek"}
+  - {arrival: '05:39', departure: '05:39', station: "Brwin\xF3w"}
+  - {arrival: '05:45', departure: '05:45', station: "Pruszk\xF3w"}
+  - {arrival: '05:49', departure: '05:49', station: "Piast\xF3w"}
+  - {arrival: '05:54', departure: '05:54', station: Warszawa Ursus}
+  - {arrival: '05:57', departure: '05:57', station: "Warszawa W\u0142ochy"}
+  - {arrival: '06:02', departure: '06:02', station: Warszawa Zachodnia}
+  - {arrival: '06:06', departure: '06:06', station: Warszawa Ochota}
+  - {arrival: '06:09', departure: '06:09', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:11', departure: '06:11', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:14', departure: '06:14', station: Warszawa Stadion}
+  - {arrival: '06:16', station: Warszawa Wschodnia}
+type: train

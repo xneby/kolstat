@@ -1,0 +1,34 @@
+name: KM 70232
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:21', station: "T\u0142uszcz"}
+  - {arrival: '05:26', departure: '05:26', station: Jasienica Mazowiecka}
+  - {arrival: '05:31', departure: '05:31', station: "Klemb\xF3w"}
+  - {arrival: '05:35', departure: '05:35', station: Dobczyn}
+  - {arrival: '05:38', departure: '05:38', station: "Zago\u015Bciniec"}
+  - {arrival: '05:41', departure: '05:41', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '05:45', departure: '05:45', station: "Wo\u0142omin"}
+  - {arrival: '05:48', departure: '05:48', station: "Koby\u0142ka"}
+  - {arrival: '05:51', departure: '05:51', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '05:56', departure: '05:56', station: Zielonka}
+  - {arrival: '06:01', departure: '06:01', station: Zielonka Bankowa}
+  - {arrival: '06:11', departure: '06:11', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '06:20', departure: '06:22', station: Warszawa Wschodnia}
+  - {arrival: '06:25', departure: '06:25', station: Warszawa Stadion}
+  - {arrival: '06:28', departure: '06:28', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:31', departure: '06:31', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:33', departure: '06:33', station: Warszawa Ochota}
+  - {arrival: '06:37', departure: '06:37', station: Warszawa Zachodnia}
+  - {arrival: '06:43', departure: '06:43', station: "Warszawa W\u0142ochy"}
+  - {arrival: '06:46', departure: '06:46', station: Warszawa Ursus}
+  - {arrival: '06:50', departure: '06:50', station: "Piast\xF3w"}
+  - {arrival: '06:54', departure: '06:54', station: "Pruszk\xF3w"}
+  - {arrival: '07:00', departure: '07:00', station: "Brwin\xF3w"}
+  - {arrival: '07:04', departure: '07:04', station: "Milan\xF3wek"}
+  - {arrival: '07:08', departure: '07:13', station: Grodzisk Maz. (PKP)}
+  - {arrival: '07:20', departure: '07:20', station: "Jaktor\xF3w"}
+  - {arrival: '07:29', departure: '07:29', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '07:34', station: "\u017Byrard\xF3w"}
+type: train

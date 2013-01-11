@@ -1,0 +1,19 @@
+name: KM 9350
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:16', station: Grodzisk Maz. (PKP)}
+  - {arrival: '11:20', departure: '11:20', station: "Milan\xF3wek"}
+  - {arrival: '11:24', departure: '11:24', station: "Brwin\xF3w"}
+  - {arrival: '11:30', departure: '11:30', station: "Pruszk\xF3w"}
+  - {arrival: '11:34', departure: '11:34', station: "Piast\xF3w"}
+  - {arrival: '11:39', departure: '11:39', station: Warszawa Ursus}
+  - {arrival: '11:42', departure: '11:42', station: "Warszawa W\u0142ochy"}
+  - {arrival: '11:47', departure: '11:47', station: Warszawa Zachodnia}
+  - {arrival: '11:51', departure: '11:51', station: Warszawa Ochota}
+  - {arrival: '11:54', departure: '11:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '11:56', departure: '11:56', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '11:59', departure: '11:59', station: Warszawa Stadion}
+  - {arrival: '12:01', station: Warszawa Wschodnia}
+type: train

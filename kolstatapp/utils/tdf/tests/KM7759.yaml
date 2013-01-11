@@ -1,0 +1,18 @@
+name: KM 7759
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:15', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '19:23', departure: '19:23', station: "Z\u0105bki"}
+  - {arrival: '19:28', departure: '19:28', station: Zielonka}
+  - {arrival: '19:31', departure: '19:31', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '19:34', departure: '19:34', station: "Koby\u0142ka"}
+  - {arrival: '19:38', departure: '19:38', station: "Wo\u0142omin"}
+  - {arrival: '19:41', departure: '19:41', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '19:44', departure: '19:44', station: "Zago\u015Bciniec"}
+  - {arrival: '19:47', departure: '19:47', station: Dobczyn}
+  - {arrival: '19:51', departure: '19:51', station: "Klemb\xF3w"}
+  - {arrival: '19:55', departure: '19:55', station: Jasienica Mazowiecka}
+  - {arrival: '19:58', station: "T\u0142uszcz"}
+type: train

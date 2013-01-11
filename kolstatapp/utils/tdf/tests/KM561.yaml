@@ -1,0 +1,33 @@
+name: KM 561
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:32', station: Warszawa Zachodnia}
+  - {arrival: '12:36', departure: '12:36', station: Warszawa Ochota}
+  - {arrival: '12:39', departure: '12:39', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '12:41', departure: '12:41', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '12:44', departure: '12:44', station: Warszawa Stadion}
+  - {arrival: '12:47', departure: '12:47', station: Warszawa Wschodnia}
+  - {arrival: '12:53', departure: '12:53', station: Warszawa Olsz.Groch.}
+  - {arrival: '12:56', departure: '12:56', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '12:58', departure: '12:58', station: Warszawa Wawer}
+  - {arrival: '13:01', departure: '13:01', station: Warszawa Anin}
+  - {arrival: '13:03', departure: '13:03', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '13:06', departure: '13:06', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '13:09', departure: '13:09', station: Warszawa Miedzeszyn}
+  - {arrival: '13:11', departure: '13:11', station: Warszawa Falenica}
+  - {arrival: '13:14', departure: '13:14', station: Michalin}
+  - {arrival: '13:16', departure: '13:16', station: "J\xF3zef\xF3w"}
+  - {arrival: '13:19', departure: '13:19', station: "\u015Awider"}
+  - {arrival: '13:23', departure: '13:23', station: Otwock}
+  - {arrival: '13:27', departure: '13:27', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '13:31', departure: '13:31', station: Pogorzel Warszawska}
+  - {arrival: '13:34', departure: '13:34', station: "Stara Wie\u015B"}
+  - {arrival: '13:39', departure: '13:39', station: "Celestyn\xF3w"}
+  - {arrival: '13:43', departure: '13:43', station: "Ko\u0142biel"}
+  - {arrival: '13:45', departure: '13:45', station: Chrosna}
+  - {arrival: '13:49', departure: '13:49', station: "Zabie\u017Cki"}
+  - {arrival: '13:53', departure: '13:53', station: "August\xF3wka"}
+  - {arrival: '13:57', station: Pilawa}
+type: train

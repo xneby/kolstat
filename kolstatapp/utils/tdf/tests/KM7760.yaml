@@ -1,0 +1,18 @@
+name: KM 7760
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:36', station: "T\u0142uszcz"}
+  - {arrival: '16:41', departure: '16:41', station: Jasienica Mazowiecka}
+  - {arrival: '16:46', departure: '16:46', station: "Klemb\xF3w"}
+  - {arrival: '16:50', departure: '16:50', station: Dobczyn}
+  - {arrival: '16:53', departure: '16:53', station: "Zago\u015Bciniec"}
+  - {arrival: '16:56', departure: '16:56', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '17:00', departure: '17:00', station: "Wo\u0142omin"}
+  - {arrival: '17:03', departure: '17:03', station: "Koby\u0142ka"}
+  - {arrival: '17:06', departure: '17:06', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '17:11', departure: '17:11', station: Zielonka}
+  - {arrival: '17:15', departure: '17:15', station: "Z\u0105bki"}
+  - {arrival: '17:23', station: "Warszawa Wile\u0144ska"}
+type: train

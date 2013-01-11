@@ -1,0 +1,18 @@
+name: KM 7728
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:56', station: "T\u0142uszcz"}
+  - {arrival: '07:01', departure: '07:01', station: Jasienica Mazowiecka}
+  - {arrival: '07:06', departure: '07:06', station: "Klemb\xF3w"}
+  - {arrival: '07:10', departure: '07:10', station: Dobczyn}
+  - {arrival: '07:13', departure: '07:13', station: "Zago\u015Bciniec"}
+  - {arrival: '07:16', departure: '07:16', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '07:20', departure: '07:20', station: "Wo\u0142omin"}
+  - {arrival: '07:23', departure: '07:23', station: "Koby\u0142ka"}
+  - {arrival: '07:26', departure: '07:26', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '07:31', departure: '07:31', station: Zielonka}
+  - {arrival: '07:35', departure: '07:35', station: "Z\u0105bki"}
+  - {arrival: '07:43', station: "Warszawa Wile\u0144ska"}
+type: train

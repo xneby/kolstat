@@ -1,0 +1,27 @@
+name: KM 6020
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:58', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: '14:03', departure: '14:03', station: Lipowe Pole}
+  - {arrival: '14:09', departure: '14:09', station: "Szyd\u0142owiec"}
+  - {arrival: '14:13', departure: '14:13', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '14:16', departure: '14:16', station: "Jastrz\u0105b"}
+  - {arrival: '14:21', departure: '14:21', station: Wola Lipieniecka}
+  - {arrival: '14:24', departure: '14:24', station: Ruda Wielka}
+  - {arrival: '14:28', departure: '14:28', station: "Ro\u017Cki"}
+  - {arrival: '14:32', departure: '14:32', station: "Radom Po\u0142udniowy"}
+  - {arrival: '14:38', departure: '14:39', station: Radom}
+  - {arrival: '14:46', departure: '14:46', station: Rajec Poduchowny}
+  - {arrival: '14:49', departure: '14:49', station: "Antoni\xF3wka"}
+  - {arrival: '14:53', departure: '14:53', station: Jedlnia Letnisko}
+  - {arrival: '14:58', departure: '14:58', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '15:02', departure: '15:02', station: Pionki Zach.}
+  - {arrival: '15:04', departure: '15:04', station: Pionki}
+  - {arrival: '15:10', departure: '15:10', station: "\u017Bytkowice"}
+  - {arrival: '15:15', departure: '15:15', station: Garbatka Letnisko}
+  - {arrival: '15:21', departure: '15:21', station: "B\u0105kowiec"}
+  - {arrival: '15:28', departure: '15:28', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '15:34', station: "D\u0119blin"}
+type: train

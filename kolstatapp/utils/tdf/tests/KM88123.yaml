@@ -1,0 +1,16 @@
+name: KM 88123
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:15', station: Warszawa Zachodnia}
+  - {arrival: '18:20', departure: '18:25', station: Warszawa Centralna}
+  - {arrival: '18:33', departure: '18:33', station: Warszawa Wschodnia}
+  - {arrival: '18:52', departure: '18:52', station: "Halin\xF3w"}
+  - {arrival: '19:07', departure: '19:07', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '19:14', departure: '19:14', station: "Ceg\u0142\xF3w"}
+  - {arrival: '19:18', departure: '19:18', station: Mrozy}
+  - {arrival: '19:27', departure: '19:27', station: "Kotu\u0144"}
+  - {arrival: '19:35', departure: '19:35', station: Siedlce Zachodnie}
+  - {arrival: '19:41', station: Siedlce}
+type: train

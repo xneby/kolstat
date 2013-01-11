@@ -1,0 +1,18 @@
+name: KM 538
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:57', station: Radom}
+  - {arrival: '19:04', departure: '19:04', station: Rajec Poduchowny}
+  - {arrival: '19:07', departure: '19:07', station: "Antoni\xF3wka"}
+  - {arrival: '19:11', departure: '19:11', station: Jedlnia Letnisko}
+  - {arrival: '19:16', departure: '19:16', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '19:20', departure: '19:20', station: Pionki Zach.}
+  - {arrival: '19:22', departure: '19:22', station: Pionki}
+  - {arrival: '19:28', departure: '19:28', station: "\u017Bytkowice"}
+  - {arrival: '19:33', departure: '19:33', station: Garbatka Letnisko}
+  - {arrival: '19:39', departure: '19:39', station: "B\u0105kowiec"}
+  - {arrival: '19:46', departure: '19:46', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '19:52', station: "D\u0119blin"}
+type: train

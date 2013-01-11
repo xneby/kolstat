@@ -1,0 +1,13 @@
+name: KM 70355
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:03', station: "T\u0142uszcz"}
+  - {arrival: '16:08', departure: '16:08', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '16:12', departure: '16:12', station: Grzegorzewo}
+  - {arrival: '16:17', departure: '16:17', station: "Most\xF3wka"}
+  - {arrival: '16:22', departure: '16:22', station: "Lucyn\xF3w"}
+  - {arrival: '16:26', departure: '16:26', station: Rybienko}
+  - {arrival: '16:30', station: "Wyszk\xF3w"}
+type: train

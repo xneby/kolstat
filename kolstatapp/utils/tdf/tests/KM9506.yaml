@@ -1,0 +1,24 @@
+name: KM 9506
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:35', station: Otwock}
+  - {arrival: '08:38', departure: '08:38', station: "\u015Awider"}
+  - {arrival: '08:41', departure: '08:41', station: "J\xF3zef\xF3w"}
+  - {arrival: '08:44', departure: '08:44', station: Michalin}
+  - {arrival: '08:46', departure: '08:46', station: Warszawa Falenica}
+  - {arrival: '08:49', departure: '08:49', station: Warszawa Miedzeszyn}
+  - {arrival: '08:51', departure: '08:51', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '08:54', departure: '08:54', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '08:57', departure: '08:57', station: Warszawa Anin}
+  - {arrival: '08:59', departure: '08:59', station: Warszawa Wawer}
+  - {arrival: '09:02', departure: '09:02', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '09:05', departure: '09:05', station: Warszawa Olsz.Groch.}
+  - {arrival: '09:11', departure: '09:11', station: Warszawa Wschodnia}
+  - {arrival: '09:13', departure: '09:13', station: Warszawa Stadion}
+  - {arrival: '09:16', departure: '09:16', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '09:19', departure: '09:19', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '09:21', departure: '09:21', station: Warszawa Ochota}
+  - {arrival: '09:25', station: Warszawa Zachodnia}
+type: train

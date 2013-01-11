@@ -1,0 +1,23 @@
+name: KM 612
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:15', station: Nasielsk}
+  - {arrival: '14:19', departure: '14:19', station: Studzianki Nowe}
+  - {arrival: '14:22', departure: '14:22', station: Brody Warszawskie}
+  - {arrival: '14:26', departure: '14:26', station: "Pomiech\xF3wek"}
+  - {arrival: '14:30', departure: '14:30', station: Modlin}
+  - {arrival: '14:34', departure: '14:34', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '14:37', departure: '14:37', station: "Jan\xF3wek"}
+  - {arrival: '14:42', departure: '14:42', station: "Chotom\xF3w"}
+  - {arrival: '14:45', departure: '14:45', station: Legionowo Przystanek}
+  - {arrival: '14:48', departure: '14:48', station: Legionowo}
+  - {arrival: '14:52', departure: '14:52', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '14:55', departure: '14:55', station: "Warszawa P\u0142udy"}
+  - {arrival: '14:58', departure: '14:58', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '15:01', departure: '15:01', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '15:03', departure: '15:03', station: Warszawa Praga}
+  - {arrival: '15:07', departure: '15:07', station: Warszawa ZOO}
+  - {arrival: '15:10', station: "Warszawa Gda\u0144ska"}
+type: train

@@ -1,0 +1,22 @@
+name: KM 205
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:26', station: Warszawa Wschodnia}
+  - {arrival: '05:28', departure: '05:28', station: Warszawa Stadion}
+  - {arrival: '05:31', departure: '05:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:34', departure: '05:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:36', departure: '05:36', station: Warszawa Ochota}
+  - {arrival: '05:40', departure: '05:40', station: Warszawa Zachodnia}
+  - {arrival: '05:47', departure: '05:47', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:50', departure: '05:50', station: Warszawa Ursus}
+  - {arrival: '05:53', departure: '05:53', station: "Piast\xF3w"}
+  - {arrival: '05:57', departure: '05:57', station: "Pruszk\xF3w"}
+  - {arrival: '06:03', departure: '06:03', station: "Brwin\xF3w"}
+  - {arrival: '06:07', departure: '06:07', station: "Milan\xF3wek"}
+  - {arrival: '06:12', departure: '06:12', station: Grodzisk Maz. (PKP)}
+  - {arrival: '06:18', departure: '06:18', station: "Jaktor\xF3w"}
+  - {arrival: '06:25', departure: '06:25', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '06:29', station: "\u017Byrard\xF3w"}
+type: train

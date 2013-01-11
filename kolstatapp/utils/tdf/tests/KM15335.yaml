@@ -1,0 +1,21 @@
+name: KM 15335
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:27', station: Kutno}
+  - {arrival: '12:32', departure: '12:32', station: Azory}
+  - {arrival: '12:41', departure: '12:41', station: "Racibor\xF3w Kutnowski"}
+  - {arrival: '12:47', departure: '12:47', station: Strzelce Kujawskie}
+  - {arrival: '12:55', departure: '12:55', station: "Sierak\xF3wek"}
+  - {arrival: '13:04', departure: '13:04', station: Gostynin}
+  - {arrival: '13:12', departure: '13:12', station: "Rogo\u017Cew"}
+  - {arrival: '13:19', departure: '13:19', station: "\u0141\u0105ck"}
+  - {arrival: '13:29', departure: '13:29', station: "P\u0142ock Radziwie"}
+  - {arrival: '13:37', departure: '13:37', station: "P\u0142ock"}
+  - {arrival: '13:43', departure: '13:43', station: "P\u0142ock Trzepowo"}
+  - {arrival: '13:51', departure: '13:51', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '13:58', departure: '13:58', station: Gozdowo}
+  - {arrival: '14:04', departure: '14:04', station: Susk}
+  - {arrival: '14:13', station: Sierpc}
+type: train

@@ -1,0 +1,18 @@
+name: KM 7710
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:43', station: "T\u0142uszcz"}
+  - {arrival: '03:48', departure: '03:48', station: Jasienica Mazowiecka}
+  - {arrival: '03:53', departure: '03:53', station: "Klemb\xF3w"}
+  - {arrival: '03:57', departure: '03:57', station: Dobczyn}
+  - {arrival: '04:00', departure: '04:00', station: "Zago\u015Bciniec"}
+  - {arrival: '04:03', departure: '04:03', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '04:07', departure: '04:07', station: "Wo\u0142omin"}
+  - {arrival: '04:10', departure: '04:10', station: "Koby\u0142ka"}
+  - {arrival: '04:13', departure: '04:13', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '04:18', departure: '04:18', station: Zielonka}
+  - {arrival: '04:22', departure: '04:22', station: "Z\u0105bki"}
+  - {arrival: '04:30', station: "Warszawa Wile\u0144ska"}
+type: train

@@ -1,0 +1,37 @@
+name: KM 70144
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:34', station: "T\u0142uszcz"}
+  - {arrival: '06:39', departure: '06:39', station: Jasienica Mazowiecka}
+  - {arrival: '06:44', departure: '06:44', station: "Klemb\xF3w"}
+  - {arrival: '06:48', departure: '06:48', station: Dobczyn}
+  - {arrival: '06:51', departure: '06:51', station: "Zago\u015Bciniec"}
+  - {arrival: '06:54', departure: '06:54', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '06:58', departure: '06:58', station: "Wo\u0142omin"}
+  - {arrival: '07:01', departure: '07:01', station: "Koby\u0142ka"}
+  - {arrival: '07:04', departure: '07:04', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '07:09', departure: '07:09', station: Zielonka}
+  - {arrival: '07:13', departure: '07:13', station: Zielonka Bankowa}
+  - {arrival: '07:23', departure: '07:23', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '07:31', departure: '07:33', station: Warszawa Wschodnia}
+  - {arrival: '07:36', departure: '07:36', station: Warszawa Stadion}
+  - {arrival: '07:39', departure: '07:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:42', departure: '07:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:44', departure: '07:44', station: Warszawa Ochota}
+  - {arrival: '07:47', departure: '07:49', station: Warszawa Zachodnia}
+  - {arrival: '07:54', departure: '07:54', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '07:57', departure: '07:57', station: Warszawa Rakowiec}
+  - {arrival: '07:59', departure: '07:59', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '08:02', departure: '08:02', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '08:04', departure: '08:04', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '08:09', departure: '08:09', station: Warszawa Dawidy}
+  - {arrival: '08:13', departure: '08:13', station: Warszawa Jeziorki}
+  - {arrival: '08:17', departure: '08:17', station: Nowa Iwiczna}
+  - {arrival: '08:21', departure: '08:21', station: Piaseczno}
+  - {arrival: '08:26', departure: '08:26', station: "Zalesie G\xF3rne"}
+  - {arrival: '08:31', departure: '08:31', station: "Ustan\xF3wek"}
+  - {arrival: '08:39', departure: '08:39', station: "Czach\xF3wek Wsch."}
+  - {arrival: '08:51', station: "G\xF3ra Kalwaria"}
+type: train

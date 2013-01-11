@@ -1,0 +1,32 @@
+name: KM 8958
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:53', station: Siedlce}
+  - {arrival: '22:57', departure: '22:57', station: Siedlce Zachodnie}
+  - {arrival: '23:03', departure: '23:03', station: Sabinka}
+  - {arrival: '23:10', departure: '23:10', station: "Kotu\u0144"}
+  - {arrival: '23:15', departure: '23:15', station: Koszewnica}
+  - {arrival: '23:19', departure: '23:19', station: Sosnowe}
+  - {arrival: '23:23', departure: '23:23', station: Grodziszcze Maz.}
+  - {arrival: '23:28', departure: '23:28', station: Mrozy}
+  - {arrival: '23:33', departure: '23:33', station: "Ceg\u0142\xF3w"}
+  - {arrival: '23:36', departure: '23:36', station: Mienia}
+  - {arrival: '23:41', departure: '23:41', station: "Barcz\u0105ca"}
+  - {arrival: '23:44', departure: '23:44', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '23:48', departure: '23:48', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '23:53', departure: '23:53', station: "Wrzos\xF3w"}
+  - {arrival: '23:56', departure: '23:56', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '23:59', departure: '23:59', station: "D\u0119be Wielkie"}
+  - {arrival: '00:03', departure: '00:03', station: Cisie}
+  - {arrival: '00:06', departure: '00:06', station: "Halin\xF3w"}
+  - {arrival: '00:10', departure: '00:10', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '00:13', departure: '00:13', station: "Sulej\xF3wek"}
+  - {arrival: '00:16', departure: '00:16', station: Warszawa-Wola Grzyb.}
+  - {arrival: '00:18', departure: '00:18', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '00:23', departure: '00:23', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '00:32', departure: '00:32', station: Warszawa Wschodnia}
+  - {arrival: '00:39', departure: '00:47', station: Warszawa Centralna}
+  - {arrival: '00:52', station: Warszawa Zachodnia}
+type: train

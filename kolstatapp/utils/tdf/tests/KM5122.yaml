@@ -1,0 +1,33 @@
+name: KM 5122
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:23', station: "Ciechan\xF3w"}
+  - {arrival: '04:34', departure: '04:34', station: "Go\u0142otczyzna"}
+  - {arrival: '04:39', departure: '04:39', station: "G\u0105socin"}
+  - {arrival: '04:42', departure: '04:42', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '04:46', departure: '04:46', station: "\u015Awiercze"}
+  - {arrival: '04:50', departure: '04:50', station: Jackowo Dworskie}
+  - {arrival: '04:53', departure: '04:53', station: "K\u0105tne"}
+  - {arrival: '04:58', departure: '04:58', station: Nasielsk}
+  - {arrival: '05:01', departure: '05:01', station: Studzianki Nowe}
+  - {arrival: '05:04', departure: '05:04', station: Brody Warszawskie}
+  - {arrival: '05:08', departure: '05:08', station: "Pomiech\xF3wek"}
+  - {arrival: '05:12', departure: '05:12', station: Modlin}
+  - {arrival: '05:16', departure: '05:16', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '05:19', departure: '05:19', station: "Jan\xF3wek"}
+  - {arrival: '05:25', departure: '05:25', station: "Chotom\xF3w"}
+  - {arrival: '05:27', departure: '05:27', station: Legionowo Przystanek}
+  - {arrival: '05:30', departure: '05:30', station: Legionowo}
+  - {arrival: '05:34', departure: '05:34', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '05:37', departure: '05:37', station: "Warszawa P\u0142udy"}
+  - {arrival: '05:40', departure: '05:40', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '05:43', departure: '05:43', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '05:46', departure: '05:46', station: Warszawa Praga}
+  - {arrival: '05:50', departure: '05:50', station: Warszawa ZOO}
+  - {arrival: '05:54', departure: '05:54', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '06:00', departure: '06:00', station: "Warszawa Ko\u0142o"}
+  - {arrival: '06:03', departure: '06:03', station: Warszawa Kasprzaka}
+  - {arrival: '06:07', station: Warszawa Zach. per.8}
+type: train

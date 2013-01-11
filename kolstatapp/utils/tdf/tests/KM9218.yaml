@@ -1,0 +1,27 @@
+name: KM 9218
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:08', station: Skierniewice}
+  - {arrival: '12:14', departure: '12:14', station: Skierniewice Rawka}
+  - {arrival: '12:19', departure: '12:19', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '12:24', departure: '12:24', station: Jesionka}
+  - {arrival: '12:27', departure: '12:27', station: "Sucha \u017Byrardowska"}
+  - {arrival: '12:37', departure: '12:37', station: "\u017Byrard\xF3w"}
+  - {arrival: '12:41', departure: '12:41', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '12:46', departure: '12:46', station: "Jaktor\xF3w"}
+  - {arrival: '12:52', departure: '12:52', station: Grodzisk Maz. (PKP)}
+  - {arrival: '12:57', departure: '12:57', station: "Milan\xF3wek"}
+  - {arrival: '13:01', departure: '13:01', station: "Brwin\xF3w"}
+  - {arrival: '13:07', departure: '13:07', station: "Pruszk\xF3w"}
+  - {arrival: '13:11', departure: '13:11', station: "Piast\xF3w"}
+  - {arrival: '13:15', departure: '13:15', station: Warszawa Ursus}
+  - {arrival: '13:19', departure: '13:19', station: "Warszawa W\u0142ochy"}
+  - {arrival: '13:25', departure: '13:25', station: Warszawa Zachodnia}
+  - {arrival: '13:29', departure: '13:29', station: Warszawa Ochota}
+  - {arrival: '13:32', departure: '13:32', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:34', departure: '13:34', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:37', departure: '13:37', station: Warszawa Stadion}
+  - {arrival: '13:39', station: Warszawa Wschodnia}
+type: train

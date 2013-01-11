@@ -1,0 +1,18 @@
+name: KM 528
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:15', station: Radom}
+  - {arrival: '10:22', departure: '10:22', station: Rajec Poduchowny}
+  - {arrival: '10:25', departure: '10:25', station: "Antoni\xF3wka"}
+  - {arrival: '10:29', departure: '10:29', station: Jedlnia Letnisko}
+  - {arrival: '10:34', departure: '10:34', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '10:38', departure: '10:38', station: Pionki Zach.}
+  - {arrival: '10:40', departure: '10:40', station: Pionki}
+  - {arrival: '10:46', departure: '10:46', station: "\u017Bytkowice"}
+  - {arrival: '10:51', departure: '10:51', station: Garbatka Letnisko}
+  - {arrival: '10:57', departure: '10:57', station: "B\u0105kowiec"}
+  - {arrival: '11:04', departure: '11:04', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '11:10', station: "D\u0119blin"}
+type: train

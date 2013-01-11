@@ -1,0 +1,15 @@
+name: KM 77030
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:32', station: Radom}
+  - {arrival: '08:41', departure: '08:41', station: "Radom Potkan\xF3w"}
+  - {arrival: '08:48', departure: '08:48', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '08:53', departure: '08:53', station: "Wolan\xF3w"}
+  - {arrival: '09:00', departure: '09:00', station: "Chron\xF3w"}
+  - {arrival: '09:05', departure: '09:05', station: "Podb\xF3r"}
+  - {arrival: '09:12', departure: '09:12', station: Wieniawa}
+  - {arrival: '09:19', departure: '09:19', station: Skrzynno}
+  - {arrival: '09:26', station: Przysucha}
+type: train

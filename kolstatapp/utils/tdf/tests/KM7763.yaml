@@ -1,0 +1,31 @@
+name: KM 7763
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:15', station: "Warszawa Wile\u0144ska"}
+  - {arrival: "21:23\n</td>\n<td class=\"sepline\">\n\_", departure: '21:23', station: "Z\u0105\
+      bki"}
+  - {arrival: "21:28\n</td>\n<td class=\"sepline\">\n\_", departure: '21:28', station: Zielonka}
+  - {arrival: "21:31\n</td>\n<td class=\"sepline\">\n\_", departure: '21:31', station: "Koby\u0142\
+      ka Oss\xF3w"}
+  - {arrival: "21:34\n</td>\n<td class=\"sepline\">\n\_", departure: '21:34', station: "Koby\u0142\
+      ka"}
+  - {arrival: "21:38\n</td>\n<td class=\"sepline\">\n\_", departure: '21:38', station: "Wo\u0142\
+      omin"}
+  - {arrival: "21:41\n</td>\n<td class=\"sepline\">\n\_", departure: '21:41', station: "Wo\u0142\
+      omin S\u0142oneczna"}
+  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: "Zago\u015B\
+      ciniec"}
+  - {arrival: "21:47\n</td>\n<td class=\"sepline\">\n\_", departure: '21:47', station: Dobczyn}
+  - {arrival: "21:51\n</td>\n<td class=\"sepline\">\n\_", departure: '21:51', station: "Klemb\xF3\
+      w"}
+  - {arrival: "21:55\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:55', station: Jasienica Mazowiecka}
+  - {arrival: "21:58\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: "T\u0142uszcz"}
+type: train

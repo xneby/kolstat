@@ -1,0 +1,31 @@
+name: KM 9404
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:25', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: '05:30', departure: '05:30', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '05:33', departure: '05:33', station: Bednary}
+  - {arrival: '05:37', departure: '05:37', station: "Jasionna \u0141owicka"}
+  - {arrival: '05:40', departure: '05:40', station: "K\u0119szyce"}
+  - {arrival: '05:43', departure: '05:43', station: "Leon\xF3w"}
+  - {arrival: '05:47', departure: '05:47', station: Kornelin}
+  - {arrival: '05:52', departure: '05:52', station: Sochaczew}
+  - {arrival: '05:57', departure: '05:57', station: Piasecznica}
+  - {arrival: '06:01', departure: '06:01', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '06:05', departure: '06:05', station: Seroki}
+  - {arrival: '06:09', departure: '06:09', station: "Bo\u017Ca Wola"}
+  - {arrival: '06:12', departure: '06:12', station: "Witan\xF3w"}
+  - {arrival: '06:15', departure: '06:30', station: "B\u0142onie"}
+  - {arrival: '06:35', departure: '06:35', station: "P\u0142ochocin"}
+  - {arrival: '06:40', departure: '06:40', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '06:44', departure: '06:44', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '06:47', departure: '06:47', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '06:50', departure: '06:50', station: "Warszawa W\u0142ochy"}
+  - {arrival: '06:54', departure: '06:59', station: Warszawa Zachodnia}
+  - {arrival: '07:02', departure: '07:02', station: Warszawa Ochota}
+  - {arrival: '07:05', departure: '07:05', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:08', departure: '07:08', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:11', departure: '07:11', station: Warszawa Stadion}
+  - {arrival: '07:13', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,16 @@
+name: KM 6031
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:44', station: Radom}
+  - {arrival: '22:51', departure: '22:51', station: "Radom Po\u0142udniowy"}
+  - {arrival: '22:55', departure: '22:55', station: "Ro\u017Cki"}
+  - {arrival: '23:00', departure: '23:00', station: Ruda Wielka}
+  - {arrival: '23:03', departure: '23:03', station: Wola Lipieniecka}
+  - {arrival: '23:08', departure: '23:08', station: "Jastrz\u0105b"}
+  - {arrival: '23:11', departure: '23:11', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '23:15', departure: '23:15', station: "Szyd\u0142owiec"}
+  - {arrival: '23:21', departure: '23:21', station: Lipowe Pole}
+  - {arrival: '23:26', station: "Skar\u017Cysko-Kamienna"}
+type: train

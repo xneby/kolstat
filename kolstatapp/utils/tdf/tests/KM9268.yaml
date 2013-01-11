@@ -1,0 +1,22 @@
+name: KM 9268
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:20', station: "\u017Byrard\xF3w"}
+  - {arrival: '19:26', departure: '19:26', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '19:33', departure: '19:33', station: "Jaktor\xF3w"}
+  - {arrival: '19:39', departure: '19:39', station: Grodzisk Maz. (PKP)}
+  - {arrival: '19:43', departure: '19:43', station: "Milan\xF3wek"}
+  - {arrival: '19:47', departure: '19:47', station: "Brwin\xF3w"}
+  - {arrival: '19:53', departure: '19:53', station: "Pruszk\xF3w"}
+  - {arrival: '19:57', departure: '19:57', station: "Piast\xF3w"}
+  - {arrival: '20:02', departure: '20:02', station: Warszawa Ursus}
+  - {arrival: '20:05', departure: '20:05', station: "Warszawa W\u0142ochy"}
+  - {arrival: '20:10', departure: '20:10', station: Warszawa Zachodnia}
+  - {arrival: '20:14', departure: '20:14', station: Warszawa Ochota}
+  - {arrival: '20:17', departure: '20:17', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:19', departure: '20:19', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:22', departure: '20:22', station: Warszawa Stadion}
+  - {arrival: '20:24', station: Warszawa Wschodnia}
+type: train

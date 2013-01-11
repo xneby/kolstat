@@ -1,0 +1,30 @@
+name: KM 9340
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:35', station: Grodzisk Maz. (PKP)}
+  - {arrival: '06:39', departure: '06:39', station: "Milan\xF3wek"}
+  - {arrival: '06:43', departure: '06:43', station: "Brwin\xF3w"}
+  - {arrival: '06:49', departure: '06:49', station: "Pruszk\xF3w"}
+  - {arrival: '06:53', departure: '06:53', station: "Piast\xF3w"}
+  - {arrival: '06:58', departure: '06:58', station: Warszawa Ursus}
+  - {arrival: '07:01', departure: '07:01', station: "Warszawa W\u0142ochy"}
+  - {arrival: '07:06', departure: '07:06', station: Warszawa Zachodnia}
+  - {arrival: '07:10', departure: '07:10', station: Warszawa Ochota}
+  - {arrival: '07:13', departure: '07:13', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:15', departure: '07:15', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:18', departure: '07:18', station: Warszawa Stadion}
+  - {arrival: '07:21', departure: '07:21', station: Warszawa Wschodnia}
+  - {arrival: '07:30', departure: '07:30', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '07:34', departure: '07:34', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '07:37', departure: '07:37', station: Warszawa-Wola Grzyb.}
+  - {arrival: '07:39', departure: '07:39', station: "Sulej\xF3wek"}
+  - {arrival: '07:42', departure: '07:42', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '07:46', departure: '07:46', station: "Halin\xF3w"}
+  - {arrival: '07:49', departure: '07:49', station: Cisie}
+  - {arrival: '07:52', departure: '07:52', station: "D\u0119be Wielkie"}
+  - {arrival: '07:55', departure: '07:55', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '07:58', departure: '07:58', station: "Wrzos\xF3w"}
+  - {arrival: '08:04', station: "Mi\u0144sk Mazowiecki"}
+type: train

@@ -1,0 +1,19 @@
+name: KM 9366
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:45', station: Grodzisk Maz. (PKP)}
+  - {arrival: '19:49', departure: '19:49', station: "Milan\xF3wek"}
+  - {arrival: '19:53', departure: '19:53', station: "Brwin\xF3w"}
+  - {arrival: '19:59', departure: '19:59', station: "Pruszk\xF3w"}
+  - {arrival: '20:03', departure: '20:03', station: "Piast\xF3w"}
+  - {arrival: '20:08', departure: '20:08', station: Warszawa Ursus}
+  - {arrival: '20:11', departure: '20:11', station: "Warszawa W\u0142ochy"}
+  - {arrival: '20:17', departure: '20:17', station: Warszawa Zachodnia}
+  - {arrival: '20:21', departure: '20:21', station: Warszawa Ochota}
+  - {arrival: '20:24', departure: '20:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:26', departure: '20:26', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:29', departure: '20:29', station: Warszawa Stadion}
+  - {arrival: '20:31', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,19 @@
+name: KM 339
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:30', station: Warszawa Wschodnia}
+  - {arrival: '08:32', departure: '08:32', station: Warszawa Stadion}
+  - {arrival: '08:35', departure: '08:35', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:38', departure: '08:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:40', departure: '08:40', station: Warszawa Ochota}
+  - {arrival: '08:45', departure: '08:45', station: Warszawa Zachodnia}
+  - {arrival: '08:51', departure: '08:51', station: "Warszawa W\u0142ochy"}
+  - {arrival: '08:55', departure: '08:55', station: Warszawa Ursus}
+  - {arrival: '08:58', departure: '08:58', station: "Piast\xF3w"}
+  - {arrival: '09:03', departure: '09:03', station: "Pruszk\xF3w"}
+  - {arrival: '09:09', departure: '09:09', station: "Brwin\xF3w"}
+  - {arrival: '09:14', departure: '09:14', station: "Milan\xF3wek"}
+  - {arrival: '09:18', station: Grodzisk Maz. (PKP)}
+type: train

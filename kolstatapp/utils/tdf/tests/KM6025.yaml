@@ -1,0 +1,16 @@
+name: KM 6025
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:56', station: Radom}
+  - {arrival: '17:03', departure: '17:03', station: "Radom Po\u0142udniowy"}
+  - {arrival: '17:07', departure: '17:07', station: "Ro\u017Cki"}
+  - {arrival: '17:12', departure: '17:12', station: Ruda Wielka}
+  - {arrival: '17:15', departure: '17:15', station: Wola Lipieniecka}
+  - {arrival: '17:20', departure: '17:20', station: "Jastrz\u0105b"}
+  - {arrival: '17:23', departure: '17:23', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '17:27', departure: '17:27', station: "Szyd\u0142owiec"}
+  - {arrival: '17:33', departure: '17:33', station: Lipowe Pole}
+  - {arrival: '17:38', station: "Skar\u017Cysko-Kamienna"}
+type: train

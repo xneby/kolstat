@@ -1,0 +1,31 @@
+name: KM 1521
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:48', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '05:51', departure: '05:51', station: Warszawa ZOO}
+  - {arrival: '05:55', departure: '05:55', station: Warszawa Praga}
+  - {arrival: '05:58', departure: '05:58', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '06:01', departure: '06:01', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '06:04', departure: '06:04', station: "Warszawa P\u0142udy"}
+  - {arrival: '06:07', departure: '06:07', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '06:12', departure: '06:12', station: Legionowo}
+  - {arrival: '06:14', departure: '06:14', station: Legionowo Przystanek}
+  - {arrival: '06:17', departure: '06:17', station: "Chotom\xF3w"}
+  - {arrival: '06:23', departure: '06:23', station: "Jan\xF3wek"}
+  - {arrival: '06:26', departure: '06:26', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '06:30', departure: '06:30', station: Modlin}
+  - {arrival: '06:34', departure: '06:34', station: "Pomiech\xF3wek"}
+  - {arrival: '06:38', departure: '06:38', station: Brody Warszawskie}
+  - {arrival: '06:41', departure: '06:41', station: Studzianki Nowe}
+  - {arrival: '06:46', departure: '06:46', station: Nasielsk}
+  - {arrival: '06:49', departure: '06:49', station: "K\u0105tne"}
+  - {arrival: '06:52', departure: '06:52', station: Jackowo Dworskie}
+  - {arrival: '06:57', departure: '06:57', station: "\u015Awiercze"}
+  - {arrival: '07:00', departure: '07:00', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '07:04', departure: '07:04', station: "G\u0105socin"}
+  - {arrival: '07:09', departure: '07:09', station: "Go\u0142otczyzna"}
+  - {arrival: '07:17', departure: '07:17', station: "Ciechan\xF3w Przemys\u0142."}
+  - {arrival: '07:21', station: "Ciechan\xF3w"}
+type: train

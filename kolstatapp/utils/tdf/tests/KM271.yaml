@@ -1,0 +1,22 @@
+name: KM 271
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:41', station: Warszawa Wschodnia}
+  - {arrival: '17:43', departure: '17:43', station: Warszawa Stadion}
+  - {arrival: '17:46', departure: '17:46', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '17:49', departure: '17:49', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '17:51', departure: '17:51', station: Warszawa Ochota}
+  - {arrival: '17:55', departure: '17:55', station: Warszawa Zachodnia}
+  - {arrival: '18:02', departure: '18:02', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:05', departure: '18:05', station: Warszawa Ursus}
+  - {arrival: '18:08', departure: '18:08', station: "Piast\xF3w"}
+  - {arrival: '18:13', departure: '18:13', station: "Pruszk\xF3w"}
+  - {arrival: '18:19', departure: '18:19', station: "Brwin\xF3w"}
+  - {arrival: '18:23', departure: '18:23', station: "Milan\xF3wek"}
+  - {arrival: '18:28', departure: '18:28', station: Grodzisk Maz. (PKP)}
+  - {arrival: '18:34', departure: '18:34', station: "Jaktor\xF3w"}
+  - {arrival: '18:41', departure: '18:41', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '18:45', station: "\u017Byrard\xF3w"}
+type: train

@@ -1,0 +1,18 @@
+name: KM 9484
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:22', station: "B\u0142onie"}
+  - {arrival: '18:27', departure: '18:27', station: "P\u0142ochocin"}
+  - {arrival: '18:33', departure: '18:33', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '18:37', departure: '18:37', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '18:39', departure: '18:39', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '18:42', departure: '18:42', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:47', departure: '18:47', station: Warszawa Zachodnia}
+  - {arrival: '18:51', departure: '18:51', station: Warszawa Ochota}
+  - {arrival: '18:54', departure: '18:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:56', departure: '18:56', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:59', departure: '18:59', station: Warszawa Stadion}
+  - {arrival: '19:01', station: Warszawa Wschodnia}
+type: train

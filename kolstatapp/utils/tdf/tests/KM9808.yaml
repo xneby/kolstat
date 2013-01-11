@@ -1,0 +1,23 @@
+name: KM 9808
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:56', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '08:01', departure: '08:01', station: "Wrzos\xF3w"}
+  - {arrival: '08:04', departure: '08:04', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '08:07', departure: '08:07', station: "D\u0119be Wielkie"}
+  - {arrival: '08:10', departure: '08:10', station: Cisie}
+  - {arrival: '08:13', departure: '08:13', station: "Halin\xF3w"}
+  - {arrival: '08:17', departure: '08:17', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '08:20', departure: '08:20', station: "Sulej\xF3wek"}
+  - {arrival: '08:23', departure: '08:23', station: Warszawa-Wola Grzyb.}
+  - {arrival: '08:25', departure: '08:25', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '08:30', departure: '08:30', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '08:39', departure: '08:41', station: Warszawa Wschodnia}
+  - {arrival: '08:43', departure: '08:43', station: Warszawa Stadion}
+  - {arrival: '08:46', departure: '08:46', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:49', departure: '08:49', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:51', departure: '08:51', station: Warszawa Ochota}
+  - {arrival: '08:55', station: Warszawa Zachodnia}
+type: train

@@ -1,0 +1,12 @@
+name: KM 7626
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:50', station: "Wo\u0142omin"}
+  - {arrival: '08:53', departure: '08:53', station: "Koby\u0142ka"}
+  - {arrival: '08:56', departure: '08:56', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '09:01', departure: '09:01', station: Zielonka}
+  - {arrival: '09:05', departure: '09:05', station: "Z\u0105bki"}
+  - {arrival: '09:13', station: "Warszawa Wile\u0144ska"}
+type: train

@@ -1,0 +1,19 @@
+name: KM 9336
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:16', station: Grodzisk Maz. (PKP)}
+  - {arrival: '06:20', departure: '06:20', station: "Milan\xF3wek"}
+  - {arrival: '06:24', departure: '06:24', station: "Brwin\xF3w"}
+  - {arrival: '06:30', departure: '06:30', station: "Pruszk\xF3w"}
+  - {arrival: '06:34', departure: '06:34', station: "Piast\xF3w"}
+  - {arrival: '06:39', departure: '06:39', station: Warszawa Ursus}
+  - {arrival: '06:42', departure: '06:42', station: "Warszawa W\u0142ochy"}
+  - {arrival: '06:47', departure: '06:47', station: Warszawa Zachodnia}
+  - {arrival: '06:51', departure: '06:51', station: Warszawa Ochota}
+  - {arrival: '06:54', departure: '06:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:56', departure: '06:56', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:59', departure: '06:59', station: Warszawa Stadion}
+  - {arrival: '07:01', station: Warszawa Wschodnia}
+type: train

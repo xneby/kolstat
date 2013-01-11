@@ -1,0 +1,18 @@
+name: KM 539
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:23', station: "D\u0119blin"}
+  - {arrival: '18:29', departure: '18:29', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '18:37', departure: '18:37', station: "B\u0105kowiec"}
+  - {arrival: '18:43', departure: '18:43', station: Garbatka Letnisko}
+  - {arrival: '18:48', departure: '18:48', station: "\u017Bytkowice"}
+  - {arrival: '18:54', departure: '18:54', station: Pionki}
+  - {arrival: '18:56', departure: '18:56', station: Pionki Zach.}
+  - {arrival: '19:00', departure: '19:00', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '19:05', departure: '19:05', station: Jedlnia Letnisko}
+  - {arrival: '19:09', departure: '19:09', station: "Antoni\xF3wka"}
+  - {arrival: '19:12', departure: '19:12', station: Rajec Poduchowny}
+  - {arrival: '19:20', station: Radom}
+type: train

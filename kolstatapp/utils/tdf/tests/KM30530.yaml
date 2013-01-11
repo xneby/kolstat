@@ -1,0 +1,40 @@
+name: KM 30530
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:59', station: Grodzisk Maz. (PKP)}
+  - {arrival: '08:03', departure: '08:03', station: "Milan\xF3wek"}
+  - {arrival: '08:07', departure: '08:07', station: "Brwin\xF3w"}
+  - {arrival: '08:13', departure: '08:13', station: "Pruszk\xF3w"}
+  - {arrival: '08:17', departure: '08:17', station: "Piast\xF3w"}
+  - {arrival: '08:22', departure: '08:22', station: Warszawa Ursus}
+  - {arrival: '08:25', departure: '08:25', station: "Warszawa W\u0142ochy"}
+  - {arrival: '08:30', departure: '08:32', station: Warszawa Zachodnia}
+  - {arrival: '08:36', departure: '08:36', station: Warszawa Ochota}
+  - {arrival: '08:39', departure: '08:39', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:41', departure: '08:41', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:44', departure: '08:44', station: Warszawa Stadion}
+  - {arrival: '08:47', departure: '08:47', station: Warszawa Wschodnia}
+  - {arrival: '08:53', departure: '08:53', station: Warszawa Olsz.Groch.}
+  - {arrival: '08:56', departure: '08:56', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '08:58', departure: '08:58', station: Warszawa Wawer}
+  - {arrival: '09:01', departure: '09:01', station: Warszawa Anin}
+  - {arrival: '09:03', departure: '09:03', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '09:06', departure: '09:06', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '09:09', departure: '09:09', station: Warszawa Miedzeszyn}
+  - {arrival: '09:11', departure: '09:11', station: Warszawa Falenica}
+  - {arrival: '09:14', departure: '09:14', station: Michalin}
+  - {arrival: '09:16', departure: '09:16', station: "J\xF3zef\xF3w"}
+  - {arrival: '09:19', departure: '09:19', station: "\u015Awider"}
+  - {arrival: '09:23', departure: '09:23', station: Otwock}
+  - {arrival: '09:27', departure: '09:27', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '09:31', departure: '09:31', station: Pogorzel Warszawska}
+  - {arrival: '09:34', departure: '09:34', station: "Stara Wie\u015B"}
+  - {arrival: '09:39', departure: '09:39', station: "Celestyn\xF3w"}
+  - {arrival: '09:43', departure: '09:43', station: "Ko\u0142biel"}
+  - {arrival: '09:45', departure: '09:45', station: Chrosna}
+  - {arrival: '09:49', departure: '09:49', station: "Zabie\u017Cki"}
+  - {arrival: '09:53', departure: '09:53', station: "August\xF3wka"}
+  - {arrival: '09:57', station: Pilawa}
+type: train

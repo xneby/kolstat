@@ -1,0 +1,18 @@
+name: KM 7739
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:05', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '14:13', departure: '14:13', station: "Z\u0105bki"}
+  - {arrival: '14:18', departure: '14:18', station: Zielonka}
+  - {arrival: '14:21', departure: '14:21', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '14:24', departure: '14:24', station: "Koby\u0142ka"}
+  - {arrival: '14:28', departure: '14:28', station: "Wo\u0142omin"}
+  - {arrival: '14:31', departure: '14:31', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '14:34', departure: '14:34', station: "Zago\u015Bciniec"}
+  - {arrival: '14:37', departure: '14:37', station: Dobczyn}
+  - {arrival: '14:41', departure: '14:41', station: "Klemb\xF3w"}
+  - {arrival: '14:45', departure: '14:45', station: Jasienica Mazowiecka}
+  - {arrival: '14:48', station: "T\u0142uszcz"}
+type: train

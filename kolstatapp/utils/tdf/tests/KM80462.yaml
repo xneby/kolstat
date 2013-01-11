@@ -1,0 +1,29 @@
+name: KM 80462
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:48', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '15:53', departure: '15:53', station: "Wrzos\xF3w"}
+  - {arrival: '15:56', departure: '15:56', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '15:59', departure: '15:59', station: "D\u0119be Wielkie"}
+  - {arrival: '16:02', departure: '16:02', station: Cisie}
+  - {arrival: '16:05', departure: '16:05', station: "Halin\xF3w"}
+  - {arrival: '16:09', departure: '16:09', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '16:12', departure: '16:12', station: "Sulej\xF3wek"}
+  - {arrival: '16:14', departure: '16:14', station: Warszawa-Wola Grzyb.}
+  - {arrival: '16:17', departure: '16:17', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '16:21', departure: '16:21', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '16:30', departure: '16:30', station: Warszawa Wschodnia}
+  - {arrival: '16:32', departure: '16:32', station: Warszawa Stadion}
+  - {arrival: '16:35', departure: '16:35', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:38', departure: '16:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:40', departure: '16:40', station: Warszawa Ochota}
+  - {arrival: '16:44', departure: '16:44', station: Warszawa Zachodnia}
+  - {arrival: '16:51', departure: '16:51', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:55', departure: '16:55', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '16:57', departure: '16:57', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '17:01', departure: '17:01', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '17:06', departure: '17:06', station: "P\u0142ochocin"}
+  - {arrival: '17:11', station: "B\u0142onie"}
+type: train

@@ -1,0 +1,24 @@
+name: KM 631
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:20', station: Warszawa Zachodnia}
+  - {arrival: '03:25', departure: '03:30', station: Warszawa Centralna}
+  - {arrival: '03:38', departure: '03:38', station: Warszawa Wschodnia}
+  - {arrival: '03:46', departure: '03:46', station: Warszawa Praga}
+  - {arrival: '03:48', departure: '03:48', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '03:51', departure: '03:51', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '03:55', departure: '03:55', station: "Warszawa P\u0142udy"}
+  - {arrival: '03:58', departure: '03:58', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '04:03', departure: '04:03', station: Legionowo}
+  - {arrival: '04:05', departure: '04:05', station: Legionowo Przystanek}
+  - {arrival: '04:08', departure: '04:08', station: "Chotom\xF3w"}
+  - {arrival: '04:13', departure: '04:13', station: "Jan\xF3wek"}
+  - {arrival: '04:17', departure: '04:17', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '04:21', departure: '04:21', station: Modlin}
+  - {arrival: '04:25', departure: '04:25', station: "Pomiech\xF3wek"}
+  - {arrival: '04:29', departure: '04:29', station: Brody Warszawskie}
+  - {arrival: '04:32', departure: '04:32', station: Studzianki Nowe}
+  - {arrival: '04:35', station: Nasielsk}
+type: train

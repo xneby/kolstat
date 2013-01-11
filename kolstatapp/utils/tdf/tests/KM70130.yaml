@@ -1,0 +1,24 @@
+name: KM 70130
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:29', station: "Wyszk\xF3w"}
+  - {arrival: '05:33', departure: '05:33', station: Rybienko}
+  - {arrival: '05:37', departure: '05:37', station: "Lucyn\xF3w"}
+  - {arrival: '05:42', departure: '05:49', station: "Most\xF3wka"}
+  - {arrival: '05:54', departure: '05:54', station: Grzegorzewo}
+  - {arrival: '05:58', departure: '05:58', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '06:03', departure: '06:06', station: "T\u0142uszcz"}
+  - {arrival: '06:11', departure: '06:11', station: Jasienica Mazowiecka}
+  - {arrival: '06:16', departure: '06:16', station: "Klemb\xF3w"}
+  - {arrival: '06:20', departure: '06:20', station: Dobczyn}
+  - {arrival: '06:23', departure: '06:23', station: "Zago\u015Bciniec"}
+  - {arrival: '06:26', departure: '06:26', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '06:30', departure: '06:30', station: "Wo\u0142omin"}
+  - {arrival: '06:33', departure: '06:33', station: "Koby\u0142ka"}
+  - {arrival: '06:36', departure: '06:36', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '06:41', departure: '06:41', station: Zielonka}
+  - {arrival: '06:45', departure: '06:45', station: "Z\u0105bki"}
+  - {arrival: '06:53', station: "Warszawa Wile\u0144ska"}
+type: train

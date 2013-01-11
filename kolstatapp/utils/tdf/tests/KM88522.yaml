@@ -1,0 +1,23 @@
+name: KM 88522
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:46', station: Czeremcha}
+  - {arrival: '16:56', departure: '16:56', station: Borowiki}
+  - {arrival: '17:00', departure: '17:00', station: Nowy Nurzec}
+  - {arrival: '17:06', departure: '17:06', station: Nurzec}
+  - {arrival: '17:13', departure: '17:13', station: Sycze}
+  - {arrival: '17:19', departure: '17:19', station: Siemiatycze}
+  - {arrival: '17:23', departure: '17:23', station: "Frono\u0142\xF3w"}
+  - {arrival: '17:29', departure: '17:29', station: Sarnaki}
+  - {arrival: '17:34', departure: '17:34', station: "Plater\xF3w"}
+  - {arrival: '17:41', departure: '17:41', station: "Patk\xF3w"}
+  - {arrival: '17:45', departure: '17:45', station: Niemojki}
+  - {arrival: '17:52', departure: '17:52', station: "Cierpig\xF3rz"}
+  - {arrival: '17:58', departure: '17:58', station: Mordy Miasto}
+  - {arrival: '18:02', departure: '18:02', station: Mordy}
+  - {arrival: '18:08', departure: '18:08', station: Krzymosze}
+  - {arrival: '18:13', departure: '18:13', station: Stok Lacki}
+  - {arrival: '18:23', station: Siedlce}
+type: train

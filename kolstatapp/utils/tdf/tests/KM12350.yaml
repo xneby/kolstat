@@ -1,0 +1,43 @@
+name: KM 12350
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:28', station: Otwock}
+  - {arrival: '10:31', departure: '10:31', station: "\u015Awider"}
+  - {arrival: '10:34', departure: '10:34', station: "J\xF3zef\xF3w"}
+  - {arrival: '10:37', departure: '10:37', station: Michalin}
+  - {arrival: '10:39', departure: '10:39', station: Warszawa Falenica}
+  - {arrival: '10:42', departure: '10:42', station: Warszawa Miedzeszyn}
+  - {arrival: '10:44', departure: '10:44', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '10:47', departure: '10:47', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '10:50', departure: '10:50', station: Warszawa Anin}
+  - {arrival: '10:52', departure: '10:52', station: Warszawa Wawer}
+  - {arrival: '10:55', departure: '10:55', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '10:58', departure: '10:58', station: Warszawa Olsz.Groch.}
+  - {arrival: '11:03', departure: '11:03', station: Warszawa Wschodnia}
+  - {arrival: '11:06', departure: '11:06', station: Warszawa Stadion}
+  - {arrival: '11:09', departure: '11:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '11:12', departure: '11:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '11:14', departure: '11:14', station: Warszawa Ochota}
+  - {arrival: '11:17', departure: '11:21', station: Warszawa Zachodnia}
+  - {arrival: '11:25', departure: '11:25', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '11:28', departure: '11:28', station: Warszawa Rakowiec}
+  - {arrival: '11:30', departure: '11:30', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '11:33', departure: '11:33', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '11:35', departure: '11:35', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '11:40', departure: '11:40', station: Warszawa Dawidy}
+  - {arrival: '11:44', departure: '11:44', station: Warszawa Jeziorki}
+  - {arrival: '11:47', departure: '11:47', station: Nowa Iwiczna}
+  - {arrival: '11:52', departure: '11:52', station: Piaseczno}
+  - {arrival: '11:57', departure: '11:57', station: "Zalesie G\xF3rne"}
+  - {arrival: '12:02', departure: '12:02', station: "Ustan\xF3wek"}
+  - {arrival: '12:06', departure: '12:06', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '12:08', departure: '12:08', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '12:14', departure: '12:14', station: "Su\u0142kowice"}
+  - {arrival: '12:18', departure: '12:18', station: "Chyn\xF3w"}
+  - {arrival: '12:23', departure: '12:23', station: "Kr\u0119\u017Cel"}
+  - {arrival: '12:28', departure: '12:28', station: Michalczew}
+  - {arrival: '12:33', departure: '12:33', station: "Go\u015Bniewice"}
+  - {arrival: '12:37', station: Warka}
+type: train

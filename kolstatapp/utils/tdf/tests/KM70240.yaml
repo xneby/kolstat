@@ -1,0 +1,31 @@
+name: KM 70240
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:01', station: "T\u0142uszcz"}
+  - {arrival: '15:06', departure: '15:06', station: Jasienica Mazowiecka}
+  - {arrival: '15:11', departure: '15:11', station: "Klemb\xF3w"}
+  - {arrival: '15:15', departure: '15:15', station: Dobczyn}
+  - {arrival: '15:18', departure: '15:18', station: "Zago\u015Bciniec"}
+  - {arrival: '15:21', departure: '15:21', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '15:25', departure: '15:25', station: "Wo\u0142omin"}
+  - {arrival: '15:28', departure: '15:28', station: "Koby\u0142ka"}
+  - {arrival: '15:31', departure: '15:31', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '15:37', departure: '15:37', station: Zielonka}
+  - {arrival: '15:41', departure: '15:41', station: Zielonka Bankowa}
+  - {arrival: '15:52', departure: '15:52', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '16:01', departure: '16:03', station: Warszawa Wschodnia}
+  - {arrival: '16:06', departure: '16:06', station: Warszawa Stadion}
+  - {arrival: '16:09', departure: '16:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:12', departure: '16:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:14', departure: '16:14', station: Warszawa Ochota}
+  - {arrival: '16:18', departure: '16:18', station: Warszawa Zachodnia}
+  - {arrival: '16:24', departure: '16:24', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:27', departure: '16:27', station: Warszawa Ursus}
+  - {arrival: '16:31', departure: '16:31', station: "Piast\xF3w"}
+  - {arrival: '16:35', departure: '16:35', station: "Pruszk\xF3w"}
+  - {arrival: '16:41', departure: '16:41', station: "Brwin\xF3w"}
+  - {arrival: '16:45', departure: '16:45', station: "Milan\xF3wek"}
+  - {arrival: '16:49', station: Grodzisk Maz. (PKP)}
+type: train

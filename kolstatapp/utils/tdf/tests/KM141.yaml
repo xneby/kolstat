@@ -1,0 +1,22 @@
+name: KM 141
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:53', station: Warszawa Wschodnia}
+  - {arrival: '04:00', departure: '04:01', station: Warszawa Centralna}
+  - {arrival: '04:04', departure: '04:07', station: Warszawa Zachodnia}
+  - {arrival: '04:11', departure: '04:11', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '04:14', departure: '04:14', station: Warszawa Rakowiec}
+  - {arrival: '04:17', departure: '04:17', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '04:19', departure: '04:19', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '04:22', departure: '04:22', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '04:27', departure: '04:27', station: Warszawa Dawidy}
+  - {arrival: '04:30', departure: '04:30', station: Warszawa Jeziorki}
+  - {arrival: '04:33', departure: '04:33', station: Nowa Iwiczna}
+  - {arrival: '04:39', departure: '04:39', station: Piaseczno}
+  - {arrival: '04:44', departure: '04:44', station: "Zalesie G\xF3rne"}
+  - {arrival: '04:49', departure: '04:49', station: "Ustan\xF3wek"}
+  - {arrival: '04:57', departure: '04:57', station: "Czach\xF3wek Wsch."}
+  - {arrival: '05:09', station: "G\xF3ra Kalwaria"}
+type: train

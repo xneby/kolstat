@@ -1,0 +1,12 @@
+name: KM 15351
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:46', station: "P\u0142ock"}
+  - {arrival: '20:52', departure: '20:52', station: "P\u0142ock Trzepowo"}
+  - {arrival: '20:59', departure: '20:59', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '21:07', departure: '21:07', station: Gozdowo}
+  - {arrival: '21:12', departure: '21:12', station: Susk}
+  - {arrival: '21:22', station: Sierpc}
+type: train

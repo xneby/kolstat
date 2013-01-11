@@ -1,0 +1,21 @@
+name: KM 11354
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '21:42', station: Warszawa Lot. Chopina}
+  - {arrival: '21:45', departure: '21:45', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '21:48', departure: '21:48', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '21:50', departure: '21:50', station: Warszawa Rakowiec}
+  - {arrival: '21:52', departure: '21:52', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '21:57', departure: '22:00', station: Warszawa Zachodnia}
+  - {arrival: '22:05', departure: '22:10', station: Warszawa Centralna}
+  - {arrival: '22:18', departure: '22:18', station: Warszawa Wschodnia}
+  - {arrival: '22:26', departure: '22:26', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '22:31', departure: '22:31', station: "Warszawa P\u0142udy"}
+  - {arrival: '22:37', departure: '22:37', station: Legionowo}
+  - {arrival: '22:39', departure: '22:39', station: Legionowo Przystanek}
+  - {arrival: '22:42', departure: '22:42', station: "Chotom\xF3w"}
+  - {arrival: '22:49', departure: '22:49', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '22:53', station: Modlin}
+type: train

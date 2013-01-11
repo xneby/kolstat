@@ -1,0 +1,19 @@
+name: KM 349
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:18', station: Warszawa Wschodnia}
+  - {arrival: '13:21', departure: '13:21', station: Warszawa Stadion}
+  - {arrival: '13:24', departure: '13:24', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:27', departure: '13:27', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:29', departure: '13:29', station: Warszawa Ochota}
+  - {arrival: '13:33', departure: '13:33', station: Warszawa Zachodnia}
+  - {arrival: '13:39', departure: '13:39', station: "Warszawa W\u0142ochy"}
+  - {arrival: '13:42', departure: '13:42', station: Warszawa Ursus}
+  - {arrival: '13:46', departure: '13:46', station: "Piast\xF3w"}
+  - {arrival: '13:50', departure: '13:50', station: "Pruszk\xF3w"}
+  - {arrival: '13:56', departure: '13:56', station: "Brwin\xF3w"}
+  - {arrival: '14:00', departure: '14:00', station: "Milan\xF3wek"}
+  - {arrival: '14:04', station: Grodzisk Maz. (PKP)}
+type: train

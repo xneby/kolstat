@@ -1,0 +1,27 @@
+name: KM 540
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:50', station: Radom}
+  - {arrival: "20:58\n</td>\n<td class=\"sepline\">\n\_", departure: '20:58', station: Rajec
+      Poduchowny}
+  - {arrival: "21:01\n</td>\n<td class=\"sepline\">\n\_", departure: '21:01', station: "Antoni\xF3\
+      wka"}
+  - {arrival: "21:04\n</td>\n<td class=\"sepline\">\n\_", departure: '21:04', station: Jedlnia
+      Letnisko}
+  - {arrival: "21:10\n</td>\n<td class=\"sepline\">\n\_", departure: '21:10', station: "Jedlnia\
+      \ Ko\u015Bcielna"}
+  - {arrival: "21:13\n</td>\n<td class=\"sepline\">\n\_", departure: '21:13', station: Pionki
+      Zach.}
+  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: Pionki}
+  - {arrival: "21:22\n</td>\n<td class=\"sepline\">\n\_", departure: '21:22', station: "\u017B\
+      ytkowice"}
+  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: Garbatka
+      Letnisko}
+  - {arrival: "21:33\n</td>\n<td class=\"sepline\">\n\_", departure: '21:33', station: "B\u0105\
+      kowiec"}
+  - {arrival: "21:40\n</td>\n<td class=\"sepline\">\n\_", departure: '21:40', station: "Zajezierze\
+      \ k.D\u0119blina"}
+  - {arrival: "21:46\n</td>\n<td class=\"sepline\">\n\_", station: "D\u0119blin"}
+type: train

@@ -1,0 +1,13 @@
+name: KM 9920
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:16', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '08:26', departure: '08:26', station: Warszawa Wschodnia}
+  - {arrival: '08:28', departure: '08:28', station: Warszawa Stadion}
+  - {arrival: '08:31', departure: '08:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:34', departure: '08:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:36', departure: '08:36', station: Warszawa Ochota}
+  - {arrival: '08:40', station: Warszawa Zachodnia}
+type: train

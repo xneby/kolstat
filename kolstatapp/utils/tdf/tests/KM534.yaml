@@ -1,0 +1,18 @@
+name: KM 534
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:46', station: Radom}
+  - {arrival: '15:53', departure: '15:53', station: Rajec Poduchowny}
+  - {arrival: '15:56', departure: '15:56', station: "Antoni\xF3wka"}
+  - {arrival: '16:00', departure: '16:00', station: Jedlnia Letnisko}
+  - {arrival: '16:05', departure: '16:05', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '16:09', departure: '16:09', station: Pionki Zach.}
+  - {arrival: '16:11', departure: '16:11', station: Pionki}
+  - {arrival: '16:17', departure: '16:17', station: "\u017Bytkowice"}
+  - {arrival: '16:22', departure: '16:22', station: Garbatka Letnisko}
+  - {arrival: '16:28', departure: '16:28', station: "B\u0105kowiec"}
+  - {arrival: '16:35', departure: '16:35', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '16:42', station: "D\u0119blin"}
+type: train

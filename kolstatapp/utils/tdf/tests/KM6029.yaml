@@ -1,0 +1,16 @@
+name: KM 6029
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:24', station: Radom}
+  - {arrival: '19:31', departure: '19:31', station: "Radom Po\u0142udniowy"}
+  - {arrival: '19:35', departure: '19:35', station: "Ro\u017Cki"}
+  - {arrival: '19:40', departure: '19:40', station: Ruda Wielka}
+  - {arrival: '19:43', departure: '19:43', station: Wola Lipieniecka}
+  - {arrival: '19:48', departure: '19:48', station: "Jastrz\u0105b"}
+  - {arrival: '19:51', departure: '19:51', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '19:55', departure: '19:55', station: "Szyd\u0142owiec"}
+  - {arrival: '20:01', departure: '20:01', station: Lipowe Pole}
+  - {arrival: '20:06', station: "Skar\u017Cysko-Kamienna"}
+type: train

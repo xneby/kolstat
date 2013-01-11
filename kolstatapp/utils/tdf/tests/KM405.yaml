@@ -1,0 +1,31 @@
+name: KM 405
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:56', station: Warszawa Wschodnia}
+  - {arrival: '07:58', departure: '07:58', station: Warszawa Stadion}
+  - {arrival: '08:01', departure: '08:01', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:04', departure: '08:04', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:06', departure: '08:06', station: Warszawa Ochota}
+  - {arrival: '08:10', departure: '08:10', station: Warszawa Zachodnia}
+  - {arrival: '08:17', departure: '08:17', station: "Warszawa W\u0142ochy"}
+  - {arrival: '08:21', departure: '08:21', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '08:23', departure: '08:23', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '08:27', departure: '08:27', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '08:32', departure: '08:32', station: "P\u0142ochocin"}
+  - {arrival: '08:38', departure: '08:38', station: "B\u0142onie"}
+  - {arrival: '08:41', departure: '08:41', station: "Witan\xF3w"}
+  - {arrival: '08:44', departure: '08:44', station: "Bo\u017Ca Wola"}
+  - {arrival: '08:48', departure: '08:48', station: Seroki}
+  - {arrival: '08:52', departure: '08:52', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '08:56', departure: '08:56', station: Piasecznica}
+  - {arrival: '09:02', departure: '09:02', station: Sochaczew}
+  - {arrival: '09:06', departure: '09:06', station: Kornelin}
+  - {arrival: '09:09', departure: '09:09', station: "Leon\xF3w"}
+  - {arrival: '09:12', departure: '09:12', station: "K\u0119szyce"}
+  - {arrival: '09:15', departure: '09:15', station: "Jasionna \u0141owicka"}
+  - {arrival: '09:19', departure: '09:19', station: Bednary}
+  - {arrival: '09:22', departure: '09:22', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '09:26', station: "\u0141owicz G\u0142\xF3wny"}
+type: train

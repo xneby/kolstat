@@ -1,0 +1,15 @@
+name: KM 8845
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:37', station: Siedlce}
+  - {arrival: '15:41', departure: '15:41', station: Siedlce Wschodnie}
+  - {arrival: '15:44', departure: '15:44', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '15:47', departure: '15:47', station: Kosiorki}
+  - {arrival: '15:50', departure: '15:50', station: Borki Kosy}
+  - {arrival: '15:55', departure: '15:55', station: Dziewule}
+  - {arrival: '15:58', departure: '15:58', station: "Radomy\u015Bl"}
+  - {arrival: '16:02', departure: '16:02', station: "Krynka \u0141ukowska"}
+  - {arrival: '16:09', station: "\u0141uk\xF3w"}
+type: train

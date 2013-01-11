@@ -1,0 +1,18 @@
+name: KM 527
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:11', station: "D\u0119blin"}
+  - {arrival: '07:17', departure: '07:17', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '07:25', departure: '07:25', station: "B\u0105kowiec"}
+  - {arrival: '07:31', departure: '07:31', station: Garbatka Letnisko}
+  - {arrival: '07:36', departure: '07:36', station: "\u017Bytkowice"}
+  - {arrival: '07:42', departure: '07:42', station: Pionki}
+  - {arrival: '07:44', departure: '07:44', station: Pionki Zach.}
+  - {arrival: '07:48', departure: '07:48', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '07:53', departure: '07:53', station: Jedlnia Letnisko}
+  - {arrival: '07:57', departure: '07:57', station: "Antoni\xF3wka"}
+  - {arrival: '08:00', departure: '08:00', station: Rajec Poduchowny}
+  - {arrival: '08:08', station: Radom}
+type: train

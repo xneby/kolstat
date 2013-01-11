@@ -1,0 +1,32 @@
+name: KM 8021
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:27', station: Warszawa Zachodnia}
+  - {arrival: '04:33', departure: '04:33', station: Warszawa Centralna}
+  - {arrival: '04:41', departure: '04:41', station: Warszawa Wschodnia}
+  - {arrival: '04:50', departure: '04:50', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '04:54', departure: '04:54', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '04:57', departure: '04:57', station: Warszawa-Wola Grzyb.}
+  - {arrival: '04:59', departure: '04:59', station: "Sulej\xF3wek"}
+  - {arrival: '05:02', departure: '05:02', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '05:05', departure: '05:05', station: "Halin\xF3w"}
+  - {arrival: '05:08', departure: '05:08', station: Cisie}
+  - {arrival: '05:11', departure: '05:11', station: "D\u0119be Wielkie"}
+  - {arrival: '05:13', departure: '05:13', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '05:16', departure: '05:16', station: "Wrzos\xF3w"}
+  - {arrival: '05:21', departure: '05:21', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '05:24', departure: '05:24', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '05:27', departure: '05:27', station: "Barcz\u0105ca"}
+  - {arrival: '05:30', departure: '05:30', station: Mienia}
+  - {arrival: '05:33', departure: '05:33', station: "Ceg\u0142\xF3w"}
+  - {arrival: '05:37', departure: '05:37', station: Mrozy}
+  - {arrival: '05:41', departure: '05:41', station: Grodziszcze Maz.}
+  - {arrival: '05:45', departure: '05:45', station: Sosnowe}
+  - {arrival: '05:48', departure: '05:48', station: Koszewnica}
+  - {arrival: '05:53', departure: '05:53', station: "Kotu\u0144"}
+  - {arrival: '05:59', departure: '05:59', station: Sabinka}
+  - {arrival: '06:04', departure: '06:04', station: Siedlce Zachodnie}
+  - {arrival: '06:09', station: Siedlce}
+type: train

@@ -1,0 +1,91 @@
+name: KM 12520
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:32', station: "\u017Byrard\xF3w"}
+  - {arrival: "18:37\n</td>\n<td class=\"sepline\">\n\_", departure: '18:37', station: "Mi\u0119\
+      dzybor\xF3w"}
+  - {arrival: "18:43\n</td>\n<td class=\"sepline\">\n\_", departure: '18:43', station: "Jaktor\xF3\
+      w"}
+  - {arrival: "18:49\n</td>\n<td class=\"sepline\">\n\_", departure: '18:49', station: Grodzisk
+      Maz. (PKP)}
+  - {arrival: "18:53\n</td>\n<td class=\"sepline\">\n\_", departure: '18:53', station: "Milan\xF3\
+      wek"}
+  - {arrival: "18:58\n</td>\n<td class=\"sepline\">\n\_", departure: '18:58', station: "Brwin\xF3\
+      w"}
+  - {arrival: "19:05\n</td>\n<td class=\"sepline\">\n\_", departure: '19:05', station: "Pruszk\xF3\
+      w"}
+  - {arrival: "19:09\n</td>\n<td class=\"sepline\">\n\_", departure: '19:09', station: "Piast\xF3\
+      w"}
+  - {arrival: "19:14\n</td>\n<td class=\"sepline\">\n\_", departure: '19:14', station: Warszawa
+      Ursus}
+  - {arrival: "19:18\n</td>\n<td class=\"sepline\">\n\_", departure: '19:18', station: "Warszawa\
+      \ W\u0142ochy"}
+  - {arrival: "19:23\n</td>\n<td class=\"sepline\">\n\_", departure: '19:29', station: Warszawa
+      Zachodnia}
+  - {arrival: "19:32\n</td>\n<td class=\"sepline\">\n\_", departure: '19:32', station: Warszawa
+      Ochota}
+  - {arrival: "19:35\n</td>\n<td class=\"sepline\">\n\_", departure: '19:35', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: "19:38\n</td>\n<td class=\"sepline\">\n\_", departure: '19:38', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: "19:41\n</td>\n<td class=\"sepline\">\n\_", departure: '19:41', station: Warszawa
+      Stadion}
+  - {arrival: "19:43\n</td>\n<td class=\"sepline\">\n\_", departure: '19:47', station: Warszawa
+      Wschodnia}
+  - {arrival: "19:52\n</td>\n<td class=\"sepline\">\n\_", departure: '19:52', station: Warszawa
+      Olsz.Groch.}
+  - {arrival: "19:55\n</td>\n<td class=\"sepline\">\n\_", departure: '19:55', station: "Warszawa\
+      \ Goc\u0142awek"}
+  - {arrival: "19:58\n</td>\n<td class=\"sepline\">\n\_", departure: '19:58', station: Warszawa
+      Wawer}
+  - {arrival: "20:01\n</td>\n<td class=\"sepline\">\n\_", departure: '20:01', station: Warszawa
+      Anin}
+  - {arrival: "20:03\n</td>\n<td class=\"sepline\">\n\_", departure: '20:03', station: "Warszawa\
+      \ Mi\u0119dzylesie"}
+  - {arrival: "20:06\n</td>\n<td class=\"sepline\">\n\_", departure: '20:06', station: "Warszawa\
+      \ Rado\u015B\u0107"}
+  - {arrival: "20:09\n</td>\n<td class=\"sepline\">\n\_", departure: '20:09', station: Warszawa
+      Miedzeszyn}
+  - {arrival: "20:11\n</td>\n<td class=\"sepline\">\n\_", departure: '20:11', station: Warszawa
+      Falenica}
+  - {arrival: "20:14\n</td>\n<td class=\"sepline\">\n\_", departure: '20:14', station: Michalin}
+  - {arrival: "20:16\n</td>\n<td class=\"sepline\">\n\_", departure: '20:16', station: "J\xF3\
+      zef\xF3w"}
+  - {arrival: "20:19\n</td>\n<td class=\"sepline\">\n\_", departure: '20:19', station: "\u015A\
+      wider"}
+  - {arrival: "20:23\n</td>\n<td class=\"sepline\">\n\_", departure: '20:23', station: Otwock}
+  - {arrival: "20:27\n</td>\n<td class=\"sepline\">\n\_", departure: '20:27', station: "\u015A\
+      r\xF3dbor\xF3w"}
+  - {arrival: "20:31\n</td>\n<td class=\"sepline\">\n\_", departure: '20:31', station: Pogorzel
+      Warszawska}
+  - {arrival: "20:34\n</td>\n<td class=\"sepline\">\n\_", departure: '20:34', station: "Stara\
+      \ Wie\u015B"}
+  - {arrival: "20:39\n</td>\n<td class=\"sepline\">\n\_", departure: '20:39', station: "Celestyn\xF3\
+      w"}
+  - {arrival: "20:43\n</td>\n<td class=\"sepline\">\n\_", departure: '20:43', station: "Ko\u0142\
+      biel"}
+  - {arrival: "20:45\n</td>\n<td class=\"sepline\">\n\_", departure: '20:45', station: Chrosna}
+  - {arrival: "20:49\n</td>\n<td class=\"sepline\">\n\_", departure: '20:49', station: "Zabie\u017C\
+      ki"}
+  - {arrival: "20:53\n</td>\n<td class=\"sepline\">\n\_", departure: '20:53', station: "August\xF3\
+      wka"}
+  - {arrival: "20:58\n</td>\n<td class=\"sepline\">\n\_", departure: '20:58', station: Pilawa}
+  - {arrival: "21:05\n</td>\n<td class=\"sepline\">\n\_", departure: '21:05', station: Garwolin}
+  - {arrival: "21:10\n</td>\n<td class=\"sepline\">\n\_", departure: '21:10', station: Ruda
+      Talubska}
+  - {arrival: "21:14\n</td>\n<td class=\"sepline\">\n\_", departure: '21:14', station: Wola
+      Rowska}
+  - {arrival: "21:18\n</td>\n<td class=\"sepline\">\n\_", departure: '21:18', station: "\u0141\
+      askarzew Przystanek"}
+  - {arrival: "21:22\n</td>\n<td class=\"sepline\">\n\_", departure: '21:22', station: Leokadia}
+  - {arrival: "21:26\n</td>\n<td class=\"sepline\">\n\_", departure: '21:26', station: Sobolew}
+  - {arrival: "21:31\n</td>\n<td class=\"sepline\">\n\_", departure: '21:31', station: Wygoda}
+  - {arrival: "21:35\n</td>\n<td class=\"sepline\">\n\_", departure: '21:35', station: Mika}
+  - {arrival: "21:39\n</td>\n<td class=\"sepline\">\n\_", departure: '21:39', station: "\u017B\
+      yczyn"}
+  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: Rokitnia
+      Stara}
+  - {arrival: "21:49\n</td>\n<td class=\"sepline\">\n\_", station: "D\u0119blin"}
+type: train

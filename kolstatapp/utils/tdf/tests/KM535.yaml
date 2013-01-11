@@ -1,0 +1,18 @@
+name: KM 535
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:54', station: "D\u0119blin"}
+  - {arrival: '16:00', departure: '16:00', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '16:08', departure: '16:08', station: "B\u0105kowiec"}
+  - {arrival: '16:14', departure: '16:14', station: Garbatka Letnisko}
+  - {arrival: '16:19', departure: '16:19', station: "\u017Bytkowice"}
+  - {arrival: '16:25', departure: '16:25', station: Pionki}
+  - {arrival: '16:27', departure: '16:27', station: Pionki Zach.}
+  - {arrival: '16:31', departure: '16:31', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '16:36', departure: '16:36', station: Jedlnia Letnisko}
+  - {arrival: '16:40', departure: '16:40', station: "Antoni\xF3wka"}
+  - {arrival: '16:43', departure: '16:43', station: Rajec Poduchowny}
+  - {arrival: '16:51', station: Radom}
+type: train

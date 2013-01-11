@@ -1,0 +1,42 @@
+name: KM 80340
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:31', station: Siedlce}
+  - {arrival: '06:36', departure: '06:36', station: Siedlce Zachodnie}
+  - {arrival: '06:41', departure: '06:41', station: Sabinka}
+  - {arrival: '06:48', departure: '06:48', station: "Kotu\u0144"}
+  - {arrival: '06:53', departure: '06:53', station: Koszewnica}
+  - {arrival: '06:57', departure: '06:57', station: Sosnowe}
+  - {arrival: '07:01', departure: '07:01', station: Grodziszcze Maz.}
+  - {arrival: '07:06', departure: '07:06', station: Mrozy}
+  - {arrival: '07:11', departure: '07:11', station: "Ceg\u0142\xF3w"}
+  - {arrival: '07:14', departure: '07:14', station: Mienia}
+  - {arrival: '07:19', departure: '07:19', station: "Barcz\u0105ca"}
+  - {arrival: '07:22', departure: '07:22', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '07:26', departure: '07:26', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '07:30', departure: '07:30', station: "Wrzos\xF3w"}
+  - {arrival: '07:34', departure: '07:34', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '07:36', departure: '07:36', station: "D\u0119be Wielkie"}
+  - {arrival: '07:39', departure: '07:39', station: Cisie}
+  - {arrival: '07:43', departure: '07:43', station: "Halin\xF3w"}
+  - {arrival: '07:47', departure: '07:47', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '07:49', departure: '07:49', station: "Sulej\xF3wek"}
+  - {arrival: '07:52', departure: '07:52', station: Warszawa-Wola Grzyb.}
+  - {arrival: '07:55', departure: '07:55', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '07:59', departure: '07:59', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '08:11', departure: '08:11', station: Warszawa Wschodnia}
+  - {arrival: '08:13', departure: '08:13', station: Warszawa Stadion}
+  - {arrival: '08:16', departure: '08:16', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:19', departure: '08:19', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:21', departure: '08:21', station: Warszawa Ochota}
+  - {arrival: '08:25', departure: '08:25', station: Warszawa Zachodnia}
+  - {arrival: '08:32', departure: '08:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '08:35', departure: '08:35', station: Warszawa Ursus}
+  - {arrival: '08:38', departure: '08:38', station: "Piast\xF3w"}
+  - {arrival: '08:42', departure: '08:42', station: "Pruszk\xF3w"}
+  - {arrival: '08:48', departure: '08:48', station: "Brwin\xF3w"}
+  - {arrival: '08:52', departure: '08:52', station: "Milan\xF3wek"}
+  - {arrival: '08:56', station: Grodzisk Maz. (PKP)}
+type: train

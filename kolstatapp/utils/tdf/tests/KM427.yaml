@@ -1,0 +1,28 @@
+name: KM 427
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:58', station: Warszawa Wschodnia}
+  - {arrival: '23:05', departure: '23:08', station: Warszawa Centralna}
+  - {arrival: '23:12', departure: '23:12', station: Warszawa Zachodnia}
+  - {arrival: '23:17', departure: '23:17', station: "Warszawa W\u0142ochy"}
+  - {arrival: '23:21', departure: '23:21', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '23:23', departure: '23:23', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '23:27', departure: '23:27', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '23:32', departure: '23:32', station: "P\u0142ochocin"}
+  - {arrival: '23:37', departure: '23:47', station: "B\u0142onie"}
+  - {arrival: '23:50', departure: '23:50', station: "Witan\xF3w"}
+  - {arrival: '23:53', departure: '23:53', station: "Bo\u017Ca Wola"}
+  - {arrival: '23:57', departure: '23:57', station: Seroki}
+  - {arrival: '00:01', departure: '00:01', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '00:05', departure: '00:05', station: Piasecznica}
+  - {arrival: '00:11', departure: '00:11', station: Sochaczew}
+  - {arrival: '00:15', departure: '00:15', station: Kornelin}
+  - {arrival: '00:18', departure: '00:18', station: "Leon\xF3w"}
+  - {arrival: '00:21', departure: '00:21', station: "K\u0119szyce"}
+  - {arrival: '00:24', departure: '00:24', station: "Jasionna \u0141owicka"}
+  - {arrival: '00:28', departure: '00:28', station: Bednary}
+  - {arrival: '00:31', departure: '00:31', station: "Mys\u0142ak\xF3w"}
+  - {arrival: '00:35', station: "\u0141owicz G\u0142\xF3wny"}
+type: train

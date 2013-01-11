@@ -1,0 +1,15 @@
+name: KM 8838
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:41', station: "\u0141uk\xF3w"}
+  - {arrival: '10:50', departure: '10:50', station: "Krynka \u0141ukowska"}
+  - {arrival: '10:53', departure: '10:53', station: "Radomy\u015Bl"}
+  - {arrival: '10:57', departure: '10:57', station: Dziewule}
+  - {arrival: '11:01', departure: '11:01', station: Borki Kosy}
+  - {arrival: '11:04', departure: '11:04', station: Kosiorki}
+  - {arrival: '11:08', departure: '11:08', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '11:11', departure: '11:11', station: Siedlce Wschodnie}
+  - {arrival: '11:14', station: Siedlce}
+type: train

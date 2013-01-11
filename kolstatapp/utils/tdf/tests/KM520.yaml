@@ -1,0 +1,18 @@
+name: KM 520
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:46', station: Radom}
+  - {arrival: '04:53', departure: '04:53', station: Rajec Poduchowny}
+  - {arrival: '04:56', departure: '04:56', station: "Antoni\xF3wka"}
+  - {arrival: '05:00', departure: '05:00', station: Jedlnia Letnisko}
+  - {arrival: '05:05', departure: '05:05', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '05:09', departure: '05:09', station: Pionki Zach.}
+  - {arrival: '05:11', departure: '05:11', station: Pionki}
+  - {arrival: '05:17', departure: '05:17', station: "\u017Bytkowice"}
+  - {arrival: '05:22', departure: '05:22', station: Garbatka Letnisko}
+  - {arrival: '05:28', departure: '05:28', station: "B\u0105kowiec"}
+  - {arrival: '05:35', departure: '05:35', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '05:42', station: "D\u0119blin"}
+type: train

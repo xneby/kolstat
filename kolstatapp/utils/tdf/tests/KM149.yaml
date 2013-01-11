@@ -1,0 +1,25 @@
+name: KM 149
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:37', station: Warszawa Wschodnia}
+  - {arrival: '05:40', departure: '05:40', station: Warszawa Stadion}
+  - {arrival: '05:43', departure: '05:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:46', departure: '05:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:48', departure: '05:48', station: Warszawa Ochota}
+  - {arrival: '05:52', departure: '05:52', station: Warszawa Zachodnia}
+  - {arrival: '05:56', departure: '05:56', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '05:59', departure: '05:59', station: Warszawa Rakowiec}
+  - {arrival: '06:01', departure: '06:01', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '06:04', departure: '06:04', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '06:06', departure: '06:06', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '06:11', departure: '06:11', station: Warszawa Dawidy}
+  - {arrival: '06:15', departure: '06:15', station: Warszawa Jeziorki}
+  - {arrival: '06:18', departure: '06:18', station: Nowa Iwiczna}
+  - {arrival: '06:23', departure: '06:23', station: Piaseczno}
+  - {arrival: '06:28', departure: '06:28', station: "Zalesie G\xF3rne"}
+  - {arrival: '06:33', departure: '06:33', station: "Ustan\xF3wek"}
+  - {arrival: '06:37', departure: '06:37', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '06:40', station: "Czach\xF3wek P\u0142d."}
+type: train

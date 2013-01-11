@@ -1,0 +1,39 @@
+name: KM 70370
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:13', station: "Ostro\u0142\u0119ka"}
+  - {arrival: '16:24', departure: '16:24', station: Gierwaty}
+  - {arrival: '16:34', departure: '16:34', station: Goworowo}
+  - {arrival: '16:44', departure: '16:44', station: Pasieki}
+  - {arrival: '16:51', departure: '16:51', station: "Prabuty G\xF3ry"}
+  - {arrival: '16:58', departure: '16:58', station: Przetycz}
+  - {arrival: '17:04', departure: '17:04', station: Zygmuntowo Mazow.}
+  - {arrival: '17:12', departure: '17:12', station: Dalekie}
+  - {arrival: '17:17', departure: '17:17', station: "Leszczyd\xF3\u0142"}
+  - {arrival: '17:25', departure: '17:25', station: "Wyszk\xF3w"}
+  - {arrival: '17:28', departure: '17:28', station: Rybienko}
+  - {arrival: '17:33', departure: '17:33', station: "Lucyn\xF3w"}
+  - {arrival: '17:38', departure: '17:38', station: "Most\xF3wka"}
+  - {arrival: '17:43', departure: '17:43', station: Grzegorzewo}
+  - {arrival: '17:47', departure: '17:47', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '17:51', departure: '17:53', station: "T\u0142uszcz"}
+  - {arrival: '17:58', departure: '17:58', station: Jasienica Mazowiecka}
+  - {arrival: '18:03', departure: '18:03', station: "Klemb\xF3w"}
+  - {arrival: '18:07', departure: '18:07', station: Dobczyn}
+  - {arrival: '18:10', departure: '18:10', station: "Zago\u015Bciniec"}
+  - {arrival: '18:13', departure: '18:13', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '18:17', departure: '18:17', station: "Wo\u0142omin"}
+  - {arrival: '18:20', departure: '18:20', station: "Koby\u0142ka"}
+  - {arrival: '18:23', departure: '18:23', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '18:28', departure: '18:28', station: Zielonka}
+  - {arrival: '18:31', departure: '18:31', station: Zielonka Bankowa}
+  - {arrival: '18:41', departure: '18:41', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '18:49', departure: '18:52', station: Warszawa Wschodnia}
+  - {arrival: '18:54', departure: '18:54', station: Warszawa Stadion}
+  - {arrival: '18:57', departure: '18:57', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '19:00', departure: '19:00', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:02', departure: '19:02', station: Warszawa Ochota}
+  - {arrival: '19:06', station: Warszawa Zachodnia}
+type: train

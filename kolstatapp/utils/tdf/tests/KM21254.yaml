@@ -1,0 +1,39 @@
+name: KM 21254
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:55', station: Radom}
+  - {arrival: '18:12', departure: '18:12', station: "Lesi\xF3w"}
+  - {arrival: '18:19', departure: '18:22', station: Bartodzieje}
+  - {arrival: '18:25', departure: '18:25', station: Wola Bierwiecka}
+  - {arrival: '18:30', departure: '18:30', station: Kruszyna}
+  - {arrival: '18:37', departure: '18:41', station: Dobieszyn}
+  - {arrival: '18:50', departure: '18:55', station: "Strzy\u017Cyna"}
+  - {arrival: '19:02', departure: '19:02', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '19:10', departure: '19:10', station: Warka}
+  - {arrival: '19:15', departure: '19:15', station: "Go\u015Bniewice"}
+  - {arrival: '19:19', departure: '19:19', station: Michalczew}
+  - {arrival: '19:24', departure: '19:24', station: "Kr\u0119\u017Cel"}
+  - {arrival: '19:28', departure: '19:28', station: "Chyn\xF3w"}
+  - {arrival: '19:32', departure: '19:32', station: "Su\u0142kowice"}
+  - {arrival: '19:38', departure: '19:38', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '19:40', departure: '19:40', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '19:43', departure: '19:43', station: "Ustan\xF3wek"}
+  - {arrival: '19:49', departure: '19:49', station: "Zalesie G\xF3rne"}
+  - {arrival: '19:55', departure: '19:55', station: Piaseczno}
+  - {arrival: '20:00', departure: '20:00', station: Nowa Iwiczna}
+  - {arrival: '20:04', departure: '20:04', station: Warszawa Jeziorki}
+  - {arrival: '20:07', departure: '20:07', station: Warszawa Dawidy}
+  - {arrival: '20:12', departure: '20:12', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '20:15', departure: '20:15', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '20:18', departure: '20:18', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '20:20', departure: '20:20', station: Warszawa Rakowiec}
+  - {arrival: '20:24', departure: '20:24', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '20:28', departure: '20:36', station: Warszawa Zachodnia}
+  - {arrival: '20:40', departure: '20:40', station: Warszawa Ochota}
+  - {arrival: '20:43', departure: '20:43', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:45', departure: '20:45', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:48', departure: '20:48', station: Warszawa Stadion}
+  - {arrival: '20:50', station: Warszawa Wschodnia}
+type: train

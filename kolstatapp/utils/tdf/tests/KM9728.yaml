@@ -1,0 +1,24 @@
+name: KM 9728
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:35', station: "T\u0142uszcz"}
+  - {arrival: '08:40', departure: '08:40', station: Jasienica Mazowiecka}
+  - {arrival: '08:45', departure: '08:45', station: "Klemb\xF3w"}
+  - {arrival: '08:49', departure: '08:49', station: Dobczyn}
+  - {arrival: '08:52', departure: '08:52', station: "Zago\u015Bciniec"}
+  - {arrival: '08:55', departure: '08:55', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '08:59', departure: '08:59', station: "Wo\u0142omin"}
+  - {arrival: '09:02', departure: '09:02', station: "Koby\u0142ka"}
+  - {arrival: '09:05', departure: '09:05', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '09:10', departure: '09:10', station: Zielonka}
+  - {arrival: '09:14', departure: '09:14', station: Zielonka Bankowa}
+  - {arrival: '09:23', departure: '09:23', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '09:33', departure: '09:33', station: Warszawa Wschodnia}
+  - {arrival: '09:36', departure: '09:36', station: Warszawa Stadion}
+  - {arrival: '09:39', departure: '09:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '09:42', departure: '09:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '09:44', departure: '09:44', station: Warszawa Ochota}
+  - {arrival: '09:47', station: Warszawa Zachodnia}
+type: train

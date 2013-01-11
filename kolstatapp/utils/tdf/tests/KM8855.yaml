@@ -1,0 +1,15 @@
+name: KM 8855
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:30', station: Siedlce}
+  - {arrival: '05:34', departure: '05:34', station: Siedlce Wschodnie}
+  - {arrival: '05:37', departure: '05:37', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '05:40', departure: '05:40', station: Kosiorki}
+  - {arrival: '05:43', departure: '05:43', station: Borki Kosy}
+  - {arrival: '05:48', departure: '05:48', station: Dziewule}
+  - {arrival: '05:51', departure: '05:51', station: "Radomy\u015Bl"}
+  - {arrival: '05:55', departure: '05:55', station: "Krynka \u0141ukowska"}
+  - {arrival: '06:02', station: "\u0141uk\xF3w"}
+type: train

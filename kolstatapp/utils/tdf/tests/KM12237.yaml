@@ -1,0 +1,19 @@
+name: KM 12237
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:48', station: Warszawa Wschodnia}
+  - {arrival: '13:55', departure: '14:00', station: Warszawa Centralna}
+  - {arrival: '14:04', departure: '14:04', station: Warszawa Zachodnia}
+  - {arrival: '14:11', departure: '14:11', station: Warszawa Rakowiec}
+  - {arrival: '14:14', departure: '14:14', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '14:16', departure: '14:16', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '14:27', departure: '14:27', station: Nowa Iwiczna}
+  - {arrival: '14:32', departure: '14:32', station: Piaseczno}
+  - {arrival: '14:37', departure: '14:37', station: "Zalesie G\xF3rne"}
+  - {arrival: '14:45', departure: '14:45', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '15:10', departure: '15:10', station: Warka}
+  - {arrival: '15:31', departure: '15:31', station: Dobieszyn}
+  - {arrival: '16:04', station: Radom}
+type: train

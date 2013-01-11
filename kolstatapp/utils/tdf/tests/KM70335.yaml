@@ -1,0 +1,30 @@
+name: KM 70335
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:15', station: "T\u0142uszcz"}
+  - {arrival: "20:20\n</td>\n<td class=\"sepline\">\n\_", departure: '20:20', station: "Jarz\u0119\
+      bia \u0141\u0105ka"}
+  - {arrival: "20:24\n</td>\n<td class=\"sepline\">\n\_", departure: '20:24', station: Grzegorzewo}
+  - {arrival: "20:29\n</td>\n<td class=\"sepline\">\n\_", departure: '20:29', station: "Most\xF3\
+      wka"}
+  - {arrival: "20:34\n</td>\n<td class=\"sepline\">\n\_", departure: '20:34', station: "Lucyn\xF3\
+      w"}
+  - {arrival: "20:38\n</td>\n<td class=\"sepline\">\n\_", departure: '20:38', station: Rybienko}
+  - {arrival: "20:42\n</td>\n<td class=\"sepline\">\n\_", departure: '20:42', station: "Wyszk\xF3\
+      w"}
+  - {arrival: "20:49\n</td>\n<td class=\"sepline\">\n\_", departure: '20:49', station: "Leszczyd\xF3\
+      \u0142"}
+  - {arrival: "20:54\n</td>\n<td class=\"sepline\">\n\_", departure: '20:54', station: Dalekie}
+  - {arrival: "21:02\n</td>\n<td class=\"sepline\">\n\_", departure: '21:02', station: Zygmuntowo
+      Mazow.}
+  - {arrival: "21:08\n</td>\n<td class=\"sepline\">\n\_", departure: '21:08', station: Przetycz}
+  - {arrival: "21:15\n</td>\n<td class=\"sepline\">\n\_", departure: '21:15', station: "Prabuty\
+      \ G\xF3ry"}
+  - {arrival: "21:22\n</td>\n<td class=\"sepline\">\n\_", departure: '21:22', station: Pasieki}
+  - {arrival: "21:32\n</td>\n<td class=\"sepline\">\n\_", departure: '21:32', station: Goworowo}
+  - {arrival: "21:42\n</td>\n<td class=\"sepline\">\n\_", departure: '21:42', station: Gierwaty}
+  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n\_", station: "Ostro\u0142\u0119\
+      ka"}
+type: train

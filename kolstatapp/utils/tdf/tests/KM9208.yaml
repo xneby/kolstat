@@ -1,0 +1,22 @@
+name: KM 9208
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:31', station: "\u017Byrard\xF3w"}
+  - {arrival: '07:35', departure: '07:35', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '07:42', departure: '07:42', station: "Jaktor\xF3w"}
+  - {arrival: '07:47', departure: '07:47', station: Grodzisk Maz. (PKP)}
+  - {arrival: '07:51', departure: '07:51', station: "Milan\xF3wek"}
+  - {arrival: '07:55', departure: '07:55', station: "Brwin\xF3w"}
+  - {arrival: '08:01', departure: '08:01', station: "Pruszk\xF3w"}
+  - {arrival: '08:04', departure: '08:04', station: "Piast\xF3w"}
+  - {arrival: '08:09', departure: '08:09', station: Warszawa Ursus}
+  - {arrival: '08:12', departure: '08:12', station: "Warszawa W\u0142ochy"}
+  - {arrival: '08:17', departure: '08:17', station: Warszawa Zachodnia}
+  - {arrival: '08:21', departure: '08:21', station: Warszawa Ochota}
+  - {arrival: '08:24', departure: '08:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:26', departure: '08:26', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:29', departure: '08:29', station: Warszawa Stadion}
+  - {arrival: '08:31', station: Warszawa Wschodnia}
+type: train

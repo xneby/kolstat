@@ -1,0 +1,21 @@
+name: KM 20326
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:23', station: Modlin}
+  - {arrival: '07:27', departure: '07:27', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '07:34', departure: '07:34', station: "Chotom\xF3w"}
+  - {arrival: '07:36', departure: '07:36', station: Legionowo Przystanek}
+  - {arrival: '07:39', departure: '07:39', station: Legionowo}
+  - {arrival: '07:44', departure: '07:44', station: "Warszawa P\u0142udy"}
+  - {arrival: '07:49', departure: '07:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '07:58', departure: '07:58', station: Warszawa Wschodnia}
+  - {arrival: '08:05', departure: '08:10', station: Warszawa Centralna}
+  - {arrival: '08:14', departure: '08:14', station: Warszawa Zachodnia}
+  - {arrival: '08:19', departure: '08:19', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '08:22', departure: '08:22', station: Warszawa Rakowiec}
+  - {arrival: '08:24', departure: '08:24', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '08:26', departure: '08:26', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '08:30', station: Warszawa Lot. Chopina}
+type: train

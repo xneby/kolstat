@@ -1,0 +1,28 @@
+name: KM 9582
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:05', station: "Celestyn\xF3w"}
+  - {arrival: '20:10', departure: '20:10', station: "Stara Wie\u015B"}
+  - {arrival: '20:13', departure: '20:13', station: Pogorzel Warszawska}
+  - {arrival: '20:16', departure: '20:16', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '20:21', departure: '20:27', station: Otwock}
+  - {arrival: '20:30', departure: '20:30', station: "\u015Awider"}
+  - {arrival: '20:33', departure: '20:33', station: "J\xF3zef\xF3w"}
+  - {arrival: '20:36', departure: '20:36', station: Michalin}
+  - {arrival: '20:38', departure: '20:38', station: Warszawa Falenica}
+  - {arrival: '20:41', departure: '20:41', station: Warszawa Miedzeszyn}
+  - {arrival: '20:44', departure: '20:44', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '20:47', departure: '20:47', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '20:49', departure: '20:49', station: Warszawa Anin}
+  - {arrival: '20:52', departure: '20:52', station: Warszawa Wawer}
+  - {arrival: '20:54', departure: '20:54', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '20:58', departure: '20:58', station: Warszawa Olsz.Groch.}
+  - {arrival: '21:03', departure: '21:03', station: Warszawa Wschodnia}
+  - {arrival: '21:06', departure: '21:06', station: Warszawa Stadion}
+  - {arrival: '21:09', departure: '21:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '21:12', departure: '21:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '21:14', departure: '21:14', station: Warszawa Ochota}
+  - {arrival: '21:17', station: Warszawa Zachodnia}
+type: train

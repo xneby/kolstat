@@ -1,0 +1,18 @@
+name: KM 525
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:57', station: "D\u0119blin"}
+  - {arrival: '06:03', departure: '06:03', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '06:11', departure: '06:11', station: "B\u0105kowiec"}
+  - {arrival: '06:17', departure: '06:17', station: Garbatka Letnisko}
+  - {arrival: '06:22', departure: '06:22', station: "\u017Bytkowice"}
+  - {arrival: '06:28', departure: '06:28', station: Pionki}
+  - {arrival: '06:30', departure: '06:30', station: Pionki Zach.}
+  - {arrival: '06:34', departure: '06:34', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '06:39', departure: '06:39', station: Jedlnia Letnisko}
+  - {arrival: '06:43', departure: '06:43', station: "Antoni\xF3wka"}
+  - {arrival: '06:46', departure: '06:46', station: Rajec Poduchowny}
+  - {arrival: '06:55', station: Radom}
+type: train

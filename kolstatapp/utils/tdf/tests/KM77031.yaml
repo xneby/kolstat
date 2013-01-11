@@ -1,0 +1,15 @@
+name: KM 77031
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:59', station: Przysucha}
+  - {arrival: '05:05', departure: '05:05', station: Skrzynno}
+  - {arrival: '05:12', departure: '05:12', station: Wieniawa}
+  - {arrival: '05:18', departure: '05:18', station: "Podb\xF3r"}
+  - {arrival: '05:23', departure: '05:23', station: "Chron\xF3w"}
+  - {arrival: '05:32', departure: '05:32', station: "Wolan\xF3w"}
+  - {arrival: '05:37', departure: '05:37', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '05:42', departure: '05:42', station: "Radom Potkan\xF3w"}
+  - {arrival: '05:51', station: Radom}
+type: train

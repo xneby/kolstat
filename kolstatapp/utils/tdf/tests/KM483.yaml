@@ -1,0 +1,18 @@
+name: KM 483
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:26', station: Warszawa Wschodnia}
+  - {arrival: '13:28', departure: '13:28', station: Warszawa Stadion}
+  - {arrival: '13:31', departure: '13:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:34', departure: '13:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:36', departure: '13:36', station: Warszawa Ochota}
+  - {arrival: '13:40', departure: '13:40', station: Warszawa Zachodnia}
+  - {arrival: '13:47', departure: '13:47', station: "Warszawa W\u0142ochy"}
+  - {arrival: '13:51', departure: '13:51', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '13:53', departure: '13:53', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '13:57', departure: '13:57', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '14:02', departure: '14:02', station: "P\u0142ochocin"}
+  - {arrival: '14:07', station: "B\u0142onie"}
+type: train

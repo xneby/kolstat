@@ -1,0 +1,18 @@
+name: KM 44121
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:58', station: Warszawa Wschodnia}
+  - {arrival: '18:05', departure: '18:10', station: Warszawa Centralna}
+  - {arrival: '18:14', departure: '18:14', station: Warszawa Zachodnia}
+  - {arrival: '18:32', departure: '18:32', station: "B\u0142onie"}
+  - {arrival: '18:40', departure: '18:40', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '18:49', departure: '18:49', station: Sochaczew}
+  - {arrival: '19:06', departure: '19:06', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: '19:30', departure: '19:31', station: Kutno}
+  - {arrival: '19:50', departure: '19:50', station: Strzelce Kujawskie}
+  - {arrival: '20:08', departure: '20:08', station: Gostynin}
+  - {arrival: '20:24', departure: '20:24', station: "\u0141\u0105ck"}
+  - {arrival: '20:42', station: "P\u0142ock"}
+type: train

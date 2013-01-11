@@ -1,0 +1,35 @@
+name: KM 8043
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:25', station: Warszawa Zachodnia}
+  - {arrival: '15:28', departure: '15:28', station: Warszawa Ochota}
+  - {arrival: '15:31', departure: '15:31', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:34', departure: '15:34', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:37', departure: '15:37', station: Warszawa Stadion}
+  - {arrival: '15:41', departure: '15:41', station: Warszawa Wschodnia}
+  - {arrival: '15:51', departure: '15:51', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '15:55', departure: '15:55', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '15:57', departure: '15:57', station: Warszawa-Wola Grzyb.}
+  - {arrival: '16:00', departure: '16:00', station: "Sulej\xF3wek"}
+  - {arrival: '16:02', departure: '16:02', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '16:06', departure: '16:06', station: "Halin\xF3w"}
+  - {arrival: '16:09', departure: '16:09', station: Cisie}
+  - {arrival: '16:11', departure: '16:11', station: "D\u0119be Wielkie"}
+  - {arrival: '16:13', departure: '16:13', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '16:16', departure: '16:16', station: "Wrzos\xF3w"}
+  - {arrival: '16:21', departure: '16:22', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '16:25', departure: '16:25', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '16:28', departure: '16:28', station: "Barcz\u0105ca"}
+  - {arrival: '16:32', departure: '16:32', station: Mienia}
+  - {arrival: '16:35', departure: '16:35', station: "Ceg\u0142\xF3w"}
+  - {arrival: '16:39', departure: '16:39', station: Mrozy}
+  - {arrival: '16:43', departure: '16:43', station: Grodziszcze Maz.}
+  - {arrival: '16:47', departure: '16:47', station: Sosnowe}
+  - {arrival: '16:50', departure: '16:50', station: Koszewnica}
+  - {arrival: '16:54', departure: '16:54', station: "Kotu\u0144"}
+  - {arrival: '17:00', departure: '17:00', station: Sabinka}
+  - {arrival: '17:05', departure: '17:05', station: Siedlce Zachodnie}
+  - {arrival: '17:11', station: Siedlce}
+type: train

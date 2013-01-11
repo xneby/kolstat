@@ -1,0 +1,21 @@
+name: KM 11356
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:54', station: Warszawa Lot. Chopina}
+  - {arrival: '22:57', departure: '22:57', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '23:00', departure: '23:00', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '23:02', departure: '23:02', station: Warszawa Rakowiec}
+  - {arrival: '23:04', departure: '23:04', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '23:10', departure: '23:10', station: Warszawa Zachodnia}
+  - {arrival: '23:15', departure: '23:20', station: Warszawa Centralna}
+  - {arrival: '23:28', departure: '23:28', station: Warszawa Wschodnia}
+  - {arrival: '23:36', departure: '23:36', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '23:41', departure: '23:41', station: "Warszawa P\u0142udy"}
+  - {arrival: '23:47', departure: '23:47', station: Legionowo}
+  - {arrival: '23:49', departure: '23:49', station: Legionowo Przystanek}
+  - {arrival: '23:52', departure: '23:52', station: "Chotom\xF3w"}
+  - {arrival: '23:59', departure: '23:59', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '00:03', station: Modlin}
+type: train

@@ -1,0 +1,39 @@
+name: KM 12241
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:07', station: Warszawa Wschodnia}
+  - {arrival: '15:10', departure: '15:10', station: Warszawa Stadion}
+  - {arrival: '15:13', departure: '15:13', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:16', departure: '15:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:18', departure: '15:18', station: Warszawa Ochota}
+  - {arrival: '15:22', departure: '15:22', station: Warszawa Zachodnia}
+  - {arrival: '15:26', departure: '15:26', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '15:29', departure: '15:29', station: Warszawa Rakowiec}
+  - {arrival: '15:31', departure: '15:31', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '15:34', departure: '15:34', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '15:36', departure: '15:36', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '15:41', departure: '15:41', station: Warszawa Dawidy}
+  - {arrival: '15:45', departure: '15:45', station: Warszawa Jeziorki}
+  - {arrival: '15:48', departure: '15:48', station: Nowa Iwiczna}
+  - {arrival: '15:52', departure: '15:52', station: Piaseczno}
+  - {arrival: '15:57', departure: '15:57', station: "Zalesie G\xF3rne"}
+  - {arrival: '16:02', departure: '16:02', station: "Ustan\xF3wek"}
+  - {arrival: '16:06', departure: '16:06', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '16:08', departure: '16:08', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '16:15', departure: '16:15', station: "Su\u0142kowice"}
+  - {arrival: '16:19', departure: '16:19', station: "Chyn\xF3w"}
+  - {arrival: '16:25', departure: '16:25', station: "Kr\u0119\u017Cel"}
+  - {arrival: '16:29', departure: '16:29', station: Michalczew}
+  - {arrival: '16:35', departure: '16:35', station: "Go\u015Bniewice"}
+  - {arrival: '16:39', departure: '16:41', station: Warka}
+  - {arrival: '16:49', departure: '16:49', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '16:56', departure: '16:56', station: "Strzy\u017Cyna"}
+  - {arrival: '17:05', departure: '17:05', station: Dobieszyn}
+  - {arrival: '17:13', departure: '17:13', station: Kruszyna}
+  - {arrival: '17:18', departure: '17:18', station: Wola Bierwiecka}
+  - {arrival: '17:21', departure: '17:21', station: Bartodzieje}
+  - {arrival: '17:28', departure: '17:28', station: "Lesi\xF3w"}
+  - {arrival: '17:41', station: Radom}
+type: train

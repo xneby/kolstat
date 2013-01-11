@@ -1,0 +1,18 @@
+name: KM 7767
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '23:45', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '23:53', departure: '23:53', station: "Z\u0105bki"}
+  - {arrival: '23:58', departure: '23:58', station: Zielonka}
+  - {arrival: '00:01', departure: '00:01', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '00:04', departure: '00:04', station: "Koby\u0142ka"}
+  - {arrival: '00:08', departure: '00:08', station: "Wo\u0142omin"}
+  - {arrival: '00:11', departure: '00:11', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '00:14', departure: '00:14', station: "Zago\u015Bciniec"}
+  - {arrival: '00:17', departure: '00:17', station: Dobczyn}
+  - {arrival: '00:21', departure: '00:21', station: "Klemb\xF3w"}
+  - {arrival: '00:25', departure: '00:25', station: Jasienica Mazowiecka}
+  - {arrival: '00:28', station: "T\u0142uszcz"}
+type: train

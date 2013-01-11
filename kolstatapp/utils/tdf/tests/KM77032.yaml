@@ -1,0 +1,15 @@
+name: KM 77032
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:47', station: Radom}
+  - {arrival: '15:56', departure: '15:56', station: "Radom Potkan\xF3w"}
+  - {arrival: '16:03', departure: '16:03', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '16:08', departure: '16:08', station: "Wolan\xF3w"}
+  - {arrival: '16:15', departure: '16:15', station: "Chron\xF3w"}
+  - {arrival: '16:20', departure: '16:20', station: "Podb\xF3r"}
+  - {arrival: '16:27', departure: '16:27', station: Wieniawa}
+  - {arrival: '16:34', departure: '16:34', station: Skrzynno}
+  - {arrival: '16:41', station: Przysucha}
+type: train

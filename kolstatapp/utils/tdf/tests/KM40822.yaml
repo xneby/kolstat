@@ -1,0 +1,29 @@
+name: KM 40822
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:37', station: "B\u0142onie"}
+  - {arrival: '17:42', departure: '17:42', station: "P\u0142ochocin"}
+  - {arrival: '17:48', departure: '17:48', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '17:52', departure: '17:52', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '17:54', departure: '17:54', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '17:57', departure: '17:57', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:02', departure: '18:02', station: Warszawa Zachodnia}
+  - {arrival: '18:06', departure: '18:06', station: Warszawa Ochota}
+  - {arrival: '18:09', departure: '18:09', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:11', departure: '18:11', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:14', departure: '18:14', station: Warszawa Stadion}
+  - {arrival: '18:17', departure: '18:17', station: Warszawa Wschodnia}
+  - {arrival: '18:27', departure: '18:27', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '18:31', departure: '18:31', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '18:34', departure: '18:34', station: Warszawa-Wola Grzyb.}
+  - {arrival: '18:37', departure: '18:37', station: "Sulej\xF3wek"}
+  - {arrival: '18:39', departure: '18:39', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '18:43', departure: '18:43', station: "Halin\xF3w"}
+  - {arrival: '18:47', departure: '18:47', station: Cisie}
+  - {arrival: '18:50', departure: '18:50', station: "D\u0119be Wielkie"}
+  - {arrival: '18:52', departure: '18:52', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '18:56', departure: '18:56', station: "Wrzos\xF3w"}
+  - {arrival: '19:01', station: "Mi\u0144sk Mazowiecki"}
+type: train

@@ -1,0 +1,19 @@
+name: KM 9348
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:39', station: Grodzisk Maz. (PKP)}
+  - {arrival: '10:43', departure: '10:43', station: "Milan\xF3wek"}
+  - {arrival: '10:47', departure: '10:47', station: "Brwin\xF3w"}
+  - {arrival: '10:53', departure: '10:53', station: "Pruszk\xF3w"}
+  - {arrival: '10:57', departure: '10:57', station: "Piast\xF3w"}
+  - {arrival: '11:02', departure: '11:02', station: Warszawa Ursus}
+  - {arrival: '11:05', departure: '11:05', station: "Warszawa W\u0142ochy"}
+  - {arrival: '11:10', departure: '11:10', station: Warszawa Zachodnia}
+  - {arrival: '11:14', departure: '11:14', station: Warszawa Ochota}
+  - {arrival: '11:17', departure: '11:17', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '11:19', departure: '11:19', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '11:22', departure: '11:22', station: Warszawa Stadion}
+  - {arrival: '11:24', station: Warszawa Wschodnia}
+type: train

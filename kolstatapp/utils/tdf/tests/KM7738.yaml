@@ -1,0 +1,18 @@
+name: KM 7738
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:46', station: "T\u0142uszcz"}
+  - {arrival: '08:51', departure: '08:51', station: Jasienica Mazowiecka}
+  - {arrival: '08:56', departure: '08:56', station: "Klemb\xF3w"}
+  - {arrival: '09:00', departure: '09:00', station: Dobczyn}
+  - {arrival: '09:03', departure: '09:03', station: "Zago\u015Bciniec"}
+  - {arrival: '09:06', departure: '09:06', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '09:10', departure: '09:10', station: "Wo\u0142omin"}
+  - {arrival: '09:13', departure: '09:13', station: "Koby\u0142ka"}
+  - {arrival: '09:16', departure: '09:16', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '09:21', departure: '09:21', station: Zielonka}
+  - {arrival: '09:25', departure: '09:25', station: "Z\u0105bki"}
+  - {arrival: '09:33', station: "Warszawa Wile\u0144ska"}
+type: train

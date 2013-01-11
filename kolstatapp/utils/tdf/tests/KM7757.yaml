@@ -1,0 +1,18 @@
+name: KM 7757
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:55', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '18:03', departure: '18:03', station: "Z\u0105bki"}
+  - {arrival: '18:08', departure: '18:08', station: Zielonka}
+  - {arrival: '18:11', departure: '18:11', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '18:14', departure: '18:14', station: "Koby\u0142ka"}
+  - {arrival: '18:18', departure: '18:18', station: "Wo\u0142omin"}
+  - {arrival: '18:21', departure: '18:21', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '18:24', departure: '18:24', station: "Zago\u015Bciniec"}
+  - {arrival: '18:27', departure: '18:27', station: Dobczyn}
+  - {arrival: '18:31', departure: '18:31', station: "Klemb\xF3w"}
+  - {arrival: '18:35', departure: '18:35', station: Jasienica Mazowiecka}
+  - {arrival: '18:38', station: "T\u0142uszcz"}
+type: train

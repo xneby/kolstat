@@ -1,0 +1,18 @@
+name: KM 521
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:10', station: "D\u0119blin"}
+  - {arrival: '04:16', departure: '04:16', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '04:24', departure: '04:24', station: "B\u0105kowiec"}
+  - {arrival: '04:30', departure: '04:30', station: Garbatka Letnisko}
+  - {arrival: '04:35', departure: '04:35', station: "\u017Bytkowice"}
+  - {arrival: '04:41', departure: '04:41', station: Pionki}
+  - {arrival: '04:43', departure: '04:43', station: Pionki Zach.}
+  - {arrival: '04:47', departure: '04:47', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '04:52', departure: '04:52', station: Jedlnia Letnisko}
+  - {arrival: '04:56', departure: '04:56', station: "Antoni\xF3wka"}
+  - {arrival: '04:59', departure: '04:59', station: Rajec Poduchowny}
+  - {arrival: '05:07', station: Radom}
+type: train

@@ -1,0 +1,20 @@
+name: KM 9362
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:04', station: Grodzisk Maz. (PKP)}
+  - {arrival: '18:08', departure: '18:08', station: "Milan\xF3wek"}
+  - {arrival: '18:12', departure: '18:12', station: "Brwin\xF3w"}
+  - {arrival: '18:18', departure: '18:18', station: "Pruszk\xF3w"}
+  - {arrival: '18:22', departure: '18:22', station: "Piast\xF3w"}
+  - {arrival: '18:27', departure: '18:27', station: Warszawa Ursus}
+  - {arrival: '18:30', departure: '18:30', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:36', departure: '18:36', station: Warszawa Zachodnia}
+  - {arrival: '18:39', departure: '18:39', station: Warszawa Ochota}
+  - {arrival: '18:42', departure: '18:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:45', departure: '18:45', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:48', departure: '18:48', station: Warszawa Stadion}
+  - {arrival: '18:51', departure: '18:51', station: Warszawa Wschodnia}
+  - {arrival: '19:01', station: "Warszawa Rembert\xF3w"}
+type: train

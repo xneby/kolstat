@@ -1,0 +1,32 @@
+name: KM 51420
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:13', station: "Dzia\u0142dowo"}
+  - {arrival: '04:21', departure: '04:21', station: Narzym}
+  - {arrival: '04:26', departure: '04:26', station: "I\u0142owo"}
+  - {arrival: '04:32', departure: '04:32', station: "M\u0142awa"}
+  - {arrival: '04:37', departure: '04:37', station: "M\u0142awa Miasto"}
+  - {arrival: '04:42', departure: '04:42', station: Wyszyny}
+  - {arrival: '04:47', departure: '04:47', station: Stupsk Mazowiecki}
+  - {arrival: '04:51', departure: '04:51', station: Konopki}
+  - {arrival: '04:55', departure: '04:55', station: "Kro\u015Bnice Maz."}
+  - {arrival: '04:58', departure: '04:58', station: Czeruchy}
+  - {arrival: '05:05', departure: '05:05', station: "Ciechan\xF3w"}
+  - {arrival: '05:15', departure: '05:15', station: "Go\u0142otczyzna"}
+  - {arrival: '05:20', departure: '05:20', station: "G\u0105socin"}
+  - {arrival: '05:25', departure: '05:25', station: "\u015Awiercze"}
+  - {arrival: '05:34', departure: '05:34', station: Nasielsk}
+  - {arrival: '05:41', departure: '05:41', station: "Pomiech\xF3wek"}
+  - {arrival: '05:45', departure: '05:45', station: Modlin}
+  - {arrival: '05:49', departure: '05:49', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '05:56', departure: '05:56', station: "Chotom\xF3w"}
+  - {arrival: '06:00', departure: '06:00', station: Legionowo}
+  - {arrival: '06:08', departure: '06:08', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '06:14', departure: '06:14', station: Warszawa ZOO}
+  - {arrival: '06:18', departure: '06:18', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '06:24', departure: '06:24', station: "Warszawa Ko\u0142o"}
+  - {arrival: '06:27', departure: '06:27', station: Warszawa Kasprzaka}
+  - {arrival: '06:31', station: Warszawa Zach. per.8}
+type: train

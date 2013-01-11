@@ -1,0 +1,12 @@
+name: KM 51350
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:59', station: Sierpc}
+  - {arrival: '18:06', departure: '18:06', station: Susk}
+  - {arrival: '18:11', departure: '18:11', station: Gozdowo}
+  - {arrival: '18:19', departure: '18:19', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '18:29', departure: '18:29', station: "P\u0142ock Trzepowo"}
+  - {arrival: '18:35', station: "P\u0142ock"}
+type: train

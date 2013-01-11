@@ -1,0 +1,24 @@
+name: KM 11330
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '09:50', station: Warszawa Lot. Chopina}
+  - {arrival: '09:53', departure: '09:53', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '09:56', departure: '09:56', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '09:58', departure: '09:58', station: Warszawa Rakowiec}
+  - {arrival: '10:00', departure: '10:00', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '10:06', departure: '10:06', station: Warszawa Zachodnia}
+  - {arrival: '10:10', departure: '10:10', station: Warszawa Ochota}
+  - {arrival: '10:13', departure: '10:13', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '10:15', departure: '10:15', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '10:18', departure: '10:18', station: Warszawa Stadion}
+  - {arrival: '10:22', departure: '10:22', station: Warszawa Wschodnia}
+  - {arrival: '10:31', departure: '10:31', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '10:35', departure: '10:35', station: "Warszawa P\u0142udy"}
+  - {arrival: '10:41', departure: '10:41', station: Legionowo}
+  - {arrival: '10:43', departure: '10:43', station: Legionowo Przystanek}
+  - {arrival: '10:46', departure: '10:46', station: "Chotom\xF3w"}
+  - {arrival: '10:53', departure: '10:53', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '10:57', station: Modlin}
+type: train

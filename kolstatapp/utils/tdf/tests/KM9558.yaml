@@ -1,0 +1,33 @@
+name: KM 9558
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:17', station: Pilawa}
+  - {arrival: '11:21', departure: '11:21', station: "August\xF3wka"}
+  - {arrival: '11:25', departure: '11:25', station: "Zabie\u017Cki"}
+  - {arrival: '11:29', departure: '11:29', station: Chrosna}
+  - {arrival: '11:32', departure: '11:32', station: "Ko\u0142biel"}
+  - {arrival: '11:35', departure: '11:41', station: "Celestyn\xF3w"}
+  - {arrival: '11:46', departure: '11:46', station: "Stara Wie\u015B"}
+  - {arrival: '11:49', departure: '11:49', station: Pogorzel Warszawska}
+  - {arrival: '11:52', departure: '11:52', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '11:57', departure: '11:57', station: Otwock}
+  - {arrival: '12:00', departure: '12:00', station: "\u015Awider"}
+  - {arrival: '12:03', departure: '12:03', station: "J\xF3zef\xF3w"}
+  - {arrival: '12:06', departure: '12:06', station: Michalin}
+  - {arrival: '12:08', departure: '12:08', station: Warszawa Falenica}
+  - {arrival: '12:11', departure: '12:11', station: Warszawa Miedzeszyn}
+  - {arrival: '12:13', departure: '12:13', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '12:16', departure: '12:16', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '12:19', departure: '12:19', station: Warszawa Anin}
+  - {arrival: '12:21', departure: '12:21', station: Warszawa Wawer}
+  - {arrival: '12:24', departure: '12:24', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '12:27', departure: '12:27', station: Warszawa Olsz.Groch.}
+  - {arrival: '12:33', departure: '12:33', station: Warszawa Wschodnia}
+  - {arrival: '12:36', departure: '12:36', station: Warszawa Stadion}
+  - {arrival: '12:39', departure: '12:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '12:42', departure: '12:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '12:44', departure: '12:44', station: Warszawa Ochota}
+  - {arrival: '12:47', station: Warszawa Zachodnia}
+type: train

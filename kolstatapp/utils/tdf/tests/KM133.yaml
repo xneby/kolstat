@@ -1,0 +1,27 @@
+name: KM 133
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:26', station: Warszawa Wschodnia}
+  - {arrival: '16:28', departure: '16:28', station: Warszawa Stadion}
+  - {arrival: '16:31', departure: '16:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:34', departure: '16:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:36', departure: '16:36', station: Warszawa Ochota}
+  - {arrival: '16:40', departure: '16:40', station: Warszawa Zachodnia}
+  - {arrival: '16:45', departure: '16:45', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '16:48', departure: '16:48', station: Warszawa Rakowiec}
+  - {arrival: '16:50', departure: '16:50', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '16:52', departure: '16:52', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '16:55', departure: '16:55', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '17:00', departure: '17:00', station: Warszawa Dawidy}
+  - {arrival: '17:03', departure: '17:03', station: Warszawa Jeziorki}
+  - {arrival: '17:07', departure: '17:07', station: Nowa Iwiczna}
+  - {arrival: '17:12', departure: '17:12', station: Piaseczno}
+  - {arrival: '17:17', departure: '17:17', station: "Zalesie G\xF3rne"}
+  - {arrival: '17:22', departure: '17:22', station: "Ustan\xF3wek"}
+  - {arrival: '17:26', departure: '17:26', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '17:28', departure: '17:38', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '17:42', departure: '17:42', station: "Czach\xF3wek Wsch."}
+  - {arrival: '17:55', station: "G\xF3ra Kalwaria"}
+type: train

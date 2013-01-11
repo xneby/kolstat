@@ -1,0 +1,31 @@
+name: KM 30720
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:57', station: Grodzisk Maz. (PKP)}
+  - {arrival: '16:01', departure: '16:01', station: "Milan\xF3wek"}
+  - {arrival: '16:05', departure: '16:05', station: "Brwin\xF3w"}
+  - {arrival: '16:11', departure: '16:11', station: "Pruszk\xF3w"}
+  - {arrival: '16:15', departure: '16:15', station: "Piast\xF3w"}
+  - {arrival: '16:20', departure: '16:20', station: Warszawa Ursus}
+  - {arrival: '16:23', departure: '16:23', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:29', departure: '16:29', station: Warszawa Zachodnia}
+  - {arrival: '16:32', departure: '16:32', station: Warszawa Ochota}
+  - {arrival: '16:35', departure: '16:35', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:38', departure: '16:38', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:41', departure: '16:41', station: Warszawa Stadion}
+  - {arrival: '16:43', departure: '16:45', station: Warszawa Wschodnia}
+  - {arrival: '16:54', departure: '16:54', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '17:04', departure: '17:04', station: Zielonka Bankowa}
+  - {arrival: '17:08', departure: '17:08', station: Zielonka}
+  - {arrival: '17:11', departure: '17:11', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '17:14', departure: '17:14', station: "Koby\u0142ka"}
+  - {arrival: '17:18', departure: '17:18', station: "Wo\u0142omin"}
+  - {arrival: '17:21', departure: '17:21', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '17:24', departure: '17:24', station: "Zago\u015Bciniec"}
+  - {arrival: '17:27', departure: '17:27', station: Dobczyn}
+  - {arrival: '17:31', departure: '17:31', station: "Klemb\xF3w"}
+  - {arrival: '17:35', departure: '17:35', station: Jasienica Mazowiecka}
+  - {arrival: '17:38', station: "T\u0142uszcz"}
+type: train

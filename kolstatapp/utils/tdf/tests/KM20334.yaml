@@ -1,0 +1,21 @@
+name: KM 20334
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:23', station: Modlin}
+  - {arrival: '11:27', departure: '11:27', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '11:34', departure: '11:34', station: "Chotom\xF3w"}
+  - {arrival: '11:36', departure: '11:36', station: Legionowo Przystanek}
+  - {arrival: '11:39', departure: '11:39', station: Legionowo}
+  - {arrival: '11:44', departure: '11:44', station: "Warszawa P\u0142udy"}
+  - {arrival: '11:49', departure: '11:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '11:58', departure: '11:58', station: Warszawa Wschodnia}
+  - {arrival: '12:05', departure: '12:10', station: Warszawa Centralna}
+  - {arrival: '12:14', departure: '12:14', station: Warszawa Zachodnia}
+  - {arrival: '12:19', departure: '12:19', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '12:22', departure: '12:22', station: Warszawa Rakowiec}
+  - {arrival: '12:24', departure: '12:24', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '12:26', departure: '12:26', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '12:30', station: Warszawa Lot. Chopina}
+type: train

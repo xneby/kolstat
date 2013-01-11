@@ -1,0 +1,18 @@
+name: KM 51611
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:33', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '11:36', departure: '11:36', station: Warszawa ZOO}
+  - {arrival: '11:42', departure: '11:42', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '11:53', departure: '11:53', station: Legionowo}
+  - {arrival: '11:56', departure: '11:56', station: Legionowo Piaski}
+  - {arrival: '11:59', departure: '11:59', station: "Micha\u0142\xF3w Regin\xF3w"}
+  - {arrival: '12:02', departure: '12:02', station: Wieliszew}
+  - {arrival: '12:07', departure: '12:07', station: "Niepor\u0119t"}
+  - {arrival: '12:12', departure: '12:12', station: "D\u0105bkowizna"}
+  - {arrival: '12:18', departure: '12:18', station: Radzymin}
+  - {arrival: '12:32', departure: '12:32', station: Krusze}
+  - {arrival: '12:39', station: "T\u0142uszcz"}
+type: train

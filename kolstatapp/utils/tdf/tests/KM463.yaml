@@ -1,0 +1,24 @@
+name: KM 463
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:22', station: Warszawa Wschodnia}
+  - {arrival: '18:25', departure: '18:25', station: Warszawa Stadion}
+  - {arrival: '18:28', departure: '18:28', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:31', departure: '18:31', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:33', departure: '18:33', station: Warszawa Ochota}
+  - {arrival: '18:37', departure: '18:37', station: Warszawa Zachodnia}
+  - {arrival: '18:43', departure: '18:43', station: "Warszawa W\u0142ochy"}
+  - {arrival: '18:47', departure: '18:47', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '18:50', departure: '18:50', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '18:54', departure: '18:54', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '19:00', departure: '19:00', station: "P\u0142ochocin"}
+  - {arrival: '19:05', departure: '19:12', station: "B\u0142onie"}
+  - {arrival: '19:15', departure: '19:15', station: "Witan\xF3w"}
+  - {arrival: '19:19', departure: '19:19', station: "Bo\u017Ca Wola"}
+  - {arrival: '19:23', departure: '19:23', station: Seroki}
+  - {arrival: '19:26', departure: '19:26', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '19:30', departure: '19:30', station: Piasecznica}
+  - {arrival: '19:35', station: Sochaczew}
+type: train

@@ -1,0 +1,38 @@
+name: KM 80240
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:53', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '12:58', departure: '12:58', station: "Wrzos\xF3w"}
+  - {arrival: '13:01', departure: '13:01', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '13:04', departure: '13:04', station: "D\u0119be Wielkie"}
+  - {arrival: '13:07', departure: '13:07', station: Cisie}
+  - {arrival: '13:10', departure: '13:10', station: "Halin\xF3w"}
+  - {arrival: '13:14', departure: '13:14', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '13:17', departure: '13:17', station: "Sulej\xF3wek"}
+  - {arrival: '13:20', departure: '13:20', station: Warszawa-Wola Grzyb.}
+  - {arrival: '13:22', departure: '13:22', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '13:27', departure: '13:27', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '13:37', departure: '13:37', station: Warszawa Wschodnia}
+  - {arrival: '13:40', departure: '13:40', station: Warszawa Stadion}
+  - {arrival: '13:43', departure: '13:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:46', departure: '13:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:48', departure: '13:48', station: Warszawa Ochota}
+  - {arrival: '13:52', departure: '13:52', station: Warszawa Zachodnia}
+  - {arrival: '13:58', departure: '13:58', station: "Warszawa W\u0142ochy"}
+  - {arrival: '14:01', departure: '14:01', station: Warszawa Ursus}
+  - {arrival: '14:05', departure: '14:05', station: "Piast\xF3w"}
+  - {arrival: '14:09', departure: '14:09', station: "Pruszk\xF3w"}
+  - {arrival: '14:15', departure: '14:15', station: "Brwin\xF3w"}
+  - {arrival: '14:19', departure: '14:19', station: "Milan\xF3wek"}
+  - {arrival: '14:23', departure: '14:28', station: Grodzisk Maz. (PKP)}
+  - {arrival: '14:34', departure: '14:34', station: "Jaktor\xF3w"}
+  - {arrival: '14:41', departure: '14:41', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '14:47', departure: '14:47', station: "\u017Byrard\xF3w"}
+  - {arrival: '14:56', departure: '14:56', station: "Sucha \u017Byrardowska"}
+  - {arrival: '14:59', departure: '14:59', station: Jesionka}
+  - {arrival: '15:04', departure: '15:04', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '15:09', departure: '15:09', station: Skierniewice Rawka}
+  - {arrival: '15:14', station: Skierniewice}
+type: train

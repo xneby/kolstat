@@ -1,0 +1,12 @@
+name: KM 31324
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:08', station: Warszawa Zachodnia}
+  - {arrival: '03:13', departure: '03:15', station: Warszawa Centralna}
+  - {arrival: '03:22', departure: '03:23', station: Warszawa Wschodnia}
+  - {arrival: '03:38', departure: '03:38', station: Legionowo}
+  - {arrival: '03:48', departure: '03:48', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '03:52', station: Modlin}
+type: train

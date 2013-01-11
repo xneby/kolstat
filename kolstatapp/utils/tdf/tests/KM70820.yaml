@@ -1,0 +1,45 @@
+name: KM 70820
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:51', station: "T\u0142uszcz"}
+  - {arrival: '10:56', departure: '10:56', station: Jasienica Mazowiecka}
+  - {arrival: '11:01', departure: '11:01', station: "Klemb\xF3w"}
+  - {arrival: '11:05', departure: '11:05', station: Dobczyn}
+  - {arrival: '11:08', departure: '11:08', station: "Zago\u015Bciniec"}
+  - {arrival: '11:11', departure: '11:11', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '11:15', departure: '11:15', station: "Wo\u0142omin"}
+  - {arrival: '11:18', departure: '11:18', station: "Koby\u0142ka"}
+  - {arrival: '11:21', departure: '11:21', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '11:25', departure: '11:25', station: Zielonka}
+  - {arrival: '11:30', departure: '11:30', station: Zielonka Bankowa}
+  - {arrival: '11:40', departure: '11:40', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '11:50', departure: '12:19', station: Warszawa Wschodnia}
+  - {arrival: '12:29', departure: '12:29', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '12:38', departure: '12:38', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '12:42', departure: '12:42', station: "Halin\xF3w"}
+  - {arrival: '12:54', departure: '12:54', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '12:57', departure: '12:57', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '13:05', departure: '13:05', station: "Ceg\u0142\xF3w"}
+  - {arrival: '13:09', departure: '13:09', station: Mrozy}
+  - {arrival: '13:23', departure: '13:23', station: "Kotu\u0144"}
+  - {arrival: '13:33', departure: '13:33', station: Siedlce Zachodnie}
+  - {arrival: '13:39', departure: '13:40', station: Siedlce}
+  - {arrival: '13:49', departure: '13:49', station: Stok Lacki}
+  - {arrival: '13:53', departure: '13:53', station: Krzymosze}
+  - {arrival: '13:59', departure: '13:59', station: Mordy}
+  - {arrival: '14:02', departure: '14:02', station: Mordy Miasto}
+  - {arrival: '14:08', departure: '14:08', station: "Cierpig\xF3rz"}
+  - {arrival: '14:15', departure: '14:15', station: Niemojki}
+  - {arrival: '14:19', departure: '14:19', station: "Patk\xF3w"}
+  - {arrival: '14:26', departure: '14:26', station: "Plater\xF3w"}
+  - {arrival: '14:31', departure: '14:31', station: Sarnaki}
+  - {arrival: '14:36', departure: '14:36', station: "Frono\u0142\xF3w"}
+  - {arrival: '14:41', departure: '14:41', station: Siemiatycze}
+  - {arrival: '14:47', departure: '14:47', station: Sycze}
+  - {arrival: '14:54', departure: '14:54', station: Nurzec}
+  - {arrival: '15:00', departure: '15:00', station: Nowy Nurzec}
+  - {arrival: '15:04', departure: '15:04', station: Borowiki}
+  - {arrival: '15:14', station: Czeremcha}
+type: train

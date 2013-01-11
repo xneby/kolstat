@@ -1,0 +1,57 @@
+name: KM 7953
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:40', station: "Warszawa Wile\u0144ska"}
+  - {arrival: "20:48\n</td>\n<td class=\"sepline\">\n\_", departure: '20:48', station: "Z\u0105\
+      bki"}
+  - {arrival: "20:53\n</td>\n<td class=\"sepline\">\n\_", departure: '20:53', station: Zielonka}
+  - {arrival: "20:56\n</td>\n<td class=\"sepline\">\n\_", departure: '20:56', station: "Koby\u0142\
+      ka Oss\xF3w"}
+  - {arrival: "20:59\n</td>\n<td class=\"sepline\">\n\_", departure: '20:59', station: "Koby\u0142\
+      ka"}
+  - {arrival: "21:03\n</td>\n<td class=\"sepline\">\n\_", departure: '21:03', station: "Wo\u0142\
+      omin"}
+  - {arrival: "21:06\n</td>\n<td class=\"sepline\">\n\_", departure: '21:06', station: "Wo\u0142\
+      omin S\u0142oneczna"}
+  - {arrival: "21:09\n</td>\n<td class=\"sepline\">\n\_", departure: '21:09', station: "Zago\u015B\
+      ciniec"}
+  - {arrival: "21:12\n</td>\n<td class=\"sepline\">\n\_", departure: '21:12', station: Dobczyn}
+  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "Klemb\xF3\
+      w"}
+  - {arrival: "21:20\n</td>\n<td class=\"sepline\">\n\_", departure: '21:20', station: Jasienica
+      Mazowiecka}
+  - {arrival: "21:24\n</td>\n<td class=\"sepline\">\n\_", departure: '21:24', station: "T\u0142\
+      uszcz"}
+  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: "Chrz\u0119\
+      sne"}
+  - {arrival: "21:30\n</td>\n<td class=\"sepline\">\n\_", departure: '21:30', station: "Mokra\
+      \ Wie\u015B"}
+  - {arrival: "21:36\n</td>\n<td class=\"sepline\">\n\_", departure: '21:36', station: Szewnica}
+  - {arrival: "21:42\n</td>\n<td class=\"sepline\">\n\_", departure: '21:42', station: Urle}
+  - {arrival: "21:46\n</td>\n<td class=\"sepline\">\n\_", departure: '21:46', station: "Barch\xF3\
+      w"}
+  - {arrival: "21:51\n</td>\n<td class=\"sepline\">\n\_", departure: '21:51', station: "\u0141\
+      och\xF3w"}
+  - {arrival: "21:57\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '21:57', station: "Ostr\xF3wek W\u0119growski"}
+  - {arrival: "22:02\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:02', station: "Top\xF3r"}
+  - {arrival: "22:06\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:06', station: "Sadowne W\u0119growskie"}
+  - {arrival: "22:15\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", departure: '22:15', station: "Prosty\u0144"}
+  - {arrival: "22:23\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: "Ma\u0142kinia"}
+type: train

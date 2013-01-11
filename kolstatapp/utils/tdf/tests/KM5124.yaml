@@ -1,0 +1,34 @@
+name: KM 5124
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:24', station: "Ciechan\xF3w"}
+  - {arrival: '05:27', departure: '05:27', station: "Ciechan\xF3w Przemys\u0142."}
+  - {arrival: '05:35', departure: '05:35', station: "Go\u0142otczyzna"}
+  - {arrival: '05:40', departure: '05:40', station: "G\u0105socin"}
+  - {arrival: '05:44', departure: '05:44', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '05:47', departure: '05:47', station: "\u015Awiercze"}
+  - {arrival: '05:52', departure: '05:52', station: Jackowo Dworskie}
+  - {arrival: '05:55', departure: '05:55', station: "K\u0105tne"}
+  - {arrival: '05:59', departure: '05:59', station: Nasielsk}
+  - {arrival: '06:03', departure: '06:03', station: Studzianki Nowe}
+  - {arrival: '06:06', departure: '06:06', station: Brody Warszawskie}
+  - {arrival: '06:10', departure: '06:10', station: "Pomiech\xF3wek"}
+  - {arrival: '06:14', departure: '06:14', station: Modlin}
+  - {arrival: '06:18', departure: '06:18', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '06:21', departure: '06:21', station: "Jan\xF3wek"}
+  - {arrival: '06:26', departure: '06:26', station: "Chotom\xF3w"}
+  - {arrival: '06:29', departure: '06:29', station: Legionowo Przystanek}
+  - {arrival: '06:31', departure: '06:31', station: Legionowo}
+  - {arrival: '06:36', departure: '06:36', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '06:39', departure: '06:39', station: "Warszawa P\u0142udy"}
+  - {arrival: '06:42', departure: '06:42', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '06:45', departure: '06:45', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '06:47', departure: '06:47', station: Warszawa Praga}
+  - {arrival: '06:51', departure: '06:51', station: Warszawa ZOO}
+  - {arrival: '06:55', departure: '06:55', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '07:01', departure: '07:01', station: "Warszawa Ko\u0142o"}
+  - {arrival: '07:04', departure: '07:04', station: Warszawa Kasprzaka}
+  - {arrival: '07:08', station: Warszawa Zach. per.8}
+type: train

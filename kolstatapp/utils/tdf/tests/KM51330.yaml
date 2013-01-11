@@ -1,0 +1,21 @@
+name: KM 51330
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:36', station: Sierpc}
+  - {arrival: '06:43', departure: '06:43', station: Susk}
+  - {arrival: '06:48', departure: '06:48', station: Gozdowo}
+  - {arrival: '06:56', departure: '06:56', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '07:13', departure: '07:13', station: "P\u0142ock Trzepowo"}
+  - {arrival: '07:18', departure: '07:18', station: "P\u0142ock"}
+  - {arrival: '07:27', departure: '07:27', station: "P\u0142ock Radziwie"}
+  - {arrival: '07:40', departure: '07:40', station: "\u0141\u0105ck"}
+  - {arrival: '07:47', departure: '07:47', station: "Rogo\u017Cew"}
+  - {arrival: '07:55', departure: '07:55', station: Gostynin}
+  - {arrival: '08:04', departure: '08:04', station: "Sierak\xF3wek"}
+  - {arrival: '08:12', departure: '08:12', station: Strzelce Kujawskie}
+  - {arrival: '08:19', departure: '08:19', station: "Racibor\xF3w Kutnowski"}
+  - {arrival: '08:27', departure: '08:27', station: Azory}
+  - {arrival: '08:33', station: Kutno}
+type: train

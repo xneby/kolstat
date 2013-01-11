@@ -1,0 +1,22 @@
+name: KM 265
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:00', station: Warszawa Wschodnia}
+  - {arrival: '13:02', departure: '13:02', station: Warszawa Stadion}
+  - {arrival: '13:05', departure: '13:05', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:08', departure: '13:08', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:10', departure: '13:10', station: Warszawa Ochota}
+  - {arrival: '13:14', departure: '13:14', station: Warszawa Zachodnia}
+  - {arrival: '13:21', departure: '13:21', station: "Warszawa W\u0142ochy"}
+  - {arrival: '13:24', departure: '13:24', station: Warszawa Ursus}
+  - {arrival: '13:27', departure: '13:27', station: "Piast\xF3w"}
+  - {arrival: '13:31', departure: '13:31', station: "Pruszk\xF3w"}
+  - {arrival: '13:37', departure: '13:37', station: "Brwin\xF3w"}
+  - {arrival: '13:41', departure: '13:41', station: "Milan\xF3wek"}
+  - {arrival: '13:47', departure: '13:47', station: Grodzisk Maz. (PKP)}
+  - {arrival: '13:54', departure: '13:54', station: "Jaktor\xF3w"}
+  - {arrival: '14:01', departure: '14:01', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '14:05', station: "\u017Byrard\xF3w"}
+type: train

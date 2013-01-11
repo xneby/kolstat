@@ -1,0 +1,15 @@
+name: KM 8830
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:57', station: "\u0141uk\xF3w"}
+  - {arrival: '05:06', departure: '05:06', station: "Krynka \u0141ukowska"}
+  - {arrival: '05:09', departure: '05:09', station: "Radomy\u015Bl"}
+  - {arrival: '05:13', departure: '05:13', station: Dziewule}
+  - {arrival: '05:17', departure: '05:17', station: Borki Kosy}
+  - {arrival: '05:20', departure: '05:20', station: Kosiorki}
+  - {arrival: '05:24', departure: '05:24', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '05:27', departure: '05:27', station: Siedlce Wschodnie}
+  - {arrival: '05:30', station: Siedlce}
+type: train

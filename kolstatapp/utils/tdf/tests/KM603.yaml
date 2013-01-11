@@ -1,0 +1,26 @@
+name: KM 603
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '09:33', station: Warszawa Zach. per.8}
+  - {arrival: '09:37', departure: '09:37', station: Warszawa Kasprzaka}
+  - {arrival: '09:40', departure: '09:40', station: "Warszawa Ko\u0142o"}
+  - {arrival: '09:49', departure: '09:49', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '09:52', departure: '09:52', station: Warszawa ZOO}
+  - {arrival: '09:56', departure: '09:56', station: Warszawa Praga}
+  - {arrival: '09:58', departure: '09:58', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '10:01', departure: '10:01', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '10:04', departure: '10:04', station: "Warszawa P\u0142udy"}
+  - {arrival: '10:07', departure: '10:07', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '10:12', departure: '10:12', station: Legionowo}
+  - {arrival: '10:14', departure: '10:14', station: Legionowo Przystanek}
+  - {arrival: '10:17', departure: '10:17', station: "Chotom\xF3w"}
+  - {arrival: '10:22', departure: '10:22', station: "Jan\xF3wek"}
+  - {arrival: '10:26', departure: '10:26', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '10:30', departure: '10:30', station: Modlin}
+  - {arrival: '10:34', departure: '10:34', station: "Pomiech\xF3wek"}
+  - {arrival: '10:38', departure: '10:38', station: Brody Warszawskie}
+  - {arrival: '10:41', departure: '10:41', station: Studzianki Nowe}
+  - {arrival: '10:44', station: Nasielsk}
+type: train

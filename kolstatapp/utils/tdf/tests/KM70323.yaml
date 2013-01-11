@@ -1,0 +1,22 @@
+name: KM 70323
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:01', station: "T\u0142uszcz"}
+  - {arrival: '07:06', departure: '07:06', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '07:10', departure: '07:10', station: Grzegorzewo}
+  - {arrival: '07:15', departure: '07:21', station: "Most\xF3wka"}
+  - {arrival: '07:26', departure: '07:26', station: "Lucyn\xF3w"}
+  - {arrival: '07:30', departure: '07:30', station: Rybienko}
+  - {arrival: '07:34', departure: '07:40', station: "Wyszk\xF3w"}
+  - {arrival: '07:46', departure: '07:46', station: "Leszczyd\xF3\u0142"}
+  - {arrival: '07:52', departure: '07:52', station: Dalekie}
+  - {arrival: '07:59', departure: '07:59', station: Zygmuntowo Mazow.}
+  - {arrival: '08:06', departure: '08:12', station: Przetycz}
+  - {arrival: '08:19', departure: '08:19', station: "Prabuty G\xF3ry"}
+  - {arrival: '08:27', departure: '08:27', station: Pasieki}
+  - {arrival: '08:36', departure: '08:36', station: Goworowo}
+  - {arrival: '08:46', departure: '08:46', station: Gierwaty}
+  - {arrival: '08:57', station: "Ostro\u0142\u0119ka"}
+type: train

@@ -1,0 +1,15 @@
+name: KM 8834
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:47', station: "\u0141uk\xF3w"}
+  - {arrival: '07:56', departure: '07:56', station: "Krynka \u0141ukowska"}
+  - {arrival: '07:59', departure: '07:59', station: "Radomy\u015Bl"}
+  - {arrival: '08:03', departure: '08:03', station: Dziewule}
+  - {arrival: '08:07', departure: '08:07', station: Borki Kosy}
+  - {arrival: '08:10', departure: '08:10', station: Kosiorki}
+  - {arrival: '08:14', departure: '08:14', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '08:17', departure: '08:17', station: Siedlce Wschodnie}
+  - {arrival: '08:20', station: Siedlce}
+type: train

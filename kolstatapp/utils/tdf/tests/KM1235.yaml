@@ -1,0 +1,44 @@
+name: KM 1235
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:32', station: Warszawa Zachodnia}
+  - {arrival: '16:36', departure: '16:36', station: Warszawa Ochota}
+  - {arrival: '16:39', departure: '16:39', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:41', departure: '16:41', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:44', departure: '16:44', station: Warszawa Stadion}
+  - {arrival: '16:47', departure: '16:47', station: Warszawa Wschodnia}
+  - {arrival: '16:53', departure: '16:53', station: Warszawa Olsz.Groch.}
+  - {arrival: '16:56', departure: '16:56', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '16:58', departure: '16:58', station: Warszawa Wawer}
+  - {arrival: '17:01', departure: '17:01', station: Warszawa Anin}
+  - {arrival: '17:03', departure: '17:03', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '17:06', departure: '17:06', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '17:09', departure: '17:09', station: Warszawa Miedzeszyn}
+  - {arrival: '17:11', departure: '17:11', station: Warszawa Falenica}
+  - {arrival: '17:14', departure: '17:14', station: Michalin}
+  - {arrival: '17:16', departure: '17:16', station: "J\xF3zef\xF3w"}
+  - {arrival: '17:19', departure: '17:19', station: "\u015Awider"}
+  - {arrival: '17:23', departure: '17:23', station: Otwock}
+  - {arrival: '17:27', departure: '17:27', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '17:31', departure: '17:31', station: Pogorzel Warszawska}
+  - {arrival: '17:35', departure: '17:35', station: "Stara Wie\u015B"}
+  - {arrival: '17:40', departure: '17:40', station: "Celestyn\xF3w"}
+  - {arrival: '17:43', departure: '17:43', station: "Ko\u0142biel"}
+  - {arrival: '17:45', departure: '17:45', station: Chrosna}
+  - {arrival: '17:49', departure: '17:49', station: "Zabie\u017Cki"}
+  - {arrival: '17:53', departure: '17:53', station: "August\xF3wka"}
+  - {arrival: '17:59', departure: '17:59', station: Pilawa}
+  - {arrival: '18:06', departure: '18:06', station: Garwolin}
+  - {arrival: '18:11', departure: '18:11', station: Ruda Talubska}
+  - {arrival: '18:15', departure: '18:15', station: Wola Rowska}
+  - {arrival: '18:19', departure: '18:19', station: "\u0141askarzew Przystanek"}
+  - {arrival: '18:23', departure: '18:23', station: Leokadia}
+  - {arrival: '18:27', departure: '18:27', station: Sobolew}
+  - {arrival: '18:32', departure: '18:32', station: Wygoda}
+  - {arrival: '18:36', departure: '18:36', station: Mika}
+  - {arrival: '18:40', departure: '18:40', station: "\u017Byczyn"}
+  - {arrival: '18:44', departure: '18:44', station: Rokitnia Stara}
+  - {arrival: '18:50', station: "D\u0119blin"}
+type: train

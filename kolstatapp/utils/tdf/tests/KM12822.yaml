@@ -1,0 +1,50 @@
+name: KM 12822
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:19', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '07:24', departure: '07:24', station: "Wrzos\xF3w"}
+  - {arrival: '07:27', departure: '07:27', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '07:30', departure: '07:30', station: "D\u0119be Wielkie"}
+  - {arrival: '07:33', departure: '07:33', station: Cisie}
+  - {arrival: '07:36', departure: '07:36', station: "Halin\xF3w"}
+  - {arrival: '07:40', departure: '07:40', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '07:43', departure: '07:43', station: "Sulej\xF3wek"}
+  - {arrival: '07:46', departure: '07:46', station: Warszawa-Wola Grzyb.}
+  - {arrival: '07:48', departure: '07:48', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '07:53', departure: '07:53', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '08:03', departure: '08:03', station: Warszawa Wschodnia}
+  - {arrival: '08:06', departure: '08:06', station: Warszawa Stadion}
+  - {arrival: '08:09', departure: '08:09', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '08:12', departure: '08:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '08:14', departure: '08:14', station: Warszawa Ochota}
+  - {arrival: '08:17', departure: '08:22', station: Warszawa Zachodnia}
+  - {arrival: '08:26', departure: '08:26', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '08:29', departure: '08:29', station: Warszawa Rakowiec}
+  - {arrival: '08:31', departure: '08:31', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '08:34', departure: '08:34', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '08:36', departure: '08:36', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '08:41', departure: '08:41', station: Warszawa Dawidy}
+  - {arrival: '08:45', departure: '08:45', station: Warszawa Jeziorki}
+  - {arrival: '08:48', departure: '08:48', station: Nowa Iwiczna}
+  - {arrival: '08:52', departure: '08:52', station: Piaseczno}
+  - {arrival: '08:57', departure: '08:57', station: "Zalesie G\xF3rne"}
+  - {arrival: '09:02', departure: '09:02', station: "Ustan\xF3wek"}
+  - {arrival: '09:06', departure: '09:06', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '09:08', departure: '09:08', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '09:14', departure: '09:14', station: "Su\u0142kowice"}
+  - {arrival: '09:19', departure: '09:19', station: "Chyn\xF3w"}
+  - {arrival: '09:24', departure: '09:24', station: "Kr\u0119\u017Cel"}
+  - {arrival: '09:30', departure: '09:30', station: Michalczew}
+  - {arrival: '09:35', departure: '09:35', station: "Go\u015Bniewice"}
+  - {arrival: '09:40', departure: '09:40', station: Warka}
+  - {arrival: '09:48', departure: '09:48', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '09:55', departure: '09:55', station: "Strzy\u017Cyna"}
+  - {arrival: '10:04', departure: '10:04', station: Dobieszyn}
+  - {arrival: '10:12', departure: '10:12', station: Kruszyna}
+  - {arrival: '10:16', departure: '10:16', station: Wola Bierwiecka}
+  - {arrival: '10:20', departure: '10:20', station: Bartodzieje}
+  - {arrival: '10:26', departure: '10:26', station: "Lesi\xF3w"}
+  - {arrival: '10:40', station: Radom}
+type: train

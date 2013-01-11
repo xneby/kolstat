@@ -1,0 +1,23 @@
+name: KM 805
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:59', station: Warszawa Zachodnia}
+  - {arrival: '06:02', departure: '06:02', station: Warszawa Ochota}
+  - {arrival: '06:05', departure: '06:05', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:08', departure: '06:08', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:11', departure: '06:11', station: Warszawa Stadion}
+  - {arrival: '06:14', departure: '06:14', station: Warszawa Wschodnia}
+  - {arrival: '06:23', departure: '06:23', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '06:28', departure: '06:28', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '06:30', departure: '06:30', station: Warszawa-Wola Grzyb.}
+  - {arrival: '06:33', departure: '06:33', station: "Sulej\xF3wek"}
+  - {arrival: '06:36', departure: '06:36', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '06:40', departure: '06:40', station: "Halin\xF3w"}
+  - {arrival: '06:43', departure: '06:43', station: Cisie}
+  - {arrival: '06:46', departure: '06:46', station: "D\u0119be Wielkie"}
+  - {arrival: '06:49', departure: '06:49', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '06:52', departure: '06:52', station: "Wrzos\xF3w"}
+  - {arrival: '06:57', station: "Mi\u0144sk Mazowiecki"}
+type: train

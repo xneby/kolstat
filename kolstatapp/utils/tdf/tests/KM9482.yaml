@@ -1,0 +1,18 @@
+name: KM 9482
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:18', station: "B\u0142onie"}
+  - {arrival: '14:24', departure: '14:24', station: "P\u0142ochocin"}
+  - {arrival: '14:29', departure: '14:29', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '14:33', departure: '14:33', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '14:36', departure: '14:36', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '14:39', departure: '14:39', station: "Warszawa W\u0142ochy"}
+  - {arrival: '14:44', departure: '14:44', station: Warszawa Zachodnia}
+  - {arrival: '14:47', departure: '14:47', station: Warszawa Ochota}
+  - {arrival: '14:50', departure: '14:50', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:53', departure: '14:53', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:56', departure: '14:56', station: Warszawa Stadion}
+  - {arrival: '14:58', station: Warszawa Wschodnia}
+type: train

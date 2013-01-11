@@ -1,0 +1,15 @@
+name: KM 8849
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:15', station: Siedlce}
+  - {arrival: '18:19', departure: '18:19', station: Siedlce Wschodnie}
+  - {arrival: '18:22', departure: '18:22', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '18:25', departure: '18:25', station: Kosiorki}
+  - {arrival: '18:28', departure: '18:28', station: Borki Kosy}
+  - {arrival: '18:33', departure: '18:33', station: Dziewule}
+  - {arrival: '18:36', departure: '18:36', station: "Radomy\u015Bl"}
+  - {arrival: '18:40', departure: '18:40', station: "Krynka \u0141ukowska"}
+  - {arrival: '18:47', station: "\u0141uk\xF3w"}
+type: train

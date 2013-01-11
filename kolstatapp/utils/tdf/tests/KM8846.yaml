@@ -1,0 +1,15 @@
+name: KM 8846
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:50', station: "\u0141uk\xF3w"}
+  - {arrival: '16:59', departure: '16:59', station: "Krynka \u0141ukowska"}
+  - {arrival: '17:02', departure: '17:02', station: "Radomy\u015Bl"}
+  - {arrival: '17:06', departure: '17:06', station: Dziewule}
+  - {arrival: '17:10', departure: '17:10', station: Borki Kosy}
+  - {arrival: '17:13', departure: '17:13', station: Kosiorki}
+  - {arrival: '17:17', departure: '17:17', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '17:20', departure: '17:20', station: Siedlce Wschodnie}
+  - {arrival: '17:23', station: Siedlce}
+type: train

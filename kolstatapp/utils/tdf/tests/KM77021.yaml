@@ -1,0 +1,19 @@
+name: KM 77021
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:45', station: Drzewica}
+  - {arrival: '05:49', departure: '05:49', station: "Bieliny Opoczy\u0144skie"}
+  - {arrival: '05:57', departure: '05:57', station: "Zygmunt\xF3w"}
+  - {arrival: '06:02', departure: '06:02', station: "Smogorz\xF3w Przysuski"}
+  - {arrival: '06:07', departure: '06:07', station: Przysucha}
+  - {arrival: '06:14', departure: '06:14', station: Skrzynno}
+  - {arrival: '06:20', departure: '06:20', station: Wieniawa}
+  - {arrival: '06:26', departure: '06:26', station: "Podb\xF3r"}
+  - {arrival: '06:31', departure: '06:31', station: "Chron\xF3w"}
+  - {arrival: '06:41', departure: '06:41', station: "Wolan\xF3w"}
+  - {arrival: '06:45', departure: '06:45', station: "Ko\u0144czyce Radomskie"}
+  - {arrival: '06:51', departure: '06:51', station: "Radom Potkan\xF3w"}
+  - {arrival: '06:59', station: Radom}
+type: train

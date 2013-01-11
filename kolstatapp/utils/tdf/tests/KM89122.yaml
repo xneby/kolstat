@@ -1,0 +1,19 @@
+name: KM 89122
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:59', station: Siedlce}
+  - {arrival: '16:03', departure: '16:03', station: Siedlce Zachodnie}
+  - {arrival: '16:11', departure: '16:11', station: "Kotu\u0144"}
+  - {arrival: '16:20', departure: '16:20', station: Mrozy}
+  - {arrival: '16:24', departure: '16:24', station: "Ceg\u0142\xF3w"}
+  - {arrival: '16:32', departure: '16:32', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '16:41', departure: '16:41', station: "Halin\xF3w"}
+  - {arrival: '16:50', departure: '16:50', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '17:10', departure: '17:10', station: Warszawa ZOO}
+  - {arrival: '17:15', departure: '17:15', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '17:21', departure: '17:21', station: "Warszawa Ko\u0142o"}
+  - {arrival: '17:24', departure: '17:24', station: Warszawa Kasprzaka}
+  - {arrival: '17:28', station: Warszawa Zach. per.8}
+type: train

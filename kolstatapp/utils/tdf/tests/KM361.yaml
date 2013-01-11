@@ -1,0 +1,19 @@
+name: KM 361
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:52', station: Warszawa Wschodnia}
+  - {arrival: '15:55', departure: '15:55', station: Warszawa Stadion}
+  - {arrival: '15:58', departure: '15:58', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:01', departure: '16:01', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:03', departure: '16:03', station: Warszawa Ochota}
+  - {arrival: '16:07', departure: '16:07', station: Warszawa Zachodnia}
+  - {arrival: '16:13', departure: '16:13', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:16', departure: '16:16', station: Warszawa Ursus}
+  - {arrival: '16:20', departure: '16:20', station: "Piast\xF3w"}
+  - {arrival: '16:24', departure: '16:24', station: "Pruszk\xF3w"}
+  - {arrival: '16:30', departure: '16:30', station: "Brwin\xF3w"}
+  - {arrival: '16:34', departure: '16:34', station: "Milan\xF3wek"}
+  - {arrival: '16:38', station: Grodzisk Maz. (PKP)}
+type: train

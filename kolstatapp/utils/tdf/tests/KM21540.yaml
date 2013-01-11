@@ -1,0 +1,51 @@
+name: KM 21540
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '03:27', station: Radom}
+  - {arrival: '03:40', departure: '03:40', station: "Lesi\xF3w"}
+  - {arrival: '03:46', departure: '03:46', station: Bartodzieje}
+  - {arrival: '03:50', departure: '03:50', station: Wola Bierwiecka}
+  - {arrival: '03:54', departure: '03:54', station: Kruszyna}
+  - {arrival: '04:02', departure: '04:02', station: Dobieszyn}
+  - {arrival: '04:11', departure: '04:11', station: "Strzy\u017Cyna"}
+  - {arrival: '04:18', departure: '04:18', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '04:27', departure: '04:27', station: Warka}
+  - {arrival: '04:31', departure: '04:31', station: "Go\u015Bniewice"}
+  - {arrival: '04:36', departure: '04:36', station: Michalczew}
+  - {arrival: '04:41', departure: '04:41', station: "Kr\u0119\u017Cel"}
+  - {arrival: '04:46', departure: '04:46', station: "Chyn\xF3w"}
+  - {arrival: '04:50', departure: '04:50', station: "Su\u0142kowice"}
+  - {arrival: '04:55', departure: '04:55', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '04:57', departure: '04:57', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '05:01', departure: '05:01', station: "Ustan\xF3wek"}
+  - {arrival: '05:06', departure: '05:06', station: "Zalesie G\xF3rne"}
+  - {arrival: '05:12', departure: '05:12', station: Piaseczno}
+  - {arrival: '05:16', departure: '05:16', station: Nowa Iwiczna}
+  - {arrival: '05:20', departure: '05:20', station: Warszawa Jeziorki}
+  - {arrival: '05:23', departure: '05:23', station: Warszawa Dawidy}
+  - {arrival: '05:28', departure: '05:28', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '05:31', departure: '05:31', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '05:34', departure: '05:34', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '05:36', departure: '05:36', station: Warszawa Rakowiec}
+  - {arrival: '05:39', departure: '05:39', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '05:44', departure: '05:44', station: Warszawa Zachodnia}
+  - {arrival: '05:47', departure: '05:47', station: Warszawa Ochota}
+  - {arrival: '05:50', departure: '05:50', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:53', departure: '05:53', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:56', departure: '05:56', station: Warszawa Stadion}
+  - {arrival: '05:59', departure: '05:59', station: Warszawa Wschodnia}
+  - {arrival: '06:04', departure: '06:04', station: Warszawa Olsz.Groch.}
+  - {arrival: '06:07', departure: '06:07', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '06:10', departure: '06:10', station: Warszawa Wawer}
+  - {arrival: '06:12', departure: '06:12', station: Warszawa Anin}
+  - {arrival: '06:15', departure: '06:15', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '06:18', departure: '06:18', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '06:20', departure: '06:20', station: Warszawa Miedzeszyn}
+  - {arrival: '06:23', departure: '06:23', station: Warszawa Falenica}
+  - {arrival: '06:25', departure: '06:25', station: Michalin}
+  - {arrival: '06:28', departure: '06:28', station: "J\xF3zef\xF3w"}
+  - {arrival: '06:31', departure: '06:31', station: "\u015Awider"}
+  - {arrival: '06:34', station: Otwock}
+type: train

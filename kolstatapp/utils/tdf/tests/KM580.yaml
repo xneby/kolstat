@@ -1,0 +1,13 @@
+name: KM 580
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:38', station: Radom}
+  - {arrival: '08:46', departure: '08:46', station: Rajec Poduchowny}
+  - {arrival: '08:50', departure: '08:50', station: "Antoni\xF3wka"}
+  - {arrival: '08:53', departure: '08:53', station: Jedlnia Letnisko}
+  - {arrival: '08:59', departure: '08:59', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '09:02', departure: '09:02', station: Pionki Zach.}
+  - {arrival: '09:05', station: Pionki}
+type: train

@@ -1,0 +1,27 @@
+name: KM 231
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:41', station: Warszawa Wschodnia}
+  - {arrival: '15:43', departure: '15:43', station: Warszawa Stadion}
+  - {arrival: '15:46', departure: '15:46', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:49', departure: '15:49', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:51', departure: '15:51', station: Warszawa Ochota}
+  - {arrival: '15:55', departure: '15:55', station: Warszawa Zachodnia}
+  - {arrival: '16:02', departure: '16:02', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:05', departure: '16:05', station: Warszawa Ursus}
+  - {arrival: '16:08', departure: '16:08', station: "Piast\xF3w"}
+  - {arrival: '16:12', departure: '16:12', station: "Pruszk\xF3w"}
+  - {arrival: '16:18', departure: '16:18', station: "Brwin\xF3w"}
+  - {arrival: '16:22', departure: '16:22', station: "Milan\xF3wek"}
+  - {arrival: '16:27', departure: '16:27', station: Grodzisk Maz. (PKP)}
+  - {arrival: '16:33', departure: '16:33', station: "Jaktor\xF3w"}
+  - {arrival: '16:40', departure: '16:40', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '16:45', departure: '16:45', station: "\u017Byrard\xF3w"}
+  - {arrival: '16:54', departure: '16:54', station: "Sucha \u017Byrardowska"}
+  - {arrival: '16:57', departure: '16:57', station: Jesionka}
+  - {arrival: '17:01', departure: '17:01', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '17:06', departure: '17:06', station: Skierniewice Rawka}
+  - {arrival: '17:12', station: Skierniewice}
+type: train

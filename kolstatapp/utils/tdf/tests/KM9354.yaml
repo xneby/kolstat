@@ -1,0 +1,19 @@
+name: KM 9354
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:12', station: Grodzisk Maz. (PKP)}
+  - {arrival: '13:17', departure: '13:17', station: "Milan\xF3wek"}
+  - {arrival: '13:21', departure: '13:21', station: "Brwin\xF3w"}
+  - {arrival: '13:27', departure: '13:27', station: "Pruszk\xF3w"}
+  - {arrival: '13:31', departure: '13:31', station: "Piast\xF3w"}
+  - {arrival: '13:35', departure: '13:35', station: Warszawa Ursus}
+  - {arrival: '13:39', departure: '13:39', station: "Warszawa W\u0142ochy"}
+  - {arrival: '13:44', departure: '13:44', station: Warszawa Zachodnia}
+  - {arrival: '13:47', departure: '13:47', station: Warszawa Ochota}
+  - {arrival: '13:50', departure: '13:50', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:53', departure: '13:53', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:56', departure: '13:56', station: Warszawa Stadion}
+  - {arrival: '13:58', station: Warszawa Wschodnia}
+type: train

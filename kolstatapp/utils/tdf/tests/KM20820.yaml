@@ -1,0 +1,38 @@
+name: KM 20820
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:00', station: "\u017Byrard\xF3w"}
+  - {arrival: '15:05', departure: '15:05', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '15:12', departure: '15:12', station: "Jaktor\xF3w"}
+  - {arrival: '15:18', departure: '15:18', station: Grodzisk Maz. (PKP)}
+  - {arrival: '15:23', departure: '15:23', station: "Milan\xF3wek"}
+  - {arrival: '15:27', departure: '15:27', station: "Brwin\xF3w"}
+  - {arrival: '15:33', departure: '15:33', station: "Pruszk\xF3w"}
+  - {arrival: '15:36', departure: '15:36', station: "Piast\xF3w"}
+  - {arrival: '15:41', departure: '15:41', station: Warszawa Ursus}
+  - {arrival: '15:44', departure: '15:44', station: "Warszawa W\u0142ochy"}
+  - {arrival: '15:49', departure: '15:49', station: Warszawa Zachodnia}
+  - {arrival: '15:53', departure: '15:53', station: Warszawa Ochota}
+  - {arrival: '15:56', departure: '15:56', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:58', departure: '15:58', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:01', departure: '16:01', station: Warszawa Stadion}
+  - {arrival: '16:04', departure: '16:04', station: Warszawa Wschodnia}
+  - {arrival: '16:14', departure: '16:14', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '16:18', departure: '16:18', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '16:21', departure: '16:21', station: Warszawa-Wola Grzyb.}
+  - {arrival: '16:24', departure: '16:24', station: "Sulej\xF3wek"}
+  - {arrival: '16:26', departure: '16:26', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '16:30', departure: '16:30', station: "Halin\xF3w"}
+  - {arrival: '16:34', departure: '16:34', station: Cisie}
+  - {arrival: '16:37', departure: '16:37', station: "D\u0119be Wielkie"}
+  - {arrival: '16:39', departure: '16:39', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '16:43', departure: '16:43', station: "Wrzos\xF3w"}
+  - {arrival: '16:49', departure: '16:49', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '16:52', departure: '16:52', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '16:55', departure: '16:55', station: "Barcz\u0105ca"}
+  - {arrival: '16:59', departure: '16:59', station: Mienia}
+  - {arrival: '17:02', departure: '17:02', station: "Ceg\u0142\xF3w"}
+  - {arrival: '17:07', station: Mrozy}
+type: train

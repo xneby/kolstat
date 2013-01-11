@@ -1,0 +1,68 @@
+name: KM 8055
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:29', station: Warszawa Zachodnia}
+  - {arrival: "20:32\n</td>\n<td class=\"sepline\">\n\_", departure: '20:32', station: Warszawa
+      Ochota}
+  - {arrival: "20:35\n</td>\n<td class=\"sepline\">\n\_", departure: '20:35', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: "20:38\n</td>\n<td class=\"sepline\">\n\_", departure: '20:38', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: "20:41\n</td>\n<td class=\"sepline\">\n\_", departure: '20:41', station: Warszawa
+      Stadion}
+  - {arrival: "20:44\n</td>\n<td class=\"sepline\">\n\_", departure: '20:44', station: Warszawa
+      Wschodnia}
+  - {arrival: "20:53\n</td>\n<td class=\"sepline\">\n\_", departure: '20:53', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: "20:57\n</td>\n<td class=\"sepline\">\n\_", departure: '20:57', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: "21:00\n</td>\n<td class=\"sepline\">\n\_", departure: '21:00', station: Warszawa-Wola
+      Grzyb.}
+  - {arrival: "21:02\n</td>\n<td class=\"sepline\">\n\_", departure: '21:02', station: "Sulej\xF3\
+      wek"}
+  - {arrival: "21:05\n</td>\n<td class=\"sepline\">\n\_", departure: '21:05', station: "Sulej\xF3\
+      wek Mi\u0142osna"}
+  - {arrival: "21:08\n</td>\n<td class=\"sepline\">\n\_", departure: '21:08', station: "Halin\xF3\
+      w"}
+  - {arrival: "21:11\n</td>\n<td class=\"sepline\">\n\_", departure: '21:11', station: Cisie}
+  - {arrival: "21:14\n</td>\n<td class=\"sepline\">\n\_", departure: '21:14', station: "D\u0119\
+      be Wielkie"}
+  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "Nowe\
+      \ D\u0119be Wielkie"}
+  - {arrival: "21:19\n</td>\n<td class=\"sepline\">\n\_", departure: '21:19', station: "Wrzos\xF3\
+      w"}
+  - {arrival: "21:24\n</td>\n<td class=\"sepline\">\n\_", departure: '21:24', station: "Mi\u0144\
+      sk Mazowiecki"}
+  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: "Mi\u0144\
+      sk Maz. Anielina"}
+  - {arrival: "21:30\n</td>\n<td class=\"sepline\">\n\_", departure: '21:30', station: "Barcz\u0105\
+      ca"}
+  - {arrival: "21:34\n</td>\n<td class=\"sepline\">\n\_", departure: '21:34', station: Mienia}
+  - {arrival: "21:37\n</td>\n<td class=\"sepline\">\n\_", departure: '21:37', station: "Ceg\u0142\
+      \xF3w"}
+  - {arrival: "21:41\n</td>\n<td class=\"sepline\">\n\_", departure: '21:41', station: Mrozy}
+  - {arrival: "21:45\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_10\_min.</span>\n</span>", departure: '21:45',
+    station: Grodziszcze Maz.}
+  - {arrival: "21:49\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_10\_min.</span>\n</span>", departure: '21:49',
+    station: Sosnowe}
+  - {arrival: "21:52\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_10\_min.</span>\n</span>", departure: '21:52',
+    station: Koszewnica}
+  - {arrival: "21:56\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_10\_min.</span>\n</span>", departure: '21:56',
+    station: "Kotu\u0144"}
+  - {arrival: "22:02\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_5\_min.</span>\n</span>", departure: '22:02',
+    station: Sabinka}
+  - {arrival: "22:07\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <span class=\"rtinfo\">ok.\_+\_5\_min.</span>\n</span>", departure: '22:07',
+    station: Siedlce Zachodnie}
+  - {arrival: "22:13\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
+      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
+      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
+      >\n</span>", station: Siedlce}
+type: train

@@ -1,0 +1,19 @@
+name: KM 371
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:11', station: Warszawa Wschodnia}
+  - {arrival: '20:13', departure: '20:13', station: Warszawa Stadion}
+  - {arrival: '20:16', departure: '20:16', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:19', departure: '20:19', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:21', departure: '20:21', station: Warszawa Ochota}
+  - {arrival: '20:25', departure: '20:25', station: Warszawa Zachodnia}
+  - {arrival: '20:32', departure: '20:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '20:35', departure: '20:35', station: Warszawa Ursus}
+  - {arrival: '20:38', departure: '20:38', station: "Piast\xF3w"}
+  - {arrival: '20:42', departure: '20:42', station: "Pruszk\xF3w"}
+  - {arrival: '20:48', departure: '20:48', station: "Brwin\xF3w"}
+  - {arrival: '20:52', departure: '20:52', station: "Milan\xF3wek"}
+  - {arrival: '20:56', station: Grodzisk Maz. (PKP)}
+type: train

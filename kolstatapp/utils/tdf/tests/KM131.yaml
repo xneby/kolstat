@@ -1,0 +1,27 @@
+name: KM 131
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:37', station: Warszawa Wschodnia}
+  - {arrival: '14:40', departure: '14:40', station: Warszawa Stadion}
+  - {arrival: '14:43', departure: '14:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:46', departure: '14:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:48', departure: '14:48', station: Warszawa Ochota}
+  - {arrival: '14:52', departure: '14:52', station: Warszawa Zachodnia}
+  - {arrival: '14:56', departure: '14:56', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '14:59', departure: '14:59', station: Warszawa Rakowiec}
+  - {arrival: '15:01', departure: '15:01', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '15:04', departure: '15:04', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '15:06', departure: '15:06', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '15:11', departure: '15:11', station: Warszawa Dawidy}
+  - {arrival: '15:15', departure: '15:15', station: Warszawa Jeziorki}
+  - {arrival: '15:18', departure: '15:18', station: Nowa Iwiczna}
+  - {arrival: '15:23', departure: '15:23', station: Piaseczno}
+  - {arrival: '15:28', departure: '15:28', station: "Zalesie G\xF3rne"}
+  - {arrival: '15:33', departure: '15:33', station: "Ustan\xF3wek"}
+  - {arrival: '15:37', departure: '15:37', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '15:39', departure: '15:49', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '15:53', departure: '15:53', station: "Czach\xF3wek Wsch."}
+  - {arrival: '16:06', station: "G\xF3ra Kalwaria"}
+type: train

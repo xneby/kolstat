@@ -1,0 +1,18 @@
+name: KM 7749
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:17', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '16:25', departure: '16:25', station: "Z\u0105bki"}
+  - {arrival: '16:30', departure: '16:30', station: Zielonka}
+  - {arrival: '16:33', departure: '16:33', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '16:36', departure: '16:36', station: "Koby\u0142ka"}
+  - {arrival: '16:40', departure: '16:40', station: "Wo\u0142omin"}
+  - {arrival: '16:43', departure: '16:43', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '16:46', departure: '16:46', station: "Zago\u015Bciniec"}
+  - {arrival: '16:49', departure: '16:49', station: Dobczyn}
+  - {arrival: '16:53', departure: '16:53', station: "Klemb\xF3w"}
+  - {arrival: '16:57', departure: '16:57', station: Jasienica Mazowiecka}
+  - {arrival: '17:00', station: "T\u0142uszcz"}
+type: train

@@ -1,0 +1,33 @@
+name: KM 88146
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:31', station: "\u0141uk\xF3w"}
+  - {arrival: '04:40', departure: '04:40', station: "Krynka \u0141ukowska"}
+  - {arrival: '04:44', departure: '04:44', station: "Radomy\u015Bl"}
+  - {arrival: '04:47', departure: '04:47', station: Dziewule}
+  - {arrival: '04:52', departure: '04:52', station: Borki Kosy}
+  - {arrival: '04:55', departure: '04:55', station: Kosiorki}
+  - {arrival: '04:58', departure: '04:58', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '05:01', departure: '05:01', station: Siedlce Wschodnie}
+  - {arrival: '05:05', departure: '05:07', station: Siedlce}
+  - {arrival: '05:11', departure: '05:11', station: Siedlce Zachodnie}
+  - {arrival: '05:17', departure: '05:17', station: Sabinka}
+  - {arrival: '05:24', departure: '05:24', station: "Kotu\u0144"}
+  - {arrival: '05:29', departure: '05:29', station: Koszewnica}
+  - {arrival: '05:32', departure: '05:32', station: Sosnowe}
+  - {arrival: '05:37', departure: '05:37', station: Grodziszcze Maz.}
+  - {arrival: '05:42', departure: '05:42', station: Mrozy}
+  - {arrival: '05:47', departure: '05:47', station: "Ceg\u0142\xF3w"}
+  - {arrival: '05:55', departure: '05:55', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '06:00', departure: '06:00', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '06:11', departure: '06:11', station: "Halin\xF3w"}
+  - {arrival: '06:16', departure: '06:16', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '06:32', departure: '06:33', station: Warszawa Wschodnia}
+  - {arrival: '06:36', departure: '06:36', station: Warszawa Stadion}
+  - {arrival: '06:39', departure: '06:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '06:42', departure: '06:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '06:44', departure: '06:44', station: Warszawa Ochota}
+  - {arrival: '06:47', station: Warszawa Zachodnia}
+type: train

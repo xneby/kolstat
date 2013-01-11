@@ -1,0 +1,18 @@
+name: KM 529
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:00', station: "D\u0119blin"}
+  - {arrival: '10:06', departure: '10:06', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '10:14', departure: '10:14', station: "B\u0105kowiec"}
+  - {arrival: '10:20', departure: '10:20', station: Garbatka Letnisko}
+  - {arrival: '10:25', departure: '10:25', station: "\u017Bytkowice"}
+  - {arrival: '10:31', departure: '10:31', station: Pionki}
+  - {arrival: '10:33', departure: '10:33', station: Pionki Zach.}
+  - {arrival: '10:37', departure: '10:37', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '10:42', departure: '10:42', station: Jedlnia Letnisko}
+  - {arrival: '10:46', departure: '10:46', station: "Antoni\xF3wka"}
+  - {arrival: '10:49', departure: '10:49', station: Rajec Poduchowny}
+  - {arrival: '10:57', station: Radom}
+type: train

@@ -1,0 +1,25 @@
+name: KM 9148
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:55', station: "G\xF3ra Kalwaria"}
+  - {arrival: '19:06', departure: '19:06', station: "Czach\xF3wek Wsch."}
+  - {arrival: '19:13', departure: '19:13', station: "Ustan\xF3wek"}
+  - {arrival: '19:19', departure: '19:19', station: "Zalesie G\xF3rne"}
+  - {arrival: '19:24', departure: '19:24', station: Piaseczno}
+  - {arrival: '19:29', departure: '19:29', station: Nowa Iwiczna}
+  - {arrival: '19:33', departure: '19:33', station: Warszawa Jeziorki}
+  - {arrival: '19:36', departure: '19:36', station: Warszawa Dawidy}
+  - {arrival: '19:42', departure: '19:42', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '19:44', departure: '19:44', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '19:47', departure: '19:47', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '19:50', departure: '19:50', station: Warszawa Rakowiec}
+  - {arrival: '19:53', departure: '19:53', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '19:58', departure: '20:02', station: Warszawa Zachodnia}
+  - {arrival: '20:06', departure: '20:06', station: Warszawa Ochota}
+  - {arrival: '20:09', departure: '20:09', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:11', departure: '20:11', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:14', departure: '20:14', station: Warszawa Stadion}
+  - {arrival: '20:16', station: Warszawa Wschodnia}
+type: train

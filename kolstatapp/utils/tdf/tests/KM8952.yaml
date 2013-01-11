@@ -1,0 +1,35 @@
+name: KM 8952
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:28', station: Siedlce}
+  - {arrival: '18:32', departure: '18:32', station: Siedlce Zachodnie}
+  - {arrival: '18:37', departure: '18:37', station: Sabinka}
+  - {arrival: '18:43', departure: '18:43', station: "Kotu\u0144"}
+  - {arrival: '18:47', departure: '18:47', station: Koszewnica}
+  - {arrival: '18:50', departure: '18:50', station: Sosnowe}
+  - {arrival: '18:54', departure: '18:54', station: Grodziszcze Maz.}
+  - {arrival: '18:58', departure: '18:58', station: Mrozy}
+  - {arrival: '19:02', departure: '19:02', station: "Ceg\u0142\xF3w"}
+  - {arrival: '19:05', departure: '19:05', station: Mienia}
+  - {arrival: '19:09', departure: '19:09', station: "Barcz\u0105ca"}
+  - {arrival: '19:12', departure: '19:12', station: "Mi\u0144sk Maz. Anielina"}
+  - {arrival: '19:16', departure: '19:16', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '19:20', departure: '19:20', station: "Wrzos\xF3w"}
+  - {arrival: '19:23', departure: '19:23', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '19:25', departure: '19:25', station: "D\u0119be Wielkie"}
+  - {arrival: '19:28', departure: '19:28', station: Cisie}
+  - {arrival: '19:31', departure: '19:31', station: "Halin\xF3w"}
+  - {arrival: '19:34', departure: '19:34', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '19:37', departure: '19:37', station: "Sulej\xF3wek"}
+  - {arrival: '19:39', departure: '19:39', station: Warszawa-Wola Grzyb.}
+  - {arrival: '19:42', departure: '19:42', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '19:46', departure: '19:46', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '19:55', departure: '19:56', station: Warszawa Wschodnia}
+  - {arrival: '19:58', departure: '19:58', station: Warszawa Stadion}
+  - {arrival: '20:01', departure: '20:01', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:04', departure: '20:04', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:06', departure: '20:06', station: Warszawa Ochota}
+  - {arrival: '20:10', station: Warszawa Zachodnia}
+type: train

@@ -1,0 +1,24 @@
+name: KM 9458
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:28', station: Sochaczew}
+  - {arrival: '20:34', departure: '20:34', station: Piasecznica}
+  - {arrival: '20:38', departure: '20:38', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '20:41', departure: '20:41', station: Seroki}
+  - {arrival: '20:45', departure: '20:45', station: "Bo\u017Ca Wola"}
+  - {arrival: '20:49', departure: '20:49', station: "Witan\xF3w"}
+  - {arrival: '20:52', departure: '20:52', station: "B\u0142onie"}
+  - {arrival: '20:57', departure: '20:57', station: "P\u0142ochocin"}
+  - {arrival: '21:03', departure: '21:03', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '21:07', departure: '21:07', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '21:09', departure: '21:09', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '21:12', departure: '21:12', station: "Warszawa W\u0142ochy"}
+  - {arrival: '21:17', departure: '21:17', station: Warszawa Zachodnia}
+  - {arrival: '21:21', departure: '21:21', station: Warszawa Ochota}
+  - {arrival: '21:24', departure: '21:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '21:26', departure: '21:26', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '21:29', departure: '21:29', station: Warszawa Stadion}
+  - {arrival: '21:31', station: Warszawa Wschodnia}
+type: train

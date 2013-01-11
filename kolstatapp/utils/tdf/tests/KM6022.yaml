@@ -1,0 +1,48 @@
+name: KM 6022
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:27', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: '15:32', departure: '15:32', station: Lipowe Pole}
+  - {arrival: '15:38', departure: '15:38', station: "Szyd\u0142owiec"}
+  - {arrival: '15:42', departure: '15:42', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '15:45', departure: '15:45', station: "Jastrz\u0105b"}
+  - {arrival: '15:50', departure: '15:50', station: Wola Lipieniecka}
+  - {arrival: '15:53', departure: '15:53', station: Ruda Wielka}
+  - {arrival: '15:57', departure: '15:57', station: "Ro\u017Cki"}
+  - {arrival: '16:01', departure: '16:01', station: "Radom Po\u0142udniowy"}
+  - {arrival: '16:08', departure: '16:08', station: Radom}
+  - {arrival: '16:21', departure: '16:21', station: "Lesi\xF3w"}
+  - {arrival: '16:27', departure: '16:27', station: Bartodzieje}
+  - {arrival: '16:31', departure: '16:31', station: Wola Bierwiecka}
+  - {arrival: '16:35', departure: '16:35', station: Kruszyna}
+  - {arrival: '16:43', departure: '16:43', station: Dobieszyn}
+  - {arrival: '16:52', departure: '16:58', station: "Strzy\u017Cyna"}
+  - {arrival: '17:05', departure: '17:05', station: "Grab\xF3w n. Pilic\u0105"}
+  - {arrival: '17:13', departure: '17:13', station: Warka}
+  - {arrival: '17:18', departure: '17:18', station: "Go\u015Bniewice"}
+  - {arrival: '17:22', departure: '17:22', station: Michalczew}
+  - {arrival: '17:27', departure: '17:27', station: "Kr\u0119\u017Cel"}
+  - {arrival: '17:32', departure: '17:32', station: "Chyn\xF3w"}
+  - {arrival: '17:36', departure: '17:36', station: "Su\u0142kowice"}
+  - {arrival: '17:41', departure: '17:41', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '17:43', departure: '17:43', station: "Czach\xF3wek G\xF3rny"}
+  - {arrival: '17:47', departure: '17:47', station: "Ustan\xF3wek"}
+  - {arrival: '17:52', departure: '17:52', station: "Zalesie G\xF3rne"}
+  - {arrival: '17:57', departure: '17:57', station: Piaseczno}
+  - {arrival: '18:02', departure: '18:02', station: Nowa Iwiczna}
+  - {arrival: '18:05', departure: '18:05', station: Warszawa Jeziorki}
+  - {arrival: '18:09', departure: '18:09', station: Warszawa Dawidy}
+  - {arrival: '18:14', departure: '18:14', station: "Warszawa Ok\u0119cie"}
+  - {arrival: '18:16', departure: '18:16', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '18:19', departure: '18:19', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '18:21', departure: '18:21', station: Warszawa Rakowiec}
+  - {arrival: '18:24', departure: '18:24', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '18:29', departure: '18:29', station: Warszawa Zachodnia}
+  - {arrival: '18:32', departure: '18:32', station: Warszawa Ochota}
+  - {arrival: '18:35', departure: '18:35', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '18:38', departure: '18:38', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '18:41', departure: '18:41', station: Warszawa Stadion}
+  - {arrival: '18:43', station: Warszawa Wschodnia}
+type: train

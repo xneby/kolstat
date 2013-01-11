@@ -1,0 +1,18 @@
+name: KM 7762
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '17:36', station: "T\u0142uszcz"}
+  - {arrival: '17:41', departure: '17:41', station: Jasienica Mazowiecka}
+  - {arrival: '17:46', departure: '17:46', station: "Klemb\xF3w"}
+  - {arrival: '17:50', departure: '17:50', station: Dobczyn}
+  - {arrival: '17:53', departure: '17:53', station: "Zago\u015Bciniec"}
+  - {arrival: '17:56', departure: '17:56', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '18:00', departure: '18:00', station: "Wo\u0142omin"}
+  - {arrival: '18:03', departure: '18:03', station: "Koby\u0142ka"}
+  - {arrival: '18:06', departure: '18:06', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '18:11', departure: '18:11', station: Zielonka}
+  - {arrival: '18:15', departure: '18:15', station: "Z\u0105bki"}
+  - {arrival: '18:23', station: "Warszawa Wile\u0144ska"}
+type: train

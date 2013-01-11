@@ -1,0 +1,19 @@
+name: KM 353
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:26', station: Warszawa Wschodnia}
+  - {arrival: '14:28', departure: '14:28', station: Warszawa Stadion}
+  - {arrival: '14:31', departure: '14:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '14:34', departure: '14:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '14:36', departure: '14:36', station: Warszawa Ochota}
+  - {arrival: '14:40', departure: '14:40', station: Warszawa Zachodnia}
+  - {arrival: '14:47', departure: '14:47', station: "Warszawa W\u0142ochy"}
+  - {arrival: '14:50', departure: '14:50', station: Warszawa Ursus}
+  - {arrival: '14:53', departure: '14:53', station: "Piast\xF3w"}
+  - {arrival: '14:57', departure: '14:57', station: "Pruszk\xF3w"}
+  - {arrival: '15:03', departure: '15:03', station: "Brwin\xF3w"}
+  - {arrival: '15:07', departure: '15:07', station: "Milan\xF3wek"}
+  - {arrival: '15:11', station: Grodzisk Maz. (PKP)}
+type: train

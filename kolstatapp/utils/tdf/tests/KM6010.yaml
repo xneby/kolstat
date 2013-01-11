@@ -1,0 +1,16 @@
+name: KM 6010
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:12', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: '05:17', departure: '05:17', station: Lipowe Pole}
+  - {arrival: '05:23', departure: '05:23', station: "Szyd\u0142owiec"}
+  - {arrival: '05:27', departure: '05:27', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '05:30', departure: '05:30', station: "Jastrz\u0105b"}
+  - {arrival: '05:35', departure: '05:35', station: Wola Lipieniecka}
+  - {arrival: '05:38', departure: '05:38', station: Ruda Wielka}
+  - {arrival: '05:42', departure: '05:42', station: "Ro\u017Cki"}
+  - {arrival: '05:46', departure: '05:46', station: "Radom Po\u0142udniowy"}
+  - {arrival: '05:52', station: Radom}
+type: train

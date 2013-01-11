@@ -1,0 +1,12 @@
+name: KM 7628
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '10:10', station: "Wo\u0142omin"}
+  - {arrival: '10:13', departure: '10:13', station: "Koby\u0142ka"}
+  - {arrival: '10:16', departure: '10:16', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '10:21', departure: '10:21', station: Zielonka}
+  - {arrival: '10:25', departure: '10:25', station: "Z\u0105bki"}
+  - {arrival: '10:33', station: "Warszawa Wile\u0144ska"}
+type: train

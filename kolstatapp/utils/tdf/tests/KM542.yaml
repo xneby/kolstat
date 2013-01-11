@@ -1,0 +1,18 @@
+name: KM 542
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:44', station: Radom}
+  - {arrival: '22:51', departure: '22:51', station: Rajec Poduchowny}
+  - {arrival: '22:54', departure: '22:54', station: "Antoni\xF3wka"}
+  - {arrival: '22:58', departure: '22:58', station: Jedlnia Letnisko}
+  - {arrival: '23:03', departure: '23:03', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '23:07', departure: '23:07', station: Pionki Zach.}
+  - {arrival: '23:09', departure: '23:09', station: Pionki}
+  - {arrival: '23:15', departure: '23:15', station: "\u017Bytkowice"}
+  - {arrival: '23:20', departure: '23:20', station: Garbatka Letnisko}
+  - {arrival: '23:26', departure: '23:26', station: "B\u0105kowiec"}
+  - {arrival: '23:33', departure: '23:33', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '23:40', station: "D\u0119blin"}
+type: train

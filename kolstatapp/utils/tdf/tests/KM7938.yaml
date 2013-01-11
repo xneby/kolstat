@@ -1,0 +1,29 @@
+name: KM 7938
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '11:19', station: "Ma\u0142kinia"}
+  - {arrival: '11:25', departure: '11:25', station: "Prosty\u0144"}
+  - {arrival: '11:34', departure: '11:34', station: "Sadowne W\u0119growskie"}
+  - {arrival: '11:38', departure: '11:38', station: "Top\xF3r"}
+  - {arrival: '11:43', departure: '11:43', station: "Ostr\xF3wek W\u0119growski"}
+  - {arrival: '11:49', departure: '11:49', station: "\u0141och\xF3w"}
+  - {arrival: '11:53', departure: '11:53', station: "Barch\xF3w"}
+  - {arrival: '11:57', departure: '11:57', station: Urle}
+  - {arrival: '12:03', departure: '12:03', station: Szewnica}
+  - {arrival: '12:08', departure: '12:08', station: "Mokra Wie\u015B"}
+  - {arrival: '12:11', departure: '12:11', station: "Chrz\u0119sne"}
+  - {arrival: '12:16', departure: '12:16', station: "T\u0142uszcz"}
+  - {arrival: '12:21', departure: '12:21', station: Jasienica Mazowiecka}
+  - {arrival: '12:26', departure: '12:26', station: "Klemb\xF3w"}
+  - {arrival: '12:30', departure: '12:30', station: Dobczyn}
+  - {arrival: '12:33', departure: '12:33', station: "Zago\u015Bciniec"}
+  - {arrival: '12:36', departure: '12:36', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '12:40', departure: '12:40', station: "Wo\u0142omin"}
+  - {arrival: '12:43', departure: '12:43', station: "Koby\u0142ka"}
+  - {arrival: '12:46', departure: '12:46', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '12:51', departure: '12:51', station: Zielonka}
+  - {arrival: '12:55', departure: '12:55', station: "Z\u0105bki"}
+  - {arrival: '13:03', station: "Warszawa Wile\u0144ska"}
+type: train

@@ -1,0 +1,19 @@
+name: KM 373
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '20:37', station: Warszawa Wschodnia}
+  - {arrival: '20:40', departure: '20:40', station: Warszawa Stadion}
+  - {arrival: '20:43', departure: '20:43', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:46', departure: '20:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:48', departure: '20:48', station: Warszawa Ochota}
+  - {arrival: '20:52', departure: '20:52', station: Warszawa Zachodnia}
+  - {arrival: '20:58', departure: '20:58', station: "Warszawa W\u0142ochy"}
+  - {arrival: '21:01', departure: '21:01', station: Warszawa Ursus}
+  - {arrival: '21:05', departure: '21:05', station: "Piast\xF3w"}
+  - {arrival: '21:09', departure: '21:09', station: "Pruszk\xF3w"}
+  - {arrival: '21:15', departure: '21:15', station: "Brwin\xF3w"}
+  - {arrival: '21:19', departure: '21:19', station: "Milan\xF3wek"}
+  - {arrival: '21:22', station: Grodzisk Maz. (PKP)}
+type: train

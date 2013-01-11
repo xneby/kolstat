@@ -1,0 +1,18 @@
+name: KM 537
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '16:55', station: "D\u0119blin"}
+  - {arrival: '17:01', departure: '17:01', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '17:09', departure: '17:09', station: "B\u0105kowiec"}
+  - {arrival: '17:15', departure: '17:15', station: Garbatka Letnisko}
+  - {arrival: '17:20', departure: '17:20', station: "\u017Bytkowice"}
+  - {arrival: '17:26', departure: '17:26', station: Pionki}
+  - {arrival: '17:28', departure: '17:28', station: Pionki Zach.}
+  - {arrival: '17:32', departure: '17:32', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '17:37', departure: '17:37', station: Jedlnia Letnisko}
+  - {arrival: '17:41', departure: '17:41', station: "Antoni\xF3wka"}
+  - {arrival: '17:44', departure: '17:44', station: Rajec Poduchowny}
+  - {arrival: '17:52', station: Radom}
+type: train

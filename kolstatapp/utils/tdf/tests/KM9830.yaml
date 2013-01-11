@@ -1,0 +1,20 @@
+name: KM 9830
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:26', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '22:31', departure: '22:31', station: "Wrzos\xF3w"}
+  - {arrival: '22:35', departure: '22:35', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '22:37', departure: '22:37', station: "D\u0119be Wielkie"}
+  - {arrival: '22:40', departure: '22:40', station: Cisie}
+  - {arrival: '22:44', departure: '22:44', station: "Halin\xF3w"}
+  - {arrival: '22:48', departure: '22:48', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '22:50', departure: '22:50', station: "Sulej\xF3wek"}
+  - {arrival: '22:53', departure: '22:53', station: Warszawa-Wola Grzyb.}
+  - {arrival: '22:56', departure: '22:56', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '23:00', departure: '23:00', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '23:08', departure: '23:11', station: Warszawa Wschodnia}
+  - {arrival: '23:19', departure: '23:24', station: Warszawa Centralna}
+  - {arrival: '23:28', station: Warszawa Zachodnia}
+type: train

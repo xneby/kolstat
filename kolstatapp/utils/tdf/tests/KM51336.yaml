@@ -1,0 +1,21 @@
+name: KM 51336
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:28', station: Sierpc}
+  - {arrival: '15:35', departure: '15:35', station: Susk}
+  - {arrival: '15:40', departure: '15:40', station: Gozdowo}
+  - {arrival: '15:48', departure: '15:48', station: "Proboszczewice P\u0142oc."}
+  - {arrival: '16:04', departure: '16:04', station: "P\u0142ock Trzepowo"}
+  - {arrival: '16:09', departure: '16:09', station: "P\u0142ock"}
+  - {arrival: '16:18', departure: '16:18', station: "P\u0142ock Radziwie"}
+  - {arrival: '16:31', departure: '16:31', station: "\u0141\u0105ck"}
+  - {arrival: '16:38', departure: '16:38', station: "Rogo\u017Cew"}
+  - {arrival: '16:46', departure: '16:46', station: Gostynin}
+  - {arrival: '16:55', departure: '16:55', station: "Sierak\xF3wek"}
+  - {arrival: '17:03', departure: '17:03', station: Strzelce Kujawskie}
+  - {arrival: '17:10', departure: '17:10', station: "Racibor\xF3w Kutnowski"}
+  - {arrival: '17:18', departure: '17:18', station: Azory}
+  - {arrival: '17:23', station: Kutno}
+type: train

@@ -1,0 +1,19 @@
+name: KM 359
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:26', station: Warszawa Wschodnia}
+  - {arrival: '15:28', departure: '15:28', station: Warszawa Stadion}
+  - {arrival: '15:31', departure: '15:31', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:34', departure: '15:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:36', departure: '15:36', station: Warszawa Ochota}
+  - {arrival: '15:40', departure: '15:40', station: Warszawa Zachodnia}
+  - {arrival: '15:47', departure: '15:47', station: "Warszawa W\u0142ochy"}
+  - {arrival: '15:50', departure: '15:50', station: Warszawa Ursus}
+  - {arrival: '15:53', departure: '15:53', station: "Piast\xF3w"}
+  - {arrival: '15:57', departure: '15:57', station: "Pruszk\xF3w"}
+  - {arrival: '16:03', departure: '16:03', station: "Brwin\xF3w"}
+  - {arrival: '16:07', departure: '16:07', station: "Milan\xF3wek"}
+  - {arrival: '16:11', station: Grodzisk Maz. (PKP)}
+type: train

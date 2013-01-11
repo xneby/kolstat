@@ -1,0 +1,18 @@
+name: KM 7726
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:39', station: "T\u0142uszcz"}
+  - {arrival: '06:44', departure: '06:44', station: Jasienica Mazowiecka}
+  - {arrival: '06:49', departure: '06:49', station: "Klemb\xF3w"}
+  - {arrival: '06:53', departure: '06:53', station: Dobczyn}
+  - {arrival: '06:56', departure: '06:56', station: "Zago\u015Bciniec"}
+  - {arrival: '06:59', departure: '06:59', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '07:03', departure: '07:03', station: "Wo\u0142omin"}
+  - {arrival: '07:06', departure: '07:06', station: "Koby\u0142ka"}
+  - {arrival: '07:09', departure: '07:09', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '07:14', departure: '07:14', station: Zielonka}
+  - {arrival: '07:18', departure: '07:18', station: "Z\u0105bki"}
+  - {arrival: '07:26', station: "Warszawa Wile\u0144ska"}
+type: train

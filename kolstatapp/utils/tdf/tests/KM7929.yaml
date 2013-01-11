@@ -1,0 +1,29 @@
+name: KM 7929
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:50', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '07:58', departure: '07:58', station: "Z\u0105bki"}
+  - {arrival: '08:03', departure: '08:03', station: Zielonka}
+  - {arrival: '08:06', departure: '08:06', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '08:09', departure: '08:09', station: "Koby\u0142ka"}
+  - {arrival: '08:13', departure: '08:13', station: "Wo\u0142omin"}
+  - {arrival: '08:16', departure: '08:16', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '08:19', departure: '08:19', station: "Zago\u015Bciniec"}
+  - {arrival: '08:22', departure: '08:22', station: Dobczyn}
+  - {arrival: '08:26', departure: '08:26', station: "Klemb\xF3w"}
+  - {arrival: '08:30', departure: '08:30', station: Jasienica Mazowiecka}
+  - {arrival: '08:33', departure: '08:38', station: "T\u0142uszcz"}
+  - {arrival: '08:41', departure: '08:41', station: "Chrz\u0119sne"}
+  - {arrival: '08:44', departure: '08:44', station: "Mokra Wie\u015B"}
+  - {arrival: '08:50', departure: '08:50', station: Szewnica}
+  - {arrival: '08:56', departure: '08:56', station: Urle}
+  - {arrival: '09:00', departure: '09:00', station: "Barch\xF3w"}
+  - {arrival: '09:04', departure: '09:04', station: "\u0141och\xF3w"}
+  - {arrival: '09:10', departure: '09:10', station: "Ostr\xF3wek W\u0119growski"}
+  - {arrival: '09:14', departure: '09:14', station: "Top\xF3r"}
+  - {arrival: '09:19', departure: '09:19', station: "Sadowne W\u0119growskie"}
+  - {arrival: '09:28', departure: '09:28', station: "Prosty\u0144"}
+  - {arrival: '09:35', station: "Ma\u0142kinia"}
+type: train

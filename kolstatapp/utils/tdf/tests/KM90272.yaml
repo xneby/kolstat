@@ -1,0 +1,23 @@
+name: KM 90272
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '18:56', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '19:07', departure: '19:07', station: Warszawa Wschodnia}
+  - {arrival: '19:10', departure: '19:10', station: Warszawa Stadion}
+  - {arrival: '19:13', departure: '19:13', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '19:16', departure: '19:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:18', departure: '19:18', station: Warszawa Ochota}
+  - {arrival: '19:22', departure: '19:22', station: Warszawa Zachodnia}
+  - {arrival: '19:28', departure: '19:28', station: "Warszawa W\u0142ochy"}
+  - {arrival: '19:31', departure: '19:31', station: Warszawa Ursus}
+  - {arrival: '19:35', departure: '19:35', station: "Piast\xF3w"}
+  - {arrival: '19:39', departure: '19:39', station: "Pruszk\xF3w"}
+  - {arrival: '19:45', departure: '19:45', station: "Brwin\xF3w"}
+  - {arrival: '19:49', departure: '19:49', station: "Milan\xF3wek"}
+  - {arrival: '19:54', departure: '19:54', station: Grodzisk Maz. (PKP)}
+  - {arrival: '20:00', departure: '20:00', station: "Jaktor\xF3w"}
+  - {arrival: '20:07', departure: '20:07', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '20:11', station: "\u017Byrard\xF3w"}
+type: train

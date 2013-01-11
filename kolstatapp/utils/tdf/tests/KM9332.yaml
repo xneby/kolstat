@@ -1,0 +1,19 @@
+name: KM 9332
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:16', station: Grodzisk Maz. (PKP)}
+  - {arrival: '05:20', departure: '05:20', station: "Milan\xF3wek"}
+  - {arrival: '05:24', departure: '05:24', station: "Brwin\xF3w"}
+  - {arrival: '05:30', departure: '05:30', station: "Pruszk\xF3w"}
+  - {arrival: '05:34', departure: '05:34', station: "Piast\xF3w"}
+  - {arrival: '05:39', departure: '05:39', station: Warszawa Ursus}
+  - {arrival: '05:42', departure: '05:42', station: "Warszawa W\u0142ochy"}
+  - {arrival: '05:47', departure: '05:47', station: Warszawa Zachodnia}
+  - {arrival: '05:51', departure: '05:51', station: Warszawa Ochota}
+  - {arrival: '05:54', departure: '05:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '05:56', departure: '05:56', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '05:59', departure: '05:59', station: Warszawa Stadion}
+  - {arrival: '06:01', station: Warszawa Wschodnia}
+type: train

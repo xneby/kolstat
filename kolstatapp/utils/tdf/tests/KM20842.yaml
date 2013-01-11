@@ -1,0 +1,38 @@
+name: KM 20842
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '13:59', station: Skierniewice}
+  - {arrival: '14:06', departure: '14:06', station: Skierniewice Rawka}
+  - {arrival: '14:12', departure: '14:12', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '14:17', departure: '14:17', station: Jesionka}
+  - {arrival: '14:20', departure: '14:20', station: "Sucha \u017Byrardowska"}
+  - {arrival: '14:29', departure: '14:29', station: "\u017Byrard\xF3w"}
+  - {arrival: '14:33', departure: '14:33', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '14:39', departure: '14:39', station: "Jaktor\xF3w"}
+  - {arrival: '14:46', departure: '14:46', station: Grodzisk Maz. (PKP)}
+  - {arrival: '14:50', departure: '14:50', station: "Milan\xF3wek"}
+  - {arrival: '14:54', departure: '14:54', station: "Brwin\xF3w"}
+  - {arrival: '15:00', departure: '15:00', station: "Pruszk\xF3w"}
+  - {arrival: '15:04', departure: '15:04', station: "Piast\xF3w"}
+  - {arrival: '15:08', departure: '15:08', station: Warszawa Ursus}
+  - {arrival: '15:12', departure: '15:12', station: "Warszawa W\u0142ochy"}
+  - {arrival: '15:17', departure: '15:17', station: Warszawa Zachodnia}
+  - {arrival: '15:21', departure: '15:21', station: Warszawa Ochota}
+  - {arrival: '15:24', departure: '15:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '15:26', departure: '15:26', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '15:29', departure: '15:29', station: Warszawa Stadion}
+  - {arrival: '15:31', departure: '15:35', station: Warszawa Wschodnia}
+  - {arrival: '15:46', departure: '15:46', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '15:50', departure: '15:50', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '15:53', departure: '15:53', station: Warszawa-Wola Grzyb.}
+  - {arrival: '15:55', departure: '15:55', station: "Sulej\xF3wek"}
+  - {arrival: '15:58', departure: '15:58', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '16:01', departure: '16:01', station: "Halin\xF3w"}
+  - {arrival: '16:04', departure: '16:04', station: Cisie}
+  - {arrival: '16:07', departure: '16:07', station: "D\u0119be Wielkie"}
+  - {arrival: '16:10', departure: '16:10', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '16:13', departure: '16:13', station: "Wrzos\xF3w"}
+  - {arrival: '16:17', station: "Mi\u0144sk Mazowiecki"}
+type: train

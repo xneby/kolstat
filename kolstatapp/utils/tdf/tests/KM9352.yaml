@@ -1,0 +1,19 @@
+name: KM 9352
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:12', station: Grodzisk Maz. (PKP)}
+  - {arrival: '12:17', departure: '12:17', station: "Milan\xF3wek"}
+  - {arrival: '12:21', departure: '12:21', station: "Brwin\xF3w"}
+  - {arrival: '12:27', departure: '12:27', station: "Pruszk\xF3w"}
+  - {arrival: '12:31', departure: '12:31', station: "Piast\xF3w"}
+  - {arrival: '12:35', departure: '12:35', station: Warszawa Ursus}
+  - {arrival: '12:39', departure: '12:39', station: "Warszawa W\u0142ochy"}
+  - {arrival: '12:44', departure: '12:44', station: Warszawa Zachodnia}
+  - {arrival: '12:47', departure: '12:47', station: Warszawa Ochota}
+  - {arrival: '12:50', departure: '12:50', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '12:53', departure: '12:53', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '12:56', departure: '12:56', station: Warszawa Stadion}
+  - {arrival: '12:58', station: Warszawa Wschodnia}
+type: train

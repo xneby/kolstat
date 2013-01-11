@@ -1,0 +1,19 @@
+name: KM 12243
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:51', station: Warszawa Wschodnia}
+  - {arrival: '15:59', departure: '16:04', station: Warszawa Centralna}
+  - {arrival: '16:08', departure: '16:08', station: Warszawa Zachodnia}
+  - {arrival: '16:15', departure: '16:15', station: Warszawa Rakowiec}
+  - {arrival: '16:18', departure: '16:18', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '16:20', departure: '16:20', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '16:32', departure: '16:32', station: Nowa Iwiczna}
+  - {arrival: '16:38', departure: '16:38', station: Piaseczno}
+  - {arrival: '16:43', departure: '16:43', station: "Zalesie G\xF3rne"}
+  - {arrival: '16:52', departure: '16:52', station: "Czach\xF3wek P\u0142d."}
+  - {arrival: '17:18', departure: '17:18', station: Warka}
+  - {arrival: '17:41', departure: '17:41', station: Dobieszyn}
+  - {arrival: '18:13', station: Radom}
+type: train

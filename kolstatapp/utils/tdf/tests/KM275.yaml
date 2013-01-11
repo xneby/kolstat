@@ -1,0 +1,19 @@
+name: KM 275
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '23:26', station: Warszawa Wschodnia}
+  - {arrival: '23:33', departure: '23:36', station: Warszawa Centralna}
+  - {arrival: '23:44', departure: '23:44', station: Warszawa Zachodnia}
+  - {arrival: '23:50', departure: '23:50', station: "Warszawa W\u0142ochy"}
+  - {arrival: '23:54', departure: '23:54', station: Warszawa Ursus}
+  - {arrival: '23:57', departure: '23:57', station: "Piast\xF3w"}
+  - {arrival: '00:01', departure: '00:01', station: "Pruszk\xF3w"}
+  - {arrival: '00:07', departure: '00:07', station: "Brwin\xF3w"}
+  - {arrival: '00:11', departure: '00:11', station: "Milan\xF3wek"}
+  - {arrival: '00:16', departure: '00:16', station: Grodzisk Maz. (PKP)}
+  - {arrival: '00:22', departure: '00:22', station: "Jaktor\xF3w"}
+  - {arrival: '00:28', departure: '00:28', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '00:32', station: "\u017Byrard\xF3w"}
+type: train

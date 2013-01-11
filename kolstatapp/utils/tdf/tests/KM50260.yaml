@@ -1,0 +1,34 @@
+name: KM 50260
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:35', station: Otwock}
+  - {arrival: '15:38', departure: '15:38', station: "\u015Awider"}
+  - {arrival: '15:41', departure: '15:41', station: "J\xF3zef\xF3w"}
+  - {arrival: '15:44', departure: '15:44', station: Michalin}
+  - {arrival: '15:46', departure: '15:46', station: Warszawa Falenica}
+  - {arrival: '15:49', departure: '15:49', station: Warszawa Miedzeszyn}
+  - {arrival: '15:51', departure: '15:51', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '15:54', departure: '15:54', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '15:57', departure: '15:57', station: Warszawa Anin}
+  - {arrival: '15:59', departure: '15:59', station: Warszawa Wawer}
+  - {arrival: '16:02', departure: '16:02', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '16:05', departure: '16:05', station: Warszawa Olsz.Groch.}
+  - {arrival: '16:11', departure: '16:11', station: Warszawa Wschodnia}
+  - {arrival: '16:13', departure: '16:13', station: Warszawa Stadion}
+  - {arrival: '16:16', departure: '16:16', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:19', departure: '16:19', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:21', departure: '16:21', station: Warszawa Ochota}
+  - {arrival: '16:25', departure: '16:25', station: Warszawa Zachodnia}
+  - {arrival: '16:32', departure: '16:32', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:35', departure: '16:35', station: Warszawa Ursus}
+  - {arrival: '16:38', departure: '16:38', station: "Piast\xF3w"}
+  - {arrival: '16:42', departure: '16:42', station: "Pruszk\xF3w"}
+  - {arrival: '16:48', departure: '16:48', station: "Brwin\xF3w"}
+  - {arrival: '16:52', departure: '16:52', station: "Milan\xF3wek"}
+  - {arrival: '16:56', departure: '17:00', station: Grodzisk Maz. (PKP)}
+  - {arrival: '17:07', departure: '17:07', station: "Jaktor\xF3w"}
+  - {arrival: '17:14', departure: '17:14', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '17:18', station: "\u017Byrard\xF3w"}
+type: train

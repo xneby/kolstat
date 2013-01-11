@@ -1,0 +1,15 @@
+name: KM 8852
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '22:08', station: "\u0141uk\xF3w"}
+  - {arrival: '22:17', departure: '22:17', station: "Krynka \u0141ukowska"}
+  - {arrival: '22:20', departure: '22:20', station: "Radomy\u015Bl"}
+  - {arrival: '22:24', departure: '22:24', station: Dziewule}
+  - {arrival: '22:28', departure: '22:28', station: Borki Kosy}
+  - {arrival: '22:31', departure: '22:31', station: Kosiorki}
+  - {arrival: '22:35', departure: '22:35', station: "Bia\u0142ki Siedleckie"}
+  - {arrival: '22:38', departure: '22:38', station: Siedlce Wschodnie}
+  - {arrival: '22:41', station: Siedlce}
+type: train

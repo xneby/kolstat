@@ -1,0 +1,18 @@
+name: KM 522
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:28', station: Radom}
+  - {arrival: '05:35', departure: '05:35', station: Rajec Poduchowny}
+  - {arrival: '05:38', departure: '05:38', station: "Antoni\xF3wka"}
+  - {arrival: '05:42', departure: '05:42', station: Jedlnia Letnisko}
+  - {arrival: '05:47', departure: '05:47', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '05:51', departure: '05:51', station: Pionki Zach.}
+  - {arrival: '05:53', departure: '05:53', station: Pionki}
+  - {arrival: '05:59', departure: '05:59', station: "\u017Bytkowice"}
+  - {arrival: '06:04', departure: '06:04', station: Garbatka Letnisko}
+  - {arrival: '06:10', departure: '06:10', station: "B\u0105kowiec"}
+  - {arrival: '06:17', departure: '06:17', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '06:24', station: "D\u0119blin"}
+type: train

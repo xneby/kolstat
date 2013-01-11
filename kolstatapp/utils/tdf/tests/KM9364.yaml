@@ -1,0 +1,19 @@
+name: KM 9364
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:16', station: Grodzisk Maz. (PKP)}
+  - {arrival: '19:21', departure: '19:21', station: "Milan\xF3wek"}
+  - {arrival: '19:25', departure: '19:25', station: "Brwin\xF3w"}
+  - {arrival: '19:31', departure: '19:31', station: "Pruszk\xF3w"}
+  - {arrival: '19:35', departure: '19:35', station: "Piast\xF3w"}
+  - {arrival: '19:39', departure: '19:39', station: Warszawa Ursus}
+  - {arrival: '19:43', departure: '19:43', station: "Warszawa W\u0142ochy"}
+  - {arrival: '19:47', departure: '19:48', station: Warszawa Zachodnia}
+  - {arrival: '19:51', departure: '19:51', station: Warszawa Ochota}
+  - {arrival: '19:54', departure: '19:54', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '19:57', departure: '19:57', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:00', departure: '20:00', station: Warszawa Stadion}
+  - {arrival: '20:02', station: Warszawa Wschodnia}
+type: train

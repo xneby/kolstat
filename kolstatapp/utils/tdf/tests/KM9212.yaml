@@ -1,0 +1,22 @@
+name: KM 9212
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '09:15', station: "\u017Byrard\xF3w"}
+  - {arrival: '09:19', departure: '09:19', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '09:25', departure: '09:25', station: "Jaktor\xF3w"}
+  - {arrival: '09:31', departure: '09:31', station: Grodzisk Maz. (PKP)}
+  - {arrival: '09:35', departure: '09:35', station: "Milan\xF3wek"}
+  - {arrival: '09:39', departure: '09:39', station: "Brwin\xF3w"}
+  - {arrival: '09:45', departure: '09:45', station: "Pruszk\xF3w"}
+  - {arrival: '09:49', departure: '09:49', station: "Piast\xF3w"}
+  - {arrival: '09:54', departure: '09:54', station: Warszawa Ursus}
+  - {arrival: '09:57', departure: '09:57', station: "Warszawa W\u0142ochy"}
+  - {arrival: '10:02', departure: '10:02', station: Warszawa Zachodnia}
+  - {arrival: '10:06', departure: '10:06', station: Warszawa Ochota}
+  - {arrival: '10:09', departure: '10:09', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '10:11', departure: '10:11', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '10:14', departure: '10:14', station: Warszawa Stadion}
+  - {arrival: '10:16', station: Warszawa Wschodnia}
+type: train

@@ -1,0 +1,21 @@
+name: KM 473
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '23:30', station: Warszawa Wschodnia}
+  - {arrival: '23:37', departure: '23:40', station: Warszawa Centralna}
+  - {arrival: '23:44', departure: '23:48', station: Warszawa Zachodnia}
+  - {arrival: '23:54', departure: '23:54', station: "Warszawa W\u0142ochy"}
+  - {arrival: '23:58', departure: '23:58', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '00:01', departure: '00:01', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '00:05', departure: '00:05', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '00:10', departure: '00:10', station: "P\u0142ochocin"}
+  - {arrival: '00:15', departure: '00:15', station: "B\u0142onie"}
+  - {arrival: '00:18', departure: '00:18', station: "Witan\xF3w"}
+  - {arrival: '00:22', departure: '00:22', station: "Bo\u017Ca Wola"}
+  - {arrival: '00:26', departure: '00:26', station: Seroki}
+  - {arrival: '00:29', departure: '00:29', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '00:33', departure: '00:33', station: Piasecznica}
+  - {arrival: '00:39', station: Sochaczew}
+type: train

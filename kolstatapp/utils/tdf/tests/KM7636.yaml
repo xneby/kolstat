@@ -1,0 +1,12 @@
+name: KM 7636
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:30', station: "Wo\u0142omin"}
+  - {arrival: '14:33', departure: '14:33', station: "Koby\u0142ka"}
+  - {arrival: '14:36', departure: '14:36', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '14:41', departure: '14:41', station: Zielonka}
+  - {arrival: '14:45', departure: '14:45', station: "Z\u0105bki"}
+  - {arrival: '14:53', station: "Warszawa Wile\u0144ska"}
+type: train

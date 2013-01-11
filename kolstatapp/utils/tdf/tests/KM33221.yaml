@@ -1,0 +1,12 @@
+name: KM 33221
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:08', station: Warszawa Wschodnia}
+  - {arrival: '15:15', departure: '15:17', station: Warszawa Centralna}
+  - {arrival: '15:21', departure: '15:21', station: Warszawa Zachodnia}
+  - {arrival: '15:47', departure: '15:47', station: "Jaktor\xF3w"}
+  - {arrival: '15:54', departure: '15:54', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '15:58', station: "\u017Byrard\xF3w"}
+type: train

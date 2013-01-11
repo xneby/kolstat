@@ -1,0 +1,18 @@
+name: KM 7719
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:00', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '07:08', departure: '07:08', station: "Z\u0105bki"}
+  - {arrival: '07:13', departure: '07:13', station: Zielonka}
+  - {arrival: '07:16', departure: '07:16', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '07:19', departure: '07:19', station: "Koby\u0142ka"}
+  - {arrival: '07:23', departure: '07:23', station: "Wo\u0142omin"}
+  - {arrival: '07:26', departure: '07:26', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '07:29', departure: '07:29', station: "Zago\u015Bciniec"}
+  - {arrival: '07:32', departure: '07:32', station: Dobczyn}
+  - {arrival: '07:36', departure: '07:36', station: "Klemb\xF3w"}
+  - {arrival: '07:40', departure: '07:40', station: Jasienica Mazowiecka}
+  - {arrival: '07:43', station: "T\u0142uszcz"}
+type: train

@@ -1,0 +1,39 @@
+name: KM 51610
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '08:25', station: Sierpc}
+  - {arrival: '08:33', departure: '08:33', station: Mieszaki}
+  - {arrival: '08:41', departure: '08:41', station: Zawidz}
+  - {arrival: '08:44', departure: '08:44', station: "Zawidz Ko\u015Bcielny"}
+  - {arrival: '08:52', departure: '08:52', station: Koziebrody}
+  - {arrival: '09:04', departure: '09:04', station: "Raci\u0105\u017C"}
+  - {arrival: '09:12', departure: '09:12', station: Kaczorowo}
+  - {arrival: '09:21', departure: '09:21', station: Baboszewo}
+  - {arrival: '09:27', departure: '09:27', station: Arcelin}
+  - {arrival: '09:40', departure: '09:40', station: "P\u0142o\u0144sk"}
+  - {arrival: '09:50', departure: '09:50', station: "Dalan\xF3wek"}
+  - {arrival: '09:58', departure: '09:58', station: Wkra}
+  - {arrival: '10:06', departure: '10:06', station: Cieksyn}
+  - {arrival: '10:20', departure: '10:29', station: Nasielsk}
+  - {arrival: '10:40', departure: '10:40', station: Modlin}
+  - {arrival: '10:45', departure: '10:45', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '10:55', departure: '10:55', station: Legionowo Przystanek}
+  - {arrival: '10:58', departure: '10:58', station: Legionowo}
+  - {arrival: '11:08', departure: '11:08', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '11:10', departure: '11:10', station: Warszawa Praga}
+  - {arrival: '11:15', departure: '11:15', station: Warszawa ZOO}
+  - {arrival: '11:19', departure: '11:33', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '11:36', departure: '11:36', station: Warszawa ZOO}
+  - {arrival: '11:42', departure: '11:42', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '11:53', departure: '11:53', station: Legionowo}
+  - {arrival: '11:56', departure: '11:56', station: Legionowo Piaski}
+  - {arrival: '11:59', departure: '11:59', station: "Micha\u0142\xF3w Regin\xF3w"}
+  - {arrival: '12:02', departure: '12:02', station: Wieliszew}
+  - {arrival: '12:07', departure: '12:07', station: "Niepor\u0119t"}
+  - {arrival: '12:12', departure: '12:12', station: "D\u0105bkowizna"}
+  - {arrival: '12:18', departure: '12:18', station: Radzymin}
+  - {arrival: '12:32', departure: '12:32', station: Krusze}
+  - {arrival: '12:39', station: "T\u0142uszcz"}
+type: train

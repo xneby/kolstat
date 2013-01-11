@@ -1,0 +1,18 @@
+name: KM 526
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:52', station: Radom}
+  - {arrival: '07:59', departure: '07:59', station: Rajec Poduchowny}
+  - {arrival: '08:02', departure: '08:02', station: "Antoni\xF3wka"}
+  - {arrival: '08:06', departure: '08:06', station: Jedlnia Letnisko}
+  - {arrival: '08:11', departure: '08:11', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '08:15', departure: '08:15', station: Pionki Zach.}
+  - {arrival: '08:17', departure: '08:17', station: Pionki}
+  - {arrival: '08:23', departure: '08:23', station: "\u017Bytkowice"}
+  - {arrival: '08:28', departure: '08:28', station: Garbatka Letnisko}
+  - {arrival: '08:35', departure: '08:35', station: "B\u0105kowiec"}
+  - {arrival: '08:42', departure: '08:42', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '08:48', station: "D\u0119blin"}
+type: train

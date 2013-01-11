@@ -1,0 +1,36 @@
+name: KM 40520
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:20', station: Sochaczew}
+  - {arrival: '06:26', departure: '06:26', station: Piasecznica}
+  - {arrival: '06:30', departure: '06:30', station: "Teresin Niepokalan\xF3w"}
+  - {arrival: '06:34', departure: '06:34', station: Seroki}
+  - {arrival: '06:38', departure: '06:38', station: "Bo\u017Ca Wola"}
+  - {arrival: '06:41', departure: '06:41', station: "Witan\xF3w"}
+  - {arrival: '06:45', departure: '06:45', station: "B\u0142onie"}
+  - {arrival: '06:50', departure: '06:50', station: "P\u0142ochocin"}
+  - {arrival: '06:55', departure: '06:55', station: "O\u017Car\xF3w Mazowiecki"}
+  - {arrival: '06:59', departure: '06:59', station: "Warszawa Go\u0142\u0105bki"}
+  - {arrival: '07:02', departure: '07:02', station: "Warszawa Ursus P\u0142n."}
+  - {arrival: '07:05', departure: '07:05', station: "Warszawa W\u0142ochy"}
+  - {arrival: '07:10', departure: '07:10', station: Warszawa Zachodnia}
+  - {arrival: '07:13', departure: '07:13', station: Warszawa Ochota}
+  - {arrival: '07:16', departure: '07:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:19', departure: '07:19', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:22', departure: '07:22', station: Warszawa Stadion}
+  - {arrival: '07:25', departure: '07:25', station: Warszawa Wschodnia}
+  - {arrival: '07:30', departure: '07:30', station: Warszawa Olsz.Groch.}
+  - {arrival: '07:33', departure: '07:33', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '07:36', departure: '07:36', station: Warszawa Wawer}
+  - {arrival: '07:38', departure: '07:38', station: Warszawa Anin}
+  - {arrival: '07:41', departure: '07:41', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '07:44', departure: '07:44', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '07:46', departure: '07:46', station: Warszawa Miedzeszyn}
+  - {arrival: '07:49', departure: '07:49', station: Warszawa Falenica}
+  - {arrival: '07:52', departure: '07:52', station: Michalin}
+  - {arrival: '07:55', departure: '07:55', station: "J\xF3zef\xF3w"}
+  - {arrival: '07:58', departure: '07:58', station: "\u015Awider"}
+  - {arrival: '08:01', station: Otwock}
+type: train

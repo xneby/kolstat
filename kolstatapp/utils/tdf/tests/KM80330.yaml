@@ -1,0 +1,30 @@
+name: KM 80330
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:14', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: '06:19', departure: '06:19', station: "Wrzos\xF3w"}
+  - {arrival: '06:22', departure: '06:22', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '06:24', departure: '06:24', station: "D\u0119be Wielkie"}
+  - {arrival: '06:27', departure: '06:27', station: Cisie}
+  - {arrival: '06:31', departure: '06:31', station: "Halin\xF3w"}
+  - {arrival: '06:34', departure: '06:34', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '06:37', departure: '06:37', station: "Sulej\xF3wek"}
+  - {arrival: '06:39', departure: '06:39', station: Warszawa-Wola Grzyb.}
+  - {arrival: '06:42', departure: '06:42', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '06:46', departure: '06:46', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '06:56', departure: '06:56', station: Warszawa Wschodnia}
+  - {arrival: '06:58', departure: '06:58', station: Warszawa Stadion}
+  - {arrival: '07:01', departure: '07:01', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '07:04', departure: '07:04', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '07:06', departure: '07:06', station: Warszawa Ochota}
+  - {arrival: '07:11', departure: '07:11', station: Warszawa Zachodnia}
+  - {arrival: '07:18', departure: '07:18', station: "Warszawa W\u0142ochy"}
+  - {arrival: '07:21', departure: '07:21', station: Warszawa Ursus}
+  - {arrival: '07:24', departure: '07:24', station: "Piast\xF3w"}
+  - {arrival: '07:28', departure: '07:28', station: "Pruszk\xF3w"}
+  - {arrival: '07:34', departure: '07:34', station: "Brwin\xF3w"}
+  - {arrival: '07:38', departure: '07:38', station: "Milan\xF3wek"}
+  - {arrival: '07:42', station: Grodzisk Maz. (PKP)}
+type: train

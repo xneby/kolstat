@@ -1,0 +1,44 @@
+name: KM 15427
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '15:13', station: Warszawa Zach. per.8}
+  - {arrival: '15:17', departure: '15:17', station: Warszawa Kasprzaka}
+  - {arrival: '15:20', departure: '15:20', station: "Warszawa Ko\u0142o"}
+  - {arrival: '15:28', departure: '15:28', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '15:31', departure: '15:31', station: Warszawa ZOO}
+  - {arrival: '15:35', departure: '15:35', station: Warszawa Praga}
+  - {arrival: '15:38', departure: '15:38', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '15:41', departure: '15:41', station: "Warszawa \u017Bera\u0144"}
+  - {arrival: '15:44', departure: '15:44', station: "Warszawa P\u0142udy"}
+  - {arrival: '15:47', departure: '15:47', station: "Warszawa Choszcz\xF3wka"}
+  - {arrival: '15:52', departure: '15:52', station: Legionowo}
+  - {arrival: '15:54', departure: '15:54', station: Legionowo Przystanek}
+  - {arrival: '15:57', departure: '15:57', station: "Chotom\xF3w"}
+  - {arrival: '16:03', departure: '16:03', station: "Jan\xF3wek"}
+  - {arrival: '16:07', departure: '16:07', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '16:11', departure: '16:11', station: Modlin}
+  - {arrival: '16:15', departure: '16:15', station: "Pomiech\xF3wek"}
+  - {arrival: '16:19', departure: '16:19', station: Brody Warszawskie}
+  - {arrival: '16:22', departure: '16:22', station: Studzianki Nowe}
+  - {arrival: '16:26', departure: '16:26', station: Nasielsk}
+  - {arrival: '16:29', departure: '16:29', station: "K\u0105tne"}
+  - {arrival: '16:32', departure: '16:32', station: Jackowo Dworskie}
+  - {arrival: '16:37', departure: '16:37', station: "\u015Awiercze"}
+  - {arrival: '16:40', departure: '16:40', station: "Ka\u0142\u0119czyn"}
+  - {arrival: '16:44', departure: '16:44', station: "G\u0105socin"}
+  - {arrival: '16:48', departure: '16:48', station: "Go\u0142otczyzna"}
+  - {arrival: '16:56', departure: '16:56', station: "Ciechan\xF3w Przemys\u0142."}
+  - {arrival: '17:02', departure: '17:02', station: "Ciechan\xF3w"}
+  - {arrival: '17:08', departure: '17:08', station: Czeruchy}
+  - {arrival: '17:12', departure: '17:12', station: "Kro\u015Bnice Maz."}
+  - {arrival: '17:16', departure: '17:16', station: Konopki}
+  - {arrival: '17:20', departure: '17:20', station: Stupsk Mazowiecki}
+  - {arrival: '17:26', departure: '17:26', station: Wyszyny}
+  - {arrival: '17:31', departure: '17:31', station: "M\u0142awa Miasto"}
+  - {arrival: '17:35', departure: '17:42', station: "M\u0142awa"}
+  - {arrival: '17:49', departure: '17:49', station: "I\u0142owo"}
+  - {arrival: '17:53', departure: '17:53', station: Narzym}
+  - {arrival: '18:02', station: "Dzia\u0142dowo"}
+type: train

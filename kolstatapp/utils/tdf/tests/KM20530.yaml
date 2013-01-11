@@ -1,0 +1,27 @@
+name: KM 20530
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '14:59', station: Skierniewice}
+  - {arrival: '15:07', departure: '15:07', station: Skierniewice Rawka}
+  - {arrival: '15:14', departure: '15:14', station: "Radziwi\u0142\u0142\xF3w Maz."}
+  - {arrival: '15:19', departure: '15:19', station: Jesionka}
+  - {arrival: '15:22', departure: '15:22', station: "Sucha \u017Byrardowska"}
+  - {arrival: '15:31', departure: '15:31', station: "\u017Byrard\xF3w"}
+  - {arrival: '15:34', departure: '15:34', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '15:40', departure: '15:40', station: "Jaktor\xF3w"}
+  - {arrival: '15:45', departure: '15:47', station: Grodzisk Maz. (PKP)}
+  - {arrival: '15:51', departure: '15:51', station: "Milan\xF3wek"}
+  - {arrival: '15:55', departure: '15:55', station: "Brwin\xF3w"}
+  - {arrival: '16:01', departure: '16:01', station: "Pruszk\xF3w"}
+  - {arrival: '16:05', departure: '16:05', station: "Piast\xF3w"}
+  - {arrival: '16:09', departure: '16:09', station: Warszawa Ursus}
+  - {arrival: '16:13', departure: '16:13', station: "Warszawa W\u0142ochy"}
+  - {arrival: '16:17', departure: '16:18', station: Warszawa Zachodnia}
+  - {arrival: '16:21', departure: '16:21', station: Warszawa Ochota}
+  - {arrival: '16:24', departure: '16:24', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '16:27', departure: '16:27', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '16:30', departure: '16:30', station: Warszawa Stadion}
+  - {arrival: '16:32', station: Warszawa Wschodnia}
+type: train

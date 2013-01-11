@@ -1,0 +1,18 @@
+name: KM 7721
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '07:15', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '07:23', departure: '07:23', station: "Z\u0105bki"}
+  - {arrival: '07:28', departure: '07:28', station: Zielonka}
+  - {arrival: '07:31', departure: '07:31', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '07:34', departure: '07:34', station: "Koby\u0142ka"}
+  - {arrival: '07:38', departure: '07:38', station: "Wo\u0142omin"}
+  - {arrival: '07:41', departure: '07:41', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '07:44', departure: '07:44', station: "Zago\u015Bciniec"}
+  - {arrival: '07:47', departure: '07:47', station: Dobczyn}
+  - {arrival: '07:51', departure: '07:51', station: "Klemb\xF3w"}
+  - {arrival: '07:55', departure: '07:55', station: Jasienica Mazowiecka}
+  - {arrival: '07:58', station: "T\u0142uszcz"}
+type: train

@@ -1,0 +1,12 @@
+name: KM 7631
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '09:05', station: "Warszawa Wile\u0144ska"}
+  - {arrival: '09:13', departure: '09:13', station: "Z\u0105bki"}
+  - {arrival: '09:18', departure: '09:18', station: Zielonka}
+  - {arrival: '09:21', departure: '09:21', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '09:24', departure: '09:24', station: "Koby\u0142ka"}
+  - {arrival: '09:28', station: "Wo\u0142omin"}
+type: train

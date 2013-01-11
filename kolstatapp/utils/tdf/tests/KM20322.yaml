@@ -1,0 +1,21 @@
+name: KM 20322
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '05:23', station: Modlin}
+  - {arrival: '05:27', departure: '05:27', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '05:34', departure: '05:34', station: "Chotom\xF3w"}
+  - {arrival: '05:37', departure: '05:37', station: Legionowo Przystanek}
+  - {arrival: '05:39', departure: '05:39', station: Legionowo}
+  - {arrival: '05:45', departure: '05:45', station: "Warszawa P\u0142udy"}
+  - {arrival: '05:49', departure: '05:49', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '05:58', departure: '05:58', station: Warszawa Wschodnia}
+  - {arrival: '06:05', departure: '06:10', station: Warszawa Centralna}
+  - {arrival: '06:14', departure: '06:14', station: Warszawa Zachodnia}
+  - {arrival: '06:19', departure: '06:19', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '06:22', departure: '06:22', station: Warszawa Rakowiec}
+  - {arrival: '06:24', departure: '06:24', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '06:26', departure: '06:26', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '06:30', station: Warszawa Lot. Chopina}
+type: train

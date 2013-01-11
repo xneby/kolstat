@@ -1,0 +1,23 @@
+name: KM 807
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '12:55', station: Warszawa Zachodnia}
+  - {arrival: '12:58', departure: '12:58', station: Warszawa Ochota}
+  - {arrival: '13:01', departure: '13:01', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '13:04', departure: '13:04', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '13:07', departure: '13:07', station: Warszawa Stadion}
+  - {arrival: '13:11', departure: '13:11', station: Warszawa Wschodnia}
+  - {arrival: '13:20', departure: '13:20', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '13:25', departure: '13:25', station: "Warszawa-Weso\u0142a"}
+  - {arrival: '13:27', departure: '13:27', station: Warszawa-Wola Grzyb.}
+  - {arrival: '13:30', departure: '13:30', station: "Sulej\xF3wek"}
+  - {arrival: '13:33', departure: '13:33', station: "Sulej\xF3wek Mi\u0142osna"}
+  - {arrival: '13:37', departure: '13:37', station: "Halin\xF3w"}
+  - {arrival: '13:40', departure: '13:40', station: Cisie}
+  - {arrival: '13:43', departure: '13:43', station: "D\u0119be Wielkie"}
+  - {arrival: '13:46', departure: '13:46', station: "Nowe D\u0119be Wielkie"}
+  - {arrival: '13:49', departure: '13:49', station: "Wrzos\xF3w"}
+  - {arrival: '13:54', station: "Mi\u0144sk Mazowiecki"}
+type: train

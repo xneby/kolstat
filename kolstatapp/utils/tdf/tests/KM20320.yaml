@@ -1,0 +1,21 @@
+name: KM 20320
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '04:17', station: Modlin}
+  - {arrival: '04:21', departure: '04:21', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '04:28', departure: '04:28', station: "Chotom\xF3w"}
+  - {arrival: '04:30', departure: '04:30', station: Legionowo Przystanek}
+  - {arrival: '04:33', departure: '04:33', station: Legionowo}
+  - {arrival: '04:38', departure: '04:38', station: "Warszawa P\u0142udy"}
+  - {arrival: '04:43', departure: '04:43', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '04:58', departure: '04:58', station: Warszawa Wschodnia}
+  - {arrival: '05:05', departure: '05:10', station: Warszawa Centralna}
+  - {arrival: '05:14', departure: '05:14', station: Warszawa Zachodnia}
+  - {arrival: '05:19', departure: '05:19', station: Warszawa Al.Jerozolimskie PKP}
+  - {arrival: '05:22', departure: '05:22', station: Warszawa Rakowiec}
+  - {arrival: '05:24', departure: '05:24', station: "Warszawa \u017Bwirki i Wigury"}
+  - {arrival: '05:26', departure: '05:26', station: "Warszawa S\u0142u\u017Cewiec"}
+  - {arrival: '05:30', station: Warszawa Lot. Chopina}
+type: train

@@ -1,0 +1,24 @@
+name: KM 7830
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '19:13', station: "\u0141och\xF3w"}
+  - {arrival: '19:17', departure: '19:17', station: "Barch\xF3w"}
+  - {arrival: '19:21', departure: '19:21', station: Urle}
+  - {arrival: '19:27', departure: '19:27', station: Szewnica}
+  - {arrival: '19:33', departure: '19:33', station: "Mokra Wie\u015B"}
+  - {arrival: '19:36', departure: '19:36', station: "Chrz\u0119sne"}
+  - {arrival: '19:40', departure: '19:40', station: "T\u0142uszcz"}
+  - {arrival: '19:45', departure: '19:45', station: Jasienica Mazowiecka}
+  - {arrival: '19:50', departure: '19:50', station: "Klemb\xF3w"}
+  - {arrival: '19:54', departure: '19:54', station: Dobczyn}
+  - {arrival: '19:57', departure: '19:57', station: "Zago\u015Bciniec"}
+  - {arrival: '20:00', departure: '20:00', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '20:04', departure: '20:04', station: "Wo\u0142omin"}
+  - {arrival: '20:07', departure: '20:07', station: "Koby\u0142ka"}
+  - {arrival: '20:10', departure: '20:10', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '20:15', departure: '20:15', station: Zielonka}
+  - {arrival: '20:19', departure: '20:19', station: "Z\u0105bki"}
+  - {arrival: '20:27', station: "Warszawa Wile\u0144ska"}
+type: train

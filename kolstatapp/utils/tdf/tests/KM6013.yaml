@@ -1,0 +1,16 @@
+name: KM 6013
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '06:34', station: Radom}
+  - {arrival: '06:41', departure: '06:41', station: "Radom Po\u0142udniowy"}
+  - {arrival: '06:45', departure: '06:45', station: "Ro\u017Cki"}
+  - {arrival: '06:50', departure: '06:50', station: Ruda Wielka}
+  - {arrival: '06:53', departure: '06:53', station: Wola Lipieniecka}
+  - {arrival: '06:58', departure: '06:58', station: "Jastrz\u0105b"}
+  - {arrival: '07:01', departure: '07:01', station: "G\u0105sawy Pleba\u0144skie"}
+  - {arrival: '07:05', departure: '07:05', station: "Szyd\u0142owiec"}
+  - {arrival: '07:11', departure: '07:11', station: Lipowe Pole}
+  - {arrival: '07:16', station: "Skar\u017Cysko-Kamienna"}
+type: train

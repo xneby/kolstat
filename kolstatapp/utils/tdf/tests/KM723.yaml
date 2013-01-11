@@ -1,0 +1,24 @@
+name: KM 723
+operations:
+- date: 2013-01-03
+  mode: single
+  timetable:
+  - {departure: '09:10', station: Warszawa Zachodnia}
+  - {arrival: '09:13', departure: '09:13', station: Warszawa Ochota}
+  - {arrival: '09:16', departure: '09:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '09:19', departure: '09:19', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '09:22', departure: '09:22', station: Warszawa Stadion}
+  - {arrival: '09:25', departure: '09:25', station: Warszawa Wschodnia}
+  - {arrival: '09:34', departure: '09:34', station: "Warszawa Rembert\xF3w"}
+  - {arrival: '09:44', departure: '09:44', station: Zielonka Bankowa}
+  - {arrival: '09:48', departure: '09:48', station: Zielonka}
+  - {arrival: '09:51', departure: '09:51', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '09:54', departure: '09:54', station: "Koby\u0142ka"}
+  - {arrival: '09:58', departure: '09:58', station: "Wo\u0142omin"}
+  - {arrival: '10:01', departure: '10:01', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '10:04', departure: '10:04', station: "Zago\u015Bciniec"}
+  - {arrival: '10:07', departure: '10:07', station: Dobczyn}
+  - {arrival: '10:11', departure: '10:11', station: "Klemb\xF3w"}
+  - {arrival: '10:15', departure: '10:15', station: Jasienica Mazowiecka}
+  - {arrival: '10:18', station: "T\u0142uszcz"}
+type: train
