@@ -1,7 +1,7 @@
 name: KM 355
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:48', station: Warszawa Wschodnia}
   - {arrival: '14:51', departure: '14:51', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '15:26', departure: '15:26', station: "Brwin\xF3w"}
   - {arrival: '15:30', departure: '15:30', station: "Milan\xF3wek"}
   - {arrival: '15:34', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

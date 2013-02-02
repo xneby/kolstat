@@ -1,7 +1,7 @@
 name: KM 8850
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:43', station: "\u0141uk\xF3w"}
   - {arrival: '19:52', departure: '19:52', station: "Krynka \u0141ukowska"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '20:10', departure: '20:10', station: "Bia\u0142ki Siedleckie"}
   - {arrival: '20:13', departure: '20:13', station: Siedlce Wschodnie}
   - {arrival: '20:16', station: Siedlce}
+  to: 2013-02-28
 type: train

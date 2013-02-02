@@ -1,7 +1,7 @@
 name: KM 88520
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:30', station: Czeremcha}
   - {arrival: '04:40', departure: '04:40', station: Borowiki}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '05:51', departure: '05:51', station: Krzymosze}
   - {arrival: '05:55', departure: '05:55', station: Stok Lacki}
   - {arrival: '06:05', station: Siedlce}
+  to: 2013-02-28
 type: train

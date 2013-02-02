@@ -1,7 +1,7 @@
 name: KM 88141
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:15', station: Warszawa Zachodnia}
   - {arrival: '03:20', departure: '03:21', station: Warszawa Centralna}
@@ -29,4 +29,5 @@ operations:
   - {arrival: '04:59', departure: '04:59', station: Sabinka}
   - {arrival: '05:04', departure: '05:04', station: Siedlce Zachodnie}
   - {arrival: '05:10', station: Siedlce}
+  to: 2013-02-28
 type: train

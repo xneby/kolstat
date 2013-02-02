@@ -10,5 +10,6 @@ from kolstatapp.models import Train
 from library import import_from_file
 
 for name in sys.argv[1:]:
+	print name
 	with open(name) as f:
 		import_from_file(f)

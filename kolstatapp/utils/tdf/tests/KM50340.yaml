@@ -1,7 +1,7 @@
 name: KM 50340
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:17', station: Pilawa}
   - {arrival: '13:21', departure: '13:21', station: "August\xF3wka"}
@@ -45,4 +45,5 @@ operations:
   - {arrival: '16:03', departure: '16:03', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '16:08', departure: '16:08', station: Skierniewice Rawka}
   - {arrival: '16:14', station: Skierniewice}
+  to: 2013-02-28
 type: train

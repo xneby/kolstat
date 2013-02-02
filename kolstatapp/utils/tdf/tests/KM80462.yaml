@@ -1,7 +1,7 @@
 name: KM 80462
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:48', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '15:53', departure: '15:53', station: "Wrzos\xF3w"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '17:01', departure: '17:01', station: "O\u017Car\xF3w Mazowiecki"}
   - {arrival: '17:06', departure: '17:06', station: "P\u0142ochocin"}
   - {arrival: '17:11', station: "B\u0142onie"}
+  to: 2013-02-28
 type: train

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title%} - panel użytkownika - zniżki{% endblock %}
+
+{% block content %}
+
+<p>Wybierz zniżki, które Tobie przysługują</p>
+
+<form action="{% url user-discounts %}" method="post"> {% csrf_token %}
+	{% for discount, user_has in discounts %}
+	<p>
+		<input type="checkbox" {% if user_has %}checked="checked"{% endif %} name="d{{discount.id}}" id="id_d{{ discount.id }}" />
+		<label for="id_d{{discount.id}}">{{ discount.kurs90Name }} - {{discount.description}} ({{ discount.discount }}%)</label>
+	</p>
+	{% endfor %}
+	
+	<input type="submit" value="Wyślij" />
+
+</form>
+
+{% endblock %}

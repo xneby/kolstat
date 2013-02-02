@@ -1,7 +1,7 @@
 name: KM 51336
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:28', station: Sierpc}
   - {arrival: '15:35', departure: '15:35', station: Susk}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '17:10', departure: '17:10', station: "Racibor\xF3w Kutnowski"}
   - {arrival: '17:18', departure: '17:18', station: Azory}
   - {arrival: '17:23', station: Kutno}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 423
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:48', station: Warszawa Wschodnia}
   - {arrival: '19:51', departure: '19:51', station: Warszawa Stadion}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '21:12', departure: '21:12', station: Bednary}
   - {arrival: '21:15', departure: '21:15', station: "Mys\u0142ak\xF3w"}
   - {arrival: '21:19', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-28
 type: train

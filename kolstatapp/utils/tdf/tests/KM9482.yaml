@@ -1,7 +1,7 @@
 name: KM 9482
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:18', station: "B\u0142onie"}
   - {arrival: '14:24', departure: '14:24', station: "P\u0142ochocin"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '14:53', departure: '14:53', station: "Warszawa Powi\u015Ble"}
   - {arrival: '14:56', departure: '14:56', station: Warszawa Stadion}
   - {arrival: '14:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

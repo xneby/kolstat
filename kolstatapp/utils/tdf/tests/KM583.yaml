@@ -1,7 +1,7 @@
 name: KM 583
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:39', station: Pionki}
   - {arrival: '18:42', departure: '18:42', station: Pionki Zach.}
@@ -10,4 +10,5 @@ operations:
   - {arrival: '18:55', departure: '18:55', station: "Antoni\xF3wka"}
   - {arrival: '18:58', departure: '18:58', station: Rajec Poduchowny}
   - {arrival: '19:05', station: Radom}
+  to: 2013-02-28
 type: train

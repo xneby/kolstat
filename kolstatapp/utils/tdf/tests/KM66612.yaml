@@ -1,7 +1,7 @@
 name: KM 66612
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:57', station: Sierpc}
   - {arrival: '05:05', departure: '05:05', station: Mieszaki}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '06:41', departure: '06:41', station: Wkra}
   - {arrival: '06:49', departure: '06:49', station: Cieksyn}
   - {arrival: '07:02', station: Nasielsk}
+  to: 2013-02-28
 type: train

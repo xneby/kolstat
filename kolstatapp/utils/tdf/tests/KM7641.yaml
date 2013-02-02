@@ -1,7 +1,7 @@
 name: KM 7641
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:30', station: "Warszawa Wile\u0144ska"}
   - {arrival: '16:38', departure: '16:38', station: "Z\u0105bki"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '16:46', departure: '16:46', station: "Koby\u0142ka Oss\xF3w"}
   - {arrival: '16:49', departure: '16:49', station: "Koby\u0142ka"}
   - {arrival: '16:53', station: "Wo\u0142omin"}
+  to: 2013-02-28
 type: train

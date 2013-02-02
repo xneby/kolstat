@@ -1,7 +1,7 @@
 name: KM 361
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:52', station: Warszawa Wschodnia}
   - {arrival: '15:55', departure: '15:55', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '16:30', departure: '16:30', station: "Brwin\xF3w"}
   - {arrival: '16:34', departure: '16:34', station: "Milan\xF3wek"}
   - {arrival: '16:38', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

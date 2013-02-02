@@ -1,7 +1,7 @@
 name: KM 2144
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:24', station: "D\u0119blin"}
   - {arrival: '18:29', departure: '18:29', station: Rokitnia Stara}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '20:42', departure: '20:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '20:44', departure: '20:44', station: Warszawa Ochota}
   - {arrival: '20:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

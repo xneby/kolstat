@@ -1,7 +1,7 @@
 name: KM 473
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '23:30', station: Warszawa Wschodnia}
   - {arrival: '23:37', departure: '23:40', station: Warszawa Centralna}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '00:29', departure: '00:29', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '00:33', departure: '00:33', station: Piasecznica}
   - {arrival: '00:39', station: Sochaczew}
+  to: 2013-02-28
 type: train

@@ -1,29 +1,20 @@
+mode: normal
 name: KM 7768
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '21:06', station: "T\u0142uszcz"}
-  - {arrival: "21:11\n</td>\n<td class=\"sepline\">\n\_", departure: '21:11', station: Jasienica
-      Mazowiecka}
-  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "Klemb\xF3\
-      w"}
-  - {arrival: "21:20\n</td>\n<td class=\"sepline\">\n\_", departure: '21:20', station: Dobczyn}
-  - {arrival: "21:23\n</td>\n<td class=\"sepline\">\n\_", departure: '21:23', station: "Zago\u015B\
-      ciniec"}
-  - {arrival: "21:26\n</td>\n<td class=\"sepline\">\n\_", departure: '21:26', station: "Wo\u0142\
-      omin S\u0142oneczna"}
-  - {arrival: "21:30\n</td>\n<td class=\"sepline\">\n\_", departure: '21:30', station: "Wo\u0142\
-      omin"}
-  - {arrival: "21:33\n</td>\n<td class=\"sepline\">\n\_", departure: '21:33', station: "Koby\u0142\
-      ka"}
-  - {arrival: "21:36\n</td>\n<td class=\"sepline\">\n\_", departure: '21:36', station: "Koby\u0142\
-      ka Oss\xF3w"}
-  - {arrival: "21:41\n</td>\n<td class=\"sepline\">\n\_", departure: '21:41', station: Zielonka}
-  - {arrival: "21:45\n</td>\n<td class=\"sepline\">\n\_", departure: '21:45', station: "Z\u0105\
-      bki"}
-  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: "Warszawa Wile\u0144ska"}
+  - {arrival: '21:11', departure: '21:11', station: Jasienica Mazowiecka}
+  - {arrival: '21:16', departure: '21:16', station: "Klemb\xF3w"}
+  - {arrival: '21:20', departure: '21:20', station: Dobczyn}
+  - {arrival: '21:23', departure: '21:23', station: "Zago\u015Bciniec"}
+  - {arrival: '21:26', departure: '21:26', station: "Wo\u0142omin S\u0142oneczna"}
+  - {arrival: '21:30', departure: '21:30', station: "Wo\u0142omin"}
+  - {arrival: '21:33', departure: '21:33', station: "Koby\u0142ka"}
+  - {arrival: '21:36', departure: '21:36', station: "Koby\u0142ka Oss\xF3w"}
+  - {arrival: '21:41', departure: '21:41', station: Zielonka}
+  - {arrival: '21:45', departure: '21:45', station: "Z\u0105bki"}
+  - {arrival: '21:53', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

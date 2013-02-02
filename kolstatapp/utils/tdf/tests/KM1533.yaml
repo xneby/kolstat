@@ -1,7 +1,7 @@
 name: KM 1533
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:18', station: Warszawa Zach. per.8}
   - {arrival: '17:22', departure: '17:22', station: Warszawa Kasprzaka}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '18:55', departure: '18:55', station: "Go\u0142otczyzna"}
   - {arrival: '19:03', departure: '19:03', station: "Ciechan\xF3w Przemys\u0142."}
   - {arrival: '19:08', station: "Ciechan\xF3w"}
+  to: 2013-02-28
 type: train

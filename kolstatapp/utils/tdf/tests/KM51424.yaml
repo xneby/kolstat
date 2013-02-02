@@ -1,7 +1,7 @@
 name: KM 51424
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:08', station: "Dzia\u0142dowo"}
   - {arrival: '06:16', departure: '06:16', station: Narzym}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '09:00', departure: '09:00', station: "Warszawa Ko\u0142o"}
   - {arrival: '09:03', departure: '09:03', station: Warszawa Kasprzaka}
   - {arrival: '09:07', station: Warszawa Zach. per.8}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 80720
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:21', station: Czeremcha}
   - {arrival: '08:31', departure: '08:31', station: Borowiki}
@@ -42,4 +42,5 @@ operations:
   - {arrival: '12:15', departure: '12:15', station: "Klemb\xF3w"}
   - {arrival: '12:19', departure: '12:19', station: Jasienica Mazowiecka}
   - {arrival: '12:23', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

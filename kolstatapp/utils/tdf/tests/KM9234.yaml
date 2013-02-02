@@ -1,7 +1,7 @@
 name: KM 9234
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:45', station: Skierniewice}
   - {arrival: '19:52', departure: '19:52', station: Skierniewice Rawka}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '21:15', departure: '21:15', station: "Warszawa Powi\u015Ble"}
   - {arrival: '21:18', departure: '21:18', station: Warszawa Stadion}
   - {arrival: '21:20', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

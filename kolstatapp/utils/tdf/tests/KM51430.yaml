@@ -1,7 +1,7 @@
 name: KM 51430
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:15', station: "Dzia\u0142dowo"}
   - {arrival: '14:23', departure: '14:23', station: Narzym}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '16:17', departure: '16:17', station: "Warszawa Toru\u0144ska"}
   - {arrival: '16:23', departure: '16:23', station: Warszawa ZOO}
   - {arrival: '16:26', station: "Warszawa Gda\u0144ska"}
+  to: 2013-02-28
 type: train

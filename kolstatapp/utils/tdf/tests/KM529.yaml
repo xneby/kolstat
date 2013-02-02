@@ -1,7 +1,7 @@
 name: KM 529
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:00', station: "D\u0119blin"}
   - {arrival: '10:06', departure: '10:06', station: "Zajezierze k.D\u0119blina"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '10:46', departure: '10:46', station: "Antoni\xF3wka"}
   - {arrival: '10:49', departure: '10:49', station: Rajec Poduchowny}
   - {arrival: '10:57', station: Radom}
+  to: 2013-02-28
 type: train

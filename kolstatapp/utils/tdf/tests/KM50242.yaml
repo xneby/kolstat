@@ -1,7 +1,7 @@
 name: KM 50242
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:35', station: Otwock}
   - {arrival: '14:38', departure: '14:38', station: "\u015Awider"}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '16:03', departure: '16:03', station: "Jaktor\xF3w"}
   - {arrival: '16:09', departure: '16:09', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '16:14', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

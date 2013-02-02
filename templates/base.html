@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 {% load static %}
 {% load utils %}
+{% load account %}
 {% get_static_prefix as STATIC_PREFIX %}
-{% load dajaxice_templatetags %}
 <html>
 <head>
 	<meta charset="utf-8" />
@@ -17,6 +17,7 @@
 	<link type="text/css" href="{{ STATIC_PREFIX }}css/style.css" rel="stylesheet" />
 	
 	<script type="text/javascript" src="{{ STATIC_PREFIX}}js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_PREFIX}}js/common.js"></script>
 	<script type="text/javascript" src="{{ STATIC_PREFIX}}js/jquery-ui-1.8.21.custom.min.js"></script>
 
 	<script type="text/javascript">
@@ -30,8 +31,6 @@
 		$(document).ready(ready);
 	</script>	
 
-	{% dajaxice_js_import %}
-
 	{% block head %}
 
 	{% endblock %}
@@ -42,15 +41,30 @@
 	<div id="container">
 		<div id="main-menu">
 			<ul>
-				<li> <a href="{% url journey-add %}"><div>Dodaj podróż</div></a></li>
-				<li> <a href="#"><div>Planuj</div></a></li>
+				<li> <a href="{% url kolstat-plans %}"><div>Podróże</div></a></li>
+				<li> <a href="{% url kolstat-plans-new %}"><div>Planuj</div></a></li>
 				<li> <a href="{% url kolstat-trains-search %}"><div>Pociągi</div></a></li>
 				<li> <a href="{% url units-classes %}"><div>Baza taboru</div></a></li>
 				<li> <a href="#"><div>Stacje</div></a></li>
 			</ul>
 		</div>
 
+		<div id="topbar">
+			Dzisiaj jest {% now "DATE_FORMAT" %}, a Ty jesteś {% if user.is_authenticated %} {% user_display user %}.
+			<a href="{% url user-profile %}">[profil]</a> <a href="{% url account_logout %}">[wyloguj się]</a> {% else %} niezalogowany. <a href="{% url account_login %}">[zaloguj się]</a> <a href="{% url account_signup %}">[zarejestruj się]</a>{% endif %}
+
+			{% if messages %}
+				<ul class="messages">
+					{% for message in messages %}
+						<li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+
+		</div>
+
 		<div id="content">
+			{% comment %}
 			<div id="loginbox">
 				{% if not user.is_authenticated %}
 					<form action="{% url django-login %}" method="post">{% csrf_token %}
@@ -67,6 +81,7 @@
 					<p><a href="{% url django-logout %}">Wyloguj się</a></p>
 				{% endif %}
 			</div>
+			{% endcomment %}
 		{% block content %}
 		{% endblock %}
 		</div>

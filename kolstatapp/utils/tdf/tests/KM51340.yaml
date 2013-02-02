@@ -1,7 +1,7 @@
 name: KM 51340
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:42', station: Sierpc}
   - {arrival: '19:49', departure: '19:49', station: Susk}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '21:17', departure: '21:17', station: "Racibor\xF3w Kutnowski"}
   - {arrival: '21:26', departure: '21:26', station: Azory}
   - {arrival: '21:31', station: Kutno}
+  to: 2013-02-28
 type: train

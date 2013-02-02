@@ -1,7 +1,7 @@
 name: KM 9368
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:22', station: Grodzisk Maz. (PKP)}
   - {arrival: '20:27', departure: '20:27', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '21:04', departure: '21:04', station: "Warszawa Powi\u015Ble"}
   - {arrival: '21:07', departure: '21:07', station: Warszawa Stadion}
   - {arrival: '21:09', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

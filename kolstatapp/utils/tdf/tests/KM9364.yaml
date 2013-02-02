@@ -1,7 +1,7 @@
 name: KM 9364
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:16', station: Grodzisk Maz. (PKP)}
   - {arrival: '19:21', departure: '19:21', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '19:57', departure: '19:57', station: "Warszawa Powi\u015Ble"}
   - {arrival: '20:00', departure: '20:00', station: Warszawa Stadion}
   - {arrival: '20:02', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

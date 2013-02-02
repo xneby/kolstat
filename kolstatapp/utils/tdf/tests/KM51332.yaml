@@ -1,7 +1,7 @@
 name: KM 51332
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:08', station: Sierpc}
   - {arrival: '08:15', departure: '08:15', station: Susk}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '09:56', departure: '09:56', station: "Racibor\xF3w Kutnowski"}
   - {arrival: '10:04', departure: '10:04', station: Azory}
   - {arrival: '10:10', station: Kutno}
+  to: 2013-02-28
 type: train

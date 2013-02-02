@@ -1,7 +1,7 @@
 name: KM 339
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:30', station: Warszawa Wschodnia}
   - {arrival: '08:32', departure: '08:32', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '09:09', departure: '09:09', station: "Brwin\xF3w"}
   - {arrival: '09:14', departure: '09:14', station: "Milan\xF3wek"}
   - {arrival: '09:18', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

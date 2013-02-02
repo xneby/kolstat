@@ -1,7 +1,7 @@
 name: KM 131
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:37', station: Warszawa Wschodnia}
   - {arrival: '14:40', departure: '14:40', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '15:39', departure: '15:49', station: "Czach\xF3wek P\u0142d."}
   - {arrival: '15:53', departure: '15:53', station: "Czach\xF3wek Wsch."}
   - {arrival: '16:06', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

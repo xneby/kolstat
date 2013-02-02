@@ -1,7 +1,7 @@
 name: KM 12532
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:01', station: "T\u0142uszcz"}
   - {arrival: '08:06', departure: '08:06', station: Jasienica Mazowiecka}
@@ -40,4 +40,5 @@ operations:
   - {arrival: '10:26', departure: '10:26', station: Michalczew}
   - {arrival: '10:31', departure: '10:31', station: "Go\u015Bniewice"}
   - {arrival: '10:35', station: Warka}
+  to: 2013-02-28
 type: train

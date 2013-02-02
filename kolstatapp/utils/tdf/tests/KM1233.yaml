@@ -1,7 +1,7 @@
 name: KM 1233
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:35', station: Warszawa Zachodnia}
   - {arrival: '14:38', departure: '14:38', station: Warszawa Ochota}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '16:40', departure: '16:40', station: "\u017Byczyn"}
   - {arrival: '16:44', departure: '16:44', station: Rokitnia Stara}
   - {arrival: '16:50', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

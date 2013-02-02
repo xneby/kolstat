@@ -1,7 +1,7 @@
 name: KM 7727
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:30', station: "Warszawa Wile\u0144ska"}
   - {arrival: '09:38', departure: '09:38', station: "Z\u0105bki"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '10:06', departure: '10:06', station: "Klemb\xF3w"}
   - {arrival: '10:10', departure: '10:10', station: Jasienica Mazowiecka}
   - {arrival: '10:13', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

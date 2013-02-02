@@ -1,7 +1,7 @@
 name: KM 451
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:18', station: Warszawa Wschodnia}
   - {arrival: '14:21', departure: '14:21', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '15:14', departure: '15:23', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '15:27', departure: '15:27', station: Piasecznica}
   - {arrival: '15:32', station: Sochaczew}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 9802
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:54', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '06:59', departure: '06:59', station: "Wrzos\xF3w"}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '07:46', departure: '07:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '07:48', departure: '07:48', station: Warszawa Ochota}
   - {arrival: '07:51', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

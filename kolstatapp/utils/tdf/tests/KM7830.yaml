@@ -1,7 +1,7 @@
 name: KM 7830
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:13', station: "\u0141och\xF3w"}
   - {arrival: '19:17', departure: '19:17', station: "Barch\xF3w"}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '20:15', departure: '20:15', station: Zielonka}
   - {arrival: '20:19', departure: '20:19', station: "Z\u0105bki"}
   - {arrival: '20:27', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

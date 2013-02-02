@@ -1,7 +1,7 @@
 name: KM 21540
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:27', station: Radom}
   - {arrival: '03:40', departure: '03:40', station: "Lesi\xF3w"}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '06:28', departure: '06:28', station: "J\xF3zef\xF3w"}
   - {arrival: '06:31', departure: '06:31', station: "\u015Awider"}
   - {arrival: '06:34', station: Otwock}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7643
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:05', station: "Warszawa Wile\u0144ska"}
   - {arrival: '17:13', departure: '17:13', station: "Z\u0105bki"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '17:21', departure: '17:21', station: "Koby\u0142ka Oss\xF3w"}
   - {arrival: '17:24', departure: '17:24', station: "Koby\u0142ka"}
   - {arrival: '17:28', station: "Wo\u0142omin"}
+  to: 2013-02-28
 type: train

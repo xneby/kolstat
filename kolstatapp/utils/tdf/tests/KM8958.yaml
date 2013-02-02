@@ -1,7 +1,7 @@
 name: KM 8958
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:53', station: Siedlce}
   - {arrival: '22:57', departure: '22:57', station: Siedlce Zachodnie}
@@ -29,4 +29,5 @@ operations:
   - {arrival: '00:32', departure: '00:32', station: Warszawa Wschodnia}
   - {arrival: '00:39', departure: '00:47', station: Warszawa Centralna}
   - {arrival: '00:52', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

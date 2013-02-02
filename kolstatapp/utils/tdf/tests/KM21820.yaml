@@ -1,7 +1,7 @@
 name: KM 21820
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:53', station: Radom}
   - {arrival: '04:06', departure: '04:06', station: "Lesi\xF3w"}
@@ -47,4 +47,5 @@ operations:
   - {arrival: '07:00', departure: '07:00', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '07:03', departure: '07:03', station: "Wrzos\xF3w"}
   - {arrival: '07:08', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

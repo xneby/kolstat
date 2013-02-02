@@ -1,7 +1,7 @@
 name: KM 70820
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:51', station: "T\u0142uszcz"}
   - {arrival: '10:56', departure: '10:56', station: Jasienica Mazowiecka}
@@ -42,4 +42,5 @@ operations:
   - {arrival: '15:00', departure: '15:00', station: Nowy Nurzec}
   - {arrival: '15:04', departure: '15:04', station: Borowiki}
   - {arrival: '15:14', station: Czeremcha}
+  to: 2013-02-28
 type: train

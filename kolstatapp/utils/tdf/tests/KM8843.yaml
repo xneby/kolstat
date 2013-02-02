@@ -1,7 +1,7 @@
 name: KM 8843
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:15', station: Siedlce}
   - {arrival: '14:19', departure: '14:19', station: Siedlce Wschodnie}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '14:36', departure: '14:36', station: "Radomy\u015Bl"}
   - {arrival: '14:40', departure: '14:40', station: "Krynka \u0141ukowska"}
   - {arrival: '14:47', station: "\u0141uk\xF3w"}
+  to: 2013-02-28
 type: train

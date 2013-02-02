@@ -1,7 +1,7 @@
 name: KM 8033
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:25', station: Warszawa Zachodnia}
   - {arrival: '10:28', departure: '10:28', station: Warszawa Ochota}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '12:00', departure: '12:00', station: Sabinka}
   - {arrival: '12:05', departure: '12:05', station: Siedlce Zachodnie}
   - {arrival: '12:11', station: Siedlce}
+  to: 2013-02-28
 type: train

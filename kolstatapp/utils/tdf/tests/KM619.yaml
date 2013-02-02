@@ -1,7 +1,7 @@
 name: KM 619
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:18', station: Warszawa Zach. per.8}
   - {arrival: '20:21', departure: '20:21', station: Warszawa Kasprzaka}
@@ -23,4 +23,5 @@ operations:
   - {arrival: '21:21', departure: '21:21', station: Brody Warszawskie}
   - {arrival: '21:24', departure: '21:24', station: Studzianki Nowe}
   - {arrival: '21:28', station: Nasielsk}
+  to: 2013-02-28
 type: train

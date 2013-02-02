@@ -1,7 +1,7 @@
 name: KM 31320
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '02:08', station: Warszawa Zachodnia}
   - {arrival: '02:13', departure: '02:15', station: Warszawa Centralna}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '02:38', departure: '02:38', station: Legionowo}
   - {arrival: '02:48', departure: '02:48', station: "Nowy Dw\xF3r Mazowiecki"}
   - {arrival: '02:52', station: Modlin}
+  to: 2013-02-28
 type: train

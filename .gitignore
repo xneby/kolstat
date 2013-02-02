@@ -4,4 +4,6 @@
 local_settings.py
 static/*
 db/*
-
+.gitignore
+listy/*
+kolstat/kolstatapp/planner/gen_graph/graph.out

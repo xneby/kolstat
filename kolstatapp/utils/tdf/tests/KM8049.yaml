@@ -1,7 +1,7 @@
 name: KM 8049
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:25', station: Warszawa Zachodnia}
   - {arrival: '17:28', departure: '17:28', station: Warszawa Ochota}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '19:00', departure: '19:00', station: Sabinka}
   - {arrival: '19:05', departure: '19:05', station: Siedlce Zachodnie}
   - {arrival: '19:11', station: Siedlce}
+  to: 2013-02-28
 type: train

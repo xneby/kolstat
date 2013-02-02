@@ -1,7 +1,7 @@
 name: KM 9342
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:19', station: Grodzisk Maz. (PKP)}
   - {arrival: '07:23', departure: '07:23', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '08:00', departure: '08:00', station: "Warszawa Powi\u015Ble"}
   - {arrival: '08:03', departure: '08:03', station: Warszawa Stadion}
   - {arrival: '08:05', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

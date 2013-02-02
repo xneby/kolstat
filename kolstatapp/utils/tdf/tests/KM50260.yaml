@@ -1,7 +1,7 @@
 name: KM 50260
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:35', station: Otwock}
   - {arrival: '15:38', departure: '15:38', station: "\u015Awider"}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '17:07', departure: '17:07', station: "Jaktor\xF3w"}
   - {arrival: '17:14', departure: '17:14', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '17:18', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

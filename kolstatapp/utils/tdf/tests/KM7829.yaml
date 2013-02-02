@@ -1,7 +1,7 @@
 name: KM 7829
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:05', station: "Warszawa Wile\u0144ska"}
   - {arrival: '16:13', departure: '16:13', station: "Z\u0105bki"}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '17:07', departure: '17:07', station: Urle}
   - {arrival: '17:11', departure: '17:11', station: "Barch\xF3w"}
   - {arrival: '17:14', station: "\u0141och\xF3w"}
+  to: 2013-02-28
 type: train

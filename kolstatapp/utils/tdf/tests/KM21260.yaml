@@ -1,7 +1,7 @@
 name: KM 21260
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:23', station: Radom}
   - {arrival: '22:36', departure: '22:36', station: "Lesi\xF3w"}
@@ -33,4 +33,5 @@ operations:
   - {arrival: '00:48', departure: '00:48', station: Warszawa Zachodnia}
   - {arrival: '00:52', departure: '00:53', station: Warszawa Centralna}
   - {arrival: '01:00', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

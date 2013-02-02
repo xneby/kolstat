@@ -1,7 +1,7 @@
 name: KM 135
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:37', station: Warszawa Wschodnia}
   - {arrival: '17:40', departure: '17:40', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '18:39', departure: '18:49', station: "Czach\xF3wek P\u0142d."}
   - {arrival: '18:53', departure: '18:53', station: "Czach\xF3wek Wsch."}
   - {arrival: '19:06', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

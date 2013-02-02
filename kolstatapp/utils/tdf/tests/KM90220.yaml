@@ -1,7 +1,7 @@
 name: KM 90220
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:05', station: "Warszawa Rembert\xF3w"}
   - {arrival: '07:15', departure: '07:15', station: Warszawa Wschodnia}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '08:08', departure: '08:08', station: "Jaktor\xF3w"}
   - {arrival: '08:14', departure: '08:14', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '08:18', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

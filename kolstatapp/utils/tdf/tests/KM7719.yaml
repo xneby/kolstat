@@ -1,7 +1,7 @@
 name: KM 7719
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:00', station: "Warszawa Wile\u0144ska"}
   - {arrival: '07:08', departure: '07:08', station: "Z\u0105bki"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '07:36', departure: '07:36', station: "Klemb\xF3w"}
   - {arrival: '07:40', departure: '07:40', station: Jasienica Mazowiecka}
   - {arrival: '07:43', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 9728
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:35', station: "T\u0142uszcz"}
   - {arrival: '08:40', departure: '08:40', station: Jasienica Mazowiecka}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '09:42', departure: '09:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '09:44', departure: '09:44', station: Warszawa Ochota}
   - {arrival: '09:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

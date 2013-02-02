@@ -1,7 +1,7 @@
 name: KM 343
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:11', station: Warszawa Wschodnia}
   - {arrival: '11:13', departure: '11:13', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '11:48', departure: '11:48', station: "Brwin\xF3w"}
   - {arrival: '11:52', departure: '11:52', station: "Milan\xF3wek"}
   - {arrival: '11:56', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

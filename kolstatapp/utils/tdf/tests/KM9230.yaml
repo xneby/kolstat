@@ -1,7 +1,7 @@
 name: KM 9230
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:58', station: "\u017Byrard\xF3w"}
   - {arrival: '17:03', departure: '17:03', station: "Mi\u0119dzybor\xF3w"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '17:57', departure: '17:57', station: "Warszawa Powi\u015Ble"}
   - {arrival: '18:00', departure: '18:00', station: Warszawa Stadion}
   - {arrival: '18:02', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 77030
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:32', station: Radom}
   - {arrival: '08:41', departure: '08:41', station: "Radom Potkan\xF3w"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '09:12', departure: '09:12', station: Wieniawa}
   - {arrival: '09:19', departure: '09:19', station: Skrzynno}
   - {arrival: '09:26', station: Przysucha}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7760
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:36', station: "T\u0142uszcz"}
   - {arrival: '16:41', departure: '16:41', station: Jasienica Mazowiecka}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '17:11', departure: '17:11', station: Zielonka}
   - {arrival: '17:15', departure: '17:15', station: "Z\u0105bki"}
   - {arrival: '17:23', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

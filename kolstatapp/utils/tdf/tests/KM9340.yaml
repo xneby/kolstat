@@ -1,7 +1,7 @@
 name: KM 9340
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:35', station: Grodzisk Maz. (PKP)}
   - {arrival: '06:39', departure: '06:39', station: "Milan\xF3wek"}
@@ -27,4 +27,5 @@ operations:
   - {arrival: '07:55', departure: '07:55', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '07:58', departure: '07:58', station: "Wrzos\xF3w"}
   - {arrival: '08:04', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

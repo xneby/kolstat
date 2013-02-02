@@ -1,7 +1,7 @@
 name: KM 601
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:12', station: Warszawa Zach. per.8}
   - {arrival: '06:16', departure: '06:16', station: Warszawa Kasprzaka}
@@ -23,4 +23,5 @@ operations:
   - {arrival: '07:17', departure: '07:17', station: Brody Warszawskie}
   - {arrival: '07:20', departure: '07:20', station: Studzianki Nowe}
   - {arrival: '07:23', station: Nasielsk}
+  to: 2013-02-28
 type: train

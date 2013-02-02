@@ -1,7 +1,7 @@
 name: KM 1525
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:12', station: Warszawa Zach. per.8}
   - {arrival: '10:15', departure: '10:15', station: Warszawa Kasprzaka}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '11:48', departure: '11:48', station: "Go\u0142otczyzna"}
   - {arrival: '11:56', departure: '11:56', station: "Ciechan\xF3w Przemys\u0142."}
   - {arrival: '12:00', station: "Ciechan\xF3w"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7946
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:19', station: "Ma\u0142kinia"}
   - {arrival: '16:25', departure: '16:25', station: "Prosty\u0144"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '17:51', departure: '17:51', station: Zielonka}
   - {arrival: '17:55', departure: '17:55', station: "Z\u0105bki"}
   - {arrival: '18:03', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

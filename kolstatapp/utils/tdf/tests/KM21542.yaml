@@ -1,7 +1,7 @@
 name: KM 21542
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:53', station: Radom}
   - {arrival: '08:06', departure: '08:06', station: "Lesi\xF3w"}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '10:58', departure: '10:58', station: "J\xF3zef\xF3w"}
   - {arrival: '11:01', departure: '11:01', station: "\u015Awider"}
   - {arrival: '11:04', station: Otwock}
+  to: 2013-02-28
 type: train

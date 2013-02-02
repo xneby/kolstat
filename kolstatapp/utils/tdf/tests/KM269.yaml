@@ -1,7 +1,7 @@
 name: KM 269
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:11', station: Warszawa Wschodnia}
   - {arrival: '17:13', departure: '17:13', station: Warszawa Stadion}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '18:06', departure: '18:06', station: "Jaktor\xF3w"}
   - {arrival: '18:13', departure: '18:13', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '18:17', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 90480
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:16', station: "Warszawa Rembert\xF3w"}
   - {arrival: '07:26', departure: '07:26', station: Warszawa Wschodnia}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '07:59', departure: '07:59', station: "O\u017Car\xF3w Mazowiecki"}
   - {arrival: '08:04', departure: '08:04', station: "P\u0142ochocin"}
   - {arrival: '08:09', station: "B\u0142onie"}
+  to: 2013-02-28
 type: train

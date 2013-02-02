@@ -1,7 +1,7 @@
 name: KM 40820
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:25', station: "B\u0142onie"}
   - {arrival: '08:30', departure: '08:30', station: "P\u0142ochocin"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '09:43', departure: '09:43', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '09:46', departure: '09:46', station: "Wrzos\xF3w"}
   - {arrival: '09:51', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

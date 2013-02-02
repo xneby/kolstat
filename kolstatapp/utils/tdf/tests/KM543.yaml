@@ -1,43 +1,20 @@
+mode: normal
 name: KM 543
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '21:22', station: "D\u0119blin"}
-  - {arrival: "21:28\n</td>\n<td class=\"sepline\">\n\_", departure: '21:28', station: "Zajezierze\
-      \ k.D\u0119blina"}
-  - {arrival: "21:36\n</td>\n<td class=\"sepline\">\n\_", departure: '21:36', station: "B\u0105\
-      kowiec"}
-  - {arrival: "21:42\n</td>\n<td class=\"sepline\">\n\_", departure: '21:42', station: Garbatka
-      Letnisko}
-  - {arrival: "21:47\n</td>\n<td class=\"sepline\">\n\_", departure: '21:47', station: "\u017B\
-      ytkowice"}
-  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:53', station: Pionki}
-  - {arrival: "21:55\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:55', station: Pionki Zach.}
-  - {arrival: "21:59\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:59', station: "Jedlnia Ko\u015Bcielna"}
-  - {arrival: "22:04\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:04', station: Jedlnia Letnisko}
-  - {arrival: "22:08\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:08', station: "Antoni\xF3wka"}
-  - {arrival: "22:11\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:11', station: Rajec Poduchowny}
-  - {arrival: "22:19\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: Radom}
+  - {arrival: '21:28', departure: '21:28', station: "Zajezierze k.D\u0119blina"}
+  - {arrival: '21:36', departure: '21:36', station: "B\u0105kowiec"}
+  - {arrival: '21:42', departure: '21:42', station: Garbatka Letnisko}
+  - {arrival: '21:47', departure: '21:47', station: "\u017Bytkowice"}
+  - {arrival: '21:53', departure: '21:53', station: Pionki}
+  - {arrival: '21:55', departure: '21:55', station: Pionki Zach.}
+  - {arrival: '21:59', departure: '21:59', station: "Jedlnia Ko\u015Bcielna"}
+  - {arrival: '22:04', departure: '22:04', station: Jedlnia Letnisko}
+  - {arrival: '22:08', departure: '22:08', station: "Antoni\xF3wka"}
+  - {arrival: '22:11', departure: '22:11', station: Rajec Poduchowny}
+  - {arrival: '22:19', station: Radom}
+  to: 2013-02-28
 type: train

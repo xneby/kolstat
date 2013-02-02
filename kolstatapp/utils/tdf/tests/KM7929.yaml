@@ -1,7 +1,7 @@
 name: KM 7929
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:50', station: "Warszawa Wile\u0144ska"}
   - {arrival: '07:58', departure: '07:58', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '09:19', departure: '09:19', station: "Sadowne W\u0119growskie"}
   - {arrival: '09:28', departure: '09:28', station: "Prosty\u0144"}
   - {arrival: '09:35', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

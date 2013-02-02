@@ -69,3 +69,24 @@ class UnitAdmin(admin.ModelAdmin):
 	list_display = ('name', 'evn', 'unitclass', 'producer', 'yearofbuild')
 	list_filter = ('unitclass', 'producer', 'yearofbuild')
 admin.site.register(models.Unit, UnitAdmin)
+
+def reject_change(modeladm, request, queryset):
+	queryset.update(state = 'REJ')
+reject_change.short_description = 'Odrzuć bez podania przyczyny'
+
+def accept_change(modeladm, request, queryset):
+	for q in queryset:
+		q.accept()
+accept_change.short_description = 'Zatwierdź bez podania przyczyny'
+
+class UserProfileChangeAdmin(admin.ModelAdmin):
+	list_display = ('user', 'field_name', 'current_value', 'new_value', 'state')
+	list_filter = ('state', )
+	actions = reject_change, accept_change
+
+admin.site.register(models.UserProfileChange, UserProfileChangeAdmin)
+
+class FavPictogramAdmin(admin.ModelAdmin):
+	list_display = ('name', )
+
+admin.site.register(models.FavPictogram, FavPictogramAdmin)

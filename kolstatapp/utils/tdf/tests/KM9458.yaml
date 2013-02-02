@@ -1,7 +1,7 @@
 name: KM 9458
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:28', station: Sochaczew}
   - {arrival: '20:34', departure: '20:34', station: Piasecznica}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '21:26', departure: '21:26', station: "Warszawa Powi\u015Ble"}
   - {arrival: '21:29', departure: '21:29', station: Warszawa Stadion}
   - {arrival: '21:31', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

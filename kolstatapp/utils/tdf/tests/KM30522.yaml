@@ -1,7 +1,7 @@
 name: KM 30522
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:33', station: Grodzisk Maz. (PKP)}
   - {arrival: '18:37', departure: '18:37', station: "Milan\xF3wek"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '19:50', departure: '19:50', station: "J\xF3zef\xF3w"}
   - {arrival: '19:53', departure: '19:53', station: "\u015Awider"}
   - {arrival: '19:56', station: Otwock}
+  to: 2013-02-28
 type: train

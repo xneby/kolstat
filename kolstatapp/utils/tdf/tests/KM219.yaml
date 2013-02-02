@@ -1,7 +1,7 @@
 name: KM 219
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:45', station: Warszawa Wschodnia}
   - {arrival: '11:47', departure: '11:47', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '13:05', departure: '13:05', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '13:10', departure: '13:10', station: Skierniewice Rawka}
   - {arrival: '13:16', station: Skierniewice}
+  to: 2013-02-28
 type: train

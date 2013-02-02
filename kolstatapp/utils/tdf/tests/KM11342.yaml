@@ -1,7 +1,7 @@
 name: KM 11342
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:47', station: Warszawa Lot. Chopina}
   - {arrival: '15:50', departure: '15:50', station: "Warszawa S\u0142u\u017Cewiec"}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '16:43', departure: '16:43', station: "Chotom\xF3w"}
   - {arrival: '16:50', departure: '16:50', station: "Nowy Dw\xF3r Mazowiecki"}
   - {arrival: '16:54', station: Modlin}
+  to: 2013-02-28
 type: train

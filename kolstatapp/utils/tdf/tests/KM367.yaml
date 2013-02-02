@@ -1,7 +1,7 @@
 name: KM 367
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:37', station: Warszawa Wschodnia}
   - {arrival: '18:40', departure: '18:40', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '19:18', departure: '19:18', station: "Brwin\xF3w"}
   - {arrival: '19:22', departure: '19:22', station: "Milan\xF3wek"}
   - {arrival: '19:26', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

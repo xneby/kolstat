@@ -1,7 +1,7 @@
 name: KM 90320
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:31', station: "Warszawa Rembert\xF3w"}
   - {arrival: '16:41', departure: '16:41', station: Warszawa Wschodnia}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '17:18', departure: '17:18', station: "Brwin\xF3w"}
   - {arrival: '17:22', departure: '17:22', station: "Milan\xF3wek"}
   - {arrival: '17:26', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

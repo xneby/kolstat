@@ -1,7 +1,7 @@
 name: KM 12820
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:24', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '05:29', departure: '05:29', station: "Wrzos\xF3w"}
@@ -47,4 +47,5 @@ operations:
   - {arrival: '08:32', departure: '08:32', station: Bartodzieje}
   - {arrival: '08:38', departure: '08:38', station: "Lesi\xF3w"}
   - {arrival: '08:51', station: Radom}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 20820
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:00', station: "\u017Byrard\xF3w"}
   - {arrival: '15:05', departure: '15:05', station: "Mi\u0119dzybor\xF3w"}
@@ -35,4 +35,5 @@ operations:
   - {arrival: '16:59', departure: '16:59', station: Mienia}
   - {arrival: '17:02', departure: '17:02', station: "Ceg\u0142\xF3w"}
   - {arrival: '17:07', station: Mrozy}
+  to: 2013-02-28
 type: train

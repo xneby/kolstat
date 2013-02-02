@@ -1,41 +1,24 @@
+mode: normal
 name: KM 9270
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:52', station: "\u017Byrard\xF3w"}
-  - {arrival: "20:58\n</td>\n<td class=\"sepline\">\n\_", departure: '20:58', station: "Mi\u0119\
-      dzybor\xF3w"}
-  - {arrival: "21:05\n</td>\n<td class=\"sepline\">\n\_", departure: '21:05', station: "Jaktor\xF3\
-      w"}
-  - {arrival: "21:12\n</td>\n<td class=\"sepline\">\n\_", departure: '21:12', station: Grodzisk
-      Maz. (PKP)}
-  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "Milan\xF3\
-      wek"}
-  - {arrival: "21:20\n</td>\n<td class=\"sepline\">\n\_", departure: '21:20', station: "Brwin\xF3\
-      w"}
-  - {arrival: "21:26\n</td>\n<td class=\"sepline\">\n\_", departure: '21:26', station: "Pruszk\xF3\
-      w"}
-  - {arrival: "21:30\n</td>\n<td class=\"sepline\">\n\_", departure: '21:30', station: "Piast\xF3\
-      w"}
-  - {arrival: "21:35\n</td>\n<td class=\"sepline\">\n\_", departure: '21:35', station: Warszawa
-      Ursus}
-  - {arrival: "21:38\n</td>\n<td class=\"sepline\">\n\_", departure: '21:38', station: "Warszawa\
-      \ W\u0142ochy"}
-  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: Warszawa
-      Zachodnia}
-  - {arrival: "21:47\n</td>\n<td class=\"sepline\">\n\_", departure: '21:47', station: Warszawa
-      Ochota}
-  - {arrival: "21:50\n</td>\n<td class=\"sepline\">\n\_", departure: '21:50', station: "Warszawa\
-      \ \u015Ar\xF3dm. (PKP)"}
-  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n\_", departure: '21:53', station: "Warszawa\
-      \ Powi\u015Ble"}
-  - {arrival: "21:56\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:56', station: Warszawa Stadion}
-  - {arrival: "21:58\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: Warszawa Wschodnia}
+  - {arrival: '20:58', departure: '20:58', station: "Mi\u0119dzybor\xF3w"}
+  - {arrival: '21:05', departure: '21:05', station: "Jaktor\xF3w"}
+  - {arrival: '21:12', departure: '21:12', station: Grodzisk Maz. (PKP)}
+  - {arrival: '21:16', departure: '21:16', station: "Milan\xF3wek"}
+  - {arrival: '21:20', departure: '21:20', station: "Brwin\xF3w"}
+  - {arrival: '21:26', departure: '21:26', station: "Pruszk\xF3w"}
+  - {arrival: '21:30', departure: '21:30', station: "Piast\xF3w"}
+  - {arrival: '21:35', departure: '21:35', station: Warszawa Ursus}
+  - {arrival: '21:38', departure: '21:38', station: "Warszawa W\u0142ochy"}
+  - {arrival: '21:44', departure: '21:44', station: Warszawa Zachodnia}
+  - {arrival: '21:47', departure: '21:47', station: Warszawa Ochota}
+  - {arrival: '21:50', departure: '21:50', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '21:53', departure: '21:53', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '21:56', departure: '21:56', station: Warszawa Stadion}
+  - {arrival: '21:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

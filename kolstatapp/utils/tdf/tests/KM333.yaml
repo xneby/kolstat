@@ -1,7 +1,7 @@
 name: KM 333
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:03', station: Warszawa Wschodnia}
   - {arrival: '05:06', departure: '05:06', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '05:41', departure: '05:41', station: "Brwin\xF3w"}
   - {arrival: '05:45', departure: '05:45', station: "Milan\xF3wek"}
   - {arrival: '05:49', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

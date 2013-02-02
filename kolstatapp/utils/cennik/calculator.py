@@ -58,3 +58,11 @@ def calculate(plan, discounts):
 
 	return oplaty[-1]
 	
+def calc_price(op):
+	return sum(map(lambda x: x[-1], op))
+
+def plan_from_connection(conn):
+	plan = []
+	for s in conn.sections:
+		plan.append((s.train, s.stops[0], s.stops[-1]))
+	return plan

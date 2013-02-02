@@ -1,7 +1,7 @@
 name: KM 231
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:41', station: Warszawa Wschodnia}
   - {arrival: '15:43', departure: '15:43', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '17:01', departure: '17:01', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '17:06', departure: '17:06', station: Skierniewice Rawka}
   - {arrival: '17:12', station: Skierniewice}
+  to: 2013-02-28
 type: train

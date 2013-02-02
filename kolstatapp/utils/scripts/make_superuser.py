@@ -4,7 +4,7 @@
 import os,sys
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
-sys.path.extend(('../..', '../../..'))
+sys.path.extend(('../../..', '../../../..'))
 
 from django.contrib.auth.models import User
 

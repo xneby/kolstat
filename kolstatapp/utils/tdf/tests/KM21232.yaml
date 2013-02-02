@@ -1,7 +1,7 @@
 name: KM 21232
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:44', station: Radom}
   - {arrival: '06:57', departure: '06:57', station: "Lesi\xF3w"}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '09:23', departure: '09:23', station: "Warszawa Powi\u015Ble"}
   - {arrival: '09:26', departure: '09:26', station: Warszawa Stadion}
   - {arrival: '09:28', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 503
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:06', station: Warszawa Zachodnia}
   - {arrival: '11:10', departure: '11:10', station: Warszawa Ochota}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '11:50', departure: '11:50', station: "J\xF3zef\xF3w"}
   - {arrival: '11:53', departure: '11:53', station: "\u015Awider"}
   - {arrival: '11:56', station: Otwock}
+  to: 2013-02-28
 type: train

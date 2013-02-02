@@ -1,7 +1,7 @@
 name: KM 7957
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:45', station: "Warszawa Wile\u0144ska"}
   - {arrival: '22:53', departure: '22:53', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '00:11', departure: '00:11', station: "Sadowne W\u0119growskie"}
   - {arrival: '00:20', departure: '00:20', station: "Prosty\u0144"}
   - {arrival: '00:28', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

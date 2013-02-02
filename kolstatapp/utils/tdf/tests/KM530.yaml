@@ -1,7 +1,7 @@
 name: KM 530
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:40', station: Radom}
   - {arrival: '12:47', departure: '12:47', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '13:22', departure: '13:22', station: "B\u0105kowiec"}
   - {arrival: '13:29', departure: '13:29', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '13:35', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

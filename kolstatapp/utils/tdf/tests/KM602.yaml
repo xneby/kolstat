@@ -1,7 +1,7 @@
 name: KM 602
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:39', station: Nasielsk}
   - {arrival: '05:43', departure: '05:43', station: Studzianki Nowe}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '06:27', departure: '06:27', station: Warszawa Praga}
   - {arrival: '06:31', departure: '06:31', station: Warszawa ZOO}
   - {arrival: '06:34', station: "Warszawa Gda\u0144ska"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 20920
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:21', station: Skierniewice}
   - {arrival: '04:27', departure: '04:27', station: Skierniewice Rawka}
@@ -25,4 +25,5 @@ operations:
   - {arrival: '05:52', departure: '05:52', station: Warszawa Stadion}
   - {arrival: '05:54', departure: '05:55', station: Warszawa Wschodnia}
   - {arrival: '06:05', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

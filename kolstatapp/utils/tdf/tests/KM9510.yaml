@@ -1,7 +1,7 @@
 name: KM 9510
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:27', station: Otwock}
   - {arrival: '11:30', departure: '11:30', station: "\u015Awider"}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '12:12', departure: '12:12', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '12:14', departure: '12:14', station: Warszawa Ochota}
   - {arrival: '12:17', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

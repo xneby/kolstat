@@ -1,7 +1,7 @@
 name: KM 9556
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:17', station: Pilawa}
   - {arrival: '09:21', departure: '09:21', station: "August\xF3wka"}
@@ -30,4 +30,5 @@ operations:
   - {arrival: '10:42', departure: '10:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '10:44', departure: '10:44', station: Warszawa Ochota}
   - {arrival: '10:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

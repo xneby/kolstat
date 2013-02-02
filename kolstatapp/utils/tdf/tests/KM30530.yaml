@@ -1,7 +1,7 @@
 name: KM 30530
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:59', station: Grodzisk Maz. (PKP)}
   - {arrival: '08:03', departure: '08:03', station: "Milan\xF3wek"}
@@ -37,4 +37,5 @@ operations:
   - {arrival: '09:49', departure: '09:49', station: "Zabie\u017Cki"}
   - {arrival: '09:53', departure: '09:53', station: "August\xF3wka"}
   - {arrival: '09:57', station: Pilawa}
+  to: 2013-02-28
 type: train

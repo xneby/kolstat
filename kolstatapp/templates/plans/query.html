@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% load utils %}
+{% load plan_extras %}
+
+{% block title %}- wyniki zapytania{% endblock %}
+
+{% block head %}
+<script type="text/javascript">
+
+	var connNum = {{ conn|length }};
+
+	function prepare(){
+		for(var i = 1; i <= connNum; i++){
+			$('#a_show' + i).click((function(i){ return function(){
+				$('#a_details' + i).slideToggle();
+				return false;
+				}})(i)).show();
+			$('#a_details' + i).hide();
+		}
+	}
+	
+	$(document).ready(prepare);
+	
+</script>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="query">
+<p><b>Szczegóły zapytania</b></p>
+<p>Trasa: {{ source.get_pretty_name }} -- {{ destination.get_pretty_name }}</p>
+<p>Kiedy: {{ when }}</p>
+
+
+<p><b>Wyniki zapytania</b></p>
+</div>
+{% if conn %}
+
+{% for x in conn %}
+<div class="query_result">
+	<table class="overview">
+		<tr>
+			<td class="departure">{{ x.source.get_pretty_name }} <span class="time">{{ x.departure }}</span></td>
+			<td class="arrival">{{ x.destination.get_pretty_name }} <span class="time">{{ x.arrival }}</span></td>
+		</tr>
+		<tr>
+			<td class="departure"><span class="vmiddle">Środki lokomocji:</span> {% for s in x.sections %}<a href="#"><img class="category" src="{{ s.train.category.url }}" alt="{{ s.train.category }} {{ s.train.number }}"/></a>{% endfor %}</td>
+	{% if x.transfers %}
+		<td class="departure">Przesiadki: {% if x.transfers|length > 1 %}<br />{% endif %}
+		{% for s in x.transfers %} {{ s.station.get_pretty_name }} ({{ s.time|timedelta }})
+		{% if x.transfers > 1 and not forloop.last %}<br /> {% endif %}{% endfor %}</td>
+	{% else %}
+		<td />
+	{% endif %}
+		<tr><td colspan="2"><a style="display: none" href="#" id="a_show{{ forloop.counter }}">pokaż szczegóły</a></td></tr>
+	</table>
+
+	<div class="details" id="a_details{{ forloop.counter }}">
+		<table class="sections">
+			{% for s in x.sections %}
+				<tr>
+					<td class="train">{{ s.train.category}} {{s.train.number}}</td>
+					<td class="station">{{ s.source.get_pretty_name}}</td>
+					<td class="time">{{ s.departure }}</td>
+					<td />
+					<td class="tivia"> S = {{ s.distance|floatformat:"0" }} km </td>
+				</tr>
+				<tr>
+					<td colspan="2" />
+					<td class="time">{{ s.arrival }}</td>
+					<td class="station"> {{ s.destination.get_pretty_name }}</td>
+					<td class="trivia"> V<sub>śr</sub> = {{ s.average_velocity|floatformat:"0" }} km/h </td>
+				</tr>
+				<tr class="seperator"><td colspan="5">&nbsp;</td></tr>
+			{% endfor %}
+			<tr class="info">
+				<td colspan="5">S = {{ x.distance|floatformat:"3" }} km </td>
+			</tr>
+			<tr class="info">
+				<td colspan="5">V<sub>śr</sub> = {{ x.average_velocity|floatformat:"3" }} km/h </td>
+			</tr>
+			<tr class="info">
+				<td colspan="5">Cena biletu: {% get_price x user.get_profile.discounts.all %} zł (<a href="#">szczegóły</a>)</td>
+			</tr>
+		</table>
+	</div>
+</div>
+{% endfor %}
+
+{% else %}
+
+<p>Niestety, nie znaleziono połączeń.</p>
+
+{% endif %}
+
+{% endblock %}

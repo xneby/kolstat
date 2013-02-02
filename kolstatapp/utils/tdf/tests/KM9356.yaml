@@ -1,7 +1,7 @@
 name: KM 9356
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:07', station: Grodzisk Maz. (PKP)}
   - {arrival: '14:12', departure: '14:12', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '14:48', departure: '14:48', station: "Warszawa Powi\u015Ble"}
   - {arrival: '14:51', departure: '14:51', station: Warszawa Stadion}
   - {arrival: '14:53', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

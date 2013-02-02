@@ -1,7 +1,7 @@
 name: KM 604
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:39', station: Nasielsk}
   - {arrival: '06:43', departure: '06:43', station: Studzianki Nowe}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '07:27', departure: '07:27', station: Warszawa Praga}
   - {arrival: '07:30', departure: '07:30', station: Warszawa ZOO}
   - {arrival: '07:33', station: "Warszawa Gda\u0144ska"}
+  to: 2013-02-28
 type: train

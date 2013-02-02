@@ -1,7 +1,7 @@
 name: KM 70370
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:13', station: "Ostro\u0142\u0119ka"}
   - {arrival: '16:24', departure: '16:24', station: Gierwaty}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '19:00', departure: '19:00', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '19:02', departure: '19:02', station: Warszawa Ochota}
   - {arrival: '19:06', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

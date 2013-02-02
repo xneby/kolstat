@@ -1,7 +1,7 @@
 name: KM 817
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:02', station: Warszawa Zachodnia}
   - {arrival: '16:06', departure: '16:06', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '16:54', departure: '16:54', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '16:57', departure: '16:57', station: "Wrzos\xF3w"}
   - {arrival: '17:01', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

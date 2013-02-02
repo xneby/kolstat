@@ -1,7 +1,7 @@
 name: KM 90230
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:12', station: "Warszawa Rembert\xF3w"}
   - {arrival: '19:22', departure: '19:22', station: Warszawa Wschodnia}
@@ -25,4 +25,5 @@ operations:
   - {arrival: '20:43', departure: '20:43', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '20:48', departure: '20:48', station: Skierniewice Rawka}
   - {arrival: '20:53', station: Skierniewice}
+  to: 2013-02-28
 type: train

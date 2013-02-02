@@ -1,7 +1,7 @@
 name: KM 143
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:07', station: Warszawa Wschodnia}
   - {arrival: '05:10', departure: '05:10', station: Warszawa Stadion}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '06:03', departure: '06:03', station: "Ustan\xF3wek"}
   - {arrival: '06:11', departure: '06:11', station: "Czach\xF3wek Wsch."}
   - {arrival: '06:23', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

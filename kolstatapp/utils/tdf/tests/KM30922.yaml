@@ -1,7 +1,7 @@
 name: KM 30922
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:08', station: Grodzisk Maz. (PKP)}
   - {arrival: '17:13', departure: '17:13', station: "Milan\xF3wek"}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '17:52', departure: '17:52', station: Warszawa Stadion}
   - {arrival: '17:55', departure: '17:55', station: Warszawa Wschodnia}
   - {arrival: '18:05', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 811
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:55', station: Warszawa Zachodnia}
   - {arrival: '10:58', departure: '10:58', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '11:47', departure: '11:47', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '11:50', departure: '11:50', station: "Wrzos\xF3w"}
   - {arrival: '11:55', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

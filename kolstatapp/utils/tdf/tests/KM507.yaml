@@ -1,7 +1,7 @@
 name: KM 507
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:10', station: Warszawa Zachodnia}
   - {arrival: '18:13', departure: '18:13', station: Warszawa Ochota}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '18:54', departure: '18:54', station: "J\xF3zef\xF3w"}
   - {arrival: '18:57', departure: '18:57', station: "\u015Awider"}
   - {arrival: '19:00', station: Otwock}
+  to: 2013-02-28
 type: train

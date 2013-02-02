@@ -1,7 +1,7 @@
 name: KM 12237
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:48', station: Warszawa Wschodnia}
   - {arrival: '13:55', departure: '14:00', station: Warszawa Centralna}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '15:10', departure: '15:10', station: Warka}
   - {arrival: '15:31', departure: '15:31', station: Dobieszyn}
   - {arrival: '16:04', station: Radom}
+  to: 2013-02-28
 type: train

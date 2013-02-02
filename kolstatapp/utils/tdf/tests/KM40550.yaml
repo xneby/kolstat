@@ -1,7 +1,7 @@
 name: KM 40550
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:39', station: "B\u0142onie"}
   - {arrival: '16:45', departure: '16:45', station: "P\u0142ochocin"}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '18:06', departure: '18:06', station: Pogorzel Warszawska}
   - {arrival: '18:09', departure: '18:09', station: "Stara Wie\u015B"}
   - {arrival: '18:14', station: "Celestyn\xF3w"}
+  to: 2013-02-28
 type: train

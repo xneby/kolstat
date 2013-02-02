@@ -1,7 +1,7 @@
 name: KM 525
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:57', station: "D\u0119blin"}
   - {arrival: '06:03', departure: '06:03', station: "Zajezierze k.D\u0119blina"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '06:43', departure: '06:43', station: "Antoni\xF3wka"}
   - {arrival: '06:46', departure: '06:46', station: Rajec Poduchowny}
   - {arrival: '06:55', station: Radom}
+  to: 2013-02-28
 type: train

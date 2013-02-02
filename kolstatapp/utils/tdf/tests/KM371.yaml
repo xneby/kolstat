@@ -1,7 +1,7 @@
 name: KM 371
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:11', station: Warszawa Wschodnia}
   - {arrival: '20:13', departure: '20:13', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '20:48', departure: '20:48', station: "Brwin\xF3w"}
   - {arrival: '20:52', departure: '20:52', station: "Milan\xF3wek"}
   - {arrival: '20:56', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

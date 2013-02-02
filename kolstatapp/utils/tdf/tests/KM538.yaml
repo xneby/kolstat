@@ -1,7 +1,7 @@
 name: KM 538
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:57', station: Radom}
   - {arrival: '19:04', departure: '19:04', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '19:39', departure: '19:39', station: "B\u0105kowiec"}
   - {arrival: '19:46', departure: '19:46', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '19:52', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

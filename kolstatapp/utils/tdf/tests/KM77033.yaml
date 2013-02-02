@@ -1,7 +1,7 @@
 name: KM 77033
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:40', station: Przysucha}
   - {arrival: '09:46', departure: '09:46', station: Skrzynno}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '10:18', departure: '10:18', station: "Ko\u0144czyce Radomskie"}
   - {arrival: '10:23', departure: '10:23', station: "Radom Potkan\xF3w"}
   - {arrival: '10:32', station: Radom}
+  to: 2013-02-28
 type: train

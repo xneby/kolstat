@@ -1,7 +1,7 @@
 name: KM 7746
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:16', station: "T\u0142uszcz"}
   - {arrival: '13:21', departure: '13:21', station: Jasienica Mazowiecka}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '13:51', departure: '13:51', station: Zielonka}
   - {arrival: '13:55', departure: '13:55', station: "Z\u0105bki"}
   - {arrival: '14:03', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 803
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '00:30', station: Warszawa Zachodnia}
   - {arrival: '00:35', departure: '00:36', station: Warszawa Centralna}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '01:19', departure: '01:19', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '01:22', departure: '01:22', station: "Wrzos\xF3w"}
   - {arrival: '01:27', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

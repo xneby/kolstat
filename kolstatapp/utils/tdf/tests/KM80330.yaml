@@ -1,7 +1,7 @@
 name: KM 80330
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:14', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '06:19', departure: '06:19', station: "Wrzos\xF3w"}
@@ -27,4 +27,5 @@ operations:
   - {arrival: '07:34', departure: '07:34', station: "Brwin\xF3w"}
   - {arrival: '07:38', departure: '07:38', station: "Milan\xF3wek"}
   - {arrival: '07:42', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

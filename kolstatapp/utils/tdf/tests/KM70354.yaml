@@ -1,7 +1,7 @@
 name: KM 70354
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:31', station: "Wyszk\xF3w"}
   - {arrival: '18:35', departure: '18:35', station: Rybienko}
@@ -10,4 +10,5 @@ operations:
   - {arrival: '18:50', departure: '18:50', station: Grzegorzewo}
   - {arrival: '18:54', departure: '18:54', station: "Jarz\u0119bia \u0141\u0105ka"}
   - {arrival: '18:58', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 9806
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:40', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '08:45', departure: '08:45', station: "Wrzos\xF3w"}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '09:34', departure: '09:34', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '09:36', departure: '09:36', station: Warszawa Ochota}
   - {arrival: '09:40', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7623
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:08', station: "Warszawa Wile\u0144ska"}
   - {arrival: '07:16', departure: '07:16', station: "Z\u0105bki"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '07:24', departure: '07:24', station: "Koby\u0142ka Oss\xF3w"}
   - {arrival: '07:27', departure: '07:27', station: "Koby\u0142ka"}
   - {arrival: '07:31', station: "Wo\u0142omin"}
+  to: 2013-02-28
 type: train

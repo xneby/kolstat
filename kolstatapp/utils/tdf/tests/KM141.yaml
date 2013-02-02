@@ -1,7 +1,7 @@
 name: KM 141
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:53', station: Warszawa Wschodnia}
   - {arrival: '04:00', departure: '04:01', station: Warszawa Centralna}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '04:49', departure: '04:49', station: "Ustan\xF3wek"}
   - {arrival: '04:57', departure: '04:57', station: "Czach\xF3wek Wsch."}
   - {arrival: '05:09', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

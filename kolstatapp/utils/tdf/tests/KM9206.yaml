@@ -1,7 +1,7 @@
 name: KM 9206
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:30', station: Skierniewice}
   - {arrival: '06:35', departure: '06:35', station: Skierniewice Rawka}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '07:52', departure: '07:52', station: "Warszawa Powi\u015Ble"}
   - {arrival: '07:55', departure: '07:55', station: Warszawa Stadion}
   - {arrival: '07:57', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

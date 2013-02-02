@@ -33,8 +33,9 @@ if DEPLOY:
 else:
 	DATABASES = {
 		'default': {
-			'ENGINE': 'django.db.backends.sqlite3',
-			'NAME': INSTALL_DIR + '/db/db.db',
+			'ENGINE': 'django.db.backends.mysql',
+			'NAME': 'kolstat',
+			'USER': 'kolstat',
 		}
 	}
 
@@ -65,7 +66,6 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
-	'dajaxice.finders.DajaxiceFinder',
 )
 
 SECRET_KEY = '8pj55gxjsst8&_$t_eur%%c$5x0#jdky9)ijelde@9v+&!d4bo'
@@ -101,9 +101,14 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-	'dajaxice',
 	'kolstat.kolstatapp',
-	'social_auth',
+
+	'allauth',
+	'allauth.account',
+	'allauth.socialaccount',
+#	'allauth.socialaccount.providers.facebook',
+#	'allauth.socialaccount.providers.google',
+#	'allauth.socialaccount.providers.twitter',
 ] 
 
 if DEBUG:
@@ -132,14 +137,10 @@ LOGGING = {
     },
     'loggers': {
         'django.request': {
-            'handlers': ['mail_admins'],
+            'handlers': ['stderr', 'mail_admins'],
             'level': 'ERROR',
             'propagate': True,
         },
-		'dajaxice': {
-            'handlers': ['stderr'],
-				
-		},
     }
 }
 
@@ -151,24 +152,34 @@ TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
 		"django.core.context_processors.media",
 		"django.core.context_processors.static",
 		"django.core.context_processors.request",
-		"django.contrib.messages.context_processors.messages")
+		"django.contrib.messages.context_processors.messages",
+
+		"allauth.account.context_processors.account",
+		"allauth.socialaccount.context_processors.socialaccount",
+		
+		)
 
 AUTHENTICATION_BACKENDS = (
-			"social_auth.backends.facebook.FacebookBackend",
-			"social_auth.backends.google.GoogleOAuth2Backend",
 			"django.contrib.auth.backends.ModelBackend",
+			"allauth.account.auth_backends.AuthenticationBackend",
 		)
 
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/accounts/logged/'
-LOGIN_ERROR_URL = '/accounts/login/error/'
+LOGIN_REDIRECT_URL = '/kolstat/profile/'
 
-SOCIAL_AUTH_COMPLETE_URL_NAME  = 'socialauth_complete'
-SOCIAL_AUTH_ASSOCIATE_URL_NAME = 'socialauth_associate_complete'
+#GOOGLE_OAUTH2_CLIENT_ID = '308170056415.apps.googleusercontent.com'
+#GOOGLE_OAUTH2_CLIENT_SECRET = '0Bo1vdwOympxtcEYdJvujISW'
 
-GOOGLE_OAUTH2_CLIENT_ID = '308170056415.apps.googleusercontent.com'
-GOOGLE_OAUTH2_CLIENT_SECRET = '0Bo1vdwOympxtcEYdJvujISW'
-
-TIMETABLE_START = datetime.date(2012,12,9)
-TIMETABLE_END = datetime.date(2013,12,7)
+TIMETABLE_START = datetime.datetime(2012,12,9)
+TIMETABLE_END = datetime.datetime(2013,12,7)
 TIMETABLE_YEAR = 2013
+
+ACCOUNT_AUTHENTICATION_METHOD = "username_email"
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = "none"
+
+AUTH_PROFILE_MODULE = 'kolstatapp.UserProfile'
+
+import mimetypes
+
+mimetypes.add_type("image/svg+xml", ".svg", True)

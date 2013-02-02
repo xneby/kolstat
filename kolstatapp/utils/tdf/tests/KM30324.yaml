@@ -1,7 +1,7 @@
 name: KM 30324
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '23:29', station: Modlin}
   - {arrival: '23:33', departure: '23:33', station: "Nowy Dw\xF3r Mazowiecki"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '23:58', departure: '23:58', station: Warszawa Wschodnia}
   - {arrival: '00:05', departure: '00:07', station: Warszawa Centralna}
   - {arrival: '00:11', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

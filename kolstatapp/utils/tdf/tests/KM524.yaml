@@ -1,7 +1,7 @@
 name: KM 524
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:51', station: Radom}
   - {arrival: '06:58', departure: '06:58', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '07:33', departure: '07:33', station: "B\u0105kowiec"}
   - {arrival: '07:40', departure: '07:40', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '07:46', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

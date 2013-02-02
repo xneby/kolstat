@@ -1,7 +1,7 @@
 name: KM 9142
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:43', station: "G\xF3ra Kalwaria"}
   - {arrival: '06:54', departure: '06:54', station: "Czach\xF3wek Wsch."}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '07:56', departure: '07:56', station: "Warszawa Powi\u015Ble"}
   - {arrival: '07:59', departure: '07:59', station: Warszawa Stadion}
   - {arrival: '08:01', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

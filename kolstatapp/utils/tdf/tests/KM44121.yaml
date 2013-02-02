@@ -1,7 +1,7 @@
 name: KM 44121
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:58', station: Warszawa Wschodnia}
   - {arrival: '18:05', departure: '18:10', station: Warszawa Centralna}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '20:08', departure: '20:08', station: Gostynin}
   - {arrival: '20:24', departure: '20:24', station: "\u0141\u0105ck"}
   - {arrival: '20:42', station: "P\u0142ock"}
+  to: 2013-02-28
 type: train

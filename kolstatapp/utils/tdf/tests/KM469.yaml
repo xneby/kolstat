@@ -1,7 +1,7 @@
 name: KM 469
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:18', station: Warszawa Wschodnia}
   - {arrival: '20:21', departure: '20:21', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '21:15', departure: '21:15', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '21:19', departure: '21:19', station: Piasecznica}
   - {arrival: '21:24', station: Sochaczew}
+  to: 2013-02-28
 type: train

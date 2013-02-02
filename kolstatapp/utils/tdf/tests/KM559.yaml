@@ -1,7 +1,7 @@
 name: KM 559
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:32', station: Warszawa Zachodnia}
   - {arrival: '10:36', departure: '10:36', station: Warszawa Ochota}
@@ -30,4 +30,5 @@ operations:
   - {arrival: '11:49', departure: '11:49', station: "Zabie\u017Cki"}
   - {arrival: '11:53', departure: '11:53', station: "August\xF3wka"}
   - {arrival: '11:57', station: Pilawa}
+  to: 2013-02-28
 type: train

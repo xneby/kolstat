@@ -1,7 +1,7 @@
 name: KM 7938
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:19', station: "Ma\u0142kinia"}
   - {arrival: '11:25', departure: '11:25', station: "Prosty\u0144"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '12:51', departure: '12:51', station: Zielonka}
   - {arrival: '12:55', departure: '12:55', station: "Z\u0105bki"}
   - {arrival: '13:03', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

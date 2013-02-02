@@ -1,11 +1,19 @@
 import yaml
 import sys
 import re
-import HTMLParser
+try:
+	import HTMLParser
+except ImportError:
+	import html.parser as HTMLParser
 
 h = HTMLParser.HTMLParser()
 
 name = sys.argv[1]
+
+try:
+	mode = sys.argv[2]
+except IndexError:
+	mode = 'normal'
 
 op = name
 num = ''
@@ -31,8 +39,8 @@ ll = re.findall(r'''<td class="nowrap sepline">
 
 document = dict()
 document['type'] = 'train'
+document['mode'] = mode
 document['name'] = good_name
-
 from datetime import date
 
 oper = dict()
@@ -52,4 +60,4 @@ oper['timetable'] = tt
 
 document['operations'] = [oper]
 
-print yaml.dump(document)
+print(yaml.dump(document))

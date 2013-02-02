@@ -1,7 +1,7 @@
 name: KM 12620
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:46', station: Pilawa}
   - {arrival: '05:50', departure: '05:50', station: "August\xF3wka"}
@@ -57,4 +57,5 @@ operations:
   - {arrival: '09:31', departure: '09:31', station: Bartodzieje}
   - {arrival: '09:37', departure: '09:37', station: "Lesi\xF3w"}
   - {arrival: '09:51', station: Radom}
+  to: 2013-02-28
 type: train

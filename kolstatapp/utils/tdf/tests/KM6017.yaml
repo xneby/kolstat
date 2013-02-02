@@ -1,7 +1,7 @@
 name: KM 6017
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:43', station: Radom}
   - {arrival: '10:50', departure: '10:50', station: "Radom Po\u0142udniowy"}
@@ -13,4 +13,5 @@ operations:
   - {arrival: '11:14', departure: '11:14', station: "Szyd\u0142owiec"}
   - {arrival: '11:20', departure: '11:20', station: Lipowe Pole}
   - {arrival: '11:25', station: "Skar\u017Cysko-Kamienna"}
+  to: 2013-02-28
 type: train

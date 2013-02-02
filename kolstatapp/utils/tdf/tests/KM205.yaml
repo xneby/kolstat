@@ -1,7 +1,7 @@
 name: KM 205
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:26', station: Warszawa Wschodnia}
   - {arrival: '05:28', departure: '05:28', station: Warszawa Stadion}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '06:18', departure: '06:18', station: "Jaktor\xF3w"}
   - {arrival: '06:25', departure: '06:25', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '06:29', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

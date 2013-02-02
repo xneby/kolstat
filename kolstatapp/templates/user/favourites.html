@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+
+{% block title%} - panel użytkownika - ulubione stacje{% endblock %}
+
+{% block head %}
+<script type="text/javascript" src="{{STATIC_PREFIX}}js/stations.js" /></script>
+{% endblock %}
+
+{% block content %}
+
+{% if were_errors %}
+<p><b>Zapisanie ustawień nie było możliwe z powodu błędów w jego wypełnieniu.</b></p>
+{% endif %}
+
+<p>Wybierz stacje, które lubisz</p>
+
+<form action="{% url user-favourites %}" method="post"> {% csrf_token %}
+	{% for pic, curr, err, _ in pictos %}
+	<p class="fav_select">
+		<img class="big" src="{{pic.get_img_url}}" /><input name="{{pic.name}}" class="stationField" type="text"{% if curr %} value="{{ curr.get_pretty_name }}"{% endif %} />
+	</p>
+	{% endfor %}
+	
+	<input type="submit" value="Wyślij" />
+
+</form>
+
+{% endblock %}

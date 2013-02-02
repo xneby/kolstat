@@ -1,7 +1,7 @@
 name: KM 2128
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:55', station: "D\u0119blin"}
   - {arrival: '06:00', departure: '06:00', station: Rokitnia Stara}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '08:16', departure: '08:16', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '08:18', departure: '08:18', station: Warszawa Ochota}
   - {arrival: '08:21', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

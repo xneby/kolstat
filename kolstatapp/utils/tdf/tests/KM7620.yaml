@@ -1,7 +1,7 @@
 name: KM 7620
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:50', station: "Wo\u0142omin"}
   - {arrival: '06:53', departure: '06:53', station: "Koby\u0142ka"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '07:01', departure: '07:01', station: Zielonka}
   - {arrival: '07:05', departure: '07:05', station: "Z\u0105bki"}
   - {arrival: '07:13', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

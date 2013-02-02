@@ -1,104 +1,45 @@
 name: KM 1239
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:32', station: Warszawa Zachodnia}
-  - {arrival: "20:36\n</td>\n<td class=\"sepline\">\n\_", departure: '20:36', station: Warszawa
-      Ochota}
-  - {arrival: "20:39\n</td>\n<td class=\"sepline\">\n\_", departure: '20:39', station: "Warszawa\
-      \ \u015Ar\xF3dm. (PKP)"}
-  - {arrival: "20:41\n</td>\n<td class=\"sepline\">\n\_", departure: '20:41', station: "Warszawa\
-      \ Powi\u015Ble"}
-  - {arrival: "20:44\n</td>\n<td class=\"sepline\">\n\_", departure: '20:44', station: Warszawa
-      Stadion}
-  - {arrival: "20:47\n</td>\n<td class=\"sepline\">\n\_", departure: '20:47', station: Warszawa
-      Wschodnia}
-  - {arrival: "20:53\n</td>\n<td class=\"sepline\">\n\_", departure: '20:53', station: Warszawa
-      Olsz.Groch.}
-  - {arrival: "20:56\n</td>\n<td class=\"sepline\">\n\_", departure: '20:56', station: "Warszawa\
-      \ Goc\u0142awek"}
-  - {arrival: "20:58\n</td>\n<td class=\"sepline\">\n\_", departure: '20:58', station: Warszawa
-      Wawer}
-  - {arrival: "21:01\n</td>\n<td class=\"sepline\">\n\_", departure: '21:01', station: Warszawa
-      Anin}
-  - {arrival: "21:03\n</td>\n<td class=\"sepline\">\n\_", departure: '21:03', station: "Warszawa\
-      \ Mi\u0119dzylesie"}
-  - {arrival: "21:06\n</td>\n<td class=\"sepline\">\n\_", departure: '21:06', station: "Warszawa\
-      \ Rado\u015B\u0107"}
-  - {arrival: "21:09\n</td>\n<td class=\"sepline\">\n\_", departure: '21:09', station: Warszawa
-      Miedzeszyn}
-  - {arrival: "21:11\n</td>\n<td class=\"sepline\">\n\_", departure: '21:11', station: Warszawa
-      Falenica}
-  - {arrival: "21:14\n</td>\n<td class=\"sepline\">\n\_", departure: '21:14', station: Michalin}
-  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "J\xF3\
-      zef\xF3w"}
-  - {arrival: "21:19\n</td>\n<td class=\"sepline\">\n\_", departure: '21:19', station: "\u015A\
-      wider"}
-  - {arrival: "21:23\n</td>\n<td class=\"sepline\">\n\_", departure: '21:23', station: Otwock}
-  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: "\u015A\
-      r\xF3dbor\xF3w"}
-  - {arrival: "21:31\n</td>\n<td class=\"sepline\">\n\_", departure: '21:31', station: Pogorzel
-      Warszawska}
-  - {arrival: "21:34\n</td>\n<td class=\"sepline\">\n\_", departure: '21:34', station: "Stara\
-      \ Wie\u015B"}
-  - {arrival: "21:39\n</td>\n<td class=\"sepline\">\n\_", departure: '21:39', station: "Celestyn\xF3\
-      w"}
-  - {arrival: "21:43\n</td>\n<td class=\"sepline\">\n\_", departure: '21:43', station: "Ko\u0142\
-      biel"}
-  - {arrival: "21:45\n</td>\n<td class=\"sepline\">\n\_", departure: '21:45', station: Chrosna}
-  - {arrival: "21:49\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <span class=\"rtinfo\">ok.\_+\_5\_min.</span>\n</span>", departure: '21:49',
-    station: "Zabie\u017Cki"}
-  - {arrival: "21:53\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <span class=\"rtinfo\">ok.\_+\_5\_min.</span>\n</span>", departure: '21:53',
-    station: "August\xF3wka"}
-  - {arrival: "21:59\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:59', station: Pilawa}
-  - {arrival: "22:06\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:06', station: Garwolin}
-  - {arrival: "22:11\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:11', station: Ruda Talubska}
-  - {arrival: "22:16\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:16', station: Wola Rowska}
-  - {arrival: "22:19\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:19', station: "\u0141askarzew Przystanek"}
-  - {arrival: "22:23\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:23', station: Leokadia}
-  - {arrival: "22:27\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:27', station: Sobolew}
-  - {arrival: "22:32\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:32', station: Wygoda}
-  - {arrival: "22:37\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:37', station: Mika}
-  - {arrival: "22:40\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:40', station: "\u017Byczyn"}
-  - {arrival: "22:45\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:45', station: Rokitnia Stara}
-  - {arrival: "22:50\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: "D\u0119blin"}
+  - {arrival: '20:36', departure: '20:36', station: Warszawa Ochota}
+  - {arrival: '20:39', departure: '20:39', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '20:41', departure: '20:41', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '20:44', departure: '20:44', station: Warszawa Stadion}
+  - {arrival: '20:47', departure: '20:47', station: Warszawa Wschodnia}
+  - {arrival: '20:53', departure: '20:53', station: Warszawa Olsz.Groch.}
+  - {arrival: '20:56', departure: '20:56', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '20:58', departure: '20:58', station: Warszawa Wawer}
+  - {arrival: '21:01', departure: '21:01', station: Warszawa Anin}
+  - {arrival: '21:03', departure: '21:03', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '21:06', departure: '21:06', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '21:09', departure: '21:09', station: Warszawa Miedzeszyn}
+  - {arrival: '21:11', departure: '21:11', station: Warszawa Falenica}
+  - {arrival: '21:14', departure: '21:14', station: Michalin}
+  - {arrival: '21:16', departure: '21:16', station: "J\xF3zef\xF3w"}
+  - {arrival: '21:19', departure: '21:19', station: "\u015Awider"}
+  - {arrival: '21:23', departure: '21:23', station: Otwock}
+  - {arrival: '21:27', departure: '21:27', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '21:31', departure: '21:31', station: Pogorzel Warszawska}
+  - {arrival: '21:34', departure: '21:34', station: "Stara Wie\u015B"}
+  - {arrival: '21:39', departure: '21:39', station: "Celestyn\xF3w"}
+  - {arrival: '21:43', departure: '21:43', station: "Ko\u0142biel"}
+  - {arrival: '21:45', departure: '21:45', station: Chrosna}
+  - {arrival: '21:49', departure: '21:49', station: "Zabie\u017Cki"}
+  - {arrival: '21:53', departure: '21:53', station: "August\xF3wka"}
+  - {arrival: '21:59', departure: '21:59', station: Pilawa}
+  - {arrival: '22:06', departure: '22:06', station: Garwolin}
+  - {arrival: '22:11', departure: '22:11', station: Ruda Talubska}
+  - {arrival: '22:16', departure: '22:16', station: Wola Rowska}
+  - {arrival: '22:19', departure: '22:19', station: "\u0141askarzew Przystanek"}
+  - {arrival: '22:23', departure: '22:23', station: Leokadia}
+  - {arrival: '22:27', departure: '22:27', station: Sobolew}
+  - {arrival: '22:32', departure: '22:32', station: Wygoda}
+  - {arrival: '22:37', departure: '22:37', station: Mika}
+  - {arrival: '22:40', departure: '22:40', station: "\u017Byczyn"}
+  - {arrival: '22:45', departure: '22:45', station: Rokitnia Stara}
+  - {arrival: '22:50', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

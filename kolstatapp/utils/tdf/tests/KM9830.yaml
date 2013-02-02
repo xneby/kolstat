@@ -1,7 +1,7 @@
 name: KM 9830
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:26', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '22:31', departure: '22:31', station: "Wrzos\xF3w"}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '23:08', departure: '23:11', station: Warszawa Wschodnia}
   - {arrival: '23:19', departure: '23:24', station: Warszawa Centralna}
   - {arrival: '23:28', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

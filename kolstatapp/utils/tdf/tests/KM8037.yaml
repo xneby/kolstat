@@ -1,7 +1,7 @@
 name: KM 8037
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:25', station: Warszawa Zachodnia}
   - {arrival: '12:28', departure: '12:28', station: Warszawa Ochota}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '13:58', departure: '13:58', station: Sabinka}
   - {arrival: '14:03', departure: '14:03', station: Siedlce Zachodnie}
   - {arrival: '14:09', station: Siedlce}
+  to: 2013-02-28
 type: train

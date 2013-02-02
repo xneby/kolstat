@@ -1,7 +1,7 @@
 name: KM 449
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:52', station: Warszawa Wschodnia}
   - {arrival: '12:55', departure: '12:55', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '13:49', departure: '13:49', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '13:53', departure: '13:53', station: Piasecznica}
   - {arrival: '13:58', station: Sochaczew}
+  to: 2013-02-28
 type: train

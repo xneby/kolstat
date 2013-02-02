@@ -1,7 +1,7 @@
 name: KM 50240
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:31', station: Otwock}
   - {arrival: '13:35', departure: '13:35', station: "\u015Awider"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '14:45', departure: '14:45', station: "Brwin\xF3w"}
   - {arrival: '14:49', departure: '14:49', station: "Milan\xF3wek"}
   - {arrival: '14:53', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

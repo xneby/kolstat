@@ -1,7 +1,7 @@
 name: KM 805
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:59', station: Warszawa Zachodnia}
   - {arrival: '06:02', departure: '06:02', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '06:49', departure: '06:49', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '06:52', departure: '06:52', station: "Wrzos\xF3w"}
   - {arrival: '06:57', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

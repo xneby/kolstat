@@ -1,7 +1,7 @@
 name: KM 215
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:18', station: Warszawa Wschodnia}
   - {arrival: '09:21', departure: '09:21', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '10:38', departure: '10:38', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '10:43', departure: '10:43', station: Skierniewice Rawka}
   - {arrival: '10:48', station: Skierniewice}
+  to: 2013-02-28
 type: train

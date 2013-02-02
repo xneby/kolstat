@@ -1,7 +1,7 @@
 name: KM 9828
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:47', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '19:52', departure: '19:52', station: "Wrzos\xF3w"}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '20:38', departure: '20:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '20:40', departure: '20:40', station: Warszawa Ochota}
   - {arrival: '20:44', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

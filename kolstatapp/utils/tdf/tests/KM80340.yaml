@@ -1,7 +1,7 @@
 name: KM 80340
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:31', station: Siedlce}
   - {arrival: '06:36', departure: '06:36', station: Siedlce Zachodnie}
@@ -39,4 +39,5 @@ operations:
   - {arrival: '08:48', departure: '08:48', station: "Brwin\xF3w"}
   - {arrival: '08:52', departure: '08:52', station: "Milan\xF3wek"}
   - {arrival: '08:56', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

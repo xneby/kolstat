@@ -1,7 +1,7 @@
 name: KM 829
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:10', station: Warszawa Zachodnia}
   - {arrival: '19:13', departure: '19:13', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '20:01', departure: '20:01', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '20:04', departure: '20:04', station: "Wrzos\xF3w"}
   - {arrival: '20:10', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

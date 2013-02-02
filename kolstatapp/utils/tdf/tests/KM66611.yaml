@@ -1,7 +1,7 @@
 name: KM 66611
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:37', station: Nasielsk}
   - {arrival: '05:49', departure: '05:49', station: Cieksyn}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '07:13', departure: '07:13', station: Zawidz}
   - {arrival: '07:21', departure: '07:21', station: Mieszaki}
   - {arrival: '07:31', station: Sierpc}
+  to: 2013-02-28
 type: train

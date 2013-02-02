@@ -1,7 +1,7 @@
 name: KM 70130
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:29', station: "Wyszk\xF3w"}
   - {arrival: '05:33', departure: '05:33', station: Rybienko}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '06:41', departure: '06:41', station: Zielonka}
   - {arrival: '06:45', departure: '06:45', station: "Z\u0105bki"}
   - {arrival: '06:53', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 21530
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:26', station: "D\u0119blin"}
   - {arrival: '16:31', departure: '16:31', station: Rokitnia Stara}
@@ -50,4 +50,5 @@ operations:
   - {arrival: '19:14', departure: '19:14', station: Warszawa Jeziorki}
   - {arrival: '19:17', departure: '19:17', station: Nowa Iwiczna}
   - {arrival: '19:21', station: Piaseczno}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 12441
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:03', station: Warszawa Wschodnia}
   - {arrival: '18:06', departure: '18:06', station: Warszawa Stadion}
@@ -45,4 +45,5 @@ operations:
   - {arrival: '21:17', departure: '21:17', station: "Szyd\u0142owiec"}
   - {arrival: '21:23', departure: '21:23', station: Lipowe Pole}
   - {arrival: '21:28', station: "Skar\u017Cysko-Kamienna"}
+  to: 2013-02-28
 type: train

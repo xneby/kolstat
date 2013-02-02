@@ -1,7 +1,7 @@
 name: KM 9470
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:46', station: Sochaczew}
   - {arrival: '06:52', departure: '06:52', station: Piasecznica}
@@ -13,4 +13,5 @@ operations:
   - {arrival: '07:25', departure: '07:25', station: "P\u0142ochocin"}
   - {arrival: '07:30', departure: '07:30', station: "O\u017Car\xF3w Mazowiecki"}
   - {arrival: '07:53', station: "Warszawa Gda\u0144ska"}
+  to: 2013-02-28
 type: train

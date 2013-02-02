@@ -27,8 +27,8 @@ def train_date(request, operator, number, variant = None, date = None):
 	d = datetime.datetime.strptime(date, '%Y-%m-%d').date()
 
 	try:
-		tt = ktrain.traintimetable_set.get(date = d)
-	except TrainTimetable.DoesNotExist:
+		tt, = ktrain.traintimetable_set.filter(date = d).select_related()
+	except ValueError:
 		raise KolstatError('Pociąg nie kursuje w tym dniu')
 
 	table = {}
@@ -41,7 +41,6 @@ def train_date(request, operator, number, variant = None, date = None):
 	for t in trains:
 		ans = []
 		for s in t.stops():
-			print s
 			ans.append((s.station, s))
 
 		not_added=[]
@@ -67,6 +66,9 @@ def train_date(request, operator, number, variant = None, date = None):
 		juz += 1
 
 	pres = []
+
+	print stations
+	print table
 
 	for st in stations:
 		while len(table[st]) < juz:

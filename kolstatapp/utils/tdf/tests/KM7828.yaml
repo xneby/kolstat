@@ -1,7 +1,7 @@
 name: KM 7828
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:21', station: "\u0141och\xF3w"}
   - {arrival: '17:25', departure: '17:25', station: "Barch\xF3w"}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '18:23', departure: '18:23', station: Zielonka}
   - {arrival: '18:27', departure: '18:27', station: "Z\u0105bki"}
   - {arrival: '18:35', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

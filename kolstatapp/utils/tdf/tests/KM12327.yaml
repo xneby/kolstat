@@ -1,7 +1,7 @@
 name: KM 12327
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '23:45', station: Warszawa Wschodnia}
   - {arrival: '23:52', departure: '23:53', station: Warszawa Centralna}
@@ -25,4 +25,5 @@ operations:
   - {arrival: '01:08', departure: '01:08', station: Michalczew}
   - {arrival: '01:13', departure: '01:13', station: "Go\u015Bniewice"}
   - {arrival: '01:17', station: Warka}
+  to: 2013-02-28
 type: train

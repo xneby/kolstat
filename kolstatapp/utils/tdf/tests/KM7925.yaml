@@ -1,7 +1,7 @@
 name: KM 7925
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:50', station: "Warszawa Wile\u0144ska"}
   - {arrival: '05:58', departure: '05:58', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '07:19', departure: '07:19', station: "Sadowne W\u0119growskie"}
   - {arrival: '07:28', departure: '07:28', station: "Prosty\u0144"}
   - {arrival: '07:36', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

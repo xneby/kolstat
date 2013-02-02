@@ -1,7 +1,7 @@
 name: KM 403
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:48', station: Warszawa Wschodnia}
   - {arrival: '05:51', departure: '05:51', station: Warszawa Stadion}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '07:14', departure: '07:14', station: Bednary}
   - {arrival: '07:17', departure: '07:17', station: "Mys\u0142ak\xF3w"}
   - {arrival: '07:21', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-28
 type: train

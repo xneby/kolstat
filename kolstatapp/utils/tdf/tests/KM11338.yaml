@@ -1,7 +1,7 @@
 name: KM 11338
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:50', station: Warszawa Lot. Chopina}
   - {arrival: '13:53', departure: '13:53', station: "Warszawa S\u0142u\u017Cewiec"}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '14:52', departure: '14:52', station: "Chotom\xF3w"}
   - {arrival: '15:01', departure: '15:01', station: "Nowy Dw\xF3r Mazowiecki"}
   - {arrival: '15:06', station: Modlin}
+  to: 2013-02-28
 type: train

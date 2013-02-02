@@ -1,7 +1,7 @@
 name: KM 15431
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:58', station: "Warszawa Gda\u0144ska"}
   - {arrival: '18:01', departure: '18:01', station: Warszawa ZOO}
@@ -25,4 +25,5 @@ operations:
   - {arrival: '20:09', departure: '20:09', station: "I\u0142owo"}
   - {arrival: '20:14', departure: '20:14', station: Narzym}
   - {arrival: '20:22', station: "Dzia\u0142dowo"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 927
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:36', station: Warszawa Zachodnia}
   - {arrival: '15:40', departure: '15:40', station: Warszawa Ochota}
@@ -10,4 +10,5 @@ operations:
   - {arrival: '15:48', departure: '15:48', station: Warszawa Stadion}
   - {arrival: '15:51', departure: '15:51', station: Warszawa Wschodnia}
   - {arrival: '16:01', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

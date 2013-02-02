@@ -1,7 +1,7 @@
 name: KM 809
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:55', station: Warszawa Zachodnia}
   - {arrival: '09:58', departure: '09:58', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '10:46', departure: '10:46', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '10:49', departure: '10:49', station: "Wrzos\xF3w"}
   - {arrival: '10:54', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

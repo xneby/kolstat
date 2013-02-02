@@ -1,7 +1,7 @@
 name: KM 345
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:11', station: Warszawa Wschodnia}
   - {arrival: '12:14', departure: '12:14', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '12:49', departure: '12:49', station: "Brwin\xF3w"}
   - {arrival: '12:53', departure: '12:53', station: "Milan\xF3wek"}
   - {arrival: '12:57', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

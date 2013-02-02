@@ -1,7 +1,7 @@
 name: KM 4441
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:06', station: Warka}
   - {arrival: '05:14', departure: '05:14', station: "Grab\xF3w n. Pilic\u0105"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '05:59', departure: '05:59', station: Bartodzieje}
   - {arrival: '06:05', departure: '06:11', station: "Lesi\xF3w"}
   - {arrival: '06:24', station: Radom}
+  to: 2013-02-28
 type: train

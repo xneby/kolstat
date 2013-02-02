@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+
+{% block title %}nowa podróż{% endblock %}
+
+{% block head %}
+<script type="text/javascript" src="{{STATIC_PREFIX}}js/stations.js"></script>
+<script type="text/javascript">
+	function prepare(){
+		$('input.station').stationField();
+
+		$('#id_date').datepicker({dateFormat: "dd.mm.yy"});
+	}
+
+	$(document).ready(prepare);
+</script>
+{% endblock %}
+
+{% block content %}
+
+<h1>Dzień dobry!</h1>
+<p>Proszę podać stację początkową, końcową i planowany czas wyjazdu.</p>
+
+<form action="{% url kolstat-plans-new %}" method="post">{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="Szukaj" />
+</form>
+
+{% endblock %}

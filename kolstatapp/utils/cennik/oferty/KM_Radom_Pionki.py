@@ -20,7 +20,7 @@ class KMRadomPionki(Oferta):
 
 	@classmethod
 	def is_valid(cls, train, start, end):
-		return train.category == cls.KM and start.station in valid_stations and end.station in valid_stations
+		return train.category == cls.KM and start.station in cls.valid_stations and end.station in cls.valid_stations
 
 	@classmethod
 	def get_additional_prices(cls, train, disccount):

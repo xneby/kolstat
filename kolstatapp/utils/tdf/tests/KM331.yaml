@@ -1,7 +1,7 @@
 name: KM 331
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:41', station: Warszawa Wschodnia}
   - {arrival: '04:43', departure: '04:43', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '05:18', departure: '05:18', station: "Brwin\xF3w"}
   - {arrival: '05:22', departure: '05:22', station: "Milan\xF3wek"}
   - {arrival: '05:27', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

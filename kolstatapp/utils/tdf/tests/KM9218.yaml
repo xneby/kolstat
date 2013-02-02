@@ -1,7 +1,7 @@
 name: KM 9218
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:08', station: Skierniewice}
   - {arrival: '12:14', departure: '12:14', station: Skierniewice Rawka}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '13:34', departure: '13:34', station: "Warszawa Powi\u015Ble"}
   - {arrival: '13:37', departure: '13:37', station: Warszawa Stadion}
   - {arrival: '13:39', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

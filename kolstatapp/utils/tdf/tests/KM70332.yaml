@@ -1,7 +1,7 @@
 name: KM 70332
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:12', station: "Ostro\u0142\u0119ka"}
   - {arrival: '14:23', departure: '14:23', station: Gierwaty}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '15:48', departure: '15:48', station: Grzegorzewo}
   - {arrival: '15:52', departure: '15:52', station: "Jarz\u0119bia \u0141\u0105ka"}
   - {arrival: '15:56', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

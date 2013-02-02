@@ -1,7 +1,7 @@
 name: KM 8057
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '23:22', station: Warszawa Zachodnia}
   - {arrival: '23:27', departure: '23:32', station: Warszawa Centralna}
@@ -29,4 +29,5 @@ operations:
   - {arrival: '00:59', departure: '00:59', station: Sabinka}
   - {arrival: '01:03', departure: '01:03', station: Siedlce Zachodnie}
   - {arrival: '01:07', station: Siedlce}
+  to: 2013-02-28
 type: train

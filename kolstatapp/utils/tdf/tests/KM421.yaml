@@ -1,7 +1,7 @@
 name: KM 421
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:59', station: Warszawa Wschodnia}
   - {arrival: '19:02', departure: '19:02', station: Warszawa Stadion}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '20:33', departure: '20:33', station: Bednary}
   - {arrival: '20:36', departure: '20:36', station: "Mys\u0142ak\xF3w"}
   - {arrival: '20:40', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-28
 type: train

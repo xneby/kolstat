@@ -1,7 +1,7 @@
 name: KM 8928
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:24', station: Siedlce}
   - {arrival: '06:28', departure: '06:28', station: Siedlce Zachodnie}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '08:01', departure: '08:01', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '08:03', departure: '08:03', station: Warszawa Ochota}
   - {arrival: '08:06', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

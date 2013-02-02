@@ -1,7 +1,7 @@
 name: KM 20560
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:10', station: Skierniewice}
   - {arrival: '11:16', departure: '11:16', station: Skierniewice Rawka}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '13:12', departure: '13:12', station: "J\xF3zef\xF3w"}
   - {arrival: '13:15', departure: '13:15', station: "\u015Awider"}
   - {arrival: '13:18', station: Otwock}
+  to: 2013-02-28
 type: train

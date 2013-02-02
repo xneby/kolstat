@@ -1,7 +1,7 @@
 name: KM 235
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:07', station: Warszawa Wschodnia}
   - {arrival: '18:10', departure: '18:10', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '19:29', departure: '19:29', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '19:34', departure: '19:34', station: Skierniewice Rawka}
   - {arrival: '19:40', station: Skierniewice}
+  to: 2013-02-28
 type: train

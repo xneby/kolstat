@@ -1,7 +1,7 @@
 name: KM 8846
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:50', station: "\u0141uk\xF3w"}
   - {arrival: '16:59', departure: '16:59', station: "Krynka \u0141ukowska"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '17:17', departure: '17:17', station: "Bia\u0142ki Siedleckie"}
   - {arrival: '17:20', departure: '17:20', station: Siedlce Wschodnie}
   - {arrival: '17:23', station: Siedlce}
+  to: 2013-02-28
 type: train

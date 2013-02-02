@@ -1,7 +1,7 @@
 name: KM 815
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:40', station: Warszawa Zachodnia}
   - {arrival: '13:44', departure: '13:44', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '14:31', departure: '14:31', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '14:35', departure: '14:35', station: "Wrzos\xF3w"}
   - {arrival: '14:40', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

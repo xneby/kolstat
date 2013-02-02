@@ -1,7 +1,7 @@
 name: KM 9400
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:43', station: "\u0141owicz G\u0142\xF3wny"}
   - {arrival: '03:48', departure: '03:48', station: "Mys\u0142ak\xF3w"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '05:15', departure: '05:15', station: "Warszawa Powi\u015Ble"}
   - {arrival: '05:18', departure: '05:18', station: Warszawa Stadion}
   - {arrival: '05:20', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

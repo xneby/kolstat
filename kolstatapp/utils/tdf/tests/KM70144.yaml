@@ -1,7 +1,7 @@
 name: KM 70144
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:34', station: "T\u0142uszcz"}
   - {arrival: '06:39', departure: '06:39', station: Jasienica Mazowiecka}
@@ -34,4 +34,5 @@ operations:
   - {arrival: '08:31', departure: '08:31', station: "Ustan\xF3wek"}
   - {arrival: '08:39', departure: '08:39', station: "Czach\xF3wek Wsch."}
   - {arrival: '08:51', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

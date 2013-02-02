@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
 from kolstatapp.utils.hafas import Hafas, HafasStation
+import operator
 
 STATION_CATEGORIES = (("M", "Main"), ("N", "Normal"))
 
@@ -8,6 +9,8 @@ class Station(models.Model):
 	""" Stacja :) """
 	name = models.CharField(max_length = 100)
 	pretty_name = models.CharField(max_length = 100, null = True)
+	slug = models.SlugField(max_length = 100, null = True)
+
 	hafasID = models.IntegerField(unique = True, null = True)
 	kurs90ID = models.IntegerField(unique = True, null = True)
 	gskID = models.IntegerField(unique = True, null = True)
@@ -27,26 +30,16 @@ class Station(models.Model):
 		"""Zwraca listę stacji o {nazwie, id} == query lub jeśli takie nie
 		istnieją wykonuje zapytanie do Hafasa
 		"""
-		for x in ('name__iexact', 'pretty_name__iexact', 'hafasID', 'kurs90ID'):
-			try:
-				model = cls.objects.get(**{x: query})
-			except (cls.DoesNotExist, ValueError) as e:
-				pass
-			else:
-				return [model]
 
-#		hafasOutput = Hafas.searchStation(query.encode('utf-8'))
-#		
-#		result = []
-#
-#		for station in hafasOutput:
-#			try:
-#				model = cls.objects.get(hafasID = station.externalId)
-#			except cls.DoesNotExist:
-#				pass
-#			else:
-#				result.append(model)
-
+		require_str = reduce(operator.or_, (models.Q(**{x: query}) for x in ('name__iexact', 'pretty_name__iexact', 'slug__iexact')))
+		require_num = reduce(operator.or_, (models.Q(**{x: query}) for x in ('hafasID', 'kurs90ID')))
+		if type(query) == type(0) or query.isdigit():
+			require = require_num
+		else:
+			require = require_str
+		print require
+		return cls.objects.filter(require).all()
+			
 		print 'search failed for', query
 
 		return []

@@ -1,7 +1,7 @@
 name: KM 9130
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:55', station: "G\xF3ra Kalwaria"}
   - {arrival: '08:05', departure: '08:05', station: "Czach\xF3wek Wsch."}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '09:05', departure: '09:05', station: "Warszawa Powi\u015Ble"}
   - {arrival: '09:08', departure: '09:08', station: Warszawa Stadion}
   - {arrival: '09:10', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

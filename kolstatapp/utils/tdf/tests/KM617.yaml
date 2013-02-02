@@ -1,7 +1,7 @@
 name: KM 617
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:07', station: "Warszawa Gda\u0144ska"}
   - {arrival: '18:10', departure: '18:10', station: Warszawa ZOO}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '18:57', departure: '18:57', station: Brody Warszawskie}
   - {arrival: '19:00', departure: '19:00', station: Studzianki Nowe}
   - {arrival: '19:03', station: Nasielsk}
+  to: 2013-02-28
 type: train

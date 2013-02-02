@@ -1,7 +1,7 @@
 name: KM 9150
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:26', station: "G\xF3ra Kalwaria"}
   - {arrival: '20:36', departure: '20:36', station: "Czach\xF3wek Wsch."}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '21:38', departure: '21:38', station: "Warszawa Powi\u015Ble"}
   - {arrival: '21:41', departure: '21:41', station: Warszawa Stadion}
   - {arrival: '21:43', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

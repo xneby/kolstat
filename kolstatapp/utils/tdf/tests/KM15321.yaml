@@ -1,7 +1,7 @@
 name: KM 15321
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:20', station: Nasielsk}
   - {arrival: '05:24', departure: '05:24', station: "K\u0105tne"}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '06:38', departure: '06:38', station: "I\u0142owo"}
   - {arrival: '06:43', departure: '06:43', station: Narzym}
   - {arrival: '06:51', station: "Dzia\u0142dowo"}
+  to: 2013-02-28
 type: train

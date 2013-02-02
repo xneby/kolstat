@@ -1,7 +1,7 @@
 name: KM 30520
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:35', station: Grodzisk Maz. (PKP)}
   - {arrival: '07:39', departure: '07:39', station: "Milan\xF3wek"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '08:52', departure: '08:52', station: "J\xF3zef\xF3w"}
   - {arrival: '08:55', departure: '08:55', station: "\u015Awider"}
   - {arrival: '08:58', station: Otwock}
+  to: 2013-02-28
 type: train

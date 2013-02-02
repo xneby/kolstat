@@ -1,7 +1,7 @@
 name: KM 1221
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:10', station: Warszawa Zachodnia}
   - {arrival: '05:13', departure: '05:13', station: Warszawa Ochota}
@@ -38,4 +38,5 @@ operations:
   - {arrival: '07:15', departure: '07:15', station: "\u017Byczyn"}
   - {arrival: '07:19', departure: '07:19', station: Rokitnia Stara}
   - {arrival: '07:24', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

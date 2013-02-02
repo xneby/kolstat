@@ -1,7 +1,7 @@
 name: KM 443
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:48', station: Warszawa Wschodnia}
   - {arrival: '06:51', departure: '06:51', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '07:46', departure: '07:46', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '07:50', departure: '07:50', station: Piasecznica}
   - {arrival: '07:55', station: Sochaczew}
+  to: 2013-02-28
 type: train

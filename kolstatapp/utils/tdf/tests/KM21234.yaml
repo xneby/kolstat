@@ -1,7 +1,7 @@
 name: KM 21234
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:40', station: Radom}
   - {arrival: '08:14', departure: '08:14', station: Dobieszyn}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '09:45', departure: '09:45', station: Warszawa Zachodnia}
   - {arrival: '09:49', departure: '09:51', station: Warszawa Centralna}
   - {arrival: '09:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

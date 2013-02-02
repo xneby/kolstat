@@ -1,7 +1,7 @@
 name: KM 88523
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:28', station: Siedlce}
   - {arrival: '19:37', departure: '19:37', station: Stok Lacki}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '20:49', departure: '20:49', station: Nowy Nurzec}
   - {arrival: '20:53', departure: '20:53', station: Borowiki}
   - {arrival: '21:03', station: Czeremcha}
+  to: 2013-02-28
 type: train

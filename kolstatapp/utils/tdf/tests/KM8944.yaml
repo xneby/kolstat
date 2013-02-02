@@ -1,7 +1,7 @@
 name: KM 8944
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:28', station: Siedlce}
   - {arrival: '14:32', departure: '14:32', station: Siedlce Zachodnie}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '16:08', departure: '16:08', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '16:10', departure: '16:10', station: Warszawa Ochota}
   - {arrival: '16:14', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

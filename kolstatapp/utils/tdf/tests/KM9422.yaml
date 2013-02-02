@@ -1,7 +1,7 @@
 name: KM 9422
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:25', station: "\u0141owicz G\u0142\xF3wny"}
   - {arrival: '19:30', departure: '19:30', station: "Mys\u0142ak\xF3w"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '20:49', departure: '20:49', station: "Warszawa Powi\u015Ble"}
   - {arrival: '20:52', departure: '20:52', station: Warszawa Stadion}
   - {arrival: '20:54', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

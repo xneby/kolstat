@@ -71,9 +71,11 @@ td, th {
 	color: gray;
 }
 
+/*
 .overview {
 	font-weight: bold;
 }
+*/
 
 .relation {
 	text-align: center;
@@ -456,3 +458,84 @@ span.second_class { color: #298a40; font-weight: bold; }
 span.couchette { color: #2973b8; font-weight: bold; }
 span.sleeping { color: #001245; font-weight: bold; }
 span.dining { color: #8A1214; font-weight: bold; }
+
+/* PICTOGRAMS */
+
+.picto {
+	margin-left: 5px;
+}
+
+/* QUERY RESULTS */
+
+.query_result .overview .departure .time {
+	float: right;
+	font-weight: bold;
+}
+
+.query_result .overview .arrival .time {
+	float: left;
+	font-weight: bold;
+}
+
+.query_result .overview {
+	width: 100%;
+}
+
+.query_result .overview td.departure {
+	width: 50%;
+	text-align: left;
+}
+
+.query_result .overview td.arrival {
+	width: 50%;
+	text-align: right;
+}
+
+.query_result {
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #bca;
+}
+
+.query_result img.category {
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.query_result span.vmiddle {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.sections {
+	width: 100%;
+}
+
+.sections .station {
+	width: 20%
+}
+
+.sections .time {
+	width: 30%;
+}
+
+.sections .train {
+	width: 15%;
+}
+
+.sections .trivia {
+	width: 15%;
+}
+
+.sections .info td {
+	text-align: left;
+}
+
+.fav_select * {
+	vertical-align: middle;
+}
+
+.fav_select img.big {
+	margin-right: 10px;
+}

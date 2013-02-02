@@ -1,7 +1,7 @@
 name: KM 1229
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:32', station: Warszawa Zachodnia}
   - {arrival: '13:36', departure: '13:36', station: Warszawa Ochota}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '15:39', departure: '15:39', station: "\u017Byczyn"}
   - {arrival: '15:43', departure: '15:43', station: Rokitnia Stara}
   - {arrival: '15:49', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

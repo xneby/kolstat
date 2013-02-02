@@ -1,7 +1,7 @@
 name: KM 12247
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:53', station: Warszawa Wschodnia}
   - {arrival: '17:00', departure: '17:08', station: Warszawa Centralna}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '18:17', departure: '18:17', station: Warka}
   - {arrival: '18:39', departure: '18:39', station: Dobieszyn}
   - {arrival: '19:16', station: Radom}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 51426
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:30', station: "Dzia\u0142dowo"}
   - {arrival: '08:38', departure: '08:38', station: Narzym}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '11:05', departure: '11:05', station: "Warszawa Ko\u0142o"}
   - {arrival: '11:08', departure: '11:08', station: Warszawa Kasprzaka}
   - {arrival: '11:12', station: Warszawa Zach. per.8}
+  to: 2013-02-28
 type: train

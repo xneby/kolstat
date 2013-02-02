@@ -1,7 +1,7 @@
 name: KM 8842
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:52', station: "\u0141uk\xF3w"}
   - {arrival: '14:01', departure: '14:01', station: "Krynka \u0141ukowska"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '14:19', departure: '14:19', station: "Bia\u0142ki Siedleckie"}
   - {arrival: '14:22', departure: '14:22', station: Siedlce Wschodnie}
   - {arrival: '14:25', station: Siedlce}
+  to: 2013-02-28
 type: train

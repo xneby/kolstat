@@ -1,7 +1,7 @@
 name: KM 2132
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:24', station: "D\u0119blin"}
   - {arrival: '09:29', departure: '09:29', station: Rokitnia Stara}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '11:46', departure: '11:46', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '11:48', departure: '11:48', station: Warszawa Ochota}
   - {arrival: '11:51', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

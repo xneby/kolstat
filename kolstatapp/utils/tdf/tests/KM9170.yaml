@@ -1,7 +1,7 @@
 name: KM 9170
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:12', station: Piaseczno}
   - {arrival: '20:17', departure: '20:17', station: Nowa Iwiczna}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '20:56', departure: '20:56', station: "Warszawa Powi\u015Ble"}
   - {arrival: '20:59', departure: '20:59', station: Warszawa Stadion}
   - {arrival: '21:01', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 77022
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:57', station: Radom}
   - {arrival: '20:06', departure: '20:06', station: "Radom Potkan\xF3w"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '21:02', departure: '21:02', station: "Zygmunt\xF3w"}
   - {arrival: '21:11', departure: '21:11', station: "Bieliny Opoczy\u0144skie"}
   - {arrival: '21:17', station: Drzewica}
+  to: 2013-02-28
 type: train

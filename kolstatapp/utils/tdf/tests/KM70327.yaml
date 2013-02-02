@@ -1,7 +1,7 @@
 name: KM 70327
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:58', station: "T\u0142uszcz"}
   - {arrival: '14:03', departure: '14:03', station: "Jarz\u0119bia \u0141\u0105ka"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '15:25', departure: '15:25', station: Goworowo}
   - {arrival: '15:35', departure: '15:35', station: Gierwaty}
   - {arrival: '15:46', station: "Ostro\u0142\u0119ka"}
+  to: 2013-02-28
 type: train

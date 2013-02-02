@@ -1,7 +1,7 @@
 name: KM 7951
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:40', station: "Warszawa Wile\u0144ska"}
   - {arrival: '19:48', departure: '19:48', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '21:05', departure: '21:05', station: "Sadowne W\u0119growskie"}
   - {arrival: '21:14', departure: '21:14', station: "Prosty\u0144"}
   - {arrival: '21:21', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

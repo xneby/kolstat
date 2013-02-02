@@ -1,7 +1,7 @@
 name: KM 7640
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:20', station: "Wo\u0142omin"}
   - {arrival: '17:23', departure: '17:23', station: "Koby\u0142ka"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '17:31', departure: '17:31', station: Zielonka}
   - {arrival: '17:35', departure: '17:35', station: "Z\u0105bki"}
   - {arrival: '17:43', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

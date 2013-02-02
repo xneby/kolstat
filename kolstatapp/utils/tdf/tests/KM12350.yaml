@@ -1,7 +1,7 @@
 name: KM 12350
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:28', station: Otwock}
   - {arrival: '10:31', departure: '10:31', station: "\u015Awider"}
@@ -40,4 +40,5 @@ operations:
   - {arrival: '12:28', departure: '12:28', station: Michalczew}
   - {arrival: '12:33', departure: '12:33', station: "Go\u015Bniewice"}
   - {arrival: '12:37', station: Warka}
+  to: 2013-02-28
 type: train

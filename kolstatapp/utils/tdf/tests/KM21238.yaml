@@ -1,7 +1,7 @@
 name: KM 21238
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:54', station: Radom}
   - {arrival: '09:07', departure: '09:07', station: "Lesi\xF3w"}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '11:23', departure: '11:23', station: "Warszawa Powi\u015Ble"}
   - {arrival: '11:26', departure: '11:26', station: Warszawa Stadion}
   - {arrival: '11:28', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

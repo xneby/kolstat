@@ -1,7 +1,7 @@
 name: KM 831
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:55', station: Warszawa Zachodnia}
   - {arrival: '19:58', departure: '19:58', station: Warszawa Ochota}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '20:47', departure: '20:47', station: "Nowe D\u0119be Wielkie"}
   - {arrival: '20:50', departure: '20:50', station: "Wrzos\xF3w"}
   - {arrival: '20:55', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 70331
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:53', station: "T\u0142uszcz"}
   - {arrival: '16:58', departure: '16:58', station: "Jarz\u0119bia \u0141\u0105ka"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '18:15', departure: '18:15', station: Goworowo}
   - {arrival: '18:25', departure: '18:25', station: Gierwaty}
   - {arrival: '18:36', station: "Ostro\u0142\u0119ka"}
+  to: 2013-02-28
 type: train

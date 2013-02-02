@@ -1,7 +1,7 @@
 name: KM 88146
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:31', station: "\u0141uk\xF3w"}
   - {arrival: '04:40', departure: '04:40', station: "Krynka \u0141ukowska"}
@@ -30,4 +30,5 @@ operations:
   - {arrival: '06:42', departure: '06:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '06:44', departure: '06:44', station: Warszawa Ochota}
   - {arrival: '06:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

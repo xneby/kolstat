@@ -1,7 +1,7 @@
 name: KM 631
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:20', station: Warszawa Zachodnia}
   - {arrival: '03:25', departure: '03:30', station: Warszawa Centralna}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '04:29', departure: '04:29', station: Brody Warszawskie}
   - {arrival: '04:32', departure: '04:32', station: Studzianki Nowe}
   - {arrival: '04:35', station: Nasielsk}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7637
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:15', station: "Warszawa Wile\u0144ska"}
   - {arrival: '11:23', departure: '11:23', station: "Z\u0105bki"}
@@ -9,4 +9,5 @@ operations:
   - {arrival: '11:31', departure: '11:31', station: "Koby\u0142ka Oss\xF3w"}
   - {arrival: '11:34', departure: '11:34', station: "Koby\u0142ka"}
   - {arrival: '11:38', station: "Wo\u0142omin"}
+  to: 2013-02-28
 type: train

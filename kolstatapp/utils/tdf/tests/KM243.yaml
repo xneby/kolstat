@@ -1,7 +1,7 @@
 name: KM 243
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:03', station: Warszawa Wschodnia}
   - {arrival: '22:06', departure: '22:06', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '23:31', departure: '23:31', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '23:36', departure: '23:36', station: Skierniewice Rawka}
   - {arrival: '23:41', station: Skierniewice}
+  to: 2013-02-28
 type: train

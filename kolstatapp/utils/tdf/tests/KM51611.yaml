@@ -1,7 +1,7 @@
 name: KM 51611
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:33', station: "Warszawa Gda\u0144ska"}
   - {arrival: '11:36', departure: '11:36', station: Warszawa ZOO}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '12:18', departure: '12:18', station: Radzymin}
   - {arrival: '12:32', departure: '12:32', station: Krusze}
   - {arrival: '12:39', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

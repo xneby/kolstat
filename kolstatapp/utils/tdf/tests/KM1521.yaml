@@ -1,7 +1,7 @@
 name: KM 1521
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:48', station: "Warszawa Gda\u0144ska"}
   - {arrival: '05:51', departure: '05:51', station: Warszawa ZOO}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '07:09', departure: '07:09', station: "Go\u0142otczyzna"}
   - {arrival: '07:17', departure: '07:17', station: "Ciechan\xF3w Przemys\u0142."}
   - {arrival: '07:21', station: "Ciechan\xF3w"}
+  to: 2013-02-28
 type: train

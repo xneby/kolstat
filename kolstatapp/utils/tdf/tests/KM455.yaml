@@ -1,7 +1,7 @@
 name: KM 455
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:18', station: Warszawa Wschodnia}
   - {arrival: '15:21', departure: '15:21', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '16:14', departure: '16:14', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '16:18', departure: '16:18', station: Piasecznica}
   - {arrival: '16:23', station: Sochaczew}
+  to: 2013-02-28
 type: train

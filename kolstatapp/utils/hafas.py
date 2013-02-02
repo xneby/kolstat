@@ -4,7 +4,7 @@
 import httplib, urllib
 from xml.dom.minidom import parseString
 from datetime import timedelta, time, datetime, date
-from gsk.dijkstra import Dijkstra
+#from gsk.dijkstra import Dijkstra
 
 import cache
 
@@ -44,13 +44,14 @@ class HafasStation(object):
 
 	def gskID(self):
 		global Station
-		if Station is None:
-			from kolstatapp.models import Station as x
-			Station = x
-
-		s,= Station.search(self.externalId)
-		return s.gskID
-
+#		if Station is None:
+#			from kolstatapp.models import Station as x
+#			Station = x
+#
+#		s,= Station.search(self.externalId)
+#		return s.gskID
+		return 0
+	
 	@staticmethod
 	def fromDOMElement(element, nr = 'externalStationNr'):
 		name = element.getAttribute('name')
@@ -400,7 +401,8 @@ class HafasTrain(object):
 
 	def approximateDistance(self, source = None, destination = None):
 		def gskID(s):
-			return Station.search(s).gskID
+	#		return Station.search(s).gskID
+			return 0
 
 		before = None
 		count = False
@@ -418,7 +420,7 @@ class HafasTrain(object):
 				count = True
 
 			if count:
-				distance += Dijkstra.length(stop.station.gskID(), before.station.gskID())
+#				distance += Dijkstra.length(stop.station.gskID(), before.station.gskID())
 				stop.fromStart = distance
 
 			if stop.station == destination:
@@ -711,18 +713,32 @@ Hafas = HafasObject()
 
 if __name__ == '__main__':
 	from datetime import datetime, timedelta
-#	(kutno,) , (radom,) =  Hafas.searchStations([u"Warszawa Wschodnia".encode('utf-8'), u"5100010".encode('utf-8')])
+	START = "Augustów"
+	END = "Warszawa Centralna"
+	dzien = datetime(2013,1,25,15,30)
 
-#	cl = Hafas.searchConnections(kutno, radom, datetime.now().date(), only_direct = True, number=3)
-	
+	def get_station(name):
+		stations = Hafas.searchStation(name)
+		if len(stations) == 0:
+			raise ValueError("Brak stacji")
+		if len(stations) == 1:
+			return stations[0]
 
-	x = Hafas.searchStations([u'Boleszewo'])
+		for i, st in enumerate(stations):
+			print i,st.toString()
+		x = int(raw_input('Wybor: '))
 
-#	c = cl[0]
+		return stations[x]
 
-#	c.queryRelation()
+	start = get_station(START)
+	end = get_station(END)
 
-#	print c.toString()
+	cl = Hafas.searchConnections(start, end, dzien, only_direct = True, number=1)
+
+	for c in cl:
+		c.queryRelation()
+
+		print c.toString()
 
 #	print Hafas.getTrainStops(62122, None, kutno, kutno)
 	

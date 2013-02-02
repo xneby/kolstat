@@ -1,7 +1,7 @@
 name: KM 15425
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:10', station: Warszawa Zach. per.8}
   - {arrival: '13:14', departure: '13:14', station: Warszawa Kasprzaka}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '15:40', departure: '15:40', station: "I\u0142owo"}
   - {arrival: '15:44', departure: '15:44', station: Narzym}
   - {arrival: '15:53', station: "Dzia\u0142dowo"}
+  to: 2013-02-28
 type: train

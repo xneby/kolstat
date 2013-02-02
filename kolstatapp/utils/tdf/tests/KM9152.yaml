@@ -1,7 +1,7 @@
 name: KM 9152
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:47', station: "Czach\xF3wek P\u0142d."}
   - {arrival: '07:49', departure: '07:49', station: "Czach\xF3wek G\xF3rny"}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '08:45', departure: '08:45', station: "Warszawa Powi\u015Ble"}
   - {arrival: '08:48', departure: '08:48', station: Warszawa Stadion}
   - {arrival: '08:50', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

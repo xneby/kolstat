@@ -1,7 +1,7 @@
 name: KM 5136
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:09', station: "Ciechan\xF3w"}
   - {arrival: '18:12', departure: '18:12', station: "Ciechan\xF3w Przemys\u0142."}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '19:56', departure: '19:56', station: "Warszawa Ko\u0142o"}
   - {arrival: '19:59', departure: '19:59', station: Warszawa Kasprzaka}
   - {arrival: '20:03', station: Warszawa Zach. per.8}
+  to: 2013-02-28
 type: train

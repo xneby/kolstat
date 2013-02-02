@@ -1,7 +1,7 @@
 name: KM 489
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:30', station: Warszawa Wschodnia}
   - {arrival: '17:32', departure: '17:32', station: Warszawa Stadion}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '18:01', departure: '18:01', station: "O\u017Car\xF3w Mazowiecki"}
   - {arrival: '18:06', departure: '18:06', station: "P\u0142ochocin"}
   - {arrival: '18:11', station: "B\u0142onie"}
+  to: 2013-02-28
 type: train

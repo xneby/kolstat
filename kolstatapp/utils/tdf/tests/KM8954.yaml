@@ -1,7 +1,7 @@
 name: KM 8954
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:28', station: Siedlce}
   - {arrival: '19:32', departure: '19:32', station: Siedlce Zachodnie}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '21:04', departure: '21:04', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '21:06', departure: '21:06', station: Warszawa Ochota}
   - {arrival: '21:10', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

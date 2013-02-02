@@ -1,7 +1,7 @@
 name: KM 21740
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:05', station: Radom}
   - {arrival: '11:18', departure: '11:18', station: "Lesi\xF3w"}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '14:36', departure: '14:36', station: "Klemb\xF3w"}
   - {arrival: '14:40', departure: '14:40', station: Jasienica Mazowiecka}
   - {arrival: '14:43', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

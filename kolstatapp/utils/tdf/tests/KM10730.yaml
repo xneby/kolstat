@@ -1,7 +1,7 @@
 name: KM 10730
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:58', station: "G\xF3ra Kalwaria"}
   - {arrival: '18:08', departure: '18:08', station: "Czach\xF3wek Wsch."}
@@ -34,4 +34,5 @@ operations:
   - {arrival: '20:03', departure: '20:03', station: "Klemb\xF3w"}
   - {arrival: '20:07', departure: '20:07', station: Jasienica Mazowiecka}
   - {arrival: '20:11', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

@@ -1,64 +1,41 @@
+mode: normal
 name: KM 51612
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:04', station: Sierpc}
-  - {arrival: "18:12\n</td>\n<td class=\"sepline\">\n\_", departure: '18:12', station: Mieszaki}
-  - {arrival: "18:20\n</td>\n<td class=\"sepline\">\n\_", departure: '18:20', station: Zawidz}
-  - {arrival: "18:23\n</td>\n<td class=\"sepline\">\n\_", departure: '18:23', station: "Zawidz\
-      \ Ko\u015Bcielny"}
-  - {arrival: "18:31\n</td>\n<td class=\"sepline\">\n\_", departure: '18:31', station: Koziebrody}
-  - {arrival: "18:43\n</td>\n<td class=\"sepline\">\n\_", departure: '18:43', station: "Raci\u0105\
-      \u017C"}
-  - {arrival: "18:51\n</td>\n<td class=\"sepline\">\n\_", departure: '18:51', station: Kaczorowo}
-  - {arrival: "19:00\n</td>\n<td class=\"sepline\">\n\_", departure: '19:00', station: Baboszewo}
-  - {arrival: "19:06\n</td>\n<td class=\"sepline\">\n\_", departure: '19:06', station: Arcelin}
-  - {arrival: "19:19\n</td>\n<td class=\"sepline\">\n\_", departure: '19:19', station: "P\u0142\
-      o\u0144sk"}
-  - {arrival: "19:29\n</td>\n<td class=\"sepline\">\n\_", departure: '19:29', station: "Dalan\xF3\
-      wek"}
-  - {arrival: "19:37\n</td>\n<td class=\"sepline\">\n\_", departure: '19:37', station: Wkra}
-  - {arrival: "19:45\n</td>\n<td class=\"sepline\">\n\_", departure: '19:45', station: Cieksyn}
-  - {arrival: "19:59\n</td>\n<td class=\"sepline\">\n\_", departure: '20:06', station: Nasielsk}
-  - {arrival: "20:17\n</td>\n<td class=\"sepline\">\n\_", departure: '20:17', station: Modlin}
-  - {arrival: "20:22\n</td>\n<td class=\"sepline\">\n\_", departure: '20:22', station: "Nowy\
-      \ Dw\xF3r Mazowiecki"}
-  - {arrival: "20:32\n</td>\n<td class=\"sepline\">\n\_", departure: '20:32', station: Legionowo
-      Przystanek}
-  - {arrival: "20:35\n</td>\n<td class=\"sepline\">\n\_", departure: '20:35', station: Legionowo}
-  - {arrival: "20:45\n</td>\n<td class=\"sepline\">\n\_", departure: '20:45', station: "Warszawa\
-      \ Toru\u0144ska"}
-  - {arrival: "20:47\n</td>\n<td class=\"sepline\">\n\_", departure: '20:47', station: Warszawa
-      Praga}
-  - {arrival: "20:51\n</td>\n<td class=\"sepline\">\n\_", departure: '20:51', station: Warszawa
-      ZOO}
-  - {arrival: "20:55\n</td>\n<td class=\"sepline\">\n\_", departure: '21:18', station: "Warszawa\
-      \ Gda\u0144ska"}
-  - {arrival: "21:21\n</td>\n<td class=\"sepline\">\n\_", departure: '21:21', station: Warszawa
-      ZOO}
-  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: "Warszawa\
-      \ Toru\u0144ska"}
-  - {arrival: "21:37\n</td>\n<td class=\"sepline\">\n\_", departure: '21:37', station: Legionowo}
-  - {arrival: "21:40\n</td>\n<td class=\"sepline\">\n\_", departure: '21:40', station: Legionowo
-      Piaski}
-  - {arrival: "21:43\n</td>\n<td class=\"sepline\">\n\_", departure: '21:43', station: "Micha\u0142\
-      \xF3w Regin\xF3w"}
-  - {arrival: "21:46\n</td>\n<td class=\"sepline\">\n\_", departure: '21:46', station: Wieliszew}
-  - {arrival: "21:52\n</td>\n<td class=\"sepline\">\n\_", departure: '21:52', station: "Niepor\u0119\
-      t"}
-  - {arrival: "21:57\n</td>\n<td class=\"sepline\">\n\_", departure: '21:57', station: "D\u0105\
-      bkowizna"}
-  - {arrival: "22:03\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:03', station: Radzymin}
-  - {arrival: "22:17\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:17', station: Krusze}
-  - {arrival: "22:24\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: "T\u0142uszcz"}
+  - {arrival: '18:12', departure: '18:12', station: Mieszaki}
+  - {arrival: '18:20', departure: '18:20', station: Zawidz}
+  - {arrival: '18:23', departure: '18:23', station: "Zawidz Ko\u015Bcielny"}
+  - {arrival: '18:31', departure: '18:31', station: Koziebrody}
+  - {arrival: '18:43', departure: '18:43', station: "Raci\u0105\u017C"}
+  - {arrival: '18:51', departure: '18:51', station: Kaczorowo}
+  - {arrival: '19:00', departure: '19:00', station: Baboszewo}
+  - {arrival: '19:06', departure: '19:06', station: Arcelin}
+  - {arrival: '19:19', departure: '19:19', station: "P\u0142o\u0144sk"}
+  - {arrival: '19:29', departure: '19:29', station: "Dalan\xF3wek"}
+  - {arrival: '19:37', departure: '19:37', station: Wkra}
+  - {arrival: '19:45', departure: '19:45', station: Cieksyn}
+  - {arrival: '19:59', departure: '20:06', station: Nasielsk}
+  - {arrival: '20:17', departure: '20:17', station: Modlin}
+  - {arrival: '20:22', departure: '20:22', station: "Nowy Dw\xF3r Mazowiecki"}
+  - {arrival: '20:32', departure: '20:32', station: Legionowo Przystanek}
+  - {arrival: '20:35', departure: '20:35', station: Legionowo}
+  - {arrival: '20:45', departure: '20:45', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '20:47', departure: '20:47', station: Warszawa Praga}
+  - {arrival: '20:51', departure: '20:51', station: Warszawa ZOO}
+  - {arrival: '20:55', departure: '21:18', station: "Warszawa Gda\u0144ska"}
+  - {arrival: '21:21', departure: '21:21', station: Warszawa ZOO}
+  - {arrival: '21:27', departure: '21:27', station: "Warszawa Toru\u0144ska"}
+  - {arrival: '21:37', departure: '21:37', station: Legionowo}
+  - {arrival: '21:40', departure: '21:40', station: Legionowo Piaski}
+  - {arrival: '21:43', departure: '21:43', station: "Micha\u0142\xF3w Regin\xF3w"}
+  - {arrival: '21:46', departure: '21:46', station: Wieliszew}
+  - {arrival: '21:52', departure: '21:52', station: "Niepor\u0119t"}
+  - {arrival: '21:57', departure: '21:57', station: "D\u0105bkowizna"}
+  - {arrival: '22:03', departure: '22:03', station: Radzymin}
+  - {arrival: '22:17', departure: '22:17', station: Krusze}
+  - {arrival: '22:24', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

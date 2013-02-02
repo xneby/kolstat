@@ -1,7 +1,7 @@
 name: KM 5124
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:24', station: "Ciechan\xF3w"}
   - {arrival: '05:27', departure: '05:27', station: "Ciechan\xF3w Przemys\u0142."}
@@ -31,4 +31,5 @@ operations:
   - {arrival: '07:01', departure: '07:01', station: "Warszawa Ko\u0142o"}
   - {arrival: '07:04', departure: '07:04', station: Warszawa Kasprzaka}
   - {arrival: '07:08', station: Warszawa Zach. per.8}
+  to: 2013-02-28
 type: train

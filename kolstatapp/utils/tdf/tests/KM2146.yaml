@@ -1,71 +1,46 @@
+mode: normal
 name: KM 2146
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:24', station: "D\u0119blin"}
-  - {arrival: "19:29\n</td>\n<td class=\"sepline\">\n\_", departure: '19:29', station: Rokitnia
-      Stara}
-  - {arrival: "19:34\n</td>\n<td class=\"sepline\">\n\_", departure: '19:34', station: "\u017B\
-      yczyn"}
-  - {arrival: "19:38\n</td>\n<td class=\"sepline\">\n\_", departure: '19:38', station: Mika}
-  - {arrival: "19:42\n</td>\n<td class=\"sepline\">\n\_", departure: '19:42', station: Wygoda}
-  - {arrival: "19:47\n</td>\n<td class=\"sepline\">\n\_", departure: '19:47', station: Sobolew}
-  - {arrival: "19:51\n</td>\n<td class=\"sepline\">\n\_", departure: '19:51', station: Leokadia}
-  - {arrival: "19:55\n</td>\n<td class=\"sepline\">\n\_", departure: '19:55', station: "\u0141\
-      askarzew Przystanek"}
-  - {arrival: "19:59\n</td>\n<td class=\"sepline\">\n\_", departure: '19:59', station: Wola
-      Rowska}
-  - {arrival: "20:03\n</td>\n<td class=\"sepline\">\n\_", departure: '20:03', station: Ruda
-      Talubska}
-  - {arrival: "20:08\n</td>\n<td class=\"sepline\">\n\_", departure: '20:08', station: Garwolin}
-  - {arrival: "20:17\n</td>\n<td class=\"sepline\">\n\_", departure: '20:17', station: Pilawa}
-  - {arrival: "20:21\n</td>\n<td class=\"sepline\">\n\_", departure: '20:21', station: "August\xF3\
-      wka"}
-  - {arrival: "20:25\n</td>\n<td class=\"sepline\">\n\_", departure: '20:25', station: "Zabie\u017C\
-      ki"}
-  - {arrival: "20:29\n</td>\n<td class=\"sepline\">\n\_", departure: '20:29', station: Chrosna}
-  - {arrival: "20:31\n</td>\n<td class=\"sepline\">\n\_", departure: '20:31', station: "Ko\u0142\
-      biel"}
-  - {arrival: "20:35\n</td>\n<td class=\"sepline\">\n\_", departure: '20:41', station: "Celestyn\xF3\
-      w"}
-  - {arrival: "20:46\n</td>\n<td class=\"sepline\">\n\_", departure: '20:46', station: "Stara\
-      \ Wie\u015B"}
-  - {arrival: "20:49\n</td>\n<td class=\"sepline\">\n\_", departure: '20:49', station: Pogorzel
-      Warszawska}
-  - {arrival: "20:52\n</td>\n<td class=\"sepline\">\n\_", departure: '20:52', station: "\u015A\
-      r\xF3dbor\xF3w"}
-  - {arrival: "20:57\n</td>\n<td class=\"sepline\">\n\_", departure: '20:57', station: Otwock}
-  - {arrival: "21:00\n</td>\n<td class=\"sepline\">\n\_", departure: '21:00', station: "\u015A\
-      wider"}
-  - {arrival: "21:03\n</td>\n<td class=\"sepline\">\n\_", departure: '21:03', station: "J\xF3\
-      zef\xF3w"}
-  - {arrival: "21:06\n</td>\n<td class=\"sepline\">\n\_", departure: '21:06', station: Michalin}
-  - {arrival: "21:08\n</td>\n<td class=\"sepline\">\n\_", departure: '21:08', station: Warszawa
-      Falenica}
-  - {arrival: "21:11\n</td>\n<td class=\"sepline\">\n\_", departure: '21:11', station: Warszawa
-      Miedzeszyn}
-  - {arrival: "21:13\n</td>\n<td class=\"sepline\">\n\_", departure: '21:13', station: "Warszawa\
-      \ Rado\u015B\u0107"}
-  - {arrival: "21:16\n</td>\n<td class=\"sepline\">\n\_", departure: '21:16', station: "Warszawa\
-      \ Mi\u0119dzylesie"}
-  - {arrival: "21:19\n</td>\n<td class=\"sepline\">\n\_", departure: '21:19', station: Warszawa
-      Anin}
-  - {arrival: "21:21\n</td>\n<td class=\"sepline\">\n\_", departure: '21:21', station: Warszawa
-      Wawer}
-  - {arrival: "21:24\n</td>\n<td class=\"sepline\">\n\_", departure: '21:24', station: "Warszawa\
-      \ Goc\u0142awek"}
-  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: Warszawa
-      Olsz.Groch.}
-  - {arrival: "21:31\n</td>\n<td class=\"sepline\">\n\_", departure: '21:33', station: Warszawa
-      Wschodnia}
-  - {arrival: "21:36\n</td>\n<td class=\"sepline\">\n\_", departure: '21:36', station: Warszawa
-      Stadion}
-  - {arrival: "21:39\n</td>\n<td class=\"sepline\">\n\_", departure: '21:39', station: "Warszawa\
-      \ Powi\u015Ble"}
-  - {arrival: "21:42\n</td>\n<td class=\"sepline\">\n\_", departure: '21:42', station: "Warszawa\
-      \ \u015Ar\xF3dm. (PKP)"}
-  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: Warszawa
-      Ochota}
-  - {arrival: "21:47\n</td>\n<td class=\"sepline\">\n\_", station: Warszawa Zachodnia}
+  - {arrival: '19:29', departure: '19:29', station: Rokitnia Stara}
+  - {arrival: '19:34', departure: '19:34', station: "\u017Byczyn"}
+  - {arrival: '19:38', departure: '19:38', station: Mika}
+  - {arrival: '19:42', departure: '19:42', station: Wygoda}
+  - {arrival: '19:47', departure: '19:47', station: Sobolew}
+  - {arrival: '19:51', departure: '19:51', station: Leokadia}
+  - {arrival: '19:55', departure: '19:55', station: "\u0141askarzew Przystanek"}
+  - {arrival: '19:59', departure: '19:59', station: Wola Rowska}
+  - {arrival: '20:03', departure: '20:03', station: Ruda Talubska}
+  - {arrival: '20:08', departure: '20:08', station: Garwolin}
+  - {arrival: '20:17', departure: '20:17', station: Pilawa}
+  - {arrival: '20:21', departure: '20:21', station: "August\xF3wka"}
+  - {arrival: '20:25', departure: '20:25', station: "Zabie\u017Cki"}
+  - {arrival: '20:29', departure: '20:29', station: Chrosna}
+  - {arrival: '20:31', departure: '20:31', station: "Ko\u0142biel"}
+  - {arrival: '20:35', departure: '20:41', station: "Celestyn\xF3w"}
+  - {arrival: '20:46', departure: '20:46', station: "Stara Wie\u015B"}
+  - {arrival: '20:49', departure: '20:49', station: Pogorzel Warszawska}
+  - {arrival: '20:52', departure: '20:52', station: "\u015Ar\xF3dbor\xF3w"}
+  - {arrival: '20:57', departure: '20:57', station: Otwock}
+  - {arrival: '21:00', departure: '21:00', station: "\u015Awider"}
+  - {arrival: '21:03', departure: '21:03', station: "J\xF3zef\xF3w"}
+  - {arrival: '21:06', departure: '21:06', station: Michalin}
+  - {arrival: '21:08', departure: '21:08', station: Warszawa Falenica}
+  - {arrival: '21:11', departure: '21:11', station: Warszawa Miedzeszyn}
+  - {arrival: '21:13', departure: '21:13', station: "Warszawa Rado\u015B\u0107"}
+  - {arrival: '21:16', departure: '21:16', station: "Warszawa Mi\u0119dzylesie"}
+  - {arrival: '21:19', departure: '21:19', station: Warszawa Anin}
+  - {arrival: '21:21', departure: '21:21', station: Warszawa Wawer}
+  - {arrival: '21:24', departure: '21:24', station: "Warszawa Goc\u0142awek"}
+  - {arrival: '21:27', departure: '21:27', station: Warszawa Olsz.Groch.}
+  - {arrival: '21:31', departure: '21:33', station: Warszawa Wschodnia}
+  - {arrival: '21:36', departure: '21:36', station: Warszawa Stadion}
+  - {arrival: '21:39', departure: '21:39', station: "Warszawa Powi\u015Ble"}
+  - {arrival: '21:42', departure: '21:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
+  - {arrival: '21:44', departure: '21:44', station: Warszawa Ochota}
+  - {arrival: '21:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 534
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:46', station: Radom}
   - {arrival: '15:53', departure: '15:53', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '16:28', departure: '16:28', station: "B\u0105kowiec"}
   - {arrival: '16:35', departure: '16:35', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '16:42', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

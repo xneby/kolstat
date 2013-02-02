@@ -1,7 +1,7 @@
 name: KM 70355
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:03', station: "T\u0142uszcz"}
   - {arrival: '16:08', departure: '16:08', station: "Jarz\u0119bia \u0141\u0105ka"}
@@ -10,4 +10,5 @@ operations:
   - {arrival: '16:22', departure: '16:22', station: "Lucyn\xF3w"}
   - {arrival: '16:26', departure: '16:26', station: Rybienko}
   - {arrival: '16:30', station: "Wyszk\xF3w"}
+  to: 2013-02-28
 type: train

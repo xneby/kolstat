@@ -1,7 +1,7 @@
 name: KM 6014
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:24', station: "Skar\u017Cysko-Kamienna"}
   - {arrival: '07:29', departure: '07:29', station: Lipowe Pole}
@@ -13,4 +13,5 @@ operations:
   - {arrival: '07:54', departure: '07:54', station: "Ro\u017Cki"}
   - {arrival: '07:58', departure: '07:58', station: "Radom Po\u0142udniowy"}
   - {arrival: '08:04', station: Radom}
+  to: 2013-02-28
 type: train

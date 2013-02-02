@@ -1,7 +1,7 @@
 name: KM 7822
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:20', station: "\u0141och\xF3w"}
   - {arrival: '06:24', departure: '06:24', station: "Barch\xF3w"}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '07:21', departure: '07:21', station: Zielonka}
   - {arrival: '07:25', departure: '07:25', station: "Z\u0105bki"}
   - {arrival: '07:33', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

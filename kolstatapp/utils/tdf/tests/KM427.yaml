@@ -1,7 +1,7 @@
 name: KM 427
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '22:58', station: Warszawa Wschodnia}
   - {arrival: '23:05', departure: '23:08', station: Warszawa Centralna}
@@ -25,4 +25,5 @@ operations:
   - {arrival: '00:28', departure: '00:28', station: Bednary}
   - {arrival: '00:31', departure: '00:31', station: "Mys\u0142ak\xF3w"}
   - {arrival: '00:35', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-28
 type: train

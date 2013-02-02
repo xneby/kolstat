@@ -1,7 +1,7 @@
 name: KM 2124
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:26', station: "D\u0119blin"}
   - {arrival: '04:31', departure: '04:31', station: Rokitnia Stara}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '06:38', departure: '06:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '06:40', departure: '06:40', station: Warszawa Ochota}
   - {arrival: '06:44', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

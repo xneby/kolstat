@@ -1,7 +1,7 @@
 name: KM 137
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:37', station: Warszawa Wschodnia}
   - {arrival: '19:40', departure: '19:40', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '20:38', departure: '20:48', station: "Czach\xF3wek P\u0142d."}
   - {arrival: '20:52', departure: '20:52', station: "Czach\xF3wek Wsch."}
   - {arrival: '21:05', station: "G\xF3ra Kalwaria"}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 7942
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:19', station: "Ma\u0142kinia"}
   - {arrival: '14:25', departure: '14:25', station: "Prosty\u0144"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '15:51', departure: '15:51', station: Zielonka}
   - {arrival: '15:55', departure: '15:55', station: "Z\u0105bki"}
   - {arrival: '16:03', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

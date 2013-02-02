@@ -61,7 +61,7 @@ def print_month(train, month):
 
 		if kursuje:
 			cl.append('valid')
-		elif d <= settings.TIMETABLE_END and d >= settings.TIMETABLE_START:
+		elif d <= settings.TIMETABLE_END.date() and d >= settings.TIMETABLE_START.date():
 			cl.append('invalid')
 		else:
 			cl.append('outside')

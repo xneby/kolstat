@@ -1,7 +1,7 @@
 name: KM 9226
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:54', station: Grodzisk Maz. (PKP)}
   - {arrival: '17:58', departure: '17:58', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '18:34', departure: '18:34', station: "Warszawa Powi\u015Ble"}
   - {arrival: '18:37', departure: '18:37', station: Warszawa Stadion}
   - {arrival: '18:39', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

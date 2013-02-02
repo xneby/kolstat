@@ -1,7 +1,7 @@
 name: KM 535
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:54', station: "D\u0119blin"}
   - {arrival: '16:00', departure: '16:00', station: "Zajezierze k.D\u0119blina"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '16:40', departure: '16:40', station: "Antoni\xF3wka"}
   - {arrival: '16:43', departure: '16:43', station: Rajec Poduchowny}
   - {arrival: '16:51', station: Radom}
+  to: 2013-02-28
 type: train

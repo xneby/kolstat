@@ -1,7 +1,7 @@
 name: KM 15335
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:27', station: Kutno}
   - {arrival: '12:32', departure: '12:32', station: Azory}
@@ -18,4 +18,5 @@ operations:
   - {arrival: '13:58', departure: '13:58', station: Gozdowo}
   - {arrival: '14:04', departure: '14:04', station: Susk}
   - {arrival: '14:13', station: Sierpc}
+  to: 2013-02-28
 type: train

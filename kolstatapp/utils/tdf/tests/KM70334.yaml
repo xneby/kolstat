@@ -1,37 +1,24 @@
+mode: normal
 name: KM 70334
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:17', station: "Ostro\u0142\u0119ka"}
-  - {arrival: "20:29\n</td>\n<td class=\"sepline\">\n\_", departure: '20:29', station: Gierwaty}
-  - {arrival: "20:39\n</td>\n<td class=\"sepline\">\n\_", departure: '20:39', station: Goworowo}
-  - {arrival: "20:49\n</td>\n<td class=\"sepline\">\n\_", departure: '20:49', station: Pasieki}
-  - {arrival: "20:57\n</td>\n<td class=\"sepline\">\n\_", departure: '20:57', station: "Prabuty\
-      \ G\xF3ry"}
-  - {arrival: "21:03\n</td>\n<td class=\"sepline\">\n\_", departure: '21:12', station: Przetycz}
-  - {arrival: "21:19\n</td>\n<td class=\"sepline\">\n\_", departure: '21:19', station: Zygmuntowo
-      Mazow.}
-  - {arrival: "21:27\n</td>\n<td class=\"sepline\">\n\_", departure: '21:27', station: Dalekie}
-  - {arrival: "21:33\n</td>\n<td class=\"sepline\">\n\_", departure: '21:33', station: "Leszczyd\xF3\
-      \u0142"}
-  - {arrival: "21:40\n</td>\n<td class=\"sepline\">\n\_", departure: '21:40', station: "Wyszk\xF3\
-      w"}
-  - {arrival: "21:44\n</td>\n<td class=\"sepline\">\n\_", departure: '21:44', station: Rybienko}
-  - {arrival: "21:49\n</td>\n<td class=\"sepline\">\n\_", departure: '21:49', station: "Lucyn\xF3\
-      w"}
-  - {arrival: "21:54\n</td>\n<td class=\"sepline\">\n\_", departure: '21:54', station: "Most\xF3\
-      wka"}
-  - {arrival: "21:59\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '21:59', station: Grzegorzewo}
-  - {arrival: "22:03\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", departure: '22:03', station: "Jarz\u0119bia \u0141\u0105ka"}
-  - {arrival: "22:07\n</td>\n<td class=\"sepline\">\n<span class=\"prognosis\">\n\
-      <img src=\"/hafas-res/img/rt_on_time.gif\" border=\"0\" alt=\"prognozowany planowy\
-      \ przyjazd poci\u0105gu\" title=\"prognozowany planowy przyjazd poci\u0105gu\"\
-      >\n</span>", station: "T\u0142uszcz"}
+  - {arrival: '20:29', departure: '20:29', station: Gierwaty}
+  - {arrival: '20:39', departure: '20:39', station: Goworowo}
+  - {arrival: '20:49', departure: '20:49', station: Pasieki}
+  - {arrival: '20:57', departure: '20:57', station: "Prabuty G\xF3ry"}
+  - {arrival: '21:03', departure: '21:12', station: Przetycz}
+  - {arrival: '21:19', departure: '21:19', station: Zygmuntowo Mazow.}
+  - {arrival: '21:27', departure: '21:27', station: Dalekie}
+  - {arrival: '21:33', departure: '21:33', station: "Leszczyd\xF3\u0142"}
+  - {arrival: '21:40', departure: '21:40', station: "Wyszk\xF3w"}
+  - {arrival: '21:44', departure: '21:44', station: Rybienko}
+  - {arrival: '21:49', departure: '21:49', station: "Lucyn\xF3w"}
+  - {arrival: '21:54', departure: '21:54', station: "Most\xF3wka"}
+  - {arrival: '21:59', departure: '21:59', station: Grzegorzewo}
+  - {arrival: '22:03', departure: '22:03', station: "Jarz\u0119bia \u0141\u0105ka"}
+  - {arrival: '22:07', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

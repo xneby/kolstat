@@ -1,7 +1,7 @@
 name: KM 89120
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:23', station: Siedlce}
   - {arrival: '08:27', departure: '08:27', station: Siedlce Zachodnie}
@@ -13,4 +13,5 @@ operations:
   - {arrival: '09:26', departure: '09:28', station: Warszawa Wschodnia}
   - {arrival: '09:36', departure: '09:36', station: Warszawa Centralna}
   - {arrival: '09:40', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

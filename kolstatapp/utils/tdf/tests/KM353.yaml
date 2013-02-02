@@ -1,7 +1,7 @@
 name: KM 353
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:26', station: Warszawa Wschodnia}
   - {arrival: '14:28', departure: '14:28', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '15:03', departure: '15:03', station: "Brwin\xF3w"}
   - {arrival: '15:07', departure: '15:07', station: "Milan\xF3wek"}
   - {arrival: '15:11', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

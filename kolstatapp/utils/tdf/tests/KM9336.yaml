@@ -1,7 +1,7 @@
 name: KM 9336
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:16', station: Grodzisk Maz. (PKP)}
   - {arrival: '06:20', departure: '06:20', station: "Milan\xF3wek"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '06:56', departure: '06:56', station: "Warszawa Powi\u015Ble"}
   - {arrival: '06:59', departure: '06:59', station: Warszawa Stadion}
   - {arrival: '07:01', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

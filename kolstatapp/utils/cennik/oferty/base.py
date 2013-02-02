@@ -21,11 +21,10 @@ class Oferta:
 
 		base_price = 0
 		for limit, price in cls.distances:
-#			print int(round(distance)), limit, price
 			if int(round(distance)) <= limit:
 				base_price = price
 				break
-		return [(TICKET, price * discount.ratio(), discount)]
+		return [(TICKET, price * (discount.ratio() if discount is not None else 1.0), discount)]
 
 	@classmethod
 	def best_discount(cls, discounts):
@@ -49,7 +48,7 @@ class Discounts:
 	def _get_discounts(d):
 		return map(Discount.get, d)
 
-	ustawowe = _get_discounts(('DS-J', ))
+	ustawowe = _get_discounts(())
 	IC = _get_discounts(())
 	KM = _get_discounts(())
 	KW = _get_discounts(())

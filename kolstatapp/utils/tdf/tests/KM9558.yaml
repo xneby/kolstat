@@ -1,7 +1,7 @@
 name: KM 9558
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '11:17', station: Pilawa}
   - {arrival: '11:21', departure: '11:21', station: "August\xF3wka"}
@@ -30,4 +30,5 @@ operations:
   - {arrival: '12:42', departure: '12:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '12:44', departure: '12:44', station: Warszawa Ochota}
   - {arrival: '12:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

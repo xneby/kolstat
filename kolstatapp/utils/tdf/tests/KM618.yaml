@@ -1,7 +1,7 @@
 name: KM 618
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '19:20', station: Nasielsk}
   - {arrival: '19:24', departure: '19:24', station: Studzianki Nowe}
@@ -23,4 +23,5 @@ operations:
   - {arrival: '20:22', departure: '20:22', station: "Warszawa Ko\u0142o"}
   - {arrival: '20:25', departure: '20:25', station: Warszawa Kasprzaka}
   - {arrival: '20:29', station: Warszawa Zach. per.8}
+  to: 2013-02-28
 type: train

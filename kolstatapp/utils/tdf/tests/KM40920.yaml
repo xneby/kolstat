@@ -1,7 +1,7 @@
 name: KM 40920
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:45', station: Sochaczew}
   - {arrival: '05:51', departure: '05:51', station: Piasecznica}
@@ -22,4 +22,5 @@ operations:
   - {arrival: '06:48', departure: '06:48', station: Warszawa Stadion}
   - {arrival: '06:51', departure: '06:51', station: Warszawa Wschodnia}
   - {arrival: '07:01', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

@@ -1,6 +1,6 @@
 from django.db import models
 from datetime import datetime, date, timedelta
-from kolstatapp.utils.time import time_diff, hours
+from kolstatapp.utils.kolstat_time import time_diff, hours
 
 class TrainTimetable(models.Model):
 	train = models.ForeignKey('kolstatapp.Train')
@@ -25,7 +25,7 @@ class TrainTimetable(models.Model):
 		return self.approximate_distance() / hours(self.duration())
 
 	def stops(self):
-		return self.trainstop_set.order_by('order')
+		return self.trainstop_set.order_by('order').select_related()
 
 	def get_coupled(self):
 		return map(lambda x: x.stop1.timetable, TrainCouple.objects.filter(stop2__in = self.stops()))
@@ -41,6 +41,10 @@ class TrainStop(models.Model):
 	station = models.ForeignKey('kolstatapp.Station')
 	arrival = models.TimeField(null = True)
 	departure = models.TimeField(null = True)
+	
+	arrival_overnight = models.IntegerField(null = True)
+	departure_overnight = models.IntegerField(null = True)
+
 	distance = models.FloatField()
 
 	order = models.IntegerField()
@@ -60,11 +64,24 @@ class TrainStop(models.Model):
 			return time_diff(self.departure,  self.arrival) + timedelta(day=1)
 		return time_diff(self.departure, self.arrival)
 
+	def next(self):
+		try:
+			return self.timetable.trainstop_set.get(order = self.order + 1)
+		except TrainStop.DoesNotExist:
+			return None
+
+	def departure_datetime(self):
+		return datetime.combine(self.timetable.date, self.departure) + timedelta(days = self.departure_overnight or 0)
+
+	def arrival_datetime(self):
+		return datetime.combine(self.timetable.date, self.arrival) + timedelta(days = self.arrival_overnight or 0)
+
+
 	class Meta:
 		app_label = 'kolstatapp'
 
 	def __unicode__(self):
-		return u"{} @ {}".format(self.timetable, self.station)
+		return u"{} @ {} ({} - {})".format(self.timetable, self.station, self.arrival, self.departure)
 
 class TrainCouple(models.Model):
 	stop1 = models.ForeignKey(TrainStop, related_name = 'couple1')

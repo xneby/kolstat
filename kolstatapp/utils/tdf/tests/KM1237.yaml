@@ -1,7 +1,7 @@
 name: KM 1237
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:32', station: Warszawa Zachodnia}
   - {arrival: '17:36', departure: '17:36', station: Warszawa Ochota}
@@ -41,4 +41,5 @@ operations:
   - {arrival: '19:39', departure: '19:39', station: "\u017Byczyn"}
   - {arrival: '19:44', departure: '19:44', station: Rokitnia Stara}
   - {arrival: '19:49', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

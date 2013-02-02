@@ -1,7 +1,7 @@
 name: KM 609
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:03', station: "Warszawa Gda\u0144ska"}
   - {arrival: '13:06', departure: '13:06', station: Warszawa ZOO}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '13:54', departure: '13:54', station: Brody Warszawskie}
   - {arrival: '13:57', departure: '13:57', station: Studzianki Nowe}
   - {arrival: '14:00', station: Nasielsk}
+  to: 2013-02-28
 type: train

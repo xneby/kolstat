@@ -1,7 +1,7 @@
 name: KM 9264
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:30', station: "\u017Byrard\xF3w"}
   - {arrival: '08:35', departure: '08:35', station: "Mi\u0119dzybor\xF3w"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '09:27', departure: '09:27', station: "Warszawa Powi\u015Ble"}
   - {arrival: '09:31', departure: '09:31', station: Warszawa Stadion}
   - {arrival: '09:33', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 12330
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:27', station: Otwock}
   - {arrival: '12:30', departure: '12:30', station: "\u015Awider"}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '15:22', departure: '15:22', station: Bartodzieje}
   - {arrival: '15:29', departure: '15:29', station: "Lesi\xF3w"}
   - {arrival: '15:42', station: Radom}
+  to: 2013-02-28
 type: train

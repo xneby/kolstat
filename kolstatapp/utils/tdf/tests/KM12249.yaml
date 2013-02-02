@@ -1,7 +1,7 @@
 name: KM 12249
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:03', station: Warszawa Wschodnia}
   - {arrival: '17:06', departure: '17:06', station: Warszawa Stadion}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '19:19', departure: '19:19', station: Bartodzieje}
   - {arrival: '19:25', departure: '19:25', station: "Lesi\xF3w"}
   - {arrival: '19:38', station: Radom}
+  to: 2013-02-28
 type: train

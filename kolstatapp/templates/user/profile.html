@@ -2,10 +2,60 @@
 
 {% block title %}panel użytkownika{% endblock %}
 
+{% block head %}
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.change_name_link').click(function(){
+				$('.change_name_div').slideToggle();
+				return false;
+			});	
+		});
+	</script>
+{% endblock %}
+
 {% block content %}
 <h1>Profil użytkownika</h1>
 
-<p><b>Imię i nazwisko</b>: {{ user.get_full_name }}</p>
-<p><b>Adres email</b>: {{ user.email }}</p>
+<p><b>Imię i nazwisko</b>: {{ user.get_full_name }} <a href="{% url user-change-name %}" class="change_name_link">[zmień]</a></p>
+<div class="change_name_div" style="display: none">
+	{% include 'user/_change_name_form.html' %}
+</div>		
+<p><b>Adres email</b>: {{ user.email }} <a href="#">[zmień]</a> <a href="#">[ustawienia powiadomień]</a></p>
 <p><b>Nazwa użytkownika</b>: {{ user.username }}</p>
+
+<p><b>Zniżki:</b> <a href="{% url user-discounts %}">[zmień]</a> </p>
+{% if user.get_profile.discounts.exists %}
+<ul>
+{% for discount in user.get_profile.discounts.all %}
+<li>{{ discount.kurs90Name }} - {{discount.description}} ({{ discount.discount }}%)</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Nie posiadasz zniżek.</p>
+{% endif %}
+
+<p><b>Ulubione stacje:</b> <a href="{% url user-favourites %}">[zmień]</a></p>
+{% if user.get_profile.get_favourites %}
+{% for pic, station in user.get_profile.get_favourites %}
+<p><img style="height: 16px;" class="picto" src="{{ pic.get_img_url }}" /> {{ station.get_pretty_name }}</p>
+{% endfor %}
+{% else %}
+<p>Brak ustawień.</p>
+{% endif %}
+
+{% if changes %}
+<p><b>Zmiany danych osobowych</b></p>
+<table>
+<tr><td>nr</td><td>rodzaj zmienianej danej</td><td>obecna wartość</td><td>nowa wartość</td><td>status</td></tr>
+{% for upc in changes %}
+<tr>
+	<td>{{ upc.id }}</td>
+	<td>{{ upc.field_display }}</td>
+	<td>{{ upc.current_value }}</td>
+	<td>{{ upc.new_value }}</td>
+	<td>{{ upc.state_display }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
 {% endblock %}

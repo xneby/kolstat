@@ -1,7 +1,7 @@
 name: KM 7758
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:59', station: "T\u0142uszcz"}
   - {arrival: '16:04', departure: '16:04', station: Jasienica Mazowiecka}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '16:34', departure: '16:34', station: Zielonka}
   - {arrival: '16:38', departure: '16:38', station: "Z\u0105bki"}
   - {arrival: '16:45', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

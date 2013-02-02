@@ -1,7 +1,7 @@
 name: KM 409
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:00', station: Warszawa Wschodnia}
   - {arrival: '12:02', departure: '12:02', station: Warszawa Stadion}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '13:37', departure: '13:37', station: Bednary}
   - {arrival: '13:40', departure: '13:40', station: "Mys\u0142ak\xF3w"}
   - {arrival: '13:44', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-28
 type: train

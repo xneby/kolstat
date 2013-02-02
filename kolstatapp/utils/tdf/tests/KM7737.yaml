@@ -1,7 +1,7 @@
 name: KM 7737
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:55', station: "Warszawa Wile\u0144ska"}
   - {arrival: '14:03', departure: '14:03', station: "Z\u0105bki"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '14:31', departure: '14:31', station: "Klemb\xF3w"}
   - {arrival: '14:35', departure: '14:35', station: Jasienica Mazowiecka}
   - {arrival: '14:38', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

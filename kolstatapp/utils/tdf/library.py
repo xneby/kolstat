@@ -16,7 +16,7 @@ def time_from_yaml(t):
 		
 	return time(minute = t % 60, hour = t // 60)
 
-def import_train(yaml):
+def import_train(yaml, mode):
 	train = Train()
 
 	name = yaml['name']
@@ -27,8 +27,13 @@ def import_train(yaml):
 	except ValueError:
 		pass
 	else:
-		print "Już było - usuwam"
-		t.delete()
+		print "Już było"
+		if mode == 'force' or True:
+			print 'Usuwam'
+			t.delete()
+		else:
+			return
+
 
 	train.category = TrainCategory.objects.get(name = category)
 	train.number = number
@@ -64,12 +69,23 @@ def import_train(yaml):
 
 		i = 1
 		prev = None
+		arr_over = False
+
 		for description in timetable:
 			stop = TrainStop(timetable = tt)
 			stop.station = Station.search(description['station'])[0]
 			stop.departure = time_from_yaml(description.get('departure', None))
 			stop.arrival = time_from_yaml(description.get('arrival', None))
 			stop.order = i
+
+			if prev is not None:
+				if arr_over or stop.arrival < prev.departure:
+					stop.arrival_overnight = 1
+					arr_over = True
+			
+			if arr_over or (stop.arrival is not None and stop.departure is not None and stop.arrival > stop.departure):
+				stop.departure_overnight = 1
+				arr_over = True
 
 			if prev is None:
 				stop.distance = 0.0
@@ -81,10 +97,12 @@ def import_train(yaml):
 			stops.append(stop)
 
 			i += 1
+		if arr_over:
+			print 'arr_over!'
 
 	TrainStop.objects.bulk_create(stops)
 
-def import_couple(yaml):
+def import_couple(yaml, mode):
 	for field in ('station', 'trains'):
 		if field not in yaml:
 			raise ValueError('Zły yaml - brak "{field}"'.format(field = field))
@@ -126,6 +144,10 @@ def import_from_file(s):
 
 	if doc['type'] not in importers:
 		raise ValueError('Nieobsługiwany typ')
-
-	importers[doc['type']](doc)
+	if 'mode' in doc:
+		mode = doc['mode']
+	else:
+		mode = 'normal'
+		
+	importers[doc['type']](doc, mode)
 	

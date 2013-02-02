@@ -1,7 +1,7 @@
 name: KM 9262
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:05', station: "\u017Byrard\xF3w"}
   - {arrival: '06:10', departure: '06:10', station: "Mi\u0119dzybor\xF3w"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '07:04', departure: '07:04', station: "Warszawa Powi\u015Ble"}
   - {arrival: '07:07', departure: '07:07', station: Warszawa Stadion}
   - {arrival: '07:09', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 621
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '23:24', station: Warszawa Zach. per.8}
   - {arrival: '23:28', departure: '23:28', station: Warszawa Kasprzaka}
@@ -23,4 +23,5 @@ operations:
   - {arrival: '00:28', departure: '00:28', station: Brody Warszawskie}
   - {arrival: '00:31', departure: '00:31', station: Studzianki Nowe}
   - {arrival: '00:35', station: Nasielsk}
+  to: 2013-02-28
 type: train

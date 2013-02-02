@@ -1,7 +1,7 @@
 name: KM 21440
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:17', station: "Skar\u017Cysko-Kamienna"}
   - {arrival: '04:22', departure: '04:22', station: Lipowe Pole}
@@ -45,4 +45,5 @@ operations:
   - {arrival: '07:23', departure: '07:23', station: "Warszawa Powi\u015Ble"}
   - {arrival: '07:26', departure: '07:26', station: Warszawa Stadion}
   - {arrival: '07:28', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

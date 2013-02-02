@@ -1,7 +1,7 @@
 name: KM 7940
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:12', station: "Ma\u0142kinia"}
   - {arrival: '13:18', departure: '13:18', station: "Prosty\u0144"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '14:51', departure: '14:51', station: Zielonka}
   - {arrival: '14:55', departure: '14:55', station: "Z\u0105bki"}
   - {arrival: '15:03', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

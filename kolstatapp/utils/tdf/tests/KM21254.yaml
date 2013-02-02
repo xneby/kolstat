@@ -1,7 +1,7 @@
 name: KM 21254
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:55', station: Radom}
   - {arrival: '18:12', departure: '18:12', station: "Lesi\xF3w"}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '20:45', departure: '20:45', station: "Warszawa Powi\u015Ble"}
   - {arrival: '20:48', departure: '20:48', station: Warszawa Stadion}
   - {arrival: '20:50', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

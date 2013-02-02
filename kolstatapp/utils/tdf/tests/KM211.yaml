@@ -1,7 +1,7 @@
 name: KM 211
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:48', station: Warszawa Wschodnia}
   - {arrival: '07:51', departure: '07:51', station: Warszawa Stadion}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '09:07', departure: '09:07', station: "Radziwi\u0142\u0142\xF3w Maz."}
   - {arrival: '09:12', departure: '09:12', station: Skierniewice Rawka}
   - {arrival: '09:17', station: Skierniewice}
+  to: 2013-02-28
 type: train

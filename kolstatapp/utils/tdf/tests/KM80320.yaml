@@ -1,7 +1,7 @@
 name: KM 80320
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:25', station: Mrozy}
   - {arrival: '04:30', departure: '04:30', station: "Ceg\u0142\xF3w"}
@@ -32,4 +32,5 @@ operations:
   - {arrival: '06:09', departure: '06:09', station: "Brwin\xF3w"}
   - {arrival: '06:13', departure: '06:13', station: "Milan\xF3wek"}
   - {arrival: '06:17', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

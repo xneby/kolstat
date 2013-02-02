@@ -1,7 +1,7 @@
 name: KM 531
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:00', station: "D\u0119blin"}
   - {arrival: '12:06', departure: '12:06', station: "Zajezierze k.D\u0119blina"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '12:46', departure: '12:46', station: "Antoni\xF3wka"}
   - {arrival: '12:49', departure: '12:49', station: Rajec Poduchowny}
   - {arrival: '12:57', station: Radom}
+  to: 2013-02-28
 type: train

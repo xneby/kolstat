@@ -1,7 +1,7 @@
 name: KM 8838
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:41', station: "\u0141uk\xF3w"}
   - {arrival: '10:50', departure: '10:50', station: "Krynka \u0141ukowska"}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '11:08', departure: '11:08', station: "Bia\u0142ki Siedleckie"}
   - {arrival: '11:11', departure: '11:11', station: Siedlce Wschodnie}
   - {arrival: '11:14', station: Siedlce}
+  to: 2013-02-28
 type: train

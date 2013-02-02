@@ -1,7 +1,7 @@
 name: KM 9808
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '07:56', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '08:01', departure: '08:01', station: "Wrzos\xF3w"}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '08:49', departure: '08:49', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '08:51', departure: '08:51', station: Warszawa Ochota}
   - {arrival: '08:55', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

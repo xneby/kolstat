@@ -1,7 +1,7 @@
 name: KM 21324
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:52', station: Warka}
   - {arrival: '12:57', departure: '12:57', station: "Go\u015Bniewice"}
@@ -28,4 +28,5 @@ operations:
   - {arrival: '14:26', departure: '14:26', station: "Warszawa Powi\u015Ble"}
   - {arrival: '14:29', departure: '14:29', station: Warszawa Stadion}
   - {arrival: '14:31', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

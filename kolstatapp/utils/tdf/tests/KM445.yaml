@@ -1,7 +1,7 @@
 name: KM 445
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '08:52', station: Warszawa Wschodnia}
   - {arrival: '08:55', departure: '08:55', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '09:48', departure: '09:48', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '09:52', departure: '09:52', station: Piasecznica}
   - {arrival: '09:58', station: Sochaczew}
+  to: 2013-02-28
 type: train

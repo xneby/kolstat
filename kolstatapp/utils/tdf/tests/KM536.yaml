@@ -1,7 +1,7 @@
 name: KM 536
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:53', station: Radom}
   - {arrival: '17:00', departure: '17:00', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '17:35', departure: '17:35', station: "B\u0105kowiec"}
   - {arrival: '17:42', departure: '17:42', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '17:48', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

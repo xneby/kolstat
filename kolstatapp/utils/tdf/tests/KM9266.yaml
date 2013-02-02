@@ -1,7 +1,7 @@
 name: KM 9266
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:55', station: "\u017Byrard\xF3w"}
   - {arrival: '18:01', departure: '18:01', station: "Mi\u0119dzybor\xF3w"}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '18:53', departure: '18:53', station: "Warszawa Powi\u015Ble"}
   - {arrival: '18:56', departure: '18:56', station: Warszawa Stadion}
   - {arrival: '18:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

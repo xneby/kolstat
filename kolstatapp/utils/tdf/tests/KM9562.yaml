@@ -1,7 +1,7 @@
 name: KM 9562
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:17', station: Pilawa}
   - {arrival: '16:22', departure: '16:22', station: "August\xF3wka"}
@@ -30,4 +30,5 @@ operations:
   - {arrival: '17:42', departure: '17:42', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '17:44', departure: '17:44', station: Warszawa Ochota}
   - {arrival: '17:47', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

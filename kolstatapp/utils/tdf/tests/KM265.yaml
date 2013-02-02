@@ -1,7 +1,7 @@
 name: KM 265
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:00', station: Warszawa Wschodnia}
   - {arrival: '13:02', departure: '13:02', station: Warszawa Stadion}
@@ -19,4 +19,5 @@ operations:
   - {arrival: '13:54', departure: '13:54', station: "Jaktor\xF3w"}
   - {arrival: '14:01', departure: '14:01', station: "Mi\u0119dzybor\xF3w"}
   - {arrival: '14:05', station: "\u017Byrard\xF3w"}
+  to: 2013-02-28
 type: train

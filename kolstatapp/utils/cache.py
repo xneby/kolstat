@@ -1,6 +1,6 @@
 from django.conf import settings
 
-cache_dir = settings.CACHE_DIR
+#cache_dir = settings.CACHE_DIR
 
 import os
 import pickle

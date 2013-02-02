@@ -1,7 +1,7 @@
 name: KM 12231
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:48', station: Warszawa Wschodnia}
   - {arrival: '10:55', departure: '11:00', station: Warszawa Centralna}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '12:14', departure: '12:14', station: Warka}
   - {arrival: '12:35', departure: '12:35', station: Dobieszyn}
   - {arrival: '13:08', station: Radom}
+  to: 2013-02-28
 type: train

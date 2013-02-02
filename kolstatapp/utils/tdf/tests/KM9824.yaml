@@ -1,7 +1,7 @@
 name: KM 9824
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:46', station: "Mi\u0144sk Mazowiecki"}
   - {arrival: '17:51', departure: '17:51', station: "Wrzos\xF3w"}
@@ -20,4 +20,5 @@ operations:
   - {arrival: '18:38', departure: '18:38', station: "Warszawa \u015Ar\xF3dm. (PKP)"}
   - {arrival: '18:40', departure: '18:40', station: Warszawa Ochota}
   - {arrival: '18:44', station: Warszawa Zachodnia}
+  to: 2013-02-28
 type: train

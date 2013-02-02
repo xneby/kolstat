@@ -1,7 +1,7 @@
 name: KM 7935
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:40', station: "Warszawa Wile\u0144ska"}
   - {arrival: '10:48', departure: '10:48', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '12:05', departure: '12:05', station: "Sadowne W\u0119growskie"}
   - {arrival: '12:14', departure: '12:14', station: "Prosty\u0144"}
   - {arrival: '12:21', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

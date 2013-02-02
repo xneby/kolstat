@@ -1,7 +1,7 @@
 name: KM 457
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:18', station: Warszawa Wschodnia}
   - {arrival: '16:21', departure: '16:21', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '17:15', departure: '17:25', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '17:29', departure: '17:29', station: Piasecznica}
   - {arrival: '17:35', station: Sochaczew}
+  to: 2013-02-28
 type: train

@@ -1,7 +1,7 @@
 name: KM 553
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:57', station: Warszawa Zachodnia}
   - {arrival: '04:02', departure: '04:03', station: Warszawa Centralna}
@@ -27,4 +27,5 @@ operations:
   - {arrival: '05:23', departure: '05:30', station: "Zabie\u017Cki"}
   - {arrival: '05:34', departure: '05:34', station: "August\xF3wka"}
   - {arrival: '05:38', station: Pilawa}
+  to: 2013-02-28
 type: train

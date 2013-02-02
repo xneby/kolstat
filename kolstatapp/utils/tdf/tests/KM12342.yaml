@@ -1,7 +1,7 @@
 name: KM 12342
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:01', station: Grodzisk Maz. (PKP)}
   - {arrival: '15:05', departure: '15:05', station: "Milan\xF3wek"}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '17:56', departure: '17:56', station: "\u017Byczyn"}
   - {arrival: '18:01', departure: '18:01', station: Rokitnia Stara}
   - {arrival: '18:06', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

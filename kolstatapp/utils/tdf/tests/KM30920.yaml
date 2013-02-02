@@ -1,7 +1,7 @@
 name: KM 30920
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:09', station: Grodzisk Maz. (PKP)}
   - {arrival: '16:14', departure: '16:14', station: "Milan\xF3wek"}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '16:52', departure: '16:52', station: Warszawa Stadion}
   - {arrival: '16:55', departure: '16:55', station: Warszawa Wschodnia}
   - {arrival: '17:05', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

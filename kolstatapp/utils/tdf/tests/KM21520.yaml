@@ -1,7 +1,7 @@
 name: KM 21520
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '03:07', station: "D\u0119blin"}
   - {arrival: '03:12', departure: '03:12', station: Rokitnia Stara}
@@ -48,4 +48,5 @@ operations:
   - {arrival: '05:48', departure: '05:48', station: "Brwin\xF3w"}
   - {arrival: '05:52', departure: '05:52', station: "Milan\xF3wek"}
   - {arrival: '05:56', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

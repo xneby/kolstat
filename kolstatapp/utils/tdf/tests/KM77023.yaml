@@ -1,7 +1,7 @@
 name: KM 77023
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '16:13', station: Drzewica}
   - {arrival: '16:17', departure: '16:17', station: "Bieliny Opoczy\u0144skie"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '17:13', departure: '17:13', station: "Ko\u0144czyce Radomskie"}
   - {arrival: '17:19', departure: '17:19', station: "Radom Potkan\xF3w"}
   - {arrival: '17:27', station: Radom}
+  to: 2013-02-28
 type: train

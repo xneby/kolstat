@@ -1,7 +1,7 @@
 name: KM 88123
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:15', station: Warszawa Zachodnia}
   - {arrival: '18:20', departure: '18:25', station: Warszawa Centralna}
@@ -13,4 +13,5 @@ operations:
   - {arrival: '19:27', departure: '19:27', station: "Kotu\u0144"}
   - {arrival: '19:35', departure: '19:35', station: Siedlce Zachodnie}
   - {arrival: '19:41', station: Siedlce}
+  to: 2013-02-28
 type: train

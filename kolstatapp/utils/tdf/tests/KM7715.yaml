@@ -1,7 +1,7 @@
 name: KM 7715
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:15', station: "Warszawa Wile\u0144ska"}
   - {arrival: '06:23', departure: '06:23', station: "Z\u0105bki"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '06:51', departure: '06:51', station: "Klemb\xF3w"}
   - {arrival: '06:55', departure: '06:55', station: Jasienica Mazowiecka}
   - {arrival: '06:58', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

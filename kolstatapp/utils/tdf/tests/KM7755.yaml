@@ -1,7 +1,7 @@
 name: KM 7755
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '17:30', station: "Warszawa Wile\u0144ska"}
   - {arrival: '17:38', departure: '17:38', station: "Z\u0105bki"}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '18:06', departure: '18:06', station: "Klemb\xF3w"}
   - {arrival: '18:10', departure: '18:10', station: Jasienica Mazowiecka}
   - {arrival: '18:13', station: "T\u0142uszcz"}
+  to: 2013-02-28
 type: train

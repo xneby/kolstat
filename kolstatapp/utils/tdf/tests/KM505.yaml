@@ -1,7 +1,7 @@
 name: KM 505
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:09', station: Warszawa Zachodnia}
   - {arrival: '13:12', departure: '13:12', station: Warszawa Ochota}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '13:55', departure: '13:55', station: "J\xF3zef\xF3w"}
   - {arrival: '13:58', departure: '13:58', station: "\u015Awider"}
   - {arrival: '14:01', station: Otwock}
+  to: 2013-02-28
 type: train

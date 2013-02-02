@@ -1,7 +1,7 @@
 name: KM 373
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '20:37', station: Warszawa Wschodnia}
   - {arrival: '20:40', departure: '20:40', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '21:15', departure: '21:15', station: "Brwin\xF3w"}
   - {arrival: '21:19', departure: '21:19', station: "Milan\xF3wek"}
   - {arrival: '21:22', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

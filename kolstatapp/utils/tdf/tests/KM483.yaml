@@ -1,7 +1,7 @@
 name: KM 483
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '13:26', station: Warszawa Wschodnia}
   - {arrival: '13:28', departure: '13:28', station: Warszawa Stadion}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '13:57', departure: '13:57', station: "O\u017Car\xF3w Mazowiecki"}
   - {arrival: '14:02', departure: '14:02', station: "P\u0142ochocin"}
   - {arrival: '14:07', station: "B\u0142onie"}
+  to: 2013-02-28
 type: train

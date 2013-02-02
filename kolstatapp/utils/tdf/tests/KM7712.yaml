@@ -1,7 +1,7 @@
 name: KM 7712
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:31', station: "T\u0142uszcz"}
   - {arrival: '04:36', departure: '04:36', station: Jasienica Mazowiecka}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '05:06', departure: '05:06', station: Zielonka}
   - {arrival: '05:10', departure: '05:10', station: "Z\u0105bki"}
   - {arrival: '05:18', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-28
 type: train

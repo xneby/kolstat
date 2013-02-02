@@ -1,7 +1,7 @@
 name: KM 441
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:11', station: Warszawa Wschodnia}
   - {arrival: '06:13', departure: '06:13', station: Warszawa Stadion}
@@ -21,4 +21,5 @@ operations:
   - {arrival: '07:07', departure: '07:07', station: "Teresin Niepokalan\xF3w"}
   - {arrival: '07:11', departure: '07:11', station: Piasecznica}
   - {arrival: '07:16', station: Sochaczew}
+  to: 2013-02-28
 type: train

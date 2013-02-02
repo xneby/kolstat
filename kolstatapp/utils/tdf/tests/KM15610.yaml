@@ -1,7 +1,7 @@
 name: KM 15610
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '12:45', station: "T\u0142uszcz"}
   - {arrival: '12:52', departure: '12:52', station: Krusze}
@@ -37,4 +37,5 @@ operations:
   - {arrival: '16:35', departure: '16:35', station: Zawidz}
   - {arrival: '16:43', departure: '16:43', station: Mieszaki}
   - {arrival: '16:52', station: Sierpc}
+  to: 2013-02-28
 type: train

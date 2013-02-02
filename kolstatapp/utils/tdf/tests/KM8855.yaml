@@ -1,7 +1,7 @@
 name: KM 8855
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:30', station: Siedlce}
   - {arrival: '05:34', departure: '05:34', station: Siedlce Wschodnie}
@@ -12,4 +12,5 @@ operations:
   - {arrival: '05:51', departure: '05:51', station: "Radomy\u015Bl"}
   - {arrival: '05:55', departure: '05:55', station: "Krynka \u0141ukowska"}
   - {arrival: '06:02', station: "\u0141uk\xF3w"}
+  to: 2013-02-28
 type: train

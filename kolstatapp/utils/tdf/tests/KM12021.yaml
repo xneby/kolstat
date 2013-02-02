@@ -1,7 +1,7 @@
 name: KM 12021
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '05:48', station: Pilawa}
   - {arrival: '05:55', departure: '05:55', station: Garwolin}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '06:29', departure: '06:29', station: "\u017Byczyn"}
   - {arrival: '06:34', departure: '06:34', station: Rokitnia Stara}
   - {arrival: '06:39', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train

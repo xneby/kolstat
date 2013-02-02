@@ -1,7 +1,7 @@
 name: KM 77020
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '14:42', station: Radom}
   - {arrival: '14:51', departure: '14:51', station: "Radom Potkan\xF3w"}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '15:47', departure: '15:47', station: "Zygmunt\xF3w"}
   - {arrival: '15:56', departure: '15:56', station: "Bieliny Opoczy\u0144skie"}
   - {arrival: '16:01', station: Drzewica}
+  to: 2013-02-28
 type: train

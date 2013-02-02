@@ -1,7 +1,7 @@
 name: KM 9362
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:04', station: Grodzisk Maz. (PKP)}
   - {arrival: '18:08', departure: '18:08', station: "Milan\xF3wek"}
@@ -17,4 +17,5 @@ operations:
   - {arrival: '18:48', departure: '18:48', station: Warszawa Stadion}
   - {arrival: '18:51', departure: '18:51', station: Warszawa Wschodnia}
   - {arrival: '19:01', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

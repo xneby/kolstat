@@ -1,7 +1,7 @@
 name: KM 7933
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '09:40', station: "Warszawa Wile\u0144ska"}
   - {arrival: '09:48', departure: '09:48', station: "Z\u0105bki"}
@@ -26,4 +26,5 @@ operations:
   - {arrival: '11:05', departure: '11:05', station: "Sadowne W\u0119growskie"}
   - {arrival: '11:14', departure: '11:14', station: "Prosty\u0144"}
   - {arrival: '11:21', station: "Ma\u0142kinia"}
+  to: 2013-02-28
 type: train

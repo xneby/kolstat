@@ -1,7 +1,7 @@
 name: KM 40924
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '06:11', station: "\u0141owicz G\u0142\xF3wny"}
   - {arrival: '06:16', departure: '06:16', station: "Mys\u0142ak\xF3w"}
@@ -29,4 +29,5 @@ operations:
   - {arrival: '07:41', departure: '07:41', station: Warszawa Stadion}
   - {arrival: '07:45', departure: '07:45', station: Warszawa Wschodnia}
   - {arrival: '07:55', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-28
 type: train

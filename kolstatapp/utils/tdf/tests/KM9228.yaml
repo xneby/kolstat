@@ -1,7 +1,7 @@
 name: KM 9228
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '18:20', station: Skierniewice}
   - {arrival: '18:28', departure: '18:28', station: Skierniewice Rawka}
@@ -24,4 +24,5 @@ operations:
   - {arrival: '19:53', departure: '19:53', station: "Warszawa Powi\u015Ble"}
   - {arrival: '19:56', departure: '19:56', station: Warszawa Stadion}
   - {arrival: '19:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

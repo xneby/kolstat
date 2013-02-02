@@ -1,7 +1,7 @@
 name: KM 357
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '15:03', station: Warszawa Wschodnia}
   - {arrival: '15:06', departure: '15:06', station: Warszawa Stadion}
@@ -16,4 +16,5 @@ operations:
   - {arrival: '15:41', departure: '15:41', station: "Brwin\xF3w"}
   - {arrival: '15:45', departure: '15:45', station: "Milan\xF3wek"}
   - {arrival: '15:48', station: Grodzisk Maz. (PKP)}
+  to: 2013-02-28
 type: train

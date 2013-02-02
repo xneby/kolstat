@@ -1,7 +1,7 @@
 name: KM 21226
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '04:19', station: Radom}
   - {arrival: '04:32', departure: '04:32', station: "Lesi\xF3w"}
@@ -36,4 +36,5 @@ operations:
   - {arrival: '06:53', departure: '06:53', station: "Warszawa Powi\u015Ble"}
   - {arrival: '06:56', departure: '06:56', station: Warszawa Stadion}
   - {arrival: '06:58', station: Warszawa Wschodnia}
+  to: 2013-02-28
 type: train

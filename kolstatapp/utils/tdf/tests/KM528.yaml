@@ -1,7 +1,7 @@
 name: KM 528
 operations:
-- date: 2013-01-03
-  mode: single
+- from: 2013-02-01
+  mode: interval
   timetable:
   - {departure: '10:15', station: Radom}
   - {arrival: '10:22', departure: '10:22', station: Rajec Poduchowny}
@@ -15,4 +15,5 @@ operations:
   - {arrival: '10:57', departure: '10:57', station: "B\u0105kowiec"}
   - {arrival: '11:04', departure: '11:04', station: "Zajezierze k.D\u0119blina"}
   - {arrival: '11:10', station: "D\u0119blin"}
+  to: 2013-02-28
 type: train
