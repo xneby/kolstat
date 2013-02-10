@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'KS 44372'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:35', station: !!python/unicode 'Lubliniec'}
+  - {arrival: !!python/unicode '21:15', departure: !!python/unicode '21:16', station: !!python/unicode 'Paczyna'}
+  - {arrival: !!python/unicode '21:20', departure: !!python/unicode '21:21', station: !!python/unicode 'Pyskowice'}
+  - {arrival: !!python/unicode '21:25', departure: !!python/unicode '21:26', station: "Gliwice\
+      \ Ku\u017Anica"}
+  - {arrival: !!python/unicode '21:28', departure: !!python/unicode '21:29', station: "Gliwice\
+      \ \u0141ab\u0119dy"}
+  - {arrival: !!python/unicode '21:38', station: !!python/unicode 'Gliwice'}
+  to: 2013-02-06
+type: train
+variant: A

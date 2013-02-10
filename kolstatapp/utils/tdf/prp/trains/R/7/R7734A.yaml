@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 7734'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:34', station: !!python/unicode 'Chojnice'}
+  - {arrival: !!python/unicode '15:40', departure: !!python/unicode '15:41', station: !!python/unicode 'Krojanty'}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:47', station: !!python/unicode 'Rytel'}
+  - {arrival: !!python/unicode '15:50', departure: !!python/unicode '15:51', station: "Rytel\
+      \ Wie\u015B"}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:57', station: !!python/unicode 'Gutowiec'}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:04', station: !!python/unicode 'Czersk'}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:10', station: "\u0141\u0105\
+      g"}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:15', station: !!python/unicode 'Czarna
+      Woda'}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:20', station: !!python/unicode 'Kamienna
+      Karczma'}
+  - {arrival: !!python/unicode '16:24', departure: !!python/unicode '16:25', station: !!python/unicode 'Kaliska'}
+  - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:30', station: !!python/unicode 'Bytonia'}
+  - {arrival: !!python/unicode '16:33', departure: !!python/unicode '16:34', station: !!python/unicode 'Zblewo'}
+  - {arrival: !!python/unicode '16:37', departure: !!python/unicode '16:38', station: !!python/unicode 'Pinczyn'}
+  - {arrival: !!python/unicode '16:41', departure: !!python/unicode '16:42', station: !!python/unicode 'Piesienice'}
+  - {arrival: !!python/unicode '16:50', departure: !!python/unicode '16:51', station: "Starogard\
+      \ Gda\u0144ski"}
+  - {arrival: !!python/unicode '16:56', departure: !!python/unicode '16:57', station: "Szp\u0119\
+      gawsk"}
+  - {arrival: !!python/unicode '17:01', departure: !!python/unicode '17:02', station: "Swaro\u017C\
+      yn"}
+  - {arrival: !!python/unicode '17:07', departure: !!python/unicode '17:08', station: !!python/unicode 'Rokitki
+      Tczewskie'}
+  - {arrival: !!python/unicode '17:15', station: !!python/unicode 'Tczew'}
+  to: 2013-02-06
+type: train
+variant: A

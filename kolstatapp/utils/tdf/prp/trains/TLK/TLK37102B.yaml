@@ -1,0 +1,45 @@
+mode: normal
+name: !!python/unicode 'TLK 37102'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:39', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '13:14', departure: !!python/unicode '13:15', station: !!python/unicode 'Krzeszowice'}
+  - {arrival: !!python/unicode '13:38', departure: !!python/unicode '13:39', station: !!python/unicode 'Trzebinia'}
+  - {arrival: !!python/unicode '14:08', departure: !!python/unicode '14:09', station: !!python/unicode 'Jaworzno
+      Szczakowa'}
+  - {arrival: !!python/unicode '14:37', departure: !!python/unicode '14:38', station: "Mys\u0142\
+      owice"}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '14:58', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '15:24', departure: !!python/unicode '15:25', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '15:35', departure: !!python/unicode '15:36', station: !!python/unicode 'Gliwice'}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:09', station: "K\u0119\
+      dzierzyn Ko\u017Ale"}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:24', station: !!python/unicode 'Zdzieszowice'}
+  - {arrival: !!python/unicode '16:59', departure: !!python/unicode '17:01', station: "Opole\
+      \ G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '17:25', departure: !!python/unicode '17:26', station: !!python/unicode 'Brzeg'}
+  - {arrival: !!python/unicode '17:39', departure: !!python/unicode '17:40', station: "O\u0142\
+      awa"}
+  - {arrival: !!python/unicode '18:02', departure: !!python/unicode '18:28', station: "Wroc\u0142\
+      aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '19:03', departure: !!python/unicode '19:04', station: !!python/unicode 'Brzeg
+      Dolny'}
+  - {arrival: !!python/unicode '19:12', departure: !!python/unicode '19:13', station: "Wo\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '19:32', departure: !!python/unicode '19:33', station: "\u015A\
+      cinawa"}
+  - {arrival: !!python/unicode '19:45', departure: !!python/unicode '19:46', station: !!python/unicode 'Rudna
+      Miasto'}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:17', station: "G\u0142\
+      og\xF3w"}
+  - {arrival: !!python/unicode '20:51', departure: !!python/unicode '20:52', station: "Bytom\
+      \ Odrza\u0144ski"}
+  - {arrival: !!python/unicode '21:02', departure: !!python/unicode '21:03', station: "Nowa\
+      \ S\xF3l"}
+  - {arrival: !!python/unicode '21:29', station: "Zielona G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: B

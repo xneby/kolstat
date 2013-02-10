@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'KW 79638'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:57', station: "Go\u0142a\u0144cz"}
+  - {arrival: !!python/unicode '12:03', departure: !!python/unicode '12:04', station: !!python/unicode 'Laskownica'}
+  - {arrival: !!python/unicode '12:08', departure: !!python/unicode '12:08', station: !!python/unicode 'Grylewo'}
+  - {arrival: !!python/unicode '12:14', departure: !!python/unicode '12:15', station: !!python/unicode 'Kobylec'}
+  - {arrival: !!python/unicode '12:23', departure: !!python/unicode '12:24', station: "W\u0105\
+      growiec"}
+  - {arrival: !!python/unicode '12:30', departure: !!python/unicode '12:30', station: !!python/unicode 'Przysieczyn'}
+  - {arrival: !!python/unicode '12:34', departure: !!python/unicode '12:35', station: "Roszkowo\
+      \ W\u0105growieck."}
+  - {arrival: !!python/unicode '12:39', departure: !!python/unicode '12:39', station: !!python/unicode 'Skoki'}
+  - {arrival: !!python/unicode '12:44', departure: !!python/unicode '12:45', station: "S\u0142\
+      awa Wlkp."}
+  - {arrival: !!python/unicode '12:49', departure: !!python/unicode '12:49', station: "\u0141\
+      opuchowo"}
+  - {arrival: !!python/unicode '12:56', departure: !!python/unicode '12:56', station: "Murowana\
+      \ Go\u015Blina"}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:59', station: "Zielone\
+      \ Wzg\xF3rza"}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:03', station: !!python/unicode 'Bolechowo'}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: "Owi\u0144\
+      ska"}
+  - {arrival: !!python/unicode '13:10', departure: !!python/unicode '13:10', station: !!python/unicode 'Czerwonak
+      Osiedle'}
+  - {arrival: !!python/unicode '13:12', departure: !!python/unicode '13:13', station: !!python/unicode 'Czerwonak'}
+  - {arrival: !!python/unicode '13:16', departure: !!python/unicode '13:16', station: "Pozna\u0144\
+      \ Karolin"}
+  - {arrival: !!python/unicode '13:20', departure: !!python/unicode '13:20', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '13:24', departure: !!python/unicode '13:25', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '13:30', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,43 @@
+mode: normal
+name: !!python/unicode 'TLK 61104'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:30', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:36', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '05:41', departure: !!python/unicode '05:42', station: "Wroc\u0142\
+      aw Nadodrze"}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:11', station: "Ole\u015B\
+      nica Rataje"}
+  - {arrival: !!python/unicode '06:31', departure: !!python/unicode '06:32', station: "Twardog\xF3\
+      ra Sycowska"}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:52', station: "Mi\u0119\
+      dzyb\xF3rz Sycowski"}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:11', station: "Odolan\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:24', departure: !!python/unicode '07:26', station: "Ostr\xF3\
+      w Wlkp."}
+  - {arrival: !!python/unicode '07:46', departure: !!python/unicode '07:47', station: !!python/unicode 'Kalisz'}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:26', station: !!python/unicode 'Sieradz'}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:39', station: "Zdu\u0144\
+      ska Wola"}
+  - {arrival: !!python/unicode '09:14', departure: !!python/unicode '09:15', station: !!python/unicode 'Pabianice'}
+  - {arrival: !!python/unicode '09:35', departure: !!python/unicode '09:38', station: "\u0141\xF3\
+      d\u017A Kaliska"}
+  - {arrival: !!python/unicode '09:44', departure: !!python/unicode '09:45', station: "\u0141\xF3\
+      d\u017A \u017Babieniec"}
+  - {arrival: !!python/unicode '09:56', departure: !!python/unicode '09:57', station: !!python/unicode 'Zgierz'}
+  - {arrival: !!python/unicode '10:44', departure: !!python/unicode '10:45', station: "\u0141\
+      owicz Przedmie\u015Bcie"}
+  - {arrival: !!python/unicode '11:11', departure: !!python/unicode '11:12', station: !!python/unicode 'Sochaczew'}
+  - {arrival: !!python/unicode '11:45', departure: !!python/unicode '11:50', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '11:55', departure: !!python/unicode '12:05', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '12:12', station: !!python/unicode 'Warszawa Wschodnia'}
+  to: 2013-02-06
+type: train
+variant: A

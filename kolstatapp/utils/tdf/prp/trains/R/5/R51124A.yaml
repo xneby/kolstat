@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 51124'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:50', station: "E\u0142k"}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '14:54', station: "E\u0142\
+      k Szyba Wsch\xF3d"}
+  - {arrival: !!python/unicode '14:59', departure: !!python/unicode '15:00', station: "Lipi\u0144\
+      skie Ma\u0142e"}
+  - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:05', station: !!python/unicode 'Prostki'}
+  - {arrival: !!python/unicode '15:10', departure: !!python/unicode '15:16', station: !!python/unicode 'Grajewo'}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:23', station: !!python/unicode 'Ruda'}
+  - {arrival: !!python/unicode '15:26', departure: !!python/unicode '15:27', station: !!python/unicode 'Podlasek'}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:37', station: !!python/unicode 'Osowiec'}
+  - {arrival: !!python/unicode '15:42', departure: !!python/unicode '15:42', station: "Goni\u0105\
+      dz"}
+  - {arrival: !!python/unicode '15:49', departure: !!python/unicode '15:50', station: "Mo\u0144\
+      ki"}
+  - {arrival: !!python/unicode '15:55', departure: !!python/unicode '15:56', station: !!python/unicode 'Czechowizna'}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:01', station: !!python/unicode 'Zastocze'}
+  - {arrival: !!python/unicode '16:04', departure: !!python/unicode '16:05', station: !!python/unicode 'Knyszyn'}
+  - {arrival: !!python/unicode '16:11', departure: !!python/unicode '16:11', station: "Borsuk\xF3\
+      wka"}
+  - {arrival: !!python/unicode '16:16', departure: !!python/unicode '16:17', station: "Dobrzyniewo\
+      \ Du\u017Ce"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:20', station: !!python/unicode 'Fasty'}
+  - {arrival: !!python/unicode '16:24', departure: !!python/unicode '16:25', station: "Bia\u0142\
+      ystok Bacieczki"}
+  - {arrival: !!python/unicode '16:28', departure: !!python/unicode '16:29', station: "Bia\u0142\
+      ystok Starosiel."}
+  - {arrival: !!python/unicode '16:35', station: "Bia\u0142ystok"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'R 88820'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:19', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '06:22', departure: !!python/unicode '06:22', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:31', station: !!python/unicode 'Szczecin
+      Zdroje'}
+  - {arrival: !!python/unicode '06:34', departure: !!python/unicode '06:35', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '06:44', departure: !!python/unicode '06:44', station: !!python/unicode 'Kliniska'}
+  - {arrival: !!python/unicode '06:54', departure: !!python/unicode '06:56', station: "Goleni\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:03', departure: !!python/unicode '07:04', station: !!python/unicode 'Mosty'}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: !!python/unicode 'Osina'}
+  - {arrival: !!python/unicode '07:13', departure: !!python/unicode '07:14', station: !!python/unicode 'Wyszomierz'}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:19', station: !!python/unicode 'Nowogard'}
+  - {arrival: !!python/unicode '07:34', departure: !!python/unicode '07:35', station: "P\u0142\
+      oty"}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:42', station: !!python/unicode 'Baszewice'}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:49', station: !!python/unicode 'Gryfice'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: "G\u0105\
+      bin"}
+  - {arrival: !!python/unicode '08:07', departure: !!python/unicode '08:08', station: "Trzebiat\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:14', departure: !!python/unicode '08:14', station: !!python/unicode 'Bieczyno
+      Pomorskie'}
+  - {arrival: !!python/unicode '08:18', departure: !!python/unicode '08:18', station: !!python/unicode 'Karcino'}
+  - {arrival: !!python/unicode '08:23', departure: !!python/unicode '08:24', station: "G\u0142\
+      owaczewo"}
+  - {arrival: !!python/unicode '08:29', departure: !!python/unicode '08:29', station: !!python/unicode 'Stary
+      Borek'}
+  - {arrival: !!python/unicode '08:40', station: "Ko\u0142obrzeg"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 97025'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:56', station: "Dzia\u0142dowo"}
+  - {arrival: !!python/unicode '08:04', departure: !!python/unicode '08:04', station: "Krasno\u0142\
+      \u0105ka"}
+  - {arrival: !!python/unicode '08:08', departure: !!python/unicode '08:08', station: "Zakrz\xF3\
+      w Sarnowo"}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:12', station: "Koz\u0142\
+      owo"}
+  - {arrival: !!python/unicode '08:20', departure: !!python/unicode '08:26', station: !!python/unicode 'Nidzica'}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:33', station: "Dobrzy\u0144"}
+  - {arrival: !!python/unicode '08:37', departure: !!python/unicode '08:37', station: !!python/unicode 'Bujaki'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:43', station: !!python/unicode 'Waplewo'}
+  - {arrival: !!python/unicode '08:52', departure: !!python/unicode '08:53', station: !!python/unicode 'Olsztynek'}
+  - {arrival: !!python/unicode '08:57', departure: !!python/unicode '08:58', station: "Gry\u017A\
+      liny"}
+  - {arrival: !!python/unicode '09:03', departure: !!python/unicode '09:03', station: !!python/unicode 'Stawiguda'}
+  - {arrival: !!python/unicode '09:08', departure: !!python/unicode '09:09', station: "G\u0105\
+      g\u0142awki"}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:13', station: "Bart\u0105\
+      g"}
+  - {arrival: !!python/unicode '09:19', departure: !!python/unicode '09:20', station: !!python/unicode 'Olsztyn
+      Zach.'}
+  - {arrival: !!python/unicode '09:24', station: "Olsztyn G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

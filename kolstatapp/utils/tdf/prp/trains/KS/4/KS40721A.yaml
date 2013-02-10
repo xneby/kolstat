@@ -1,0 +1,48 @@
+mode: normal
+name: !!python/unicode 'KS 40721'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:57', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '14:02', departure: !!python/unicode '14:02', station: "\u0141\
+      azy"}
+  - {arrival: !!python/unicode '14:05', departure: !!python/unicode '14:06', station: "Wiesi\xF3\
+      \u0142ka"}
+  - {arrival: !!python/unicode '14:08', departure: !!python/unicode '14:08', station: "Chruszczobr\xF3\
+      d"}
+  - {arrival: !!python/unicode '14:10', departure: !!python/unicode '14:11', station: "D\u0105\
+      browa G\xF3rnicza Sik"}
+  - {arrival: !!python/unicode '14:14', departure: !!python/unicode '14:14', station: "D\u0105\
+      browa G\xF3rnicza Z\u0105b"}
+  - {arrival: !!python/unicode '14:17', departure: !!python/unicode '14:18', station: "D\u0105\
+      browa G\xF3rnicza Go\u0142"}
+  - {arrival: !!python/unicode '14:21', departure: !!python/unicode '14:21', station: "D\u0105\
+      browa G\xF3rnicza"}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:23', station: "B\u0119\
+      dzin Ksawera"}
+  - {arrival: !!python/unicode '14:26', departure: !!python/unicode '14:26', station: "B\u0119\
+      dzin Miasto"}
+  - {arrival: !!python/unicode '14:31', departure: !!python/unicode '14:31', station: "Sosnowiec\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '14:34', departure: !!python/unicode '14:35', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '14:38', departure: !!python/unicode '14:38', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '14:43', departure: !!python/unicode '14:45', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '14:49', departure: !!python/unicode '14:49', station: "Katowice\
+      \ Za\u0142\u0119\u017Ce"}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:55', station: "Chorz\xF3\
+      w Batory"}
+  - {arrival: !!python/unicode '14:59', departure: !!python/unicode '15:00', station: "\u015A\
+      wi\u0119toch\u0142owice"}
+  - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:04', station: !!python/unicode 'Ruda
+      Chebzie'}
+  - {arrival: !!python/unicode '15:07', departure: !!python/unicode '15:08', station: "Ruda\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '15:14', departure: !!python/unicode '15:14', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '15:24', station: !!python/unicode 'Gliwice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -12,7 +12,14 @@ from normal_to_hafas import Hafas
 nazwa = raw_input('Podaj nazwę stacji: ')
 hs = Hafas.searchStation(nazwa)[0]
 print hs.toString()
+gsk = int(raw_input('gsk: '))
+try:
+	s, = Station.search(hs.externalId)
+except ValueError:
+	s = Station()
 
-s = Station(name = hs.name, hafasID = hs.externalId, gskID = int(raw_input('gsk: ')))
+s.gskID = gsk
+s.hafasID = hs.externalId
+s.name = hs.name
 print s
 s.save()

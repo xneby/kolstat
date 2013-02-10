@@ -1,0 +1,67 @@
+mode: normal
+name: !!python/unicode 'R 24034'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:05', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:08', station: "Skar\u017C\
+      ysko Zachodnie"}
+  - {arrival: !!python/unicode '05:12', departure: !!python/unicode '05:13', station: "Suchedni\xF3\
+      w P\u0142n."}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:16', station: "Suchedni\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:19', departure: !!python/unicode '05:19', station: "Berez\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:24', station: "\u0141\u0105\
+      czna"}
+  - {arrival: !!python/unicode '05:34', departure: !!python/unicode '05:34', station: "Zagna\u0144\
+      sk"}
+  - {arrival: !!python/unicode '05:39', departure: !!python/unicode '05:39', station: !!python/unicode 'Tumlin'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:45', station: "Kostom\u0142\
+      oty"}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:49', station: !!python/unicode 'Kielce
+      Piaski'}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '06:07', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:11', station: !!python/unicode 'Kielce
+      Herbskie'}
+  - {arrival: !!python/unicode '06:14', departure: !!python/unicode '06:14', station: "Kielce\
+      \ Czarn\xF3w"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:20', station: "G\xF3\
+      rki Szczukowskie"}
+  - {arrival: !!python/unicode '06:26', departure: !!python/unicode '06:26', station: "Piekosz\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:31', departure: !!python/unicode '06:31', station: !!python/unicode 'Rykoszyn'}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:36', station: !!python/unicode 'Wierna
+      Rzeka'}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:40', station: "Ma\u0142\
+      ogoszcz"}
+  - {arrival: !!python/unicode '06:44', departure: !!python/unicode '06:45', station: !!python/unicode 'Bukowa'}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:49', station: !!python/unicode 'Ludynia'}
+  - {arrival: !!python/unicode '06:53', departure: !!python/unicode '06:53', station: "Ludynia\
+      \ Dw\xF3r"}
+  - {arrival: !!python/unicode '06:59', departure: !!python/unicode '06:59', station: "W\u0142\
+      oszczowa"}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:05', station: !!python/unicode 'Czarnca'}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:11', station: "\u017B\
+      elis\u0142awice"}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:20', station: !!python/unicode 'Koniecpol'}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: !!python/unicode 'Koniecpol
+      Magdasz'}
+  - {arrival: !!python/unicode '07:27', departure: !!python/unicode '07:27', station: !!python/unicode 'Podlesie'}
+  - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:32', station: !!python/unicode 'Staropole
+      Czestoch.'}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:36', station: !!python/unicode 'Julianka'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:42', station: "Lus\u0142\
+      awice"}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:47', station: "Tur\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:54', station: "Kusi\u0119\
+      ta Nowe"}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:07', station: "Cz\u0119\
+      stochowa Rak\xF3w"}
+  - {arrival: !!python/unicode '08:14', station: "Cz\u0119stochowa Osobowa"}
+  to: 2013-02-06
+type: train
+variant: A

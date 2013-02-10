@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'KS 44011'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:53', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '08:11', departure: !!python/unicode '08:12', station: !!python/unicode 'Tychy'}
+  - {arrival: !!python/unicode '08:29', departure: !!python/unicode '08:29', station: !!python/unicode 'Pszczyna'}
+  - {arrival: !!python/unicode '08:39', departure: !!python/unicode '08:39', station: !!python/unicode 'Zabrzeg'}
+  - {arrival: !!python/unicode '08:52', departure: !!python/unicode '08:53', station: !!python/unicode 'Chybie
+      Mnich'}
+  - {arrival: !!python/unicode '08:58', departure: !!python/unicode '08:58', station: !!python/unicode 'Zaborze'}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:10', station: "Pier\u015B\
+      ciec"}
+  - {arrival: !!python/unicode '09:20', departure: !!python/unicode '09:21', station: "Skocz\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:25', departure: !!python/unicode '09:25', station: "Skocz\xF3\
+      w B\u0142adnice"}
+  - {arrival: !!python/unicode '09:31', departure: !!python/unicode '09:31', station: "Golesz\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:39', departure: !!python/unicode '09:40', station: "Ustro\u0144"}
+  - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:43', station: "Ustro\u0144\
+      \ Zdr\xF3j"}
+  - {arrival: !!python/unicode '09:47', departure: !!python/unicode '09:47', station: "Ustro\u0144\
+      \ Polana"}
+  - {arrival: !!python/unicode '09:51', departure: !!python/unicode '09:51', station: "Wis\u0142\
+      a Ob\u0142aziec"}
+  - {arrival: !!python/unicode '09:56', departure: !!python/unicode '09:57', station: "Wis\u0142\
+      a Uzdrowisko"}
+  - {arrival: !!python/unicode '10:00', departure: !!python/unicode '10:00', station: "Wis\u0142\
+      a Dziechcinka"}
+  - {arrival: !!python/unicode '10:07', station: "Wis\u0142a G\u0142\u0119bce"}
+  to: 2013-02-06
+type: train
+variant: A

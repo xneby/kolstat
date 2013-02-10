@@ -1,0 +1,49 @@
+mode: normal
+name: !!python/unicode 'R 1733'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:40', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '18:48', departure: !!python/unicode '18:49', station: !!python/unicode 'Lublinek'}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: !!python/unicode 'Pabianice'}
+  - {arrival: !!python/unicode '19:02', departure: !!python/unicode '19:03', station: "Chech\u0142\
+      o"}
+  - {arrival: !!python/unicode '19:07', departure: !!python/unicode '19:08', station: "Dobro\u0144"}
+  - {arrival: !!python/unicode '19:13', departure: !!python/unicode '19:13', station: !!python/unicode 'Kolumna'}
+  - {arrival: !!python/unicode '19:21', departure: !!python/unicode '19:21', station: "\u0141\
+      ask"}
+  - {arrival: !!python/unicode '19:28', departure: !!python/unicode '19:29', station: !!python/unicode 'Borszewice'}
+  - {arrival: !!python/unicode '19:36', departure: !!python/unicode '19:37', station: "Zdu\u0144\
+      ska Wola"}
+  - {arrival: !!python/unicode '19:42', departure: !!python/unicode '19:43', station: "M\u0119\
+      cka Wola"}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:48', station: "Sieradz\
+      \ M\u0119ka"}
+  - {arrival: !!python/unicode '19:51', departure: !!python/unicode '19:52', station: !!python/unicode 'Sieradz
+      Warta'}
+  - {arrival: !!python/unicode '19:55', departure: !!python/unicode '19:55', station: !!python/unicode 'Sieradz'}
+  - {arrival: !!python/unicode '20:03', departure: !!python/unicode '20:04', station: "S\u0119\
+      dzice"}
+  - {arrival: !!python/unicode '20:10', departure: !!python/unicode '20:11', station: "B\u0142\
+      aszki"}
+  - {arrival: !!python/unicode '20:14', departure: !!python/unicode '20:15', station: !!python/unicode 'Skalmierz'}
+  - {arrival: !!python/unicode '20:20', departure: !!python/unicode '20:20', station: !!python/unicode 'Radliczyce'}
+  - {arrival: !!python/unicode '20:27', departure: !!python/unicode '20:28', station: "Opat\xF3\
+      wek"}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:33', station: !!python/unicode 'Kalisz
+      Winiary'}
+  - {arrival: !!python/unicode '20:44', departure: !!python/unicode '20:45', station: !!python/unicode 'Kalisz'}
+  - {arrival: !!python/unicode '20:49', departure: !!python/unicode '20:49', station: !!python/unicode 'Kalisz
+      Szczypiorno'}
+  - {arrival: !!python/unicode '20:53', departure: !!python/unicode '20:53', station: !!python/unicode 'Nowe
+      Skalmierzyce'}
+  - {arrival: !!python/unicode '20:58', departure: !!python/unicode '20:59', station: "Oci\u0105\
+      \u017C"}
+  - {arrival: !!python/unicode '21:03', departure: !!python/unicode '21:04', station: "Czekan\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:10', station: "Ostr\xF3w Wlkp."}
+  to: 2013-02-06
+type: train
+variant: A

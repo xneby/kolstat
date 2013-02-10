@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'R 77936'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:21', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:25', departure: !!python/unicode '15:25', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:29', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '15:36', departure: !!python/unicode '15:36', station: !!python/unicode 'Kobylnica'}
+  - {arrival: !!python/unicode '15:41', departure: !!python/unicode '15:42', station: !!python/unicode 'Biskupice
+      Wlkp.'}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:46', station: !!python/unicode 'Pobiedziska
+      Letnisko'}
+  - {arrival: !!python/unicode '15:50', departure: !!python/unicode '15:50', station: !!python/unicode 'Pobiedziska'}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:58', station: "Fa\u0142\
+      kowo"}
+  - {arrival: !!python/unicode '16:08', station: !!python/unicode 'Gniezno'}
+  to: 2013-02-06
+type: train
+variant: A

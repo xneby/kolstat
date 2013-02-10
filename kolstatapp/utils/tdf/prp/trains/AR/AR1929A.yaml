@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'AR 1929'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:03', station: "Grudzi\u0105dz"}
+  - {arrival: !!python/unicode '19:10', departure: !!python/unicode '19:11', station: "G\xF3\
+      rna Grupa"}
+  - {arrival: !!python/unicode '19:17', departure: !!python/unicode '19:23', station: !!python/unicode 'Grupa'}
+  - {arrival: !!python/unicode '19:32', departure: !!python/unicode '19:32', station: !!python/unicode 'Dubielno'}
+  - {arrival: !!python/unicode '19:40', departure: !!python/unicode '19:40', station: "Je\u017C\
+      ewo"}
+  - {arrival: !!python/unicode '19:47', station: !!python/unicode 'Laskowice Pomorskie'}
+  to: 2013-02-06
+type: train
+variant: A

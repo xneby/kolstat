@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 2228'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:39', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '15:44', departure: !!python/unicode '15:45', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:53', departure: !!python/unicode '15:54', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '15:58', departure: !!python/unicode '15:58', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:03', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:06', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '16:10', departure: !!python/unicode '16:10', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:14', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:29', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '16:33', departure: !!python/unicode '16:33', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '16:37', departure: !!python/unicode '16:38', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '16:41', departure: !!python/unicode '16:41', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:44', departure: !!python/unicode '16:45', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '16:47', departure: !!python/unicode '16:48', station: "\u0141\xF3\
+      d\u017A Andrzej\xF3w"}
+  - {arrival: !!python/unicode '16:54', station: "\u0141\xF3d\u017A Widzew"}
+  to: 2013-02-06
+type: train
+variant: A

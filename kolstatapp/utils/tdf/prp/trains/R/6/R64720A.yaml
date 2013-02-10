@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 64720'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:10', station: !!python/unicode 'Nysa'}
+  - {arrival: !!python/unicode '04:24', departure: !!python/unicode '04:24', station: "Nowy\
+      \ \u015Awi\u0119t\xF3w"}
+  - {arrival: !!python/unicode '04:30', departure: !!python/unicode '04:30', station: !!python/unicode 'Nowy
+      Las'}
+  - {arrival: !!python/unicode '04:36', departure: !!python/unicode '04:36', station: !!python/unicode 'Szybowice'}
+  - {arrival: !!python/unicode '04:43', departure: !!python/unicode '04:44', station: !!python/unicode 'Prudnik'}
+  - {arrival: !!python/unicode '04:52', departure: !!python/unicode '04:52', station: "Dytmar\xF3\
+      w"}
+  - {arrival: !!python/unicode '04:58', departure: !!python/unicode '04:58', station: "Rac\u0142\
+      awice \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:08', station: "G\u0142\
+      og\xF3wek"}
+  - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:16', station: !!python/unicode 'Twardawa'}
+  - {arrival: !!python/unicode '05:22', departure: !!python/unicode '05:22', station: !!python/unicode 'Pokrzywnica'}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:28', station: "K\u0119\
+      dzierzyn Ko\u017Ale Za."}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:31', station: "K\u0119\
+      dzierzyn Ko\u017Ale Pr."}
+  - {arrival: !!python/unicode '05:38', station: "K\u0119dzierzyn Ko\u017Ale"}
+  to: 2013-02-06
+type: train
+variant: A

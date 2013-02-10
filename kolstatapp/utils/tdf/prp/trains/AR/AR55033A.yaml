@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'AR 55033'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '22:36', station: "Toru\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '22:41', departure: !!python/unicode '22:41', station: "Toru\u0144\
+      \ Miasto"}
+  - {arrival: !!python/unicode '22:45', departure: !!python/unicode '22:46', station: "Toru\u0144\
+      \ Wschodni"}
+  - {arrival: !!python/unicode '22:53', departure: !!python/unicode '22:53', station: "\u0141\
+      ysomice"}
+  - {arrival: !!python/unicode '22:57', departure: !!python/unicode '22:57', station: "Ostaszewo\
+      \ Toru\u0144skie"}
+  - {arrival: !!python/unicode '23:03', departure: !!python/unicode '23:04', station: !!python/unicode 'Grzywna'}
+  - {arrival: !!python/unicode '23:10', departure: !!python/unicode '23:11', station: "Che\u0142\
+      m\u017Ca"}
+  - {arrival: !!python/unicode '23:22', departure: !!python/unicode '23:23', station: "Wroc\u0142\
+      awki"}
+  - {arrival: !!python/unicode '23:28', departure: !!python/unicode '23:28', station: !!python/unicode 'Firlus'}
+  - {arrival: !!python/unicode '23:34', departure: !!python/unicode '23:35', station: !!python/unicode 'Kornatowo'}
+  - {arrival: !!python/unicode '23:45', departure: !!python/unicode '23:45', station: "Gorzuchowo\
+      \ Che\u0142m."}
+  - {arrival: !!python/unicode '23:53', departure: !!python/unicode '23:53', station: "Wa\u0142\
+      dowo Szlacheckie"}
+  - {arrival: !!python/unicode '00:02', departure: !!python/unicode '00:02', station: "Grudzi\u0105\
+      dz Mniszek"}
+  - {arrival: !!python/unicode '00:10', departure: !!python/unicode '00:10', station: "Grudzi\u0105\
+      dz Przedm."}
+  - {arrival: !!python/unicode '00:15', station: "Grudzi\u0105dz"}
+  to: 2013-02-06
+type: train
+variant: A

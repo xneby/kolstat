@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'AR 90242'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:14', station: !!python/unicode 'Wierzchucin'}
+  - {arrival: !!python/unicode '13:20', departure: !!python/unicode '13:21', station: "B\u0142\
+      \u0105dzim"}
+  - {arrival: !!python/unicode '13:26', departure: !!python/unicode '13:27', station: "\u015A\
+      wiekatowo"}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:33', station: !!python/unicode 'Serock'}
+  - {arrival: !!python/unicode '13:36', departure: !!python/unicode '13:37', station: !!python/unicode 'Wudzyn'}
+  - {arrival: !!python/unicode '13:41', departure: !!python/unicode '13:42', station: !!python/unicode 'Stronno'}
+  - {arrival: !!python/unicode '13:49', departure: !!python/unicode '13:50', station: !!python/unicode 'Maksymilianowo'}
+  - {arrival: !!python/unicode '13:59', station: "Bydgoszcz G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

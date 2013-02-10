@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'TLK 13109'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:30', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '15:35', departure: !!python/unicode '15:50', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:59', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '16:45', departure: !!python/unicode '16:46', station: !!python/unicode 'Pilawa'}
+  - {arrival: !!python/unicode '17:21', departure: !!python/unicode '17:22', station: "D\u0119\
+      blin"}
+  - {arrival: !!python/unicode '17:48', departure: !!python/unicode '17:49', station: !!python/unicode 'Pionki
+      Zach.'}
+  - {arrival: !!python/unicode '18:05', departure: !!python/unicode '18:07', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '18:27', departure: !!python/unicode '18:28', station: "Szyd\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '18:37', departure: !!python/unicode '18:57', station: "Skar\u017C\
+      ysko-Kamienna"}
+  - {arrival: !!python/unicode '19:13', departure: !!python/unicode '19:14', station: !!python/unicode 'Starachowice
+      Wsch.'}
+  - {arrival: !!python/unicode '19:39', departure: !!python/unicode '19:40', station: "Ostrowiec\
+      \ \u015Awi\u0119tokrz."}
+  - {arrival: !!python/unicode '21:00', departure: !!python/unicode '21:01', station: !!python/unicode 'Sandomierz'}
+  - {arrival: !!python/unicode '21:35', departure: !!python/unicode '21:37', station: !!python/unicode 'Stalowa
+      Wola Rozwad.'}
+  - {arrival: !!python/unicode '21:41', departure: !!python/unicode '21:42', station: !!python/unicode 'Stalowa
+      Wola Centrum'}
+  - {arrival: !!python/unicode '21:50', departure: !!python/unicode '21:51', station: !!python/unicode 'Nisko'}
+  - {arrival: !!python/unicode '22:03', departure: !!python/unicode '22:04', station: !!python/unicode 'Rudnik
+      n. Sanem'}
+  - {arrival: !!python/unicode '22:23', departure: !!python/unicode '22:24', station: !!python/unicode 'Nowa
+      Sarzyna'}
+  - {arrival: !!python/unicode '22:32', departure: !!python/unicode '22:33', station: "Le\u017C\
+      ajsk"}
+  - {arrival: !!python/unicode '23:05', departure: !!python/unicode '23:06', station: !!python/unicode 'Przeworsk'}
+  - {arrival: !!python/unicode '23:16', departure: !!python/unicode '23:17', station: "Jaros\u0142\
+      aw"}
+  - {arrival: !!python/unicode '23:51', departure: !!python/unicode '23:52', station: "Przemy\u015B\
+      l Zasanie"}
+  - {arrival: !!python/unicode '23:56', station: "Przemy\u015Bl G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

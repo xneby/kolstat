@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 66326'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:46', station: "Bystrzyca K\u0142. Przed."}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:49', station: "Bystrzyca\
+      \ K\u0142odzka"}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:04', station: "K\u0142\
+      odzko Miasto"}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:08', station: "K\u0142\
+      odzko G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: "Bardo\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '06:27', departure: !!python/unicode '06:28', station: "Kamieniec\
+      \ Z\u0105bkowicki"}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:46', station: "Zi\u0119\
+      bice"}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:51', station: "Henryk\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:57', departure: !!python/unicode '06:57', station: "Bia\u0142\
+      y Ko\u015Bci\xF3\u0142"}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:04', station: !!python/unicode 'Strzelin'}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: !!python/unicode 'Warkocz'}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:18', station: !!python/unicode 'Boreczek'}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: "W\u0119\
+      gry"}
+  - {arrival: !!python/unicode '07:30', departure: !!python/unicode '07:30', station: "\u017B\xF3\
+      rawina"}
+  - {arrival: !!python/unicode '07:35', departure: !!python/unicode '07:36', station: "Smardz\xF3\
+      w Wroc\u0142."}
+  - {arrival: !!python/unicode '07:46', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

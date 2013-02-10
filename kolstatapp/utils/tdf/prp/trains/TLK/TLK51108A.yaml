@@ -1,0 +1,43 @@
+mode: normal
+name: !!python/unicode 'TLK 51108'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:29', station: "Bydgoszcz G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '04:35', departure: !!python/unicode '04:36', station: "Bydgoszcz\
+      \ Le\u015Bna"}
+  - {arrival: !!python/unicode '04:42', departure: !!python/unicode '04:43', station: "Bydgoszcz\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '05:03', departure: !!python/unicode '05:04', station: !!python/unicode 'Solec
+      Kujawski'}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:55', station: "Toru\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:11', station: "Aleksandr\xF3\
+      w Kujawski"}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:36', station: "W\u0142\
+      oc\u0142awek"}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:12', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '07:39', departure: !!python/unicode '07:40', station: "\u0141\
+      owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:58', station: !!python/unicode 'Sochaczew'}
+  - {arrival: !!python/unicode '08:30', departure: !!python/unicode '08:31', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:55', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '09:02', departure: !!python/unicode '09:04', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '09:44', departure: !!python/unicode '09:45', station: "T\u0142\
+      uszcz"}
+  - {arrival: !!python/unicode '10:33', departure: !!python/unicode '10:34', station: "Ma\u0142\
+      kinia"}
+  - {arrival: !!python/unicode '10:49', departure: !!python/unicode '10:50', station: "Czy\u017C\
+      ew"}
+  - {arrival: !!python/unicode '11:02', departure: !!python/unicode '11:03', station: !!python/unicode 'Szepietowo'}
+  - {arrival: !!python/unicode '11:26', departure: !!python/unicode '11:27', station: "\u0141\
+      apy"}
+  - {arrival: !!python/unicode '11:46', station: "Bia\u0142ystok"}
+  to: 2013-02-06
+type: train
+variant: A

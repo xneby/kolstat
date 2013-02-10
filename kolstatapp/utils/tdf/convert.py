@@ -12,8 +12,8 @@ def convert_file(filename):
 	y = yaml.load(data)
 
 	y['operations'][0]['mode'] = 'interval'
-	y['operations'][0]['from'] = date(2013, 2, 1)
-	y['operations'][0]['to'] = date(2013, 2, 28)
+	y['operations'][0]['from'] = date(2013, 2, 6)
+	y['operations'][0]['to'] = date(2013, 2, 6)
 
 	output = yaml.dump(y)
 

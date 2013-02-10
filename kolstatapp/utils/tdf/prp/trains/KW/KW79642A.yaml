@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'KW 79642'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:41', station: "Murowana Go\u015Blina"}
+  - {arrival: !!python/unicode '17:43', departure: !!python/unicode '17:43', station: "Zielone\
+      \ Wzg\xF3rza"}
+  - {arrival: !!python/unicode '17:47', departure: !!python/unicode '17:47', station: !!python/unicode 'Bolechowo'}
+  - {arrival: !!python/unicode '17:50', departure: !!python/unicode '17:51', station: "Owi\u0144\
+      ska"}
+  - {arrival: !!python/unicode '17:54', departure: !!python/unicode '17:55', station: !!python/unicode 'Czerwonak
+      Osiedle'}
+  - {arrival: !!python/unicode '17:57', departure: !!python/unicode '18:07', station: !!python/unicode 'Czerwonak'}
+  - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:10', station: "Pozna\u0144\
+      \ Karolin"}
+  - {arrival: !!python/unicode '18:14', departure: !!python/unicode '18:23', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '18:26', departure: !!python/unicode '18:26', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '18:30', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

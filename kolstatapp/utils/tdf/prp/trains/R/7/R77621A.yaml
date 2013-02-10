@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 77621'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:25', station: "Bia\u0142ystok"}
+  - {arrival: !!python/unicode '05:32', departure: !!python/unicode '05:33', station: "Wasilk\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:39', station: !!python/unicode 'Czarny
+      Blok'}
+  - {arrival: !!python/unicode '05:43', departure: !!python/unicode '05:43', station: "W\xF3\
+      lka Ratowiecka"}
+  - {arrival: !!python/unicode '05:47', departure: !!python/unicode '05:56', station: "Czarna\
+      \ Bia\u0142ostocka"}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:00', station: !!python/unicode 'Machnacz'}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:05', station: !!python/unicode 'Rozedranka'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:10', station: !!python/unicode 'Gieniusze'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:16', station: "Sok\xF3\
+      \u0142ka"}
+  - {arrival: !!python/unicode '06:23', departure: !!python/unicode '06:24', station: !!python/unicode 'Kundzin'}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:29', station: !!python/unicode 'Czuprynowo'}
+  - {arrival: !!python/unicode '06:34', station: "Ku\u017Anica Bia\u0142ostocka"}
+  to: 2013-02-06
+type: train
+variant: A

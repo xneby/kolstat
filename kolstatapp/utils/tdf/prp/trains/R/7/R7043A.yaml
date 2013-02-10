@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 7043'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:43', station: "Olsztyn G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:50', departure: !!python/unicode '15:51', station: "L\u0119\
+      gajny"}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:57', station: !!python/unicode 'Barczewo'}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:04', station: !!python/unicode 'Wipsowo'}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:10', station: !!python/unicode 'Czerwonka'}
+  - {arrival: !!python/unicode '16:16', departure: !!python/unicode '16:17', station: "G\xF3\
+      rowo"}
+  - {arrival: !!python/unicode '16:28', departure: !!python/unicode '16:29', station: "S\u0105\
+      topy Samulewo"}
+  - {arrival: !!python/unicode '16:35', departure: !!python/unicode '16:36', station: "\u0141\
+      ankiejmy"}
+  - {arrival: !!python/unicode '16:43', station: !!python/unicode 'Korsze'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'EIC 1803'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:37', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '16:45', departure: !!python/unicode '16:55', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '16:59', departure: !!python/unicode '17:00', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:06', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '19:31', departure: !!python/unicode '19:40', station: "Pozna\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '20:43', departure: !!python/unicode '20:44', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '21:35', departure: !!python/unicode '21:36', station: "Stargard\
+      \ Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '21:53', departure: !!python/unicode '21:54', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '22:08', station: "Szczecin G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

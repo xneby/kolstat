@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'KS 44510'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:01', station: !!python/unicode 'Krzepice'}
+  - {arrival: !!python/unicode '04:09', departure: !!python/unicode '04:09', station: !!python/unicode 'Panki'}
+  - {arrival: !!python/unicode '04:16', departure: !!python/unicode '04:16', station: !!python/unicode 'Kuleje'}
+  - {arrival: !!python/unicode '04:25', departure: !!python/unicode '04:26', station: !!python/unicode 'Herby
+      Nowe'}
+  - {arrival: !!python/unicode '04:34', departure: !!python/unicode '04:34', station: "Boron\xF3\
+      w"}
+  - {arrival: !!python/unicode '04:42', departure: !!python/unicode '04:42', station: "Strzebi\u0144"}
+  - {arrival: !!python/unicode '04:52', departure: !!python/unicode '04:52', station: !!python/unicode 'Kalety'}
+  - {arrival: !!python/unicode '05:03', departure: !!python/unicode '05:03', station: "Miasteczko\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '05:14', station: "Tarnowskie G\xF3ry"}
+  to: 2013-02-06
+type: train
+variant: A

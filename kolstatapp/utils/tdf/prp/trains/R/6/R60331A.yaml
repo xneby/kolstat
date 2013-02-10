@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'R 60331'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:12', station: "I\u0142awa G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '04:16', departure: !!python/unicode '04:16', station: "I\u0142\
+      awa Miasto"}
+  - {arrival: !!python/unicode '04:26', departure: !!python/unicode '04:26', station: "Z\u0105\
+      browo"}
+  - {arrival: !!python/unicode '04:36', departure: !!python/unicode '04:36', station: !!python/unicode 'Redaki'}
+  - {arrival: !!python/unicode '04:43', departure: !!python/unicode '04:44', station: !!python/unicode 'Susz'}
+  - {arrival: !!python/unicode '04:58', departure: !!python/unicode '04:59', station: !!python/unicode 'Prabuty'}
+  - {arrival: !!python/unicode '05:06', departure: !!python/unicode '05:07', station: !!python/unicode 'Gdakowo'}
+  - {arrival: !!python/unicode '05:11', departure: !!python/unicode '05:12', station: "Miko\u0142\
+      ajki Pomorskie"}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:25', station: !!python/unicode 'Mleczewo'}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:34', station: "D\u0105\
+      br\xF3wka Malborska"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:38', station: !!python/unicode 'Gronajny'}
+  - {arrival: !!python/unicode '05:46', station: !!python/unicode 'Malbork'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'KM 70132'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:28', station: "Wyszk\xF3w"}
+  - {arrival: !!python/unicode '14:32', departure: !!python/unicode '14:32', station: !!python/unicode 'Rybienko'}
+  - {arrival: !!python/unicode '14:36', departure: !!python/unicode '14:36', station: "Lucyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '14:41', departure: !!python/unicode '14:41', station: "Most\xF3\
+      wka"}
+  - {arrival: !!python/unicode '14:46', departure: !!python/unicode '14:46', station: !!python/unicode 'Grzegorzewo'}
+  - {arrival: !!python/unicode '14:50', departure: !!python/unicode '14:50', station: "Jarz\u0119\
+      bia \u0141\u0105ka"}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:56', station: "T\u0142\
+      uszcz"}
+  - {arrival: !!python/unicode '15:01', departure: !!python/unicode '15:01', station: !!python/unicode 'Jasienica
+      Mazowiecka'}
+  - {arrival: !!python/unicode '15:06', departure: !!python/unicode '15:06', station: "Klemb\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:10', departure: !!python/unicode '15:10', station: !!python/unicode 'Dobczyn'}
+  - {arrival: !!python/unicode '15:13', departure: !!python/unicode '15:13', station: "Zago\u015B\
+      ciniec"}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:16', station: "Wo\u0142\
+      omin S\u0142oneczna"}
+  - {arrival: !!python/unicode '15:20', departure: !!python/unicode '15:20', station: "Wo\u0142\
+      omin"}
+  - {arrival: !!python/unicode '15:23', departure: !!python/unicode '15:23', station: "Koby\u0142\
+      ka"}
+  - {arrival: !!python/unicode '15:26', departure: !!python/unicode '15:26', station: "Koby\u0142\
+      ka Oss\xF3w"}
+  - {arrival: !!python/unicode '15:31', departure: !!python/unicode '15:31', station: !!python/unicode 'Zielonka'}
+  - {arrival: !!python/unicode '15:35', departure: !!python/unicode '15:35', station: "Z\u0105\
+      bki"}
+  - {arrival: !!python/unicode '15:43', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-06
+type: train
+variant: A

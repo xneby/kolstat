@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'AR 9945'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:00', station: "Bydgoszcz G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '17:04', departure: !!python/unicode '17:04', station: !!python/unicode 'Rynkowo
+      Wiadukt'}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:12', station: !!python/unicode 'Maksymilianowo'}
+  - {arrival: !!python/unicode '17:20', departure: !!python/unicode '17:21', station: !!python/unicode 'Stronno'}
+  - {arrival: !!python/unicode '17:26', departure: !!python/unicode '17:26', station: !!python/unicode 'Wudzyn'}
+  - {arrival: !!python/unicode '17:32', departure: !!python/unicode '17:38', station: !!python/unicode 'Serock'}
+  - {arrival: !!python/unicode '17:41', departure: !!python/unicode '17:41', station: !!python/unicode 'Lubania
+      Lipiny'}
+  - {arrival: !!python/unicode '17:46', departure: !!python/unicode '17:46', station: "\u015A\
+      wiekatowo"}
+  - {arrival: !!python/unicode '17:50', departure: !!python/unicode '17:50', station: !!python/unicode 'Lipienica'}
+  - {arrival: !!python/unicode '17:54', departure: !!python/unicode '17:55', station: "B\u0142\
+      \u0105dzim"}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: !!python/unicode 'Wierzchucin'}
+  - {arrival: !!python/unicode '18:08', departure: !!python/unicode '18:08', station: !!python/unicode 'Zielonka
+      Pomorska'}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: "Ma\u0142\
+      e Gacno"}
+  - {arrival: !!python/unicode '18:18', departure: !!python/unicode '18:19', station: "Zaro\u015B\
+      le"}
+  - {arrival: !!python/unicode '18:23', departure: !!python/unicode '18:24', station: !!python/unicode 'Rosochatka'}
+  - {arrival: !!python/unicode '18:30', departure: !!python/unicode '18:30', station: !!python/unicode 'Lipowa
+      Tucholska'}
+  - {arrival: !!python/unicode '18:34', station: !!python/unicode 'Szlachta'}
+  to: 2013-02-06
+type: train
+variant: A

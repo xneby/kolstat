@@ -1,0 +1,51 @@
+mode: normal
+name: !!python/unicode 'KM 20920'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:21', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '04:27', departure: !!python/unicode '04:27', station: !!python/unicode 'Skierniewice
+      Rawka'}
+  - {arrival: !!python/unicode '04:33', departure: !!python/unicode '04:33', station: "Radziwi\u0142\
+      \u0142\xF3w Maz."}
+  - {arrival: !!python/unicode '04:37', departure: !!python/unicode '04:37', station: !!python/unicode 'Jesionka'}
+  - {arrival: !!python/unicode '04:41', departure: !!python/unicode '04:41', station: "Sucha\
+      \ \u017Byrardowska"}
+  - {arrival: !!python/unicode '04:50', departure: !!python/unicode '04:50', station: "\u017B\
+      yrard\xF3w"}
+  - {arrival: !!python/unicode '04:54', departure: !!python/unicode '04:54', station: "Mi\u0119\
+      dzybor\xF3w"}
+  - {arrival: !!python/unicode '05:01', departure: !!python/unicode '05:01', station: "Jaktor\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:09', departure: !!python/unicode '05:09', station: !!python/unicode 'Grodzisk
+      Maz. (PKP)'}
+  - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:13', station: "Milan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '05:17', departure: !!python/unicode '05:17', station: "Brwin\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:23', departure: !!python/unicode '05:23', station: "Pruszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:27', station: "Piast\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:32', departure: !!python/unicode '05:32', station: !!python/unicode 'Warszawa
+      Ursus'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:35', station: "Warszawa\
+      \ W\u0142ochy"}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:40', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:44', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '05:47', departure: !!python/unicode '05:47', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:49', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '05:52', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:55', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '06:05', station: "Warszawa Rembert\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

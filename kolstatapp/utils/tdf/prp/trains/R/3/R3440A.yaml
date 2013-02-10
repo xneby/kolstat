@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'R 3440'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:20', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '20:25', departure: !!python/unicode '20:25', station: "Krak\xF3\
+      w \u0141obz\xF3w"}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:31', station: "Krak\xF3\
+      w Mydlniki"}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:34', station: "Krak\xF3\
+      w Mydlniki Wap."}
+  - {arrival: !!python/unicode '20:37', departure: !!python/unicode '20:37', station: "Krak\xF3\
+      w Business Park"}
+  - {arrival: !!python/unicode '20:41', departure: !!python/unicode '20:41', station: "Zabierz\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:50', departure: !!python/unicode '20:51', station: !!python/unicode 'Rudawa'}
+  - {arrival: !!python/unicode '21:00', departure: !!python/unicode '21:00', station: !!python/unicode 'Krzeszowice'}
+  - {arrival: !!python/unicode '21:08', departure: !!python/unicode '21:09', station: !!python/unicode 'Wola
+      Filipowska'}
+  - {arrival: !!python/unicode '21:16', departure: !!python/unicode '21:16', station: !!python/unicode 'Dulowa'}
+  - {arrival: !!python/unicode '21:24', departure: !!python/unicode '21:25', station: !!python/unicode 'Trzebinia'}
+  - {arrival: !!python/unicode '21:34', departure: !!python/unicode '21:34', station: !!python/unicode 'Balin'}
+  - {arrival: !!python/unicode '21:43', departure: !!python/unicode '21:44', station: "Jaworzno\
+      \ Ci\u0119\u017Ckowice"}
+  - {arrival: !!python/unicode '21:54', departure: !!python/unicode '21:55', station: !!python/unicode 'Jaworzno
+      Szczakowa'}
+  - {arrival: !!python/unicode '22:20', departure: !!python/unicode '22:21', station: "Mys\u0142\
+      owice"}
+  - {arrival: !!python/unicode '22:28', departure: !!python/unicode '22:29', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '22:32', departure: !!python/unicode '22:32', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '22:37', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

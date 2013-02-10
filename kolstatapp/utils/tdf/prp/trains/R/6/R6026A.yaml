@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'R 6026'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:53', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '17:56', departure: !!python/unicode '17:57', station: !!python/unicode 'Lisewo'}
+  - {arrival: !!python/unicode '18:02', departure: !!python/unicode '18:03', station: !!python/unicode 'Szymankowo'}
+  - {arrival: !!python/unicode '18:07', departure: !!python/unicode '18:08', station: !!python/unicode 'Stogi
+      Malborskie'}
+  - {arrival: !!python/unicode '18:11', departure: !!python/unicode '18:12', station: "Malbork\
+      \ Ka\u0142dowo"}
+  - {arrival: !!python/unicode '18:16', station: !!python/unicode 'Malbork'}
+  to: 2013-02-06
+type: train
+variant: A

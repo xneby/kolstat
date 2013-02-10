@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'KM 605'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '10:53', station: !!python/unicode 'Warszawa Zach.
+      per.8'}
+  - {arrival: !!python/unicode '10:56', departure: !!python/unicode '10:56', station: !!python/unicode 'Warszawa
+      Kasprzaka'}
+  - {arrival: !!python/unicode '10:59', departure: !!python/unicode '10:59', station: "Warszawa\
+      \ Ko\u0142o"}
+  - {arrival: !!python/unicode '11:07', departure: !!python/unicode '11:07', station: "Warszawa\
+      \ Gda\u0144ska"}
+  - {arrival: !!python/unicode '11:10', departure: !!python/unicode '11:10', station: !!python/unicode 'Warszawa
+      ZOO'}
+  - {arrival: !!python/unicode '11:15', departure: !!python/unicode '11:15', station: !!python/unicode 'Warszawa
+      Praga'}
+  - {arrival: !!python/unicode '11:18', departure: !!python/unicode '11:18', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '11:21', departure: !!python/unicode '11:21', station: "Warszawa\
+      \ \u017Bera\u0144"}
+  - {arrival: !!python/unicode '11:24', departure: !!python/unicode '11:24', station: "Warszawa\
+      \ P\u0142udy"}
+  - {arrival: !!python/unicode '11:27', departure: !!python/unicode '11:27', station: "Warszawa\
+      \ Choszcz\xF3wka"}
+  - {arrival: !!python/unicode '11:32', departure: !!python/unicode '11:32', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '11:34', departure: !!python/unicode '11:34', station: !!python/unicode 'Legionowo
+      Przystanek'}
+  - {arrival: !!python/unicode '11:37', departure: !!python/unicode '11:37', station: "Chotom\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:42', departure: !!python/unicode '11:42', station: "Jan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '11:46', departure: !!python/unicode '11:46', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '11:50', departure: !!python/unicode '11:50', station: !!python/unicode 'Modlin'}
+  - {arrival: !!python/unicode '11:54', departure: !!python/unicode '11:54', station: "Pomiech\xF3\
+      wek"}
+  - {arrival: !!python/unicode '11:58', departure: !!python/unicode '11:58', station: !!python/unicode 'Brody
+      Warszawskie'}
+  - {arrival: !!python/unicode '12:01', departure: !!python/unicode '12:01', station: !!python/unicode 'Studzianki
+      Nowe'}
+  - {arrival: !!python/unicode '12:04', station: !!python/unicode 'Nasielsk'}
+  to: 2013-02-06
+type: train
+variant: A

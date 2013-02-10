@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 66533'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:08', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:16', station: "Wroc\u0142\
+      aw Muchob\xF3r"}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:23', station: "Wroc\u0142\
+      aw Nowy Dw\xF3r"}
+  - {arrival: !!python/unicode '15:27', departure: !!python/unicode '15:28', station: "Wroc\u0142\
+      aw \u017Berniki"}
+  - {arrival: !!python/unicode '15:32', departure: !!python/unicode '15:32', station: "Wroc\u0142\
+      aw Le\u015Bnica"}
+  - {arrival: !!python/unicode '15:39', departure: !!python/unicode '15:40', station: "Mroz\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:44', station: "Mi\u0119\
+      kinia"}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: "Przedmo\u015B\
+      cie \u015Awi\u0119te"}
+  - {arrival: !!python/unicode '15:52', departure: !!python/unicode '15:53', station: "\u015A\
+      roda \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '15:59', departure: !!python/unicode '16:00', station: !!python/unicode 'Malczyce'}
+  - {arrival: !!python/unicode '16:17', station: !!python/unicode 'Legnica'}
+  to: 2013-02-06
+type: train
+variant: A

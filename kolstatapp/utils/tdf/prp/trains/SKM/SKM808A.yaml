@@ -1,0 +1,69 @@
+mode: normal
+name: !!python/unicode 'SKM 808'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:52', station: "L\u0119bork"}
+  - {arrival: !!python/unicode '06:59', departure: !!python/unicode '06:59', station: "God\u0119\
+      towo"}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:12', station: "Bo\u017C\
+      epole Wielkie"}
+  - {arrival: !!python/unicode '07:16', departure: !!python/unicode '07:17', station: !!python/unicode 'Strzebielino
+      Morskie'}
+  - {arrival: !!python/unicode '07:22', departure: !!python/unicode '07:28', station: !!python/unicode 'Luzino'}
+  - {arrival: !!python/unicode '07:33', departure: !!python/unicode '07:33', station: "Go\u015B\
+      cicino Wejherows."}
+  - {arrival: !!python/unicode '07:38', departure: !!python/unicode '07:40', station: !!python/unicode 'Wejherowo'}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:42', station: !!python/unicode 'Wejherowo
+      Nanice'}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:44', station: "Wejherowo\
+      \ \u015Amiechowo"}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:47', station: !!python/unicode 'Reda
+      Pieleszewo'}
+  - {arrival: !!python/unicode '07:51', departure: !!python/unicode '07:53', station: !!python/unicode 'Reda'}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:58', station: !!python/unicode 'Rumia'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: !!python/unicode 'Rumia
+      Janowo'}
+  - {arrival: !!python/unicode '08:04', departure: !!python/unicode '08:04', station: !!python/unicode 'Gdynia
+      Cisowa'}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:10', station: !!python/unicode 'Gdynia
+      Chylonia'}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:12', station: !!python/unicode 'Gdynia
+      Leszczynki'}
+  - {arrival: !!python/unicode '08:14', departure: !!python/unicode '08:14', station: "Gdynia\
+      \ Grab\xF3wek"}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:17', station: !!python/unicode 'Gdynia
+      Stocznia'}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:20', station: "Gdynia\
+      \ G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:22', station: !!python/unicode 'Gdynia
+      Wzg. Maksym.'}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:25', station: "Gdynia\
+      \ Red\u0142owo"}
+  - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:27', station: "Gdynia\
+      \ Or\u0142owo"}
+  - {arrival: !!python/unicode '08:30', departure: !!python/unicode '08:30', station: !!python/unicode 'Sopot
+      Kamienny Potok'}
+  - {arrival: !!python/unicode '08:34', departure: !!python/unicode '08:34', station: !!python/unicode 'Sopot'}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:36', station: "Sopot\
+      \ Wy\u015Bcigi"}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:38', station: "Gda\u0144\
+      sk \u017Babianka-AWFiS"}
+  - {arrival: !!python/unicode '08:40', departure: !!python/unicode '08:40', station: "Gda\u0144\
+      sk Oliwa"}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:42', station: "Gda\u0144\
+      sk Przymorze"}
+  - {arrival: !!python/unicode '08:44', departure: !!python/unicode '08:49', station: "Gda\u0144\
+      sk Zaspa"}
+  - {arrival: !!python/unicode '08:51', departure: !!python/unicode '08:51', station: "Gda\u0144\
+      sk Wrzeszcz"}
+  - {arrival: !!python/unicode '08:53', departure: !!python/unicode '08:53', station: "Gda\u0144\
+      sk Politechnika"}
+  - {arrival: !!python/unicode '08:55', departure: !!python/unicode '08:55', station: "Gda\u0144\
+      sk Stocznia"}
+  - {arrival: !!python/unicode '08:58', station: "Gda\u0144sk G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

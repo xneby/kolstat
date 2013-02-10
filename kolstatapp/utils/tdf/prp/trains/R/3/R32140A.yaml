@@ -1,0 +1,60 @@
+mode: normal
+name: !!python/unicode 'R 32140'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:10', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:18', station: "Krak\xF3\
+      w Batowice"}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: "Zast\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:27', departure: !!python/unicode '07:27', station: "Baran\xF3\
+      wka"}
+  - {arrival: !!python/unicode '07:30', departure: !!python/unicode '07:31', station: "\u0141\
+      uczyce"}
+  - {arrival: !!python/unicode '07:34', departure: !!python/unicode '07:34', station: !!python/unicode 'Goszcza'}
+  - {arrival: !!python/unicode '07:38', departure: !!python/unicode '07:38', station: "Nied\u017A\
+      wied\u017A"}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:42', station: "S\u0142\
+      omniki Miasto"}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:44', station: "S\u0142\
+      omniki"}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:48', station: "Smrok\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:51', departure: !!python/unicode '07:52', station: !!python/unicode 'Szczepanowice'}
+  - {arrival: !!python/unicode '07:55', departure: !!python/unicode '07:55', station: "Kamie\u0144\
+      czyce"}
+  - {arrival: !!python/unicode '07:59', departure: !!python/unicode '07:59', station: "Miech\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:04', departure: !!python/unicode '08:04', station: "Dziad\xF3\
+      wki"}
+  - {arrival: !!python/unicode '08:09', departure: !!python/unicode '08:09', station: !!python/unicode 'Tunel'}
+  - {arrival: !!python/unicode '08:14', departure: !!python/unicode '08:15', station: "Koz\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:20', station: "Klimont\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:24', departure: !!python/unicode '08:25', station: "S\u0119\
+      dzisz\xF3w"}
+  - {arrival: !!python/unicode '08:30', departure: !!python/unicode '08:30', station: "Krzci\u0119\
+      cice"}
+  - {arrival: !!python/unicode '08:35', departure: !!python/unicode '08:36', station: !!python/unicode 'Potok'}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:42', station: "J\u0119\
+      drzej\xF3w"}
+  - {arrival: !!python/unicode '08:51', departure: !!python/unicode '08:51', station: "Mi\u0105\
+      sowa"}
+  - {arrival: !!python/unicode '08:57', departure: !!python/unicode '08:58', station: "Sobk\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:02', departure: !!python/unicode '09:02', station: !!python/unicode 'Wolica'}
+  - {arrival: !!python/unicode '09:07', departure: !!python/unicode '09:07', station: !!python/unicode 'Radkowice'}
+  - {arrival: !!python/unicode '09:11', departure: !!python/unicode '09:12', station: "Sitk\xF3\
+      wka Nowiny"}
+  - {arrival: !!python/unicode '09:14', departure: !!python/unicode '09:15', station: "S\u0142\
+      owik Przystanek"}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:19', station: "Kielce\
+      \ Bia\u0142gon"}
+  - {arrival: !!python/unicode '09:23', station: !!python/unicode 'Kielce'}
+  to: 2013-02-06
+type: train
+variant: A

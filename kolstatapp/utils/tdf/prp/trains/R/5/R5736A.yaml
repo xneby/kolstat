@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'R 5736'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:46', station: "Toru\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: "Suchat\xF3\
+      wka"}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:08', station: !!python/unicode 'Gniewkowo'}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:15', station: "Wierzchos\u0142\
+      awice"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:22', station: "Wi\u0119\
+      c\u0142awice"}
+  - {arrival: !!python/unicode '16:31', departure: !!python/unicode '16:32', station: "Inowroc\u0142\
+      aw"}
+  - {arrival: !!python/unicode '16:42', departure: !!python/unicode '16:43', station: !!python/unicode 'Janikowo'}
+  - {arrival: !!python/unicode '16:48', departure: !!python/unicode '16:49', station: "Ko\u0142\
+      odziejewo"}
+  - {arrival: !!python/unicode '16:56', departure: !!python/unicode '16:57', station: !!python/unicode 'Mogilno'}
+  - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:02', station: !!python/unicode 'Wydartowo'}
+  - {arrival: !!python/unicode '17:08', departure: !!python/unicode '17:09', station: !!python/unicode 'Trzemeszno'}
+  - {arrival: !!python/unicode '17:15', departure: !!python/unicode '17:15', station: !!python/unicode 'Jankowo
+      Dolne'}
+  - {arrival: !!python/unicode '17:22', departure: !!python/unicode '17:48', station: !!python/unicode 'Gniezno'}
+  - {arrival: !!python/unicode '17:55', departure: !!python/unicode '17:56', station: !!python/unicode 'Pierzyska'}
+  - {arrival: !!python/unicode '17:59', departure: !!python/unicode '18:00', station: "Fa\u0142\
+      kowo"}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: "Lednog\xF3\
+      ra"}
+  - {arrival: !!python/unicode '18:09', departure: !!python/unicode '18:10', station: !!python/unicode 'Pobiedziska'}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: !!python/unicode 'Pobiedziska
+      Letnisko'}
+  - {arrival: !!python/unicode '18:15', departure: !!python/unicode '18:15', station: !!python/unicode 'Promno'}
+  - {arrival: !!python/unicode '18:18', departure: !!python/unicode '18:19', station: !!python/unicode 'Biskupice
+      Wlkp.'}
+  - {arrival: !!python/unicode '18:24', departure: !!python/unicode '18:24', station: !!python/unicode 'Kobylnica'}
+  - {arrival: !!python/unicode '18:27', departure: !!python/unicode '18:28', station: !!python/unicode 'Ligowiec'}
+  - {arrival: !!python/unicode '18:32', departure: !!python/unicode '18:33', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '18:36', departure: !!python/unicode '18:37', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '18:42', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

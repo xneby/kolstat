@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'SKW 66233'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:19', station: !!python/unicode 'Warszawa Zach.
+      per.8'}
+  - {arrival: !!python/unicode '14:22', departure: !!python/unicode '14:22', station: !!python/unicode 'Warszawa
+      Kasprzaka'}
+  - {arrival: !!python/unicode '14:25', departure: !!python/unicode '14:25', station: "Warszawa\
+      \ Ko\u0142o"}
+  - {arrival: !!python/unicode '14:32', departure: !!python/unicode '14:33', station: "Warszawa\
+      \ Gda\u0144ska"}
+  - {arrival: !!python/unicode '14:35', departure: !!python/unicode '14:36', station: !!python/unicode 'Warszawa
+      ZOO'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: !!python/unicode 'Warszawa
+      Praga'}
+  - {arrival: !!python/unicode '14:41', departure: !!python/unicode '14:42', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:45', station: "Warszawa\
+      \ \u017Bera\u0144"}
+  - {arrival: !!python/unicode '14:47', departure: !!python/unicode '14:48', station: "Warszawa\
+      \ P\u0142udy"}
+  - {arrival: !!python/unicode '14:50', departure: !!python/unicode '14:51', station: "Warszawa\
+      \ Choszcz\xF3wka"}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:56', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:58', station: !!python/unicode 'Legionowo
+      Piaski'}
+  - {arrival: !!python/unicode '15:00', departure: !!python/unicode '15:01', station: "Micha\u0142\
+      \xF3w Regin\xF3w"}
+  - {arrival: !!python/unicode '15:04', station: !!python/unicode 'Wieliszew'}
+  to: 2013-02-06
+type: train
+variant: A

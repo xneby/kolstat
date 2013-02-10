@@ -1,0 +1,62 @@
+mode: normal
+name: !!python/unicode 'TLK 31202'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '21:17', station: "Przemy\u015Bl G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '21:21', departure: !!python/unicode '21:22', station: "Przemy\u015B\
+      l Zasanie"}
+  - {arrival: !!python/unicode '21:57', departure: !!python/unicode '21:58', station: "Jaros\u0142\
+      aw"}
+  - {arrival: !!python/unicode '22:10', departure: !!python/unicode '22:11', station: !!python/unicode 'Przeworsk'}
+  - {arrival: !!python/unicode '22:45', departure: !!python/unicode '22:46', station: "Le\u017C\
+      ajsk"}
+  - {arrival: !!python/unicode '22:54', departure: !!python/unicode '22:55', station: !!python/unicode 'Nowa
+      Sarzyna'}
+  - {arrival: !!python/unicode '23:17', departure: !!python/unicode '23:18', station: !!python/unicode 'Rudnik
+      n. Sanem'}
+  - {arrival: !!python/unicode '23:30', departure: !!python/unicode '23:31', station: !!python/unicode 'Nisko'}
+  - {arrival: !!python/unicode '23:38', departure: !!python/unicode '23:39', station: !!python/unicode 'Stalowa
+      Wola Centrum'}
+  - {arrival: !!python/unicode '23:44', departure: !!python/unicode '23:46', station: !!python/unicode 'Stalowa
+      Wola Rozwad.'}
+  - {arrival: !!python/unicode '00:17', departure: !!python/unicode '00:18', station: !!python/unicode 'Sandomierz'}
+  - {arrival: !!python/unicode '01:39', departure: !!python/unicode '01:40', station: "Ostrowiec\
+      \ \u015Awi\u0119tokrz."}
+  - {arrival: !!python/unicode '02:14', departure: !!python/unicode '02:15', station: !!python/unicode 'Starachowice
+      Wsch.'}
+  - {arrival: !!python/unicode '02:32', departure: !!python/unicode '02:47', station: "Skar\u017C\
+      ysko-Kamienna"}
+  - {arrival: !!python/unicode '03:16', departure: !!python/unicode '03:17', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '03:55', departure: !!python/unicode '03:56', station: "D\u0119\
+      blin"}
+  - {arrival: !!python/unicode '05:14', departure: !!python/unicode '05:28', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:45', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '05:56', departure: !!python/unicode '05:56', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:12', station: !!python/unicode 'Nasielsk'}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:44', station: "Ciechan\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:21', station: "M\u0142\
+      awa"}
+  - {arrival: !!python/unicode '07:46', departure: !!python/unicode '07:51', station: "Dzia\u0142\
+      dowo"}
+  - {arrival: !!python/unicode '08:54', departure: !!python/unicode '09:01', station: "I\u0142\
+      awa G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '09:50', departure: !!python/unicode '09:51', station: !!python/unicode 'Prabuty'}
+  - {arrival: !!python/unicode '10:40', departure: !!python/unicode '10:41', station: !!python/unicode 'Malbork'}
+  - {arrival: !!python/unicode '11:04', departure: !!python/unicode '11:10', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '11:51', departure: !!python/unicode '12:00', station: "Gda\u0144\
+      sk G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '12:07', departure: !!python/unicode '12:08', station: "Gda\u0144\
+      sk Wrzeszcz"}
+  - {arrival: !!python/unicode '12:14', departure: !!python/unicode '12:15', station: "Gda\u0144\
+      sk Oliwa"}
+  - {arrival: !!python/unicode '12:21', departure: !!python/unicode '12:23', station: !!python/unicode 'Sopot'}
+  - {arrival: !!python/unicode '12:39', station: "Gdynia G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: B

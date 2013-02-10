@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'KW 77331'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:32', station: !!python/unicode 'Wolsztyn'}
+  - {arrival: !!python/unicode '13:40', departure: !!python/unicode '13:40', station: "T\u0142\
+      oki"}
+  - {arrival: !!python/unicode '13:45', departure: !!python/unicode '13:46', station: !!python/unicode 'Rostarzewo'}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: !!python/unicode 'Rakoniewice'}
+  - {arrival: !!python/unicode '13:55', departure: !!python/unicode '13:56', station: "Drzyma\u0142\
+      owo"}
+  - {arrival: !!python/unicode '14:00', departure: !!python/unicode '14:01', station: !!python/unicode 'Ruchocice'}
+  - {arrival: !!python/unicode '14:10', departure: !!python/unicode '14:11', station: !!python/unicode 'Grodzisk
+      Wlkp.'}
+  - {arrival: !!python/unicode '14:18', departure: !!python/unicode '14:19', station: !!python/unicode 'Ptaszkowo
+      Wlkp.'}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:24', station: !!python/unicode 'Kotowo'}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:36', station: !!python/unicode 'Granowo
+      Nowotomyskie'}
+  - {arrival: !!python/unicode '14:43', departure: !!python/unicode '14:44', station: "Strykowo\
+      \ Pozna\u0144skie"}
+  - {arrival: !!python/unicode '14:52', departure: !!python/unicode '14:53', station: "St\u0119\
+      szew"}
+  - {arrival: !!python/unicode '15:00', departure: !!python/unicode '15:00', station: "Trzebaw\
+      \ Rosn\xF3wko"}
+  - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:05', station: !!python/unicode 'Szreniawa'}
+  - {arrival: !!python/unicode '15:10', departure: !!python/unicode '15:11', station: !!python/unicode 'Wiry'}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:17', station: "Lubo\u0144\
+      \ k. Poznania"}
+  - {arrival: !!python/unicode '15:21', departure: !!python/unicode '15:22', station: "Pozna\u0144\
+      \ D\u0119biec"}
+  - {arrival: !!python/unicode '15:30', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

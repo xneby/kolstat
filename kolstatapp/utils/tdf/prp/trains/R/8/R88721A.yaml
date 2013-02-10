@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 88721'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:34', station: !!python/unicode 'Czeremcha'}
+  - {arrival: !!python/unicode '05:41', departure: !!python/unicode '05:41', station: !!python/unicode 'Kleszczele'}
+  - {arrival: !!python/unicode '05:50', departure: !!python/unicode '05:50', station: !!python/unicode 'Suchowolce'}
+  - {arrival: !!python/unicode '05:57', departure: !!python/unicode '05:57', station: !!python/unicode 'Gregorowce'}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:02', station: !!python/unicode 'Podbiele'}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:08', station: !!python/unicode 'Lewki'}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:14', station: !!python/unicode 'Bielsk
+      Podlaski'}
+  - {arrival: !!python/unicode '06:24', departure: !!python/unicode '06:25', station: !!python/unicode 'Rajsk'}
+  - {arrival: !!python/unicode '06:36', departure: !!python/unicode '06:37', station: !!python/unicode 'Strabla'}
+  - {arrival: !!python/unicode '06:45', departure: !!python/unicode '06:46', station: !!python/unicode 'Zimnochy'}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:50', station: "Ho\u0142\
+      \xF3wki Du\u017Ce"}
+  - {arrival: !!python/unicode '06:59', departure: !!python/unicode '07:00', station: !!python/unicode 'Lewickie'}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:11', station: "Bia\u0142\
+      ystok Stadion"}
+  - {arrival: !!python/unicode '07:20', station: "Bia\u0142ystok"}
+  to: 2013-02-06
+type: train
+variant: A

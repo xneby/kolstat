@@ -1,3 +1,4 @@
+#coding: utf-8
 import yaml
 import sys
 import re
@@ -8,23 +9,36 @@ except ImportError:
 
 h = HTMLParser.HTMLParser()
 
-def parse(s, name, dd):
+'''<td class="nowrap sepline">
+<a href="http://rozklad.sitkol.pl/bin/stboard.exe/pn?ld=c&time=19:23&input=5101097&boardType=dep&productsFilter=1111111&">Gorzów Chrzanowski</a>
+</td>
+<td class="center sepline">
+19:22
+</td>
+<td class="center sepline">
+19:23
+</td>'''
+
+def parse(s, name, dd, var):
 
 	ll = re.findall(r'''<td class="nowrap sepline">
-	<a href=".*?">(.*?)</a>
-	</td>
-	<td class="center sepline">
-	(.*?)
-	</td>
-	<td class="center sepline">
-	(.*?)
-	</td>''', s, re.MULTILINE | re.DOTALL)
+<a href="[^"]*">([^<]*)</a>
+</td>
+<td class="center sepline">
+([^<]*)
+</td>
+<td class="center sepline">
+([^<]*)
+</td>''', s, re.MULTILINE | re.DOTALL)
+
+	name=re.sub('([A-Z])([0-9])', r'\1 \2', name)
 
 	document = dict()
 	document['type'] = 'train'
-	document['mode'] = mode
+	document['mode'] = 'normal'
 	document['name'] = name
-	
+	document['variant'] = var
+
 	from datetime import date
 
 	oper = dict()
@@ -66,4 +80,4 @@ if __name__ == '__main__':
 	with open(name + '.html') as f:
 		s = h.unescape(f.read())
 
-	print(parse(s, good_name, date(2013,2,4))
+	print parse(s, good_name, date(2013,2,4))

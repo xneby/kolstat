@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'EX 1613'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:13', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '15:20', departure: !!python/unicode '15:25', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:30', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '17:41', departure: !!python/unicode '17:42', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '18:07', departure: !!python/unicode '18:08', station: "Sosnowiec\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '18:19', departure: !!python/unicode '18:24', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '18:49', departure: !!python/unicode '18:50', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '19:00', departure: !!python/unicode '19:01', station: !!python/unicode 'Gliwice'}
+  - {arrival: !!python/unicode '19:31', departure: !!python/unicode '19:32', station: "K\u0119\
+      dzierzyn Ko\u017Ale"}
+  - {arrival: !!python/unicode '20:20', departure: !!python/unicode '20:21', station: "Opole\
+      \ G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '21:13', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'KM 33121'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:18', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '16:25', departure: !!python/unicode '16:34', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '16:39', departure: !!python/unicode '16:39', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:02', station: "Jaktor\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:08', departure: !!python/unicode '17:08', station: "Mi\u0119\
+      dzybor\xF3w"}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:12', station: "\u017B\
+      yrard\xF3w"}
+  - {arrival: !!python/unicode '17:21', departure: !!python/unicode '17:21', station: "Sucha\
+      \ \u017Byrardowska"}
+  - {arrival: !!python/unicode '17:23', departure: !!python/unicode '17:23', station: !!python/unicode 'Jesionka'}
+  - {arrival: !!python/unicode '17:28', departure: !!python/unicode '17:28', station: "Radziwi\u0142\
+      \u0142\xF3w Maz."}
+  - {arrival: !!python/unicode '17:32', departure: !!python/unicode '17:32', station: !!python/unicode 'Skierniewice
+      Rawka'}
+  - {arrival: !!python/unicode '17:38', station: !!python/unicode 'Skierniewice'}
+  to: 2013-02-06
+type: train
+variant: A

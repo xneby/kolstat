@@ -1,0 +1,44 @@
+mode: normal
+name: !!python/unicode 'R 33202'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:04', station: !!python/unicode 'Sucha Beskidzka'}
+  - {arrival: !!python/unicode '11:11', departure: !!python/unicode '11:11', station: !!python/unicode 'Zembrzyce'}
+  - {arrival: !!python/unicode '11:15', departure: !!python/unicode '11:15', station: !!python/unicode 'Skawce'}
+  - {arrival: !!python/unicode '11:21', departure: !!python/unicode '11:22', station: "Strysz\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:28', departure: !!python/unicode '11:28', station: !!python/unicode 'Stronie'}
+  - {arrival: !!python/unicode '11:39', departure: !!python/unicode '11:57', station: !!python/unicode 'Kalwaria
+      Lanckorona'}
+  - {arrival: !!python/unicode '12:02', departure: !!python/unicode '12:02', station: !!python/unicode 'Przytkowice'}
+  - {arrival: !!python/unicode '12:06', departure: !!python/unicode '12:07', station: "Le\u0144\
+      cze"}
+  - {arrival: !!python/unicode '12:09', departure: !!python/unicode '12:10', station: !!python/unicode 'Podolany'}
+  - {arrival: !!python/unicode '12:12', departure: !!python/unicode '12:13', station: !!python/unicode 'Wola
+      Radziszowska'}
+  - {arrival: !!python/unicode '12:17', departure: !!python/unicode '12:17', station: "Radzisz\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:20', departure: !!python/unicode '12:21', station: "Rzoz\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:25', departure: !!python/unicode '12:26', station: !!python/unicode 'Skawina'}
+  - {arrival: !!python/unicode '12:30', departure: !!python/unicode '12:31', station: "Krak\xF3\
+      w Sidzina"}
+  - {arrival: !!python/unicode '12:35', departure: !!python/unicode '12:36', station: "Krak\xF3\
+      w Swoszowice"}
+  - {arrival: !!python/unicode '12:39', departure: !!python/unicode '12:39', station: "Krak\xF3\
+      w \u0141agiewniki"}
+  - {arrival: !!python/unicode '12:41', departure: !!python/unicode '12:42', station: "Krak\xF3\
+      w Bonarka"}
+  - {arrival: !!python/unicode '12:44', departure: !!python/unicode '12:45', station: "Krak\xF3\
+      w Krzemionki"}
+  - {arrival: !!python/unicode '12:48', departure: !!python/unicode '12:58', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:02', station: "Krak\xF3\
+      w Zab\u0142ocie"}
+  - {arrival: !!python/unicode '13:06', station: "Krak\xF3w G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

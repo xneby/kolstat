@@ -3,6 +3,7 @@
 import heapq
 import pickle
 import os.path
+import shutil
 
 rs = {}
 s = {}
@@ -42,9 +43,26 @@ class Dijkstra:
 	mem = {}
 	
 	@classmethod
+	def load(cls):
+		if os.access(os.path.join(DIR, 'state.p'), 0):
+			with open(os.path.join(DIR, 'state.p'), 'rb') as f:
+				cls.mem = pickle.load(f)
+		cls.ile = 100
+
+	@classmethod
+	def save(cls):
+		with open(os.path.join(DIR, 'state.p.new'), 'wb') as f:
+			pickle.dump(cls.mem, f)
+		shutil.move(os.path.join(DIR, 'state.p.new'),os.path.join(DIR, 'state.p'))
+
+	@classmethod
 	def dijkstra(cls, f, to):
 		if f not in cls.mem:
+			cls.ile -=1
 			cls.mem[f] = cls._dijkstra(f, to)
+			if cls.ile == 0:
+				cls.save()
+				cls.ile = 100
 		
 	@classmethod
 	def length(cls, f, to):
@@ -81,6 +99,8 @@ class Dijkstra:
 					heapq.heappush(heap, u)
 
 		return dict(d=d, p=p)
+
+Dijkstra.load()
 
 if __name__ == '__main__':
 	start = ''

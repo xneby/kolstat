@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'KM 51334'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:25', station: !!python/unicode 'Sierpc'}
+  - {arrival: !!python/unicode '12:32', departure: !!python/unicode '12:32', station: !!python/unicode 'Susk'}
+  - {arrival: !!python/unicode '12:37', departure: !!python/unicode '12:37', station: !!python/unicode 'Gozdowo'}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:45', station: "Proboszczewice\
+      \ P\u0142oc."}
+  - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:55', station: "P\u0142\
+      ock Trzepowo"}
+  - {arrival: !!python/unicode '13:03', departure: !!python/unicode '13:03', station: "P\u0142\
+      ock"}
+  - {arrival: !!python/unicode '13:14', departure: !!python/unicode '13:14', station: "P\u0142\
+      ock Radziwie"}
+  - {arrival: !!python/unicode '13:27', departure: !!python/unicode '13:27', station: "\u0141\u0105\
+      ck"}
+  - {arrival: !!python/unicode '13:34', departure: !!python/unicode '13:34', station: "Rogo\u017C\
+      ew"}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: !!python/unicode 'Gostynin'}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: "Sierak\xF3\
+      wek"}
+  - {arrival: !!python/unicode '13:59', departure: !!python/unicode '13:59', station: !!python/unicode 'Strzelce
+      Kujawskie'}
+  - {arrival: !!python/unicode '14:06', departure: !!python/unicode '14:06', station: "Racibor\xF3\
+      w Kutnowski"}
+  - {arrival: !!python/unicode '14:14', departure: !!python/unicode '14:14', station: !!python/unicode 'Azory'}
+  - {arrival: !!python/unicode '14:20', station: !!python/unicode 'Kutno'}
+  to: 2013-02-06
+type: train
+variant: A

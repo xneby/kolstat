@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'TLK 11101'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:55', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:05', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '07:12', departure: !!python/unicode '07:14', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:43', station: "Mi\u0144\
+      sk Mazowiecki"}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:54', station: !!python/unicode 'Mrozy'}
+  - {arrival: !!python/unicode '08:16', departure: !!python/unicode '08:18', station: !!python/unicode 'Siedlce'}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:37', station: "\u0141\
+      uk\xF3w"}
+  - {arrival: !!python/unicode '08:58', departure: !!python/unicode '08:59', station: "Mi\u0119\
+      dzyrzec Podl."}
+  - {arrival: !!python/unicode '09:16', departure: !!python/unicode '09:17', station: "Bia\u0142\
+      a Podlaska"}
+  - {arrival: !!python/unicode '09:32', departure: !!python/unicode '09:33', station: "Choty\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '09:43', departure: !!python/unicode '09:44', station: "Ma\u0142\
+      aszewicze"}
+  - {arrival: !!python/unicode '09:52', station: !!python/unicode 'Terespol'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'TLK 12011'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:55', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:05', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:18', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '17:11', departure: !!python/unicode '17:12', station: !!python/unicode 'Pilawa'}
+  - {arrival: !!python/unicode '17:51', departure: !!python/unicode '17:52', station: "D\u0119\
+      blin"}
+  - {arrival: !!python/unicode '18:15', departure: !!python/unicode '18:16', station: "Pu\u0142\
+      awy Miasto"}
+  - {arrival: !!python/unicode '18:33', departure: !!python/unicode '18:34', station: "Na\u0142\
+      \u0119cz\xF3w"}
+  - {arrival: !!python/unicode '19:00', departure: !!python/unicode '19:03', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:17', station: "\u015A\
+      widnik Wsch."}
+  - {arrival: !!python/unicode '19:59', departure: !!python/unicode '20:00', station: "Che\u0142\
+      m Miasto"}
+  - {arrival: !!python/unicode '20:05', departure: !!python/unicode '20:07', station: "Che\u0142\
+      m"}
+  - {arrival: !!python/unicode '20:33', station: !!python/unicode 'Dorohusk'}
+  to: 2013-02-06
+type: train
+variant: A

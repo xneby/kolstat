@@ -1,0 +1,12 @@
+mode: normal
+name: !!python/unicode 'R 4436'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '21:56', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '22:15', station: "Krak\xF3w Balice"}
+  to: 2013-02-06
+type: train
+variant: A

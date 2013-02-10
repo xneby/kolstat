@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'R 89527'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:42', station: !!python/unicode 'Szczecinek'}
+  - {arrival: !!python/unicode '18:51', departure: !!python/unicode '18:51', station: "Gwda\
+      \ Ma\u0142a"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:59', station: !!python/unicode 'Drzonowo'}
+  - {arrival: !!python/unicode '19:06', departure: !!python/unicode '19:07', station: "Bia\u0142\
+      y B\xF3r"}
+  - {arrival: !!python/unicode '19:15', departure: !!python/unicode '19:16', station: "S\u0142\
+      osinko"}
+  - {arrival: !!python/unicode '19:24', departure: !!python/unicode '19:25', station: !!python/unicode 'Miastko'}
+  - {arrival: !!python/unicode '19:34', departure: !!python/unicode '19:34', station: !!python/unicode 'Kawcze'}
+  - {arrival: !!python/unicode '19:40', departure: !!python/unicode '19:41', station: !!python/unicode 'Przytocko'}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:47', station: !!python/unicode 'Ciecholub'}
+  - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:51', station: !!python/unicode 'Biesowice'}
+  - {arrival: !!python/unicode '19:54', departure: !!python/unicode '19:54', station: "K\u0119\
+      pka"}
+  - {arrival: !!python/unicode '19:57', departure: !!python/unicode '19:58', station: "K\u0119\
+      pice"}
+  - {arrival: !!python/unicode '20:04', departure: !!python/unicode '20:04', station: !!python/unicode 'Korzybie'}
+  - {arrival: !!python/unicode '20:10', departure: !!python/unicode '20:11', station: "Wrz\u0105\
+      ca Pomorska"}
+  - {arrival: !!python/unicode '20:15', departure: !!python/unicode '20:16', station: "S\u0142\
+      onowice"}
+  - {arrival: !!python/unicode '20:21', departure: !!python/unicode '20:21', station: !!python/unicode 'Widzino'}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:25', station: "Kobylnica\
+      \ S\u0142upska"}
+  - {arrival: !!python/unicode '20:30', station: "S\u0142upsk"}
+  to: 2013-02-06
+type: train
+variant: A

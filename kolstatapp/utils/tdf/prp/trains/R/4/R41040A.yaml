@@ -1,0 +1,52 @@
+mode: normal
+name: !!python/unicode 'R 41040'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:28', station: "Cz\u0119stochowa Osobowa"}
+  - {arrival: !!python/unicode '18:32', departure: !!python/unicode '18:33', station: "Cz\u0119\
+      stochowa Anio\u0142\xF3w"}
+  - {arrival: !!python/unicode '18:40', departure: !!python/unicode '18:41', station: "Rudniki\
+      \ k. Cz\u0119stoch."}
+  - {arrival: !!python/unicode '18:47', departure: !!python/unicode '18:48', station: "Rzerz\u0119\
+      czyce"}
+  - {arrival: !!python/unicode '18:50', departure: !!python/unicode '18:51', station: "K\u0142\
+      omnice"}
+  - {arrival: !!python/unicode '18:56', departure: !!python/unicode '18:56', station: "Jack\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:59', departure: !!python/unicode '18:59', station: "Widz\xF3\
+      w Teklin\xF3w"}
+  - {arrival: !!python/unicode '19:05', departure: !!python/unicode '19:06', station: !!python/unicode 'Bobry'}
+  - {arrival: !!python/unicode '19:13', departure: !!python/unicode '19:14', station: !!python/unicode 'Radomsko'}
+  - {arrival: !!python/unicode '19:22', departure: !!python/unicode '19:22', station: !!python/unicode 'Dobryszyce
+      k.Radoms.'}
+  - {arrival: !!python/unicode '19:30', departure: !!python/unicode '19:31', station: !!python/unicode 'Gomunice'}
+  - {arrival: !!python/unicode '19:35', departure: !!python/unicode '19:36', station: "Kamie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '19:40', departure: !!python/unicode '19:40', station: "Gorz\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '19:45', departure: !!python/unicode '19:46', station: !!python/unicode 'Gorzkowice'}
+  - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:51', station: !!python/unicode 'Wilkoszewice'}
+  - {arrival: !!python/unicode '19:54', departure: !!python/unicode '19:55', station: "Luci\u0105\
+      \u017Canka"}
+  - {arrival: !!python/unicode '19:58', departure: !!python/unicode '19:59', station: !!python/unicode 'Rozprza'}
+  - {arrival: !!python/unicode '20:04', departure: !!python/unicode '20:05', station: "Milej\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:10', departure: !!python/unicode '20:11', station: "Piotrk\xF3\
+      w Tryb."}
+  - {arrival: !!python/unicode '20:15', departure: !!python/unicode '20:16', station: !!python/unicode 'Jarosty'}
+  - {arrival: !!python/unicode '20:20', departure: !!python/unicode '20:21', station: !!python/unicode 'Moszczenica'}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:25', station: !!python/unicode 'Baby'}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:31', station: "Wolb\xF3\
+      rka"}
+  - {arrival: !!python/unicode '20:35', departure: !!python/unicode '20:36', station: "\u0141\
+      azn\xF3w"}
+  - {arrival: !!python/unicode '20:40', departure: !!python/unicode '20:41', station: !!python/unicode 'Rokiciny'}
+  - {arrival: !!python/unicode '20:44', departure: !!python/unicode '20:45', station: !!python/unicode 'Chrusty
+      Nowe'}
+  - {arrival: !!python/unicode '20:50', station: !!python/unicode 'Koluszki'}
+  to: 2013-02-06
+type: train
+variant: A

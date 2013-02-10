@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'KS 44626'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:31', station: !!python/unicode 'Lubliniec'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:40', station: !!python/unicode 'Rusinowice'}
+  - {arrival: !!python/unicode '14:48', departure: !!python/unicode '14:48', station: "Kosz\u0119\
+      cin"}
+  - {arrival: !!python/unicode '15:00', departure: !!python/unicode '15:00', station: !!python/unicode 'Kalety'}
+  - {arrival: !!python/unicode '15:11', departure: !!python/unicode '15:11', station: "Miasteczko\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '15:21', departure: !!python/unicode '15:22', station: "Tarnowskie\
+      \ G\xF3ry"}
+  - {arrival: !!python/unicode '15:28', departure: !!python/unicode '15:28', station: "Nak\u0142\
+      o \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:37', station: "Radzionk\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:42', departure: !!python/unicode '15:43', station: "Radzionk\xF3\
+      w Rojca"}
+  - {arrival: !!python/unicode '15:54', departure: !!python/unicode '15:55', station: !!python/unicode 'Bytom
+      Karb'}
+  - {arrival: !!python/unicode '15:59', departure: !!python/unicode '16:00', station: !!python/unicode 'Bytom'}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:07', station: "Chorz\xF3\
+      w Stary"}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:15', station: "Chorz\xF3\
+      w Miasto"}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:20', station: "Chorz\xF3\
+      w Batory"}
+  - {arrival: !!python/unicode '16:29', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

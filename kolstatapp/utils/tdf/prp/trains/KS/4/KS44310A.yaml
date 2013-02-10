@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'KS 44310'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '03:37', station: !!python/unicode 'Czechowice Dziedzice'}
+  - {arrival: !!python/unicode '03:45', departure: !!python/unicode '03:45', station: "Kani\xF3\
+      w"}
+  - {arrival: !!python/unicode '03:51', departure: !!python/unicode '03:51', station: !!python/unicode 'Dankowice'}
+  - {arrival: !!python/unicode '03:58', departure: !!python/unicode '03:58', station: "Jawiszowice\
+      \ Ja\u017Anik"}
+  - {arrival: !!python/unicode '04:03', departure: !!python/unicode '04:04', station: !!python/unicode 'Brzeszcze
+      Jawiszow.'}
+  - {arrival: !!python/unicode '04:14', departure: !!python/unicode '04:15', station: !!python/unicode 'Brzeszcze'}
+  - {arrival: !!python/unicode '04:24', departure: !!python/unicode '04:30', station: "O\u015B\
+      wi\u0119cim"}
+  - {arrival: !!python/unicode '04:38', departure: !!python/unicode '04:38', station: "Nowy\
+      \ Bieru\u0144"}
+  - {arrival: !!python/unicode '04:47', departure: !!python/unicode '04:47', station: "Che\u0142\
+      m \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '04:56', departure: !!python/unicode '04:56', station: !!python/unicode 'Imielin'}
+  - {arrival: !!python/unicode '05:09', departure: !!python/unicode '05:10', station: "Mys\u0142\
+      owice"}
+  - {arrival: !!python/unicode '05:17', departure: !!python/unicode '05:18', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '05:21', departure: !!python/unicode '05:21', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '05:26', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

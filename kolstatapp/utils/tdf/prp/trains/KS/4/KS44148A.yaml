@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'KS 44148'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:03', station: "Bielsko Bia\u0142a G\u0142\xF3\
+      wna"}
+  - {arrival: !!python/unicode '14:05', departure: !!python/unicode '14:06', station: "Bielsko\
+      \ Bia\u0142a P\u0142n."}
+  - {arrival: !!python/unicode '14:08', departure: !!python/unicode '14:09', station: "Bielsko\
+      \ Bia\u0142a Komor."}
+  - {arrival: !!python/unicode '14:12', departure: !!python/unicode '14:13', station: "Czechowice\
+      \ Dz. P\u0142d."}
+  - {arrival: !!python/unicode '14:22', departure: !!python/unicode '14:29', station: !!python/unicode 'Czechowice
+      Dziedzice'}
+  - {arrival: !!python/unicode '14:36', departure: !!python/unicode '14:36', station: !!python/unicode 'Zabrzeg'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: !!python/unicode 'Zabrzeg
+      Czarnolesie'}
+  - {arrival: !!python/unicode '14:47', departure: !!python/unicode '14:47', station: !!python/unicode 'Chybie'}
+  - {arrival: !!python/unicode '14:52', departure: !!python/unicode '14:52', station: "Drogomy\u015B\
+      l"}
+  - {arrival: !!python/unicode '14:57', departure: !!python/unicode '14:57', station: !!python/unicode 'Pruchna'}
+  - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:10', station: !!python/unicode 'Zebrzydowice'}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:16', station: "Ko\u0144\
+      czyce"}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:22', station: !!python/unicode 'Kaczyce'}
+  - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:29', station: "Pogwizd\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:42', station: !!python/unicode 'Cieszyn'}
+  to: 2013-02-06
+type: train
+variant: A

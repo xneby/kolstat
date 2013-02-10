@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'KS 99523'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '10:24', station: "Cz\u0119stochowa Osobowa"}
+  - {arrival: !!python/unicode '10:30', departure: !!python/unicode '10:30', station: "Cz\u0119\
+      stochowa Stradom"}
+  - {arrival: !!python/unicode '10:46', departure: !!python/unicode '10:46', station: !!python/unicode 'Blachownia'}
+  - {arrival: !!python/unicode '11:00', departure: !!python/unicode '11:00', station: !!python/unicode 'Herby
+      Stare'}
+  - {arrival: !!python/unicode '11:11', departure: !!python/unicode '11:11', station: "Lis\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:15', departure: !!python/unicode '11:15', station: !!python/unicode 'Kochanowice'}
+  - {arrival: !!python/unicode '11:25', station: !!python/unicode 'Lubliniec'}
+  to: 2013-02-06
+type: train
+variant: A

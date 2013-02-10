@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'SKW 10226'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:37', station: !!python/unicode 'Warszawa Lot.
+      Chopina'}
+  - {arrival: !!python/unicode '07:40', departure: !!python/unicode '07:41', station: "Warszawa\
+      \ S\u0142u\u017Cewiec"}
+  - {arrival: !!python/unicode '07:43', departure: !!python/unicode '07:43', station: "Warszawa\
+      \ \u017Bwirki i Wigury"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:45', station: !!python/unicode 'Warszawa
+      Rakowiec'}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:48', station: !!python/unicode 'Warszawa
+      Al.Jerozolimskie PKP'}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:55', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '07:58', departure: !!python/unicode '07:58', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:07', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '08:09', departure: !!python/unicode '08:10', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:19', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: !!python/unicode '08:23', departure: !!python/unicode '08:23', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:26', station: !!python/unicode 'Warszawa-Wola
+      Grzyb.'}
+  - {arrival: !!python/unicode '08:28', departure: !!python/unicode '08:28', station: "Sulej\xF3\
+      wek"}
+  - {arrival: !!python/unicode '08:31', station: "Sulej\xF3wek Mi\u0142osna"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'EX 1313'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:37', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:50', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:56', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '10:51', departure: !!python/unicode '10:56', station: "Krak\xF3\
+      w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '11:03', departure: !!python/unicode '11:18', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '12:24', departure: !!python/unicode '12:38', station: !!python/unicode 'Sucha
+      Beskidzka'}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:27', station: "Chab\xF3\
+      wka"}
+  - {arrival: !!python/unicode '13:54', departure: !!python/unicode '13:55', station: !!python/unicode 'Nowy
+      Targ'}
+  - {arrival: !!python/unicode '14:14', station: !!python/unicode 'Zakopane'}
+  to: 2013-02-06
+type: train
+variant: A

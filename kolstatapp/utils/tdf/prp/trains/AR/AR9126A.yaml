@@ -1,0 +1,25 @@
+mode: normal
+name: !!python/unicode 'AR 9126'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:34', station: !!python/unicode 'Tuchola'}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:45', station: !!python/unicode 'Cekcyn'}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:54', station: !!python/unicode 'Wierzchucin'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: "B\u0142\
+      \u0105dzim"}
+  - {arrival: !!python/unicode '08:04', departure: !!python/unicode '08:04', station: !!python/unicode 'Lipienica'}
+  - {arrival: !!python/unicode '08:08', departure: !!python/unicode '08:08', station: "\u015A\
+      wiekatowo"}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:12', station: !!python/unicode 'Lubania
+      Lipiny'}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:18', station: !!python/unicode 'Serock'}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:23', station: !!python/unicode 'Wudzyn'}
+  - {arrival: !!python/unicode '08:28', departure: !!python/unicode '08:28', station: !!python/unicode 'Stronno'}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:36', station: !!python/unicode 'Maksymilianowo'}
+  - {arrival: !!python/unicode '08:46', station: "Bydgoszcz G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

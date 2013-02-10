@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 2239'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:51', station: !!python/unicode 'Chojnice'}
+  - {arrival: !!python/unicode '15:59', departure: !!python/unicode '16:00', station: "Powa\u0142\
+      ki"}
+  - {arrival: !!python/unicode '16:10', departure: !!python/unicode '16:11', station: "M\u0119\
+      cika\u0142"}
+  - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:15', station: "\u017B\
+      abno k.Chojnic"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:20', station: !!python/unicode 'Brusy'}
+  - {arrival: !!python/unicode '16:26', departure: !!python/unicode '16:26', station: !!python/unicode 'Lubnia'}
+  - {arrival: !!python/unicode '16:31', departure: !!python/unicode '16:32', station: "Radu\u0144"}
+  - {arrival: !!python/unicode '16:37', departure: !!python/unicode '16:38', station: !!python/unicode 'Dziemiany
+      Kaszubskie'}
+  - {arrival: !!python/unicode '16:42', departure: !!python/unicode '16:43', station: !!python/unicode 'Kalisz
+      Kaszubski'}
+  - {arrival: !!python/unicode '16:47', departure: !!python/unicode '16:47', station: !!python/unicode 'Lipuska
+      Huta'}
+  - {arrival: !!python/unicode '16:51', departure: !!python/unicode '16:52', station: !!python/unicode 'Lipusz'}
+  - {arrival: !!python/unicode '17:00', departure: !!python/unicode '17:00', station: "\u0141\
+      ubiana"}
+  - {arrival: !!python/unicode '17:13', station: "Ko\u015Bcierzyna"}
+  to: 2013-02-06
+type: train
+variant: A

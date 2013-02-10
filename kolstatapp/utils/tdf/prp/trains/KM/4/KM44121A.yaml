@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'KM 44121'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:58', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '18:05', departure: !!python/unicode '18:10', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '18:14', departure: !!python/unicode '18:14', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '18:32', departure: !!python/unicode '18:32', station: "B\u0142\
+      onie"}
+  - {arrival: !!python/unicode '18:40', departure: !!python/unicode '18:40', station: "Teresin\
+      \ Niepokalan\xF3w"}
+  - {arrival: !!python/unicode '18:49', departure: !!python/unicode '18:49', station: !!python/unicode 'Sochaczew'}
+  - {arrival: !!python/unicode '19:06', departure: !!python/unicode '19:06', station: "\u0141\
+      owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '19:30', departure: !!python/unicode '19:31', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:50', station: !!python/unicode 'Strzelce
+      Kujawskie'}
+  - {arrival: !!python/unicode '20:08', departure: !!python/unicode '20:08', station: !!python/unicode 'Gostynin'}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:24', station: "\u0141\u0105\
+      ck"}
+  - {arrival: !!python/unicode '20:42', station: "P\u0142ock"}
+  to: 2013-02-06
+type: train
+variant: A

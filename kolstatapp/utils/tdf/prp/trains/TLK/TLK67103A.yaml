@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'TLK 67103'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:28', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '19:03', departure: !!python/unicode '19:04', station: !!python/unicode 'Brzeg
+      Dolny'}
+  - {arrival: !!python/unicode '19:12', departure: !!python/unicode '19:13', station: "Wo\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '19:32', departure: !!python/unicode '19:33', station: "\u015A\
+      cinawa"}
+  - {arrival: !!python/unicode '19:45', departure: !!python/unicode '19:46', station: !!python/unicode 'Rudna
+      Miasto'}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:17', station: "G\u0142\
+      og\xF3w"}
+  - {arrival: !!python/unicode '20:51', departure: !!python/unicode '20:52', station: "Bytom\
+      \ Odrza\u0144ski"}
+  - {arrival: !!python/unicode '21:02', departure: !!python/unicode '21:03', station: "Nowa\
+      \ S\xF3l"}
+  - {arrival: !!python/unicode '21:29', station: "Zielona G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: A

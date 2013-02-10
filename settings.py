@@ -170,6 +170,8 @@ LOGIN_REDIRECT_URL = '/kolstat/profile/'
 #GOOGLE_OAUTH2_CLIENT_ID = '308170056415.apps.googleusercontent.com'
 #GOOGLE_OAUTH2_CLIENT_SECRET = '0Bo1vdwOympxtcEYdJvujISW'
 
+TIME_INPUT_FORMATS = ('%H:%M', '%H%M', '%H', '%H.%M')
+
 TIMETABLE_START = datetime.datetime(2012,12,9)
 TIMETABLE_END = datetime.datetime(2013,12,7)
 TIMETABLE_YEAR = 2013

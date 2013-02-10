@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'KM 20346'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:32', station: !!python/unicode 'Modlin'}
+  - {arrival: !!python/unicode '17:36', departure: !!python/unicode '17:36', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '17:43', departure: !!python/unicode '17:43', station: "Chotom\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:46', departure: !!python/unicode '17:46', station: !!python/unicode 'Legionowo
+      Przystanek'}
+  - {arrival: !!python/unicode '17:48', departure: !!python/unicode '17:48', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '17:54', departure: !!python/unicode '17:54', station: "Warszawa\
+      \ P\u0142udy"}
+  - {arrival: !!python/unicode '17:58', departure: !!python/unicode '17:58', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '18:06', departure: !!python/unicode '18:08', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '18:15', departure: !!python/unicode '18:20', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '18:24', departure: !!python/unicode '18:24', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '18:29', departure: !!python/unicode '18:29', station: !!python/unicode 'Warszawa
+      Al.Jerozolimskie PKP'}
+  - {arrival: !!python/unicode '18:32', departure: !!python/unicode '18:32', station: !!python/unicode 'Warszawa
+      Rakowiec'}
+  - {arrival: !!python/unicode '18:34', departure: !!python/unicode '18:34', station: "Warszawa\
+      \ \u017Bwirki i Wigury"}
+  - {arrival: !!python/unicode '18:36', departure: !!python/unicode '18:36', station: "Warszawa\
+      \ S\u0142u\u017Cewiec"}
+  - {arrival: !!python/unicode '18:40', station: !!python/unicode 'Warszawa Lot. Chopina'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'KM 7640'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:20', station: "Wo\u0142omin"}
+  - {arrival: !!python/unicode '17:23', departure: !!python/unicode '17:23', station: "Koby\u0142\
+      ka"}
+  - {arrival: !!python/unicode '17:26', departure: !!python/unicode '17:26', station: "Koby\u0142\
+      ka Oss\xF3w"}
+  - {arrival: !!python/unicode '17:31', departure: !!python/unicode '17:31', station: !!python/unicode 'Zielonka'}
+  - {arrival: !!python/unicode '17:35', departure: !!python/unicode '17:35', station: "Z\u0105\
+      bki"}
+  - {arrival: !!python/unicode '17:43', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-06
+type: train
+variant: A

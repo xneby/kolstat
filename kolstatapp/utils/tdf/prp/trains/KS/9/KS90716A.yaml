@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'KS 90716'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:28', station: !!python/unicode 'Czechowice Dziedzice'}
+  - {arrival: !!python/unicode '11:33', departure: !!python/unicode '11:34', station: "Gocza\u0142\
+      kowice Zdr\xF3j"}
+  - {arrival: !!python/unicode '11:36', departure: !!python/unicode '11:36', station: "Gocza\u0142\
+      kowice"}
+  - {arrival: !!python/unicode '11:40', departure: !!python/unicode '11:40', station: !!python/unicode 'Pszczyna'}
+  - {arrival: !!python/unicode '11:50', departure: !!python/unicode '11:51', station: !!python/unicode 'Radostowice'}
+  - {arrival: !!python/unicode '12:00', departure: !!python/unicode '12:00', station: !!python/unicode 'Suszec'}
+  - {arrival: !!python/unicode '12:03', departure: !!python/unicode '12:04', station: !!python/unicode 'Suszec
+      Kopalnia'}
+  - {arrival: !!python/unicode '12:17', departure: !!python/unicode '12:17', station: "\u017B\
+      ory"}
+  - {arrival: !!python/unicode '12:23', departure: !!python/unicode '12:23', station: !!python/unicode 'Szczejkowice'}
+  - {arrival: !!python/unicode '12:37', departure: !!python/unicode '12:38', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '12:42', departure: !!python/unicode '12:43', station: !!python/unicode 'Rybnik
+      Towarowy'}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:46', station: !!python/unicode 'Rybnik
+      Rymer'}
+  - {arrival: !!python/unicode '12:49', departure: !!python/unicode '12:49', station: !!python/unicode 'Radlin
+      Obszary'}
+  - {arrival: !!python/unicode '12:52', departure: !!python/unicode '12:53', station: "Wodzis\u0142\
+      aw \u015Al.Radlin"}
+  - {arrival: !!python/unicode '12:55', station: "Wodzis\u0142aw \u015Al\u0105ski"}
+  to: 2013-02-06
+type: train
+variant: A

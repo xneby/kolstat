@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 113'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:38', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '14:41', departure: !!python/unicode '14:42', station: "Lublin\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '14:49', departure: !!python/unicode '14:49', station: "\u015A\
+      widnik Miasto"}
+  - {arrival: !!python/unicode '14:51', departure: !!python/unicode '14:52', station: "\u015A\
+      widnik Wsch."}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:55', station: !!python/unicode 'Minkowice'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:58', station: !!python/unicode 'Podzamcze'}
+  - {arrival: !!python/unicode '15:02', departure: !!python/unicode '15:03', station: "Domin\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:07', departure: !!python/unicode '15:07', station: "Jaszcz\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:12', departure: !!python/unicode '15:12', station: !!python/unicode 'Biskupice
+      Lubelskie'}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:17', station: !!python/unicode 'Trawniki'}
+  - {arrival: !!python/unicode '15:21', departure: !!python/unicode '15:22', station: "W\xF3\
+      lka Ka\u0144ska"}
+  - {arrival: !!python/unicode '15:25', departure: !!python/unicode '15:25', station: !!python/unicode 'Kanie'}
+  - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:30', station: "Zalesie\
+      \ Krasze\u0144skie"}
+  - {arrival: !!python/unicode '15:34', departure: !!python/unicode '15:35', station: !!python/unicode 'Rejowiec'}
+  - {arrival: !!python/unicode '15:42', departure: !!python/unicode '15:42', station: "Zawad\xF3\
+      wka"}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: "Che\u0142\
+      m Miasto"}
+  - {arrival: !!python/unicode '15:52', station: "Che\u0142m"}
+  to: 2013-02-06
+type: train
+variant: A

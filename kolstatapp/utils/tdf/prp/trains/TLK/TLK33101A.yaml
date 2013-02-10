@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'TLK 33101'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:09', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:25', station: !!python/unicode 'Bochnia'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:51', station: !!python/unicode 'Brzesko
+      Okocim'}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:20', station: "Tarn\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:58', departure: !!python/unicode '08:59', station: "D\u0119\
+      bica"}
+  - {arrival: !!python/unicode '09:16', departure: !!python/unicode '09:17', station: !!python/unicode 'Ropczyce'}
+  - {arrival: !!python/unicode '09:25', departure: !!python/unicode '09:26', station: "S\u0119\
+      dzisz\xF3w Ma\u0142opolski"}
+  - {arrival: !!python/unicode '09:52', departure: !!python/unicode '09:55', station: "Rzesz\xF3\
+      w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '10:07', departure: !!python/unicode '10:08', station: "\u0141\
+      a\u0144cut"}
+  - {arrival: !!python/unicode '10:23', departure: !!python/unicode '10:24', station: !!python/unicode 'Przeworsk'}
+  - {arrival: !!python/unicode '10:34', departure: !!python/unicode '10:35', station: "Jaros\u0142\
+      aw"}
+  - {arrival: !!python/unicode '11:09', departure: !!python/unicode '11:10', station: "Przemy\u015B\
+      l Zasanie"}
+  - {arrival: !!python/unicode '11:14', station: "Przemy\u015Bl G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,45 @@
+mode: normal
+name: !!python/unicode 'TLK 83204'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:35', station: "\u015Awinouj\u015Bcie"}
+  - {arrival: !!python/unicode '20:50', departure: !!python/unicode '20:52', station: "Mi\u0119\
+      dzyzdroje"}
+  - {arrival: !!python/unicode '21:20', departure: !!python/unicode '21:21', station: "Wysoka\
+      \ Kamie\u0144ska"}
+  - {arrival: !!python/unicode '21:44', departure: !!python/unicode '21:45', station: "Goleni\xF3\
+      w"}
+  - {arrival: !!python/unicode '22:18', departure: !!python/unicode '23:18', station: "Szczecin\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '23:33', departure: !!python/unicode '23:34', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '23:53', departure: !!python/unicode '23:54', station: "Stargard\
+      \ Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '00:16', departure: !!python/unicode '00:17', station: !!python/unicode 'Choszczno'}
+  - {arrival: !!python/unicode '00:39', departure: !!python/unicode '00:40', station: !!python/unicode 'Dobiegniew'}
+  - {arrival: !!python/unicode '00:59', departure: !!python/unicode '01:01', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '01:27', departure: !!python/unicode '01:28', station: !!python/unicode 'Wronki'}
+  - {arrival: !!python/unicode '01:43', departure: !!python/unicode '01:44', station: "Szamotu\u0142\
+      y"}
+  - {arrival: !!python/unicode '02:15', departure: !!python/unicode '02:23', station: "Pozna\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '03:20', departure: !!python/unicode '03:21', station: "Wrze\u015B\
+      nia"}
+  - {arrival: !!python/unicode '03:52', departure: !!python/unicode '03:53', station: !!python/unicode 'Konin'}
+  - {arrival: !!python/unicode '04:11', departure: !!python/unicode '04:12', station: "Ko\u0142\
+      o"}
+  - {arrival: !!python/unicode '04:45', departure: !!python/unicode '04:47', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:16', station: "\u0141\
+      owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:34', station: !!python/unicode 'Sochaczew'}
+  - {arrival: !!python/unicode '06:09', departure: !!python/unicode '06:10', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:20', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '06:28', station: !!python/unicode 'Warszawa Wschodnia'}
+  to: 2013-02-06
+type: train
+variant: B

@@ -1,0 +1,53 @@
+mode: normal
+name: !!python/unicode 'R 4413'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:22', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '12:31', departure: !!python/unicode '12:31', station: !!python/unicode 'Lublin
+      Zemborzyce'}
+  - {arrival: !!python/unicode '12:34', departure: !!python/unicode '12:35', station: "Kr\u0119\
+      \u017Cnica Jara"}
+  - {arrival: !!python/unicode '12:37', departure: !!python/unicode '12:38', station: !!python/unicode 'Majdan'}
+  - {arrival: !!python/unicode '12:42', departure: !!python/unicode '12:42', station: !!python/unicode 'Niedrzwica'}
+  - {arrival: !!python/unicode '12:46', departure: !!python/unicode '12:46', station: "Niedrzwica\
+      \ Ko\u015Bcielna"}
+  - {arrival: !!python/unicode '12:50', departure: !!python/unicode '12:50', station: "Le\u015B\
+      nicz\xF3wka"}
+  - {arrival: !!python/unicode '12:54', departure: !!python/unicode '12:54', station: "Wilko\u0142\
+      az Wie\u015B"}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:58', station: "Wilko\u0142\
+      az"}
+  - {arrival: !!python/unicode '13:01', departure: !!python/unicode '13:01', station: "Pu\u0142\
+      ankowice"}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: "Kra\u015B\
+      nik"}
+  - {arrival: !!python/unicode '13:10', departure: !!python/unicode '13:11', station: "Sul\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:16', departure: !!python/unicode '13:16', station: !!python/unicode 'Szastarka'}
+  - {arrival: !!python/unicode '13:19', departure: !!python/unicode '13:19', station: "Polichna\
+      \ Kra\u015Bnicka"}
+  - {arrival: !!python/unicode '13:22', departure: !!python/unicode '13:22', station: !!python/unicode 'Rzeczyca
+      Kolonia'}
+  - {arrival: !!python/unicode '13:27', departure: !!python/unicode '13:27', station: !!python/unicode 'Rzeczyca'}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:32', station: "Potok\
+      \ Kra\u015Bnicki"}
+  - {arrival: !!python/unicode '13:38', departure: !!python/unicode '13:38', station: "Zaklik\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:47', departure: !!python/unicode '13:47', station: !!python/unicode 'Lipa'}
+  - {arrival: !!python/unicode '13:52', departure: !!python/unicode '13:52', station: "K\u0119\
+      pa"}
+  - {arrival: !!python/unicode '13:56', departure: !!python/unicode '13:56', station: "Pilch\xF3\
+      w (Stalowa Wola)"}
+  - {arrival: !!python/unicode '14:03', departure: !!python/unicode '14:03', station: !!python/unicode 'Stalowa
+      Wola Rozwad.'}
+  - {arrival: !!python/unicode '14:07', departure: !!python/unicode '14:07', station: !!python/unicode 'Stalowa
+      Wola Centrum'}
+  - {arrival: !!python/unicode '14:09', departure: !!python/unicode '14:09', station: !!python/unicode 'Stalowa
+      Wola'}
+  - {arrival: !!python/unicode '14:12', station: "Stalowa Wola P\u0142d."}
+  to: 2013-02-06
+type: train
+variant: A

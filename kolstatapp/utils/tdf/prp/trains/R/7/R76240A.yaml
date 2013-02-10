@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 76240'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:47', station: "K\u0119pno"}
+  - {arrival: !!python/unicode '04:51', departure: !!python/unicode '04:52', station: "S\u0142\
+      upia"}
+  - {arrival: !!python/unicode '04:56', departure: !!python/unicode '04:57', station: "\u0141\u0119\
+      ka Opatowska"}
+  - {arrival: !!python/unicode '05:03', departure: !!python/unicode '05:03', station: "Kost\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:10', departure: !!python/unicode '05:10', station: !!python/unicode 'Byczyna
+      Kluczborska'}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:16', station: !!python/unicode 'Biskupice
+      k. Kluczb.'}
+  - {arrival: !!python/unicode '05:21', departure: !!python/unicode '05:21', station: !!python/unicode 'Krzywizna'}
+  - {arrival: !!python/unicode '05:28', station: !!python/unicode 'Kluczbork'}
+  to: 2013-02-06
+type: train
+variant: A

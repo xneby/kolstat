@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'R 60237'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:58', station: "Dzia\u0142dowo"}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:04', station: !!python/unicode 'Burkat'}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:08', station: !!python/unicode 'Turza
+      Wielka'}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:13', station: !!python/unicode 'Gralewo'}
+  - {arrival: !!python/unicode '16:17', departure: !!python/unicode '16:17', station: "\u017B\
+      abiny"}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:21', station: !!python/unicode 'Tuczki'}
+  - {arrival: !!python/unicode '16:25', departure: !!python/unicode '16:26', station: !!python/unicode 'Rybno
+      Pomorskie'}
+  - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:29', station: !!python/unicode 'Jeglia'}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:33', station: !!python/unicode 'Hartowiec'}
+  - {arrival: !!python/unicode '16:39', departure: !!python/unicode '16:40', station: !!python/unicode 'Montowo'}
+  - {arrival: !!python/unicode '16:45', departure: !!python/unicode '16:45', station: "Zaj\u0105\
+      czkowo Lubawskie"}
+  - {arrival: !!python/unicode '16:53', departure: !!python/unicode '16:53', station: !!python/unicode 'Rakowice'}
+  - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:03', station: !!python/unicode 'Smolniki'}
+  - {arrival: !!python/unicode '17:12', station: "I\u0142awa G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'KM 9264'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:30', station: "\u017Byrard\xF3w"}
+  - {arrival: !!python/unicode '08:35', departure: !!python/unicode '08:35', station: "Mi\u0119\
+      dzybor\xF3w"}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:41', station: "Jaktor\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:47', departure: !!python/unicode '08:47', station: !!python/unicode 'Grodzisk
+      Maz. (PKP)'}
+  - {arrival: !!python/unicode '08:50', departure: !!python/unicode '08:50', station: "Milan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '08:55', departure: !!python/unicode '08:55', station: "Brwin\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:01', departure: !!python/unicode '09:01', station: "Pruszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:05', departure: !!python/unicode '09:05', station: "Piast\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:09', station: !!python/unicode 'Warszawa
+      Ursus'}
+  - {arrival: !!python/unicode '09:13', departure: !!python/unicode '09:13', station: "Warszawa\
+      \ W\u0142ochy"}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:18', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '09:22', departure: !!python/unicode '09:22', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '09:25', departure: !!python/unicode '09:25', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '09:27', departure: !!python/unicode '09:27', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '09:31', departure: !!python/unicode '09:31', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '09:33', station: !!python/unicode 'Warszawa Wschodnia'}
+  to: 2013-02-06
+type: train
+variant: A

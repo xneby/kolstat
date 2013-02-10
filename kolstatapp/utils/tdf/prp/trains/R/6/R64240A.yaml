@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'R 64240'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '22:20', station: "Opole G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '22:25', departure: !!python/unicode '22:26', station: !!python/unicode 'Opole
+      Groszowice'}
+  - {arrival: !!python/unicode '22:29', departure: !!python/unicode '22:30', station: !!python/unicode 'Opole
+      Grotowice'}
+  - {arrival: !!python/unicode '22:33', departure: !!python/unicode '22:34', station: !!python/unicode 'Przywory
+      Opolskie'}
+  - {arrival: !!python/unicode '22:39', departure: !!python/unicode '22:40', station: "G\xF3\
+      ra\u017Cd\u017Ce"}
+  - {arrival: !!python/unicode '22:44', departure: !!python/unicode '22:45', station: !!python/unicode 'Gogolin'}
+  - {arrival: !!python/unicode '22:50', departure: !!python/unicode '22:50', station: !!python/unicode 'Jasiona'}
+  - {arrival: !!python/unicode '22:55', departure: !!python/unicode '22:56', station: !!python/unicode 'Zdzieszowice'}
+  - {arrival: !!python/unicode '23:02', departure: !!python/unicode '23:02', station: !!python/unicode 'Raszowa'}
+  - {arrival: !!python/unicode '23:10', station: "K\u0119dzierzyn Ko\u017Ale"}
+  to: 2013-02-06
+type: train
+variant: A

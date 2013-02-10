@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 6625'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:42', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '19:46', departure: !!python/unicode '19:46', station: "Kielce\
+      \ Bia\u0142gon"}
+  - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:50', station: "S\u0142\
+      owik Przystanek"}
+  - {arrival: !!python/unicode '19:53', departure: !!python/unicode '19:53', station: "Sitk\xF3\
+      wka Nowiny"}
+  - {arrival: !!python/unicode '19:57', departure: !!python/unicode '19:58', station: !!python/unicode 'Radkowice'}
+  - {arrival: !!python/unicode '20:02', departure: !!python/unicode '20:03', station: !!python/unicode 'Wolica'}
+  - {arrival: !!python/unicode '20:06', departure: !!python/unicode '20:07', station: "Sobk\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:13', departure: !!python/unicode '20:13', station: "Mi\u0105\
+      sowa"}
+  - {arrival: !!python/unicode '20:22', departure: !!python/unicode '20:22', station: "J\u0119\
+      drzej\xF3w"}
+  - {arrival: !!python/unicode '20:28', departure: !!python/unicode '20:28', station: !!python/unicode 'Potok'}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:34', station: "Krzci\u0119\
+      cice"}
+  - {arrival: !!python/unicode '20:40', station: "S\u0119dzisz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

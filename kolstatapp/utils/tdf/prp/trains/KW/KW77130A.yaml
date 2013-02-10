@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'KW 77130'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:05', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '15:12', departure: !!python/unicode '15:12', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '15:15', departure: !!python/unicode '15:16', station: "Pozna\u0144\
+      \ Antoninek"}
+  - {arrival: !!python/unicode '15:19', departure: !!python/unicode '15:19', station: "Swarz\u0119\
+      dz"}
+  - {arrival: !!python/unicode '15:26', departure: !!python/unicode '15:26', station: !!python/unicode 'Kostrzyn
+      Wlkp.'}
+  - {arrival: !!python/unicode '15:34', departure: !!python/unicode '15:34', station: !!python/unicode 'Nekla'}
+  - {arrival: !!python/unicode '15:45', station: "Wrze\u015Bnia"}
+  to: 2013-02-06
+type: train
+variant: A

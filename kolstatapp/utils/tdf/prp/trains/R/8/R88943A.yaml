@@ -1,0 +1,16 @@
+mode: normal
+name: !!python/unicode 'R 88943'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:37', station: "Wysoka Kamie\u0144ska"}
+  - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:43', station: !!python/unicode 'Stawno'}
+  - {arrival: !!python/unicode '09:46', departure: !!python/unicode '09:47', station: "G\xF3\
+      rki Pomorskie"}
+  - {arrival: !!python/unicode '09:52', departure: !!python/unicode '09:52', station: !!python/unicode 'Jarszewo'}
+  - {arrival: !!python/unicode '09:59', station: "Kamie\u0144 Pomorski"}
+  to: 2013-02-06
+type: train
+variant: A

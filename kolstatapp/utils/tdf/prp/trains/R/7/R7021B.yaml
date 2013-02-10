@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'R 7021'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:10', station: "I\u0142awa G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '05:17', departure: !!python/unicode '05:18', station: !!python/unicode 'Rudzienice
+      Suskie'}
+  - {arrival: !!python/unicode '05:22', departure: !!python/unicode '05:23', station: !!python/unicode 'Pikus'}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:28', station: !!python/unicode 'Samborowo'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:36', station: "Ostr\xF3\
+      da"}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:41', station: !!python/unicode 'Lubajny'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:46', station: "Stare\
+      \ Jab\u0142onki"}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '05:52', station: !!python/unicode 'Biesal'}
+  - {arrival: !!python/unicode '05:58', departure: !!python/unicode '05:58', station: !!python/unicode 'Unieszewo'}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: !!python/unicode 'Naterki'}
+  - {arrival: !!python/unicode '06:09', departure: !!python/unicode '06:10', station: !!python/unicode 'Olsztyn
+      Zach.'}
+  - {arrival: !!python/unicode '06:14', station: "Olsztyn G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: B

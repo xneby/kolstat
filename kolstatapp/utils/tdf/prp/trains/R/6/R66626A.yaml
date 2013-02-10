@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 66626'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:21', station: !!python/unicode 'Rawicz'}
+  - {arrival: !!python/unicode '07:28', departure: !!python/unicode '07:28', station: "Korze\u0144\
+      sko"}
+  - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:33', station: !!python/unicode 'Garbce'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:41', station: "\u017B\
+      migr\xF3d"}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:54', station: !!python/unicode 'Skokowa'}
+  - {arrival: !!python/unicode '07:58', departure: !!python/unicode '07:59', station: !!python/unicode 'Osola'}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: "Oborniki\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '08:10', departure: !!python/unicode '08:11', station: "P\u0119\
+      g\xF3w"}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:18', station: !!python/unicode 'Szewce'}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:22', station: "Wroc\u0142\
+      aw \u015Awiniary"}
+  - {arrival: !!python/unicode '08:28', departure: !!python/unicode '08:29', station: "Wroc\u0142\
+      aw Osobowice"}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:38', station: "Wroc\u0142\
+      aw Popowice"}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:43', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '08:49', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

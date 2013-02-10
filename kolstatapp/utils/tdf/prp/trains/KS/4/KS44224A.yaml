@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'KS 44224'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:36', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '20:39', departure: !!python/unicode '20:40', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '20:43', departure: !!python/unicode '20:43', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '20:51', departure: !!python/unicode '20:51', station: "Mys\u0142\
+      owice"}
+  - {arrival: !!python/unicode '21:04', departure: !!python/unicode '21:04', station: !!python/unicode 'Imielin'}
+  - {arrival: !!python/unicode '21:13', departure: !!python/unicode '21:13', station: "Che\u0142\
+      m \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '21:21', departure: !!python/unicode '21:22', station: "Nowy\
+      \ Bieru\u0144"}
+  - {arrival: !!python/unicode '21:29', departure: !!python/unicode '21:30', station: "O\u015B\
+      wi\u0119cim"}
+  - {arrival: !!python/unicode '21:38', departure: !!python/unicode '21:39', station: !!python/unicode 'Brzeszcze'}
+  - {arrival: !!python/unicode '21:48', departure: !!python/unicode '21:49', station: !!python/unicode 'Brzeszcze
+      Jawiszow.'}
+  - {arrival: !!python/unicode '21:54', departure: !!python/unicode '21:54', station: "Jawiszowice\
+      \ Ja\u017Anik"}
+  - {arrival: !!python/unicode '21:59', departure: !!python/unicode '22:00', station: !!python/unicode 'Dankowice'}
+  - {arrival: !!python/unicode '22:05', departure: !!python/unicode '22:05', station: "Kani\xF3\
+      w"}
+  - {arrival: !!python/unicode '22:15', station: !!python/unicode 'Czechowice Dziedzice'}
+  to: 2013-02-06
+type: train
+variant: A

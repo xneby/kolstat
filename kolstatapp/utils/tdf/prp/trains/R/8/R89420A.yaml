@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'R 89420'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:14', station: "Stargard Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '04:36', departure: !!python/unicode '04:36', station: !!python/unicode 'Chociwel'}
+  - {arrival: !!python/unicode '04:49', departure: !!python/unicode '04:49', station: !!python/unicode 'Runowo
+      Pomorskie'}
+  - {arrival: !!python/unicode '04:54', departure: !!python/unicode '04:54', station: "W\u0119\
+      gorzyno"}
+  - {arrival: !!python/unicode '04:59', departure: !!python/unicode '05:00', station: !!python/unicode 'Wiewiecko'}
+  - {arrival: !!python/unicode '05:06', departure: !!python/unicode '05:07', station: !!python/unicode 'Jankowo
+      Pomorskie'}
+  - {arrival: !!python/unicode '05:10', departure: !!python/unicode '05:11', station: !!python/unicode 'Drawsko
+      Pomorskie'}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:16', station: !!python/unicode 'Suliszewo
+      Drawskie'}
+  - {arrival: !!python/unicode '05:20', departure: !!python/unicode '05:20', station: "Rz\u0119\
+      \u015Bnica"}
+  - {arrival: !!python/unicode '05:25', departure: !!python/unicode '05:25', station: "Z\u0142\
+      ocieniec"}
+  - {arrival: !!python/unicode '05:30', departure: !!python/unicode '05:30', station: !!python/unicode 'Bobrowo
+      Pomorskie'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:35', station: "\u017B\
+      elis\u0142awie Pomorskie"}
+  - {arrival: !!python/unicode '05:42', departure: !!python/unicode '05:42', station: !!python/unicode 'Czaplinek'}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:48', station: "Czarne\
+      \ Ma\u0142e"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: "\u0141\
+      ubowo"}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: !!python/unicode 'Silnowo'}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:13', station: !!python/unicode 'Jelenino'}
+  - {arrival: !!python/unicode '06:20', station: !!python/unicode 'Szczecinek'}
+  to: 2013-02-06
+type: train
+variant: A

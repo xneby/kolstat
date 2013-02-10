@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 17223'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:40', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '12:48', departure: !!python/unicode '12:49', station: !!python/unicode 'Lublinek'}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:58', station: !!python/unicode 'Pabianice'}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:03', station: "Chech\u0142\
+      o"}
+  - {arrival: !!python/unicode '13:07', departure: !!python/unicode '13:08', station: "Dobro\u0144"}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: !!python/unicode 'Kolumna'}
+  - {arrival: !!python/unicode '13:20', departure: !!python/unicode '13:21', station: "\u0141\
+      ask"}
+  - {arrival: !!python/unicode '13:28', departure: !!python/unicode '13:28', station: !!python/unicode 'Borszewice'}
+  - {arrival: !!python/unicode '13:35', departure: !!python/unicode '13:36', station: "Zdu\u0144\
+      ska Wola"}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: "M\u0119\
+      cka Wola"}
+  - {arrival: !!python/unicode '13:47', departure: !!python/unicode '13:47', station: "Sieradz\
+      \ M\u0119ka"}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: !!python/unicode 'Sieradz
+      Warta'}
+  - {arrival: !!python/unicode '13:54', station: !!python/unicode 'Sieradz'}
+  to: 2013-02-06
+type: train
+variant: A

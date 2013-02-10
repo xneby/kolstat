@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'R 44296'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:03', station: "K\u0119dzierzyn Ko\u017Ale"}
+  - {arrival: !!python/unicode '09:11', departure: !!python/unicode '09:12', station: "S\u0142\
+      awi\u0119cice"}
+  - {arrival: !!python/unicode '09:20', departure: !!python/unicode '09:21', station: !!python/unicode 'Rudziniec
+      Gliwicki'}
+  - {arrival: !!python/unicode '09:28', departure: !!python/unicode '09:29', station: "Tacisz\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:33', departure: !!python/unicode '09:34', station: "Rzeczyce\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '09:38', departure: !!python/unicode '09:39', station: "Gliwice\
+      \ \u0141ab\u0119dy"}
+  - {arrival: !!python/unicode '09:45', station: !!python/unicode 'Gliwice'}
+  to: 2013-02-06
+type: train
+variant: A

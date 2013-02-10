@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'R 3330'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:42', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '18:50', departure: !!python/unicode '18:51', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: "\u0141\xF3\
+      d\u017A Olech\xF3w"}
+  - {arrival: !!python/unicode '19:04', departure: !!python/unicode '19:04', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '19:09', departure: !!python/unicode '19:09', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '19:13', departure: !!python/unicode '19:13', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '19:17', departure: !!python/unicode '19:18', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '19:21', departure: !!python/unicode '19:22', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '19:26', departure: !!python/unicode '19:27', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '19:30', departure: !!python/unicode '19:31', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '19:34', departure: !!python/unicode '19:35', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '19:37', departure: !!python/unicode '19:38', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '19:42', departure: !!python/unicode '19:43', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:48', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '19:52', departure: !!python/unicode '19:52', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '19:56', departure: !!python/unicode '19:56', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '20:02', station: !!python/unicode 'Skierniewice'}
+  to: 2013-02-06
+type: train
+variant: A

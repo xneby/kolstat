@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'AR 5552'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:14', station: !!python/unicode 'Malbork'}
+  - {arrival: !!python/unicode '14:24', departure: !!python/unicode '14:24', station: "Go\u015B\
+      ciszewo"}
+  - {arrival: !!python/unicode '14:30', departure: !!python/unicode '14:31', station: !!python/unicode 'Sztum'}
+  - {arrival: !!python/unicode '14:35', departure: !!python/unicode '14:35', station: "Sztumska\
+      \ Wie\u015B"}
+  - {arrival: !!python/unicode '14:42', departure: !!python/unicode '14:43', station: !!python/unicode 'Ryjewo'}
+  - {arrival: !!python/unicode '14:47', departure: !!python/unicode '14:48', station: !!python/unicode 'Brachlewo'}
+  - {arrival: !!python/unicode '14:58', station: !!python/unicode 'Kwidzyn'}
+  to: 2013-02-06
+type: train
+variant: A

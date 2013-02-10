@@ -1,0 +1,66 @@
+mode: normal
+name: !!python/unicode 'R 41022'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:40', station: "Cz\u0119stochowa Osobowa"}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:45', station: "Cz\u0119\
+      stochowa Anio\u0142\xF3w"}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '05:53', station: "Rudniki\
+      \ k. Cz\u0119stoch."}
+  - {arrival: !!python/unicode '05:59', departure: !!python/unicode '06:00', station: "Rzerz\u0119\
+      czyce"}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:03', station: "K\u0142\
+      omnice"}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:08', station: "Jack\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:11', station: "Widz\xF3\
+      w Teklin\xF3w"}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:18', station: !!python/unicode 'Bobry'}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:26', station: !!python/unicode 'Radomsko'}
+  - {arrival: !!python/unicode '06:34', departure: !!python/unicode '06:34', station: !!python/unicode 'Dobryszyce
+      k.Radoms.'}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: !!python/unicode 'Gomunice'}
+  - {arrival: !!python/unicode '06:47', departure: !!python/unicode '06:47', station: "Kamie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:52', station: "Gorz\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '06:57', departure: !!python/unicode '06:57', station: !!python/unicode 'Gorzkowice'}
+  - {arrival: !!python/unicode '07:02', departure: !!python/unicode '07:02', station: !!python/unicode 'Wilkoszewice'}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:06', station: "Luci\u0105\
+      \u017Canka"}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:10', station: !!python/unicode 'Rozprza'}
+  - {arrival: !!python/unicode '07:15', departure: !!python/unicode '07:16', station: "Milej\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:21', departure: !!python/unicode '07:22', station: "Piotrk\xF3\
+      w Tryb."}
+  - {arrival: !!python/unicode '07:26', departure: !!python/unicode '07:27', station: !!python/unicode 'Jarosty'}
+  - {arrival: !!python/unicode '07:31', departure: !!python/unicode '07:31', station: !!python/unicode 'Moszczenica'}
+  - {arrival: !!python/unicode '07:35', departure: !!python/unicode '07:35', station: !!python/unicode 'Baby'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:41', station: "Wolb\xF3\
+      rka"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:46', station: "\u0141\
+      azn\xF3w"}
+  - {arrival: !!python/unicode '07:50', departure: !!python/unicode '07:50', station: !!python/unicode 'Rokiciny'}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:54', station: !!python/unicode 'Chrusty
+      Nowe'}
+  - {arrival: !!python/unicode '07:59', departure: !!python/unicode '08:08', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:13', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:18', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '08:21', departure: !!python/unicode '08:22', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:26', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '08:28', departure: !!python/unicode '08:29', station: "\u0141\xF3\
+      d\u017A Andrzej\xF3w"}
+  - {arrival: !!python/unicode '08:35', departure: !!python/unicode '08:39', station: "\u0141\xF3\
+      d\u017A Widzew"}
+  - {arrival: !!python/unicode '08:46', departure: !!python/unicode '08:47', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '08:56', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

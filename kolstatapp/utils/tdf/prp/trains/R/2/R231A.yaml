@@ -1,0 +1,48 @@
+mode: normal
+name: !!python/unicode 'R 231'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:48', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '16:51', departure: !!python/unicode '16:51', station: "Lublin\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '16:58', departure: !!python/unicode '16:58', station: "\u015A\
+      widnik Miasto"}
+  - {arrival: !!python/unicode '17:00', departure: !!python/unicode '17:01', station: "\u015A\
+      widnik Wsch."}
+  - {arrival: !!python/unicode '17:04', departure: !!python/unicode '17:04', station: !!python/unicode 'Minkowice'}
+  - {arrival: !!python/unicode '17:06', departure: !!python/unicode '17:07', station: !!python/unicode 'Podzamcze'}
+  - {arrival: !!python/unicode '17:11', departure: !!python/unicode '17:11', station: "Domin\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:15', departure: !!python/unicode '17:15', station: "Jaszcz\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:19', departure: !!python/unicode '17:20', station: !!python/unicode 'Biskupice
+      Lubelskie'}
+  - {arrival: !!python/unicode '17:24', departure: !!python/unicode '17:24', station: !!python/unicode 'Trawniki'}
+  - {arrival: !!python/unicode '17:28', departure: !!python/unicode '17:28', station: "W\xF3\
+      lka Ka\u0144ska"}
+  - {arrival: !!python/unicode '17:31', departure: !!python/unicode '17:31', station: !!python/unicode 'Kanie'}
+  - {arrival: !!python/unicode '17:35', departure: !!python/unicode '17:35', station: "Zalesie\
+      \ Krasze\u0144skie"}
+  - {arrival: !!python/unicode '17:40', departure: !!python/unicode '17:47', station: !!python/unicode 'Rejowiec'}
+  - {arrival: !!python/unicode '17:52', departure: !!python/unicode '17:53', station: "Zagrody\
+      \ Ko\u015Bci\xF3\u0142"}
+  - {arrival: !!python/unicode '17:55', departure: !!python/unicode '17:56', station: "\u017B\
+      ulin"}
+  - {arrival: !!python/unicode '17:59', departure: !!python/unicode '18:00', station: !!python/unicode 'Krasnystaw
+      Fabryczny'}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:05', station: !!python/unicode 'Krasnystaw
+      Miasto'}
+  - {arrival: !!python/unicode '18:17', departure: !!python/unicode '18:17', station: !!python/unicode 'Izbica'}
+  - {arrival: !!python/unicode '18:23', departure: !!python/unicode '18:23', station: !!python/unicode 'Tarzymiechy'}
+  - {arrival: !!python/unicode '18:29', departure: !!python/unicode '18:29', station: !!python/unicode 'Ruskie
+      Piaski'}
+  - {arrival: !!python/unicode '18:33', departure: !!python/unicode '18:34', station: "Z\u0142\
+      ojec"}
+  - {arrival: !!python/unicode '18:39', departure: !!python/unicode '18:46', station: !!python/unicode 'Zawada'}
+  - {arrival: !!python/unicode '18:56', station: "Zamo\u015B\u0107"}
+  to: 2013-02-06
+type: train
+variant: A

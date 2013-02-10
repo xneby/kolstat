@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'KM 7758'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:59', station: "T\u0142uszcz"}
+  - {arrival: !!python/unicode '16:04', departure: !!python/unicode '16:04', station: !!python/unicode 'Jasienica
+      Mazowiecka'}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:09', station: "Klemb\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:13', station: !!python/unicode 'Dobczyn'}
+  - {arrival: !!python/unicode '16:16', departure: !!python/unicode '16:16', station: "Zago\u015B\
+      ciniec"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:19', station: "Wo\u0142\
+      omin S\u0142oneczna"}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:23', station: "Wo\u0142\
+      omin"}
+  - {arrival: !!python/unicode '16:26', departure: !!python/unicode '16:26', station: "Koby\u0142\
+      ka"}
+  - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:29', station: "Koby\u0142\
+      ka Oss\xF3w"}
+  - {arrival: !!python/unicode '16:34', departure: !!python/unicode '16:34', station: !!python/unicode 'Zielonka'}
+  - {arrival: !!python/unicode '16:38', departure: !!python/unicode '16:38', station: "Z\u0105\
+      bki"}
+  - {arrival: !!python/unicode '16:45', station: "Warszawa Wile\u0144ska"}
+  to: 2013-02-06
+type: train
+variant: A

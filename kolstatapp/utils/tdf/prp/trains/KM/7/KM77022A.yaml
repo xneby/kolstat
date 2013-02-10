@@ -1,0 +1,31 @@
+mode: normal
+name: !!python/unicode 'KM 77022'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:57', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '20:06', departure: !!python/unicode '20:06', station: "Radom\
+      \ Potkan\xF3w"}
+  - {arrival: !!python/unicode '20:13', departure: !!python/unicode '20:13', station: "Ko\u0144\
+      czyce Radomskie"}
+  - {arrival: !!python/unicode '20:18', departure: !!python/unicode '20:18', station: "Wolan\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:25', departure: !!python/unicode '20:25', station: "Chron\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:30', station: "Podb\xF3\
+      r"}
+  - {arrival: !!python/unicode '20:37', departure: !!python/unicode '20:37', station: !!python/unicode 'Wieniawa'}
+  - {arrival: !!python/unicode '20:44', departure: !!python/unicode '20:44', station: !!python/unicode 'Skrzynno'}
+  - {arrival: !!python/unicode '20:51', departure: !!python/unicode '20:51', station: !!python/unicode 'Przysucha'}
+  - {arrival: !!python/unicode '20:58', departure: !!python/unicode '20:58', station: "Smogorz\xF3\
+      w Przysuski"}
+  - {arrival: !!python/unicode '21:02', departure: !!python/unicode '21:02', station: "Zygmunt\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:11', departure: !!python/unicode '21:11', station: "Bieliny\
+      \ Opoczy\u0144skie"}
+  - {arrival: !!python/unicode '21:17', station: !!python/unicode 'Drzewica'}
+  to: 2013-02-06
+type: train
+variant: A

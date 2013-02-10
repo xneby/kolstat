@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'R 88223'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:55', station: "Stargard Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '05:59', departure: !!python/unicode '06:00', station: "Grz\u0119\
+      dzice Stargardz."}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:03', station: !!python/unicode 'Miedwiecko'}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:08', station: !!python/unicode 'Reptowo'}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:13', station: !!python/unicode 'Szczecin
+      Zdunowo'}
+  - {arrival: !!python/unicode '06:18', departure: !!python/unicode '06:19', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '06:22', departure: !!python/unicode '06:22', station: !!python/unicode 'Szczecin
+      Zdroje'}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:30', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '06:33', station: "Szczecin G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

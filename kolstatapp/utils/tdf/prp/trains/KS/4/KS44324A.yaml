@@ -1,0 +1,16 @@
+mode: normal
+name: !!python/unicode 'KS 44324'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:57', station: !!python/unicode 'Imielin'}
+  - {arrival: !!python/unicode '20:18', departure: !!python/unicode '20:19', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '20:22', departure: !!python/unicode '20:22', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '20:27', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

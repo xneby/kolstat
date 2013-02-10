@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 79928'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:51', station: !!python/unicode 'Gniezno'}
+  - {arrival: !!python/unicode '06:58', departure: !!python/unicode '06:59', station: !!python/unicode 'Pierzyska'}
+  - {arrival: !!python/unicode '07:02', departure: !!python/unicode '07:03', station: "Fa\u0142\
+      kowo"}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:07', station: "Lednog\xF3\
+      ra"}
+  - {arrival: !!python/unicode '07:14', departure: !!python/unicode '07:15', station: !!python/unicode 'Pobiedziska'}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:18', station: !!python/unicode 'Pobiedziska
+      Letnisko'}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:20', station: !!python/unicode 'Promno'}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:24', station: !!python/unicode 'Biskupice
+      Wlkp.'}
+  - {arrival: !!python/unicode '07:29', departure: !!python/unicode '07:29', station: !!python/unicode 'Kobylnica'}
+  - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:33', station: !!python/unicode 'Ligowiec'}
+  - {arrival: !!python/unicode '07:37', departure: !!python/unicode '07:38', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:42', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '07:46', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'KS 99134'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:44', station: "Cha\u0142upki"}
+  - {arrival: !!python/unicode '17:47', departure: !!python/unicode '17:47', station: "Rudyszwa\u0142\
+      d"}
+  - {arrival: !!python/unicode '17:51', departure: !!python/unicode '17:51', station: "Roszk\xF3\
+      w Raciborski"}
+  - {arrival: !!python/unicode '17:54', departure: !!python/unicode '17:54', station: "Krzy\u017C\
+      anowice"}
+  - {arrival: !!python/unicode '17:58', departure: !!python/unicode '17:58', station: "Twork\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:07', station: "Racib\xF3rz"}
+  to: 2013-02-06
+type: train
+variant: A

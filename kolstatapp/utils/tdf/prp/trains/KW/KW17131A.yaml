@@ -1,0 +1,61 @@
+mode: normal
+name: !!python/unicode 'KW 17131'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:17', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '06:24', departure: !!python/unicode '06:25', station: !!python/unicode 'Nowe
+      Kutnowskie'}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:29', station: !!python/unicode 'Krzewie'}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:36', station: "Turzyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: "K\u0142\
+      odawa"}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:50', station: "Bar\u0142\
+      ogi"}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:56', station: "Ko\u0142\
+      o"}
+  - {arrival: !!python/unicode '07:01', departure: !!python/unicode '07:01', station: !!python/unicode 'Budki
+      Nowe'}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:06', station: !!python/unicode 'Kramsk'}
+  - {arrival: !!python/unicode '07:15', departure: !!python/unicode '07:16', station: !!python/unicode 'Konin'}
+  - {arrival: !!python/unicode '07:18', departure: !!python/unicode '07:18', station: "Konin\
+      \ Zach\xF3d"}
+  - {arrival: !!python/unicode '07:22', departure: !!python/unicode '07:23', station: !!python/unicode 'Kawnice'}
+  - {arrival: !!python/unicode '07:26', departure: !!python/unicode '07:27', station: "Sp\u0142\
+      awie"}
+  - {arrival: !!python/unicode '07:31', departure: !!python/unicode '07:31', station: "Cienin\
+      \ Ko\u015Bcielny"}
+  - {arrival: !!python/unicode '07:34', departure: !!python/unicode '07:53', station: !!python/unicode 'Cienin'}
+  - {arrival: !!python/unicode '07:58', departure: !!python/unicode '07:59', station: "S\u0142\
+      upca"}
+  - {arrival: !!python/unicode '08:02', departure: !!python/unicode '08:03', station: "Strza\u0142\
+      kowo"}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:06', station: "W\xF3\
+      lka"}
+  - {arrival: !!python/unicode '08:10', departure: !!python/unicode '08:10', station: !!python/unicode 'Otoczna'}
+  - {arrival: !!python/unicode '08:13', departure: !!python/unicode '08:13', station: !!python/unicode 'Gutowo
+      Wlkp.'}
+  - {arrival: !!python/unicode '08:20', departure: !!python/unicode '08:21', station: "Wrze\u015B\
+      nia"}
+  - {arrival: !!python/unicode '08:28', departure: !!python/unicode '08:29', station: !!python/unicode 'Podstolice'}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:33', station: !!python/unicode 'Nekla'}
+  - {arrival: !!python/unicode '08:37', departure: !!python/unicode '08:38', station: "Gu\u0142\
+      towy"}
+  - {arrival: !!python/unicode '08:43', departure: !!python/unicode '08:44', station: !!python/unicode 'Kostrzyn
+      Wlkp.'}
+  - {arrival: !!python/unicode '08:47', departure: !!python/unicode '08:48', station: !!python/unicode 'Paczkowo'}
+  - {arrival: !!python/unicode '08:52', departure: !!python/unicode '08:53', station: "Swarz\u0119\
+      dz"}
+  - {arrival: !!python/unicode '08:57', departure: !!python/unicode '08:57', station: "Pozna\u0144\
+      \ Antoninek"}
+  - {arrival: !!python/unicode '09:02', departure: !!python/unicode '09:03', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '09:05', departure: !!python/unicode '09:06', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '09:11', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

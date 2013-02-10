@@ -1,0 +1,31 @@
+mode: normal
+name: !!python/unicode 'KM 527'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:11', station: "D\u0119blin"}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:17', station: "Zajezierze\
+      \ k.D\u0119blina"}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:25', station: "B\u0105\
+      kowiec"}
+  - {arrival: !!python/unicode '07:31', departure: !!python/unicode '07:31', station: !!python/unicode 'Garbatka
+      Letnisko'}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:36', station: "\u017B\
+      ytkowice"}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:42', station: !!python/unicode 'Pionki'}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:44', station: !!python/unicode 'Pionki
+      Zach.'}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:48', station: "Jedlnia\
+      \ Ko\u015Bcielna"}
+  - {arrival: !!python/unicode '07:53', departure: !!python/unicode '07:53', station: !!python/unicode 'Jedlnia
+      Letnisko'}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:57', station: "Antoni\xF3\
+      wka"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: !!python/unicode 'Rajec
+      Poduchowny'}
+  - {arrival: !!python/unicode '08:08', station: !!python/unicode 'Radom'}
+  to: 2013-02-06
+type: train
+variant: A

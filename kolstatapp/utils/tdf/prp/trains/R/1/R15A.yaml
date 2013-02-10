@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'R 15'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:43', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:47', departure: !!python/unicode '15:47', station: "Krak\xF3\
+      w Zab\u0142ocie"}
+  - {arrival: !!python/unicode '15:50', departure: !!python/unicode '15:51', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '15:54', departure: !!python/unicode '15:54', station: "Krak\xF3\
+      w Prokocim"}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:58', station: "Krak\xF3\
+      w Bie\u017Can\xF3w"}
+  - {arrival: !!python/unicode '16:01', departure: !!python/unicode '16:01', station: "Kokot\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:05', departure: !!python/unicode '16:06', station: "W\u0119\
+      grzce Wielkie"}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:17', station: "Pod\u0142\
+      \u0119\u017Ce"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:22', station: "Stani\u0105\
+      tki"}
+  - {arrival: !!python/unicode '16:27', departure: !!python/unicode '16:27', station: "Szar\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:39', station: "K\u0142\
+      aj"}
+  - {arrival: !!python/unicode '16:44', departure: !!python/unicode '16:44', station: "Stanis\u0142\
+      awice"}
+  - {arrival: !!python/unicode '16:47', departure: !!python/unicode '16:48', station: !!python/unicode 'Cikowice'}
+  - {arrival: !!python/unicode '16:52', departure: !!python/unicode '17:04', station: !!python/unicode 'Bochnia'}
+  - {arrival: !!python/unicode '17:11', departure: !!python/unicode '17:11', station: !!python/unicode 'Rzezawa'}
+  - {arrival: !!python/unicode '17:16', departure: !!python/unicode '17:17', station: "Jasie\u0144\
+      \ Brzeski"}
+  - {arrival: !!python/unicode '17:22', departure: !!python/unicode '17:24', station: !!python/unicode 'Brzesko
+      Okocim'}
+  - {arrival: !!python/unicode '17:28', departure: !!python/unicode '17:28', station: !!python/unicode 'Sterkowiec'}
+  - {arrival: !!python/unicode '17:33', departure: !!python/unicode '17:33', station: !!python/unicode 'Biadoliny'}
+  - {arrival: !!python/unicode '17:44', departure: !!python/unicode '17:45', station: "Bogumi\u0142\
+      owice"}
+  - {arrival: !!python/unicode '17:48', departure: !!python/unicode '17:49', station: "Tarn\xF3\
+      w Mo\u015Bcice"}
+  - {arrival: !!python/unicode '17:53', station: "Tarn\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

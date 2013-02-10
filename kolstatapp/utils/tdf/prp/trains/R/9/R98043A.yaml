@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 98043'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:48', station: "E\u0142k"}
+  - {arrival: !!python/unicode '18:56', departure: !!python/unicode '18:56', station: !!python/unicode 'Woszczele'}
+  - {arrival: !!python/unicode '19:05', departure: !!python/unicode '19:06', station: !!python/unicode 'Stare
+      Juchy'}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:23', station: !!python/unicode 'Wydminy'}
+  - {arrival: !!python/unicode '19:31', departure: !!python/unicode '19:31', station: !!python/unicode 'Siedliska'}
+  - {arrival: !!python/unicode '19:40', departure: !!python/unicode '19:41', station: "Gi\u017C\
+      ycko"}
+  - {arrival: !!python/unicode '19:44', departure: !!python/unicode '19:45', station: !!python/unicode 'Niegocin'}
+  - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:51', station: "Ster\u0142\
+      awki Ma\u0142e"}
+  - {arrival: !!python/unicode '19:55', departure: !!python/unicode '19:56', station: "Ster\u0142\
+      awki Wielkie"}
+  - {arrival: !!python/unicode '20:00', departure: !!python/unicode '20:00', station: !!python/unicode 'Martiany'}
+  - {arrival: !!python/unicode '20:10', departure: !!python/unicode '20:17', station: "K\u0119\
+      trzyn"}
+  - {arrival: !!python/unicode '20:21', departure: !!python/unicode '20:21', station: "Nowy\
+      \ M\u0142yn"}
+  - {arrival: !!python/unicode '20:26', departure: !!python/unicode '20:26', station: !!python/unicode 'Linkowo'}
+  - {arrival: !!python/unicode '20:29', departure: !!python/unicode '20:30', station: "To\u0142\
+      kiny"}
+  - {arrival: !!python/unicode '20:41', station: !!python/unicode 'Korsze'}
+  to: 2013-02-06
+type: train
+variant: A

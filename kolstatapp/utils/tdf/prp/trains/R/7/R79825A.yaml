@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'R 79825'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:00', station: "Bia\u0142ystok"}
+  - {arrival: !!python/unicode '20:06', departure: !!python/unicode '20:07', station: "Wasilk\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:12', departure: !!python/unicode '20:12', station: !!python/unicode 'Czarny
+      Blok'}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:16', station: "W\xF3\
+      lka Ratowiecka"}
+  - {arrival: !!python/unicode '20:20', departure: !!python/unicode '20:20', station: "Czarna\
+      \ Bia\u0142ostocka"}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:24', station: !!python/unicode 'Machnacz'}
+  - {arrival: !!python/unicode '20:28', departure: !!python/unicode '20:29', station: !!python/unicode 'Rozedranka'}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:34', station: !!python/unicode 'Gieniusze'}
+  - {arrival: !!python/unicode '20:39', departure: !!python/unicode '20:39', station: "Sok\xF3\
+      \u0142ka"}
+  - {arrival: !!python/unicode '20:47', departure: !!python/unicode '20:48', station: !!python/unicode 'Gliniszcze'}
+  - {arrival: !!python/unicode '20:51', departure: !!python/unicode '20:52', station: !!python/unicode 'Racewo'}
+  - {arrival: !!python/unicode '20:59', departure: !!python/unicode '20:59', station: !!python/unicode 'Sidra'}
+  - {arrival: !!python/unicode '21:08', departure: !!python/unicode '21:09', station: "R\xF3\
+      \u017Canystok"}
+  - {arrival: !!python/unicode '21:12', departure: !!python/unicode '21:13', station: "D\u0105\
+      browa Bia\u0142ostocka"}
+  - {arrival: !!python/unicode '21:21', departure: !!python/unicode '21:21', station: !!python/unicode 'Kamienna
+      Nowa'}
+  - {arrival: !!python/unicode '21:25', departure: !!python/unicode '21:26', station: "Ostrowie\
+      \ Biebrza\u0144sk."}
+  - {arrival: !!python/unicode '21:30', departure: !!python/unicode '21:30', station: "Jastrz\u0119\
+      bna"}
+  - {arrival: !!python/unicode '21:34', departure: !!python/unicode '21:34', station: !!python/unicode 'Balinka'}
+  - {arrival: !!python/unicode '21:44', departure: !!python/unicode '21:45', station: "August\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:47', departure: !!python/unicode '21:48', station: "August\xF3\
+      w Port"}
+  - {arrival: !!python/unicode '21:53', departure: !!python/unicode '21:53', station: !!python/unicode 'Blizna'}
+  - {arrival: !!python/unicode '21:59', departure: !!python/unicode '22:00', station: !!python/unicode 'Szczepki'}
+  - {arrival: !!python/unicode '22:07', departure: !!python/unicode '22:07', station: "P\u0142\
+      ociczno k. Suwa\u0142k"}
+  - {arrival: !!python/unicode '22:15', station: "Suwa\u0142ki"}
+  to: 2013-02-06
+type: train
+variant: A

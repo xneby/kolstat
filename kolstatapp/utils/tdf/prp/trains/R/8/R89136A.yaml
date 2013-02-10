@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'R 89136'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:18', station: !!python/unicode 'Runowo Pomorskie'}
+  - {arrival: !!python/unicode '05:23', departure: !!python/unicode '05:23', station: "Lesi\u0119\
+      cin"}
+  - {arrival: !!python/unicode '05:30', departure: !!python/unicode '05:38', station: "\u0141\
+      obez"}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:44', station: !!python/unicode 'Worowo'}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:48', station: "Kl\u0119\
+      pnica"}
+  - {arrival: !!python/unicode '05:56', departure: !!python/unicode '05:57', station: "\u015A\
+      widwin"}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:04', station: !!python/unicode 'Nielep'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:10', station: "R\u0105\
+      bino"}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:17', station: "Czarnow\u0119\
+      sy Pom."}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:39', station: "Bia\u0142\
+      ogard"}
+  - {arrival: !!python/unicode '06:44', departure: !!python/unicode '06:45', station: "Ko\u015B\
+      ciernica"}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:50', station: "Nos\xF3\
+      wko"}
+  - {arrival: !!python/unicode '06:53', departure: !!python/unicode '06:54', station: !!python/unicode 'Dunowo'}
+  - {arrival: !!python/unicode '07:02', station: !!python/unicode 'Koszalin'}
+  to: 2013-02-06
+type: train
+variant: A

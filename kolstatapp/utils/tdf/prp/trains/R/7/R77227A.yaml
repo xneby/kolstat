@@ -1,0 +1,46 @@
+mode: normal
+name: !!python/unicode 'R 77227'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:40', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:46', station: "Pozna\u0144\
+      \ G\xF3rczyn"}
+  - {arrival: !!python/unicode '07:49', departure: !!python/unicode '07:50', station: "Pozna\u0144\
+      \ Junikowo"}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:54', station: "Pal\u0119\
+      dzie"}
+  - {arrival: !!python/unicode '07:58', departure: !!python/unicode '07:59', station: !!python/unicode 'Dopiewo'}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: !!python/unicode 'Otusz'}
+  - {arrival: !!python/unicode '08:07', departure: !!python/unicode '08:08', station: !!python/unicode 'Buk'}
+  - {arrival: !!python/unicode '08:11', departure: !!python/unicode '08:12', station: !!python/unicode 'Wojnowice
+      Wlkp.'}
+  - {arrival: !!python/unicode '08:16', departure: !!python/unicode '08:16', station: !!python/unicode 'Opalenica'}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:22', station: "Pora\u017C\
+      yn"}
+  - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:27', station: "S\u0105\
+      topy"}
+  - {arrival: !!python/unicode '08:31', departure: !!python/unicode '08:32', station: "Nowy\
+      \ Tomy\u015Bl"}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:36', station: "Jastrz\u0119\
+      bsko"}
+  - {arrival: !!python/unicode '08:40', departure: !!python/unicode '08:41', station: "Chro\u015B\
+      nica"}
+  - {arrival: !!python/unicode '08:46', departure: !!python/unicode '08:46', station: "Zb\u0105\
+      szy\u0144"}
+  - {arrival: !!python/unicode '08:53', departure: !!python/unicode '08:55', station: "Zb\u0105\
+      szynek"}
+  - {arrival: !!python/unicode '09:03', departure: !!python/unicode '09:03', station: !!python/unicode 'Babimost'}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:12', station: "\u0141\u0119\
+      gowo Sulechowskie"}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:18', station: "Sulech\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:33', departure: !!python/unicode '09:43', station: "Czerwie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '09:49', departure: !!python/unicode '09:50', station: !!python/unicode 'Przylep'}
+  - {arrival: !!python/unicode '09:58', station: "Zielona G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: A

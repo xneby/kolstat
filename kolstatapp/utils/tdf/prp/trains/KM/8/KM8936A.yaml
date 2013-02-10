@@ -1,0 +1,59 @@
+mode: normal
+name: !!python/unicode 'KM 8936'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '10:28', station: !!python/unicode 'Siedlce'}
+  - {arrival: !!python/unicode '10:32', departure: !!python/unicode '10:32', station: !!python/unicode 'Siedlce
+      Zachodnie'}
+  - {arrival: !!python/unicode '10:37', departure: !!python/unicode '10:37', station: !!python/unicode 'Sabinka'}
+  - {arrival: !!python/unicode '10:43', departure: !!python/unicode '10:43', station: "Kotu\u0144"}
+  - {arrival: !!python/unicode '10:47', departure: !!python/unicode '10:47', station: !!python/unicode 'Koszewnica'}
+  - {arrival: !!python/unicode '10:50', departure: !!python/unicode '10:50', station: !!python/unicode 'Sosnowe'}
+  - {arrival: !!python/unicode '10:54', departure: !!python/unicode '10:54', station: !!python/unicode 'Grodziszcze
+      Maz.'}
+  - {arrival: !!python/unicode '10:58', departure: !!python/unicode '10:58', station: !!python/unicode 'Mrozy'}
+  - {arrival: !!python/unicode '11:02', departure: !!python/unicode '11:02', station: "Ceg\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '11:05', departure: !!python/unicode '11:05', station: !!python/unicode 'Mienia'}
+  - {arrival: !!python/unicode '11:09', departure: !!python/unicode '11:09', station: "Barcz\u0105\
+      ca"}
+  - {arrival: !!python/unicode '11:12', departure: !!python/unicode '11:12', station: "Mi\u0144\
+      sk Maz. Anielina"}
+  - {arrival: !!python/unicode '11:16', departure: !!python/unicode '11:16', station: "Mi\u0144\
+      sk Mazowiecki"}
+  - {arrival: !!python/unicode '11:20', departure: !!python/unicode '11:20', station: "Wrzos\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:23', departure: !!python/unicode '11:23', station: "Nowe\
+      \ D\u0119be Wielkie"}
+  - {arrival: !!python/unicode '11:25', departure: !!python/unicode '11:25', station: "D\u0119\
+      be Wielkie"}
+  - {arrival: !!python/unicode '11:28', departure: !!python/unicode '11:28', station: !!python/unicode 'Cisie'}
+  - {arrival: !!python/unicode '11:31', departure: !!python/unicode '11:31', station: "Halin\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:34', departure: !!python/unicode '11:34', station: "Sulej\xF3\
+      wek Mi\u0142osna"}
+  - {arrival: !!python/unicode '11:37', departure: !!python/unicode '11:37', station: "Sulej\xF3\
+      wek"}
+  - {arrival: !!python/unicode '11:39', departure: !!python/unicode '11:39', station: !!python/unicode 'Warszawa-Wola
+      Grzyb.'}
+  - {arrival: !!python/unicode '11:42', departure: !!python/unicode '11:42', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: !!python/unicode '11:46', departure: !!python/unicode '11:46', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: !!python/unicode '11:55', departure: !!python/unicode '11:56', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '11:58', departure: !!python/unicode '11:58', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '12:01', departure: !!python/unicode '12:01', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '12:04', departure: !!python/unicode '12:04', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '12:06', departure: !!python/unicode '12:06', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '12:10', station: !!python/unicode 'Warszawa Zachodnia'}
+  to: 2013-02-06
+type: train
+variant: A

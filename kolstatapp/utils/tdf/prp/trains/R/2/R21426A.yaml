@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'R 21426'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:05', station: "Tomasz\xF3w Mazowiecki"}
+  - {arrival: !!python/unicode '12:12', departure: !!python/unicode '12:13', station: !!python/unicode 'Skrzynki'}
+  - {arrival: !!python/unicode '12:17', departure: !!python/unicode '12:18', station: !!python/unicode 'Zaosie'}
+  - {arrival: !!python/unicode '12:22', departure: !!python/unicode '12:23', station: !!python/unicode 'Wykno'}
+  - {arrival: !!python/unicode '12:29', departure: !!python/unicode '12:30', station: "S\u0142\
+      otwiny"}
+  - {arrival: !!python/unicode '12:34', station: !!python/unicode 'Koluszki'}
+  to: 2013-02-06
+type: train
+variant: A

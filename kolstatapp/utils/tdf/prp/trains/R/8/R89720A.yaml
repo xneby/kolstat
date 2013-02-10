@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'R 89720'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:42', station: "Ko\u0142obrzeg"}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:49', station: !!python/unicode 'Stramnica'}
+  - {arrival: !!python/unicode '05:53', departure: !!python/unicode '05:54', station: !!python/unicode 'Dygowo'}
+  - {arrival: !!python/unicode '05:58', departure: !!python/unicode '05:58', station: !!python/unicode 'Jazy'}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:08', station: !!python/unicode 'Wrzosowo'}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:12', station: !!python/unicode 'Daszewo'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:16', station: !!python/unicode 'Karlino'}
+  - {arrival: !!python/unicode '06:25', station: "Bia\u0142ogard"}
+  to: 2013-02-06
+type: train
+variant: A

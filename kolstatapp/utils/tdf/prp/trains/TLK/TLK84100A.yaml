@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'TLK 84100'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:21', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '04:34', departure: !!python/unicode '04:35', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '04:52', departure: !!python/unicode '04:53', station: "Stargard\
+      \ Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:14', station: !!python/unicode 'Choszczno'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:36', station: !!python/unicode 'Dobiegniew'}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:57', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '06:23', departure: !!python/unicode '06:24', station: !!python/unicode 'Wronki'}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:40', station: "Szamotu\u0142\
+      y"}
+  - {arrival: !!python/unicode '07:11', departure: !!python/unicode '07:20', station: "Pozna\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:49', departure: !!python/unicode '07:50', station: "\u015A\
+      roda Wlkp."}
+  - {arrival: !!python/unicode '08:16', departure: !!python/unicode '08:17', station: !!python/unicode 'Jarocin'}
+  - {arrival: !!python/unicode '08:31', departure: !!python/unicode '08:32', station: !!python/unicode 'Pleszew'}
+  - {arrival: !!python/unicode '08:50', departure: !!python/unicode '08:52', station: "Ostr\xF3\
+      w Wlkp."}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:10', station: "Ostrzesz\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:24', departure: !!python/unicode '09:25', station: "K\u0119\
+      pno"}
+  - {arrival: !!python/unicode '10:00', departure: !!python/unicode '10:01', station: !!python/unicode 'Kluczbork'}
+  - {arrival: !!python/unicode '11:06', departure: !!python/unicode '11:08', station: !!python/unicode 'Lubliniec'}
+  - {arrival: !!python/unicode '12:10', departure: !!python/unicode '12:13', station: !!python/unicode 'Gliwice'}
+  - {arrival: !!python/unicode '12:24', departure: !!python/unicode '12:25', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '12:51', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'KS 44209'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:47', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '20:56', station: "Chorz\xF3\
+      w Batory"}
+  - {arrival: !!python/unicode '21:04', departure: !!python/unicode '21:04', station: !!python/unicode 'Ruda
+      Chebzie'}
+  - {arrival: !!python/unicode '21:07', departure: !!python/unicode '21:07', station: "Ruda\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '21:13', departure: !!python/unicode '21:14', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '21:24', station: !!python/unicode 'Gliwice'}
+  to: 2013-02-06
+type: train
+variant: A

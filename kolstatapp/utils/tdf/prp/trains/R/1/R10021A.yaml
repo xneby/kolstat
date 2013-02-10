@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'R 10021'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:48', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '05:53', departure: !!python/unicode '05:54', station: "Mi\u0142\
+      ob\u0105dz"}
+  - {arrival: !!python/unicode '05:58', departure: !!python/unicode '05:58', station: "Pszcz\xF3\
+      \u0142ki"}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:01', station: !!python/unicode 'Skowarcz'}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:04', station: "R\xF3\
+      \u017Cyny"}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:08', station: !!python/unicode 'Cieplewo'}
+  - {arrival: !!python/unicode '06:12', station: "Pruszcz Gda\u0144ski"}
+  to: 2013-02-06
+type: train
+variant: A

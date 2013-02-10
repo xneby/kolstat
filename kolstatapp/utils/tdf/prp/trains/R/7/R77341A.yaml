@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'R 77341'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:35', station: "\u0141apy"}
+  - {arrival: !!python/unicode '14:38', departure: !!python/unicode '14:38', station: !!python/unicode 'Uhowo'}
+  - {arrival: !!python/unicode '14:42', departure: !!python/unicode '14:42', station: !!python/unicode 'Bojary'}
+  - {arrival: !!python/unicode '14:45', departure: !!python/unicode '14:46', station: !!python/unicode 'Baciuty'}
+  - {arrival: !!python/unicode '14:49', departure: !!python/unicode '14:50', station: !!python/unicode 'Trypucie'}
+  - {arrival: !!python/unicode '14:52', departure: !!python/unicode '14:53', station: !!python/unicode 'Niewodnica'}
+  - {arrival: !!python/unicode '14:56', departure: !!python/unicode '14:56', station: !!python/unicode 'Klepacze'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:59', station: "Bia\u0142\
+      ystok Wiadukt"}
+  - {arrival: !!python/unicode '15:05', station: "Bia\u0142ystok"}
+  to: 2013-02-06
+type: train
+variant: A

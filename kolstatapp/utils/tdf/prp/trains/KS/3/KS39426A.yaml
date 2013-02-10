@@ -1,0 +1,15 @@
+mode: normal
+name: !!python/unicode 'KS 39426'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '10:57', station: "Bielsko Bia\u0142a G\u0142\xF3\
+      wna"}
+  - {arrival: !!python/unicode '10:59', departure: !!python/unicode '11:00', station: "Bielsko\
+      \ Bia\u0142a P\u0142n."}
+  - {arrival: !!python/unicode '11:13', station: !!python/unicode 'Czechowice Dziedzice'}
+  to: 2013-02-06
+type: train
+variant: A

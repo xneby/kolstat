@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'KM 609'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:03', station: "Warszawa Gda\u0144ska"}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: !!python/unicode 'Warszawa
+      ZOO'}
+  - {arrival: !!python/unicode '13:10', departure: !!python/unicode '13:10', station: !!python/unicode 'Warszawa
+      Praga'}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '13:16', departure: !!python/unicode '13:16', station: "Warszawa\
+      \ \u017Bera\u0144"}
+  - {arrival: !!python/unicode '13:19', departure: !!python/unicode '13:19', station: "Warszawa\
+      \ P\u0142udy"}
+  - {arrival: !!python/unicode '13:22', departure: !!python/unicode '13:22', station: "Warszawa\
+      \ Choszcz\xF3wka"}
+  - {arrival: !!python/unicode '13:27', departure: !!python/unicode '13:27', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '13:29', departure: !!python/unicode '13:29', station: !!python/unicode 'Legionowo
+      Przystanek'}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:32', station: "Chotom\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:38', departure: !!python/unicode '13:38', station: "Jan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '13:46', departure: !!python/unicode '13:46', station: !!python/unicode 'Modlin'}
+  - {arrival: !!python/unicode '13:50', departure: !!python/unicode '13:50', station: "Pomiech\xF3\
+      wek"}
+  - {arrival: !!python/unicode '13:54', departure: !!python/unicode '13:54', station: !!python/unicode 'Brody
+      Warszawskie'}
+  - {arrival: !!python/unicode '13:57', departure: !!python/unicode '13:57', station: !!python/unicode 'Studzianki
+      Nowe'}
+  - {arrival: !!python/unicode '14:00', station: !!python/unicode 'Nasielsk'}
+  to: 2013-02-06
+type: train
+variant: A

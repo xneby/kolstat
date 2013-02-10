@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'AR 19323'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:58', station: !!python/unicode 'Laskowice Pomorskie'}
+  - {arrival: !!python/unicode '20:05', departure: !!python/unicode '20:05', station: !!python/unicode 'Leosia'}
+  - {arrival: !!python/unicode '20:13', departure: !!python/unicode '20:13', station: !!python/unicode 'Drzycim'}
+  - {arrival: !!python/unicode '20:18', departure: !!python/unicode '20:19', station: "Jastrz\u0119\
+      bie Pom."}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:24', station: !!python/unicode 'Lniano'}
+  - {arrival: !!python/unicode '20:34', station: !!python/unicode 'Wierzchucin'}
+  to: 2013-02-06
+type: train
+variant: A

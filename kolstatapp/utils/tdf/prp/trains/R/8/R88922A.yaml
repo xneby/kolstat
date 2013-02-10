@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'R 88922'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:25', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '14:36', departure: !!python/unicode '14:36', station: !!python/unicode 'Szczecin
+      Zdroje'}
+  - {arrival: !!python/unicode '14:40', departure: !!python/unicode '14:40', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '14:46', departure: !!python/unicode '14:47', station: "Szczecin\
+      \ Za\u0142om"}
+  - {arrival: !!python/unicode '14:51', departure: !!python/unicode '14:52', station: !!python/unicode 'Kliniska'}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:56', station: !!python/unicode 'Rurka'}
+  - {arrival: !!python/unicode '15:02', departure: !!python/unicode '15:03', station: "Goleni\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: "Bia\u0142\
+      u\u0144"}
+  - {arrival: !!python/unicode '15:15', departure: !!python/unicode '15:16', station: "\u0141\
+      o\u017Cnica"}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:23', station: !!python/unicode 'Rokita'}
+  - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:32', station: "Wysoka\
+      \ Kamie\u0144ska"}
+  - {arrival: !!python/unicode '15:36', departure: !!python/unicode '15:37', station: !!python/unicode 'Stawno'}
+  - {arrival: !!python/unicode '15:40', departure: !!python/unicode '15:41', station: "G\xF3\
+      rki Pomorskie"}
+  - {arrival: !!python/unicode '15:45', departure: !!python/unicode '15:46', station: !!python/unicode 'Jarszewo'}
+  - {arrival: !!python/unicode '15:52', station: "Kamie\u0144 Pomorski"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'KM 88523'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:28', station: !!python/unicode 'Siedlce'}
+  - {arrival: !!python/unicode '19:37', departure: !!python/unicode '19:37', station: !!python/unicode 'Stok
+      Lacki'}
+  - {arrival: !!python/unicode '19:42', departure: !!python/unicode '19:42', station: !!python/unicode 'Krzymosze'}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:47', station: !!python/unicode 'Mordy'}
+  - {arrival: !!python/unicode '19:51', departure: !!python/unicode '19:51', station: !!python/unicode 'Mordy
+      Miasto'}
+  - {arrival: !!python/unicode '19:57', departure: !!python/unicode '19:57', station: "Cierpig\xF3\
+      rz"}
+  - {arrival: !!python/unicode '20:04', departure: !!python/unicode '20:04', station: !!python/unicode 'Niemojki'}
+  - {arrival: !!python/unicode '20:08', departure: !!python/unicode '20:08', station: "Patk\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:15', departure: !!python/unicode '20:15', station: "Plater\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:20', departure: !!python/unicode '20:20', station: !!python/unicode 'Sarnaki'}
+  - {arrival: !!python/unicode '20:25', departure: !!python/unicode '20:25', station: "Frono\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:30', station: !!python/unicode 'Siemiatycze'}
+  - {arrival: !!python/unicode '20:36', departure: !!python/unicode '20:36', station: !!python/unicode 'Sycze'}
+  - {arrival: !!python/unicode '20:43', departure: !!python/unicode '20:43', station: !!python/unicode 'Nurzec'}
+  - {arrival: !!python/unicode '20:49', departure: !!python/unicode '20:49', station: !!python/unicode 'Nowy
+      Nurzec'}
+  - {arrival: !!python/unicode '20:53', departure: !!python/unicode '20:53', station: !!python/unicode 'Borowiki'}
+  - {arrival: !!python/unicode '21:03', station: !!python/unicode 'Czeremcha'}
+  to: 2013-02-06
+type: train
+variant: A

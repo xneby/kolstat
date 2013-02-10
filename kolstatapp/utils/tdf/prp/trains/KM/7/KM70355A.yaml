@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'KM 70355'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:03', station: "T\u0142uszcz"}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:08', station: "Jarz\u0119\
+      bia \u0141\u0105ka"}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:12', station: !!python/unicode 'Grzegorzewo'}
+  - {arrival: !!python/unicode '16:17', departure: !!python/unicode '16:17', station: "Most\xF3\
+      wka"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:22', station: "Lucyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:26', departure: !!python/unicode '16:26', station: !!python/unicode 'Rybienko'}
+  - {arrival: !!python/unicode '16:30', station: "Wyszk\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

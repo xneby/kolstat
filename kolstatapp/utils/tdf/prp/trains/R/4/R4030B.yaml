@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 4030'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '22:41', station: "Bydgoszcz G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '22:46', departure: !!python/unicode '22:47', station: "Bydgoszcz\
+      \ Le\u015Bna"}
+  - {arrival: !!python/unicode '22:50', departure: !!python/unicode '22:50', station: !!python/unicode 'Bydgoszcz
+      Bielawy'}
+  - {arrival: !!python/unicode '22:53', departure: !!python/unicode '22:54', station: "Bydgoszcz\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '22:58', departure: !!python/unicode '22:59', station: "Bydgoszcz\
+      \ \u0141\u0119gnowo"}
+  - {arrival: !!python/unicode '23:13', departure: !!python/unicode '23:14', station: !!python/unicode 'Solec
+      Kujawski'}
+  - {arrival: !!python/unicode '23:21', departure: !!python/unicode '23:22', station: "Przy\u0142\
+      ubie"}
+  - {arrival: !!python/unicode '23:34', departure: !!python/unicode '23:34', station: !!python/unicode 'Cierpice'}
+  - {arrival: !!python/unicode '23:44', departure: !!python/unicode '23:44', station: "Toru\u0144\
+      \ Kluczyki"}
+  - {arrival: !!python/unicode '23:52', station: "Toru\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: B

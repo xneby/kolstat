@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 2214'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:40', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:46', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:50', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:55', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '05:59', departure: !!python/unicode '05:59', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:04', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:07', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:11', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:15', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:21', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '06:24', departure: !!python/unicode '06:24', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:29', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '06:32', departure: !!python/unicode '06:32', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:36', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:39', station: "\u0141\xF3\
+      d\u017A Andrzej\xF3w"}
+  - {arrival: !!python/unicode '06:46', departure: !!python/unicode '06:52', station: "\u0141\xF3\
+      d\u017A Widzew"}
+  - {arrival: !!python/unicode '06:59', departure: !!python/unicode '07:00', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '07:08', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

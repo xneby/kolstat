@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'SKW 19281'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:38', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '04:44', departure: !!python/unicode '04:44', station: "Warszawa\
+      \ W\u0142ochy"}
+  - {arrival: !!python/unicode '04:47', departure: !!python/unicode '04:47', station: !!python/unicode 'Warszawa
+      Ursus'}
+  - {arrival: !!python/unicode '04:50', departure: !!python/unicode '04:51', station: "Piast\xF3\
+      w"}
+  - {arrival: !!python/unicode '04:55', station: "Pruszk\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

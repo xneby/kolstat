@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'R 85428'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:50', station: "Pi\u0142a G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '14:59', departure: !!python/unicode '14:59', station: !!python/unicode 'Kaczory'}
+  - {arrival: !!python/unicode '15:09', departure: !!python/unicode '15:09', station: "Miasteczko\
+      \ Kraje\u0144sk."}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:16', station: "Bia\u0142\
+      o\u015Bliwie"}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:22', station: !!python/unicode 'Krostkowo'}
+  - {arrival: !!python/unicode '15:28', departure: !!python/unicode '15:29', station: !!python/unicode 'Wyrzysk
+      Osiek'}
+  - {arrival: !!python/unicode '15:33', departure: !!python/unicode '15:34', station: "Jadwi\u017C\
+      yn"}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:38', station: !!python/unicode 'Samostrzel'}
+  - {arrival: !!python/unicode '15:41', departure: !!python/unicode '15:42', station: !!python/unicode 'Anieliny'}
+  - {arrival: !!python/unicode '15:49', departure: !!python/unicode '15:50', station: "Nak\u0142\
+      o n. Noteci\u0105"}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:56', station: "\u015A\
+      lesin"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: !!python/unicode 'Zielonczyn'}
+  - {arrival: !!python/unicode '16:05', departure: !!python/unicode '16:06', station: "Paw\u0142\
+      \xF3wek"}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:10', station: "Bydgoszcz\
+      \ Osowa G\xF3ra"}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:13', station: !!python/unicode 'Bydgoszcz
+      Zach.'}
+  - {arrival: !!python/unicode '16:19', station: "Bydgoszcz G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

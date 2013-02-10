@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 89829'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:02', station: !!python/unicode 'Koszalin'}
+  - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:11', station: "M\u015B\
+      cice"}
+  - {arrival: !!python/unicode '18:16', departure: !!python/unicode '18:17', station: "B\u0119\
+      dzino"}
+  - {arrival: !!python/unicode '18:20', departure: !!python/unicode '18:21', station: "S\u0142\
+      owienkowo"}
+  - {arrival: !!python/unicode '18:23', departure: !!python/unicode '18:24', station: "Mi\u0142\
+      ogoszcz"}
+  - {arrival: !!python/unicode '18:28', departure: !!python/unicode '18:29', station: "Tymie\u0144"}
+  - {arrival: !!python/unicode '18:35', departure: !!python/unicode '18:36', station: !!python/unicode 'Ustronie
+      Morskie'}
+  - {arrival: !!python/unicode '18:50', station: "Ko\u0142obrzeg"}
+  to: 2013-02-06
+type: train
+variant: A

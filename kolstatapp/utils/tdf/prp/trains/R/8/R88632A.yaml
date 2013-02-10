@@ -1,0 +1,16 @@
+mode: normal
+name: !!python/unicode 'R 88632'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:06', station: "Hajn\xF3wka"}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:14', station: !!python/unicode 'Orzeszkowo'}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:20', station: !!python/unicode 'Witowo'}
+  - {arrival: !!python/unicode '16:27', departure: !!python/unicode '16:27', station: !!python/unicode 'Policzna'}
+  - {arrival: !!python/unicode '16:31', departure: !!python/unicode '16:32', station: !!python/unicode 'Dobrowoda'}
+  - {arrival: !!python/unicode '16:38', station: !!python/unicode 'Czeremcha'}
+  to: 2013-02-06
+type: train
+variant: A

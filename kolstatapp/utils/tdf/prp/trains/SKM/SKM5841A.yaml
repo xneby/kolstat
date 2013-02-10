@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'SKM 5841'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:18', station: !!python/unicode 'Wejherowo'}
+  - {arrival: !!python/unicode '20:23', departure: !!python/unicode '20:23', station: "Go\u015B\
+      cicino Wejherows."}
+  - {arrival: !!python/unicode '20:28', departure: !!python/unicode '20:29', station: !!python/unicode 'Luzino'}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:33', station: !!python/unicode 'Strzebielino
+      Morskie'}
+  - {arrival: !!python/unicode '20:37', departure: !!python/unicode '20:37', station: "Bo\u017C\
+      epole Wielkie"}
+  - {arrival: !!python/unicode '20:42', departure: !!python/unicode '20:43', station: "God\u0119\
+      towo"}
+  - {arrival: !!python/unicode '20:50', departure: !!python/unicode '20:58', station: "L\u0119\
+      bork"}
+  - {arrival: !!python/unicode '21:03', departure: !!python/unicode '21:03', station: "Le\u015B\
+      nice"}
+  - {arrival: !!python/unicode '21:06', departure: !!python/unicode '21:06', station: !!python/unicode 'Pogorzelice'}
+  - {arrival: !!python/unicode '21:14', departure: !!python/unicode '21:15', station: "Pot\u0119\
+      gowo"}
+  - {arrival: !!python/unicode '21:18', departure: !!python/unicode '21:19', station: "G\u0142\
+      uszyno Pomorskie"}
+  - {arrival: !!python/unicode '21:22', departure: !!python/unicode '21:22', station: "Strzy\u017C\
+      yno S\u0142upskie"}
+  - {arrival: !!python/unicode '21:28', departure: !!python/unicode '21:40', station: !!python/unicode 'Damnica'}
+  - {arrival: !!python/unicode '21:47', departure: !!python/unicode '21:55', station: "Jezierzyce\
+      \ S\u0142upskie"}
+  - {arrival: !!python/unicode '22:03', station: "S\u0142upsk"}
+  to: 2013-02-06
+type: train
+variant: A

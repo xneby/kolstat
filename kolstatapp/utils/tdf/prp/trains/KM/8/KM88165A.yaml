@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'KM 88165'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:15', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:25', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '16:33', departure: !!python/unicode '16:33', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '16:53', departure: !!python/unicode '16:53', station: "Halin\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:07', departure: !!python/unicode '17:07', station: "Mi\u0144\
+      sk Mazowiecki"}
+  - {arrival: !!python/unicode '17:15', departure: !!python/unicode '17:15', station: "Ceg\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '17:20', departure: !!python/unicode '17:20', station: !!python/unicode 'Mrozy'}
+  - {arrival: !!python/unicode '17:31', departure: !!python/unicode '17:31', station: "Kotu\u0144"}
+  - {arrival: !!python/unicode '17:39', departure: !!python/unicode '17:39', station: !!python/unicode 'Siedlce
+      Zachodnie'}
+  - {arrival: !!python/unicode '17:47', departure: !!python/unicode '17:47', station: !!python/unicode 'Siedlce'}
+  - {arrival: !!python/unicode '17:50', departure: !!python/unicode '17:50', station: !!python/unicode 'Siedlce
+      Wschodnie'}
+  - {arrival: !!python/unicode '17:53', departure: !!python/unicode '17:53', station: "Bia\u0142\
+      ki Siedleckie"}
+  - {arrival: !!python/unicode '17:57', departure: !!python/unicode '17:57', station: !!python/unicode 'Kosiorki'}
+  - {arrival: !!python/unicode '18:00', departure: !!python/unicode '18:00', station: !!python/unicode 'Borki
+      Kosy'}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: !!python/unicode 'Dziewule'}
+  - {arrival: !!python/unicode '18:07', departure: !!python/unicode '18:07', station: "Radomy\u015B\
+      l"}
+  - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:10', station: "Krynka\
+      \ \u0141ukowska"}
+  - {arrival: !!python/unicode '18:17', station: "\u0141uk\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

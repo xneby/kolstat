@@ -1,0 +1,62 @@
+mode: normal
+name: !!python/unicode 'R 76934'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:30', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '19:35', departure: !!python/unicode '19:36', station: "Pozna\u0144\
+      \ D\u0119biec"}
+  - {arrival: !!python/unicode '19:40', departure: !!python/unicode '19:40', station: "Lubo\u0144\
+      \ k. Poznania"}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:47', station: !!python/unicode 'Puszczykowo'}
+  - {arrival: !!python/unicode '19:51', departure: !!python/unicode '19:51', station: "Puszczyk\xF3\
+      wko"}
+  - {arrival: !!python/unicode '19:56', departure: !!python/unicode '19:56', station: !!python/unicode 'Mosina'}
+  - {arrival: !!python/unicode '20:01', departure: !!python/unicode '20:01', station: "Dru\u017C\
+      yna Pozna\u0144ska"}
+  - {arrival: !!python/unicode '20:05', departure: !!python/unicode '20:05', station: "I\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '20:11', departure: !!python/unicode '20:11', station: "Czempi\u0144"}
+  - {arrival: !!python/unicode '20:15', departure: !!python/unicode '20:16', station: !!python/unicode 'Oborzyska
+      Stare'}
+  - {arrival: !!python/unicode '20:21', departure: !!python/unicode '20:21', station: "Ko\u015B\
+      cian"}
+  - {arrival: !!python/unicode '20:26', departure: !!python/unicode '20:26', station: !!python/unicode 'Przysieka
+      Stara'}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:31', station: !!python/unicode 'Stare
+      Bojanowo'}
+  - {arrival: !!python/unicode '20:35', departure: !!python/unicode '20:35', station: "G\xF3\
+      rka Duchowna"}
+  - {arrival: !!python/unicode '20:39', departure: !!python/unicode '20:39', station: !!python/unicode 'Lipno
+      Nowe'}
+  - {arrival: !!python/unicode '20:48', departure: !!python/unicode '20:49', station: !!python/unicode 'Leszno'}
+  - {arrival: !!python/unicode '20:57', departure: !!python/unicode '20:58', station: !!python/unicode 'Rydzyna'}
+  - {arrival: !!python/unicode '21:01', departure: !!python/unicode '21:02', station: !!python/unicode 'Kaczkowo'}
+  - {arrival: !!python/unicode '21:07', departure: !!python/unicode '21:07', station: !!python/unicode 'Bojanowo'}
+  - {arrival: !!python/unicode '21:17', departure: !!python/unicode '21:18', station: !!python/unicode 'Rawicz'}
+  - {arrival: !!python/unicode '21:24', departure: !!python/unicode '21:24', station: "Korze\u0144\
+      sko"}
+  - {arrival: !!python/unicode '21:28', departure: !!python/unicode '21:29', station: !!python/unicode 'Garbce'}
+  - {arrival: !!python/unicode '21:35', departure: !!python/unicode '21:35', station: "\u017B\
+      migr\xF3d"}
+  - {arrival: !!python/unicode '21:46', departure: !!python/unicode '21:46', station: !!python/unicode 'Skokowa'}
+  - {arrival: !!python/unicode '21:51', departure: !!python/unicode '21:52', station: !!python/unicode 'Osola'}
+  - {arrival: !!python/unicode '22:00', departure: !!python/unicode '22:00', station: "Oborniki\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '22:06', departure: !!python/unicode '22:07', station: "P\u0119\
+      g\xF3w"}
+  - {arrival: !!python/unicode '22:14', departure: !!python/unicode '22:14', station: !!python/unicode 'Szewce'}
+  - {arrival: !!python/unicode '22:18', departure: !!python/unicode '22:18', station: "Wroc\u0142\
+      aw \u015Awiniary"}
+  - {arrival: !!python/unicode '22:24', departure: !!python/unicode '22:24', station: "Wroc\u0142\
+      aw Osobowice"}
+  - {arrival: !!python/unicode '22:32', departure: !!python/unicode '22:32', station: "Wroc\u0142\
+      aw Popowice"}
+  - {arrival: !!python/unicode '22:35', departure: !!python/unicode '22:35', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '22:41', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

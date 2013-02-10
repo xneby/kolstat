@@ -165,6 +165,4 @@ class Graph(object):
 
 		print 'size: {}KiB'.format(Buffer.length/1024)
 
-		pprint(sorted(self.connections[self.list_conn[336]], lambda x,y: cmp(x[2], y[2])))
-
 #		stream.write(Buffer._buffer)

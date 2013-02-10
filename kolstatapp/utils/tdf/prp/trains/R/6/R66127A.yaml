@@ -1,0 +1,81 @@
+mode: normal
+name: !!python/unicode 'R 66127'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:26', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '18:29', departure: !!python/unicode '18:30', station: "Krak\xF3\
+      w Zab\u0142ocie"}
+  - {arrival: !!python/unicode '18:34', departure: !!python/unicode '18:35', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '18:38', departure: !!python/unicode '18:38', station: "Krak\xF3\
+      w Prokocim"}
+  - {arrival: !!python/unicode '18:41', departure: !!python/unicode '18:41', station: "Krak\xF3\
+      w Bie\u017Can\xF3w"}
+  - {arrival: !!python/unicode '18:44', departure: !!python/unicode '18:45', station: "Kokot\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:49', departure: !!python/unicode '18:49', station: "W\u0119\
+      grzce Wielkie"}
+  - {arrival: !!python/unicode '18:55', departure: !!python/unicode '18:58', station: "Pod\u0142\
+      \u0119\u017Ce"}
+  - {arrival: !!python/unicode '19:02', departure: !!python/unicode '19:03', station: "Stani\u0105\
+      tki"}
+  - {arrival: !!python/unicode '19:07', departure: !!python/unicode '19:07', station: "Szar\xF3\
+      w"}
+  - {arrival: !!python/unicode '19:11', departure: !!python/unicode '19:11', station: "K\u0142\
+      aj"}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:16', station: "Stanis\u0142\
+      awice"}
+  - {arrival: !!python/unicode '19:19', departure: !!python/unicode '19:20', station: !!python/unicode 'Cikowice'}
+  - {arrival: !!python/unicode '19:24', departure: !!python/unicode '19:26', station: !!python/unicode 'Bochnia'}
+  - {arrival: !!python/unicode '19:32', departure: !!python/unicode '19:33', station: !!python/unicode 'Rzezawa'}
+  - {arrival: !!python/unicode '19:38', departure: !!python/unicode '19:38', station: "Jasie\u0144\
+      \ Brzeski"}
+  - {arrival: !!python/unicode '19:43', departure: !!python/unicode '19:43', station: !!python/unicode 'Brzesko
+      Okocim'}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:48', station: !!python/unicode 'Sterkowiec'}
+  - {arrival: !!python/unicode '19:52', departure: !!python/unicode '19:53', station: !!python/unicode 'Biadoliny'}
+  - {arrival: !!python/unicode '20:03', departure: !!python/unicode '20:04', station: "Bogumi\u0142\
+      owice"}
+  - {arrival: !!python/unicode '20:07', departure: !!python/unicode '20:11', station: "Tarn\xF3\
+      w Mo\u015Bcice"}
+  - {arrival: !!python/unicode '20:15', departure: !!python/unicode '20:18', station: "Tarn\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:26', departure: !!python/unicode '20:26', station: "K\u0142\
+      okowa"}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:30', station: "\u0141\
+      owcz\xF3wek Ple\u015Bna"}
+  - {arrival: !!python/unicode '20:36', departure: !!python/unicode '20:36', station: "\u0141\
+      owcz\xF3w"}
+  - {arrival: !!python/unicode '20:41', departure: !!python/unicode '20:42', station: "Tuch\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:46', departure: !!python/unicode '20:46', station: !!python/unicode 'Lubaszowa'}
+  - {arrival: !!python/unicode '20:48', departure: !!python/unicode '20:49', station: !!python/unicode 'Siedliska
+      k.Tuchowa'}
+  - {arrival: !!python/unicode '20:52', departure: !!python/unicode '20:53', station: !!python/unicode 'Chojnik'}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '20:56', station: !!python/unicode 'Gromnik'}
+  - {arrival: !!python/unicode '21:01', departure: !!python/unicode '21:01', station: "Bogoniowice\
+      \ Ci\u0119\u017Ckow."}
+  - {arrival: !!python/unicode '21:08', departure: !!python/unicode '21:08', station: "P\u0142\
+      awna"}
+  - {arrival: !!python/unicode '21:14', departure: !!python/unicode '21:14', station: !!python/unicode 'Bobowa'}
+  - {arrival: !!python/unicode '21:17', departure: !!python/unicode '21:17', station: !!python/unicode 'Bobowa
+      Miasto'}
+  - {arrival: !!python/unicode '21:19', departure: !!python/unicode '21:20', station: !!python/unicode 'Jankowa'}
+  - {arrival: !!python/unicode '21:23', departure: !!python/unicode '21:24', station: !!python/unicode 'Wilczyska'}
+  - {arrival: !!python/unicode '21:29', departure: !!python/unicode '21:30', station: "Str\xF3\
+      \u017Ce"}
+  - {arrival: !!python/unicode '21:34', departure: !!python/unicode '21:35', station: "Gryb\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:47', departure: !!python/unicode '21:48', station: !!python/unicode 'Ptaszkowa'}
+  - {arrival: !!python/unicode '21:53', departure: !!python/unicode '21:54', station: !!python/unicode 'Mszalnica'}
+  - {arrival: !!python/unicode '22:00', departure: !!python/unicode '22:01', station: !!python/unicode 'Kamionka
+      Wielka'}
+  - {arrival: !!python/unicode '22:05', departure: !!python/unicode '22:05', station: "Nowy\
+      \ S\u0105cz Jamnica"}
+  - {arrival: !!python/unicode '22:11', station: "Nowy S\u0105cz"}
+  to: 2013-02-06
+type: train
+variant: A

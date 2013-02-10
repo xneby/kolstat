@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./import.py prp/trains/$1/*

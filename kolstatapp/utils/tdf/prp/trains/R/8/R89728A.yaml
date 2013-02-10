@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'R 89728'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:13', station: "Ko\u0142obrzeg"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:20', station: !!python/unicode 'Stramnica'}
+  - {arrival: !!python/unicode '16:24', departure: !!python/unicode '16:25', station: !!python/unicode 'Dygowo'}
+  - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:29', station: !!python/unicode 'Jazy'}
+  - {arrival: !!python/unicode '16:33', departure: !!python/unicode '16:33', station: !!python/unicode 'Wrzosowo'}
+  - {arrival: !!python/unicode '16:37', departure: !!python/unicode '16:38', station: !!python/unicode 'Daszewo'}
+  - {arrival: !!python/unicode '16:41', departure: !!python/unicode '16:42', station: !!python/unicode 'Karlino'}
+  - {arrival: !!python/unicode '16:50', station: "Bia\u0142ogard"}
+  to: 2013-02-06
+type: train
+variant: A

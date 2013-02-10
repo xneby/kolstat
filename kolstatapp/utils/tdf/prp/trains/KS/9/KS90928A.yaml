@@ -1,0 +1,67 @@
+mode: normal
+name: !!python/unicode 'KS 90928'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:38', station: "Racib\xF3rz"}
+  - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:43', station: "Racib\xF3\
+      rz Markowice"}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: "N\u0119\
+      dza"}
+  - {arrival: !!python/unicode '15:51', departure: !!python/unicode '15:52', station: "N\u0119\
+      dza Wie\u015B"}
+  - {arrival: !!python/unicode '15:55', departure: !!python/unicode '15:55', station: !!python/unicode 'Szymocice'}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:01', station: "G\xF3\
+      rki \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:03', station: !!python/unicode 'Sumina'}
+  - {arrival: !!python/unicode '16:05', departure: !!python/unicode '16:06', station: "Sumina\
+      \ Wie\u015B"}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:09', station: "\u0141\
+      uk\xF3w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:15', station: "Rydu\u0142\
+      towy"}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:21', station: !!python/unicode 'Rybnik
+      Niewiadom'}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:24', station: !!python/unicode 'Rybnik
+      Niedobczyce'}
+  - {arrival: !!python/unicode '16:26', departure: !!python/unicode '16:27', station: !!python/unicode 'Rybnik
+      Towarowy'}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:34', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '16:36', departure: !!python/unicode '16:37', station: !!python/unicode 'Rybnik
+      Paruszowiec'}
+  - {arrival: !!python/unicode '16:42', departure: !!python/unicode '16:43', station: !!python/unicode 'Leszczyny'}
+  - {arrival: !!python/unicode '16:48', departure: !!python/unicode '16:48', station: "Czerwionka\
+      \ D\u0119bie\u0144sko"}
+  - {arrival: !!python/unicode '16:50', departure: !!python/unicode '16:51', station: !!python/unicode 'Czerwionka'}
+  - {arrival: !!python/unicode '16:55', departure: !!python/unicode '16:55', station: "Orzesze\
+      \ Ja\u015Bkowice"}
+  - {arrival: !!python/unicode '16:58', departure: !!python/unicode '17:00', station: !!python/unicode 'Orzesze'}
+  - {arrival: !!python/unicode '17:08', departure: !!python/unicode '17:08', station: "\u0141\
+      aziska G\xF3rne"}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:13', station: "Miko\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '17:20', departure: !!python/unicode '17:21', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '17:24', departure: !!python/unicode '17:26', station: !!python/unicode 'Katowice
+      Ligota'}
+  - {arrival: !!python/unicode '17:32', departure: !!python/unicode '17:33', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '17:43', departure: !!python/unicode '17:43', station: "Sosnowiec\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '17:48', departure: !!python/unicode '17:48', station: "B\u0119\
+      dzin Miasto"}
+  - {arrival: !!python/unicode '17:52', departure: !!python/unicode '17:52', station: "D\u0105\
+      browa G\xF3rnicza"}
+  - {arrival: !!python/unicode '18:03', departure: !!python/unicode '18:03', station: "\u0141\
+      azy"}
+  - {arrival: !!python/unicode '18:09', departure: !!python/unicode '18:09', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '18:17', departure: !!python/unicode '18:17', station: "Myszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:28', departure: !!python/unicode '18:28', station: !!python/unicode 'Poraj'}
+  - {arrival: !!python/unicode '18:38', departure: !!python/unicode '18:38', station: "Cz\u0119\
+      stochowa Rak\xF3w"}
+  - {arrival: !!python/unicode '18:43', station: "Cz\u0119stochowa Osobowa"}
+  to: 2013-02-06
+type: train
+variant: A

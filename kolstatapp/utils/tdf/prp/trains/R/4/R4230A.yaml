@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 4230'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:53', station: "S\u0142awk\xF3w"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: !!python/unicode 'Bukowno
+      Przymiarki'}
+  - {arrival: !!python/unicode '19:03', departure: !!python/unicode '19:03', station: !!python/unicode 'Bukowno'}
+  - {arrival: !!python/unicode '19:10', departure: !!python/unicode '19:10', station: !!python/unicode 'Olkusz'}
+  - {arrival: !!python/unicode '19:18', departure: !!python/unicode '19:18', station: !!python/unicode 'Jaroszowiec
+      Olkuski'}
+  - {arrival: !!python/unicode '19:24', departure: !!python/unicode '19:24', station: "Chrz\u0105\
+      stowice Olkusk."}
+  - {arrival: !!python/unicode '19:28', departure: !!python/unicode '19:28', station: !!python/unicode 'Zarzecze'}
+  - {arrival: !!python/unicode '19:34', departure: !!python/unicode '19:34', station: !!python/unicode 'Wolbrom'}
+  - {arrival: !!python/unicode '19:39', departure: !!python/unicode '19:40', station: "Je\u017C\
+      \xF3wka"}
+  - {arrival: !!python/unicode '19:44', departure: !!python/unicode '19:45', station: "Gaj\xF3\
+      wka"}
+  - {arrival: !!python/unicode '19:52', departure: !!python/unicode '19:54', station: !!python/unicode 'Charsznica'}
+  - {arrival: !!python/unicode '20:03', departure: !!python/unicode '20:04', station: !!python/unicode 'Tunel'}
+  - {arrival: !!python/unicode '20:09', departure: !!python/unicode '20:09', station: "Koz\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '20:14', departure: !!python/unicode '20:14', station: "Klimont\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:19', station: "S\u0119dzisz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

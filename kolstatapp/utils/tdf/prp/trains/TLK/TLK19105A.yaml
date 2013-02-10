@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'TLK 19105'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:33', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '09:40', departure: !!python/unicode '09:50', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '09:54', departure: !!python/unicode '09:55', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '10:30', departure: !!python/unicode '10:31', station: "\u017B\
+      yrard\xF3w"}
+  - {arrival: !!python/unicode '10:52', departure: !!python/unicode '10:54', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '11:17', departure: !!python/unicode '11:18', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '11:37', departure: !!python/unicode '11:39', station: "\u0141\xF3\
+      d\u017A Widzew"}
+  - {arrival: !!python/unicode '11:47', departure: !!python/unicode '11:48', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '11:57', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 77424'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:40', station: "Bia\u0142ystok"}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:46', station: "Bia\u0142\
+      ystok Wiadukt"}
+  - {arrival: !!python/unicode '12:48', departure: !!python/unicode '12:48', station: !!python/unicode 'Klepacze'}
+  - {arrival: !!python/unicode '12:51', departure: !!python/unicode '12:52', station: !!python/unicode 'Niewodnica'}
+  - {arrival: !!python/unicode '12:54', departure: !!python/unicode '12:55', station: !!python/unicode 'Trypucie'}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:59', station: !!python/unicode 'Baciuty'}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:02', station: !!python/unicode 'Bojary'}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: !!python/unicode 'Uhowo'}
+  - {arrival: !!python/unicode '13:09', departure: !!python/unicode '13:09', station: "\u0141\
+      apy"}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: "\u0141\
+      apy Osse"}
+  - {arrival: !!python/unicode '13:17', departure: !!python/unicode '13:18', station: !!python/unicode 'Zdrody
+      Nowe'}
+  - {arrival: !!python/unicode '13:23', departure: !!python/unicode '13:24', station: !!python/unicode 'Racibory'}
+  - {arrival: !!python/unicode '13:29', departure: !!python/unicode '13:29', station: "Jab\u0142\
+      o\u0144 Ko\u015Bcielna"}
+  - {arrival: !!python/unicode '13:33', departure: !!python/unicode '13:33', station: !!python/unicode 'Szymbory'}
+  - {arrival: !!python/unicode '13:39', station: !!python/unicode 'Szepietowo'}
+  to: 2013-02-06
+type: train
+variant: A

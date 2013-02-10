@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 55114'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:30', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '12:34', departure: !!python/unicode '12:35', station: "\u0141\xF3\
+      d\u017A \u017Babieniec"}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:51', station: !!python/unicode 'Zgierz'}
+  - {arrival: !!python/unicode '12:57', departure: !!python/unicode '12:57', station: "Zgierz\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '13:01', departure: !!python/unicode '13:01', station: "Jedlicze\
+      \ \u0141\xF3dzkie"}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: !!python/unicode 'Grotniki'}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:24', station: !!python/unicode 'Chociszew'}
+  - {arrival: !!python/unicode '13:30', departure: !!python/unicode '13:30', station: "Ozork\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:37', departure: !!python/unicode '13:37', station: "Sierp\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: "\u0141\u0119\
+      czyca"}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: !!python/unicode 'Gawrony'}
+  - {arrival: !!python/unicode '13:58', departure: !!python/unicode '13:58', station: !!python/unicode 'Witonia'}
+  - {arrival: !!python/unicode '14:09', station: !!python/unicode 'Kutno'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 60332'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:55', station: !!python/unicode 'Nysa'}
+  - {arrival: !!python/unicode '17:08', departure: !!python/unicode '17:08', station: !!python/unicode 'Kubice'}
+  - {arrival: !!python/unicode '17:13', departure: !!python/unicode '17:14', station: "Ma\u0144\
+      kowice"}
+  - {arrival: !!python/unicode '17:19', departure: !!python/unicode '17:19', station: !!python/unicode 'Jasienica
+      Dolna'}
+  - {arrival: !!python/unicode '17:24', departure: !!python/unicode '17:24', station: !!python/unicode 'Budziszowice'}
+  - {arrival: !!python/unicode '17:28', departure: !!python/unicode '17:29', station: "\u0141\
+      ambinowice"}
+  - {arrival: !!python/unicode '17:35', departure: !!python/unicode '17:35', station: !!python/unicode 'Sowin'}
+  - {arrival: !!python/unicode '17:44', departure: !!python/unicode '17:44', station: "Tu\u0142\
+      owice Niemodli\u0144."}
+  - {arrival: !!python/unicode '17:52', departure: !!python/unicode '17:52', station: "Szyd\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: !!python/unicode 'Komprachcice'}
+  - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:10', station: !!python/unicode 'Chmielowice'}
+  - {arrival: !!python/unicode '18:15', departure: !!python/unicode '18:15', station: !!python/unicode 'Opole
+      Zachodnie'}
+  - {arrival: !!python/unicode '18:19', station: "Opole G\u0142\xF3wne"}
+  to: 2013-02-06
+type: train
+variant: A

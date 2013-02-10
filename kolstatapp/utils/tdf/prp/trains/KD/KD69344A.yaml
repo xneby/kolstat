@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'KD 69344'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:55', station: "Wa\u0142brzych G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '09:02', departure: !!python/unicode '09:02', station: "Jedlina\
+      \ G\xF3rna"}
+  - {arrival: !!python/unicode '09:05', departure: !!python/unicode '09:06', station: "Jedlina\
+      \ Zdr\xF3j"}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:09', station: "G\u0142\
+      uszyca"}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:12', station: "G\u0142\
+      uszyca G\xF3rna"}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:18', station: !!python/unicode 'Bartnica'}
+  - {arrival: !!python/unicode '09:20', departure: !!python/unicode '09:21', station: "\u015A\
+      wierki Dolne"}
+  - {arrival: !!python/unicode '09:25', departure: !!python/unicode '09:25', station: "Ludwikowice\
+      \ K\u0142odzkie"}
+  - {arrival: !!python/unicode '09:30', departure: !!python/unicode '09:31', station: !!python/unicode 'Zdrojowisko'}
+  - {arrival: !!python/unicode '09:38', departure: !!python/unicode '09:39', station: !!python/unicode 'Nowa
+      Ruda Przedm.'}
+  - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:42', station: !!python/unicode 'Nowa
+      Ruda'}
+  - {arrival: !!python/unicode '09:50', departure: !!python/unicode '09:50', station: "\u015A\
+      cinawka \u015Arednia"}
+  - {arrival: !!python/unicode '09:55', departure: !!python/unicode '09:56', station: "Gorzuch\xF3\
+      w K\u0142odzki"}
+  - {arrival: !!python/unicode '09:58', departure: !!python/unicode '09:59', station: !!python/unicode 'Bierkowice'}
+  - {arrival: !!python/unicode '10:12', departure: !!python/unicode '10:13', station: "K\u0142\
+      odzko G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '10:15', station: "K\u0142odzko Miasto"}
+  to: 2013-02-06
+type: train
+variant: A

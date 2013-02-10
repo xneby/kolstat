@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'AR 3329'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:24', station: !!python/unicode 'Laskowice Pomorskie'}
+  - {arrival: !!python/unicode '19:28', departure: !!python/unicode '19:28', station: "D\u0105\
+      browy"}
+  - {arrival: !!python/unicode '19:33', departure: !!python/unicode '19:34', station: "Czersk\
+      \ \u015Awiecki"}
+  - {arrival: !!python/unicode '19:39', departure: !!python/unicode '19:39', station: !!python/unicode 'Kwiatki'}
+  - {arrival: !!python/unicode '19:47', departure: !!python/unicode '19:48', station: !!python/unicode 'Osie'}
+  - {arrival: !!python/unicode '19:55', departure: !!python/unicode '19:56', station: "Tle\u0144"}
+  - {arrival: !!python/unicode '20:02', departure: !!python/unicode '20:03', station: "\u0141\u0105\
+      \u017Cek"}
+  - {arrival: !!python/unicode '20:08', departure: !!python/unicode '20:08', station: !!python/unicode 'Laski
+      Tucholskie'}
+  - {arrival: !!python/unicode '20:11', departure: !!python/unicode '20:12', station: "\u015A\
+      liwiczki"}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:16', station: "\u015A\
+      liwice"}
+  - {arrival: !!python/unicode '20:25', departure: !!python/unicode '20:26', station: !!python/unicode 'Szlachta'}
+  - {arrival: !!python/unicode '20:32', departure: !!python/unicode '20:33', station: "B\u0119\
+      d\u017Amirowice"}
+  - {arrival: !!python/unicode '20:40', station: !!python/unicode 'Czersk'}
+  to: 2013-02-06
+type: train
+variant: A

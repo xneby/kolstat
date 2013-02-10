@@ -1,0 +1,45 @@
+mode: normal
+name: !!python/unicode 'R 111'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:25', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '05:28', departure: !!python/unicode '05:29', station: "Lublin\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '05:36', departure: !!python/unicode '05:36', station: "\u015A\
+      widnik Miasto"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:39', station: "\u015A\
+      widnik Wsch."}
+  - {arrival: !!python/unicode '05:42', departure: !!python/unicode '05:42', station: !!python/unicode 'Minkowice'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:45', station: !!python/unicode 'Podzamcze'}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:50', station: "Domin\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: "Jaszcz\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:59', departure: !!python/unicode '05:59', station: !!python/unicode 'Biskupice
+      Lubelskie'}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: !!python/unicode 'Trawniki'}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:09', station: "W\xF3\
+      lka Ka\u0144ska"}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:12', station: !!python/unicode 'Kanie'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: "Zalesie\
+      \ Krasze\u0144skie"}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:22', station: !!python/unicode 'Rejowiec'}
+  - {arrival: !!python/unicode '06:29', departure: !!python/unicode '06:29', station: "Zawad\xF3\
+      wka"}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:35', station: "Che\u0142\
+      m Miasto"}
+  - {arrival: !!python/unicode '06:38', departure: !!python/unicode '06:39', station: "Che\u0142\
+      m"}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: "Che\u0142\
+      m Cementownia"}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:49', station: "Brze\u017A\
+      no"}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:56', station: "W\xF3\
+      lka Okopska"}
+  - {arrival: !!python/unicode '07:01', station: !!python/unicode 'Dorohusk'}
+  to: 2013-02-06
+type: train
+variant: A

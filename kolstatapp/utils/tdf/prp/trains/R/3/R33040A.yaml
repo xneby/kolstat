@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 33040'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:57', station: "Horyniec Zdr\xF3j"}
+  - {arrival: !!python/unicode '05:05', departure: !!python/unicode '05:05', station: !!python/unicode 'Basznia'}
+  - {arrival: !!python/unicode '05:09', departure: !!python/unicode '05:09', station: !!python/unicode 'Basznia
+      Dolna'}
+  - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:17', station: "Lubacz\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:24', station: !!python/unicode 'Oleszyce'}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:33', station: !!python/unicode 'Nowa
+      Grobla'}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:41', station: !!python/unicode 'Korzenica'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:44', station: !!python/unicode 'Zagrody'}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:48', station: "Bobr\xF3\
+      wka"}
+  - {arrival: !!python/unicode '05:56', departure: !!python/unicode '05:56', station: "Suroch\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:05', departure: !!python/unicode '06:05', station: !!python/unicode 'Munina'}
+  - {arrival: !!python/unicode '06:10', station: "Jaros\u0142aw"}
+  to: 2013-02-06
+type: train
+variant: A

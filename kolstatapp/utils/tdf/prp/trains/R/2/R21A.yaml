@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'R 21'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '23:06', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '23:10', departure: !!python/unicode '23:10', station: "Krak\xF3\
+      w Zab\u0142ocie"}
+  - {arrival: !!python/unicode '23:14', departure: !!python/unicode '23:15', station: "Krak\xF3\
+      w P\u0142asz\xF3w"}
+  - {arrival: !!python/unicode '23:18', departure: !!python/unicode '23:18', station: "Krak\xF3\
+      w Prokocim"}
+  - {arrival: !!python/unicode '23:21', departure: !!python/unicode '23:21', station: "Krak\xF3\
+      w Bie\u017Can\xF3w"}
+  - {arrival: !!python/unicode '23:25', departure: !!python/unicode '23:25', station: "Kokot\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:29', departure: !!python/unicode '23:30', station: "W\u0119\
+      grzce Wielkie"}
+  - {arrival: !!python/unicode '23:35', departure: !!python/unicode '23:36', station: "Pod\u0142\
+      \u0119\u017Ce"}
+  - {arrival: !!python/unicode '23:40', departure: !!python/unicode '23:41', station: "Stani\u0105\
+      tki"}
+  - {arrival: !!python/unicode '23:45', departure: !!python/unicode '23:45', station: "Szar\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:49', departure: !!python/unicode '23:55', station: "K\u0142\
+      aj"}
+  - {arrival: !!python/unicode '00:01', departure: !!python/unicode '00:01', station: "Stanis\u0142\
+      awice"}
+  - {arrival: !!python/unicode '00:03', departure: !!python/unicode '00:04', station: !!python/unicode 'Cikowice'}
+  - {arrival: !!python/unicode '00:08', station: !!python/unicode 'Bochnia'}
+  to: 2013-02-06
+type: train
+variant: A

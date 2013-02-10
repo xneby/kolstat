@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'KW 7724'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:40', station: !!python/unicode 'Leszno'}
+  - {arrival: !!python/unicode '14:47', departure: !!python/unicode '14:47', station: !!python/unicode 'Leszno
+      Grzybowo'}
+  - {arrival: !!python/unicode '14:52', departure: !!python/unicode '14:52', station: "K\u0105\
+      kolewo"}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:58', station: "Paw\u0142\
+      owice"}
+  - {arrival: !!python/unicode '15:05', departure: !!python/unicode '15:05', station: !!python/unicode 'Poniec'}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: !!python/unicode 'Dzieczyn'}
+  - {arrival: !!python/unicode '15:12', departure: !!python/unicode '15:13', station: !!python/unicode 'Karzec'}
+  - {arrival: !!python/unicode '15:17', departure: !!python/unicode '15:18', station: !!python/unicode 'Krobia'}
+  - {arrival: !!python/unicode '15:21', departure: !!python/unicode '15:22', station: "W\u0142\
+      ostowo"}
+  - {arrival: !!python/unicode '15:27', departure: !!python/unicode '15:27', station: "P\u0119\
+      powo"}
+  - {arrival: !!python/unicode '15:31', departure: !!python/unicode '15:31', station: "Czelu\u015B\
+      cin"}
+  - {arrival: !!python/unicode '15:35', departure: !!python/unicode '15:36', station: !!python/unicode 'Kobylin'}
+  - {arrival: !!python/unicode '15:41', departure: !!python/unicode '15:41', station: "Kuklin\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:44', departure: !!python/unicode '15:44', station: "Dzier\u017C\
+      an\xF3w Wlkp."}
+  - {arrival: !!python/unicode '15:53', departure: !!python/unicode '15:54', station: !!python/unicode 'Krotoszyn'}
+  - {arrival: !!python/unicode '16:01', departure: !!python/unicode '16:02', station: !!python/unicode 'Gorzupia'}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:06', station: !!python/unicode 'Biadki'}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:10', station: !!python/unicode 'Daniszyn'}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:14', station: "\u0141\u0105\
+      kociny"}
+  - {arrival: !!python/unicode '16:17', departure: !!python/unicode '16:18', station: "Ostr\xF3\
+      w Wlkp. Gorzyce"}
+  - {arrival: !!python/unicode '16:25', station: "Ostr\xF3w Wlkp."}
+  to: 2013-02-06
+type: train
+variant: A

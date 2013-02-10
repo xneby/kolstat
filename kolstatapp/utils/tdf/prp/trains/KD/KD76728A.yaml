@@ -1,0 +1,59 @@
+mode: normal
+name: !!python/unicode 'KD 76728'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:25', station: "\u017Bary"}
+  - {arrival: !!python/unicode '17:30', departure: !!python/unicode '17:31', station: "\u017B\
+      ary Kunice"}
+  - {arrival: !!python/unicode '17:34', departure: !!python/unicode '17:34', station: "Jankowa\
+      \ \u017Baga\u0144ska"}
+  - {arrival: !!python/unicode '17:37', departure: !!python/unicode '17:38', station: "Konin\
+      \ \u017Baga\u0144ski"}
+  - {arrival: !!python/unicode '17:42', departure: !!python/unicode '17:43', station: "I\u0142\
+      owa \u017Baga\u0144ska"}
+  - {arrival: !!python/unicode '17:50', departure: !!python/unicode '17:51', station: "Okr\u0105\
+      glica"}
+  - {arrival: !!python/unicode '17:56', departure: !!python/unicode '17:57', station: "Rusz\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: !!python/unicode 'Jagodzin'}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:12', station: "Stary\
+      \ W\u0119gliniec"}
+  - {arrival: !!python/unicode '18:17', departure: !!python/unicode '18:40', station: "W\u0119\
+      gliniec"}
+  - {arrival: !!python/unicode '18:48', departure: !!python/unicode '18:49', station: "Pie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '18:51', departure: !!python/unicode '18:51', station: "Las\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:55', departure: !!python/unicode '18:56', station: "J\u0119\
+      drzychowice"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: !!python/unicode 'Zgorzelec
+      Miasto'}
+  - {arrival: !!python/unicode '19:04', departure: !!python/unicode '19:05', station: !!python/unicode 'Jerzmanki'}
+  - {arrival: !!python/unicode '19:11', departure: !!python/unicode '19:12', station: "Miku\u0142\
+      owa"}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:16', station: "Batowice\
+      \ Luba\u0144skie"}
+  - {arrival: !!python/unicode '19:21', departure: !!python/unicode '19:22', station: "Zar\u0119\
+      ba"}
+  - {arrival: !!python/unicode '19:32', departure: !!python/unicode '19:33', station: "Luba\u0144\
+      \ \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '19:48', departure: !!python/unicode '19:48', station: "Olszyna\
+      \ Luba\u0144ska"}
+  - {arrival: !!python/unicode '19:53', departure: !!python/unicode '19:53', station: !!python/unicode 'Ubocze'}
+  - {arrival: !!python/unicode '19:57', departure: !!python/unicode '19:57', station: "Gryf\xF3\
+      w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '20:04', departure: !!python/unicode '20:05', station: "M\u0142\
+      y\u0144sko"}
+  - {arrival: !!python/unicode '20:12', departure: !!python/unicode '20:13', station: "R\u0119\
+      bisz\xF3w"}
+  - {arrival: !!python/unicode '20:18', departure: !!python/unicode '20:19', station: !!python/unicode 'Kwieciszowice'}
+  - {arrival: !!python/unicode '20:24', departure: !!python/unicode '20:24', station: !!python/unicode 'Stara
+      Kamienica'}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:31', station: !!python/unicode 'Rybnica'}
+  - {arrival: !!python/unicode '20:41', station: "Jelenia G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: A

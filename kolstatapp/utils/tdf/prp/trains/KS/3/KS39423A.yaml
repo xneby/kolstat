@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'KS 39423'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:01', station: !!python/unicode 'Wadowice'}
+  - {arrival: !!python/unicode '17:09', departure: !!python/unicode '17:09', station: !!python/unicode 'Chocznia'}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:12', station: "Chocznia\
+      \ G\xF3rna"}
+  - {arrival: !!python/unicode '17:19', departure: !!python/unicode '17:19', station: "Inwa\u0142\
+      d"}
+  - {arrival: !!python/unicode '17:33', departure: !!python/unicode '17:33', station: "Andrych\xF3\
+      w"}
+  - {arrival: !!python/unicode '17:49', departure: !!python/unicode '17:49', station: "K\u0119\
+      ty"}
+  - {arrival: !!python/unicode '17:52', departure: !!python/unicode '17:52', station: "K\u0119\
+      ty Podlesie"}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:04', station: !!python/unicode 'Kozy'}
+  - {arrival: !!python/unicode '18:16', departure: !!python/unicode '18:16', station: "Bielsko\
+      \ Bia\u0142a Wsch."}
+  - {arrival: !!python/unicode '18:19', station: "Bielsko Bia\u0142a G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

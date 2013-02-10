@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'R 91221'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:30', station: !!python/unicode 'Malbork'}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:35', station: "Kr\xF3\
+      lewo Malborskie"}
+  - {arrival: !!python/unicode '06:40', departure: !!python/unicode '06:41', station: !!python/unicode 'Stare
+      Pole'}
+  - {arrival: !!python/unicode '06:44', departure: !!python/unicode '06:44', station: !!python/unicode 'Fiszewo'}
+  - {arrival: !!python/unicode '06:48', departure: !!python/unicode '06:49', station: "Gronowo\
+      \ Elbl\u0105skie"}
+  - {arrival: !!python/unicode '06:59', station: "Elbl\u0105g"}
+  to: 2013-02-06
+type: train
+variant: A

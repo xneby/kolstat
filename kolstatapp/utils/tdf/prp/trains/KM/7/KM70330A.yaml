@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'KM 70330'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:17', station: "Ostro\u0142\u0119ka"}
+  - {arrival: !!python/unicode '12:28', departure: !!python/unicode '12:28', station: !!python/unicode 'Gierwaty'}
+  - {arrival: !!python/unicode '12:38', departure: !!python/unicode '12:38', station: !!python/unicode 'Goworowo'}
+  - {arrival: !!python/unicode '12:48', departure: !!python/unicode '12:48', station: !!python/unicode 'Pasieki'}
+  - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:55', station: "Prabuty\
+      \ G\xF3ry"}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:02', station: !!python/unicode 'Przetycz'}
+  - {arrival: !!python/unicode '13:08', departure: !!python/unicode '13:08', station: !!python/unicode 'Zygmuntowo
+      Mazow.'}
+  - {arrival: !!python/unicode '13:16', departure: !!python/unicode '13:16', station: !!python/unicode 'Dalekie'}
+  - {arrival: !!python/unicode '13:21', departure: !!python/unicode '13:21', station: "Leszczyd\xF3\
+      \u0142"}
+  - {arrival: !!python/unicode '13:29', departure: !!python/unicode '13:29', station: "Wyszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:32', station: !!python/unicode 'Rybienko'}
+  - {arrival: !!python/unicode '13:37', departure: !!python/unicode '13:37', station: "Lucyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: "Most\xF3\
+      wka"}
+  - {arrival: !!python/unicode '13:47', departure: !!python/unicode '13:47', station: !!python/unicode 'Grzegorzewo'}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: "Jarz\u0119\
+      bia \u0141\u0105ka"}
+  - {arrival: !!python/unicode '13:56', station: "T\u0142uszcz"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'R 44274'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:12', station: "Racib\xF3rz"}
+  - {arrival: !!python/unicode '05:17', departure: !!python/unicode '05:18', station: "Racib\xF3\
+      rz Markowice"}
+  - {arrival: !!python/unicode '05:23', departure: !!python/unicode '05:23', station: "N\u0119\
+      dza"}
+  - {arrival: !!python/unicode '05:30', departure: !!python/unicode '05:30', station: "Ku\u017A\
+      nia Raciborska"}
+  - {arrival: !!python/unicode '05:36', departure: !!python/unicode '05:36', station: !!python/unicode 'Dziergowice'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:45', station: !!python/unicode 'Bierawa'}
+  - {arrival: !!python/unicode '05:47', departure: !!python/unicode '05:48', station: "K\u0119\
+      dzierzyn Ko\u017Ale Az."}
+  - {arrival: !!python/unicode '05:53', station: "K\u0119dzierzyn Ko\u017Ale"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,43 @@
+mode: normal
+name: !!python/unicode 'AR 50121'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:52', station: "Toru\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:58', station: "Toru\u0144\
+      \ Miasto"}
+  - {arrival: !!python/unicode '08:01', departure: !!python/unicode '08:02', station: "Toru\u0144\
+      \ Wschodni"}
+  - {arrival: !!python/unicode '08:09', departure: !!python/unicode '08:09', station: "\u0141\
+      ysomice"}
+  - {arrival: !!python/unicode '08:18', departure: !!python/unicode '08:18', station: !!python/unicode 'Grzywna'}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:31', station: "Che\u0142\
+      m\u017Ca"}
+  - {arrival: !!python/unicode '08:35', departure: !!python/unicode '08:36', station: "G\u0142\
+      uchowo"}
+  - {arrival: !!python/unicode '08:40', departure: !!python/unicode '08:40', station: !!python/unicode 'Nawra'}
+  - {arrival: !!python/unicode '08:43', departure: !!python/unicode '08:44', station: !!python/unicode 'Grzybno'}
+  - {arrival: !!python/unicode '08:49', departure: !!python/unicode '08:49', station: "Unis\u0142\
+      aw Pom."}
+  - {arrival: !!python/unicode '08:53', departure: !!python/unicode '08:54', station: !!python/unicode 'Gzin'}
+  - {arrival: !!python/unicode '08:59', departure: !!python/unicode '09:00', station: "D\u0105\
+      browa Che\u0142mi\u0144ska"}
+  - {arrival: !!python/unicode '09:05', departure: !!python/unicode '09:06', station: !!python/unicode 'Ostromecko'}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:13', station: !!python/unicode 'Bydgoszcz
+      Fordon'}
+  - {arrival: !!python/unicode '09:15', departure: !!python/unicode '09:16', station: !!python/unicode 'Bydgoszcz
+      Akademia'}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:19', station: "Bydgoszcz\
+      \ Brdyuj\u015Bcie"}
+  - {arrival: !!python/unicode '09:22', departure: !!python/unicode '09:22', station: "Bydgoszcz\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '09:26', departure: !!python/unicode '09:26', station: !!python/unicode 'Bydgoszcz
+      Bielawy'}
+  - {arrival: !!python/unicode '09:29', departure: !!python/unicode '09:30', station: "Bydgoszcz\
+      \ Le\u015Bna"}
+  - {arrival: !!python/unicode '09:36', station: "Bydgoszcz G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,21 @@
+mode: normal
+name: !!python/unicode 'R 89132'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:30', station: !!python/unicode 'Koszalin'}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:39', station: !!python/unicode 'Skibno'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:45', station: !!python/unicode 'Wiekowo'}
+  - {arrival: !!python/unicode '05:53', departure: !!python/unicode '05:54', station: !!python/unicode 'Karwice'}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:01', station: "S\u0142\
+      awno"}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:08', station: "Wrze\u015B\
+      nica"}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:13', station: !!python/unicode 'Sycewice'}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:18', station: !!python/unicode 'Reblino'}
+  - {arrival: !!python/unicode '06:27', station: "S\u0142upsk"}
+  to: 2013-02-06
+type: train
+variant: A

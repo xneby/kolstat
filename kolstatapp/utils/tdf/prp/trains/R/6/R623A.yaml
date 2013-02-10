@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 623'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:15', station: "Skar\u017Cysko-Kamienna"}
+  - {arrival: !!python/unicode '20:18', departure: !!python/unicode '20:18', station: "Skar\u017C\
+      ysko Zachodnie"}
+  - {arrival: !!python/unicode '20:22', departure: !!python/unicode '20:23', station: "Suchedni\xF3\
+      w P\u0142n."}
+  - {arrival: !!python/unicode '20:25', departure: !!python/unicode '20:26', station: "Suchedni\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:29', departure: !!python/unicode '20:29', station: "Berez\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:34', departure: !!python/unicode '20:34', station: "\u0141\u0105\
+      czna"}
+  - {arrival: !!python/unicode '20:43', departure: !!python/unicode '20:44', station: "Zagna\u0144\
+      sk"}
+  - {arrival: !!python/unicode '20:48', departure: !!python/unicode '20:48', station: !!python/unicode 'Tumlin'}
+  - {arrival: !!python/unicode '20:53', departure: !!python/unicode '20:54', station: "Kostom\u0142\
+      oty"}
+  - {arrival: !!python/unicode '20:58', departure: !!python/unicode '20:58', station: !!python/unicode 'Kielce
+      Piaski'}
+  - {arrival: !!python/unicode '21:01', station: !!python/unicode 'Kielce'}
+  to: 2013-02-06
+type: train
+variant: A

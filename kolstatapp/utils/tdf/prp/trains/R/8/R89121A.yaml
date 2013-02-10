@@ -1,0 +1,57 @@
+mode: normal
+name: !!python/unicode 'R 89121'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:50', station: !!python/unicode 'Koszalin'}
+  - {arrival: !!python/unicode '05:57', departure: !!python/unicode '05:58', station: !!python/unicode 'Dunowo'}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:08', station: "Nos\xF3\
+      wko"}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:13', station: "Ko\u015B\
+      ciernica"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:29', station: "Bia\u0142\
+      ogard"}
+  - {arrival: !!python/unicode '06:36', departure: !!python/unicode '06:36', station: "Czarnow\u0119\
+      sy Pom."}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:43', station: "R\u0105\
+      bino"}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:49', station: !!python/unicode 'Nielep'}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:57', station: "\u015A\
+      widwin"}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:05', station: "Kl\u0119\
+      pnica"}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: !!python/unicode 'Worowo'}
+  - {arrival: !!python/unicode '07:16', departure: !!python/unicode '07:19', station: "\u0141\
+      obez"}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:25', station: "Lesi\u0119\
+      cin"}
+  - {arrival: !!python/unicode '07:31', departure: !!python/unicode '07:31', station: !!python/unicode 'Runowo
+      Pomorskie'}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:37', station: "Cieszyno\
+      \ \u0141obeskie"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:45', station: !!python/unicode 'Chociwel'}
+  - {arrival: !!python/unicode '07:49', departure: !!python/unicode '07:50', station: !!python/unicode 'Lisowo'}
+  - {arrival: !!python/unicode '07:55', departure: !!python/unicode '07:56', station: "Tr\u0105\
+      bki"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: !!python/unicode 'Gogolewo'}
+  - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:05', station: !!python/unicode 'Ulikowo'}
+  - {arrival: !!python/unicode '08:14', departure: !!python/unicode '08:17', station: "Stargard\
+      \ Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:22', station: "Grz\u0119\
+      dzice Stargardz."}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:26', station: !!python/unicode 'Miedwiecko'}
+  - {arrival: !!python/unicode '08:30', departure: !!python/unicode '08:30', station: !!python/unicode 'Reptowo'}
+  - {arrival: !!python/unicode '08:35', departure: !!python/unicode '08:36', station: !!python/unicode 'Szczecin
+      Zdunowo'}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:42', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '08:45', departure: !!python/unicode '08:45', station: !!python/unicode 'Szczecin
+      Zdroje'}
+  - {arrival: !!python/unicode '08:53', departure: !!python/unicode '08:54', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '08:57', station: "Szczecin G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

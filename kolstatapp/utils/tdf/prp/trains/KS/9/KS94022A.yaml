@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'KS 94022'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:18', station: "Wodzis\u0142aw \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:34', station: !!python/unicode 'Rybnik
+      Towarowy'}
+  - {arrival: !!python/unicode '20:38', departure: !!python/unicode '20:39', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '20:41', departure: !!python/unicode '20:42', station: !!python/unicode 'Rybnik
+      Paruszowiec'}
+  - {arrival: !!python/unicode '20:47', departure: !!python/unicode '20:48', station: !!python/unicode 'Leszczyny'}
+  - {arrival: !!python/unicode '20:53', departure: !!python/unicode '20:54', station: "Czerwionka\
+      \ D\u0119bie\u0144sko"}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '20:56', station: !!python/unicode 'Czerwionka'}
+  - {arrival: !!python/unicode '21:00', departure: !!python/unicode '21:01', station: "Orzesze\
+      \ Ja\u015Bkowice"}
+  - {arrival: !!python/unicode '21:04', departure: !!python/unicode '21:04', station: !!python/unicode 'Orzesze'}
+  - {arrival: !!python/unicode '21:12', departure: !!python/unicode '21:12', station: "\u0141\
+      aziska G\xF3rne"}
+  - {arrival: !!python/unicode '21:16', departure: !!python/unicode '21:17', station: "Miko\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '21:24', departure: !!python/unicode '21:24', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '21:27', departure: !!python/unicode '21:28', station: !!python/unicode 'Katowice
+      Ligota'}
+  - {arrival: !!python/unicode '21:35', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

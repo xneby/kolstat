@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'IR 87110'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:28', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '17:42', departure: !!python/unicode '17:42', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '17:59', departure: !!python/unicode '18:00', station: "Stargard\
+      \ Szczeci\u0144ski"}
+  - {arrival: !!python/unicode '18:19', departure: !!python/unicode '18:20', station: !!python/unicode 'Choszczno'}
+  - {arrival: !!python/unicode '18:39', departure: !!python/unicode '18:40', station: !!python/unicode 'Dobiegniew'}
+  - {arrival: !!python/unicode '18:57', departure: !!python/unicode '18:58', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '19:22', departure: !!python/unicode '19:22', station: !!python/unicode 'Wronki'}
+  - {arrival: !!python/unicode '19:37', departure: !!python/unicode '19:38', station: "Szamotu\u0142\
+      y"}
+  - {arrival: !!python/unicode '20:08', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

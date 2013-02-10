@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'R 32030'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:33', station: "Rzesz\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:38', station: "Mi\u0142\
+      ocin"}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:41', station: !!python/unicode 'Zaczernie'}
+  - {arrival: !!python/unicode '05:43', departure: !!python/unicode '05:44', station: "Rogo\u017A\
+      nica k/Rz"}
+  - {arrival: !!python/unicode '05:47', departure: !!python/unicode '05:47', station: "G\u0142\
+      og\xF3w Ma\u0142opolski"}
+  - {arrival: !!python/unicode '05:51', departure: !!python/unicode '05:51', station: "Budy\
+      \ G\u0142ogowskie"}
+  - {arrival: !!python/unicode '05:55', departure: !!python/unicode '05:55', station: "Wide\u0142\
+      ka"}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:07', station: !!python/unicode 'Kolbuszowa'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:10', station: "Zar\u0119\
+      bki"}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:13', station: !!python/unicode 'Cmolas'}
+  - {arrival: !!python/unicode '06:18', departure: !!python/unicode '06:19', station: "Komor\xF3\
+      w Podmurynia"}
+  - {arrival: !!python/unicode '06:22', departure: !!python/unicode '06:23', station: "Majdan\
+      \ Kr\xF3lewski"}
+  - {arrival: !!python/unicode '06:27', departure: !!python/unicode '06:27', station: "Nowa\
+      \ D\u0119ba"}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:41', station: "D\u0119\
+      ba Rozalin"}
+  - {arrival: !!python/unicode '06:44', departure: !!python/unicode '06:44', station: !!python/unicode 'Tarnowska
+      Wola'}
+  - {arrival: !!python/unicode '06:48', departure: !!python/unicode '06:48', station: !!python/unicode 'Jadachy'}
+  - {arrival: !!python/unicode '06:52', departure: !!python/unicode '06:52', station: !!python/unicode 'Cygany'}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:00', station: !!python/unicode 'Tarnobrzeg'}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:05', station: "Sob\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:11', departure: !!python/unicode '07:12', station: "Gr\u0119\
+      b\xF3w"}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:19', station: "Zbydni\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: !!python/unicode 'Turbia'}
+  - {arrival: !!python/unicode '07:31', station: !!python/unicode 'Stalowa Wola Rozwad.'}
+  to: 2013-02-06
+type: train
+variant: A

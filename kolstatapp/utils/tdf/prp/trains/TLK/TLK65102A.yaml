@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'TLK 65102'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:15', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '13:20', departure: !!python/unicode '13:21', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:52', station: "Oborniki\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '14:17', departure: !!python/unicode '14:18', station: "\u017B\
+      migr\xF3d"}
+  - {arrival: !!python/unicode '14:35', departure: !!python/unicode '14:36', station: !!python/unicode 'Rawicz'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '15:03', station: !!python/unicode 'Leszno'}
+  - {arrival: !!python/unicode '15:27', departure: !!python/unicode '15:30', station: "Ko\u015B\
+      cian"}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:35', station: "Pozna\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '17:09', departure: !!python/unicode '17:10', station: !!python/unicode 'Gniezno'}
+  - {arrival: !!python/unicode '17:29', departure: !!python/unicode '17:30', station: !!python/unicode 'Mogilno'}
+  - {arrival: !!python/unicode '17:49', departure: !!python/unicode '17:50', station: "Inowroc\u0142\
+      aw"}
+  - {arrival: !!python/unicode '18:21', departure: !!python/unicode '18:24', station: "Bydgoszcz\
+      \ G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '18:56', departure: !!python/unicode '18:57', station: !!python/unicode 'Laskowice
+      Pomorskie'}
+  - {arrival: !!python/unicode '19:44', departure: !!python/unicode '19:50', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '20:26', departure: !!python/unicode '20:31', station: "Gda\u0144\
+      sk G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '20:38', departure: !!python/unicode '20:42', station: "Gda\u0144\
+      sk Wrzeszcz"}
+  - {arrival: !!python/unicode '20:47', departure: !!python/unicode '20:48', station: "Gda\u0144\
+      sk Oliwa"}
+  - {arrival: !!python/unicode '20:53', departure: !!python/unicode '20:55', station: !!python/unicode 'Sopot'}
+  - {arrival: !!python/unicode '21:10', station: "Gdynia G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

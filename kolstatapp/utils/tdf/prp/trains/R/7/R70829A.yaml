@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'R 70829'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:33', station: "Zielona G\xF3ra"}
+  - {arrival: !!python/unicode '20:43', departure: !!python/unicode '20:43', station: "Bucha\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '20:49', departure: !!python/unicode '20:49', station: !!python/unicode 'Letnica'}
+  - {arrival: !!python/unicode '20:52', departure: !!python/unicode '20:52', station: "Ko\u017A\
+      la Ko\u017Cuchowska"}
+  - {arrival: !!python/unicode '20:57', departure: !!python/unicode '20:58', station: "Bogacz\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:02', departure: !!python/unicode '21:02', station: "Nowogr\xF3\
+      d Bobrza\u0144ski"}
+  - {arrival: !!python/unicode '21:05', departure: !!python/unicode '21:06', station: "Nowogr\xF3\
+      d Osiedle"}
+  - {arrival: !!python/unicode '21:16', departure: !!python/unicode '21:16', station: "Bieni\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:22', departure: !!python/unicode '21:22', station: !!python/unicode 'Lubanice'}
+  - {arrival: !!python/unicode '21:31', departure: !!python/unicode '21:32', station: "\u017B\
+      ary"}
+  - {arrival: !!python/unicode '21:45', station: "\u017Baga\u0144"}
+  to: 2013-02-06
+type: train
+variant: A

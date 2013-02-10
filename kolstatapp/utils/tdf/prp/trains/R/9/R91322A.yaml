@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'R 91322'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:22', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '05:25', departure: !!python/unicode '05:26', station: !!python/unicode 'Lisewo'}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:36', station: !!python/unicode 'Szymankowo'}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:40', station: !!python/unicode 'Stogi
+      Malborskie'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:44', station: "Malbork\
+      \ Ka\u0142dowo"}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:53', station: !!python/unicode 'Malbork'}
+  - {arrival: !!python/unicode '05:57', departure: !!python/unicode '05:58', station: "Kr\xF3\
+      lewo Malborskie"}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: !!python/unicode 'Stare
+      Pole'}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:07', station: !!python/unicode 'Fiszewo'}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:12', station: "Gronowo\
+      \ Elbl\u0105skie"}
+  - {arrival: !!python/unicode '06:22', station: "Elbl\u0105g"}
+  to: 2013-02-06
+type: train
+variant: A

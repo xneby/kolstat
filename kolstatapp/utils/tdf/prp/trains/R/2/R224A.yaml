@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 224'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:00', station: "Zamo\u015B\u0107"}
+  - {arrival: !!python/unicode '13:10', departure: !!python/unicode '13:17', station: !!python/unicode 'Zawada'}
+  - {arrival: !!python/unicode '13:21', departure: !!python/unicode '13:22', station: "Z\u0142\
+      ojec"}
+  - {arrival: !!python/unicode '13:26', departure: !!python/unicode '13:27', station: !!python/unicode 'Ruskie
+      Piaski'}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:33', station: !!python/unicode 'Tarzymiechy'}
+  - {arrival: !!python/unicode '13:38', departure: !!python/unicode '13:39', station: !!python/unicode 'Izbica'}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: !!python/unicode 'Krasnystaw
+      Miasto'}
+  - {arrival: !!python/unicode '13:56', departure: !!python/unicode '13:56', station: !!python/unicode 'Krasnystaw
+      Fabryczny'}
+  - {arrival: !!python/unicode '14:00', departure: !!python/unicode '14:00', station: "\u017B\
+      ulin"}
+  - {arrival: !!python/unicode '14:02', departure: !!python/unicode '14:03', station: "Zagrody\
+      \ Ko\u015Bci\xF3\u0142"}
+  - {arrival: !!python/unicode '14:09', departure: !!python/unicode '14:16', station: !!python/unicode 'Rejowiec'}
+  - {arrival: !!python/unicode '14:22', departure: !!python/unicode '14:22', station: "Zawad\xF3\
+      wka"}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:29', station: "Che\u0142\
+      m Miasto"}
+  - {arrival: !!python/unicode '14:32', station: "Che\u0142m"}
+  to: 2013-02-06
+type: train
+variant: A

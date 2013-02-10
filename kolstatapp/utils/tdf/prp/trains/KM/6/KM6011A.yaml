@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'KM 6011'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:17', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:24', station: "Radom\
+      \ Po\u0142udniowy"}
+  - {arrival: !!python/unicode '05:28', departure: !!python/unicode '05:28', station: "Ro\u017C\
+      ki"}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:33', station: !!python/unicode 'Ruda
+      Wielka'}
+  - {arrival: !!python/unicode '05:36', departure: !!python/unicode '05:36', station: !!python/unicode 'Wola
+      Lipieniecka'}
+  - {arrival: !!python/unicode '05:41', departure: !!python/unicode '05:41', station: "Jastrz\u0105\
+      b"}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:44', station: "G\u0105\
+      sawy Pleba\u0144skie"}
+  - {arrival: !!python/unicode '05:48', departure: !!python/unicode '05:48', station: "Szyd\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: !!python/unicode 'Lipowe
+      Pole'}
+  - {arrival: !!python/unicode '05:59', station: "Skar\u017Cysko-Kamienna"}
+  to: 2013-02-06
+type: train
+variant: A

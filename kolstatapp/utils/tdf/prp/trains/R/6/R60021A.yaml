@@ -1,0 +1,25 @@
+mode: normal
+name: !!python/unicode 'R 60021'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:26', station: !!python/unicode 'Zawadzkie'}
+  - {arrival: !!python/unicode '05:32', departure: !!python/unicode '05:33', station: !!python/unicode 'Kolonowskie'}
+  - {arrival: !!python/unicode '05:36', departure: !!python/unicode '05:36', station: !!python/unicode 'Fosowskie'}
+  - {arrival: !!python/unicode '05:43', departure: !!python/unicode '05:43', station: "Staniszcze\
+      \ Ma\u0142e"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:55', station: "Krasiej\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:01', station: !!python/unicode 'Ozimek'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:11', station: "D\u0119\
+      bska Ku\u017Ania"}
+  - {arrival: !!python/unicode '06:14', departure: !!python/unicode '06:15', station: "Chrz\u0105\
+      stowice"}
+  - {arrival: !!python/unicode '06:19', departure: !!python/unicode '06:19', station: "Suchy\
+      \ B\xF3r Opolski"}
+  - {arrival: !!python/unicode '06:30', station: "Opole G\u0142\xF3wne"}
+  to: 2013-02-06
+type: train
+variant: A

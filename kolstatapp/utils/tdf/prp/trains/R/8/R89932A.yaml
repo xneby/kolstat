@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'R 89932'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:48', station: !!python/unicode 'Ustka'}
+  - {arrival: !!python/unicode '18:55', departure: !!python/unicode '18:55', station: "Charnowo\
+      \ S\u0142upskie"}
+  - {arrival: !!python/unicode '18:57', departure: !!python/unicode '18:58', station: "Ga\u0142\
+      \u0119zinowo"}
+  - {arrival: !!python/unicode '19:00', departure: !!python/unicode '19:00', station: !!python/unicode 'Strzelinko'}
+  - {arrival: !!python/unicode '19:10', station: "S\u0142upsk"}
+  to: 2013-02-06
+type: train
+variant: A

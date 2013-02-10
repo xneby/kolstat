@@ -1,0 +1,40 @@
+mode: normal
+name: !!python/unicode 'R 1117'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:26', station: "D\u0119blin"}
+  - {arrival: !!python/unicode '15:32', departure: !!python/unicode '15:32', station: !!python/unicode 'Zarzeka'}
+  - {arrival: !!python/unicode '15:38', departure: !!python/unicode '15:39', station: "Go\u0142\
+      \u0105b"}
+  - {arrival: !!python/unicode '15:42', departure: !!python/unicode '15:42', station: "Pu\u0142\
+      awy Azoty"}
+  - {arrival: !!python/unicode '15:47', departure: !!python/unicode '15:47', station: "Pu\u0142\
+      awy Chemia"}
+  - {arrival: !!python/unicode '15:49', departure: !!python/unicode '15:50', station: "Pu\u0142\
+      awy Miasto"}
+  - {arrival: !!python/unicode '15:53', departure: !!python/unicode '15:53', station: "Pu\u0142\
+      awy"}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:57', station: "Po\u017C\
+      \xF3g"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: !!python/unicode 'Klementowice'}
+  - {arrival: !!python/unicode '16:07', departure: !!python/unicode '16:07', station: "\u0141\
+      opatki"}
+  - {arrival: !!python/unicode '16:11', departure: !!python/unicode '16:12', station: "Na\u0142\
+      \u0119cz\xF3w"}
+  - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:16', station: "Czes\u0142\
+      awice"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:19', station: !!python/unicode 'Sadurki'}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:23', station: "Mi\u0142\
+      ocin Lubelski"}
+  - {arrival: !!python/unicode '16:27', departure: !!python/unicode '16:27', station: "Motycz\
+      \ Le\u015Bny"}
+  - {arrival: !!python/unicode '16:31', departure: !!python/unicode '16:32', station: !!python/unicode 'Motycz'}
+  - {arrival: !!python/unicode '16:35', departure: !!python/unicode '16:36', station: !!python/unicode 'Stasin
+      Polny'}
+  - {arrival: !!python/unicode '16:43', station: !!python/unicode 'Lublin'}
+  to: 2013-02-06
+type: train
+variant: A

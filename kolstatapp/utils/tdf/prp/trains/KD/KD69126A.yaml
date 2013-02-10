@@ -1,0 +1,49 @@
+mode: normal
+name: !!python/unicode 'KD 69126'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:13', station: !!python/unicode 'Legnica'}
+  - {arrival: !!python/unicode '14:18', departure: !!python/unicode '14:18', station: !!python/unicode 'Legnica
+      Piekary'}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:24', station: "Nowa\
+      \ Wie\u015B Legnicka"}
+  - {arrival: !!python/unicode '14:31', departure: !!python/unicode '14:32', station: "Przyby\u0142\
+      owice"}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: !!python/unicode 'Stary
+      Jawor'}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:45', station: !!python/unicode 'Jawor'}
+  - {arrival: !!python/unicode '14:57', departure: !!python/unicode '14:57', station: "Rogo\u017A\
+      nica"}
+  - {arrival: !!python/unicode '15:01', departure: !!python/unicode '15:01', station: "Gocza\u0142\
+      k\xF3w"}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: !!python/unicode 'Strzegom'}
+  - {arrival: !!python/unicode '15:16', departure: !!python/unicode '15:16', station: !!python/unicode 'Stanowice'}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:37', station: "Jaworzyna\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '15:41', departure: !!python/unicode '15:41', station: "Boles\u0142\
+      awice \u015Awidnic."}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:47', station: "\u015A\
+      widnica Miasto"}
+  - {arrival: !!python/unicode '15:54', departure: !!python/unicode '15:54', station: "Krzy\u017C\
+      owa"}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:00', station: "Mo\u015B\
+      cisko Dzier\u017C."}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:07', station: "Dzier\u017C\
+      oni\xF3w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '16:20', departure: !!python/unicode '16:28', station: "Pi\u0142\
+      awa G\xF3rna"}
+  - {arrival: !!python/unicode '16:40', departure: !!python/unicode '16:41', station: "Z\u0105\
+      bkowice \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '16:51', departure: !!python/unicode '17:14', station: "Kamieniec\
+      \ Z\u0105bkowicki"}
+  - {arrival: !!python/unicode '17:23', departure: !!python/unicode '17:23', station: "Bardo\
+      \ Przy\u0142\u0119k"}
+  - {arrival: !!python/unicode '17:26', departure: !!python/unicode '17:27', station: "Bardo\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '17:38', station: "K\u0142odzko G\u0142\xF3wne"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'R 60927'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:37', station: "Opole G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '15:44', departure: !!python/unicode '15:44', station: "Opole\
+      \ Gos\u0142awice"}
+  - {arrival: !!python/unicode '15:52', departure: !!python/unicode '15:52', station: "Kot\xF3\
+      rz Ma\u0142y"}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:56', station: !!python/unicode 'Osowiec
+      Przystanek'}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: "Je\u0142\
+      owa"}
+  - {arrival: !!python/unicode '16:07', departure: !!python/unicode '16:08', station: "Ka\u0142\
+      y"}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:12', station: !!python/unicode 'Laskowice
+      Oleskie'}
+  - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:15', station: "Tu\u0142\
+      y"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:19', station: !!python/unicode 'Bukowo'}
+  - {arrival: !!python/unicode '16:24', departure: !!python/unicode '16:25', station: !!python/unicode 'Borkowice'}
+  - {arrival: !!python/unicode '16:33', station: !!python/unicode 'Kluczbork'}
+  to: 2013-02-06
+type: train
+variant: A

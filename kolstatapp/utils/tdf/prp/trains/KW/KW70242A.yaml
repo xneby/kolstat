@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'KW 70242'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:01', station: "Zb\u0105szynek"}
+  - {arrival: !!python/unicode '16:07', departure: !!python/unicode '16:07', station: "Zb\u0105\
+      szy\u0144"}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:13', station: "Chro\u015B\
+      nica"}
+  - {arrival: !!python/unicode '16:17', departure: !!python/unicode '16:18', station: "Jastrz\u0119\
+      bsko"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:22', station: "Nowy\
+      \ Tomy\u015Bl"}
+  - {arrival: !!python/unicode '16:27', departure: !!python/unicode '16:27', station: "S\u0105\
+      topy"}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:33', station: "Pora\u017C\
+      yn"}
+  - {arrival: !!python/unicode '16:38', departure: !!python/unicode '16:39', station: !!python/unicode 'Opalenica'}
+  - {arrival: !!python/unicode '16:43', departure: !!python/unicode '16:43', station: !!python/unicode 'Wojnowice
+      Wlkp.'}
+  - {arrival: !!python/unicode '16:47', departure: !!python/unicode '16:48', station: !!python/unicode 'Buk'}
+  - {arrival: !!python/unicode '16:52', departure: !!python/unicode '16:52', station: !!python/unicode 'Otusz'}
+  - {arrival: !!python/unicode '16:57', departure: !!python/unicode '16:57', station: !!python/unicode 'Dopiewo'}
+  - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:02', station: "Pal\u0119\
+      dzie"}
+  - {arrival: !!python/unicode '17:07', departure: !!python/unicode '17:07', station: "Pozna\u0144\
+      \ Junikowo"}
+  - {arrival: !!python/unicode '17:11', departure: !!python/unicode '17:11', station: "Pozna\u0144\
+      \ G\xF3rczyn"}
+  - {arrival: !!python/unicode '17:17', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

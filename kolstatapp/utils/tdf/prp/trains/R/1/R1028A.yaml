@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'R 1028'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:43', station: "Rzesz\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '14:53', station: !!python/unicode 'Rudna
+      Wielka'}
+  - {arrival: !!python/unicode '14:57', departure: !!python/unicode '14:58', station: "\u015A\
+      wilcza"}
+  - {arrival: !!python/unicode '15:03', departure: !!python/unicode '15:04', station: !!python/unicode 'Trzciana'}
+  - {arrival: !!python/unicode '15:09', departure: !!python/unicode '15:09', station: "B\u0119\
+      dziemy\u015Bl"}
+  - {arrival: !!python/unicode '15:15', departure: !!python/unicode '15:16', station: "S\u0119\
+      dzisz\xF3w Ma\u0142opolski"}
+  - {arrival: !!python/unicode '15:21', departure: !!python/unicode '15:21', station: !!python/unicode 'Ropczyce
+      Witkowice'}
+  - {arrival: !!python/unicode '15:25', departure: !!python/unicode '15:25', station: !!python/unicode 'Ropczyce'}
+  - {arrival: !!python/unicode '15:30', departure: !!python/unicode '15:31', station: !!python/unicode 'Lubzina'}
+  - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:43', station: "D\u0119\
+      bica"}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: !!python/unicode 'Grabiny'}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:57', station: !!python/unicode 'Czarna
+      Tarnowska'}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:03', station: "Wa\u0142\
+      ki"}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:09', station: "Wola\
+      \ Rz\u0119dzi\u0144ska"}
+  - {arrival: !!python/unicode '16:19', station: "Tarn\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

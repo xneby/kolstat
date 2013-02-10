@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'R 80427'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:52', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '08:59', departure: !!python/unicode '08:59', station: !!python/unicode 'Stare
+      Bielice'}
+  - {arrival: !!python/unicode '09:05', departure: !!python/unicode '09:06', station: !!python/unicode 'Nowe
+      Drezdenko'}
+  - {arrival: !!python/unicode '09:14', departure: !!python/unicode '09:14', station: !!python/unicode 'Stare
+      Kurowo'}
+  - {arrival: !!python/unicode '09:20', departure: !!python/unicode '09:20', station: "Strzelce\
+      \ Kraj.Wsch\xF3d"}
+  - {arrival: !!python/unicode '09:24', departure: !!python/unicode '09:24', station: !!python/unicode 'Sarbiewo'}
+  - {arrival: !!python/unicode '09:29', departure: !!python/unicode '09:29', station: "G\xF3\
+      rki Noteckie"}
+  - {arrival: !!python/unicode '09:35', departure: !!python/unicode '09:35', station: !!python/unicode 'Santok'}
+  - {arrival: !!python/unicode '09:47', departure: !!python/unicode '09:48', station: "Gorz\xF3\
+      w Wlkp."}
+  - {arrival: !!python/unicode '09:51', departure: !!python/unicode '09:52', station: "Gorz\xF3\
+      w Wlkp.Wieprz."}
+  - {arrival: !!python/unicode '09:55', departure: !!python/unicode '09:56', station: "\u0141\
+      upowo"}
+  - {arrival: !!python/unicode '09:59', departure: !!python/unicode '09:59', station: !!python/unicode 'Bogdaniec'}
+  - {arrival: !!python/unicode '10:04', departure: !!python/unicode '10:04', station: !!python/unicode 'Nowiny
+      Wielkie'}
+  - {arrival: !!python/unicode '10:10', departure: !!python/unicode '10:10', station: !!python/unicode 'Witnica'}
+  - {arrival: !!python/unicode '10:17', departure: !!python/unicode '10:17', station: "Kamie\u0144\
+      \ Ma\u0142y"}
+  - {arrival: !!python/unicode '10:23', departure: !!python/unicode '10:24', station: "D\u0105\
+      broszyn"}
+  - {arrival: !!python/unicode '10:30', station: !!python/unicode 'Kostrzyn'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 311'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:12', station: !!python/unicode 'Krzeszowice'}
+  - {arrival: !!python/unicode '07:24', departure: !!python/unicode '07:24', station: !!python/unicode 'Rudawa'}
+  - {arrival: !!python/unicode '07:33', departure: !!python/unicode '07:34', station: "Zabierz\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:37', departure: !!python/unicode '07:37', station: "Krak\xF3\
+      w Business Park"}
+  - {arrival: !!python/unicode '07:40', departure: !!python/unicode '07:41', station: "Krak\xF3\
+      w Mydlniki Wap."}
+  - {arrival: !!python/unicode '07:43', departure: !!python/unicode '07:43', station: "Krak\xF3\
+      w Mydlniki"}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:48', station: "Krak\xF3\
+      w \u0141obz\xF3w"}
+  - {arrival: !!python/unicode '07:53', station: "Krak\xF3w G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

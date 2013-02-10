@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'R 30341'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:00', station: !!python/unicode 'Mogilno'}
+  - {arrival: !!python/unicode '05:07', departure: !!python/unicode '05:07', station: "Ko\u0142\
+      odziejewo"}
+  - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:13', station: !!python/unicode 'Janikowo'}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:25', station: "Inowroc\u0142\
+      aw"}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:33', station: "Wi\u0119\
+      c\u0142awice"}
+  - {arrival: !!python/unicode '05:39', departure: !!python/unicode '05:40', station: "Wierzchos\u0142\
+      awice"}
+  - {arrival: !!python/unicode '05:46', departure: !!python/unicode '05:47', station: !!python/unicode 'Gniewkowo'}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '05:53', station: "Suchat\xF3\
+      wka"}
+  - {arrival: !!python/unicode '06:04', departure: !!python/unicode '06:05', station: "Toru\u0144\
+      \ Kluczyki"}
+  - {arrival: !!python/unicode '06:12', station: "Toru\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

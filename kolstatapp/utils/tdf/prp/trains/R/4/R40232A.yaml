@@ -1,0 +1,14 @@
+mode: normal
+name: !!python/unicode 'R 40232'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:20', station: "Toru\u0144 Wschodni"}
+  - {arrival: !!python/unicode '09:23', departure: !!python/unicode '09:24', station: "Toru\u0144\
+      \ Miasto"}
+  - {arrival: !!python/unicode '09:29', station: "Toru\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

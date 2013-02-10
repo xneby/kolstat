@@ -1,0 +1,49 @@
+mode: normal
+name: !!python/unicode 'R 67532'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:37', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:43', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:48', station: "Wroc\u0142\
+      aw Nadodrze"}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:54', station: "Wroc\u0142\
+      aw So\u0142tysowice"}
+  - {arrival: !!python/unicode '07:58', departure: !!python/unicode '07:58', station: "Wroc\u0142\
+      aw Psie Pole"}
+  - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:06', station: "D\u0142\
+      ugo\u0142\u0119ka"}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:12', station: "Borowa\
+      \ Ole\u015Bnicka"}
+  - {arrival: !!python/unicode '08:18', departure: !!python/unicode '08:19', station: "Ole\u015B\
+      nica Rataje"}
+  - {arrival: !!python/unicode '08:21', departure: !!python/unicode '08:22', station: "D\u0105\
+      browa Ole\u015Bnicka"}
+  - {arrival: !!python/unicode '08:26', departure: !!python/unicode '08:27', station: !!python/unicode 'Dobroszyce'}
+  - {arrival: !!python/unicode '08:34', departure: !!python/unicode '08:34', station: !!python/unicode 'Grabowno
+      Wielkie'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:42', station: "Twardog\xF3\
+      ra Sycowska"}
+  - {arrival: !!python/unicode '08:54', departure: !!python/unicode '08:55', station: !!python/unicode 'Bukowina
+      Sycowska'}
+  - {arrival: !!python/unicode '09:02', departure: !!python/unicode '09:02', station: "Mi\u0119\
+      dzyb\xF3rz Sycowski"}
+  - {arrival: !!python/unicode '09:07', departure: !!python/unicode '09:07', station: "Paw\u0142\
+      \xF3w Wlkp."}
+  - {arrival: !!python/unicode '09:13', departure: !!python/unicode '09:13', station: "So\u015B\
+      nie Ostrowskie"}
+  - {arrival: !!python/unicode '09:17', departure: !!python/unicode '09:18', station: !!python/unicode 'Granowiec'}
+  - {arrival: !!python/unicode '09:21', departure: !!python/unicode '09:21', station: !!python/unicode 'Garki'}
+  - {arrival: !!python/unicode '09:25', departure: !!python/unicode '09:25', station: "Odolan\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:28', departure: !!python/unicode '09:29', station: "Tarcha\u0142\
+      y Wielkie"}
+  - {arrival: !!python/unicode '09:33', departure: !!python/unicode '09:34', station: !!python/unicode 'Topola
+      Osiedle'}
+  - {arrival: !!python/unicode '09:41', station: "Ostr\xF3w Wlkp."}
+  to: 2013-02-06
+type: train
+variant: A

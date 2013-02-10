@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 70121'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:10', station: "Zielona G\xF3ra"}
+  - {arrival: !!python/unicode '19:17', departure: !!python/unicode '19:18', station: !!python/unicode 'Przylep'}
+  - {arrival: !!python/unicode '19:24', departure: !!python/unicode '19:25', station: "Czerwie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '19:37', departure: !!python/unicode '19:37', station: !!python/unicode 'Nietkowice'}
+  - {arrival: !!python/unicode '19:45', departure: !!python/unicode '19:46', station: "B\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '19:54', departure: !!python/unicode '19:54', station: !!python/unicode 'Radnica'}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:16', station: !!python/unicode 'Bytnica'}
+  - {arrival: !!python/unicode '20:21', departure: !!python/unicode '20:22', station: "Budach\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:27', departure: !!python/unicode '20:28', station: !!python/unicode 'Pliszka'}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:33', station: "G\u0105\
+      dk\xF3w Wielki"}
+  - {arrival: !!python/unicode '20:41', departure: !!python/unicode '20:42', station: !!python/unicode 'Jerzmanice
+      Lubuskie'}
+  - {arrival: !!python/unicode '20:53', station: !!python/unicode 'Rzepin'}
+  to: 2013-02-06
+type: train
+variant: A

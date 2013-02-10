@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 58743'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:01', station: !!python/unicode 'Chojnice'}
+  - {arrival: !!python/unicode '08:08', departure: !!python/unicode '08:08', station: !!python/unicode 'Moszczenica
+      Pomorska'}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:13', station: "Wierzchowo\
+      \ Cz\u0142uchow."}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:19', station: "Bukowo\
+      \ Cz\u0142uchowskie"}
+  - {arrival: !!python/unicode '08:29', departure: !!python/unicode '08:30', station: "Lipka\
+      \ Kraje\u0144ska"}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:39', station: "Zakrzewo\
+      \ Z\u0142otowskie"}
+  - {arrival: !!python/unicode '08:45', departure: !!python/unicode '08:46', station: "Z\u0142\
+      ot\xF3w"}
+  - {arrival: !!python/unicode '08:53', departure: !!python/unicode '08:59', station: !!python/unicode 'Krajenka'}
+  - {arrival: !!python/unicode '09:03', departure: !!python/unicode '09:04', station: !!python/unicode 'Dolnik'}
+  - {arrival: !!python/unicode '09:08', departure: !!python/unicode '09:09', station: "Sk\xF3\
+      rka"}
+  - {arrival: !!python/unicode '09:15', departure: !!python/unicode '09:16', station: "Pi\u0142\
+      a Podlasie"}
+  - {arrival: !!python/unicode '09:21', departure: !!python/unicode '09:22', station: "Pi\u0142\
+      a G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '09:30', departure: !!python/unicode '09:31', station: !!python/unicode 'Stobno'}
+  - {arrival: !!python/unicode '09:38', departure: !!python/unicode '09:38', station: "Bia\u0142\
+      a Pilska"}
+  - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:43', station: !!python/unicode 'Trzcianka'}
+  - {arrival: !!python/unicode '09:49', departure: !!python/unicode '09:49', station: !!python/unicode 'Siedlisko
+      Czarnk.'}
+  - {arrival: !!python/unicode '09:53', departure: !!python/unicode '09:54', station: !!python/unicode 'Biernatowo'}
+  - {arrival: !!python/unicode '10:03', departure: !!python/unicode '10:03', station: "Wiele\u0144\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '10:15', station: "Krzy\u017C"}
+  to: 2013-02-06
+type: train
+variant: A

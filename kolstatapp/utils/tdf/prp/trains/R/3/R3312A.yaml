@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 3312'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:07', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:18', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:26', station: "\u0141\xF3\
+      d\u017A Widzew"}
+  - {arrival: !!python/unicode '06:32', departure: !!python/unicode '06:33', station: "\u0141\xF3\
+      d\u017A Andrzej\xF3w"}
+  - {arrival: !!python/unicode '06:35', departure: !!python/unicode '06:36', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:39', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '06:47', departure: !!python/unicode '06:47', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '06:50', departure: !!python/unicode '06:51', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:56', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:00', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:03', departure: !!python/unicode '07:04', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:07', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '07:11', departure: !!python/unicode '07:12', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '07:16', departure: !!python/unicode '07:17', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '07:21', departure: !!python/unicode '07:21', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:25', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '07:30', station: !!python/unicode 'Skierniewice'}
+  to: 2013-02-06
+type: train
+variant: A

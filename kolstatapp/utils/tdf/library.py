@@ -6,6 +6,14 @@ from datetime import timedelta, time
 from kolstatapp.models import Train, TrainCategory, TrainTimetable, Station, TrainStop, TrainCouple
 from kolstatapp.utils.gsk.dijkstra import Dijkstra
 
+import threading
+
+from django.db import connection, transaction
+
+dijkstra_lock = threading.Lock()
+mysql_lock = threading.Lock()
+DZIEN = timedelta(days = 1)
+
 def time_from_yaml(t):
 	if t is None:
 		return None
@@ -17,19 +25,19 @@ def time_from_yaml(t):
 	return time(minute = t % 60, hour = t // 60)
 
 def import_train(yaml, mode):
+	global dijkstra_lock
+
 	train = Train()
 
 	name = yaml['name']
 	category, number = name.split(' ')
 
 	try:
-		t, = train.search(name)
+		t, = train.search(name, variant = yaml['variant'])
 	except ValueError:
 		pass
 	else:
-		print "Już było"
 		if mode == 'force' or True:
-			print 'Usuwam'
 			t.delete()
 		else:
 			return
@@ -37,35 +45,42 @@ def import_train(yaml, mode):
 
 	train.category = TrainCategory.objects.get(name = category)
 	train.number = number
-	train.variant = 'A'
+	train.variant = yaml['variant']
 
 	train.save()
 
 	operations = yaml['operations']
-
-	service = {}
 
 	for oper in operations:
 		if oper['mode'] == 'interval':
 			start = oper['from']
 			end = oper['to']
 
-			service[end] = oper['timetable']
-
-			while start != end:
-				service[start] = oper['timetable']
-				start += timedelta(days = 1)
-
 		elif oper['mode'] == 'single':
-			date = oper['date']
+			start = oper['date']
+			end = oper['date']
 			service[date] = oper['timetable']
 
-	stops = []
+		timetable = oper['timetable']
+		
+		tts = []
+		tts.append(TrainTimetable(train = train, date = end))
+		nstart = start
+		while nstart != end:
+			tts.append(TrainTimetable(train = train, date = nstart))
+			nstart += DZIEN
 
-	for date, timetable in service.items():
-		print date
-		tt = TrainTimetable(train = train, date = date)
-		tt.save()
+		TrainTimetable.objects.bulk_create(tts)
+
+		tts = train.traintimetable_set.all()
+		ttbd = {}
+
+		for x in tts:
+			ttbd[x.date] = x
+
+		stops = []
+
+		tt = ttbd[start]
 
 		i = 1
 		prev = None
@@ -73,7 +88,11 @@ def import_train(yaml, mode):
 
 		for description in timetable:
 			stop = TrainStop(timetable = tt)
-			stop.station = Station.search(description['station'])[0]
+			try:
+				stop.station = Station.search(description['station'])[0]
+			except IndexError:
+				print description
+				raise
 			stop.departure = time_from_yaml(description.get('departure', None))
 			stop.arrival = time_from_yaml(description.get('arrival', None))
 			stop.order = i
@@ -90,17 +109,30 @@ def import_train(yaml, mode):
 			if prev is None:
 				stop.distance = 0.0
 			else:
+				dijkstra_lock.acquire()
 				stop.distance = prev.distance + Dijkstra.length(prev.station.gskID, stop.station.gskID)
+				dijkstra_lock.release()
 
 			prev = stop
 
 			stops.append(stop)
 
 			i += 1
-		if arr_over:
-			print 'arr_over!'
 
-	TrainStop.objects.bulk_create(stops)
+		TrainStop.objects.bulk_create(stops)
+
+		cursor = connection.cursor()
+
+		while start != end:
+			tto = ttbd[start]
+			ttn = ttbd[end]
+
+			with mysql_lock:
+				cursor.execute(''' INSERT INTO kolstatapp_trainstop SELECT NULL, {}, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, `order` FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
+
+			end -= DZIEN
+		transaction.commit_unless_managed()
+
 
 def import_couple(yaml, mode):
 	for field in ('station', 'trains'):

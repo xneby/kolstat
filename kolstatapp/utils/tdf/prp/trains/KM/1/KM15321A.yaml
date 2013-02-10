@@ -1,0 +1,42 @@
+mode: normal
+name: !!python/unicode 'KM 15321'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:20', station: !!python/unicode 'Nasielsk'}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:24', station: "K\u0105\
+      tne"}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:27', station: !!python/unicode 'Jackowo
+      Dworskie'}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:31', station: "\u015A\
+      wiercze"}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:35', station: "Ka\u0142\
+      \u0119czyn"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:42', station: "G\u0105\
+      socin"}
+  - {arrival: !!python/unicode '05:47', departure: !!python/unicode '05:47', station: "Go\u0142\
+      otczyzna"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: "Ciechan\xF3\
+      w Przemys\u0142."}
+  - {arrival: !!python/unicode '05:59', departure: !!python/unicode '05:59', station: "Ciechan\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:05', departure: !!python/unicode '06:05', station: !!python/unicode 'Czeruchy'}
+  - {arrival: !!python/unicode '06:09', departure: !!python/unicode '06:09', station: "Kro\u015B\
+      nice Maz."}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:13', station: !!python/unicode 'Konopki'}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:17', station: !!python/unicode 'Stupsk
+      Mazowiecki'}
+  - {arrival: !!python/unicode '06:22', departure: !!python/unicode '06:22', station: !!python/unicode 'Wyszyny'}
+  - {arrival: !!python/unicode '06:27', departure: !!python/unicode '06:27', station: "M\u0142\
+      awa Miasto"}
+  - {arrival: !!python/unicode '06:32', departure: !!python/unicode '06:32', station: "M\u0142\
+      awa"}
+  - {arrival: !!python/unicode '06:38', departure: !!python/unicode '06:38', station: "I\u0142\
+      owo"}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:43', station: !!python/unicode 'Narzym'}
+  - {arrival: !!python/unicode '06:51', station: "Dzia\u0142dowo"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'KS 44220'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:36', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '16:39', departure: !!python/unicode '16:40', station: !!python/unicode 'Katowice
+      Zawodzie'}
+  - {arrival: !!python/unicode '16:43', departure: !!python/unicode '16:43', station: "Katowice\
+      \ Szop.P\u0142d."}
+  - {arrival: !!python/unicode '16:51', departure: !!python/unicode '16:51', station: "Mys\u0142\
+      owice"}
+  - {arrival: !!python/unicode '17:04', station: !!python/unicode 'Imielin'}
+  to: 2013-02-06
+type: train
+variant: A

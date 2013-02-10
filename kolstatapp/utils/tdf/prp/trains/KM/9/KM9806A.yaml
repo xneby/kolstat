@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'KM 9806'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:40', station: "Mi\u0144sk Mazowiecki"}
+  - {arrival: !!python/unicode '08:45', departure: !!python/unicode '08:45', station: "Wrzos\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:48', departure: !!python/unicode '08:48', station: "Nowe\
+      \ D\u0119be Wielkie"}
+  - {arrival: !!python/unicode '08:51', departure: !!python/unicode '08:51', station: "D\u0119\
+      be Wielkie"}
+  - {arrival: !!python/unicode '08:54', departure: !!python/unicode '08:54', station: !!python/unicode 'Cisie'}
+  - {arrival: !!python/unicode '08:57', departure: !!python/unicode '08:57', station: "Halin\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:01', departure: !!python/unicode '09:01', station: "Sulej\xF3\
+      wek Mi\u0142osna"}
+  - {arrival: !!python/unicode '09:04', departure: !!python/unicode '09:04', station: "Sulej\xF3\
+      wek"}
+  - {arrival: !!python/unicode '09:07', departure: !!python/unicode '09:07', station: !!python/unicode 'Warszawa-Wola
+      Grzyb.'}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:09', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: !!python/unicode '09:14', departure: !!python/unicode '09:14', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: !!python/unicode '09:23', departure: !!python/unicode '09:26', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '09:28', departure: !!python/unicode '09:28', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '09:31', departure: !!python/unicode '09:31', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '09:34', departure: !!python/unicode '09:34', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '09:36', departure: !!python/unicode '09:36', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '09:40', station: !!python/unicode 'Warszawa Zachodnia'}
+  to: 2013-02-06
+type: train
+variant: A

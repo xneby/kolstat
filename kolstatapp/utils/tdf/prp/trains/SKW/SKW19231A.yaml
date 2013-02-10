@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'SKW 19231'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:21', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '04:24', departure: !!python/unicode '04:25', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '04:27', departure: !!python/unicode '04:28', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '04:30', departure: !!python/unicode '04:30', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '04:33', departure: !!python/unicode '04:33', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '04:35', departure: !!python/unicode '04:36', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '04:45', departure: !!python/unicode '04:46', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: !!python/unicode '04:49', departure: !!python/unicode '04:50', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: !!python/unicode '04:52', departure: !!python/unicode '04:53', station: !!python/unicode 'Warszawa-Wola
+      Grzyb.'}
+  - {arrival: !!python/unicode '04:55', departure: !!python/unicode '04:55', station: "Sulej\xF3\
+      wek"}
+  - {arrival: !!python/unicode '04:58', station: "Sulej\xF3wek Mi\u0142osna"}
+  to: 2013-02-06
+type: train
+variant: A

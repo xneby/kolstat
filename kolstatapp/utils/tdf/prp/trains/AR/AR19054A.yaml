@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'AR 19054'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:26', station: !!python/unicode 'Czersk'}
+  - {arrival: !!python/unicode '18:31', departure: !!python/unicode '18:32', station: "B\u0119\
+      d\u017Amirowice"}
+  - {arrival: !!python/unicode '18:40', departure: !!python/unicode '18:47', station: !!python/unicode 'Szlachta'}
+  - {arrival: !!python/unicode '18:50', departure: !!python/unicode '18:50', station: !!python/unicode 'Lipowa
+      Tucholska'}
+  - {arrival: !!python/unicode '18:55', departure: !!python/unicode '18:55', station: !!python/unicode 'Rosochatka'}
+  - {arrival: !!python/unicode '19:00', departure: !!python/unicode '19:00', station: "Zaro\u015B\
+      le"}
+  - {arrival: !!python/unicode '19:06', departure: !!python/unicode '19:06', station: "Ma\u0142\
+      e Gacno"}
+  - {arrival: !!python/unicode '19:10', departure: !!python/unicode '19:10', station: !!python/unicode 'Zielonka
+      Pomorska'}
+  - {arrival: !!python/unicode '19:15', station: !!python/unicode 'Wierzchucin'}
+  to: 2013-02-06
+type: train
+variant: A

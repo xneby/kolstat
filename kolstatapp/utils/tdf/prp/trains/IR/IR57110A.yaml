@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'IR 57110'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:51', station: "Olsztyn G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '11:54', departure: !!python/unicode '11:55', station: !!python/unicode 'Olsztyn
+      Zach.'}
+  - {arrival: !!python/unicode '12:19', departure: !!python/unicode '12:20', station: "Ostr\xF3\
+      da"}
+  - {arrival: !!python/unicode '12:42', departure: !!python/unicode '12:43', station: "I\u0142\
+      awa G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '13:22', departure: !!python/unicode '13:22', station: "Jab\u0142\
+      onowo Pomorskie"}
+  - {arrival: !!python/unicode '13:40', departure: !!python/unicode '13:40', station: "W\u0105\
+      brze\u017Ano"}
+  - {arrival: !!python/unicode '13:54', departure: !!python/unicode '13:54', station: !!python/unicode 'Kowalewo
+      Pomorskie'}
+  - {arrival: !!python/unicode '14:18', departure: !!python/unicode '14:19', station: "Toru\u0144\
+      \ Wschodni"}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:23', station: "Toru\u0144\
+      \ Miasto"}
+  - {arrival: !!python/unicode '14:29', departure: !!python/unicode '14:31', station: "Toru\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '15:14', departure: !!python/unicode '15:16', station: "Inowroc\u0142\
+      aw"}
+  - {arrival: !!python/unicode '15:35', departure: !!python/unicode '15:36', station: !!python/unicode 'Mogilno'}
+  - {arrival: !!python/unicode '15:58', departure: !!python/unicode '15:59', station: !!python/unicode 'Gniezno'}
+  - {arrival: !!python/unicode '16:36', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

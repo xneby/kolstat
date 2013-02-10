@@ -1,0 +1,20 @@
+mode: normal
+name: !!python/unicode 'TLK 1911'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:48', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '16:56', departure: !!python/unicode '17:04', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '17:08', departure: !!python/unicode '17:09', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '18:50', departure: !!python/unicode '18:55', station: "\u0141\xF3\
+      d\u017A Widzew"}
+  - {arrival: !!python/unicode '19:03', departure: !!python/unicode '19:04', station: "\u0141\xF3\
+      d\u017A Chojny"}
+  - {arrival: !!python/unicode '19:14', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

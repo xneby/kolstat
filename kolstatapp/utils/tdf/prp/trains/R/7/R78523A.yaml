@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'R 78523'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:03', station: "Zb\u0105szynek"}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:10', station: "D\u0105\
+      br\xF3wka Wlkp."}
+  - {arrival: !!python/unicode '07:14', departure: !!python/unicode '07:14', station: !!python/unicode 'Chociszewo
+      Rogoz.'}
+  - {arrival: !!python/unicode '07:18', departure: !!python/unicode '07:19', station: !!python/unicode 'Lutol
+      Suchy'}
+  - {arrival: !!python/unicode '07:21', departure: !!python/unicode '07:22', station: !!python/unicode 'Panowice'}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:25', station: "Bukowiec\
+      \ Mi\u0119dzyrz."}
+  - {arrival: !!python/unicode '07:35', departure: !!python/unicode '07:36', station: "Mi\u0119\
+      dzyrzecz"}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:43', station: "G\u0142\
+      \u0119bokie Mi\u0119dzyrzec."}
+  - {arrival: !!python/unicode '07:49', departure: !!python/unicode '07:49', station: "Popowo\
+      \ Skwierzy\u0144skie"}
+  - {arrival: !!python/unicode '07:56', departure: !!python/unicode '07:56', station: !!python/unicode 'Skwierzyna'}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: !!python/unicode 'Trzebiszewo'}
+  - {arrival: !!python/unicode '08:08', departure: !!python/unicode '08:08', station: !!python/unicode 'Brzozowiec
+      Gorzowski'}
+  - {arrival: !!python/unicode '08:13', departure: !!python/unicode '08:13', station: !!python/unicode 'Deszczno'}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:17', station: "Gorz\xF3\
+      w Wlkp.Karnin"}
+  - {arrival: !!python/unicode '08:20', departure: !!python/unicode '08:20', station: "Gorz\xF3\
+      w Wlkp. Zielen."}
+  - {arrival: !!python/unicode '08:24', departure: !!python/unicode '08:24', station: "Gorz\xF3\
+      w Wlkp.Zamo\u015Bcie"}
+  - {arrival: !!python/unicode '08:28', station: "Gorz\xF3w Wlkp."}
+  to: 2013-02-06
+type: train
+variant: A

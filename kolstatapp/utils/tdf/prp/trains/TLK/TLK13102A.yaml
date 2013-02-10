@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'TLK 13102'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:33', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '16:40', departure: !!python/unicode '16:45', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '16:49', departure: !!python/unicode '16:50', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '18:50', departure: !!python/unicode '18:51', station: "W\u0142\
+      oszczowa P\u0142n."}
+  - {arrival: !!python/unicode '18:57', departure: !!python/unicode '19:07', station: "\u017B\
+      elis\u0142awice"}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:17', station: "W\u0142\
+      oszczowa"}
+  - {arrival: !!python/unicode '19:30', departure: !!python/unicode '19:31', station: !!python/unicode 'Bukowa'}
+  - {arrival: !!python/unicode '20:00', departure: !!python/unicode '20:04', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '20:34', departure: !!python/unicode '20:36', station: "J\u0119\
+      drzej\xF3w"}
+  - {arrival: !!python/unicode '20:50', departure: !!python/unicode '20:51', station: "S\u0119\
+      dzisz\xF3w"}
+  - {arrival: !!python/unicode '21:09', departure: !!python/unicode '21:10', station: "Miech\xF3\
+      w"}
+  - {arrival: !!python/unicode '21:44', departure: !!python/unicode '21:49', station: "Krak\xF3\
+      w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '21:56', station: "Krak\xF3w P\u0142asz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

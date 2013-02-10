@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'R 80428'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:17', station: !!python/unicode 'Kostrzyn'}
+  - {arrival: !!python/unicode '13:22', departure: !!python/unicode '13:22', station: "D\u0105\
+      broszyn"}
+  - {arrival: !!python/unicode '13:28', departure: !!python/unicode '13:29', station: "Kamie\u0144\
+      \ Ma\u0142y"}
+  - {arrival: !!python/unicode '13:35', departure: !!python/unicode '13:36', station: !!python/unicode 'Witnica'}
+  - {arrival: !!python/unicode '13:41', departure: !!python/unicode '13:42', station: !!python/unicode 'Nowiny
+      Wielkie'}
+  - {arrival: !!python/unicode '13:46', departure: !!python/unicode '13:47', station: !!python/unicode 'Bogdaniec'}
+  - {arrival: !!python/unicode '13:50', departure: !!python/unicode '13:50', station: "\u0141\
+      upowo"}
+  - {arrival: !!python/unicode '13:54', departure: !!python/unicode '13:54', station: "Gorz\xF3\
+      w Wlkp.Wieprz."}
+  - {arrival: !!python/unicode '13:58', departure: !!python/unicode '14:00', station: "Gorz\xF3\
+      w Wlkp."}
+  - {arrival: !!python/unicode '14:11', departure: !!python/unicode '14:12', station: !!python/unicode 'Santok'}
+  - {arrival: !!python/unicode '14:17', departure: !!python/unicode '14:18', station: "G\xF3\
+      rki Noteckie"}
+  - {arrival: !!python/unicode '14:22', departure: !!python/unicode '14:22', station: !!python/unicode 'Sarbiewo'}
+  - {arrival: !!python/unicode '14:25', departure: !!python/unicode '14:26', station: "Strzelce\
+      \ Kraj.Wsch\xF3d"}
+  - {arrival: !!python/unicode '14:31', departure: !!python/unicode '14:31', station: !!python/unicode 'Stare
+      Kurowo'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: !!python/unicode 'Nowe
+      Drezdenko'}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:45', station: !!python/unicode 'Stare
+      Bielice'}
+  - {arrival: !!python/unicode '14:53', station: "Krzy\u017C"}
+  to: 2013-02-06
+type: train
+variant: A

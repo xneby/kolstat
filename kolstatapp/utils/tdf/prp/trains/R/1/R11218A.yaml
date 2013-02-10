@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'R 11218'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:05', station: !!python/unicode 'Radomsko'}
+  - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:14', station: !!python/unicode 'Dobryszyce
+      k.Radoms.'}
+  - {arrival: !!python/unicode '05:22', departure: !!python/unicode '05:22', station: !!python/unicode 'Gomunice'}
+  - {arrival: !!python/unicode '05:26', departure: !!python/unicode '05:27', station: "Kamie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:31', station: "Gorz\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '05:36', departure: !!python/unicode '05:37', station: !!python/unicode 'Gorzkowice'}
+  - {arrival: !!python/unicode '05:41', departure: !!python/unicode '05:42', station: !!python/unicode 'Wilkoszewice'}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:46', station: "Luci\u0105\
+      \u017Canka"}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:49', station: !!python/unicode 'Rozprza'}
+  - {arrival: !!python/unicode '05:55', departure: !!python/unicode '05:55', station: "Milej\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:01', departure: !!python/unicode '06:02', station: "Piotrk\xF3\
+      w Tryb."}
+  - {arrival: !!python/unicode '06:06', departure: !!python/unicode '06:07', station: !!python/unicode 'Jarosty'}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:11', station: !!python/unicode 'Moszczenica'}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:15', station: !!python/unicode 'Baby'}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:21', station: "Wolb\xF3\
+      rka"}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:26', station: "\u0141\
+      azn\xF3w"}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:30', station: !!python/unicode 'Rokiciny'}
+  - {arrival: !!python/unicode '06:33', departure: !!python/unicode '06:34', station: !!python/unicode 'Chrusty
+      Nowe'}
+  - {arrival: !!python/unicode '06:39', station: !!python/unicode 'Koluszki'}
+  to: 2013-02-06
+type: train
+variant: A

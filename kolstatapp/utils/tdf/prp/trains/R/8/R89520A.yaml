@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'R 89520'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:40', station: "S\u0142upsk"}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:45', station: "Kobylnica\
+      \ S\u0142upska"}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:49', station: !!python/unicode 'Widzino'}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:55', station: "S\u0142\
+      onowice"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: "Wrz\u0105\
+      ca Pomorska"}
+  - {arrival: !!python/unicode '08:07', departure: !!python/unicode '08:08', station: !!python/unicode 'Korzybie'}
+  - {arrival: !!python/unicode '08:14', departure: !!python/unicode '08:15', station: "K\u0119\
+      pice"}
+  - {arrival: !!python/unicode '08:18', departure: !!python/unicode '08:19', station: "K\u0119\
+      pka"}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:23', station: !!python/unicode 'Biesowice'}
+  - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:28', station: !!python/unicode 'Ciecholub'}
+  - {arrival: !!python/unicode '08:34', departure: !!python/unicode '08:35', station: !!python/unicode 'Przytocko'}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:42', station: !!python/unicode 'Kawcze'}
+  - {arrival: !!python/unicode '08:52', departure: !!python/unicode '08:53', station: !!python/unicode 'Miastko'}
+  - {arrival: !!python/unicode '09:00', departure: !!python/unicode '09:01', station: "S\u0142\
+      osinko"}
+  - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:10', station: "Bia\u0142\
+      y B\xF3r"}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:19', station: !!python/unicode 'Drzonowo'}
+  - {arrival: !!python/unicode '09:26', departure: !!python/unicode '09:27', station: "Gwda\
+      \ Ma\u0142a"}
+  - {arrival: !!python/unicode '09:37', station: !!python/unicode 'Szczecinek'}
+  to: 2013-02-06
+type: train
+variant: A

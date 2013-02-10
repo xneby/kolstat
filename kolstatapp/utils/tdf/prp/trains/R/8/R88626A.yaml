@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'R 88626'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:12', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:15', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '16:21', departure: !!python/unicode '16:21', station: !!python/unicode 'Szczecin
+      Podjuchy'}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:32', station: "Daleszewo\
+      \ Gryfi\u0144skie"}
+  - {arrival: !!python/unicode '16:36', departure: !!python/unicode '16:36', station: !!python/unicode 'Czepino'}
+  - {arrival: !!python/unicode '16:42', station: !!python/unicode 'Gryfino'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'TLK 65100'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:56', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:05', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '07:35', departure: !!python/unicode '07:36', station: "Oborniki\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: "\u017B\
+      migr\xF3d"}
+  - {arrival: !!python/unicode '08:18', departure: !!python/unicode '08:19', station: !!python/unicode 'Rawicz'}
+  - {arrival: !!python/unicode '08:43', departure: !!python/unicode '08:52', station: !!python/unicode 'Leszno'}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:20', station: "Ko\u015B\
+      cian"}
+  - {arrival: !!python/unicode '10:10', departure: !!python/unicode '10:42', station: "Pozna\u0144\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '11:15', departure: !!python/unicode '11:16', station: !!python/unicode 'Gniezno'}
+  - {arrival: !!python/unicode '11:36', departure: !!python/unicode '11:37', station: !!python/unicode 'Mogilno'}
+  - {arrival: !!python/unicode '11:57', departure: !!python/unicode '11:58', station: "Inowroc\u0142\
+      aw"}
+  - {arrival: !!python/unicode '12:30', departure: !!python/unicode '12:33', station: "Bydgoszcz\
+      \ G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '13:07', departure: !!python/unicode '13:08', station: !!python/unicode 'Laskowice
+      Pomorskie'}
+  - {arrival: !!python/unicode '13:55', departure: !!python/unicode '14:04', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '14:45', station: "Gda\u0144sk G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

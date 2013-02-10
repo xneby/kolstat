@@ -1,0 +1,43 @@
+mode: normal
+name: !!python/unicode 'KD 69621'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:59', station: "W\u0119gliniec"}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:09', station: "Pie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '05:11', departure: !!python/unicode '05:12', station: "Las\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:17', station: "J\u0119\
+      drzychowice"}
+  - {arrival: !!python/unicode '05:19', departure: !!python/unicode '05:19', station: !!python/unicode 'Zgorzelec
+      Miasto'}
+  - {arrival: !!python/unicode '05:22', departure: !!python/unicode '05:32', station: !!python/unicode 'Zgorzelec'}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:38', station: !!python/unicode 'Jerzmanki'}
+  - {arrival: !!python/unicode '05:44', departure: !!python/unicode '05:45', station: "Miku\u0142\
+      owa"}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:49', station: "Batowice\
+      \ Luba\u0144skie"}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:55', station: "Zar\u0119\
+      ba"}
+  - {arrival: !!python/unicode '06:05', departure: !!python/unicode '06:06', station: "Luba\u0144\
+      \ \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:21', station: "Olszyna\
+      \ Luba\u0144ska"}
+  - {arrival: !!python/unicode '06:26', departure: !!python/unicode '06:26', station: !!python/unicode 'Ubocze'}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:30', station: "Gryf\xF3\
+      w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '06:37', departure: !!python/unicode '06:38', station: "M\u0142\
+      y\u0144sko"}
+  - {arrival: !!python/unicode '06:45', departure: !!python/unicode '06:46', station: "R\u0119\
+      bisz\xF3w"}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:52', station: !!python/unicode 'Kwieciszowice'}
+  - {arrival: !!python/unicode '06:57', departure: !!python/unicode '06:57', station: !!python/unicode 'Stara
+      Kamienica'}
+  - {arrival: !!python/unicode '07:03', departure: !!python/unicode '07:04', station: !!python/unicode 'Rybnica'}
+  - {arrival: !!python/unicode '07:14', station: "Jelenia G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: A

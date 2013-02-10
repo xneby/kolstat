@@ -1,0 +1,46 @@
+mode: normal
+name: !!python/unicode 'R 23437'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:40', station: !!python/unicode 'Stalowa Wola
+      Rozwad.'}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:44', station: !!python/unicode 'Stalowa
+      Wola Centrum'}
+  - {arrival: !!python/unicode '14:46', departure: !!python/unicode '14:46', station: !!python/unicode 'Stalowa
+      Wola'}
+  - {arrival: !!python/unicode '14:49', departure: !!python/unicode '14:50', station: "Stalowa\
+      \ Wola P\u0142d."}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '14:53', station: !!python/unicode 'Moskale'}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:56', station: !!python/unicode 'Nisko
+      Osiedle'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:58', station: !!python/unicode 'Nisko'}
+  - {arrival: !!python/unicode '15:00', departure: !!python/unicode '15:01', station: "Nisko\
+      \ Rac\u0142awice"}
+  - {arrival: !!python/unicode '15:03', departure: !!python/unicode '15:03', station: !!python/unicode 'Nisko
+      Podwolina'}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: "Rudnik\
+      \ Str\xF3\u017Ca"}
+  - {arrival: !!python/unicode '15:14', departure: !!python/unicode '15:15', station: !!python/unicode 'Rudnik
+      n. Sanem'}
+  - {arrival: !!python/unicode '15:24', departure: !!python/unicode '15:24', station: "\u0141\u0119\
+      townia"}
+  - {arrival: !!python/unicode '15:32', departure: !!python/unicode '15:33', station: !!python/unicode 'Nowa
+      Sarzyna Kol.'}
+  - {arrival: !!python/unicode '15:36', departure: !!python/unicode '15:36', station: !!python/unicode 'Nowa
+      Sarzyna'}
+  - {arrival: !!python/unicode '15:39', departure: !!python/unicode '15:40', station: !!python/unicode 'Jelna'}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:47', station: "Le\u017C\
+      ajsk"}
+  - {arrival: !!python/unicode '15:52', departure: !!python/unicode '15:52', station: !!python/unicode 'Wierzawice'}
+  - {arrival: !!python/unicode '15:59', departure: !!python/unicode '16:00', station: !!python/unicode 'Grodzisko
+      Dolne'}
+  - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:09', station: "Try\u0144\
+      cza"}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:14', station: !!python/unicode 'Gniewczyna'}
+  - {arrival: !!python/unicode '16:20', station: !!python/unicode 'Przeworsk'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'R 88729'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:35', station: "Ko\u0142obrzeg"}
+  - {arrival: !!python/unicode '09:43', departure: !!python/unicode '09:44', station: !!python/unicode 'Stary
+      Borek'}
+  - {arrival: !!python/unicode '09:47', departure: !!python/unicode '09:48', station: "G\u0142\
+      owaczewo"}
+  - {arrival: !!python/unicode '09:54', departure: !!python/unicode '09:54', station: !!python/unicode 'Bieczyno
+      Pomorskie'}
+  - {arrival: !!python/unicode '10:00', departure: !!python/unicode '10:01', station: "Trzebiat\xF3\
+      w"}
+  - {arrival: !!python/unicode '10:16', departure: !!python/unicode '10:23', station: !!python/unicode 'Gryfice'}
+  - {arrival: !!python/unicode '10:29', departure: !!python/unicode '10:29', station: !!python/unicode 'Baszewice'}
+  - {arrival: !!python/unicode '10:37', departure: !!python/unicode '10:37', station: "P\u0142\
+      oty"}
+  - {arrival: !!python/unicode '10:53', departure: !!python/unicode '10:53', station: !!python/unicode 'Nowogard'}
+  - {arrival: !!python/unicode '11:00', departure: !!python/unicode '11:01', station: !!python/unicode 'Osina'}
+  - {arrival: !!python/unicode '11:12', departure: !!python/unicode '11:12', station: "Goleni\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:21', departure: !!python/unicode '11:21', station: !!python/unicode 'Kliniska'}
+  - {arrival: !!python/unicode '11:31', departure: !!python/unicode '11:32', station: "Szczecin\
+      \ D\u0105bie"}
+  - {arrival: !!python/unicode '11:35', departure: !!python/unicode '11:36', station: !!python/unicode 'Szczecin
+      Zdroje'}
+  - {arrival: !!python/unicode '11:44', departure: !!python/unicode '11:44', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '11:48', station: "Szczecin G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

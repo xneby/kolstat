@@ -1,0 +1,83 @@
+mode: normal
+name: !!python/unicode 'SKM 5833'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:45', station: "Gda\u0144sk G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '13:47', departure: !!python/unicode '13:47', station: "Gda\u0144\
+      sk Stocznia"}
+  - {arrival: !!python/unicode '13:49', departure: !!python/unicode '13:49', station: "Gda\u0144\
+      sk Politechnika"}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:52', station: "Gda\u0144\
+      sk Wrzeszcz"}
+  - {arrival: !!python/unicode '13:53', departure: !!python/unicode '13:54', station: "Gda\u0144\
+      sk Zaspa"}
+  - {arrival: !!python/unicode '13:57', departure: !!python/unicode '13:57', station: "Gda\u0144\
+      sk Przymorze"}
+  - {arrival: !!python/unicode '13:58', departure: !!python/unicode '13:59', station: "Gda\u0144\
+      sk Oliwa"}
+  - {arrival: !!python/unicode '14:01', departure: !!python/unicode '14:01', station: "Gda\u0144\
+      sk \u017Babianka-AWFiS"}
+  - {arrival: !!python/unicode '14:03', departure: !!python/unicode '14:03', station: "Sopot\
+      \ Wy\u015Bcigi"}
+  - {arrival: !!python/unicode '14:05', departure: !!python/unicode '14:06', station: !!python/unicode 'Sopot'}
+  - {arrival: !!python/unicode '14:08', departure: !!python/unicode '14:08', station: !!python/unicode 'Sopot
+      Kamienny Potok'}
+  - {arrival: !!python/unicode '14:11', departure: !!python/unicode '14:11', station: "Gdynia\
+      \ Or\u0142owo"}
+  - {arrival: !!python/unicode '14:13', departure: !!python/unicode '14:14', station: "Gdynia\
+      \ Red\u0142owo"}
+  - {arrival: !!python/unicode '14:16', departure: !!python/unicode '14:17', station: !!python/unicode 'Gdynia
+      Wzg. Maksym.'}
+  - {arrival: !!python/unicode '14:19', departure: !!python/unicode '14:20', station: "Gdynia\
+      \ G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '14:21', departure: !!python/unicode '14:22', station: !!python/unicode 'Gdynia
+      Stocznia'}
+  - {arrival: !!python/unicode '14:25', departure: !!python/unicode '14:25', station: "Gdynia\
+      \ Grab\xF3wek"}
+  - {arrival: !!python/unicode '14:27', departure: !!python/unicode '14:27', station: !!python/unicode 'Gdynia
+      Leszczynki'}
+  - {arrival: !!python/unicode '14:29', departure: !!python/unicode '14:29', station: !!python/unicode 'Gdynia
+      Chylonia'}
+  - {arrival: !!python/unicode '14:31', departure: !!python/unicode '14:31', station: !!python/unicode 'Gdynia
+      Cisowa'}
+  - {arrival: !!python/unicode '14:35', departure: !!python/unicode '14:36', station: !!python/unicode 'Rumia
+      Janowo'}
+  - {arrival: !!python/unicode '14:38', departure: !!python/unicode '14:40', station: !!python/unicode 'Rumia'}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:45', station: !!python/unicode 'Reda'}
+  - {arrival: !!python/unicode '14:48', departure: !!python/unicode '14:49', station: !!python/unicode 'Reda
+      Pieleszewo'}
+  - {arrival: !!python/unicode '14:51', departure: !!python/unicode '14:52', station: "Wejherowo\
+      \ \u015Amiechowo"}
+  - {arrival: !!python/unicode '14:54', departure: !!python/unicode '14:54', station: !!python/unicode 'Wejherowo
+      Nanice'}
+  - {arrival: !!python/unicode '14:57', departure: !!python/unicode '14:58', station: !!python/unicode 'Wejherowo'}
+  - {arrival: !!python/unicode '15:03', departure: !!python/unicode '15:03', station: "Go\u015B\
+      cicino Wejherows."}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:09', station: !!python/unicode 'Luzino'}
+  - {arrival: !!python/unicode '15:13', departure: !!python/unicode '15:13', station: !!python/unicode 'Strzebielino
+      Morskie'}
+  - {arrival: !!python/unicode '15:17', departure: !!python/unicode '15:18', station: "Bo\u017C\
+      epole Wielkie"}
+  - {arrival: !!python/unicode '15:23', departure: !!python/unicode '15:23', station: "God\u0119\
+      towo"}
+  - {arrival: !!python/unicode '15:31', departure: !!python/unicode '15:38', station: "L\u0119\
+      bork"}
+  - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:43', station: "Le\u015B\
+      nice"}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:46', station: !!python/unicode 'Pogorzelice'}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '16:04', station: "Pot\u0119\
+      gowo"}
+  - {arrival: !!python/unicode '16:07', departure: !!python/unicode '16:08', station: "G\u0142\
+      uszyno Pomorskie"}
+  - {arrival: !!python/unicode '16:10', departure: !!python/unicode '16:11', station: "Strzy\u017C\
+      yno S\u0142upskie"}
+  - {arrival: !!python/unicode '16:16', departure: !!python/unicode '16:16', station: !!python/unicode 'Damnica'}
+  - {arrival: !!python/unicode '16:24', departure: !!python/unicode '16:24', station: "Jezierzyce\
+      \ S\u0142upskie"}
+  - {arrival: !!python/unicode '16:32', station: "S\u0142upsk"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'KM 66612'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:57', station: !!python/unicode 'Sierpc'}
+  - {arrival: !!python/unicode '05:05', departure: !!python/unicode '05:05', station: !!python/unicode 'Mieszaki'}
+  - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:13', station: !!python/unicode 'Zawidz'}
+  - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:16', station: "Zawidz\
+      \ Ko\u015Bcielny"}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:24', station: !!python/unicode 'Koziebrody'}
+  - {arrival: !!python/unicode '05:37', departure: !!python/unicode '05:37', station: "Raci\u0105\
+      \u017C"}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:45', station: !!python/unicode 'Kaczorowo'}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: !!python/unicode 'Baboszewo'}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:00', station: !!python/unicode 'Arcelin'}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:23', station: "P\u0142\
+      o\u0144sk"}
+  - {arrival: !!python/unicode '06:33', departure: !!python/unicode '06:33', station: "Dalan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '06:41', departure: !!python/unicode '06:41', station: !!python/unicode 'Wkra'}
+  - {arrival: !!python/unicode '06:49', departure: !!python/unicode '06:49', station: !!python/unicode 'Cieksyn'}
+  - {arrival: !!python/unicode '07:02', station: !!python/unicode 'Nasielsk'}
+  to: 2013-02-06
+type: train
+variant: A

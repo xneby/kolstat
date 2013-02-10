@@ -1,0 +1,21 @@
+mode: normal
+name: !!python/unicode 'R 66738'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '21:50', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '21:56', departure: !!python/unicode '21:56', station: "Wroc\u0142\
+      aw Broch\xF3w"}
+  - {arrival: !!python/unicode '22:04', departure: !!python/unicode '22:04', station: !!python/unicode 'Siechnice'}
+  - {arrival: !!python/unicode '22:13', departure: !!python/unicode '22:14', station: "Zakrz\xF3\
+      w Kotowice"}
+  - {arrival: !!python/unicode '22:22', departure: !!python/unicode '22:22', station: "Czernica\
+      \ Wroc\u0142awska"}
+  - {arrival: !!python/unicode '22:30', departure: !!python/unicode '22:31', station: "Jelcz\
+      \ Mi\u0142oszyce"}
+  - {arrival: !!python/unicode '22:39', station: !!python/unicode 'Jelcz Laskowice'}
+  to: 2013-02-06
+type: train
+variant: A

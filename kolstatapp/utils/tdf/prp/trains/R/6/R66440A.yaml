@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 66440'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:54', station: "Wo\u0142\xF3w"}
+  - {arrival: !!python/unicode '06:59', departure: !!python/unicode '06:59', station: "\u0141\
+      ososiowice"}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:05', station: !!python/unicode 'Brzeg
+      Dolny'}
+  - {arrival: !!python/unicode '07:12', departure: !!python/unicode '07:13', station: "Ksi\u0119\
+      ginice"}
+  - {arrival: !!python/unicode '07:16', departure: !!python/unicode '07:16', station: "Czerna\
+      \ Ma\u0142a"}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:19', station: "Brzezinka\
+      \ \u015Aredzka"}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:25', station: "Wroc\u0142\
+      aw Pracze"}
+  - {arrival: !!python/unicode '07:29', departure: !!python/unicode '07:30', station: "Wroc\u0142\
+      aw Stadion"}
+  - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:32', station: "Wroc\u0142\
+      aw Ku\u017Aniki"}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:36', station: "Wroc\u0142\
+      aw Muchob\xF3r"}
+  - {arrival: !!python/unicode '07:44', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

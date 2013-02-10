@@ -1,0 +1,71 @@
+mode: normal
+name: !!python/unicode 'KS 99012'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:44', station: "Zwardo\u0144"}
+  - {arrival: !!python/unicode '04:49', departure: !!python/unicode '04:49', station: !!python/unicode 'Laliki'}
+  - {arrival: !!python/unicode '04:53', departure: !!python/unicode '04:53', station: "S\xF3\
+      l Kiczora"}
+  - {arrival: !!python/unicode '04:59', departure: !!python/unicode '04:59', station: "S\xF3\
+      l"}
+  - {arrival: !!python/unicode '05:04', departure: !!python/unicode '05:04', station: !!python/unicode 'Rycerka'}
+  - {arrival: !!python/unicode '05:07', departure: !!python/unicode '05:08', station: !!python/unicode 'Rajcza
+      Centrum'}
+  - {arrival: !!python/unicode '05:11', departure: !!python/unicode '05:11', station: !!python/unicode 'Rajcza'}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:16', station: "Mil\xF3\
+      wka Zabawa"}
+  - {arrival: !!python/unicode '05:22', departure: !!python/unicode '05:22', station: "Mil\xF3\
+      wka"}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:27', station: !!python/unicode 'Cisiec'}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:32', station: "W\u0119\
+      gierska G\xF3rka"}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:35', station: "Ci\u0119\
+      cina"}
+  - {arrival: !!python/unicode '05:38', departure: !!python/unicode '05:39', station: "Ci\u0119\
+      cina Dolna"}
+  - {arrival: !!python/unicode '05:43', departure: !!python/unicode '05:43', station: !!python/unicode 'Radziechowy
+      Wieprz'}
+  - {arrival: !!python/unicode '05:49', departure: !!python/unicode '05:50', station: "\u017B\
+      ywiec"}
+  - {arrival: !!python/unicode '05:55', departure: !!python/unicode '05:56', station: "Pietrzykowice\
+      \ \u017Bywie."}
+  - {arrival: !!python/unicode '06:01', departure: !!python/unicode '06:01', station: "\u0141\
+      odygowice"}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: "\u0141\
+      odygowice G\xF3rne"}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:09', station: !!python/unicode 'Wilkowice
+      Bystra'}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:14', station: "Bielsko\
+      \ Bia\u0142a Mikus."}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:17', station: "Bielsko\
+      \ Bia\u0142a Leszcz"}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:21', station: "Bielsko\
+      \ Bia\u0142a Lipnik"}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:26', station: "Bielsko\
+      \ Bia\u0142a G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:29', station: "Bielsko\
+      \ Bia\u0142a P\u0142n."}
+  - {arrival: !!python/unicode '06:31', departure: !!python/unicode '06:31', station: "Bielsko\
+      \ Bia\u0142a Komor."}
+  - {arrival: !!python/unicode '06:34', departure: !!python/unicode '06:35', station: "Czechowice\
+      \ Dz. P\u0142d."}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:43', station: !!python/unicode 'Czechowice
+      Dziedzice'}
+  - {arrival: !!python/unicode '06:48', departure: !!python/unicode '06:49', station: "Gocza\u0142\
+      kowice Zdr\xF3j"}
+  - {arrival: !!python/unicode '06:50', departure: !!python/unicode '06:51', station: "Gocza\u0142\
+      kowice"}
+  - {arrival: !!python/unicode '06:54', departure: !!python/unicode '06:55', station: !!python/unicode 'Pszczyna'}
+  - {arrival: !!python/unicode '06:58', departure: !!python/unicode '06:58', station: !!python/unicode 'Piasek'}
+  - {arrival: !!python/unicode '07:02', departure: !!python/unicode '07:03', station: "Kobi\xF3\
+      r"}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:10', station: !!python/unicode 'Tychy'}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:17', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '07:27', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 76133'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:15', station: "Zielona G\xF3ra"}
+  - {arrival: !!python/unicode '13:25', departure: !!python/unicode '13:25', station: "Bucha\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '13:31', departure: !!python/unicode '13:31', station: !!python/unicode 'Letnica'}
+  - {arrival: !!python/unicode '13:34', departure: !!python/unicode '13:34', station: "Ko\u017A\
+      la Ko\u017Cuchowska"}
+  - {arrival: !!python/unicode '13:39', departure: !!python/unicode '13:40', station: "Bogacz\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:44', departure: !!python/unicode '13:44', station: "Nowogr\xF3\
+      d Bobrza\u0144ski"}
+  - {arrival: !!python/unicode '13:47', departure: !!python/unicode '13:48', station: "Nowogr\xF3\
+      d Osiedle"}
+  - {arrival: !!python/unicode '13:58', departure: !!python/unicode '13:58', station: "Bieni\xF3\
+      w"}
+  - {arrival: !!python/unicode '14:04', departure: !!python/unicode '14:04', station: !!python/unicode 'Lubanice'}
+  - {arrival: !!python/unicode '14:14', departure: !!python/unicode '14:15', station: "\u017B\
+      ary"}
+  - {arrival: !!python/unicode '14:27', departure: !!python/unicode '14:28', station: "\u017B\
+      aga\u0144"}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: "Ma\u0142\
+      omice"}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '15:03', station: "Leszno\
+      \ G\xF3rne"}
+  - {arrival: !!python/unicode '15:19', departure: !!python/unicode '15:19', station: "Wierzbowa\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '15:26', departure: !!python/unicode '15:26', station: "Mod\u0142\
+      a"}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:44', station: !!python/unicode 'Rokitki'}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: "Mi\u0142\
+      kowice"}
+  - {arrival: !!python/unicode '16:10', station: !!python/unicode 'Legnica'}
+  to: 2013-02-06
+type: train
+variant: A

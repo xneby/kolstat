@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 77731'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:35', station: !!python/unicode 'Leszno'}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: !!python/unicode 'Lipno
+      Nowe'}
+  - {arrival: !!python/unicode '06:47', departure: !!python/unicode '06:47', station: "G\xF3\
+      rka Duchowna"}
+  - {arrival: !!python/unicode '06:52', departure: !!python/unicode '06:52', station: !!python/unicode 'Stare
+      Bojanowo'}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:00', station: !!python/unicode 'Przysieka
+      Stara'}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:07', station: "Ko\u015B\
+      cian"}
+  - {arrival: !!python/unicode '07:13', departure: !!python/unicode '07:14', station: !!python/unicode 'Oborzyska
+      Stare'}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:20', station: "Czempi\u0144"}
+  - {arrival: !!python/unicode '07:27', departure: !!python/unicode '07:28', station: "I\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:33', station: "Dru\u017C\
+      yna Pozna\u0144ska"}
+  - {arrival: !!python/unicode '07:38', departure: !!python/unicode '07:38', station: !!python/unicode 'Mosina'}
+  - {arrival: !!python/unicode '07:43', departure: !!python/unicode '07:44', station: "Puszczyk\xF3\
+      wko"}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:48', station: !!python/unicode 'Puszczykowo'}
+  - {arrival: !!python/unicode '07:55', departure: !!python/unicode '07:56', station: "Lubo\u0144\
+      \ k. Poznania"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: "Pozna\u0144\
+      \ D\u0119biec"}
+  - {arrival: !!python/unicode '08:10', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

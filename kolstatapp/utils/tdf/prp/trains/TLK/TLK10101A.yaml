@@ -1,0 +1,25 @@
+mode: normal
+name: !!python/unicode 'TLK 10101'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:45', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '14:50', departure: !!python/unicode '14:55', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '15:02', departure: !!python/unicode '15:04', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '15:44', departure: !!python/unicode '15:45', station: "T\u0142\
+      uszcz"}
+  - {arrival: !!python/unicode '16:34', departure: !!python/unicode '16:35', station: "Ma\u0142\
+      kinia"}
+  - {arrival: !!python/unicode '16:50', departure: !!python/unicode '16:51', station: "Czy\u017C\
+      ew"}
+  - {arrival: !!python/unicode '17:03', departure: !!python/unicode '17:04', station: !!python/unicode 'Szepietowo'}
+  - {arrival: !!python/unicode '17:27', departure: !!python/unicode '17:28', station: "\u0141\
+      apy"}
+  - {arrival: !!python/unicode '17:47', station: "Bia\u0142ystok"}
+  to: 2013-02-06
+type: train
+variant: A

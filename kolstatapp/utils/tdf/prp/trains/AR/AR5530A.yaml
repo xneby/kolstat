@@ -1,0 +1,35 @@
+mode: normal
+name: !!python/unicode 'AR 5530'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:36', station: !!python/unicode 'Malbork'}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:45', station: "Go\u015B\
+      ciszewo"}
+  - {arrival: !!python/unicode '07:50', departure: !!python/unicode '07:51', station: !!python/unicode 'Sztum'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: !!python/unicode 'Ryjewo'}
+  - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:05', station: !!python/unicode 'Brachlewo'}
+  - {arrival: !!python/unicode '08:15', departure: !!python/unicode '08:16', station: !!python/unicode 'Kwidzyn'}
+  - {arrival: !!python/unicode '08:23', departure: !!python/unicode '08:24', station: !!python/unicode 'Sadlinki'}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:33', station: !!python/unicode 'Gardeja'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:42', station: "Rog\xF3\
+      \u017Ano Pomorskie"}
+  - {arrival: !!python/unicode '09:08', departure: !!python/unicode '09:09', station: "Grudzi\u0105\
+      dz"}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:13', station: "Grudzi\u0105\
+      dz Przedm."}
+  - {arrival: !!python/unicode '09:20', departure: !!python/unicode '09:21', station: "Grudzi\u0105\
+      dz Mniszek"}
+  - {arrival: !!python/unicode '09:46', departure: !!python/unicode '09:46', station: !!python/unicode 'Kornatowo'}
+  - {arrival: !!python/unicode '10:08', departure: !!python/unicode '10:09', station: "Che\u0142\
+      m\u017Ca"}
+  - {arrival: !!python/unicode '10:27', departure: !!python/unicode '10:28', station: "Toru\u0144\
+      \ Wschodni"}
+  - {arrival: !!python/unicode '10:31', departure: !!python/unicode '10:32', station: "Toru\u0144\
+      \ Miasto"}
+  - {arrival: !!python/unicode '10:37', station: "Toru\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

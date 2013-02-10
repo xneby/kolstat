@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 9333'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:47', station: "Gdynia G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '16:53', departure: !!python/unicode '16:54', station: !!python/unicode 'Gdynia
+      Chylonia'}
+  - {arrival: !!python/unicode '16:59', departure: !!python/unicode '16:59', station: !!python/unicode 'Rumia'}
+  - {arrival: !!python/unicode '17:04', departure: !!python/unicode '17:04', station: !!python/unicode 'Reda'}
+  - {arrival: !!python/unicode '17:09', departure: !!python/unicode '17:09', station: !!python/unicode 'Reda
+      Rekowo'}
+  - {arrival: !!python/unicode '17:15', departure: !!python/unicode '17:21', station: !!python/unicode 'Mrzezino'}
+  - {arrival: !!python/unicode '17:24', departure: !!python/unicode '17:24', station: "\u017B\
+      elistrzewo"}
+  - {arrival: !!python/unicode '17:29', departure: !!python/unicode '17:30', station: !!python/unicode 'Puck'}
+  - {arrival: !!python/unicode '17:37', departure: !!python/unicode '17:38', station: !!python/unicode 'Swarzewo'}
+  - {arrival: !!python/unicode '17:47', station: "W\u0142adys\u0142awowo"}
+  to: 2013-02-06
+type: train
+variant: A

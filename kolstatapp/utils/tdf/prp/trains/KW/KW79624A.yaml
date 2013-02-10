@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'KW 79624'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:35', station: "W\u0105growiec"}
+  - {arrival: !!python/unicode '05:46', departure: !!python/unicode '05:47', station: !!python/unicode 'Skoki'}
+  - {arrival: !!python/unicode '05:51', departure: !!python/unicode '05:52', station: "S\u0142\
+      awa Wlkp."}
+  - {arrival: !!python/unicode '06:01', departure: !!python/unicode '06:01', station: "Murowana\
+      \ Go\u015Blina"}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:08', station: "Owi\u0144\
+      ska"}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:12', station: !!python/unicode 'Czerwonak
+      Osiedle'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: "Pozna\u0144\
+      \ Karolin"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:21', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '06:24', departure: !!python/unicode '06:24', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '06:31', station: "Pozna\u0144 G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'KM 813'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:10', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '12:13', departure: !!python/unicode '12:13', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '12:16', departure: !!python/unicode '12:16', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '12:19', departure: !!python/unicode '12:19', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '12:22', departure: !!python/unicode '12:22', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '12:26', departure: !!python/unicode '12:26', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '12:35', departure: !!python/unicode '12:35', station: "Warszawa\
+      \ Rembert\xF3w"}
+  - {arrival: !!python/unicode '12:40', departure: !!python/unicode '12:40', station: "Warszawa-Weso\u0142\
+      a"}
+  - {arrival: !!python/unicode '12:42', departure: !!python/unicode '12:42', station: !!python/unicode 'Warszawa-Wola
+      Grzyb.'}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:45', station: "Sulej\xF3\
+      wek"}
+  - {arrival: !!python/unicode '12:48', departure: !!python/unicode '12:48', station: "Sulej\xF3\
+      wek Mi\u0142osna"}
+  - {arrival: !!python/unicode '12:52', departure: !!python/unicode '12:52', station: "Halin\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:55', station: !!python/unicode 'Cisie'}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:58', station: "D\u0119\
+      be Wielkie"}
+  - {arrival: !!python/unicode '13:01', departure: !!python/unicode '13:01', station: "Nowe\
+      \ D\u0119be Wielkie"}
+  - {arrival: !!python/unicode '13:04', departure: !!python/unicode '13:04', station: "Wrzos\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:09', station: "Mi\u0144sk Mazowiecki"}
+  to: 2013-02-06
+type: train
+variant: A

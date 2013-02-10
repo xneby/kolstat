@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'TLK 14105'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:08', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '12:15', departure: !!python/unicode '12:30', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '12:34', departure: !!python/unicode '12:35', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '14:03', departure: !!python/unicode '14:04', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:29', station: "Piotrk\xF3\
+      w Tryb."}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:59', station: !!python/unicode 'Radomsko'}
+  - {arrival: !!python/unicode '15:33', departure: !!python/unicode '15:38', station: "Cz\u0119\
+      stochowa Osobowa"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:03', station: "Myszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:12', departure: !!python/unicode '16:14', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '16:30', departure: !!python/unicode '16:31', station: "D\u0105\
+      browa G\xF3rnicza"}
+  - {arrival: !!python/unicode '16:39', departure: !!python/unicode '16:40', station: "Sosnowiec\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '16:50', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

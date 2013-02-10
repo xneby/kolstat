@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 415'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:25', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '15:33', departure: !!python/unicode '15:33', station: !!python/unicode 'Lublin
+      Zemborzyce'}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:37', station: "Kr\u0119\
+      \u017Cnica Jara"}
+  - {arrival: !!python/unicode '15:40', departure: !!python/unicode '15:40', station: !!python/unicode 'Majdan'}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:53', station: !!python/unicode 'Niedrzwica'}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:57', station: "Niedrzwica\
+      \ Ko\u015Bcielna"}
+  - {arrival: !!python/unicode '16:01', departure: !!python/unicode '16:01', station: "Le\u015B\
+      nicz\xF3wka"}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:06', station: "Wilko\u0142\
+      az Wie\u015B"}
+  - {arrival: !!python/unicode '16:10', departure: !!python/unicode '16:10', station: "Wilko\u0142\
+      az"}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:14', station: "Pu\u0142\
+      ankowice"}
+  - {arrival: !!python/unicode '16:18', departure: !!python/unicode '16:18', station: "Kra\u015B\
+      nik"}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:24', station: "Sul\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:30', station: !!python/unicode 'Szastarka'}
+  to: 2013-02-06
+type: train
+variant: A

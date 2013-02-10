@@ -1,0 +1,32 @@
+mode: normal
+name: !!python/unicode 'R 66220'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '03:32', station: "Wa\u0142brzych G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '03:43', departure: !!python/unicode '03:44', station: "Wa\u0142\
+      brzych Miasto"}
+  - {arrival: !!python/unicode '03:48', departure: !!python/unicode '03:48', station: "Wa\u0142\
+      brzych Szczawien."}
+  - {arrival: !!python/unicode '04:03', departure: !!python/unicode '04:09', station: "\u015A\
+      wiebodzice"}
+  - {arrival: !!python/unicode '04:22', departure: !!python/unicode '04:23', station: "Jaworzyna\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '04:27', departure: !!python/unicode '04:28', station: "\u017B\
+      ar\xF3w"}
+  - {arrival: !!python/unicode '04:34', departure: !!python/unicode '04:35', station: !!python/unicode 'Imbramowice'}
+  - {arrival: !!python/unicode '04:40', departure: !!python/unicode '04:40', station: "Mietk\xF3\
+      w"}
+  - {arrival: !!python/unicode '04:48', departure: !!python/unicode '04:48', station: "K\u0105\
+      ty Wroc\u0142awskie"}
+  - {arrival: !!python/unicode '04:53', departure: !!python/unicode '04:53', station: "Sadowice\
+      \ Wroc\u0142awskie"}
+  - {arrival: !!python/unicode '04:57', departure: !!python/unicode '04:58', station: !!python/unicode 'Smolec'}
+  - {arrival: !!python/unicode '05:02', departure: !!python/unicode '05:03', station: "Wroc\u0142\
+      aw Zachodni"}
+  - {arrival: !!python/unicode '05:13', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

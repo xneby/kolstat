@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'R 22017'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '21:48', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '21:54', departure: !!python/unicode '21:54', station: !!python/unicode 'Chrusty
+      Nowe'}
+  - {arrival: !!python/unicode '21:58', departure: !!python/unicode '21:59', station: !!python/unicode 'Rokiciny'}
+  - {arrival: !!python/unicode '22:03', departure: !!python/unicode '22:04', station: "\u0141\
+      azn\xF3w"}
+  - {arrival: !!python/unicode '22:08', departure: !!python/unicode '22:09', station: "Wolb\xF3\
+      rka"}
+  - {arrival: !!python/unicode '22:14', departure: !!python/unicode '22:15', station: !!python/unicode 'Baby'}
+  - {arrival: !!python/unicode '22:18', departure: !!python/unicode '22:19', station: !!python/unicode 'Moszczenica'}
+  - {arrival: !!python/unicode '22:23', departure: !!python/unicode '22:24', station: !!python/unicode 'Jarosty'}
+  - {arrival: !!python/unicode '22:29', station: "Piotrk\xF3w Tryb."}
+  to: 2013-02-06
+type: train
+variant: A

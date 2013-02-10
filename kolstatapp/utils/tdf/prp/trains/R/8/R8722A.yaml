@@ -1,0 +1,68 @@
+mode: normal
+name: !!python/unicode 'R 8722'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:12', station: "Szczecin G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '08:15', departure: !!python/unicode '08:15', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:23', station: !!python/unicode 'Szczecin
+      Podjuchy'}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:34', station: "Daleszewo\
+      \ Gryfi\u0144skie"}
+  - {arrival: !!python/unicode '08:37', departure: !!python/unicode '08:38', station: !!python/unicode 'Czepino'}
+  - {arrival: !!python/unicode '08:44', departure: !!python/unicode '08:44', station: !!python/unicode 'Gryfino'}
+  - {arrival: !!python/unicode '08:51', departure: !!python/unicode '08:52', station: !!python/unicode 'Dolna
+      Odra'}
+  - {arrival: !!python/unicode '08:58', departure: !!python/unicode '08:59', station: "Pachol\u0119\
+      ta"}
+  - {arrival: !!python/unicode '09:07', departure: !!python/unicode '09:07', station: !!python/unicode 'Widuchowa'}
+  - {arrival: !!python/unicode '09:13', departure: !!python/unicode '09:13', station: "Krzywin\
+      \ Gryfi\u0144ski"}
+  - {arrival: !!python/unicode '09:23', departure: !!python/unicode '09:24', station: !!python/unicode 'Lisie
+      Pole'}
+  - {arrival: !!python/unicode '09:34', departure: !!python/unicode '09:34', station: !!python/unicode 'Chojna'}
+  - {arrival: !!python/unicode '09:44', departure: !!python/unicode '09:44', station: "Godk\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:50', departure: !!python/unicode '09:50', station: "Witnica\
+      \ Choje\u0144ska"}
+  - {arrival: !!python/unicode '09:57', departure: !!python/unicode '09:58', station: !!python/unicode 'Bielin'}
+  - {arrival: !!python/unicode '10:04', departure: !!python/unicode '10:05', station: !!python/unicode 'Mieszkowice'}
+  - {arrival: !!python/unicode '10:12', departure: !!python/unicode '10:13', station: !!python/unicode 'Boleszkowice'}
+  - {arrival: !!python/unicode '10:23', departure: !!python/unicode '10:23', station: "Namy\u015B\
+      lin"}
+  - {arrival: !!python/unicode '10:37', departure: !!python/unicode '10:38', station: !!python/unicode 'Kostrzyn'}
+  - {arrival: !!python/unicode '10:50', departure: !!python/unicode '10:50', station: "\u0141\
+      ugi G\xF3rzyckie"}
+  - {arrival: !!python/unicode '10:53', departure: !!python/unicode '10:54', station: "G\xF3\
+      rzyca"}
+  - {arrival: !!python/unicode '11:01', departure: !!python/unicode '11:01', station: !!python/unicode 'Laski
+      Lubuskie'}
+  - {arrival: !!python/unicode '11:06', departure: !!python/unicode '11:06', station: "Rad\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:12', departure: !!python/unicode '11:13', station: "Kowal\xF3\
+      w"}
+  - {arrival: !!python/unicode '11:17', departure: !!python/unicode '11:18', station: "Drze\u0144\
+      sko"}
+  - {arrival: !!python/unicode '11:26', departure: !!python/unicode '11:27', station: !!python/unicode 'Rzepin'}
+  - {arrival: !!python/unicode '11:37', departure: !!python/unicode '11:38', station: !!python/unicode 'Jerzmanice
+      Lubuskie'}
+  - {arrival: !!python/unicode '11:45', departure: !!python/unicode '11:46', station: "G\u0105\
+      dk\xF3w Wielki"}
+  - {arrival: !!python/unicode '11:51', departure: !!python/unicode '11:51', station: !!python/unicode 'Pliszka'}
+  - {arrival: !!python/unicode '11:57', departure: !!python/unicode '11:57', station: "Budach\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:02', departure: !!python/unicode '12:02', station: !!python/unicode 'Bytnica'}
+  - {arrival: !!python/unicode '12:24', departure: !!python/unicode '12:24', station: !!python/unicode 'Radnica'}
+  - {arrival: !!python/unicode '12:32', departure: !!python/unicode '12:33', station: "B\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '12:40', departure: !!python/unicode '12:41', station: !!python/unicode 'Nietkowice'}
+  - {arrival: !!python/unicode '12:52', departure: !!python/unicode '12:53', station: "Czerwie\u0144\
+      sk"}
+  - {arrival: !!python/unicode '12:59', departure: !!python/unicode '13:00', station: !!python/unicode 'Przylep'}
+  - {arrival: !!python/unicode '13:07', station: "Zielona G\xF3ra"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'R 64216'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:22', station: "Opole G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '07:27', departure: !!python/unicode '07:30', station: !!python/unicode 'Opole
+      Groszowice'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:42', station: "Tarn\xF3\
+      w Opolski"}
+  - {arrival: !!python/unicode '07:47', departure: !!python/unicode '07:47', station: "Kamie\u0144\
+      \ \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '07:56', departure: !!python/unicode '07:57', station: "Szymisz\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:06', station: !!python/unicode 'Strzelce
+      Opolskie'}
+  - {arrival: !!python/unicode '08:13', departure: !!python/unicode '08:14', station: "B\u0142\
+      otnica Strzelecka"}
+  - {arrival: !!python/unicode '08:17', departure: !!python/unicode '08:18', station: !!python/unicode 'Kotulin'}
+  - {arrival: !!python/unicode '08:20', departure: !!python/unicode '08:21', station: !!python/unicode 'Ligota
+      Toszecka'}
+  - {arrival: !!python/unicode '08:24', departure: !!python/unicode '08:25', station: !!python/unicode 'Toszek'}
+  - {arrival: !!python/unicode '08:29', departure: !!python/unicode '08:30', station: !!python/unicode 'Paczyna'}
+  - {arrival: !!python/unicode '08:34', departure: !!python/unicode '08:35', station: !!python/unicode 'Pyskowice'}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:39', station: "Gliwice\
+      \ Ku\u017Anica"}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:42', station: "Gliwice\
+      \ \u0141ab\u0119dy"}
+  - {arrival: !!python/unicode '08:48', station: !!python/unicode 'Gliwice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'R 60440'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:29', station: !!python/unicode 'Brzeg'}
+  - {arrival: !!python/unicode '06:36', departure: !!python/unicode '06:36', station: !!python/unicode 'Olszanka'}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:42', station: "Czeska\
+      \ Wie\u015B"}
+  - {arrival: !!python/unicode '06:46', departure: !!python/unicode '06:47', station: "Lipowa\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '06:53', departure: !!python/unicode '06:54', station: "Grodk\xF3\
+      w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:00', station: "Stary\
+      \ Grodk\xF3w"}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:05', station: "Chr\xF3\
+      \u015Bcina Nyska"}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: !!python/unicode 'Skoroszyce'}
+  - {arrival: !!python/unicode '07:16', departure: !!python/unicode '07:16', station: "Pakos\u0142\
+      awice"}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:20', station: "My\u015B\
+      liczyn"}
+  - {arrival: !!python/unicode '07:27', station: !!python/unicode 'Nysa'}
+  to: 2013-02-06
+type: train
+variant: A

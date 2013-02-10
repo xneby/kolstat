@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 32128'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '22:48', station: "Krak\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '22:58', departure: !!python/unicode '22:58', station: "Krak\xF3\
+      w Batowice"}
+  - {arrival: !!python/unicode '23:04', departure: !!python/unicode '23:04', station: "Zast\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:08', departure: !!python/unicode '23:08', station: "Baran\xF3\
+      wka"}
+  - {arrival: !!python/unicode '23:11', departure: !!python/unicode '23:12', station: "\u0141\
+      uczyce"}
+  - {arrival: !!python/unicode '23:15', departure: !!python/unicode '23:15', station: !!python/unicode 'Goszcza'}
+  - {arrival: !!python/unicode '23:19', departure: !!python/unicode '23:19', station: "Nied\u017A\
+      wied\u017A"}
+  - {arrival: !!python/unicode '23:22', departure: !!python/unicode '23:23', station: "S\u0142\
+      omniki Miasto"}
+  - {arrival: !!python/unicode '23:25', departure: !!python/unicode '23:25', station: "S\u0142\
+      omniki"}
+  - {arrival: !!python/unicode '23:29', departure: !!python/unicode '23:29', station: "Smrok\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:32', departure: !!python/unicode '23:33', station: !!python/unicode 'Szczepanowice'}
+  - {arrival: !!python/unicode '23:36', departure: !!python/unicode '23:36', station: "Kamie\u0144\
+      czyce"}
+  - {arrival: !!python/unicode '23:40', departure: !!python/unicode '23:40', station: "Miech\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:45', departure: !!python/unicode '23:45', station: "Dziad\xF3\
+      wki"}
+  - {arrival: !!python/unicode '23:50', departure: !!python/unicode '23:50', station: !!python/unicode 'Tunel'}
+  - {arrival: !!python/unicode '23:58', departure: !!python/unicode '23:59', station: "Koz\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '00:03', departure: !!python/unicode '00:04', station: "Klimont\xF3\
+      w"}
+  - {arrival: !!python/unicode '00:09', station: "S\u0119dzisz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

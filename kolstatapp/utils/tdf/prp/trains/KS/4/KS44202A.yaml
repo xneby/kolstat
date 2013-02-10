@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'KS 44202'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '23:15', station: !!python/unicode 'Gliwice'}
+  - {arrival: !!python/unicode '23:26', departure: !!python/unicode '23:26', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '23:32', departure: !!python/unicode '23:33', station: "Ruda\
+      \ \u015Al\u0105ska"}
+  - {arrival: !!python/unicode '23:44', departure: !!python/unicode '23:44', station: "Chorz\xF3\
+      w Batory"}
+  - {arrival: !!python/unicode '23:53', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

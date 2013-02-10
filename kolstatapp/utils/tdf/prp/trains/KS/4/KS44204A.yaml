@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'KS 44204'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:48', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '05:56', departure: !!python/unicode '05:57', station: "Myszk\xF3\
+      w"}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:07', station: !!python/unicode 'Poraj'}
+  - {arrival: !!python/unicode '06:17', departure: !!python/unicode '06:17', station: "Cz\u0119\
+      stochowa Rak\xF3w"}
+  - {arrival: !!python/unicode '06:22', station: "Cz\u0119stochowa Osobowa"}
+  to: 2013-02-06
+type: train
+variant: A

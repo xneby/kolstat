@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'RE 14120'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:48', station: !!python/unicode 'Warszawa Wschodnia'}
+  - {arrival: !!python/unicode '17:55', departure: !!python/unicode '18:00', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '18:04', departure: !!python/unicode '18:05', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '20:37', departure: !!python/unicode '20:38', station: !!python/unicode 'Zawiercie'}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '20:57', station: "D\u0105\
+      browa G\xF3rnicza"}
+  - {arrival: !!python/unicode '21:06', departure: !!python/unicode '21:08', station: "Sosnowiec\
+      \ G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '21:18', departure: !!python/unicode '21:23', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '21:49', departure: !!python/unicode '21:50', station: !!python/unicode 'Zabrze'}
+  - {arrival: !!python/unicode '22:00', departure: !!python/unicode '22:02', station: !!python/unicode 'Gliwice'}
+  - {arrival: !!python/unicode '22:32', station: "K\u0119dzierzyn Ko\u017Ale"}
+  to: 2013-02-06
+type: train
+variant: A

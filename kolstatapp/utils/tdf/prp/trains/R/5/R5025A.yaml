@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 5025'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:57', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: "\u0141\
+      owicz Przedmie\u015Bcie"}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:07', station: !!python/unicode 'Grudze'}
+  - {arrival: !!python/unicode '08:13', departure: !!python/unicode '08:14', station: !!python/unicode 'Domaniewice'}
+  - {arrival: !!python/unicode '08:19', departure: !!python/unicode '08:20', station: "Kamie\u0144\
+      \ \u0141owicki"}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:25', station: "G\u0142\
+      owno"}
+  - {arrival: !!python/unicode '08:30', departure: !!python/unicode '08:30', station: !!python/unicode 'Bratoszewice'}
+  - {arrival: !!python/unicode '08:36', departure: !!python/unicode '08:36', station: "Stryk\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:41', departure: !!python/unicode '08:42', station: "Sw\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '08:46', departure: !!python/unicode '08:46', station: !!python/unicode 'Glinnik'}
+  - {arrival: !!python/unicode '08:50', departure: !!python/unicode '08:51', station: !!python/unicode 'Smardzew'}
+  - {arrival: !!python/unicode '08:56', departure: !!python/unicode '08:57', station: !!python/unicode 'Zgierz'}
+  - {arrival: !!python/unicode '09:10', departure: !!python/unicode '09:10', station: "\u0141\xF3\
+      d\u017A \u017Babieniec"}
+  - {arrival: !!python/unicode '09:16', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

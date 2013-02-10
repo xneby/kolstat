@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'KW 77646'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:41', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '20:45', departure: !!python/unicode '20:45', station: "Pozna\u0144\
+      \ Garbary"}
+  - {arrival: !!python/unicode '20:48', departure: !!python/unicode '20:49', station: "Pozna\u0144\
+      \ Wsch\xF3d"}
+  - {arrival: !!python/unicode '20:52', departure: !!python/unicode '20:52', station: "Pozna\u0144\
+      \ Karolin"}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '21:04', station: !!python/unicode 'Czerwonak'}
+  - {arrival: !!python/unicode '21:06', departure: !!python/unicode '21:06', station: !!python/unicode 'Czerwonak
+      Osiedle'}
+  - {arrival: !!python/unicode '21:10', departure: !!python/unicode '21:10', station: "Owi\u0144\
+      ska"}
+  - {arrival: !!python/unicode '21:13', departure: !!python/unicode '21:14', station: !!python/unicode 'Bolechowo'}
+  - {arrival: !!python/unicode '21:17', departure: !!python/unicode '21:18', station: "Zielone\
+      \ Wzg\xF3rza"}
+  - {arrival: !!python/unicode '21:20', departure: !!python/unicode '21:20', station: "Murowana\
+      \ Go\u015Blina"}
+  - {arrival: !!python/unicode '21:26', departure: !!python/unicode '21:26', station: "\u0141\
+      opuchowo"}
+  - {arrival: !!python/unicode '21:30', departure: !!python/unicode '21:31', station: "S\u0142\
+      awa Wlkp."}
+  - {arrival: !!python/unicode '21:36', departure: !!python/unicode '21:36', station: !!python/unicode 'Skoki'}
+  - {arrival: !!python/unicode '21:40', departure: !!python/unicode '21:41', station: "Roszkowo\
+      \ W\u0105growieck."}
+  - {arrival: !!python/unicode '21:45', departure: !!python/unicode '21:45', station: !!python/unicode 'Przysieczyn'}
+  - {arrival: !!python/unicode '21:52', station: "W\u0105growiec"}
+  to: 2013-02-06
+type: train
+variant: A

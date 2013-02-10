@@ -1,0 +1,48 @@
+mode: normal
+name: !!python/unicode 'WKD 219'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:50', station: "Warszawa \u015Ar\xF3dm.WKD"}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '13:51', station: !!python/unicode 'Warszawa
+      Ochota WKD'}
+  - {arrival: !!python/unicode '13:54', departure: !!python/unicode '13:54', station: !!python/unicode 'Warszawa
+      Zach.WKD'}
+  - {arrival: !!python/unicode '13:56', departure: !!python/unicode '13:56', station: !!python/unicode 'Warszawa
+      Reduta Ord.'}
+  - {arrival: !!python/unicode '13:58', departure: !!python/unicode '13:58', station: !!python/unicode 'Warszawa
+      Al.Jerozolimskie WKD'}
+  - {arrival: !!python/unicode '14:01', departure: !!python/unicode '14:01', station: "Warszawa\
+      \ Rak\xF3w"}
+  - {arrival: !!python/unicode '14:03', departure: !!python/unicode '14:03', station: !!python/unicode 'Warszawa
+      Salomea'}
+  - {arrival: !!python/unicode '14:05', departure: !!python/unicode '14:05', station: !!python/unicode 'Opacz'}
+  - {arrival: !!python/unicode '14:08', departure: !!python/unicode '14:08', station: "Micha\u0142\
+      owice"}
+  - {arrival: !!python/unicode '14:10', departure: !!python/unicode '14:10', station: "Regu\u0142\
+      y"}
+  - {arrival: !!python/unicode '14:12', departure: !!python/unicode '14:12', station: !!python/unicode 'Malichy'}
+  - {arrival: !!python/unicode '14:14', departure: !!python/unicode '14:14', station: !!python/unicode 'Tworki'}
+  - {arrival: !!python/unicode '14:16', departure: !!python/unicode '14:16', station: "Pruszk\xF3\
+      w WKD"}
+  - {arrival: !!python/unicode '14:20', departure: !!python/unicode '14:20', station: "Komor\xF3\
+      w"}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:23', station: "Nowa\
+      \ Wie\u015B Warszawska"}
+  - {arrival: !!python/unicode '14:25', departure: !!python/unicode '14:25', station: !!python/unicode 'Kanie
+      Helenowskie'}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:28', station: "Otr\u0119\
+      busy"}
+  - {arrival: !!python/unicode '14:30', departure: !!python/unicode '14:30', station: "Podkowa\
+      \ Le\u015Bna Wsch."}
+  - {arrival: !!python/unicode '14:33', departure: !!python/unicode '14:33', station: "Podkowa\
+      \ Le\u015Bna G\u0142."}
+  - {arrival: !!python/unicode '14:37', departure: !!python/unicode '14:37', station: "Podkowa\
+      \ Le\u015Bna Zach."}
+  - {arrival: !!python/unicode '14:40', departure: !!python/unicode '14:40', station: !!python/unicode 'Polesie'}
+  - {arrival: !!python/unicode '14:42', station: "Milan\xF3wek Grud\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

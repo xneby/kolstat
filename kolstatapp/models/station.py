@@ -37,7 +37,7 @@ class Station(models.Model):
 			require = require_num
 		else:
 			require = require_str
-		print require
+#		print require
 		return cls.objects.filter(require).all()
 			
 		print 'search failed for', query

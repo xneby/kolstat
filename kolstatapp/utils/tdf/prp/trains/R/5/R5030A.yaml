@@ -1,0 +1,30 @@
+mode: normal
+name: !!python/unicode 'R 5030'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:19', station: "\u0141\xF3d\u017A Kaliska"}
+  - {arrival: !!python/unicode '08:23', departure: !!python/unicode '08:23', station: "\u0141\xF3\
+      d\u017A \u017Babieniec"}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:33', station: !!python/unicode 'Zgierz'}
+  - {arrival: !!python/unicode '08:38', departure: !!python/unicode '08:38', station: !!python/unicode 'Smardzew'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:49', station: !!python/unicode 'Glinnik'}
+  - {arrival: !!python/unicode '08:52', departure: !!python/unicode '08:53', station: "Sw\u0119\
+      d\xF3w"}
+  - {arrival: !!python/unicode '08:57', departure: !!python/unicode '08:58', station: "Stryk\xF3\
+      w"}
+  - {arrival: !!python/unicode '09:03', departure: !!python/unicode '09:04', station: !!python/unicode 'Bratoszewice'}
+  - {arrival: !!python/unicode '09:08', departure: !!python/unicode '09:09', station: "G\u0142\
+      owno"}
+  - {arrival: !!python/unicode '09:13', departure: !!python/unicode '09:14', station: "Kamie\u0144\
+      \ \u0141owicki"}
+  - {arrival: !!python/unicode '09:19', departure: !!python/unicode '09:20', station: !!python/unicode 'Domaniewice'}
+  - {arrival: !!python/unicode '09:26', departure: !!python/unicode '09:27', station: !!python/unicode 'Grudze'}
+  - {arrival: !!python/unicode '09:32', departure: !!python/unicode '09:33', station: "\u0141\
+      owicz Przedmie\u015Bcie"}
+  - {arrival: !!python/unicode '09:37', station: "\u0141owicz G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

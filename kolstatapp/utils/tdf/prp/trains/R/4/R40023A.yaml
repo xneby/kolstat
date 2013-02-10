@@ -1,0 +1,31 @@
+mode: normal
+name: !!python/unicode 'R 40023'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:56', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:03', station: !!python/unicode 'Mokra'}
+  - {arrival: !!python/unicode '06:06', departure: !!python/unicode '06:07', station: !!python/unicode 'Sierakowice
+      Skiern.'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:11', station: "Be\u0142\
+      ch\xF3w"}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:16', station: !!python/unicode 'Bobrowniki'}
+  - {arrival: !!python/unicode '06:26', departure: !!python/unicode '06:50', station: "\u0141\
+      owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '06:55', departure: !!python/unicode '06:55', station: "Nied\u017A\
+      wiada \u0141owicka"}
+  - {arrival: !!python/unicode '07:01', departure: !!python/unicode '07:01', station: !!python/unicode 'Jackowice'}
+  - {arrival: !!python/unicode '07:07', departure: !!python/unicode '07:07', station: "Zosin\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:13', departure: !!python/unicode '07:13', station: "\u017B\
+      ychlin"}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:20', station: "Z\u0142\
+      otniki Kutnowskie"}
+  - {arrival: !!python/unicode '07:26', departure: !!python/unicode '07:26', station: "Skl\u0119\
+      czki"}
+  - {arrival: !!python/unicode '07:30', station: !!python/unicode 'Kutno'}
+  to: 2013-02-06
+type: train
+variant: A

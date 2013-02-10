@@ -1,0 +1,48 @@
+mode: normal
+name: !!python/unicode 'R 4625'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:00', station: "K\u0119dzierzyn Ko\u017Ale"}
+  - {arrival: !!python/unicode '11:07', departure: !!python/unicode '11:08', station: !!python/unicode 'Raszowa'}
+  - {arrival: !!python/unicode '11:14', departure: !!python/unicode '11:15', station: !!python/unicode 'Zdzieszowice'}
+  - {arrival: !!python/unicode '11:21', departure: !!python/unicode '11:21', station: !!python/unicode 'Jasiona'}
+  - {arrival: !!python/unicode '11:26', departure: !!python/unicode '11:27', station: !!python/unicode 'Gogolin'}
+  - {arrival: !!python/unicode '11:32', departure: !!python/unicode '11:33', station: "G\xF3\
+      ra\u017Cd\u017Ce"}
+  - {arrival: !!python/unicode '11:38', departure: !!python/unicode '11:39', station: !!python/unicode 'Przywory
+      Opolskie'}
+  - {arrival: !!python/unicode '11:43', departure: !!python/unicode '11:44', station: !!python/unicode 'Opole
+      Grotowice'}
+  - {arrival: !!python/unicode '11:48', departure: !!python/unicode '11:49', station: !!python/unicode 'Opole
+      Groszowice'}
+  - {arrival: !!python/unicode '11:55', departure: !!python/unicode '12:10', station: "Opole\
+      \ G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '12:13', departure: !!python/unicode '12:14', station: !!python/unicode 'Opole
+      Zachodnie'}
+  - {arrival: !!python/unicode '12:18', departure: !!python/unicode '12:19', station: "Chr\xF3\
+      \u015Bcina Opolska"}
+  - {arrival: !!python/unicode '12:23', departure: !!python/unicode '12:24', station: "D\u0105\
+      browa Niemodli\u0144ska"}
+  - {arrival: !!python/unicode '12:29', departure: !!python/unicode '12:30', station: !!python/unicode 'Przecza'}
+  - {arrival: !!python/unicode '12:34', departure: !!python/unicode '12:34', station: !!python/unicode 'Lewin
+      Brzeski'}
+  - {arrival: !!python/unicode '12:39', departure: !!python/unicode '12:39', station: "\u0141\
+      osi\xF3w"}
+  - {arrival: !!python/unicode '12:46', departure: !!python/unicode '12:47', station: !!python/unicode 'Brzeg'}
+  - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:56', station: !!python/unicode 'Lipki'}
+  - {arrival: !!python/unicode '13:02', departure: !!python/unicode '13:02', station: "O\u0142\
+      awa"}
+  - {arrival: !!python/unicode '13:08', departure: !!python/unicode '13:08', station: !!python/unicode 'Lizawice'}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: "Z\u0119\
+      bice Wroc\u0142awskie"}
+  - {arrival: !!python/unicode '13:17', departure: !!python/unicode '13:17', station: "\u015A\
+      wi\u0119ta Katarzyna"}
+  - {arrival: !!python/unicode '13:21', departure: !!python/unicode '13:22', station: "Wroc\u0142\
+      aw Broch\xF3w"}
+  - {arrival: !!python/unicode '13:30', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

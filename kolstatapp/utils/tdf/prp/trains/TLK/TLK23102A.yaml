@@ -1,0 +1,34 @@
+mode: normal
+name: !!python/unicode 'TLK 23102'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:05', station: !!python/unicode 'Lublin'}
+  - {arrival: !!python/unicode '16:25', departure: !!python/unicode '16:26', station: "Na\u0142\
+      \u0119cz\xF3w"}
+  - {arrival: !!python/unicode '16:39', departure: !!python/unicode '16:40', station: "Pu\u0142\
+      awy Miasto"}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:13', station: !!python/unicode 'Pionki
+      Zach.'}
+  - {arrival: !!python/unicode '17:30', departure: !!python/unicode '17:32', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '17:52', departure: !!python/unicode '17:53', station: "Szyd\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '18:02', departure: !!python/unicode '18:04', station: "Skar\u017C\
+      ysko-Kamienna"}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: "Suchedni\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:42', departure: !!python/unicode '18:47', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '19:16', departure: !!python/unicode '19:17', station: "J\u0119\
+      drzej\xF3w"}
+  - {arrival: !!python/unicode '19:30', departure: !!python/unicode '19:34', station: "S\u0119\
+      dzisz\xF3w"}
+  - {arrival: !!python/unicode '19:57', departure: !!python/unicode '19:58', station: "Miech\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:30', departure: !!python/unicode '20:35', station: "Krak\xF3\
+      w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '20:43', station: "Krak\xF3w P\u0142asz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

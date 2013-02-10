@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'RE 72110'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:18', station: "Pozna\u0144 G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '06:52', departure: !!python/unicode '06:54', station: "Wrze\u015B\
+      nia"}
+  - {arrival: !!python/unicode '07:25', departure: !!python/unicode '07:26', station: !!python/unicode 'Konin'}
+  - {arrival: !!python/unicode '07:42', departure: !!python/unicode '07:43', station: "Ko\u0142\
+      o"}
+  - {arrival: !!python/unicode '08:15', departure: !!python/unicode '08:16', station: !!python/unicode 'Kutno'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '08:51', station: "\u0141\
+      owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '09:07', departure: !!python/unicode '09:07', station: !!python/unicode 'Sochaczew'}
+  - {arrival: !!python/unicode '09:39', departure: !!python/unicode '09:40', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '09:45', departure: !!python/unicode '09:55', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '10:02', departure: !!python/unicode '10:03', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '11:20', departure: !!python/unicode '11:21', station: "D\u0119\
+      blin"}
+  - {arrival: !!python/unicode '11:37', departure: !!python/unicode '11:37', station: "Pu\u0142\
+      awy Miasto"}
+  - {arrival: !!python/unicode '11:50', departure: !!python/unicode '11:51', station: "Na\u0142\
+      \u0119cz\xF3w"}
+  - {arrival: !!python/unicode '12:10', station: !!python/unicode 'Lublin'}
+  to: 2013-02-06
+type: train
+variant: A

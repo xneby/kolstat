@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'R 20120'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:52', station: !!python/unicode 'Tczew'}
+  - {arrival: !!python/unicode '06:57', departure: !!python/unicode '06:58', station: !!python/unicode 'Czarlin'}
+  - {arrival: !!python/unicode '07:03', departure: !!python/unicode '07:04', station: !!python/unicode 'Subkowy'}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:10', station: !!python/unicode 'Pelplin'}
+  - {arrival: !!python/unicode '07:15', departure: !!python/unicode '07:15', station: !!python/unicode 'Kulice
+      Tczewskie'}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:20', station: !!python/unicode 'Morzeszczyn'}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:24', station: !!python/unicode 'Majewo'}
+  - {arrival: !!python/unicode '07:29', departure: !!python/unicode '07:29', station: "Sm\u0119\
+      towo"}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:37', station: "Twarda\
+      \ G\xF3ra"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:46', station: !!python/unicode 'Warlubie'}
+  - {arrival: !!python/unicode '07:58', station: !!python/unicode 'Laskowice Pomorskie'}
+  to: 2013-02-06
+type: train
+variant: A

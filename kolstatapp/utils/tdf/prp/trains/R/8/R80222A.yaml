@@ -1,0 +1,21 @@
+mode: normal
+name: !!python/unicode 'R 80222'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:31', station: "Krzy\u017C"}
+  - {arrival: !!python/unicode '06:41', departure: !!python/unicode '06:41', station: "Wiele\u0144\
+      \ P\u0142n."}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:51', station: !!python/unicode 'Biernatowo'}
+  - {arrival: !!python/unicode '06:57', departure: !!python/unicode '06:57', station: !!python/unicode 'Siedlisko
+      Czarnk.'}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:04', station: !!python/unicode 'Trzcianka'}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: "Bia\u0142\
+      a Pilska"}
+  - {arrival: !!python/unicode '07:17', departure: !!python/unicode '07:17', station: !!python/unicode 'Stobno'}
+  - {arrival: !!python/unicode '07:26', station: "Pi\u0142a G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

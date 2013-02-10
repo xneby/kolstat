@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 85040'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:24', station: !!python/unicode 'Wyrzysk Osiek'}
+  - {arrival: !!python/unicode '04:29', departure: !!python/unicode '04:29', station: "Jadwi\u017C\
+      yn"}
+  - {arrival: !!python/unicode '04:33', departure: !!python/unicode '04:33', station: !!python/unicode 'Samostrzel'}
+  - {arrival: !!python/unicode '04:37', departure: !!python/unicode '04:37', station: !!python/unicode 'Anieliny'}
+  - {arrival: !!python/unicode '04:44', departure: !!python/unicode '04:45', station: "Nak\u0142\
+      o n. Noteci\u0105"}
+  - {arrival: !!python/unicode '04:51', departure: !!python/unicode '04:51', station: "\u015A\
+      lesin"}
+  - {arrival: !!python/unicode '04:57', departure: !!python/unicode '04:57', station: !!python/unicode 'Zielonczyn'}
+  - {arrival: !!python/unicode '05:00', departure: !!python/unicode '05:01', station: "Paw\u0142\
+      \xF3wek"}
+  - {arrival: !!python/unicode '05:04', departure: !!python/unicode '05:05', station: "Bydgoszcz\
+      \ Osowa G\xF3ra"}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:08', station: !!python/unicode 'Bydgoszcz
+      Zach.'}
+  - {arrival: !!python/unicode '05:14', station: "Bydgoszcz G\u0142\xF3wna"}
+  to: 2013-02-06
+type: train
+variant: A

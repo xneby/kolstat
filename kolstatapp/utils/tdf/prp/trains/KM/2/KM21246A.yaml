@@ -1,0 +1,68 @@
+mode: normal
+name: !!python/unicode 'KM 21246'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '13:50', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '14:03', departure: !!python/unicode '14:03', station: "Lesi\xF3\
+      w"}
+  - {arrival: !!python/unicode '14:09', departure: !!python/unicode '14:14', station: !!python/unicode 'Bartodzieje'}
+  - {arrival: !!python/unicode '14:17', departure: !!python/unicode '14:17', station: !!python/unicode 'Wola
+      Bierwiecka'}
+  - {arrival: !!python/unicode '14:22', departure: !!python/unicode '14:22', station: !!python/unicode 'Kruszyna'}
+  - {arrival: !!python/unicode '14:30', departure: !!python/unicode '14:30', station: !!python/unicode 'Dobieszyn'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: "Strzy\u017C\
+      yna"}
+  - {arrival: !!python/unicode '14:46', departure: !!python/unicode '14:46', station: "Grab\xF3\
+      w n. Pilic\u0105"}
+  - {arrival: !!python/unicode '14:54', departure: !!python/unicode '14:54', station: !!python/unicode 'Warka'}
+  - {arrival: !!python/unicode '14:58', departure: !!python/unicode '14:58', station: "Go\u015B\
+      niewice"}
+  - {arrival: !!python/unicode '15:03', departure: !!python/unicode '15:03', station: !!python/unicode 'Michalczew'}
+  - {arrival: !!python/unicode '15:08', departure: !!python/unicode '15:08', station: "Kr\u0119\
+      \u017Cel"}
+  - {arrival: !!python/unicode '15:13', departure: !!python/unicode '15:13', station: "Chyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:17', departure: !!python/unicode '15:17', station: "Su\u0142\
+      kowice"}
+  - {arrival: !!python/unicode '15:22', departure: !!python/unicode '15:22', station: "Czach\xF3\
+      wek P\u0142d."}
+  - {arrival: !!python/unicode '15:24', departure: !!python/unicode '15:24', station: "Czach\xF3\
+      wek G\xF3rny"}
+  - {arrival: !!python/unicode '15:28', departure: !!python/unicode '15:28', station: "Ustan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '15:33', departure: !!python/unicode '15:33', station: "Zalesie\
+      \ G\xF3rne"}
+  - {arrival: !!python/unicode '15:38', departure: !!python/unicode '15:38', station: !!python/unicode 'Piaseczno'}
+  - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:43', station: !!python/unicode 'Nowa
+      Iwiczna'}
+  - {arrival: !!python/unicode '15:46', departure: !!python/unicode '15:46', station: !!python/unicode 'Warszawa
+      Jeziorki'}
+  - {arrival: !!python/unicode '15:50', departure: !!python/unicode '15:50', station: !!python/unicode 'Warszawa
+      Dawidy'}
+  - {arrival: !!python/unicode '15:55', departure: !!python/unicode '15:55', station: "Warszawa\
+      \ Ok\u0119cie"}
+  - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:57', station: "Warszawa\
+      \ S\u0142u\u017Cewiec"}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:00', station: "Warszawa\
+      \ \u017Bwirki i Wigury"}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: !!python/unicode 'Warszawa
+      Rakowiec'}
+  - {arrival: !!python/unicode '16:05', departure: !!python/unicode '16:05', station: !!python/unicode 'Warszawa
+      Al.Jerozolimskie PKP'}
+  - {arrival: !!python/unicode '16:10', departure: !!python/unicode '16:10', station: !!python/unicode 'Warszawa
+      Zachodnia'}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:13', station: !!python/unicode 'Warszawa
+      Ochota'}
+  - {arrival: !!python/unicode '16:16', departure: !!python/unicode '16:16', station: "Warszawa\
+      \ \u015Ar\xF3dm. (PKP)"}
+  - {arrival: !!python/unicode '16:19', departure: !!python/unicode '16:19', station: "Warszawa\
+      \ Powi\u015Ble"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:22', station: !!python/unicode 'Warszawa
+      Stadion'}
+  - {arrival: !!python/unicode '16:24', station: !!python/unicode 'Warszawa Wschodnia'}
+  to: 2013-02-06
+type: train
+variant: A

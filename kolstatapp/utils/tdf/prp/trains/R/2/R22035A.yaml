@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 22035'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '23:00', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '23:03', departure: !!python/unicode '23:04', station: !!python/unicode 'Kielce
+      Herbskie'}
+  - {arrival: !!python/unicode '23:06', departure: !!python/unicode '23:07', station: "Kielce\
+      \ Czarn\xF3w"}
+  - {arrival: !!python/unicode '23:12', departure: !!python/unicode '23:13', station: "G\xF3\
+      rki Szczukowskie"}
+  - {arrival: !!python/unicode '23:18', departure: !!python/unicode '23:19', station: "Piekosz\xF3\
+      w"}
+  - {arrival: !!python/unicode '23:23', departure: !!python/unicode '23:24', station: !!python/unicode 'Rykoszyn'}
+  - {arrival: !!python/unicode '23:28', departure: !!python/unicode '23:28', station: !!python/unicode 'Wierna
+      Rzeka'}
+  - {arrival: !!python/unicode '23:32', departure: !!python/unicode '23:32', station: "Ma\u0142\
+      ogoszcz"}
+  - {arrival: !!python/unicode '23:37', departure: !!python/unicode '23:37', station: !!python/unicode 'Bukowa'}
+  - {arrival: !!python/unicode '23:41', departure: !!python/unicode '23:42', station: !!python/unicode 'Ludynia'}
+  - {arrival: !!python/unicode '23:45', departure: !!python/unicode '23:46', station: "Ludynia\
+      \ Dw\xF3r"}
+  - {arrival: !!python/unicode '23:52', station: "W\u0142oszczowa"}
+  to: 2013-02-06
+type: train
+variant: A

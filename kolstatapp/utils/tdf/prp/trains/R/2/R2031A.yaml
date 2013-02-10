@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'R 2031'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:20', station: !!python/unicode 'Skierniewice'}
+  - {arrival: !!python/unicode '16:25', departure: !!python/unicode '16:26', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:30', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:34', departure: !!python/unicode '16:34', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '16:38', departure: !!python/unicode '16:39', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '16:43', departure: !!python/unicode '16:44', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '16:46', departure: !!python/unicode '16:47', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '16:50', departure: !!python/unicode '16:50', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:54', departure: !!python/unicode '16:54', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '16:59', station: !!python/unicode 'Koluszki'}
+  to: 2013-02-06
+type: train
+variant: A

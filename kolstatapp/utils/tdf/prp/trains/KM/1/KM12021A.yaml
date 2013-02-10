@@ -1,0 +1,27 @@
+mode: normal
+name: !!python/unicode 'KM 12021'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:48', station: !!python/unicode 'Pilawa'}
+  - {arrival: !!python/unicode '05:55', departure: !!python/unicode '05:55', station: !!python/unicode 'Garwolin'}
+  - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:00', station: !!python/unicode 'Ruda
+      Talubska'}
+  - {arrival: !!python/unicode '06:05', departure: !!python/unicode '06:05', station: !!python/unicode 'Wola
+      Rowska'}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:08', station: "\u0141\
+      askarzew Przystanek"}
+  - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:12', station: !!python/unicode 'Leokadia'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:16', station: !!python/unicode 'Sobolew'}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:21', station: !!python/unicode 'Wygoda'}
+  - {arrival: !!python/unicode '06:26', departure: !!python/unicode '06:26', station: !!python/unicode 'Mika'}
+  - {arrival: !!python/unicode '06:29', departure: !!python/unicode '06:29', station: "\u017B\
+      yczyn"}
+  - {arrival: !!python/unicode '06:34', departure: !!python/unicode '06:34', station: !!python/unicode 'Rokitnia
+      Stara'}
+  - {arrival: !!python/unicode '06:39', station: "D\u0119blin"}
+  to: 2013-02-06
+type: train
+variant: A

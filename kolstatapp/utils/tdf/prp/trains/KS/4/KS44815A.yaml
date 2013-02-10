@@ -1,0 +1,52 @@
+mode: normal
+name: !!python/unicode 'KS 44815'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:20', station: !!python/unicode 'Katowice'}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:29', station: !!python/unicode 'Katowice
+      Ligota'}
+  - {arrival: !!python/unicode '06:31', departure: !!python/unicode '06:32', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:39', station: "Miko\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:44', station: "\u0141\
+      aziska G\xF3rne"}
+  - {arrival: !!python/unicode '06:51', departure: !!python/unicode '06:52', station: !!python/unicode 'Orzesze'}
+  - {arrival: !!python/unicode '06:55', departure: !!python/unicode '07:00', station: "Orzesze\
+      \ Ja\u015Bkowice"}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:05', station: !!python/unicode 'Czerwionka'}
+  - {arrival: !!python/unicode '07:07', departure: !!python/unicode '07:07', station: "Czerwionka\
+      \ D\u0119bie\u0144sko"}
+  - {arrival: !!python/unicode '07:12', departure: !!python/unicode '07:13', station: !!python/unicode 'Leszczyny'}
+  - {arrival: !!python/unicode '07:18', departure: !!python/unicode '07:19', station: !!python/unicode 'Rybnik
+      Paruszowiec'}
+  - {arrival: !!python/unicode '07:22', departure: !!python/unicode '07:25', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '07:30', departure: !!python/unicode '07:30', station: !!python/unicode 'Rybnik
+      Towarowy'}
+  - {arrival: !!python/unicode '07:33', departure: !!python/unicode '07:33', station: !!python/unicode 'Rybnik
+      Niedobczyce'}
+  - {arrival: !!python/unicode '07:36', departure: !!python/unicode '07:36', station: !!python/unicode 'Rybnik
+      Niewiadom'}
+  - {arrival: !!python/unicode '07:41', departure: !!python/unicode '07:42', station: "Rydu\u0142\
+      towy"}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:49', station: "\u0141\
+      uk\xF3w \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '07:51', departure: !!python/unicode '07:52', station: "Sumina\
+      \ Wie\u015B"}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:55', station: !!python/unicode 'Sumina'}
+  - {arrival: !!python/unicode '07:56', departure: !!python/unicode '07:57', station: "G\xF3\
+      rki \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: !!python/unicode 'Szymocice'}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:06', station: "N\u0119\
+      dza Wie\u015B"}
+  - {arrival: !!python/unicode '08:10', departure: !!python/unicode '08:10', station: "N\u0119\
+      dza"}
+  - {arrival: !!python/unicode '08:15', departure: !!python/unicode '08:15', station: "Racib\xF3\
+      rz Markowice"}
+  - {arrival: !!python/unicode '08:21', station: "Racib\xF3rz"}
+  to: 2013-02-06
+type: train
+variant: A

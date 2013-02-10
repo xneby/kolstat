@@ -1,0 +1,44 @@
+mode: normal
+name: !!python/unicode 'R 2021'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:45', station: "Rzesz\xF3w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '04:50', departure: !!python/unicode '04:50', station: "Rzesz\xF3\
+      w Za\u0142\u0119\u017Ce"}
+  - {arrival: !!python/unicode '04:54', departure: !!python/unicode '04:55', station: "Stra\u017C\
+      \xF3w"}
+  - {arrival: !!python/unicode '05:00', departure: !!python/unicode '05:00', station: !!python/unicode 'Krzemienica'}
+  - {arrival: !!python/unicode '05:03', departure: !!python/unicode '05:04', station: "\u0141\
+      a\u0144cut"}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:08', station: "G\u0142\
+      uch\xF3w"}
+  - {arrival: !!python/unicode '05:11', departure: !!python/unicode '05:12', station: !!python/unicode 'Kosina'}
+  - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:15', station: "Rog\xF3\
+      \u017Cno k. \u0141a\u0144cuta"}
+  - {arrival: !!python/unicode '05:21', departure: !!python/unicode '05:22', station: "Grz\u0119\
+      ska"}
+  - {arrival: !!python/unicode '05:27', departure: !!python/unicode '05:27', station: !!python/unicode 'Przeworsk'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:35', station: "Pe\u0142\
+      kinie"}
+  - {arrival: !!python/unicode '05:41', departure: !!python/unicode '05:41', station: "Jaros\u0142\
+      aw"}
+  - {arrival: !!python/unicode '05:45', departure: !!python/unicode '05:46', station: !!python/unicode 'Munina'}
+  - {arrival: !!python/unicode '05:52', departure: !!python/unicode '05:52', station: !!python/unicode 'Ostrowiecko'}
+  - {arrival: !!python/unicode '05:57', departure: !!python/unicode '05:58', station: !!python/unicode 'Radymno'}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: "So\u015B\
+      nica Jaros\u0142awska"}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:07', station: !!python/unicode 'Niziny'}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:11', station: !!python/unicode 'Walawa'}
+  - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: "\u017B\
+      urawica Rozrz\u0105dowa"}
+  - {arrival: !!python/unicode '06:21', departure: !!python/unicode '06:21', station: "\u017B\
+      urawica"}
+  - {arrival: !!python/unicode '06:27', departure: !!python/unicode '06:27', station: "Przemy\u015B\
+      l Zasanie"}
+  - {arrival: !!python/unicode '06:31', station: "Przemy\u015Bl G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: B

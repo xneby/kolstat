@@ -1,0 +1,31 @@
+mode: normal
+name: !!python/unicode 'R 9011'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:25', station: !!python/unicode 'Trzebinia'}
+  - {arrival: !!python/unicode '07:34', departure: !!python/unicode '07:34', station: !!python/unicode 'Dulowa'}
+  - {arrival: !!python/unicode '07:44', departure: !!python/unicode '07:44', station: !!python/unicode 'Wola
+      Filipowska'}
+  - {arrival: !!python/unicode '07:51', departure: !!python/unicode '07:51', station: !!python/unicode 'Krzeszowice'}
+  - {arrival: !!python/unicode '08:03', departure: !!python/unicode '08:04', station: !!python/unicode 'Rudawa'}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:13', station: "Zabierz\xF3\
+      w"}
+  - {arrival: !!python/unicode '08:16', departure: !!python/unicode '08:17', station: "Krak\xF3\
+      w Business Park"}
+  - {arrival: !!python/unicode '08:20', departure: !!python/unicode '08:20', station: "Krak\xF3\
+      w Mydlniki Wap."}
+  - {arrival: !!python/unicode '08:22', departure: !!python/unicode '08:23', station: "Krak\xF3\
+      w Mydlniki"}
+  - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:27', station: "Krak\xF3\
+      w \u0141obz\xF3w"}
+  - {arrival: !!python/unicode '08:33', departure: !!python/unicode '08:34', station: "Krak\xF3\
+      w G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '08:37', departure: !!python/unicode '08:38', station: "Krak\xF3\
+      w Zab\u0142ocie"}
+  - {arrival: !!python/unicode '08:42', station: "Krak\xF3w P\u0142asz\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

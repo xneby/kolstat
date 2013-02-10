@@ -1,0 +1,16 @@
+mode: normal
+name: !!python/unicode 'R 9632'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:45', station: !!python/unicode 'Szczytno'}
+  - {arrival: !!python/unicode '19:56', departure: !!python/unicode '19:56', station: !!python/unicode 'Grom'}
+  - {arrival: !!python/unicode '20:06', departure: !!python/unicode '20:07', station: !!python/unicode 'Pasym'}
+  - {arrival: !!python/unicode '20:16', departure: !!python/unicode '20:17', station: !!python/unicode 'Marcinkowo'}
+  - {arrival: !!python/unicode '20:23', departure: !!python/unicode '20:24', station: !!python/unicode 'Klewki'}
+  - {arrival: !!python/unicode '20:35', station: "Olsztyn G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

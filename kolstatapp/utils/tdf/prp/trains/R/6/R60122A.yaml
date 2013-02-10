@@ -1,0 +1,42 @@
+mode: normal
+name: !!python/unicode 'R 60122'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:31', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '14:36', departure: !!python/unicode '14:37', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:45', station: "Wroc\u0142\
+      aw Nadodrze"}
+  - {arrival: !!python/unicode '14:51', departure: !!python/unicode '14:51', station: "Wroc\u0142\
+      aw So\u0142tysowice"}
+  - {arrival: !!python/unicode '14:55', departure: !!python/unicode '14:55', station: "Wroc\u0142\
+      aw Psie Pole"}
+  - {arrival: !!python/unicode '15:02', departure: !!python/unicode '15:03', station: "D\u0142\
+      ugo\u0142\u0119ka"}
+  - {arrival: !!python/unicode '15:09', departure: !!python/unicode '15:09', station: "Borowa\
+      \ Ole\u015Bnicka"}
+  - {arrival: !!python/unicode '15:19', departure: !!python/unicode '15:21', station: "Ole\u015B\
+      nica"}
+  - {arrival: !!python/unicode '15:31', departure: !!python/unicode '15:32', station: !!python/unicode 'Solniki
+      Wielkie'}
+  - {arrival: !!python/unicode '15:39', departure: !!python/unicode '15:40', station: "Bierut\xF3\
+      w"}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:49', station: "Wilk\xF3\
+      w Namys\u0142owski"}
+  - {arrival: !!python/unicode '15:54', departure: !!python/unicode '15:54', station: "Namys\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:01', station: "Gr\u0119\
+      bosz\xF3w"}
+  - {arrival: !!python/unicode '16:06', departure: !!python/unicode '16:07', station: !!python/unicode 'Domaszowice'}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:14', station: "Wierzbica\
+      \ G\xF3rna"}
+  - {arrival: !!python/unicode '16:18', departure: !!python/unicode '16:19', station: "Wo\u0142\
+      czyn"}
+  - {arrival: !!python/unicode '16:25', departure: !!python/unicode '16:26', station: !!python/unicode 'Smardy'}
+  - {arrival: !!python/unicode '16:32', station: !!python/unicode 'Kluczbork'}
+  to: 2013-02-06
+type: train
+variant: A

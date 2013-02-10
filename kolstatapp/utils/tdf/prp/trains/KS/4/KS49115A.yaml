@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'KS 49115'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '08:40', station: "S\u0142awk\xF3w"}
+  - {arrival: !!python/unicode '08:46', departure: !!python/unicode '08:46', station: "D\u0105\
+      browa G\xF3r.Wsch."}
+  - {arrival: !!python/unicode '08:50', departure: !!python/unicode '08:50', station: "D\u0105\
+      browa G\xF3rnicza St."}
+  - {arrival: !!python/unicode '08:58', departure: !!python/unicode '08:58', station: !!python/unicode 'Sosnowiec
+      Kazimierz'}
+  - {arrival: !!python/unicode '09:04', departure: !!python/unicode '09:04', station: "Sosnowiec\
+      \ Por\u0105bka"}
+  - {arrival: !!python/unicode '09:12', departure: !!python/unicode '09:12', station: "Sosnowiec\
+      \ Da\u0144d\xF3wka"}
+  - {arrival: !!python/unicode '09:24', departure: !!python/unicode '09:24', station: "Sosnowiec\
+      \ P\u0142d."}
+  - {arrival: !!python/unicode '09:27', station: "Sosnowiec G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

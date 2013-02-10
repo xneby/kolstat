@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'R 88320'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:45', station: !!python/unicode 'Terespol'}
+  - {arrival: !!python/unicode '05:50', departure: !!python/unicode '05:51', station: !!python/unicode 'Kobylany'}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: "Ma\u0142\
+      aszewicze"}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:02', station: !!python/unicode 'Dobrynka'}
+  - {arrival: !!python/unicode '06:07', departure: !!python/unicode '06:07', station: "Choty\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '06:11', departure: !!python/unicode '06:12', station: !!python/unicode 'Perkowice'}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:15', station: !!python/unicode 'Ogrodniki'}
+  - {arrival: !!python/unicode '06:22', departure: !!python/unicode '06:23', station: "Bia\u0142\
+      a Podlaska Roz."}
+  - {arrival: !!python/unicode '06:27', departure: !!python/unicode '06:28', station: "Bia\u0142\
+      a Podlaska"}
+  - {arrival: !!python/unicode '06:33', departure: !!python/unicode '06:34', station: !!python/unicode 'Porosiuki'}
+  - {arrival: !!python/unicode '06:39', departure: !!python/unicode '06:40', station: !!python/unicode 'Sokule'}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:43', station: !!python/unicode 'Szachy'}
+  - {arrival: !!python/unicode '06:46', departure: !!python/unicode '06:47', station: !!python/unicode 'Sitno'}
+  - {arrival: !!python/unicode '06:53', departure: !!python/unicode '06:54', station: "Mi\u0119\
+      dzyrzec Podl."}
+  - {arrival: !!python/unicode '07:00', departure: !!python/unicode '07:00', station: !!python/unicode 'Misie'}
+  - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:05', station: !!python/unicode 'Brzozowica'}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:10', station: !!python/unicode 'Szaniawy'}
+  - {arrival: !!python/unicode '07:14', departure: !!python/unicode '07:14', station: !!python/unicode 'Matysy'}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:20', station: "\u0141\
+      uk\xF3w Zapowiednik"}
+  - {arrival: !!python/unicode '07:25', station: "\u0141uk\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

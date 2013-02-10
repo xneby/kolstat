@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'KS 90714'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:01', station: "Wodzis\u0142aw \u015Al\u0105ski"}
+  - {arrival: !!python/unicode '09:04', departure: !!python/unicode '09:04', station: "Wodzis\u0142\
+      aw \u015Al.Radlin"}
+  - {arrival: !!python/unicode '09:10', departure: !!python/unicode '09:11', station: !!python/unicode 'Radlin
+      Obszary'}
+  - {arrival: !!python/unicode '09:15', departure: !!python/unicode '09:15', station: !!python/unicode 'Rybnik
+      Rymer'}
+  - {arrival: !!python/unicode '09:18', departure: !!python/unicode '09:19', station: !!python/unicode 'Rybnik
+      Towarowy'}
+  - {arrival: !!python/unicode '09:24', departure: !!python/unicode '09:34', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '09:48', departure: !!python/unicode '09:49', station: !!python/unicode 'Szczejkowice'}
+  - {arrival: !!python/unicode '09:55', departure: !!python/unicode '09:55', station: "\u017B\
+      ory"}
+  - {arrival: !!python/unicode '10:08', departure: !!python/unicode '10:09', station: !!python/unicode 'Suszec
+      Kopalnia'}
+  - {arrival: !!python/unicode '10:12', departure: !!python/unicode '10:12', station: !!python/unicode 'Suszec'}
+  - {arrival: !!python/unicode '10:21', departure: !!python/unicode '10:22', station: !!python/unicode 'Radostowice'}
+  - {arrival: !!python/unicode '10:33', departure: !!python/unicode '10:33', station: !!python/unicode 'Pszczyna'}
+  - {arrival: !!python/unicode '10:37', departure: !!python/unicode '10:37', station: "Gocza\u0142\
+      kowice"}
+  - {arrival: !!python/unicode '10:40', departure: !!python/unicode '10:40', station: "Gocza\u0142\
+      kowice Zdr\xF3j"}
+  - {arrival: !!python/unicode '10:46', station: !!python/unicode 'Czechowice Dziedzice'}
+  to: 2013-02-06
+type: train
+variant: A

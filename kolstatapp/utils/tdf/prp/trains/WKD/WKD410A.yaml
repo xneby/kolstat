@@ -1,0 +1,33 @@
+mode: normal
+name: !!python/unicode 'WKD 410'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '09:48', station: "Komor\xF3w"}
+  - {arrival: !!python/unicode '09:50', departure: !!python/unicode '09:50', station: "Pruszk\xF3\
+      w WKD"}
+  - {arrival: !!python/unicode '09:52', departure: !!python/unicode '09:52', station: !!python/unicode 'Tworki'}
+  - {arrival: !!python/unicode '09:54', departure: !!python/unicode '09:54', station: !!python/unicode 'Malichy'}
+  - {arrival: !!python/unicode '09:56', departure: !!python/unicode '09:56', station: "Regu\u0142\
+      y"}
+  - {arrival: !!python/unicode '09:59', departure: !!python/unicode '09:59', station: "Micha\u0142\
+      owice"}
+  - {arrival: !!python/unicode '10:01', departure: !!python/unicode '10:01', station: !!python/unicode 'Opacz'}
+  - {arrival: !!python/unicode '10:04', departure: !!python/unicode '10:04', station: !!python/unicode 'Warszawa
+      Salomea'}
+  - {arrival: !!python/unicode '10:06', departure: !!python/unicode '10:06', station: "Warszawa\
+      \ Rak\xF3w"}
+  - {arrival: !!python/unicode '10:08', departure: !!python/unicode '10:08', station: !!python/unicode 'Warszawa
+      Al.Jerozolimskie WKD'}
+  - {arrival: !!python/unicode '10:10', departure: !!python/unicode '10:10', station: !!python/unicode 'Warszawa
+      Reduta Ord.'}
+  - {arrival: !!python/unicode '10:13', departure: !!python/unicode '10:13', station: !!python/unicode 'Warszawa
+      Zach.WKD'}
+  - {arrival: !!python/unicode '10:15', departure: !!python/unicode '10:15', station: !!python/unicode 'Warszawa
+      Ochota WKD'}
+  - {arrival: !!python/unicode '10:17', station: "Warszawa \u015Ar\xF3dm.WKD"}
+  to: 2013-02-06
+type: train
+variant: A

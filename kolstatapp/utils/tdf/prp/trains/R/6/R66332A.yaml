@@ -1,0 +1,38 @@
+mode: normal
+name: !!python/unicode 'R 66332'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:56', station: "K\u0142odzko G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '12:00', departure: !!python/unicode '12:00', station: "\u0141\
+      awica"}
+  - {arrival: !!python/unicode '12:06', departure: !!python/unicode '12:06', station: "Bardo\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '12:09', departure: !!python/unicode '12:10', station: "Bardo\
+      \ Przy\u0142\u0119k"}
+  - {arrival: !!python/unicode '12:14', departure: !!python/unicode '12:15', station: !!python/unicode 'Suszka'}
+  - {arrival: !!python/unicode '12:19', departure: !!python/unicode '12:20', station: "Kamieniec\
+      \ Z\u0105bkowicki"}
+  - {arrival: !!python/unicode '12:24', departure: !!python/unicode '12:25', station: "Starcz\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:32', departure: !!python/unicode '12:32', station: "Zi\u0119\
+      bice"}
+  - {arrival: !!python/unicode '12:37', departure: !!python/unicode '12:38', station: "Henryk\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:43', departure: !!python/unicode '12:44', station: "Bia\u0142\
+      y Ko\u015Bci\xF3\u0142"}
+  - {arrival: !!python/unicode '12:49', departure: !!python/unicode '12:50', station: !!python/unicode 'Strzelin'}
+  - {arrival: !!python/unicode '12:54', departure: !!python/unicode '12:54', station: !!python/unicode 'Warkocz'}
+  - {arrival: !!python/unicode '13:00', departure: !!python/unicode '13:01', station: !!python/unicode 'Boreczek'}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: "W\u0119\
+      gry"}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: "\u017B\xF3\
+      rawina"}
+  - {arrival: !!python/unicode '13:18', departure: !!python/unicode '13:19', station: "Smardz\xF3\
+      w Wroc\u0142."}
+  - {arrival: !!python/unicode '13:29', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

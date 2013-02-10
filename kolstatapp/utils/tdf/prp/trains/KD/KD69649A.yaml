@@ -1,0 +1,25 @@
+mode: normal
+name: !!python/unicode 'KD 69649'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:55', station: "Jelenia G\xF3ra"}
+  - {arrival: !!python/unicode '18:03', departure: !!python/unicode '18:03', station: "Je\u017C\
+      \xF3w Sudecki"}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:12', station: "Siedl\u0119\
+      cin"}
+  - {arrival: !!python/unicode '18:21', departure: !!python/unicode '18:21', station: !!python/unicode 'Pilchowice
+      Zapora'}
+  - {arrival: !!python/unicode '18:30', departure: !!python/unicode '18:30', station: !!python/unicode 'Pilchowice
+      Nielestno'}
+  - {arrival: !!python/unicode '18:37', departure: !!python/unicode '18:38', station: "Wle\u0144"}
+  - {arrival: !!python/unicode '18:49', departure: !!python/unicode '18:49', station: "Marcz\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: "D\u0119\
+      bowy Gaj"}
+  - {arrival: !!python/unicode '19:11', station: "Lw\xF3wek \u015Al\u0105ski"}
+  to: 2013-02-06
+type: train
+variant: A

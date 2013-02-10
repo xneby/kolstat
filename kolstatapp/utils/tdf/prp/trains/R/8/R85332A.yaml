@@ -1,0 +1,26 @@
+mode: normal
+name: !!python/unicode 'R 85332'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:32', station: !!python/unicode 'Szczecinek'}
+  - {arrival: !!python/unicode '06:37', departure: !!python/unicode '06:38', station: "Czarnob\xF3\
+      r"}
+  - {arrival: !!python/unicode '06:41', departure: !!python/unicode '06:42', station: "\u017B\xF3\
+      \u0142tnica"}
+  - {arrival: !!python/unicode '06:50', departure: !!python/unicode '06:51', station: !!python/unicode 'Czarne'}
+  - {arrival: !!python/unicode '06:58', departure: !!python/unicode '06:59', station: "Domis\u0142\
+      aw"}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:06', station: "Bi\u0144\
+      cze"}
+  - {arrival: !!python/unicode '07:12', departure: !!python/unicode '07:12', station: !!python/unicode 'Biskupnica'}
+  - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: "Cz\u0142\
+      uch\xF3w"}
+  - {arrival: !!python/unicode '07:30', departure: !!python/unicode '07:31', station: "Brze\u017A\
+      no Cz\u0142uchowskie"}
+  - {arrival: !!python/unicode '07:40', station: !!python/unicode 'Chojnice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,24 @@
+mode: normal
+name: !!python/unicode 'KM 8844'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:21', station: "\u0141uk\xF3w"}
+  - {arrival: !!python/unicode '15:30', departure: !!python/unicode '15:30', station: "Krynka\
+      \ \u0141ukowska"}
+  - {arrival: !!python/unicode '15:33', departure: !!python/unicode '15:33', station: "Radomy\u015B\
+      l"}
+  - {arrival: !!python/unicode '15:37', departure: !!python/unicode '15:37', station: !!python/unicode 'Dziewule'}
+  - {arrival: !!python/unicode '15:41', departure: !!python/unicode '15:41', station: !!python/unicode 'Borki
+      Kosy'}
+  - {arrival: !!python/unicode '15:44', departure: !!python/unicode '15:44', station: !!python/unicode 'Kosiorki'}
+  - {arrival: !!python/unicode '15:48', departure: !!python/unicode '15:48', station: "Bia\u0142\
+      ki Siedleckie"}
+  - {arrival: !!python/unicode '15:51', departure: !!python/unicode '15:51', station: !!python/unicode 'Siedlce
+      Wschodnie'}
+  - {arrival: !!python/unicode '15:54', station: !!python/unicode 'Siedlce'}
+  to: 2013-02-06
+type: train
+variant: A

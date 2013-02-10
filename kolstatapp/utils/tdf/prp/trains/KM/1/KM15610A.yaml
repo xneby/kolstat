@@ -1,0 +1,61 @@
+mode: normal
+name: !!python/unicode 'KM 15610'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:45', station: "T\u0142uszcz"}
+  - {arrival: !!python/unicode '12:52', departure: !!python/unicode '12:52', station: !!python/unicode 'Krusze'}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: !!python/unicode 'Radzymin'}
+  - {arrival: !!python/unicode '13:13', departure: !!python/unicode '13:13', station: "D\u0105\
+      bkowizna"}
+  - {arrival: !!python/unicode '13:17', departure: !!python/unicode '13:17', station: "Niepor\u0119\
+      t"}
+  - {arrival: !!python/unicode '13:22', departure: !!python/unicode '13:22', station: !!python/unicode 'Wieliszew'}
+  - {arrival: !!python/unicode '13:25', departure: !!python/unicode '13:25', station: "Micha\u0142\
+      \xF3w Regin\xF3w"}
+  - {arrival: !!python/unicode '13:28', departure: !!python/unicode '13:28', station: !!python/unicode 'Legionowo
+      Piaski'}
+  - {arrival: !!python/unicode '13:30', departure: !!python/unicode '13:31', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '13:42', departure: !!python/unicode '13:42', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '13:48', departure: !!python/unicode '13:48', station: !!python/unicode 'Warszawa
+      ZOO'}
+  - {arrival: !!python/unicode '13:51', departure: !!python/unicode '14:03', station: "Warszawa\
+      \ Gda\u0144ska"}
+  - {arrival: !!python/unicode '14:06', departure: !!python/unicode '14:06', station: !!python/unicode 'Warszawa
+      ZOO'}
+  - {arrival: !!python/unicode '14:10', departure: !!python/unicode '14:10', station: !!python/unicode 'Warszawa
+      Praga'}
+  - {arrival: !!python/unicode '14:13', departure: !!python/unicode '14:13', station: "Warszawa\
+      \ Toru\u0144ska"}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:23', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '14:26', departure: !!python/unicode '14:26', station: !!python/unicode 'Legionowo
+      Przystanek'}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:28', station: "Chotom\xF3\
+      w"}
+  - {arrival: !!python/unicode '14:37', departure: !!python/unicode '14:37', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '14:41', departure: !!python/unicode '14:41', station: !!python/unicode 'Modlin'}
+  - {arrival: !!python/unicode '14:53', departure: !!python/unicode '14:58', station: !!python/unicode 'Nasielsk'}
+  - {arrival: !!python/unicode '15:10', departure: !!python/unicode '15:10', station: !!python/unicode 'Cieksyn'}
+  - {arrival: !!python/unicode '15:17', departure: !!python/unicode '15:17', station: !!python/unicode 'Wkra'}
+  - {arrival: !!python/unicode '15:26', departure: !!python/unicode '15:26', station: "Dalan\xF3\
+      wek"}
+  - {arrival: !!python/unicode '15:38', departure: !!python/unicode '15:38', station: "P\u0142\
+      o\u0144sk"}
+  - {arrival: !!python/unicode '15:47', departure: !!python/unicode '15:47', station: !!python/unicode 'Arcelin'}
+  - {arrival: !!python/unicode '15:53', departure: !!python/unicode '15:53', station: !!python/unicode 'Baboszewo'}
+  - {arrival: !!python/unicode '16:03', departure: !!python/unicode '16:03', station: !!python/unicode 'Kaczorowo'}
+  - {arrival: !!python/unicode '16:13', departure: !!python/unicode '16:13', station: "Raci\u0105\
+      \u017C"}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:23', station: !!python/unicode 'Koziebrody'}
+  - {arrival: !!python/unicode '16:32', departure: !!python/unicode '16:32', station: "Zawidz\
+      \ Ko\u015Bcielny"}
+  - {arrival: !!python/unicode '16:35', departure: !!python/unicode '16:35', station: !!python/unicode 'Zawidz'}
+  - {arrival: !!python/unicode '16:43', departure: !!python/unicode '16:43', station: !!python/unicode 'Mieszaki'}
+  - {arrival: !!python/unicode '16:52', station: !!python/unicode 'Sierpc'}
+  to: 2013-02-06
+type: train
+variant: A

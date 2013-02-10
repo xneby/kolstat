@@ -1,0 +1,28 @@
+mode: normal
+name: !!python/unicode 'KS 93528'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '12:43', station: "Bielsko Bia\u0142a G\u0142\xF3\
+      wna"}
+  - {arrival: !!python/unicode '12:46', departure: !!python/unicode '12:46', station: "Bielsko\
+      \ Bia\u0142a Wsch."}
+  - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:55', station: !!python/unicode 'Krzemionki'}
+  - {arrival: !!python/unicode '13:06', departure: !!python/unicode '13:06', station: !!python/unicode 'Kozy'}
+  - {arrival: !!python/unicode '13:11', departure: !!python/unicode '13:11', station: !!python/unicode 'Kozy
+      Zagroda'}
+  - {arrival: !!python/unicode '13:19', departure: !!python/unicode '13:19', station: "K\u0119\
+      ty Podlesie"}
+  - {arrival: !!python/unicode '13:23', departure: !!python/unicode '13:23', station: "K\u0119\
+      ty"}
+  - {arrival: !!python/unicode '13:28', departure: !!python/unicode '13:28', station: !!python/unicode 'Zamek
+      Bulowicki'}
+  - {arrival: !!python/unicode '13:32', departure: !!python/unicode '13:32', station: !!python/unicode 'Bulowice'}
+  - {arrival: !!python/unicode '13:37', departure: !!python/unicode '13:37', station: "Andrych\xF3\
+      w G\xF3rnica"}
+  - {arrival: !!python/unicode '13:42', station: "Andrych\xF3w"}
+  to: 2013-02-06
+type: train
+variant: A

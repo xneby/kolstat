@@ -1,0 +1,29 @@
+mode: normal
+name: !!python/unicode 'R 620'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '20:20', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '20:22', departure: !!python/unicode '20:23', station: !!python/unicode 'Kielce
+      Piaski'}
+  - {arrival: !!python/unicode '20:27', departure: !!python/unicode '20:27', station: "Kostom\u0142\
+      oty"}
+  - {arrival: !!python/unicode '20:33', departure: !!python/unicode '20:33', station: !!python/unicode 'Tumlin'}
+  - {arrival: !!python/unicode '20:38', departure: !!python/unicode '20:38', station: "Zagna\u0144\
+      sk"}
+  - {arrival: !!python/unicode '20:47', departure: !!python/unicode '20:48', station: "\u0141\u0105\
+      czna"}
+  - {arrival: !!python/unicode '20:52', departure: !!python/unicode '20:53', station: "Berez\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:56', departure: !!python/unicode '20:56', station: "Suchedni\xF3\
+      w"}
+  - {arrival: !!python/unicode '20:59', departure: !!python/unicode '20:59', station: "Suchedni\xF3\
+      w P\u0142n."}
+  - {arrival: !!python/unicode '21:03', departure: !!python/unicode '21:03', station: "Skar\u017C\
+      ysko Zachodnie"}
+  - {arrival: !!python/unicode '21:06', station: "Skar\u017Cysko-Kamienna"}
+  to: 2013-02-06
+type: train
+variant: A

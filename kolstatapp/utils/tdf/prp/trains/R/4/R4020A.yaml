@@ -1,0 +1,18 @@
+mode: normal
+name: !!python/unicode 'R 4020'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:24', station: "\u0141owicz G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '17:36', departure: !!python/unicode '17:37', station: !!python/unicode 'Bobrowniki'}
+  - {arrival: !!python/unicode '17:41', departure: !!python/unicode '17:42', station: "Be\u0142\
+      ch\xF3w"}
+  - {arrival: !!python/unicode '17:45', departure: !!python/unicode '17:46', station: !!python/unicode 'Sierakowice
+      Skiern.'}
+  - {arrival: !!python/unicode '17:49', departure: !!python/unicode '17:50', station: !!python/unicode 'Mokra'}
+  - {arrival: !!python/unicode '17:57', station: !!python/unicode 'Skierniewice'}
+  to: 2013-02-06
+type: train
+variant: A

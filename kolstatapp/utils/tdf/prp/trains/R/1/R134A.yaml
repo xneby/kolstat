@@ -1,0 +1,16 @@
+mode: normal
+name: !!python/unicode 'R 134'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '19:46', station: "Che\u0142m"}
+  - {arrival: !!python/unicode '19:49', departure: !!python/unicode '19:49', station: "Che\u0142\
+      m Miasto"}
+  - {arrival: !!python/unicode '19:55', departure: !!python/unicode '19:56', station: "Zawad\xF3\
+      wka"}
+  - {arrival: !!python/unicode '20:03', station: !!python/unicode 'Rejowiec'}
+  to: 2013-02-06
+type: train
+variant: A

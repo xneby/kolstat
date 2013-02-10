@@ -1,0 +1,17 @@
+mode: normal
+name: !!python/unicode 'R 55233'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '07:04', station: !!python/unicode 'Grajewo'}
+  - {arrival: !!python/unicode '07:09', departure: !!python/unicode '07:09', station: !!python/unicode 'Prostki'}
+  - {arrival: !!python/unicode '07:13', departure: !!python/unicode '07:14', station: "Lipi\u0144\
+      skie Ma\u0142e"}
+  - {arrival: !!python/unicode '07:19', departure: !!python/unicode '07:20', station: "E\u0142\
+      k Szyba Wsch\xF3d"}
+  - {arrival: !!python/unicode '07:24', station: "E\u0142k"}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,23 @@
+mode: normal
+name: !!python/unicode 'R 6041'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '14:15', station: "Opole G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '14:18', departure: !!python/unicode '14:19', station: !!python/unicode 'Opole
+      Zachodnie'}
+  - {arrival: !!python/unicode '14:23', departure: !!python/unicode '14:24', station: "Chr\xF3\
+      \u015Bcina Opolska"}
+  - {arrival: !!python/unicode '14:28', departure: !!python/unicode '14:29', station: "D\u0105\
+      browa Niemodli\u0144ska"}
+  - {arrival: !!python/unicode '14:34', departure: !!python/unicode '14:35', station: !!python/unicode 'Przecza'}
+  - {arrival: !!python/unicode '14:39', departure: !!python/unicode '14:39', station: !!python/unicode 'Lewin
+      Brzeski'}
+  - {arrival: !!python/unicode '14:44', departure: !!python/unicode '14:44', station: "\u0141\
+      osi\xF3w"}
+  - {arrival: !!python/unicode '14:51', station: !!python/unicode 'Brzeg'}
+  to: 2013-02-06
+type: train
+variant: A

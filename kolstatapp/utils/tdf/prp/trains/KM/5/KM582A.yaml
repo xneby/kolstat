@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'KM 582'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '18:03', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:10', station: !!python/unicode 'Rajec
+      Poduchowny'}
+  - {arrival: !!python/unicode '18:14', departure: !!python/unicode '18:14', station: "Antoni\xF3\
+      wka"}
+  - {arrival: !!python/unicode '18:17', departure: !!python/unicode '18:17', station: !!python/unicode 'Jedlnia
+      Letnisko'}
+  - {arrival: !!python/unicode '18:23', departure: !!python/unicode '18:23', station: "Jedlnia\
+      \ Ko\u015Bcielna"}
+  - {arrival: !!python/unicode '18:26', departure: !!python/unicode '18:26', station: !!python/unicode 'Pionki
+      Zach.'}
+  - {arrival: !!python/unicode '18:29', station: !!python/unicode 'Pionki'}
+  to: 2013-02-06
+type: train
+variant: A

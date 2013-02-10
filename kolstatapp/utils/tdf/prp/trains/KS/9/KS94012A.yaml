@@ -1,0 +1,25 @@
+mode: normal
+name: !!python/unicode 'KS 94012'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '10:36', station: !!python/unicode 'Rybnik'}
+  - {arrival: !!python/unicode '10:43', departure: !!python/unicode '10:44', station: !!python/unicode 'Leszczyny'}
+  - {arrival: !!python/unicode '10:51', departure: !!python/unicode '10:51', station: !!python/unicode 'Czerwionka'}
+  - {arrival: !!python/unicode '10:55', departure: !!python/unicode '10:56', station: "Orzesze\
+      \ Ja\u015Bkowice"}
+  - {arrival: !!python/unicode '10:59', departure: !!python/unicode '11:02', station: !!python/unicode 'Orzesze'}
+  - {arrival: !!python/unicode '11:09', departure: !!python/unicode '11:10', station: "\u0141\
+      aziska G\xF3rne"}
+  - {arrival: !!python/unicode '11:14', departure: !!python/unicode '11:14', station: "Miko\u0142\
+      \xF3w"}
+  - {arrival: !!python/unicode '11:21', departure: !!python/unicode '11:22', station: !!python/unicode 'Katowice
+      Piotrowice'}
+  - {arrival: !!python/unicode '11:25', departure: !!python/unicode '11:27', station: !!python/unicode 'Katowice
+      Ligota'}
+  - {arrival: !!python/unicode '11:33', station: !!python/unicode 'Katowice'}
+  to: 2013-02-06
+type: train
+variant: A

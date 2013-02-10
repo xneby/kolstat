@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 7130'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:15', station: "Ostr\xF3w Wlkp."}
+  - {arrival: !!python/unicode '05:21', departure: !!python/unicode '05:22', station: "Czekan\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:26', departure: !!python/unicode '05:27', station: "Oci\u0105\
+      \u017C"}
+  - {arrival: !!python/unicode '05:31', departure: !!python/unicode '05:32', station: !!python/unicode 'Nowe
+      Skalmierzyce'}
+  - {arrival: !!python/unicode '05:35', departure: !!python/unicode '05:36', station: !!python/unicode 'Kalisz
+      Szczypiorno'}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:41', station: !!python/unicode 'Kalisz'}
+  - {arrival: !!python/unicode '05:50', departure: !!python/unicode '05:50', station: !!python/unicode 'Kalisz
+      Winiary'}
+  - {arrival: !!python/unicode '05:55', departure: !!python/unicode '05:56', station: "Opat\xF3\
+      wek"}
+  - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:03', station: !!python/unicode 'Radliczyce'}
+  - {arrival: !!python/unicode '06:08', departure: !!python/unicode '06:09', station: !!python/unicode 'Skalmierz'}
+  - {arrival: !!python/unicode '06:13', departure: !!python/unicode '06:13', station: "B\u0142\
+      aszki"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:21', station: "S\u0119\
+      dzice"}
+  - {arrival: !!python/unicode '06:29', departure: !!python/unicode '06:30', station: !!python/unicode 'Sieradz'}
+  - {arrival: !!python/unicode '06:32', departure: !!python/unicode '06:32', station: !!python/unicode 'Sieradz
+      Warta'}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:44', station: "Zdu\u0144\
+      ska Wola"}
+  - {arrival: !!python/unicode '06:58', departure: !!python/unicode '06:59', station: "\u0141\
+      ask"}
+  - {arrival: !!python/unicode '07:06', departure: !!python/unicode '07:07', station: !!python/unicode 'Kolumna'}
+  - {arrival: !!python/unicode '07:12', departure: !!python/unicode '07:12', station: "Dobro\u0144"}
+  - {arrival: !!python/unicode '07:20', departure: !!python/unicode '07:21', station: !!python/unicode 'Pabianice'}
+  - {arrival: !!python/unicode '07:38', station: "\u0141\xF3d\u017A Kaliska"}
+  to: 2013-02-06
+type: train
+variant: A

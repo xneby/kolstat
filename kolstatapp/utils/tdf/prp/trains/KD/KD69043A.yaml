@@ -1,0 +1,31 @@
+mode: normal
+name: !!python/unicode 'KD 69043'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '22:14', station: "Wroc\u0142aw G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '22:19', departure: !!python/unicode '22:19', station: "Wroc\u0142\
+      aw Miko\u0142aj\xF3w"}
+  - {arrival: !!python/unicode '22:24', departure: !!python/unicode '22:25', station: "Wroc\u0142\
+      aw Nadodrze"}
+  - {arrival: !!python/unicode '22:31', departure: !!python/unicode '22:31', station: "Wroc\u0142\
+      aw So\u0142tysowice"}
+  - {arrival: !!python/unicode '22:35', departure: !!python/unicode '22:35', station: "Wroc\u0142\
+      aw Psie Pole"}
+  - {arrival: !!python/unicode '22:37', departure: !!python/unicode '22:37', station: "Wroc\u0142\
+      aw Zakrz\xF3w"}
+  - {arrival: !!python/unicode '22:40', departure: !!python/unicode '22:40', station: "Wroc\u0142\
+      aw Paw\u0142owice"}
+  - {arrival: !!python/unicode '22:45', departure: !!python/unicode '22:45', station: !!python/unicode 'Pasikurowice'}
+  - {arrival: !!python/unicode '22:49', departure: !!python/unicode '22:49', station: !!python/unicode 'Siedlec
+      Trzebnicki'}
+  - {arrival: !!python/unicode '22:53', departure: !!python/unicode '22:53', station: "Pierwosz\xF3\
+      w"}
+  - {arrival: !!python/unicode '22:56', departure: !!python/unicode '22:56', station: !!python/unicode 'Brochocin
+      Trzebnicki'}
+  - {arrival: !!python/unicode '23:03', station: !!python/unicode 'Trzebnica'}
+  to: 2013-02-06
+type: train
+variant: A

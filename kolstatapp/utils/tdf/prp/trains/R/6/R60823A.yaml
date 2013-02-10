@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 60823'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '15:45', station: "Opole G\u0142\xF3wne"}
+  - {arrival: !!python/unicode '15:56', departure: !!python/unicode '15:57', station: !!python/unicode 'Opole
+      Wschodnie'}
+  - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:03', station: "Czarnow\u0105\
+      sy"}
+  - {arrival: !!python/unicode '16:08', departure: !!python/unicode '16:09', station: !!python/unicode 'Borki
+      Opolskie'}
+  - {arrival: !!python/unicode '16:17', departure: !!python/unicode '16:17', station: "Dobrze\u0144\
+      \ Wielki"}
+  - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:23', station: "Chr\xF3\
+      \u015Bcice"}
+  - {arrival: !!python/unicode '16:33', departure: !!python/unicode '16:33', station: "Popiel\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:45', departure: !!python/unicode '16:46', station: "Kar\u0142\
+      owice"}
+  - {arrival: !!python/unicode '16:50', departure: !!python/unicode '16:51', station: !!python/unicode 'Tarnowiec
+      Brzeski'}
+  - {arrival: !!python/unicode '16:54', departure: !!python/unicode '16:54', station: "M\u0105\
+      koszyce"}
+  - {arrival: !!python/unicode '16:59', departure: !!python/unicode '16:59', station: !!python/unicode 'Rogalice'}
+  - {arrival: !!python/unicode '17:03', departure: !!python/unicode '17:04', station: !!python/unicode 'Barucice'}
+  - {arrival: !!python/unicode '17:07', departure: !!python/unicode '17:07', station: "Biskupice\
+      \ O\u0142awskie"}
+  - {arrival: !!python/unicode '17:14', departure: !!python/unicode '17:14', station: "Minkowice\
+      \ O\u0142awskie"}
+  - {arrival: !!python/unicode '17:20', departure: !!python/unicode '17:20', station: !!python/unicode 'Kopalina'}
+  - {arrival: !!python/unicode '17:29', station: !!python/unicode 'Jelcz Laskowice'}
+  to: 2013-02-06
+type: train
+variant: A

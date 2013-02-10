@@ -1,0 +1,47 @@
+mode: normal
+name: !!python/unicode 'TLK 31108'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '03:43', station: "Przemy\u015Bl G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '03:47', departure: !!python/unicode '03:48', station: "Przemy\u015B\
+      l Zasanie"}
+  - {arrival: !!python/unicode '04:24', departure: !!python/unicode '04:25', station: "Jaros\u0142\
+      aw"}
+  - {arrival: !!python/unicode '04:37', departure: !!python/unicode '04:38', station: !!python/unicode 'Przeworsk'}
+  - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:09', station: "Le\u017C\
+      ajsk"}
+  - {arrival: !!python/unicode '05:17', departure: !!python/unicode '05:18', station: !!python/unicode 'Nowa
+      Sarzyna'}
+  - {arrival: !!python/unicode '05:40', departure: !!python/unicode '05:41', station: !!python/unicode 'Rudnik
+      n. Sanem'}
+  - {arrival: !!python/unicode '05:53', departure: !!python/unicode '05:54', station: !!python/unicode 'Nisko'}
+  - {arrival: !!python/unicode '06:01', departure: !!python/unicode '06:02', station: !!python/unicode 'Stalowa
+      Wola Centrum'}
+  - {arrival: !!python/unicode '06:06', departure: !!python/unicode '06:11', station: !!python/unicode 'Stalowa
+      Wola Rozwad.'}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:42', station: !!python/unicode 'Sandomierz'}
+  - {arrival: !!python/unicode '08:02', departure: !!python/unicode '08:03', station: "Ostrowiec\
+      \ \u015Awi\u0119tokrz."}
+  - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:26', station: !!python/unicode 'Starachowice
+      Wsch.'}
+  - {arrival: !!python/unicode '08:42', departure: !!python/unicode '09:02', station: "Skar\u017C\
+      ysko-Kamienna"}
+  - {arrival: !!python/unicode '09:11', departure: !!python/unicode '09:12', station: "Szyd\u0142\
+      owiec"}
+  - {arrival: !!python/unicode '09:33', departure: !!python/unicode '09:35', station: !!python/unicode 'Radom'}
+  - {arrival: !!python/unicode '09:49', departure: !!python/unicode '09:50', station: !!python/unicode 'Pionki
+      Zach.'}
+  - {arrival: !!python/unicode '10:15', departure: !!python/unicode '10:16', station: "D\u0119\
+      blin"}
+  - {arrival: !!python/unicode '10:50', departure: !!python/unicode '10:51', station: !!python/unicode 'Pilawa'}
+  - {arrival: !!python/unicode '11:41', departure: !!python/unicode '11:43', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '11:50', departure: !!python/unicode '12:00', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '12:04', station: !!python/unicode 'Warszawa Zachodnia'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,51 @@
+mode: normal
+name: !!python/unicode 'R 644'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '11:31', station: !!python/unicode 'Kielce'}
+  - {arrival: !!python/unicode '11:33', departure: !!python/unicode '11:34', station: !!python/unicode 'Kielce
+      Piaski'}
+  - {arrival: !!python/unicode '11:38', departure: !!python/unicode '11:38', station: "Kostom\u0142\
+      oty"}
+  - {arrival: !!python/unicode '11:44', departure: !!python/unicode '11:44', station: !!python/unicode 'Tumlin'}
+  - {arrival: !!python/unicode '11:49', departure: !!python/unicode '11:49', station: "Zagna\u0144\
+      sk"}
+  - {arrival: !!python/unicode '11:58', departure: !!python/unicode '11:59', station: "\u0141\u0105\
+      czna"}
+  - {arrival: !!python/unicode '12:03', departure: !!python/unicode '12:04', station: "Berez\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:07', departure: !!python/unicode '12:07', station: "Suchedni\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:10', departure: !!python/unicode '12:10', station: "Suchedni\xF3\
+      w P\u0142n."}
+  - {arrival: !!python/unicode '12:14', departure: !!python/unicode '12:14', station: "Skar\u017C\
+      ysko Zachodnie"}
+  - {arrival: !!python/unicode '12:17', departure: !!python/unicode '12:18', station: "Skar\u017C\
+      ysko-Kamienna"}
+  - {arrival: !!python/unicode '12:22', departure: !!python/unicode '12:22', station: "Skar\u017C\
+      ysko Ko\u015Bcielne"}
+  - {arrival: !!python/unicode '12:27', departure: !!python/unicode '12:27', station: "Marcink\xF3\
+      w"}
+  - {arrival: !!python/unicode '12:30', departure: !!python/unicode '12:31', station: "W\u0105\
+      chock"}
+  - {arrival: !!python/unicode '12:35', departure: !!python/unicode '12:35', station: !!python/unicode 'Starachowice'}
+  - {arrival: !!python/unicode '12:37', departure: !!python/unicode '12:38', station: !!python/unicode 'Starachowice
+      Wsch.'}
+  - {arrival: !!python/unicode '12:41', departure: !!python/unicode '12:42', station: "Starachowice\
+      \ Micha\u0142."}
+  - {arrival: !!python/unicode '12:45', departure: !!python/unicode '12:45', station: "Styk\xF3\
+      w I\u0142\u017Cecki"}
+  - {arrival: !!python/unicode '12:49', departure: !!python/unicode '12:49', station: "Brody\
+      \ I\u0142\u017Ceckie"}
+  - {arrival: !!python/unicode '12:53', departure: !!python/unicode '12:54', station: !!python/unicode 'Staw
+      Kunowski'}
+  - {arrival: !!python/unicode '12:58', departure: !!python/unicode '12:59', station: "Kun\xF3\
+      w"}
+  - {arrival: !!python/unicode '13:04', departure: !!python/unicode '13:05', station: !!python/unicode 'Boksycka'}
+  - {arrival: !!python/unicode '13:11', station: "Ostrowiec \u015Awi\u0119tokrz."}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,46 @@
+mode: normal
+name: !!python/unicode 'R 9629'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:44', station: "Olsztyn G\u0142\xF3wny"}
+  - {arrival: !!python/unicode '16:55', departure: !!python/unicode '16:55', station: !!python/unicode 'Klewki'}
+  - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:02', station: !!python/unicode 'Marcinkowo'}
+  - {arrival: !!python/unicode '17:12', departure: !!python/unicode '17:12', station: !!python/unicode 'Pasym'}
+  - {arrival: !!python/unicode '17:22', departure: !!python/unicode '17:23', station: !!python/unicode 'Grom'}
+  - {arrival: !!python/unicode '17:34', departure: !!python/unicode '17:35', station: !!python/unicode 'Szczytno'}
+  - {arrival: !!python/unicode '17:42', departure: !!python/unicode '17:43', station: !!python/unicode 'Olszyny'}
+  - {arrival: !!python/unicode '17:46', departure: !!python/unicode '17:47', station: !!python/unicode 'Jeruty'}
+  - {arrival: !!python/unicode '17:54', departure: !!python/unicode '17:54', station: "\u015A\
+      wi\u0119tajno"}
+  - {arrival: !!python/unicode '17:58', departure: !!python/unicode '17:58', station: !!python/unicode 'Kolonia'}
+  - {arrival: !!python/unicode '18:05', departure: !!python/unicode '18:06', station: !!python/unicode 'Spychowo'}
+  - {arrival: !!python/unicode '18:13', departure: !!python/unicode '18:14', station: !!python/unicode 'Karwica
+      Mazurska'}
+  - {arrival: !!python/unicode '18:20', departure: !!python/unicode '18:20', station: !!python/unicode 'Ruciane
+      Nida Zach.'}
+  - {arrival: !!python/unicode '18:24', departure: !!python/unicode '18:25', station: !!python/unicode 'Ruciane
+      Nida'}
+  - {arrival: !!python/unicode '18:33', departure: !!python/unicode '18:34', station: "Szeroki\
+      \ B\xF3r"}
+  - {arrival: !!python/unicode '18:43', departure: !!python/unicode '18:44', station: !!python/unicode 'Pisz'}
+  - {arrival: !!python/unicode '18:57', departure: !!python/unicode '18:58', station: !!python/unicode 'Stare
+      Guty'}
+  - {arrival: !!python/unicode '19:04', departure: !!python/unicode '19:05', station: !!python/unicode 'Kaliszki'}
+  - {arrival: !!python/unicode '19:15', departure: !!python/unicode '19:15', station: "Bia\u0142\
+      a k.Piszu"}
+  - {arrival: !!python/unicode '19:31', departure: !!python/unicode '19:32', station: "Dryga\u0142\
+      y"}
+  - {arrival: !!python/unicode '19:38', departure: !!python/unicode '19:38', station: !!python/unicode 'Pogorzel
+      Wielka'}
+  - {arrival: !!python/unicode '19:49', departure: !!python/unicode '19:49', station: !!python/unicode 'Bajtkowo'}
+  - {arrival: !!python/unicode '19:59', departure: !!python/unicode '20:00', station: "Nowa\
+      \ Wie\u015B E\u0142cka"}
+  - {arrival: !!python/unicode '20:07', departure: !!python/unicode '20:07', station: "E\u0142\
+      k Szyba Zach\xF3d"}
+  - {arrival: !!python/unicode '20:13', station: "E\u0142k"}
+  to: 2013-02-06
+type: train
+variant: A

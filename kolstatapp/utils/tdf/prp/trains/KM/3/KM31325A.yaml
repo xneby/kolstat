@@ -1,0 +1,19 @@
+mode: normal
+name: !!python/unicode 'KM 31325'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '03:08', station: !!python/unicode 'Warszawa Zachodnia'}
+  - {arrival: !!python/unicode '03:13', departure: !!python/unicode '03:15', station: !!python/unicode 'Warszawa
+      Centralna'}
+  - {arrival: !!python/unicode '03:22', departure: !!python/unicode '03:23', station: !!python/unicode 'Warszawa
+      Wschodnia'}
+  - {arrival: !!python/unicode '03:38', departure: !!python/unicode '03:38', station: !!python/unicode 'Legionowo'}
+  - {arrival: !!python/unicode '03:48', departure: !!python/unicode '03:48', station: "Nowy\
+      \ Dw\xF3r Mazowiecki"}
+  - {arrival: !!python/unicode '03:52', station: !!python/unicode 'Modlin'}
+  to: 2013-02-06
+type: train
+variant: A

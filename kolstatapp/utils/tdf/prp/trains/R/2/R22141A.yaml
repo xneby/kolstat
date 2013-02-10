@@ -1,0 +1,21 @@
+mode: normal
+name: !!python/unicode 'R 22141'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '16:03', station: "Tomasz\xF3w Mazowiecki"}
+  - {arrival: !!python/unicode '16:07', departure: !!python/unicode '16:08', station: "Tomasz\xF3\
+      w Maz.Bia\u0142."}
+  - {arrival: !!python/unicode '16:14', departure: !!python/unicode '16:15', station: "Brzust\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:22', departure: !!python/unicode '16:23', station: "Antoni\xF3\
+      w"}
+  - {arrival: !!python/unicode '16:28', departure: !!python/unicode '16:28', station: "D\u0119\
+      ba Opoczy\u0144ska"}
+  - {arrival: !!python/unicode '16:37', departure: !!python/unicode '16:38', station: !!python/unicode 'Radzice'}
+  - {arrival: !!python/unicode '16:44', station: !!python/unicode 'Drzewica'}
+  to: 2013-02-06
+type: train
+variant: A

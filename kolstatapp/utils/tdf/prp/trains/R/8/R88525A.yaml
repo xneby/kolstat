@@ -1,0 +1,39 @@
+mode: normal
+name: !!python/unicode 'R 88525'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:21', station: !!python/unicode 'Kostrzyn'}
+  - {arrival: !!python/unicode '06:31', departure: !!python/unicode '06:32', station: "Namy\u015B\
+      lin"}
+  - {arrival: !!python/unicode '06:37', departure: !!python/unicode '06:38', station: !!python/unicode 'Boleszkowice'}
+  - {arrival: !!python/unicode '06:42', departure: !!python/unicode '06:43', station: !!python/unicode 'Mieszkowice'}
+  - {arrival: !!python/unicode '06:47', departure: !!python/unicode '06:47', station: !!python/unicode 'Bielin'}
+  - {arrival: !!python/unicode '06:52', departure: !!python/unicode '06:52', station: "Witnica\
+      \ Choje\u0144ska"}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:56', station: "Godk\xF3\
+      w"}
+  - {arrival: !!python/unicode '07:08', departure: !!python/unicode '07:08', station: !!python/unicode 'Chojna'}
+  - {arrival: !!python/unicode '07:18', departure: !!python/unicode '07:19', station: !!python/unicode 'Lisie
+      Pole'}
+  - {arrival: !!python/unicode '07:29', departure: !!python/unicode '07:29', station: "Krzywin\
+      \ Gryfi\u0144ski"}
+  - {arrival: !!python/unicode '07:33', departure: !!python/unicode '07:34', station: !!python/unicode 'Widuchowa'}
+  - {arrival: !!python/unicode '07:40', departure: !!python/unicode '07:40', station: "Pachol\u0119\
+      ta"}
+  - {arrival: !!python/unicode '07:45', departure: !!python/unicode '07:46', station: !!python/unicode 'Dolna
+      Odra'}
+  - {arrival: !!python/unicode '07:52', departure: !!python/unicode '07:53', station: !!python/unicode 'Gryfino'}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:57', station: !!python/unicode 'Czepino'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:01', station: "Daleszewo\
+      \ Gryfi\u0144skie"}
+  - {arrival: !!python/unicode '08:06', departure: !!python/unicode '08:07', station: !!python/unicode 'Szczecin
+      Podjuchy'}
+  - {arrival: !!python/unicode '08:12', departure: !!python/unicode '08:13', station: !!python/unicode 'Szczecin
+      Port Cent.'}
+  - {arrival: !!python/unicode '08:16', station: "Szczecin G\u0142\xF3wny"}
+  to: 2013-02-06
+type: train
+variant: A

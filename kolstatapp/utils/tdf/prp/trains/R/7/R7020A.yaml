@@ -1,0 +1,41 @@
+mode: normal
+name: !!python/unicode 'R 7020'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '06:27', station: "Zag\xF3rz"}
+  - {arrival: !!python/unicode '06:30', departure: !!python/unicode '06:30', station: "Nowy\
+      \ Zag\xF3rz"}
+  - {arrival: !!python/unicode '06:40', departure: !!python/unicode '06:41', station: !!python/unicode 'Sanok'}
+  - {arrival: !!python/unicode '06:43', departure: !!python/unicode '06:43', station: !!python/unicode 'Sanok
+      Miasto'}
+  - {arrival: !!python/unicode '06:48', departure: !!python/unicode '06:48', station: "Sanok\
+      \ D\u0105br\xF3wka"}
+  - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:57', station: !!python/unicode 'Nowosielce'}
+  - {arrival: !!python/unicode '07:04', departure: !!python/unicode '07:05', station: "D\u0142\
+      ugie"}
+  - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:10', station: !!python/unicode 'Zarszyn'}
+  - {arrival: !!python/unicode '07:18', departure: !!python/unicode '07:18', station: !!python/unicode 'Besko'}
+  - {arrival: !!python/unicode '07:24', departure: !!python/unicode '07:24', station: !!python/unicode 'Milcza'}
+  - {arrival: !!python/unicode '07:28', departure: !!python/unicode '07:29', station: "Wr\xF3\
+      blik Szlachecki"}
+  - {arrival: !!python/unicode '07:35', departure: !!python/unicode '07:35', station: !!python/unicode 'Widacz'}
+  - {arrival: !!python/unicode '07:40', departure: !!python/unicode '07:41', station: !!python/unicode 'Targowiska'}
+  - {arrival: !!python/unicode '07:48', departure: !!python/unicode '07:49', station: !!python/unicode 'Krosno
+      Miasto'}
+  - {arrival: !!python/unicode '07:54', departure: !!python/unicode '07:54', station: !!python/unicode 'Krosno'}
+  - {arrival: !!python/unicode '07:57', departure: !!python/unicode '07:57', station: !!python/unicode 'Krosno
+      Polanka'}
+  - {arrival: !!python/unicode '08:00', departure: !!python/unicode '08:00', station: "Krosno\
+      \ Turasz\xF3wka"}
+  - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:06', station: !!python/unicode 'Jedlicze'}
+  - {arrival: !!python/unicode '08:11', departure: !!python/unicode '08:12', station: "Jedlicze\
+      \ M\u0119cinka"}
+  - {arrival: !!python/unicode '08:21', departure: !!python/unicode '08:22', station: !!python/unicode 'Tarnowiec'}
+  - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:28', station: !!python/unicode 'Gliniczek'}
+  - {arrival: !!python/unicode '08:39', station: "Jas\u0142o"}
+  to: 2013-02-06
+type: train
+variant: A

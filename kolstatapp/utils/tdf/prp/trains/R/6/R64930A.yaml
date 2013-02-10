@@ -1,0 +1,22 @@
+mode: normal
+name: !!python/unicode 'R 64930'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '04:57', station: !!python/unicode 'Kluczbork'}
+  - {arrival: !!python/unicode '05:06', departure: !!python/unicode '05:07', station: "B\u0105\
+      k\xF3w"}
+  - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:16', station: !!python/unicode 'Stare
+      Olesno'}
+  - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:25', station: "Olesno\
+      \ \u015Al\u0105skie"}
+  - {arrival: !!python/unicode '05:33', departure: !!python/unicode '05:33', station: !!python/unicode 'Sowczyce'}
+  - {arrival: !!python/unicode '05:43', departure: !!python/unicode '05:44', station: "Sierak\xF3\
+      w"}
+  - {arrival: !!python/unicode '05:51', departure: !!python/unicode '05:52', station: !!python/unicode 'Ciasna'}
+  - {arrival: !!python/unicode '06:06', station: !!python/unicode 'Lubliniec'}
+  to: 2013-02-06
+type: train
+variant: A

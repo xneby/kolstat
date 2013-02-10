@@ -1,0 +1,37 @@
+mode: normal
+name: !!python/unicode 'R 3328'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '17:59', station: "\u0141\xF3d\u017A Widzew"}
+  - {arrival: !!python/unicode '18:05', departure: !!python/unicode '18:06', station: "\u0141\xF3\
+      d\u017A Andrzej\xF3w"}
+  - {arrival: !!python/unicode '18:08', departure: !!python/unicode '18:09', station: "Bedo\u0144"}
+  - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: "Justyn\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:16', departure: !!python/unicode '18:17', station: "Ga\u0142\
+      k\xF3wek"}
+  - {arrival: !!python/unicode '18:21', departure: !!python/unicode '18:22', station: "\u017B\
+      akowice"}
+  - {arrival: !!python/unicode '18:26', departure: !!python/unicode '18:27', station: !!python/unicode 'Koluszki'}
+  - {arrival: !!python/unicode '18:32', departure: !!python/unicode '18:32', station: "W\u0105\
+      gry"}
+  - {arrival: !!python/unicode '18:36', departure: !!python/unicode '18:36', station: "Rog\xF3\
+      w"}
+  - {arrival: !!python/unicode '18:40', departure: !!python/unicode '18:40', station: "Przy\u0142\
+      \u0119k Du\u017Cy"}
+  - {arrival: !!python/unicode '18:43', departure: !!python/unicode '18:43', station: !!python/unicode 'Krosnowa'}
+  - {arrival: !!python/unicode '18:48', departure: !!python/unicode '18:48', station: !!python/unicode 'Lipce
+      Reymontowskie'}
+  - {arrival: !!python/unicode '18:53', departure: !!python/unicode '18:53', station: "P\u0142\
+      y\u0107wia"}
+  - {arrival: !!python/unicode '18:58', departure: !!python/unicode '18:58', station: "Mak\xF3\
+      w"}
+  - {arrival: !!python/unicode '19:02', departure: !!python/unicode '19:02', station: "D\u0105\
+      browice Skier."}
+  - {arrival: !!python/unicode '19:07', station: !!python/unicode 'Skierniewice'}
+  to: 2013-02-06
+type: train
+variant: A

@@ -1,0 +1,36 @@
+mode: normal
+name: !!python/unicode 'R 90130'
+operations:
+- date: 2013-02-05
+  from: 2013-02-06
+  mode: interval
+  timetable:
+  - {departure: !!python/unicode '05:34', station: "Gdynia G\u0142\xF3wna"}
+  - {arrival: !!python/unicode '05:46', departure: !!python/unicode '05:46', station: !!python/unicode 'Gdynia
+      Wielki Kack'}
+  - {arrival: !!python/unicode '05:54', departure: !!python/unicode '05:54', station: "Gda\u0144\
+      sk Osowa"}
+  - {arrival: !!python/unicode '05:58', departure: !!python/unicode '05:59', station: "R\u0119\
+      biechowo"}
+  - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:03', station: "P\u0119\
+      powo Kartuskie"}
+  - {arrival: !!python/unicode '06:06', departure: !!python/unicode '06:06', station: "\u017B\
+      ukowo Wschodnie"}
+  - {arrival: !!python/unicode '06:10', departure: !!python/unicode '06:10', station: !!python/unicode 'Borkowo'}
+  - {arrival: !!python/unicode '06:15', departure: !!python/unicode '06:16', station: "Babi\
+      \ D\xF3\u0142"}
+  - {arrival: !!python/unicode '06:20', departure: !!python/unicode '06:21', station: "Kie\u0142\
+      pino Kartuskie"}
+  - {arrival: !!python/unicode '06:25', departure: !!python/unicode '06:25', station: !!python/unicode 'Somonino'}
+  - {arrival: !!python/unicode '06:28', departure: !!python/unicode '06:28', station: "S\u0142\
+      awki"}
+  - {arrival: !!python/unicode '06:33', departure: !!python/unicode '06:33', station: "Wie\u017C\
+      yca"}
+  - {arrival: !!python/unicode '06:37', departure: !!python/unicode '06:37', station: !!python/unicode 'Krzeszna'}
+  - {arrival: !!python/unicode '06:41', departure: !!python/unicode '06:42', station: "Go\u0142\
+      ubie Kaszubskie"}
+  - {arrival: !!python/unicode '06:47', departure: !!python/unicode '06:48', station: !!python/unicode 'Skorzewo'}
+  - {arrival: !!python/unicode '06:54', station: "Ko\u015Bcierzyna"}
+  to: 2013-02-06
+type: train
+variant: A
