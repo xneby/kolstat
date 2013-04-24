@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # coding: utf-8
 
 import os,sys
@@ -8,12 +8,12 @@ sys.path.extend(('../../../', '../../../../'))
 
 from kolstatapp.models import Train
 from library import import_from_file
-import Queue
+import queue
 import threading
 
 files = sys.argv[1:]
 
-queue = Queue.Queue()
+queue = queue.Queue()
 for i in files:
 	queue.put(i)
 
@@ -25,12 +25,12 @@ class Watek(threading.Thread):
 		while not queue.empty():
 			try:
 				name = queue.get(False)
-			except Queue.Empty:
+			except queue.Empty:
 				break
 
 			with stdout:
 				global done
-				print self.getName(), name, done, queue.qsize()
+				print(self.getName(), name, done, queue.qsize())
 				done += 1
 
 			with open(name) as f:

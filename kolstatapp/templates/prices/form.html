@@ -202,7 +202,7 @@
 {% block title %}kalkulator cen{% endblock %}
 
 {% block content %}
-<form id="form" action="{% url kolstat-prices-show %}" method="post">{% csrf_token %}
+<form id="form" action="{% url 'kolstat-prices-show' %}" method="post">{% csrf_token %}
 	<p><strong>Krok 1.</strong> Wybierz datę: <input type="text" name="date" id="id_date" /> <button id="but0">Dalej</button></p>
 	<p><strong>Krok 2.</strong> Wybierz pociągi: <input type="text" name="train" id="id_train" /> <button id="but1">Dodaj pociąg do listy</button></p>
 	<table>

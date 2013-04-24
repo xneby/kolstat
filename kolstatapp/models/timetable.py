@@ -28,13 +28,13 @@ class TrainTimetable(models.Model):
 		return self.trainstop_set.order_by('order').select_related()
 
 	def get_coupled(self):
-		return map(lambda x: x.stop1.timetable, TrainCouple.objects.filter(stop2__in = self.stops()))
+		return [x.stop1.timetable for x in TrainCouple.objects.filter(stop2__in = self.stops())]
 
 	def get_couplings(self, after = 0):
-		return map(lambda x: (x.stop1.timetable, x.stop1.order), TrainCouple.objects.filter(stop2__in = self.stops()).filter(stop2__order__gt = after))
+		return [(x.stop1.timetable, x.stop1.order) for x in TrainCouple.objects.filter(stop2__in = self.stops()).filter(stop2__order__gt = after)]
 
 	def __unicode__(self):
-		return u"{} ({})".format(self.train, self.date)
+		return "{} ({})".format(self.train, self.date)
 
 class TrainStop(models.Model):
 	timetable = models.ForeignKey(TrainTimetable)
@@ -64,7 +64,7 @@ class TrainStop(models.Model):
 			return time_diff(self.departure,  self.arrival) + timedelta(day=1)
 		return time_diff(self.departure, self.arrival)
 
-	def next(self):
+	def __next__(self):
 		try:
 			return self.timetable.trainstop_set.get(order = self.order + 1)
 		except TrainStop.DoesNotExist:
@@ -81,7 +81,7 @@ class TrainStop(models.Model):
 		app_label = 'kolstatapp'
 
 	def __unicode__(self):
-		return u"{} @ {} ({} - {})".format(self.timetable, self.station, self.arrival, self.departure)
+		return "{} @ {} ({} - {})".format(self.timetable, self.station, self.arrival, self.departure)
 
 class TrainCouple(models.Model):
 	stop1 = models.ForeignKey(TrainStop, related_name = 'couple1')

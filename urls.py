@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
-from django.views.generic.simple import redirect_to
+from django.views.generic.base import RedirectView
 from django.conf import settings
 #from utils import lazy_reverse
 
@@ -17,7 +17,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^kolstat/', include('kolstatapp.urls')),
-	url(r'^$', redirect_to, {'url': lazy_reverse('kolstat-home'), 'permament': True}),
+
+	url(r'^$', RedirectView.as_view(url = lazy_reverse('kolstat-home'), permanent = True)),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

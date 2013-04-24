@@ -1,4 +1,4 @@
-from base import Oferta, Discounts, TICKET, SEAT
+from .base import Oferta, Discounts, TICKET, SEAT
 
 from kolstatapp.models import TrainCategory, Operator
 

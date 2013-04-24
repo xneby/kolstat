@@ -7,12 +7,12 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 from kolstatapp.models import Station
-from normal_to_hafas import Hafas
+from .normal_to_hafas import Hafas
 
-nazwa = raw_input('Podaj nazwę stacji: ')
+nazwa = input('Podaj nazwę stacji: ')
 hs = Hafas.searchStation(nazwa)[0]
-print hs.toString()
-gsk = int(raw_input('gsk: '))
+print(hs.toString())
+gsk = int(input('gsk: '))
 try:
 	s, = Station.search(hs.externalId)
 except ValueError:
@@ -21,5 +21,5 @@ except ValueError:
 s.gskID = gsk
 s.hafasID = hs.externalId
 s.name = hs.name
-print s
+print(s)
 s.save()

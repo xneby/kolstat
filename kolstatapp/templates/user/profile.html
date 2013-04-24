@@ -16,14 +16,14 @@
 {% block content %}
 <h1>Profil użytkownika</h1>
 
-<p><b>Imię i nazwisko</b>: {{ user.get_full_name }} <a href="{% url user-change-name %}" class="change_name_link">[zmień]</a></p>
+<p><b>Imię i nazwisko</b>: {{ user.get_full_name }} <a href="{% url 'user-change-name'	%}" class="change_name_link">[zmień]</a></p>
 <div class="change_name_div" style="display: none">
 	{% include 'user/_change_name_form.html' %}
 </div>		
 <p><b>Adres email</b>: {{ user.email }} <a href="#">[zmień]</a> <a href="#">[ustawienia powiadomień]</a></p>
 <p><b>Nazwa użytkownika</b>: {{ user.username }}</p>
 
-<p><b>Zniżki:</b> <a href="{% url user-discounts %}">[zmień]</a> </p>
+<p><b>Zniżki:</b> <a href="{% url 'user-discounts' %}">[zmień]</a> </p>
 {% if user.get_profile.discounts.exists %}
 <ul>
 {% for discount in user.get_profile.discounts.all %}
@@ -34,7 +34,7 @@
 <p>Nie posiadasz zniżek.</p>
 {% endif %}
 
-<p><b>Ulubione stacje:</b> <a href="{% url user-favourites %}">[zmień]</a></p>
+<p><b>Ulubione stacje:</b> <a href="{% url 'user-favourites' %}">[zmień]</a></p>
 {% if user.get_profile.get_favourites %}
 {% for pic, station in user.get_profile.get_favourites %}
 <p><img style="height: 16px;" class="picto" src="{{ pic.get_img_url }}" /> {{ station.get_pretty_name }}</p>

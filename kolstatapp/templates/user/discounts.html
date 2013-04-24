@@ -6,7 +6,7 @@
 
 <p>Wybierz zniżki, które Tobie przysługują</p>
 
-<form action="{% url user-discounts %}" method="post"> {% csrf_token %}
+<form action="{% url 'user-discounts' %}" method="post"> {% csrf_token %}
 	{% for discount, user_has in discounts %}
 	<p>
 		<input type="checkbox" {% if user_has %}checked="checked"{% endif %} name="d{{discount.id}}" id="id_d{{ discount.id }}" />

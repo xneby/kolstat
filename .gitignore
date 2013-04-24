@@ -7,3 +7,7 @@ db/*
 .gitignore
 listy/*
 kolstat/kolstatapp/planner/gen_graph/graph.out
+*.bak
+kolstat.db
+kolstatapp/planner/gen_graph/graph.out
+kolstatapp/utils/gsk/state.p

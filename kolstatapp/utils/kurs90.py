@@ -1,23 +1,23 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-from hafas import Hafas
+from .hafas import Hafas
 from sys import argv
 def main(inf, ouf):
 	with open(inf) as f:
 		stacje = []
 		for l in f:
-			nazwa, numer = map(str.strip, l.split('\t'))
+			nazwa, numer = list(map(str.strip, l.split('\t')))
 			numer = int(numer)
 
 			stacje.append((nazwa.decode('utf-8'), numer))
 
-	print "Wysyłanie zapytania"
+	print("Wysyłanie zapytania")
 	odpowiedz = Hafas.searchStations([x for x,y in stacje], True)
-	print "Otrzymano odpowiedź"
+	print("Otrzymano odpowiedź")
 
 	with open(ouf, 'w') as f, open('log', 'w') as l:
-		for stacje, nazwa, numer in zip(odpowiedz, *zip(*stacje)):
+		for stacje, nazwa, numer in zip(odpowiedz, *list(zip(*stacje))):
 			if len(stacje) == 1:
 				stacja, = stacje
 				f.write('{},{},{}\n'.format(nazwa.encode('utf-8'), numer, stacja.externalId))

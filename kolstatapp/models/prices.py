@@ -23,4 +23,4 @@ class Discount(models.Model):
 		return (100 - self.discount) / 100.0
 
 	def __unicode__(self):
-		return u"Zniżka {} ({}) - {}%".format(self.kurs90Name, self.description, self.discount)
+		return "Zniżka {} ({}) - {}%".format(self.kurs90Name, self.description, self.discount)

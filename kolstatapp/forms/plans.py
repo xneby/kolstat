@@ -1,6 +1,6 @@
 # coding: utf-8
 from django import forms
-from fields import StationField
+from .fields import StationField
 from datetime import date
 
 class SimpleQueryForm(forms.Form):

@@ -1,12 +1,12 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import httplib, urllib
+import http.client, urllib.request, urllib.parse, urllib.error
 from xml.dom.minidom import parseString
 from datetime import timedelta, time, datetime, date
 #from gsk.dijkstra import Dijkstra
 
-import cache
+from . import cache
 
 Station = None
 
@@ -15,7 +15,7 @@ def getText(element):
 
 class HafasException(Exception):
 	def __init__(self, code, text):
-		super(HafasException, self).__init__(u'[{}]: {}'.format(code, text))
+		super(HafasException, self).__init__('[{}]: {}'.format(code, text))
 
 class HafasError(HafasException): pass
 class HafasWarning(HafasException): pass
@@ -34,10 +34,10 @@ class HafasStation(object):
 		return self.name
 
 	def toString(self):
-		return u"<Station {obj.name}; id={obj.externalId}; cords={obj.cords}>".format(obj = self)
+		return "<Station {obj.name}; id={obj.externalId}; cords={obj.cords}>".format(obj = self)
 
 	def toHafasString(self):
-		return u'<Station externalId="{}" />'.format(self.externalId)
+		return '<Station externalId="{}" />'.format(self.externalId)
 
 	def __repr__(self):
 		return self.toString()
@@ -75,7 +75,7 @@ class HafasConnectionList(object):
 	def prev(self):
 		raise NotImplementedError
 
-	def next(self):
+	def __next__(self):
 		connectionList = Hafas.getMoreConnections(self.context, 6)
 		self.context = connectionList.context
 		self.list.extend(connectionList[:])
@@ -229,7 +229,7 @@ class HafasConnection(object):
 		return connection
 
 	def toString(self):
-		result = u'''<Connection
+		result = '''<Connection
 		From: {self.departure.station} ({self.departure.time})
 		Destination: {self.arrival.station} ({self.arrival.time})
 		Date: {self.date}
@@ -239,15 +239,15 @@ class HafasConnection(object):
 		Sections:
 '''.format(self = self)
 		for section in self.sections:
-			result += u'''
+			result += '''
 			<Section
 				From: {self.departure.station} ({self.departure.time})
 				Destination: {self.arrival.station} ({self.arrival.time})
-'''.format(self = section) + section.train.toString() + u'''
+'''.format(self = section) + section.train.toString() + '''
 			>''';
 
 		
-		result += u'\n>'
+		result += '\n>'
 
 		return result
 
@@ -285,25 +285,25 @@ class HafasTrain(object):
 #		self.queryStops()
 		
 	def toString(self):
-		result = u'''
+		result = '''
 				<Train {self.type} {self.number}
 					Operator: {self.operator}'''.format(self=self)
 		
 		if self.stops_recorded > 1:
-			result += u'''
+			result += '''
 					Relation: {source} -- {destination}'''.format(source = self.relation_source(), destination = self.relation_destination())
 
-		result += u'''
+		result += '''
 					Attributes'''.format(self = self)
-		for code, text in self.attributes.items():
-			result += u'''
+		for code, text in list(self.attributes.items()):
+			result += '''
 						[{code}] {text}'''.format(code = code, text = text)
 
 		if not self.stops_recorded > 0:
-			result += u'''
+			result += '''
 					Stops: not queried'''
 		else:
-			result += u'''
+			result += '''
 					Stops:'''
 			beetween = False
 			for stop in self.stops:
@@ -311,13 +311,13 @@ class HafasTrain(object):
 					beetween = True
 
 				if beetween:
-					result += u'''
+					result += '''
 						{}'''.format(stop.toString())
 
 				if stop.station == self.destination:
 					beetween = False
 
-		result += u'''\n
+		result += '''\n
 				>'''
 
 		return result
@@ -381,7 +381,7 @@ class HafasTrain(object):
 			if datetime.combine(cl[-1].date, cl[-1].departure.time) != date:
 				while datetime.combine(cl[-1].date, cl[-1].departure.time) < date:
 		
-					cl.next()
+					next(cl)
 	
 					if I == 0:
 						break
@@ -456,8 +456,8 @@ class HafasStop(object):
 
 	def toString(self):
 		def __(x):
-			return u"     " if x is None else x.strftime("%H:%M")
-		return u"{name:<40} {arr} {dep}".format(name = self.station.name, arr = __(self.arrival), dep = __(self.departure))
+			return "     " if x is None else x.strftime("%H:%M")
+		return "{name:<40} {arr} {dep}".format(name = self.station.name, arr = __(self.arrival), dep = __(self.departure))
 
 	def __repr__(self):
 		return self.toString()
@@ -509,7 +509,7 @@ class HafasObject(object):
 
 	def _getConnection(cls, can_reuse = True):
 		if cls._connection == None or not can_reuse:
-			cls._connection = httplib.HTTPConnection('rozklad-pkp.pl')
+			cls._connection = http.client.HTTPConnection('rozklad-pkp.pl')
 
 		return cls._connection
 
@@ -536,12 +536,12 @@ class HafasObject(object):
 		if len(stations) == 0:
 			return []
 		
-		request  = u'<?xml version="1.0" encoding="utf-8" ?>'
+		request  = '<?xml version="1.0" encoding="utf-8" ?>'
 
 		id = 1
 
 		for station in stations:
-			request += u'<LocValReq id="{id:0>3}"><ReqLoc type="ST" match="{station}" /></LocValReq>'.format(id = id, station = station.decode('utf-8'))
+			request += '<LocValReq id="{id:0>3}"><ReqLoc type="ST" match="{station}" /></LocValReq>'.format(id = id, station = station.decode('utf-8'))
 			id += 1
 
 		data = cls._performRequest(request)
@@ -567,7 +567,7 @@ class HafasObject(object):
 		connection = cls._getConnection()
 		addr = '/bin/stboard.exe/pn'
 		if xml:
-			request = u'<?xml version="1.0" encoding="utf-8"?><ReqC ver="1.1" prod="String" lang="PL">{}</ReqC>'.format(request)
+			request = '<?xml version="1.0" encoding="utf-8"?><ReqC ver="1.1" prod="String" lang="PL">{}</ReqC>'.format(request)
 			addr = '/bin/query.exe/pn'
 		
 		if exe is not None:
@@ -576,7 +576,7 @@ class HafasObject(object):
 		try:
 			connection.request("POST", addr, request.encode('utf-8'), {'Content-Type': 'text/xml; charset=utf-8'})
 			response = connection.getresponse()
-		except (httplib.CannotSendRequest, httplib.BadStatusLine) :
+		except (http.client.CannotSendRequest, http.client.BadStatusLine) :
 			connection = cls._getConnection(False)
 			connection.request("POST", addr, request.encode('utf-8'), {'Content-Type': 'text/xml; charset=utf-8'})
 			response = connection.getresponse()
@@ -587,7 +587,7 @@ class HafasObject(object):
 		data = response.read()
 
 		if not xml:
-			data = u'<Response>{data}</Response>'.format(data=data)
+			data = '<Response>{data}</Response>'.format(data=data)
 
 		try:
 			dom = parseString(data)
@@ -615,22 +615,22 @@ class HafasObject(object):
 	
 	def searchConnections(cls, source, destination, datetime, number = 3, departure = True, via = None, only_direct = True):
 		connection = cls._getConnection()
-		request = u'<ConReq>'
-		request += u'<Start>'
+		request = '<ConReq>'
+		request += '<Start>'
 		request += source.toHafasString()
-		request += u'<Prod prod="{prod}" bike="0" couchette="0" direct="{direct}" sleeper="0"/>'.format(direct = 1 if only_direct else 0, prod = '1' * 16)
-		request += u'</Start>'
+		request += '<Prod prod="{prod}" bike="0" couchette="0" direct="{direct}" sleeper="0"/>'.format(direct = 1 if only_direct else 0, prod = '1' * 16)
+		request += '</Start>'
 		if via is not None:
-			request += u'<Via>'
+			request += '<Via>'
 			request += via.toHafasString()
-			request += u'<Prod prod="{prod}" bike="0" couchette="0" direct="0" sleeper="0"/>'.format(prod = '1'*16)
-			request += u'</Via>'
-		request += u'<Dest>'
+			request += '<Prod prod="{prod}" bike="0" couchette="0" direct="0" sleeper="0"/>'.format(prod = '1'*16)
+			request += '</Via>'
+		request += '<Dest>'
 		request += destination.toHafasString()
-		request += u'</Dest>'
-		request += u'<ReqT a="{departure}" date="{date}" time="{time}" />'.format(departure = 0 if departure else 1, date = datetime.strftime("%Y.%m.%d"), time = datetime.strftime("%H:%M"))
-		request += u'<RFlags b="0" chExtension="0" f="{number}" />'.format(number = number)
-		request += u'</ConReq>'
+		request += '</Dest>'
+		request += '<ReqT a="{departure}" date="{date}" time="{time}" />'.format(departure = 0 if departure else 1, date = datetime.strftime("%Y.%m.%d"), time = datetime.strftime("%H:%M"))
+		request += '<RFlags b="0" chExtension="0" f="{number}" />'.format(number = number)
+		request += '</ConReq>'
 
 		data = cls._performRequest(request)
 
@@ -639,9 +639,9 @@ class HafasObject(object):
 		return HafasConnectionList.fromDOMElement(dom)
 
 	def getMoreConnections(cls, context, number):
-		request  = u'<ConScrReq src="F" nrCons="{number}">'.format(number = number)
-		request += u'<ConResCtxt>{context}</ConResCtxt>'.format(context = context)
-		request += u'</ConScrReq>'
+		request  = '<ConScrReq src="F" nrCons="{number}">'.format(number = number)
+		request += '<ConResCtxt>{context}</ConResCtxt>'.format(context = context)
+		request += '</ConScrReq>'
 
 		data = cls._performRequest(request)
 
@@ -660,7 +660,7 @@ class HafasObject(object):
 		connectionList = cls.searchConnections(source, destination, date, 6, only_direct = only_direct)
 
 		while connectionList[-1].departure.datetime < tomorrow:
-			connectionList.next()
+			next(connectionList)
 
 		while connectionList[-1].departure.datetime >= tomorrow:
 			connectionList.pop()
@@ -688,7 +688,7 @@ class HafasObject(object):
 				}
 
 
-		data = cls._performRequest(urllib.urlencode(post), False)
+		data = cls._performRequest(urllib.parse.urlencode(post), False)
 		dom = parseString(data)
 
 		result = []
@@ -725,8 +725,8 @@ if __name__ == '__main__':
 			return stations[0]
 
 		for i, st in enumerate(stations):
-			print i,st.toString()
-		x = int(raw_input('Wybor: '))
+			print(i,st.toString())
+		x = int(input('Wybor: '))
 
 		return stations[x]
 
@@ -738,7 +738,7 @@ if __name__ == '__main__':
 	for c in cl:
 		c.queryRelation()
 
-		print c.toString()
+		print(c.toString())
 
 #	print Hafas.getTrainStops(62122, None, kutno, kutno)
 	

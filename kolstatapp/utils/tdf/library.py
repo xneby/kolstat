@@ -18,8 +18,8 @@ def time_from_yaml(t):
 	if t is None:
 		return None
 
-	if type(t) in (type(u'00:00'), type('00:00')):
-		h, m = map(int, t.split(':'))
+	if type(t) in (type('00:00'), type('00:00')):
+		h, m = list(map(int, t.split(':')))
 		t = 60*h+m
 		
 	return time(minute = t % 60, hour = t // 60)
@@ -91,7 +91,7 @@ def import_train(yaml, mode):
 			try:
 				stop.station = Station.search(description['station'])[0]
 			except IndexError:
-				print description
+				print(description)
 				raise
 			stop.departure = time_from_yaml(description.get('departure', None))
 			stop.arrival = time_from_yaml(description.get('arrival', None))
@@ -142,10 +142,10 @@ def import_couple(yaml, mode):
 	trains = yaml['trains']
 	station_name = yaml['station']
 	
-	(t1 ,), (t2 ,) = map(Train.search, trains)
+	(t1 ,), (t2 ,) = list(map(Train.search, trains))
 	s, = Station.search(station_name)
 
-	print t1, t2
+	print(t1, t2)
 
 	to_add = []
 
@@ -156,10 +156,11 @@ def import_couple(yaml, mode):
 			continue
 		try:
 			st2 = t2.timetables().get(date = tt.date).stops().get(station = s)
-		except TrainTimetable.DoesNotExist, TrainStop.DoesNotExist:
+		except TrainTimetable.DoesNotExist as xxx_todo_changeme:
+			TrainStop.DoesNotExist = xxx_todo_changeme
 			continue
 
-		print tt.date
+		print(tt.date)
 
 		to_add.append(TrainCouple(stop1 = st2, stop2 = st))
 		to_add.append(TrainCouple(stop1 = st, stop2 = st2))

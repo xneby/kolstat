@@ -46,7 +46,7 @@ class Oferta:
 
 class Discounts:
 	def _get_discounts(d):
-		return map(Discount.get, d)
+		return list(map(Discount.get, d))
 
 	ustawowe = _get_discounts(())
 	IC = _get_discounts(())

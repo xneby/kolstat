@@ -7,7 +7,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 from kolstatapp.models import Station
-from make_query import make_simple_query
+from .make_query import make_simple_query
 from datetime import datetime
 
 for x in sys.argv[1:]:
@@ -18,6 +18,6 @@ for x in sys.argv[1:]:
 		else:
 			radom, = Station.search(x)
 	except ValueError:
-		print "NOPE"
+		print("NOPE")
 	else:
-		print radom.pk, radom.name
+		print(radom.pk, radom.name)

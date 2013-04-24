@@ -6,14 +6,14 @@ def add_vertex(nr):
 		a = pickle.load(f)
 
 	try:
-		print a[nr]
+		print(a[nr])
 	except KeyError:
 		a[nr] = []
-		print 'added'
+		print('added')
 
 	with open('kraw.p', 'w') as f:
 		pickle.dump(a,f)
 
 if __name__ == '__main__':
-	t = int(raw_input('Nr: '))
+	t = int(input('Nr: '))
 	add_vertex(t)

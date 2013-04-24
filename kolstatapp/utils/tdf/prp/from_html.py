@@ -3,11 +3,11 @@ import yaml
 import sys
 import re
 try:
-	import HTMLParser
+	import html.parser
 except ImportError:
 	import html.parser as HTMLParser
 
-h = HTMLParser.HTMLParser()
+h = html.parser.HTMLParser()
 
 '''<td class="nowrap sepline">
 <a href="http://rozklad.sitkol.pl/bin/stboard.exe/pn?ld=c&time=19:23&input=5101097&boardType=dep&productsFilter=1111111&">Gorzów Chrzanowski</a>
@@ -80,4 +80,4 @@ if __name__ == '__main__':
 	with open(name + '.html') as f:
 		s = h.unescape(f.read())
 
-	print parse(s, good_name, date(2013,2,4))
+	print(parse(s, good_name, date(2013,2,4)))

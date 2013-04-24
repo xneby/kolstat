@@ -107,16 +107,16 @@ if __name__ == '__main__':
 	end = ''
 	print('Podaj stacje:')
 	while start not in rs:
-		start = input('Start: ')
+		start = eval(input('Start: '))
 	while end not in rs:
-		end = input('Koniec: ')
+		end = eval(input('Koniec: '))
 	si = rs[start]
 	ei = rs[end]
 
 	l, p = Dijkstra.length(si, ei), Dijkstra.path(si,ei)
 
-	print('Odległość:', l)
+	print(('Odległość:', l))
 
 	print("Stacje:")
 	for i in p:
-		print(s[i])
+		print((s[i]))

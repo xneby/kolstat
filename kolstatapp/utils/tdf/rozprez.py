@@ -34,6 +34,6 @@ for tid in ttids:
 					INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, `order`) SELECT %s, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, `order` as ord FROM kolstatapp_trainstop WHERE timetable_id = %s
 				''', [tt.id, tid.id])
 
-		print tid
+		print(tid)
 
 cursor.close()

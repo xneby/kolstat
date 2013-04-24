@@ -3,9 +3,9 @@ from django.template import RequestContext
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.decorators import user_passes_test, login_required
 
-from exceptions import PermissionDenied, Redirect, KolstatError, BadRequest
+from .exceptions import PermissionDenied, Redirect, KolstatError, BadRequest
 from django.core.urlresolvers import reverse
-from utils.hafas import HafasError
+from .utils.hafas import HafasError
 import json
 
 WWW_ERROR = "errors/generic.html"

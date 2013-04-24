@@ -19,7 +19,7 @@ class UnitClass(models.Model):
 		verbose_name_plural = 'Serie'
 
 	def __unicode__(self):
-		return u"{self.name}".format(self = self)
+		return "{self.name}".format(self = self)
 
 	def get_polish_category_plural(self):
 		return PL_CATEGORIES_PLURAL[self.category]
@@ -44,4 +44,4 @@ class Unit(models.Model):
 		verbose_name_plural = 'Pojazdy'
 
 	def __unicode__(self):
-		return u"{self.name}".format(self=self)
+		return "{self.name}".format(self=self)

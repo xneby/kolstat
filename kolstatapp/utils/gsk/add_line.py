@@ -2,18 +2,18 @@
 
 import sys
 nr = int(sys.argv[1])
-import httplib
+import http.client
 import re
-from add_edge import add_edge
-from add_vertex import add_vertex
+from .add_edge import add_edge
+from .add_vertex import add_vertex
 
-conn = httplib.HTTPConnection('bazakolejowa.pl')
+conn = http.client.HTTPConnection('bazakolejowa.pl')
 
 conn.request('GET', '/index.php?dzial=linie&id={}&okno=przebieg'.format(nr))
 
 resp = conn.getresponse()
 
-print resp.status, resp.reason
+print(resp.status, resp.reason)
 data = resp.read()
 
 REG = r'''[[]id[]] => ([0-9]*)
@@ -25,7 +25,7 @@ REG = r'''[[]id[]] => ([0-9]*)
 .*?[[]skala[]] => .*
 .*?[[]km[]] => ([0-9]*(?:\.[0-9]*)?)
 '''
-print data
+print(data)
 
 ll = re.findall(REG,data,re.MULTILINE)
 

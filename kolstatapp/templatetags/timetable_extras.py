@@ -9,27 +9,27 @@ from django.conf import settings
 register = template.Library()
 
 MONTH_NAMES = [
-	u'Styczeń',
-	u'Luty',
-	u'Marzec',
-	u'Kwiecień',
-	u'Maj',
-	u'Czerwiec',
-	u'Lipiec',
-	u'Sierpień',
-	u'Wrzesień',
-	u'Październik',
-	u'Listopad',
-	u'Grudzień'
+	'Styczeń',
+	'Luty',
+	'Marzec',
+	'Kwiecień',
+	'Maj',
+	'Czerwiec',
+	'Lipiec',
+	'Sierpień',
+	'Wrzesień',
+	'Październik',
+	'Listopad',
+	'Grudzień'
 		]
 
 DZIEN = timedelta(1)
 
 @register.simple_tag
 def print_month(train, month):
-	res = u'<table class="ttmonth">'
+	res = '<table class="ttmonth">'
 
-	res += u'<tr><th colspan="7">{}</th></tr>'.format(MONTH_NAMES[month])
+	res += '<tr><th colspan="7">{}</th></tr>'.format(MONTH_NAMES[month])
 
 
 	if month >= 0:
@@ -41,16 +41,16 @@ def print_month(train, month):
 	offset = d.weekday()
 
 	if offset:
-		res += u'<tr>'
+		res += '<tr>'
 		while offset:
-			res += u'<td />'
+			res += '<td />'
 			offset -= 1
 	
 	tts = { x.date for x in train.timetables() }
 
 	while d.month == month +1:
 		if d.weekday() == 0:
-			res += u'<tr>'
+			res += '<tr>'
 
 		cl = []
 
@@ -76,19 +76,19 @@ def print_month(train, month):
 		else:
 			url = reverse('kolstat-train-date', args=[train.category.name, train.number, d.strftime('%Y-%m-%d')])
 
-		res += u'<td{}>{}{}{}</td>'.format(cls,'' if not kursuje else '<a href="{}">'.format(url), d.day, '' if not kursuje else '</a>')
+		res += '<td{}>{}{}{}</td>'.format(cls,'' if not kursuje else '<a href="{}">'.format(url), d.day, '' if not kursuje else '</a>')
 
 		if d.weekday() == 6:
-			res += u'</tr>'
+			res += '</tr>'
 			
 		d += DZIEN
 	
 	if d.weekday() != 0:
 		while d.weekday() != 0:
-			res += u'<td />'
+			res += '<td />'
 			d += DZIEN
 
-		res += u'</tr>'
+		res += '</tr>'
 
-	res += u'</table>'
+	res += '</table>'
 	return res

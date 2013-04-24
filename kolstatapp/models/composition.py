@@ -7,7 +7,7 @@ class Composition(models.Model):
         return self.composition.split('+')
     
     def __unicode__(self):
-        return u'Composition {}'.format(self.composition)
+        return 'Composition {}'.format(self.composition)
     
     class Meta:
         app_label = 'kolstatapp'

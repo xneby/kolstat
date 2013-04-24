@@ -7,19 +7,19 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 #from kolstatapp.models import Station
-from hafas import Hafas, HafasTrain
+from .hafas import Hafas, HafasTrain
 from datetime import date, timedelta
 from kolstatapp.models import Station
 from kolstatapp.exceptions import DeprecationError
 
-import httplib
-import urllib
+import http.client
+import urllib.request, urllib.parse, urllib.error
 import re
 import operator
 from xml.dom import minidom
 
 from django.conf import settings
-import cache
+from . import cache
 
 SERVER = 'rozklad-pkp.pl'
 
@@ -73,7 +73,7 @@ def polskie(name):
 		return False
 
 def normalize(x):
-	for k, v in ENTITIES.items():
+	for k, v in list(ENTITIES.items()):
 		x = x.replace(k,v)
 	return x
 
@@ -167,21 +167,21 @@ def parse_dni(s):
 			for t in range(len(flts)):
 				try:
 					if flts[t] == '-':
-						wd.extend(range(DTYG[flts[t-1]], DTYG[flts[t+1]]+1))
+						wd.extend(list(range(DTYG[flts[t-1]], DTYG[flts[t+1]]+1)))
 					else:
 						wd.append(DTYG[flts[t]])
 				except IndexError:
-					print flts, t
+					print(flts, t)
 					raise
 
 			flts = []
 			if wd == []:
-				wd = range(7)
+				wd = list(range(7))
 
 			if state == 'kursuje':
 				wynik -= dni
 
-			dni = set(filter(lambda x: x.weekday() in wd, dni))
+			dni = set([x for x in dni if x.weekday() in wd])
 
 			la = None
 
@@ -283,7 +283,7 @@ def parse_dni(s):
 	return wynik
 
 def create_connection():
-	return httplib.HTTPConnection(SERVER)
+	return http.client.HTTPConnection(SERVER)
 
 def the_same(a,b):
 	return a.replace(' ', '') == b.replace(' ', '')
@@ -292,8 +292,8 @@ def acquire(name, conn = None):
 	if name.startswith('R '):
 		name = name[2:]
 	if conn is None:
-		conn = httplib.HTTPConnection(SERVER)
-	conn.request('GET', '/bin/trainsearch.exe/pn?trainname={}'.format(urllib.quote(name)))
+		conn = http.client.HTTPConnection(SERVER)
+	conn.request('GET', '/bin/trainsearch.exe/pn?trainname={}'.format(urllib.parse.quote(name)))
 	resp = conn.getresponse()
 
 	data = resp.read()
@@ -320,7 +320,7 @@ def acquire(name, conn = None):
 
 		variant = None
 
-		for k, v in variants_rel.items():
+		for k, v in list(variants_rel.items()):
 			if skad in k or dokad in k:
 				nk = list(k)
 				if skad not in k:
@@ -377,7 +377,7 @@ def acquire(name, conn = None):
 
 		variants[variant] = (result, roz, ss, dd, rk)
 
-	return {v: dict(source = ss, destination = dd, ids = result, roz = roz) for v, (result, roz, ss, dd, _) in variants.items() }
+	return {v: dict(source = ss, destination = dd, ids = result, roz = roz) for v, (result, roz, ss, dd, _) in list(variants.items()) }
 
 def get_relation(number):
 	raise DeprecationError()
@@ -411,7 +411,7 @@ def save_cache(number, variant, _ = None, hafas = None):
 
 if __name__ == '__main__':
 	import pprint
-	x = acquire(raw_input('Podaj numer'))
+	x = acquire(input('Podaj numer'))
 #	print parse_dni('12. Gru 2011 do 30. Mar 2012 Pn - Pt; 27. Lip do 7. Gru 2012 Pn - Pt; oprócz 26. Gru, 6. Sty, 15. Sie, 1. Lis')
 #	x = parse_dni("1. do 28. Cze 2012 Pn - Pt; oprócz 7. Cze")
 	pprint.pprint(x)

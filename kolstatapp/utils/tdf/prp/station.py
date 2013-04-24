@@ -1,6 +1,6 @@
 # coding: utf-8
-from httplib import HTTPConnection
-from urllib import urlencode
+from http.client import HTTPConnection
+from urllib.parse import urlencode
 import re
 
 conn = HTTPConnection('rozklad-pkp.pl')
@@ -28,10 +28,10 @@ def query_station(station):
 
 	conn.request('POST', '/bin/stboard.exe/pn', pp, HEADERS)
 	response = conn.getresponse()
-	print response.status, response.reason
+	print(response.status, response.reason)
 	data = response.read()
 	if 'Error' in data:
-		print data
+		print(data)
 
 	ll = re.findall(REG, data)
 

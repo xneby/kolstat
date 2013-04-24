@@ -1,7 +1,7 @@
 # coding: utf-8
 
 from pprint import pprint
-from make_query import make_simple_query
+from .make_query import make_simple_query
 from kolstatapp.utils.kolstat_time import hours
 
 class Section(object):
@@ -22,13 +22,13 @@ class Section(object):
 		self.timetable = stops[0].timetable
 
 	def __unicode__(self):
-		s = u'\tSection:\n'
+		s = '\tSection:\n'
 		for field in ('source', 'destination', 'departure', 'arrival', 'duration', 'distance', 'average_velocity', 'train', 'timetable'):
-			s += u'\t{}: {}\n'.format(field, getattr(self, field))
-		s += u'\tstops:\n'
+			s += '\t{}: {}\n'.format(field, getattr(self, field))
+		s += '\tstops:\n'
 		for ss in self.stops:
-			s += u'\t\t{}\n'.format(ss)
-		return s + u'\n'
+			s += '\t\t{}\n'.format(ss)
+		return s + '\n'
 
 class Transfer(object):
 	def __init__(self, s1, s2):
@@ -62,11 +62,11 @@ class Connection(object):
 		self.transfers = [Transfer(s1.stops[-1], s2.stops[0]) for s1, s2 in zip(self.sections, self.sections[1:])]
 
 	def __unicode__(self):
-		s = u'Connection:\n'
+		s = 'Connection:\n'
 		for field in ('source', 'destination', 'departure', 'arrival', 'duration', 'distance', 'average_velocity'):
-			s += u'{}: {}\n'.format(field, getattr(self, field))
+			s += '{}: {}\n'.format(field, getattr(self, field))
 		for ss in self.sections:
-			s += unicode(ss)
+			s += str(ss)
 		return s
 
 def make_connection(x):

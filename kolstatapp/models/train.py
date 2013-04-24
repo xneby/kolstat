@@ -71,10 +71,10 @@ class Train(models.Model):
 		else:
 			xx = acquire(name, connection)
 			
-			if len(xx.keys()) == 0:
+			if len(list(xx.keys())) == 0:
 				raise KolstatError('Brak pociągu w Hafasie')
 			
-			for k, v in xx.items():
+			for k, v in list(xx.items()):
 				if template is None:
 					t = Train(category = oper, number = int(number))
 				else:
@@ -96,7 +96,7 @@ class Train(models.Model):
 		if ids is None:
 			ids = getId(self.category.name + ' ' + str(self.number))
 		to_add = []
-		for k,v in ids.items():
+		for k,v in list(ids.items()):
 			tt = TrainTimetable(train = self, date = k, timetable = v)
 			to_add.append(tt)
 
@@ -156,8 +156,8 @@ class Train(models.Model):
 
 	def get_relation_string(self):
 		def _(manager):
-			return u'/'.join(x.get_pretty_name() for x in manager.all())
-		return u'{} - {}'.format(_(self.source), _(self.destination))
+			return '/'.join(x.get_pretty_name() for x in manager.all())
+		return '{} - {}'.format(_(self.source), _(self.destination))
 	get_relation_string.short_description = "Relacja pociągu"
 
 	@staticmethod
@@ -202,7 +202,7 @@ class Train(models.Model):
 		return self.compositionvote_set.values('composition__composition').annotate(num = Count('composition')).order_by('-num')
 
 	def __unicode__(self):
-		return u"{} {} \"{}\"".format(self.category, self.number, self.variant)
+		return "{} {} \"{}\"".format(self.category, self.number, self.variant)
 
 	class Meta:
 		app_label = 'kolstatapp'

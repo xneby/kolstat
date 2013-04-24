@@ -1,4 +1,4 @@
-<form action="{% url user-change-name %}" method="post">{% csrf_token %}
+<form action="{% url 'user-change-name' %}" method="post">{% csrf_token %}
 	<fieldset><legend>Zmiana imienia i nazwiska</legend>
 		{{ change_name_form.as_p }}
 

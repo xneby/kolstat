@@ -41,17 +41,17 @@
 	<div id="container">
 		<div id="main-menu">
 			<ul>
-				<li> <a href="{% url kolstat-plans %}"><div>Podróże</div></a></li>
-				<li> <a href="{% url kolstat-plans-new %}"><div>Planuj</div></a></li>
-				<li> <a href="{% url kolstat-trains-search %}"><div>Pociągi</div></a></li>
-				<li> <a href="{% url units-classes %}"><div>Baza taboru</div></a></li>
+				<li> <a href="{% url 'kolstat-plans' %}"><div>Podróże</div></a></li>
+				<li> <a href="{% url 'kolstat-plans-new' %}"><div>Planuj</div></a></li>
+				<li> <a href="{% url 'kolstat-trains-search' %}"><div>Pociągi</div></a></li>
+				<li> <a href="{% url 'units-classes' %}"><div>Baza taboru</div></a></li>
 				<li> <a href="#"><div>Stacje</div></a></li>
 			</ul>
 		</div>
 
 		<div id="topbar">
 			Dzisiaj jest {% now "DATE_FORMAT" %}, a Ty jesteś {% if user.is_authenticated %} {% user_display user %}.
-			<a href="{% url user-profile %}">[profil]</a> <a href="{% url account_logout %}">[wyloguj się]</a> {% else %} niezalogowany. <a href="{% url account_login %}">[zaloguj się]</a> <a href="{% url account_signup %}">[zarejestruj się]</a>{% endif %}
+			<a href="{% url 'user-profile' %}">[profil]</a> <a href="{% url 'account_logout' %}">[wyloguj się]</a> {% else %} niezalogowany. <a href="{% url 'account_login' %}">[zaloguj się]</a> <a href="{% url 'account_signup' %}">[zarejestruj się]</a>{% endif %}
 
 			{% if messages %}
 				<ul class="messages">
@@ -67,18 +67,18 @@
 			{% comment %}
 			<div id="loginbox">
 				{% if not user.is_authenticated %}
-					<form action="{% url django-login %}" method="post">{% csrf_token %}
+					<form action="{% url 'django-login' %}" method="post">{% csrf_token %}
 						<fieldset><legend>Panel logowania</legend>
 							{% get_login_form "as_p" %}
 							<input class="button" type="submit" value="Zaloguj" />
-							<button><a href="{% url socialauth_begin "google-oauth2" %}">Zaloguj z Google</a></button>
+							<button><a href="{% url 'socialauth_begin' "google-oauth2" %}">Zaloguj z Google</a></button>
 						</fieldset>
 					</form>
 				{% else %}
 					<p>Witaj, <b>{{user.first_name}}</b>!</p>
-					<p><a href="{% url user-journeys %}">Moje podróże</a></p>
-					{% if user.is_superuser %} <p><a href="{% url admin %}">AdminPanel</a></p> {% endif %}
-					<p><a href="{% url django-logout %}">Wyloguj się</a></p>
+					<p><a href="{% url 'user-journeys' %}">Moje podróże</a></p>
+					{% if user.is_superuser %} <p><a href="{% url 'admin' %}">AdminPanel</a></p> {% endif %}
+					<p><a href="{% url 'django-logout' %}">Wyloguj się</a></p>
 				{% endif %}
 			</div>
 			{% endcomment %}
@@ -87,7 +87,7 @@
 		</div>
 
 		<footer>
-			<p>&copy; 2012 by Kolstat Development Inc.</p>
+			<p> Tworzone przez nerdów. </p>
 		</footer>
 	</div>
 </body>

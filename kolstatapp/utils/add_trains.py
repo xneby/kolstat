@@ -7,14 +7,14 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 from kolstatapp.models import Train
-from normal_to_hafas import save_cache, acquire, create_connection
+from .normal_to_hafas import save_cache, acquire, create_connection
 from kolstatapp.exceptions import KolstatError
-from hafas import HafasObject
+from .hafas import HafasObject
 
-import httplib
+import http.client
 
 import threading
-import Queue
+import queue
 
 trains = []
 
@@ -30,9 +30,9 @@ with open('non_train') as g:
 		if l.strip() in trains:
 			trains.remove(l.strip())
 
-print len(trains)
+print(len(trains))
 
-queue = Queue.Queue()
+queue = queue.Queue()
 print_lock = threading.RLock()
 
 class Thread(threading.Thread):
@@ -44,7 +44,7 @@ class Thread(threading.Thread):
 
 	def run(self):
 		print_lock.acquire()
-		print "Thread", self.name
+		print("Thread", self.name)
 		print_lock.release()
 		conn = create_connection()
 		while True:
@@ -54,18 +54,18 @@ class Thread(threading.Thread):
 			while t is None:
 				try:
 					t = Train.add_train(name, conn, self.hafas)
-				except httplib.BadStatusLine:
+				except http.client.BadStatusLine:
 					conn = create_connection()
 				except KolstatError as e:
 					print_lock.acquire()
-					print name , str(e)				
+					print(name , str(e))				
 					print_lock.release()
 					break
 
 
 			if t is not None:
 				print_lock.acquire()
-				print name, t.get_relation_string()
+				print(name, t.get_relation_string())
 				print_lock.release()
 			self.queue.task_done()
 
@@ -87,5 +87,5 @@ def main():
 	queue.join()
 
 main()
-print "Elapsed time: {:.3f}s".format(time.time() - start)
+print("Elapsed time: {:.3f}s".format(time.time() - start))
 

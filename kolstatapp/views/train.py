@@ -48,7 +48,7 @@ def train_date(request, operator, number, variant = None, date = None):
 		last = -1
 
 		for st, s in ans:
-			if st in table.keys():
+			if st in list(table.keys()):
 				while len(table[st]) != juz:
 					table[st].append("")
 				table[st].append(s)
@@ -67,8 +67,8 @@ def train_date(request, operator, number, variant = None, date = None):
 
 	pres = []
 
-	print stations
-	print table
+	print(stations)
+	print(table)
 
 	for st in stations:
 		while len(table[st]) < juz:
@@ -98,4 +98,4 @@ def train_date(request, operator, number, variant = None, date = None):
 	import pprint
 	pprint.pprint(pres)
 
-	return dict(train = ktrain, timetable = tt, table = pres, ile = juz, trains = map(lambda x: x.train, trains))
+	return dict(train = ktrain, timetable = tt, table = pres, ile = juz, trains = [x.train for x in trains])

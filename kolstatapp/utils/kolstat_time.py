@@ -13,4 +13,4 @@ def hours(t):
 
 def make_planner_time(time):
 	td = time - settings.TIMETABLE_START
-	return td.seconds / 60 + td.days * 60*24
+	return td.seconds // 60 + td.days * 60*24

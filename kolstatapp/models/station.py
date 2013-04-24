@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-from kolstatapp.utils.hafas import Hafas, HafasStation
 import operator
+from functools import reduce
 
 STATION_CATEGORIES = (("M", "Main"), ("N", "Normal"))
 
@@ -40,12 +40,12 @@ class Station(models.Model):
 #		print require
 		return cls.objects.filter(require).all()
 			
-		print 'search failed for', query
+		print('search failed for', query)
 
 		return []
 
-	def toHafas(self):
-		return HafasStation(self.name, self.hafasID, (self.xCoord, self.yCoord))
+#	def toHafas(self):
+#		return HafasStation(self.name, self.hafasID, (self.xCoord, self.yCoord))
 
 	class Meta:
 		app_label = 'kolstatapp'
@@ -53,4 +53,4 @@ class Station(models.Model):
 		verbose_name_plural = 'Stacje'
 
 	def __unicode__(self):
-		return u"{self.name} ({self.hafasID}, {self.kurs90ID})".format(self = self)
+		return "{self.name} ({self.hafasID}, {self.kurs90ID})".format(self = self)

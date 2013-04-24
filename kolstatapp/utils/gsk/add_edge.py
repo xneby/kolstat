@@ -8,7 +8,7 @@ def add_edge(v1, v2, c):
 
 	for v, c in a[v1]:
 		if v == v2:
-			print c
+			print(c)
 			return
 
 	a[v1].append((v2, c))
@@ -18,7 +18,7 @@ def add_edge(v1, v2, c):
 		pickle.dump(a,f)
 
 if __name__ == '__main__':
-	v1 = int(raw_input('v1 '))
-	v2 = int(raw_input('v2 '))
-	c = abs(float(raw_input('c1 '))-float(raw_input('c2 ')))/1000.0
+	v1 = int(input('v1 '))
+	v2 = int(input('v2 '))
+	c = abs(float(input('c1 '))-float(input('c2 ')))/1000.0
 	add_edge(v1, v2, c)

@@ -7,9 +7,9 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 from kolstatapp.models import Train
-from normal_to_hafas import save_cache, acquire
+from .normal_to_hafas import save_cache, acquire
 
-x = raw_input('Podaj pociąg (np. KM 6010) ').strip()
+x = input('Podaj pociąg (np. KM 6010) ').strip()
 
 if ' ' in x:
 	oper, numer = x.split(' ')
@@ -23,4 +23,4 @@ if len(tt) > 0:
 	t, = tt
 	t.delete_train()
 else:
-	print "Brak pociągu"
+	print("Brak pociągu")

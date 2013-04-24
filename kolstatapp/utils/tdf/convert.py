@@ -21,5 +21,5 @@ def convert_file(filename):
 		f.write(output)
 
 for x in sys.argv[1:]:
-	print x
+	print(x)
 	convert_file(x)

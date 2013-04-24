@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
-from train import CompositionVote, Vote
-from station import Station
+from .train import CompositionVote, Vote
+from .station import Station
 
 class Journey(models.Model):
 	user = models.ForeignKey(User, null =True)

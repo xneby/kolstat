@@ -3,8 +3,7 @@ from kolstatapp.utils.kolstat_time import make_planner_time
 from kolstatapp.models import TrainStop
 import struct
 import socket
-import errors
-from lazy import lazy
+from . import errors
 import logging
 
 class SimpleQuery:
@@ -15,7 +14,7 @@ class SimpleQuery:
 
 		tt = make_planner_time(time)
 
-		print ss,dd,tt
+		print(ss,dd,tt)
 		
 		return struct.pack("iiii", 1, ss, dd, tt)
 
@@ -23,7 +22,7 @@ def ask(to_send):
 	s = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
 	s.connect(settings.INSTALL_DIR + '/kolstatapp/planner/planner_socket')
 	s.sendall(to_send)
-	answer = ''
+	answer = b''
 	while True:
 		data = s.recv(1024)
 		if not data: 

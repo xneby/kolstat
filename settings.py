@@ -33,9 +33,8 @@ if DEPLOY:
 else:
 	DATABASES = {
 		'default': {
-			'ENGINE': 'django.db.backends.mysql',
-			'NAME': 'kolstat',
-			'USER': 'kolstat',
+			'ENGINE': 'django.db.backends.sqlite3',
+			'NAME': INSTALL_DIR + '/kolstat.db',
 		}
 	}
 
@@ -111,7 +110,7 @@ INSTALLED_APPS = [
 #	'allauth.socialaccount.providers.twitter',
 ] 
 
-if DEBUG:
+if DEBUG and False:
 	INSTALLED_APPS.append('debug_toolbar')
 	MIDDLEWARE_CLASSES.append('debug_toolbar.middleware.DebugToolbarMiddleware')
 	INTERNAL_IPS = ('127.0.0.1',)

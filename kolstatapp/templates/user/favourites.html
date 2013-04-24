@@ -17,7 +17,7 @@
 
 <p>Wybierz stacje, które lubisz</p>
 
-<form action="{% url user-favourites %}" method="post"> {% csrf_token %}
+<form action="{% url 'user-favourites' %}" method="post"> {% csrf_token %}
 	{% for pic, curr, err, _ in pictos %}
 	<p class="fav_select">
 		<img class="big" src="{{pic.get_img_url}}" /><input name="{{pic.name}}" class="stationField" type="text"{% if curr %} value="{{ curr.get_pretty_name }}"{% endif %} />

@@ -38,7 +38,7 @@ plan = [
 import pprint
 pprint.pprint(plan)
 
-from calculator import calculate
+from .calculator import calculate
 
 cena = calculate(plan, discounts)
 

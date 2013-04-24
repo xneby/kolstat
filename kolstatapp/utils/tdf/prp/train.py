@@ -1,15 +1,16 @@
 # coding: utf-8
-from httplib import HTTPConnection
-from urllib import urlencode
+from http.client import HTTPConnection
+from urllib.parse import urlencode
 import re
-import HTMLParser
+import html.parser
 from pprint import pprint
 import operator
-import urlparse
+import urllib.parse
 from from_html import parse
 from datetime import date
 
 import os, sys
+from functools import reduce
 
 sys.path.extend(['../../../../'])
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
@@ -57,7 +58,7 @@ def query_train(train, conn):
 #	print response.status, response.reason
 	data = response.read()
 #	print 'read'
-	data = HTMLParser.HTMLParser().unescape(data)
+	data = html.parser.HTMLParser().unescape(data)
 #	print 'parsed'
 	np = re.findall(REG, data, re.DOTALL)
 	ll = []
@@ -78,7 +79,7 @@ def query_train(train, conn):
 	for i, (x,nr,_,_) in enumerate(ll):
 		var = chr(65 + i)
 
-		t = urlparse.urlparse(x)
+		t = urllib.parse.urlparse(x)
 
 		nr = re.sub(' +', '', nr)
 		if nr.isdigit():
@@ -88,7 +89,7 @@ def query_train(train, conn):
 		response = conn.getresponse()
 #		print response.status, response.reason
 		data = response.read()
-		data = HTMLParser.HTMLParser().unescape(data)
+		data = html.parser.HTMLParser().unescape(data)
 		xx = parse(data, nr, date(2013, 2, 5), var) 
 
 		with open('trains/{}{}.yaml'.format(nr,var), 'w') as f:

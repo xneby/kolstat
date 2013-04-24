@@ -2,11 +2,11 @@ import yaml
 import sys
 import re
 try:
-	import HTMLParser
+	import html.parser
 except ImportError:
 	import html.parser as HTMLParser
 
-h = HTMLParser.HTMLParser()
+h = html.parser.HTMLParser()
 
 name = sys.argv[1]
 
@@ -60,4 +60,4 @@ oper['timetable'] = tt
 
 document['operations'] = [oper]
 
-print(yaml.dump(document))
+print((yaml.dump(document)))

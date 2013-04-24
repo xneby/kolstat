@@ -1,4 +1,4 @@
-import oferty
+from . import oferty
 from kolstatapp.utils.distances import get_distance
 
 class InvalidConnection(Exception): pass
@@ -8,7 +8,7 @@ import pprint
 def calculate(plan, discounts):
 
 	def _price(op):
-		return sum(map(lambda x: x[-1], op))
+		return sum([x[-1] for x in op])
 
 	def _get_oplaty(plan):
 		result = []
@@ -47,7 +47,7 @@ def calculate(plan, discounts):
 
 			try:
 				tmp_oplata = ([] if j == 0 else oplaty[j-1]) + _get_oplaty(plan[j:i+1])
-				print j, i
+				print(j, i)
 				pprint.pprint(tmp_oplata)
 				if oplaty[i] == [] or _price(oplaty[i]) > _price(tmp_oplata):
 					oplaty[i] = tmp_oplata
@@ -59,7 +59,7 @@ def calculate(plan, discounts):
 	return oplaty[-1]
 	
 def calc_price(op):
-	return sum(map(lambda x: x[-1], op))
+	return sum([x[-1] for x in op])
 
 def plan_from_connection(conn):
 	plan = []

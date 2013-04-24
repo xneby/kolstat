@@ -7,7 +7,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 from kolstatapp.models import Station
-from make_query import make_simple_query
+from .make_query import make_simple_query
 from datetime import datetime
 
 radom, = Station.search("Radom")

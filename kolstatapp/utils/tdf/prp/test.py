@@ -47,7 +47,7 @@ class Watek(threading.Thread):
 
 			printLock.acquire()
 			zrob += 1
-			print '{} -- {}/{} - {}'.format(self.getName(), zrob , wsz, num)
+			print('{} -- {}/{} - {}'.format(self.getName(), zrob , wsz, num))
 			printLock.release()
 
 			train.query_train(num, self.conn)

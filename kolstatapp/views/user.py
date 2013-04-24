@@ -25,7 +25,7 @@ def discounts(request):
 	if request.method == 'POST':
 
 		try:
-			discounts = Discount.objects.filter(pk__in = (int(x[1:]) for x in request.POST.keys() if x.startswith('d')))
+			discounts = Discount.objects.filter(pk__in = (int(x[1:]) for x in list(request.POST.keys()) if x.startswith('d')))
 		except ValueError:
 			raise Redirect(reverse('user-profile'))
 		except Discount.DoesNotExist:

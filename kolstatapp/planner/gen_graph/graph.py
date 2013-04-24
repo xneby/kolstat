@@ -6,7 +6,7 @@ import time
 import struct
 import datetime
 
-MAGIC, = struct.unpack('i', 'TTF0')
+MAGIC, = struct.unpack('i', b'TTF0')
 DZIEN = datetime.timedelta(days = 1)
 
 def info(s):
@@ -20,7 +20,7 @@ def done(s = '', t = None):
 		x = ''
 	else:
 		x = '{:.2f}'.format(time.time() - t)
-	print '{}done. (t = {})'.format(s,x)
+	print('{}done. (t = {})'.format(s,x))
 
 class Graph(object):
 
@@ -33,7 +33,7 @@ class Graph(object):
 
 		cursor.execute("""SELECT t1.station_id, t1.departure, t1.departure_overnight, t2.arrival, t2.arrival_overnight, t2.station_id, t1.id, t2.id, tt.date
 		                  FROM kolstatapp_trainstop AS t1
-		                  JOIN kolstatapp_trainstop AS t2 ON t1.order + 1 = t2.order
+		                  JOIN kolstatapp_trainstop AS t2 ON t1."order" + 1 = t2."order"
 		                  JOIN kolstatapp_traintimetable AS tt ON t1.timetable_id = tt.id
 		                  WHERE t1.timetable_id = t2.timetable_id""")
 
@@ -99,11 +99,11 @@ class Graph(object):
 
 		done('Generating graph... ', start_time)
 	
-		conn = sum(len(v) for k, v in self.connections.items()) 
-		vertices = sum(1 for k, v in self.edges.items() if len(v) > 0)
-		edges = sum(len(v) for k, v in self.edges.items()) 
+		conn = sum(len(v) for k, v in list(self.connections.items())) 
+		vertices = sum(1 for k, v in list(self.edges.items()) if len(v) > 0)
+		edges = sum(len(v) for k, v in list(self.edges.items())) 
 
-		print 'Parameters: C={} V={} E={}'.format(conn, vertices, edges)
+		print('Parameters: C={} V={} E={}'.format(conn, vertices, edges))
 
 	def save_to(self, stream):
 		class Buffer:
@@ -115,6 +115,7 @@ class Graph(object):
 				cls.length += len(s)
 
 		def write_integer(n):
+			n = int(n)
 			Buffer.append(struct.pack('i', n))
 		
 		def write_string(s):
@@ -163,6 +164,6 @@ class Graph(object):
 		
 		done('Writing connections... ', start_time)
 
-		print 'size: {}KiB'.format(Buffer.length/1024)
+		print('size: {}KiB'.format(Buffer.length/1024))
 
 #		stream.write(Buffer._buffer)

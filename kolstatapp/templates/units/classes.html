@@ -9,7 +9,7 @@
 <h2>{{ c.name }}</h2>
 <ul>
 	{% for x in c.classes %}
-	<li><b><a href="{% url units-class x.name %}">{{ x.name }}</a></b> ({{ x.producer }})</li>
+	<li><b><a href="{% url 'units-class' x.name %}">{{ x.name }}</a></b> ({{ x.producer }})</li>
 	{% endfor %}
 </ul>
 {% endfor %}
