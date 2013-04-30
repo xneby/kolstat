@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'EIC 1607'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:48', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -21,6 +21,6 @@ operations:
   - {arrival: !!python/unicode '10:54', departure: !!python/unicode '10:55', station: "Opole\
       \ G\u0142\xF3wne"}
   - {arrival: !!python/unicode '11:41', station: "Wroc\u0142aw G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

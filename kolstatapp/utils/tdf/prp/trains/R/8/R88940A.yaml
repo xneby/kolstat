@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88940'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '08:10', station: "Kamie\u0144 Pomorski"}
@@ -11,6 +11,6 @@ operations:
       rki Pomorskie"}
   - {arrival: !!python/unicode '08:25', departure: !!python/unicode '08:25', station: !!python/unicode 'Stawno'}
   - {arrival: !!python/unicode '08:30', station: "Wysoka Kamie\u0144ska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

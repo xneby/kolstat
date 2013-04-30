@@ -10,7 +10,7 @@ class TrainName(models.Model):
 		try:
 			return cls.objects.get(number = train.number, category = train.category.name).name
 		except cls.DoesNotExist:
-			return ''
+			return '{}'.format(train.number)
 
 	class Meta:
 		app_label = 'kolstatapp'

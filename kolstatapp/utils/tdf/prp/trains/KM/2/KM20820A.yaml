@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 20820'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:00', station: "\u017Byrard\xF3w"}
@@ -65,6 +65,6 @@ operations:
   - {arrival: !!python/unicode '17:02', departure: !!python/unicode '17:02', station: "Ceg\u0142\
       \xF3w"}
   - {arrival: !!python/unicode '17:07', station: !!python/unicode 'Mrozy'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 30920'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '16:09', station: !!python/unicode 'Grodzisk Maz.
@@ -32,6 +32,6 @@ operations:
   - {arrival: !!python/unicode '16:55', departure: !!python/unicode '16:55', station: !!python/unicode 'Warszawa
       Wschodnia'}
   - {arrival: !!python/unicode '17:05', station: "Warszawa Rembert\xF3w"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

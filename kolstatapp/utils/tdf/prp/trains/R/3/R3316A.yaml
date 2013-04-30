@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 3316'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:48', station: "\u0141\xF3d\u017A Widzew"}
@@ -32,6 +32,6 @@ operations:
   - {arrival: !!python/unicode '11:47', departure: !!python/unicode '11:47', station: "D\u0105\
       browice Skier."}
   - {arrival: !!python/unicode '11:52', station: !!python/unicode 'Skierniewice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

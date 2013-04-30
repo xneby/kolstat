@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 3329'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '19:24', station: !!python/unicode 'Laskowice Pomorskie'}
@@ -25,6 +25,6 @@ operations:
   - {arrival: !!python/unicode '20:32', departure: !!python/unicode '20:33', station: "B\u0119\
       d\u017Amirowice"}
   - {arrival: !!python/unicode '20:40', station: !!python/unicode 'Czersk'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

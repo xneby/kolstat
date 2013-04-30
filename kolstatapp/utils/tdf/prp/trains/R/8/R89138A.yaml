@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 89138'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:24', station: !!python/unicode 'Koszalin'}
@@ -16,6 +16,6 @@ operations:
   - {arrival: !!python/unicode '15:06', departure: !!python/unicode '15:07', station: !!python/unicode 'Sycewice'}
   - {arrival: !!python/unicode '15:11', departure: !!python/unicode '15:12', station: !!python/unicode 'Reblino'}
   - {arrival: !!python/unicode '15:19', station: "S\u0142upsk"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

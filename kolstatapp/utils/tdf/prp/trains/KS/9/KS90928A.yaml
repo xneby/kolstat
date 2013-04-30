@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 90928'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:38', station: "Racib\xF3rz"}
@@ -62,6 +62,6 @@ operations:
   - {arrival: !!python/unicode '18:38', departure: !!python/unicode '18:38', station: "Cz\u0119\
       stochowa Rak\xF3w"}
   - {arrival: !!python/unicode '18:43', station: "Cz\u0119stochowa Osobowa"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

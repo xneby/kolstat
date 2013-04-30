@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 90131'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:02', station: "Ko\u015Bcierzyna"}
@@ -31,6 +31,6 @@ operations:
   - {arrival: !!python/unicode '05:07', departure: !!python/unicode '05:07', station: !!python/unicode 'Gdynia
       Wielki Kack'}
   - {arrival: !!python/unicode '05:20', station: "Gdynia G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

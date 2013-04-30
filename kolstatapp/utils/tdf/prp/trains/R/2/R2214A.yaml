@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 2214'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:40', station: !!python/unicode 'Skierniewice'}
@@ -36,6 +36,6 @@ operations:
   - {arrival: !!python/unicode '06:59', departure: !!python/unicode '07:00', station: "\u0141\xF3\
       d\u017A Chojny"}
   - {arrival: !!python/unicode '07:08', station: "\u0141\xF3d\u017A Kaliska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

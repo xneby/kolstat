@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 33103'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:32', station: "Krak\xF3w G\u0142\xF3wny"}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '12:03', departure: !!python/unicode '12:04', station: "S\u0119\
       dzisz\xF3w Ma\u0142opolski"}
   - {arrival: !!python/unicode '12:46', station: "Rzesz\xF3w G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 64200'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:42', station: "Opole G\u0142\xF3wne"}
@@ -29,6 +29,6 @@ operations:
   - {arrival: !!python/unicode '06:00', departure: !!python/unicode '06:01', station: "Gliwice\
       \ \u0141ab\u0119dy"}
   - {arrival: !!python/unicode '06:07', station: !!python/unicode 'Gliwice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

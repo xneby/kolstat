@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKM 459'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '17:20', station: "Gda\u0144sk G\u0142\xF3wny"}
@@ -40,6 +40,6 @@ operations:
   - {arrival: !!python/unicode '18:02', departure: !!python/unicode '18:02', station: !!python/unicode 'Gdynia
       Leszczynki'}
   - {arrival: !!python/unicode '18:04', station: !!python/unicode 'Gdynia Chylonia'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

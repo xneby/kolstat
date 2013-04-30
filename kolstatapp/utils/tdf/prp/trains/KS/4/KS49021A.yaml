@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 49021'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '22:45', station: !!python/unicode 'Katowice'}
@@ -12,6 +12,6 @@ operations:
       \ \u015Al\u0105ska"}
   - {arrival: !!python/unicode '23:11', departure: !!python/unicode '23:12', station: !!python/unicode 'Zabrze'}
   - {arrival: !!python/unicode '23:22', station: !!python/unicode 'Gliwice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

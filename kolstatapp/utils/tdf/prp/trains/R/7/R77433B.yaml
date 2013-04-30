@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 77433'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '16:15', station: !!python/unicode 'Tczew'}
@@ -31,6 +31,6 @@ operations:
       \ Wie\u015B"}
   - {arrival: !!python/unicode '17:43', departure: !!python/unicode '17:44', station: !!python/unicode 'Rytel'}
   - {arrival: !!python/unicode '17:56', station: !!python/unicode 'Chojnice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: B

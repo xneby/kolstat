@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKW 19241'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:35', station: !!python/unicode 'Warszawa Zachodnia'}
@@ -22,6 +22,6 @@ operations:
       \ Choszcz\xF3wka"}
   - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:17', station: !!python/unicode 'Legionowo'}
   - {arrival: !!python/unicode '06:20', station: !!python/unicode 'Legionowo Piaski'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 39421'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:05', station: !!python/unicode 'Wadowice'}
@@ -29,6 +29,6 @@ operations:
   - {arrival: !!python/unicode '13:17', departure: !!python/unicode '13:17', station: "Bielsko\
       \ Bia\u0142a Wsch."}
   - {arrival: !!python/unicode '13:20', station: "Bielsko Bia\u0142a G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

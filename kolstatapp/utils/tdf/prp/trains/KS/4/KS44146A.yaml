@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44146'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:12', station: !!python/unicode 'Cieszyn'}
@@ -24,6 +24,6 @@ operations:
   - {arrival: !!python/unicode '07:28', departure: !!python/unicode '07:28', station: !!python/unicode 'Czechowice
       Dziedzice'}
   - {arrival: !!python/unicode '07:45', station: "Bielsko Bia\u0142a G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

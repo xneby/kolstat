@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 2421'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '03:46', station: "S\u0119dzisz\xF3w"}
@@ -27,6 +27,6 @@ operations:
   - {arrival: !!python/unicode '05:24', departure: !!python/unicode '05:25', station: !!python/unicode 'Bukowno
       Przymiarki'}
   - {arrival: !!python/unicode '05:30', station: "S\u0142awk\xF3w"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

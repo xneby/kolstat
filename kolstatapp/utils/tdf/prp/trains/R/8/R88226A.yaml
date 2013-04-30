@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88226'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:20', station: "Szczecin G\u0142\xF3wny"}
@@ -16,6 +16,6 @@ operations:
       Zdunowo'}
   - {arrival: !!python/unicode '15:45', departure: !!python/unicode '15:46', station: !!python/unicode 'Reptowo'}
   - {arrival: !!python/unicode '15:57', station: "Stargard Szczeci\u0144ski"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

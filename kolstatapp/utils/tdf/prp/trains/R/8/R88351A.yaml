@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88351'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:50', station: "\u0141uk\xF3w"}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '07:32', departure: !!python/unicode '07:32', station: !!python/unicode 'Sokule'}
   - {arrival: !!python/unicode '07:38', departure: !!python/unicode '07:38', station: !!python/unicode 'Porosiuki'}
   - {arrival: !!python/unicode '07:44', station: "Bia\u0142a Podlaska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

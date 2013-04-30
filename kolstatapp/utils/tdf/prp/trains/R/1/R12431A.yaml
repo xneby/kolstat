@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 12431'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:31', station: !!python/unicode 'Koluszki'}
@@ -12,6 +12,6 @@ operations:
   - {arrival: !!python/unicode '15:47', departure: !!python/unicode '15:48', station: !!python/unicode 'Zaosie'}
   - {arrival: !!python/unicode '15:51', departure: !!python/unicode '15:52', station: !!python/unicode 'Skrzynki'}
   - {arrival: !!python/unicode '15:58', station: "Tomasz\xF3w Mazowiecki"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

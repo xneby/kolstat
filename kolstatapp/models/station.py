@@ -2,6 +2,7 @@
 from django.db import models
 import operator
 from functools import reduce
+import datetime
 
 STATION_CATEGORIES = (("M", "Main"), ("N", "Normal"))
 
@@ -47,10 +48,16 @@ class Station(models.Model):
 #	def toHafas(self):
 #		return HafasStation(self.name, self.hafasID, (self.xCoord, self.yCoord))
 
+	def next_departures(self, number):
+		tomorrow = datetime.date.today() + datetime.timedelta(days = 1)
+		all_stops = self.trainstop_set.filter(timetable__date__lte = tomorrow).filter(timetable__date__gte = datetime.date.today()).exclude(departure = None)
+
+		return list(x for x in sorted(all_stops, key = lambda x : x.departure_datetime()) if x.departure_datetime() > datetime.datetime.now() )[:5]
+
 	class Meta:
 		app_label = 'kolstatapp'
 		verbose_name = 'Stacja'
 		verbose_name_plural = 'Stacje'
 
-	def __unicode__(self):
+	def __str__(self):
 		return "{self.name} ({self.hafasID}, {self.kurs90ID})".format(self = self)

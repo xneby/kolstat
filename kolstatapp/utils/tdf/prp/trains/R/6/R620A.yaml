@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 620'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:20', station: !!python/unicode 'Kielce'}
@@ -24,6 +24,6 @@ operations:
   - {arrival: !!python/unicode '21:03', departure: !!python/unicode '21:03', station: "Skar\u017C\
       ysko Zachodnie"}
   - {arrival: !!python/unicode '21:06', station: "Skar\u017Cysko-Kamienna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

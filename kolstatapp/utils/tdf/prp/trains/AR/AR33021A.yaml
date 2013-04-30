@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 33021'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '03:20', station: "Toru\u0144 G\u0142\xF3wny"}
@@ -15,6 +15,6 @@ operations:
   - {arrival: !!python/unicode '04:18', departure: !!python/unicode '04:19', station: !!python/unicode 'Lipno'}
   - {arrival: !!python/unicode '04:25', departure: !!python/unicode '04:26', station: !!python/unicode 'Karnkowo'}
   - {arrival: !!python/unicode '04:33', station: "Sk\u0119pe"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

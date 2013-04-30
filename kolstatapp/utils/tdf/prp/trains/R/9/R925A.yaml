@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 925'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:27', station: "Skar\u017Cysko-Kamienna"}
@@ -27,6 +27,6 @@ operations:
       w"}
   - {arrival: !!python/unicode '07:14', departure: !!python/unicode '07:15', station: !!python/unicode 'Boksycka'}
   - {arrival: !!python/unicode '07:21', station: "Ostrowiec \u015Awi\u0119tokrz."}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

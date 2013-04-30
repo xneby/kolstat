@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 15245'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:40', station: !!python/unicode 'Kutno'}
@@ -36,6 +36,6 @@ operations:
   - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:16', station: "Toru\u0144\
       \ Czerniewice"}
   - {arrival: !!python/unicode '16:25', station: "Toru\u0144 G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

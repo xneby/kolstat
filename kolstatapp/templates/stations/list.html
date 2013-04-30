@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block title%}stacje{%endblock%}
+
+{% block head %}
+<script type="text/javascript" src="{% static 'js/stations.js' %}"></script>
+{% endblock %}
+{% block content %}
+<p>Wybierz stację:</p>
+<p>
+	<form action="{% url 'kolstat-station-show-post' %}" method="post">
+		{% csrf_token %}
+		<label for="id_station">Stacja</label> <input id="id_station" class="stationField" type="text" name="station" />
+		<input type="submit" value="Szukaj" />
+	</form>
+</p>
+{% endblock %}

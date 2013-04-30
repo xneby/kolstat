@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKW 96240'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:03', station: !!python/unicode 'Wieliszew'}
@@ -31,6 +31,6 @@ operations:
       Kasprzaka'}
   - {arrival: !!python/unicode '20:49', station: !!python/unicode 'Warszawa Zach.
       per.8'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

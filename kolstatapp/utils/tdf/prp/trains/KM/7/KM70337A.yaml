@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 70337'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '22:33', station: "T\u0142uszcz"}
@@ -28,6 +28,6 @@ operations:
   - {arrival: !!python/unicode '23:53', departure: !!python/unicode '23:53', station: !!python/unicode 'Goworowo'}
   - {arrival: !!python/unicode '00:04', departure: !!python/unicode '00:04', station: !!python/unicode 'Gierwaty'}
   - {arrival: !!python/unicode '00:15', station: "Ostro\u0142\u0119ka"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

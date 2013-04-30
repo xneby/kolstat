@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 7730'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:33', station: !!python/unicode 'Chojnice'}
@@ -32,6 +32,6 @@ operations:
   - {arrival: !!python/unicode '11:58', departure: !!python/unicode '11:59', station: !!python/unicode 'Rokitki
       Tczewskie'}
   - {arrival: !!python/unicode '12:05', station: !!python/unicode 'Tczew'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

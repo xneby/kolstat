@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44441'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:52', station: !!python/unicode 'Katowice'}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '13:46', departure: !!python/unicode '13:47', station: "Nak\u0142\
       o \u015Al\u0105skie"}
   - {arrival: !!python/unicode '13:52', station: "Tarnowskie G\xF3ry"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

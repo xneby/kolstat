@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 94016'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:41', station: !!python/unicode 'Rybnik'}
@@ -20,6 +20,6 @@ operations:
   - {arrival: !!python/unicode '13:30', departure: !!python/unicode '13:31', station: !!python/unicode 'Katowice
       Ligota'}
   - {arrival: !!python/unicode '13:38', station: !!python/unicode 'Katowice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

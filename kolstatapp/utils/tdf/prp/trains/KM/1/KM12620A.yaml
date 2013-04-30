@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 12620'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:46', station: !!python/unicode 'Pilawa'}
@@ -102,6 +102,6 @@ operations:
   - {arrival: !!python/unicode '09:37', departure: !!python/unicode '09:37', station: "Lesi\xF3\
       w"}
   - {arrival: !!python/unicode '09:51', station: !!python/unicode 'Radom'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKM 85022'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '21:45', station: "S\u0142upsk"}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '22:24', departure: !!python/unicode '22:25', station: "Le\u015B\
       nice"}
   - {arrival: !!python/unicode '22:31', station: "L\u0119bork"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

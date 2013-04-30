@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 19501'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:33', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '16:55', departure: !!python/unicode '16:56', station: "\u0141\xF3\
       d\u017A Chojny"}
   - {arrival: !!python/unicode '17:05', station: "\u0141\xF3d\u017A Kaliska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

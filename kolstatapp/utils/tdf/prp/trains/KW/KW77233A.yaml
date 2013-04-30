@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KW 77233'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:35', station: "Pozna\u0144 G\u0142\xF3wny"}
@@ -23,6 +23,6 @@ operations:
   - {arrival: !!python/unicode '14:24', departure: !!python/unicode '14:25', station: "S\u0105\
       topy"}
   - {arrival: !!python/unicode '14:30', station: "Nowy Tomy\u015Bl"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

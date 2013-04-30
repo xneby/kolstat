@@ -201,8 +201,10 @@ class Train(models.Model):
 	def get_compositions(self):
 		return self.compositionvote_set.values('composition__composition').annotate(num = Count('composition')).order_by('-num')
 
-	def __unicode__(self):
+	def __str__(self):
 		return "{} {} \"{}\"".format(self.category, self.number, self.variant)
+
+	__unicode__ = __str__
 
 	class Meta:
 		app_label = 'kolstatapp'

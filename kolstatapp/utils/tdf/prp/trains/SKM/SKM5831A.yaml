@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKM 5831'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:30', station: "Gdynia G\u0142\xF3wna"}
@@ -37,6 +37,6 @@ operations:
   - {arrival: !!python/unicode '15:13', departure: !!python/unicode '15:14', station: "Jezierzyce\
       \ S\u0142upskie"}
   - {arrival: !!python/unicode '15:23', station: "S\u0142upsk"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

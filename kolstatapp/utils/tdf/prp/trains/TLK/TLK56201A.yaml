@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 56201'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '21:17', station: "Gdynia G\u0142\xF3wna"}
@@ -33,6 +33,6 @@ operations:
   - {arrival: !!python/unicode '06:05', departure: !!python/unicode '06:06', station: "Wroc\u0142\
       aw Miko\u0142aj\xF3w"}
   - {arrival: !!python/unicode '06:12', station: "Wroc\u0142aw G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,11 +2,11 @@ mode: normal
 name: !!python/unicode 'WKD 2200'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:18', station: !!python/unicode 'Grodzisk Maz.Radon.'}
   - {arrival: !!python/unicode '04:28', station: "Podkowa Le\u015Bna G\u0142."}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

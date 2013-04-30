@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% load station_extras %}
+{% load utils %}
 
 {% block title %}kalkulator cen{% endblock %}
 
 {% block content %}
 <p>Data: {{ date|date:"d-m-Y" }}</p>
 <table class="cennik">
-	{% for name, oferta, typ, args, znizka, cena in out %}
+	{% for name, oferta, typ, args, znizka, cena, km in out %}
 	<tr class="main1">
 		<td class="type" colspan="2">{{ typ.name }} (<i>{{ oferta.name }}</i>)</td>
 		<td class="price" rowspan="{% if znizka %}3{% else %}2{% endif %}">{{ cena|floatformat:"2" }}zł</td>
@@ -30,14 +31,14 @@
 	<tr>
 		<td{% if forloop.first %} class="first_stats"{% endif %}/>
 		<td class="stats_name">{{ type.name_plural }}</td>
-		<td class="price">{{ cena|floatformat:"2" }}zł</td>
+		<td class="price">{{ cena.0|floatformat:"2" }}zł</td>
 	</tr>
 	{% endfor %}
 	{% for operator, cena in operators.items %}
 	<tr>
 		<td/>
 		<td class="stats_name">{{ operator.name }}</td>
-		<td class="price">{{ cena|floatformat:"2" }}zł</td>
+		<td class="price">{{ cena.0|floatformat:"2" }}zł</td>
 	</tr>
 	{% endfor %}
 	<tr>

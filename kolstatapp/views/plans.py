@@ -5,8 +5,16 @@ from kolstatapp.models import Station
 from kolstatapp.planner import wrapper
 
 from django.core.urlresolvers import reverse
+from django.template import Template, RequestContext
+from django.template.loader import get_template
+from django.http import HttpResponse
 
+from subprocess import Popen, PIPE
 from datetime import datetime
+import shlex
+import qrcode
+import base64
+import io
 
 @login_required
 @expose('plans/list.html')
@@ -46,3 +54,28 @@ def plans_query(request, st_start, st_end, when):
 
 	return dict(conn = connections, source = st_start, destination = st_end, when = when)
 
+#@expose('plans/reiseplan.html')
+def reiseplan(request, connection_id):
+
+	conn = wrapper.Connection.load(connection_id)
+	
+	x = io.BytesIO()
+	image = qrcode.QRCode(border=0)
+	image.add_data(connection_id)
+	image.make()
+	image.make_image().save(x)
+	qr = base64.b64encode(x.getbuffer().tobytes())
+
+	t = get_template('plans/reiseplan.html')
+	c = RequestContext(request, dict(connection = conn, qrcode = qr))
+	d = bytes(t.render(c), 'utf8')
+
+	if 'raw' not in request.GET:
+		pdf = Popen(shlex.split('wkhtmltopdf - -'), stdin = PIPE, stdout = PIPE).communicate(d)[0]
+
+		response = HttpResponse(pdf)
+		response['Content-type'] = 'application/pdf';
+	else:
+		response = HttpResponse(d)
+
+	return response

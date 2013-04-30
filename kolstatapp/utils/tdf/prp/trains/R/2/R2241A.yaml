@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 2241'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:23', station: "\u0141uk\xF3w"}
@@ -89,6 +89,6 @@ operations:
       ojec"}
   - {arrival: !!python/unicode '10:39', departure: !!python/unicode '10:46', station: !!python/unicode 'Zawada'}
   - {arrival: !!python/unicode '10:56', station: "Zamo\u015B\u0107"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

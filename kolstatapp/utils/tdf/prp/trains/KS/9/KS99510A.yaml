@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 99510'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:32', station: !!python/unicode 'Lubliniec'}
@@ -15,6 +15,6 @@ operations:
   - {arrival: !!python/unicode '05:10', departure: !!python/unicode '05:10', station: "Cz\u0119\
       stochowa Stradom"}
   - {arrival: !!python/unicode '05:16', station: "Cz\u0119stochowa Osobowa"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

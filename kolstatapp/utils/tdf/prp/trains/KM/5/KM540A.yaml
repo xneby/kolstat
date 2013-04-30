@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 540'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:50', station: !!python/unicode 'Radom'}
@@ -26,6 +26,6 @@ operations:
   - {arrival: !!python/unicode '21:40', departure: !!python/unicode '21:40', station: "Zajezierze\
       \ k.D\u0119blina"}
   - {arrival: !!python/unicode '21:46', station: "D\u0119blin"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

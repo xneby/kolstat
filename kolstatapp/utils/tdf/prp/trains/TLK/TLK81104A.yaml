@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 81104'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:00', station: "Szczecin G\u0142\xF3wny"}
@@ -66,6 +66,6 @@ operations:
   - {arrival: !!python/unicode '23:06', departure: !!python/unicode '23:07', station: "Bia\u0142\
       ystok Starosiel."}
   - {arrival: !!python/unicode '23:15', station: "Bia\u0142ystok"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

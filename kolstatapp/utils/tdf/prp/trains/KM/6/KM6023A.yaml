@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 6023'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:46', station: !!python/unicode 'Radom'}
@@ -23,6 +23,6 @@ operations:
   - {arrival: !!python/unicode '16:23', departure: !!python/unicode '16:23', station: !!python/unicode 'Lipowe
       Pole'}
   - {arrival: !!python/unicode '16:28', station: "Skar\u017Cysko-Kamienna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

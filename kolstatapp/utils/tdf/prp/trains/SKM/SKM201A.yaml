@@ -2,13 +2,13 @@ mode: normal
 name: !!python/unicode 'SKM 201'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:10', station: !!python/unicode 'Wejherowo'}
   - {arrival: !!python/unicode '05:15', departure: !!python/unicode '05:21', station: "Go\u015B\
       cicino Wejherows."}
   - {arrival: !!python/unicode '05:26', station: !!python/unicode 'Luzino'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 40632'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:05', station: !!python/unicode 'Gliwice'}
@@ -61,6 +61,6 @@ operations:
   - {arrival: !!python/unicode '17:07', departure: !!python/unicode '17:07', station: "Cz\u0119\
       stochowa Rak\xF3w"}
   - {arrival: !!python/unicode '17:11', station: "Cz\u0119stochowa Osobowa"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

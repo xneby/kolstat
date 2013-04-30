@@ -11,7 +11,14 @@ class SEAT:
 	name = 'Miejscówka'
 	name_plural = 'Miejscówki'
 
+class DRUGA:
+	name = 'druga'
+
+class PIERWSZA:
+	name = 'pierwsza'
+
 class Oferta:
+	klass = DRUGA
 	@classmethod
 	def get_additional_prices(cls, train):
 		return ()
@@ -48,7 +55,8 @@ class Discounts:
 	def _get_discounts(d):
 		return list(map(Discount.get, d))
 
-	ustawowe = _get_discounts(())
+	ustawowe = _get_discounts(('DZ/UCZ',))
 	IC = _get_discounts(())
 	KM = _get_discounts(())
+	R = _get_discounts(())
 	KW = _get_discounts(())

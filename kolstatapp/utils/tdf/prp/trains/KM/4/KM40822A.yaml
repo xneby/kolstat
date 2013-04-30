@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 40822'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '17:37', station: "B\u0142onie"}
@@ -48,6 +48,6 @@ operations:
   - {arrival: !!python/unicode '18:56', departure: !!python/unicode '18:56', station: "Wrzos\xF3\
       w"}
   - {arrival: !!python/unicode '19:01', station: "Mi\u0144sk Mazowiecki"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

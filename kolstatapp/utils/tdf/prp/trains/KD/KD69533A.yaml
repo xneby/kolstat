@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KD 69533'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '16:05', station: "Wroc\u0142aw G\u0142\xF3wny"}
@@ -24,6 +24,6 @@ operations:
       roda \u015Al\u0105ska"}
   - {arrival: !!python/unicode '16:53', departure: !!python/unicode '16:53', station: !!python/unicode 'Malczyce'}
   - {arrival: !!python/unicode '17:08', station: !!python/unicode 'Legnica'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

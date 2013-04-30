@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 7736'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '17:04', station: !!python/unicode 'Chojnice'}
@@ -30,6 +30,6 @@ operations:
   - {arrival: !!python/unicode '18:24', departure: !!python/unicode '18:25', station: "Swaro\u017C\
       yn"}
   - {arrival: !!python/unicode '18:35', station: !!python/unicode 'Tczew'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

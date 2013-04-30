@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'IR 33050'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:59', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '18:10', departure: !!python/unicode '18:11', station: "\u0141\xF3\
       d\u017A Chojny"}
   - {arrival: !!python/unicode '18:20', station: "\u0141\xF3d\u017A Kaliska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

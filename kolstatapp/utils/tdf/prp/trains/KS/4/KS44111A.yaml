@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44111'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:59', station: !!python/unicode 'Czechowice Dziedzice'}
@@ -10,6 +10,6 @@ operations:
       Czarnolesie'}
   - {arrival: !!python/unicode '05:16', departure: !!python/unicode '05:17', station: !!python/unicode 'Chybie'}
   - {arrival: !!python/unicode '05:30', station: !!python/unicode 'Zebrzydowice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

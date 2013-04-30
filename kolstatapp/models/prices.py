@@ -3,7 +3,7 @@ from django.db import models
 
 class Discount(models.Model):
 	kurs90ID = models.IntegerField(verbose_name = 'Numer wg Kurs90')
-	kurs90Name = models.CharField(max_length = 5, verbose_name = 'Skrót wg Kurs90')
+	kurs90Name = models.CharField(max_length = 8, verbose_name = 'Skrót wg Kurs90')
 
 	discount = models.IntegerField(verbose_name = 'Wartość zniżki w procentach')
 

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 20422'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:35', station: !!python/unicode 'Tczew'}
@@ -14,6 +14,6 @@ operations:
   - {arrival: !!python/unicode '15:02', departure: !!python/unicode '15:03', station: !!python/unicode 'Morzeszczyn'}
   - {arrival: !!python/unicode '15:06', departure: !!python/unicode '15:07', station: !!python/unicode 'Majewo'}
   - {arrival: !!python/unicode '15:13', station: "Sm\u0119towo"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

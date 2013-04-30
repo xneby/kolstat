@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KW 77422'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:06', station: !!python/unicode 'Wolsztyn'}
@@ -24,6 +24,6 @@ operations:
       Wielkie'}
   - {arrival: !!python/unicode '14:05', departure: !!python/unicode '14:06', station: !!python/unicode 'Wilkowice'}
   - {arrival: !!python/unicode '14:12', station: !!python/unicode 'Leszno'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

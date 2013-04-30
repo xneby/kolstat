@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 7520'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:48', station: "Pozna\u0144 G\u0142\xF3wny"}
@@ -42,6 +42,6 @@ operations:
   - {arrival: !!python/unicode '08:05', departure: !!python/unicode '08:06', station: "Suchat\xF3\
       wka"}
   - {arrival: !!python/unicode '08:26', station: "Toru\u0144 G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

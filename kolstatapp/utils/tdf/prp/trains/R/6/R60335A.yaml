@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 60335'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:35', station: "I\u0142awa G\u0142\xF3wna"}
@@ -21,6 +21,6 @@ operations:
       br\xF3wka Malborska"}
   - {arrival: !!python/unicode '16:00', departure: !!python/unicode '16:01', station: !!python/unicode 'Gronajny'}
   - {arrival: !!python/unicode '16:08', station: !!python/unicode 'Malbork'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

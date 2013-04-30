@@ -17,6 +17,8 @@ queue = queue.Queue()
 for i in files:
 	queue.put(i)
 
+dijkstra_lock = threading.Lock()
+mysql_lock = threading.Lock()
 stdout = threading.Lock()
 done = 0
 
@@ -34,7 +36,7 @@ class Watek(threading.Thread):
 				done += 1
 
 			with open(name) as f:
-				import_from_file(f)
+				import_from_file(f, dijkstra_lock, mysql_lock)
 
 for i in range(5):
 	w = Watek()

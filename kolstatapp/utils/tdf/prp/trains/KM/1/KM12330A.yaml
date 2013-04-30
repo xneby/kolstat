@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 12330'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:27', station: !!python/unicode 'Otwock'}
@@ -86,6 +86,6 @@ operations:
   - {arrival: !!python/unicode '15:29', departure: !!python/unicode '15:29', station: "Lesi\xF3\
       w"}
   - {arrival: !!python/unicode '15:42', station: !!python/unicode 'Radom'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

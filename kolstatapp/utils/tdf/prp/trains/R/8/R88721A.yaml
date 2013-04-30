@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88721'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:34', station: !!python/unicode 'Czeremcha'}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '07:10', departure: !!python/unicode '07:11', station: "Bia\u0142\
       ystok Stadion"}
   - {arrival: !!python/unicode '07:20', station: "Bia\u0142ystok"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

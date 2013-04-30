@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'RE 26122'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:00', station: !!python/unicode 'Lublin'}
@@ -40,6 +40,6 @@ operations:
   - {arrival: !!python/unicode '21:41', departure: !!python/unicode '21:42', station: "O\u0142\
       awa"}
   - {arrival: !!python/unicode '22:03', station: "Wroc\u0142aw G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

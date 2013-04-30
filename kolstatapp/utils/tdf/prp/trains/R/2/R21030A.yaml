@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 21030'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:25', station: "D\u0119blin"}
@@ -48,6 +48,6 @@ operations:
       aszewicze"}
   - {arrival: !!python/unicode '07:27', departure: !!python/unicode '07:28', station: !!python/unicode 'Kobylany'}
   - {arrival: !!python/unicode '07:34', station: !!python/unicode 'Terespol'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

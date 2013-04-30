@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 20341'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:29', station: "Inowroc\u0142aw"}
@@ -17,6 +17,6 @@ operations:
       Bydgoska'}
   - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:02', station: !!python/unicode 'Trzciniec'}
   - {arrival: !!python/unicode '06:13', station: "Bydgoszcz G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

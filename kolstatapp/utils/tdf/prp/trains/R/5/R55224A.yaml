@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 55224'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:58', station: !!python/unicode 'Gdynia Chylonia'}
@@ -31,6 +31,6 @@ operations:
   - {arrival: !!python/unicode '14:52', departure: !!python/unicode '14:52', station: "Malbork\
       \ Ka\u0142dowo"}
   - {arrival: !!python/unicode '14:57', station: !!python/unicode 'Malbork'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

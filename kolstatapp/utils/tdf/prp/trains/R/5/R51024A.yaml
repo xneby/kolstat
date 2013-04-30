@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 51024'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:37', station: "Toru\u0144 G\u0142\xF3wny"}
@@ -54,6 +54,6 @@ operations:
   - {arrival: !!python/unicode '17:13', departure: !!python/unicode '17:13', station: "\u0141\xF3\
       d\u017A \u017Babieniec"}
   - {arrival: !!python/unicode '17:18', station: "\u0141\xF3d\u017A Kaliska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

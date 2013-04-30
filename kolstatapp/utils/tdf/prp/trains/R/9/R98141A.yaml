@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 98141'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:40', station: !!python/unicode 'Kalisz Pomor.
@@ -25,6 +25,6 @@ operations:
   - {arrival: !!python/unicode '06:45', departure: !!python/unicode '06:45', station: "Wa\u0142\
       cz"}
   - {arrival: !!python/unicode '07:10', station: "Pi\u0142a G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 41216'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '08:41', station: "Cz\u0119stochowa Osobowa"}
@@ -20,6 +20,6 @@ operations:
       w Teklin\xF3w"}
   - {arrival: !!python/unicode '09:17', departure: !!python/unicode '09:18', station: !!python/unicode 'Bobry'}
   - {arrival: !!python/unicode '09:26', station: !!python/unicode 'Radomsko'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

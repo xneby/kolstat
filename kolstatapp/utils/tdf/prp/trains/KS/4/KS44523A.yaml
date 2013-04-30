@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44523'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '18:47', station: "Tarnowskie G\xF3ry"}
@@ -17,6 +17,6 @@ operations:
   - {arrival: !!python/unicode '19:37', departure: !!python/unicode '19:37', station: !!python/unicode 'Kuleje'}
   - {arrival: !!python/unicode '19:44', departure: !!python/unicode '19:44', station: !!python/unicode 'Panki'}
   - {arrival: !!python/unicode '19:51', station: !!python/unicode 'Krzepice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

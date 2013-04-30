@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 35102'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:27', station: "Krak\xF3w P\u0142asz\xF3w"}
@@ -51,6 +51,6 @@ operations:
       sk Oliwa"}
   - {arrival: !!python/unicode '23:14', departure: !!python/unicode '23:16', station: !!python/unicode 'Sopot'}
   - {arrival: !!python/unicode '23:31', station: "Gdynia G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

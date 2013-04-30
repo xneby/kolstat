@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 12034'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:20', station: !!python/unicode 'Terespol'}
@@ -112,6 +112,6 @@ operations:
   - {arrival: !!python/unicode '17:19', departure: !!python/unicode '17:20', station: "W\xF3\
       lka Okopska"}
   - {arrival: !!python/unicode '17:25', station: !!python/unicode 'Dorohusk'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

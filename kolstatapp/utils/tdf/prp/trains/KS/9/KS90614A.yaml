@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 90614'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '18:01', station: "Wodzis\u0142aw \u015Al\u0105ski"}
@@ -23,6 +23,6 @@ operations:
   - {arrival: !!python/unicode '19:13', departure: !!python/unicode '19:13', station: !!python/unicode 'Suszec'}
   - {arrival: !!python/unicode '19:23', departure: !!python/unicode '19:23', station: !!python/unicode 'Radostowice'}
   - {arrival: !!python/unicode '19:34', station: !!python/unicode 'Pszczyna'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

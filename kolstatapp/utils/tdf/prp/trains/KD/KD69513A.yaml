@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KD 69513'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:41', station: "Jelenia G\xF3ra"}
@@ -57,6 +57,6 @@ operations:
   - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:43', station: "Wroc\u0142\
       aw Nowy Dw\xF3r"}
   - {arrival: !!python/unicode '09:55', station: "Wroc\u0142aw G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

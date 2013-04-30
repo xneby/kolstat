@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 445'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '08:52', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -37,6 +37,6 @@ operations:
       \ Niepokalan\xF3w"}
   - {arrival: !!python/unicode '09:52', departure: !!python/unicode '09:52', station: !!python/unicode 'Piasecznica'}
   - {arrival: !!python/unicode '09:58', station: !!python/unicode 'Sochaczew'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

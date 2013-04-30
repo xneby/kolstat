@@ -29,9 +29,13 @@ urlpatterns = patterns('kolstatapp.views',
 	url(r'^plans/$', 'plans_list', name = 'kolstat-plans'),
 	url(r'^plans/new/$', 'plans_new', name = 'kolstat-plans-new'),
 	url(r'^plans/query/from=(?P<st_start>[-a-z]+)/to=(?P<st_end>[-a-z]+)/when=(?P<when>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/$', 'plans_query', name = 'kolstat-plans-query'),
+	url(r'^plans/(?P<connection_id>[0-9a-f]{22})/reiseplan/$', 'reiseplan', name = 'kolstat-reiseplan'),
 
-	url(r'^prices/$', TemplateView.as_view(template_name = 'prices/form.html'), name = 'kolstat-prices-form'),
-	url(r'^prices/show/$', 'prices_show', name = 'kolstat-prices-show'),
+	url(r'^prices/(?P<connection_id>[0-9a-f]{22})/$', 'prices_show', name = 'kolstat-prices-show'),
+
+	url(r'^stations/$', TemplateView.as_view(template_name = 'stations/list.html'), name = 'kolstat-stations'),
+	url(r'^station/show/$', 'station_show', name = 'kolstat-station-show-post'),
+	url(r'^station/(?P<station>[-a-z]+)/$', 'station_show', name = 'kolstat-station-show'),
 
 	url(r'^ajax/station/$', 'ajax_station'),
 	url(r'^ajax/favourites/$', 'ajax_favourites'),

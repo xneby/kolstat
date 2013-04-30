@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 76230'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:03', station: "Ostr\xF3w Wlkp."}
@@ -29,6 +29,6 @@ operations:
       k. Kluczb.'}
   - {arrival: !!python/unicode '07:26', departure: !!python/unicode '07:26', station: !!python/unicode 'Krzywizna'}
   - {arrival: !!python/unicode '07:33', station: !!python/unicode 'Kluczbork'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

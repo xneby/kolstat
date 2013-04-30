@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 15435'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:54', station: !!python/unicode 'Warszawa Zach.
@@ -73,6 +73,6 @@ operations:
       owo"}
   - {arrival: !!python/unicode '23:37', departure: !!python/unicode '23:37', station: !!python/unicode 'Narzym'}
   - {arrival: !!python/unicode '23:45', station: "Dzia\u0142dowo"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

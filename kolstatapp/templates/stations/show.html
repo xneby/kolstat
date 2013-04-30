@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load station_extras %}
+{% load train_extras %}
+
+{%block title%}stacje{%endblock%}
+
+{% block content %}
+<h1>{{ station.get_pretty_name }}</h1>
+<p><b>Nazwa z hafasa</b>: {{ station.name }}</p>
+<p><b>Numer kurs90</b>: {{ station.kurs90ID }}</p>
+<p><b>Stacja w portalu bazakolejowa.pl</b>: <a href="//bazakolejowa.pl/index.php?dzial=stacje&amp;id={{ station.gskID }}&amp;okno=start">{{ station.get_pretty_name }}</a> </p>
+
+<h2>Najbliższe odjazdy:</h2>
+
+<table class="next-stops">
+
+	{% for stop in stops %}
+	<tr>
+	{% with stop.timetable as tt %}
+		<td><img src="{% traincat_img_url tt.train%}" alt="{{ tt.train.category.name }}" /></td>
+		<td><b> {% train_name tt.train %}</b> </td>
+		<td style="text-align:left">o {{ stop.departure|time:"H:i" }}
+		do stacji {% get_pretty_name tt.last_stop.station %}</td>
+	{% endwith %}
+	</tr>
+	{% endfor %}
+	
+
+</table>
+
+{% endblock %}

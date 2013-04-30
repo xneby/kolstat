@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 6043'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:28', station: "Opole G\u0142\xF3wne"}
@@ -18,6 +18,6 @@ operations:
   - {arrival: !!python/unicode '15:57', departure: !!python/unicode '15:57', station: "\u0141\
       osi\xF3w"}
   - {arrival: !!python/unicode '16:05', station: !!python/unicode 'Brzeg'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

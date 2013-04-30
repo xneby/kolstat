@@ -1,0 +1,10 @@
+#!/bin/bash
+
+t="AR EIC EX IR KD KM/1 KM/2 KM/3 KM/4 KM/5 KM/6 KM/7 KM/8 KM/9 KS/3 KS/4 KS/9 KW R/1 R/2 R/3 R/4 R/5 R/6 R/7 R/8 R/9 RE SKM SKW TLK WKD"
+
+
+for i in $t; do
+	a="$a prp/trains/$i/*"
+done
+
+./import.py $a

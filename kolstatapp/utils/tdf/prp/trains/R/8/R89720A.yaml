@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 89720'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:42', station: "Ko\u0142obrzeg"}
@@ -13,6 +13,6 @@ operations:
   - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:12', station: !!python/unicode 'Daszewo'}
   - {arrival: !!python/unicode '06:16', departure: !!python/unicode '06:16', station: !!python/unicode 'Karlino'}
   - {arrival: !!python/unicode '06:25', station: "Bia\u0142ogard"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

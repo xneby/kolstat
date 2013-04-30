@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 7628'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:10', station: "Wo\u0142omin"}
@@ -14,6 +14,6 @@ operations:
   - {arrival: !!python/unicode '10:25', departure: !!python/unicode '10:25', station: "Z\u0105\
       bki"}
   - {arrival: !!python/unicode '10:33', station: "Warszawa Wile\u0144ska"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

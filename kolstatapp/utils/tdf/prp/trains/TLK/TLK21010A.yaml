@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 21010'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '03:55', station: !!python/unicode 'Dorohusk'}
@@ -25,6 +25,6 @@ operations:
   - {arrival: !!python/unicode '09:00', departure: !!python/unicode '09:15', station: !!python/unicode 'Warszawa
       Centralna'}
   - {arrival: !!python/unicode '09:20', station: !!python/unicode 'Warszawa Zachodnia'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

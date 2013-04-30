@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 70820'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:51', station: "T\u0142uszcz"}
@@ -68,6 +68,6 @@ operations:
       Nurzec'}
   - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:04', station: !!python/unicode 'Borowiki'}
   - {arrival: !!python/unicode '15:14', station: !!python/unicode 'Czeremcha'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

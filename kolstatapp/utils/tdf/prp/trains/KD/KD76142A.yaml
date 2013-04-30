@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KD 76142'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '07:45', station: "\u017Bary"}
@@ -44,6 +44,6 @@ operations:
   - {arrival: !!python/unicode '10:29', departure: !!python/unicode '10:30', station: "Wroc\u0142\
       aw Muchob\xF3r"}
   - {arrival: !!python/unicode '10:37', station: "Wroc\u0142aw G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

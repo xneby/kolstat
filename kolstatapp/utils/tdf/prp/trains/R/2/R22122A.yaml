@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 22122'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '17:18', station: !!python/unicode 'Zakopane'}
@@ -76,6 +76,6 @@ operations:
   - {arrival: !!python/unicode '21:10', departure: !!python/unicode '21:10', station: "Krak\xF3\
       w Zab\u0142ocie"}
   - {arrival: !!python/unicode '21:14', station: "Krak\xF3w G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

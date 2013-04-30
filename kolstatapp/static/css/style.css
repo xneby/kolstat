@@ -380,12 +380,24 @@ table.rozklad td.poczkon {
 
 /* CENNIK */
 
-.cennik td.type, .cennik td.price, .cennik td.stats_name, .cennik td.first_stats {
+.cennik td.type, .cennik td.price, .cennik td.stats_name, .cennik td.first_stats, .cennik td.distance {
 	border-top: solid 1px black;
 }
 
-.cennik td.price {
+.cennik td.price, .cennik td.distance {
 	border-right: solid 1px black;
+}
+
+.cennik td.distance div.distance,
+.cennik td.distance,
+.cennik td.distance div.container {
+	height: 100%;
+}
+
+.cennik td.distance div.coef {
+	position: relative;
+	display: flex;
+	bottom: 200px;
 }
 
 .cennik td.price, .cennik td.discount, .cennik td.relation, .cennik td.type, .cennik td.stats_name {
@@ -419,7 +431,7 @@ table.rozklad td.poczkon {
 	text-align: left;
 }
 
-.cennik td.price {
+.cennik td.price, .cennik td.distance {
 	width: 100px;
 }
 
@@ -538,4 +550,22 @@ span.dining { color: #8A1214; font-weight: bold; }
 
 .fav_select img.big {
 	margin-right: 10px;
+}
+
+/* next-stops */
+
+table.next-stops td {
+	vertical-align: middle;
+}
+
+table.next-stops img {
+	height: 32px;
+	width: 32px;
+}
+
+/* span.station */
+
+span.station a {
+	color: inherit;
+	text-decoration: underline;
 }

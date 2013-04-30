@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 503'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:06', station: !!python/unicode 'Warszawa Zachodnia'}
@@ -38,6 +38,6 @@ operations:
   - {arrival: !!python/unicode '11:53', departure: !!python/unicode '11:53', station: "\u015A\
       wider"}
   - {arrival: !!python/unicode '11:56', station: !!python/unicode 'Otwock'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

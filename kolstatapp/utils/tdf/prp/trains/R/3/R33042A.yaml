@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 33042'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:34', station: "Horyniec Zdr\xF3j"}
@@ -22,6 +22,6 @@ operations:
       w"}
   - {arrival: !!python/unicode '10:41', departure: !!python/unicode '10:41', station: !!python/unicode 'Munina'}
   - {arrival: !!python/unicode '10:46', station: "Jaros\u0142aw"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

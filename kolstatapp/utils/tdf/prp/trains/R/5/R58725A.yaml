@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 58725'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:30', station: !!python/unicode 'Chojnice'}
@@ -25,6 +25,6 @@ operations:
   - {arrival: !!python/unicode '14:56', departure: !!python/unicode '14:56', station: "Pi\u0142\
       a Podlasie"}
   - {arrival: !!python/unicode '15:01', station: "Pi\u0142a G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

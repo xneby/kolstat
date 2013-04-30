@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88633'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:19', station: !!python/unicode 'Czeremcha'}
@@ -11,6 +11,6 @@ operations:
   - {arrival: !!python/unicode '15:36', departure: !!python/unicode '15:37', station: !!python/unicode 'Witowo'}
   - {arrival: !!python/unicode '15:43', departure: !!python/unicode '15:43', station: !!python/unicode 'Orzeszkowo'}
   - {arrival: !!python/unicode '15:51', station: "Hajn\xF3wka"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

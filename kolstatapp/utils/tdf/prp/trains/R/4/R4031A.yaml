@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 4031'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:08', station: "Toru\u0144 G\u0142\xF3wny"}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:09', station: "Bydgoszcz\
       \ Le\u015Bna"}
   - {arrival: !!python/unicode '05:15', station: "Bydgoszcz G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

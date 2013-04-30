@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 55116'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:25', station: "\u0141\xF3d\u017A Kaliska"}
@@ -24,6 +24,6 @@ operations:
   - {arrival: !!python/unicode '16:47', departure: !!python/unicode '16:48', station: !!python/unicode 'Gawrony'}
   - {arrival: !!python/unicode '16:55', departure: !!python/unicode '17:09', station: !!python/unicode 'Witonia'}
   - {arrival: !!python/unicode '17:20', station: !!python/unicode 'Kutno'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

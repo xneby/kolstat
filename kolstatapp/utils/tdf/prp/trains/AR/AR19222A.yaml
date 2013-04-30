@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 19222'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:34', station: !!python/unicode 'Laskowice Pomorskie'}
@@ -26,6 +26,6 @@ operations:
   - {arrival: !!python/unicode '17:06', departure: !!python/unicode '17:06', station: !!python/unicode 'Konojady'}
   - {arrival: !!python/unicode '17:14', departure: !!python/unicode '17:14', station: !!python/unicode 'Najmowo'}
   - {arrival: !!python/unicode '17:23', station: !!python/unicode 'Brodnica'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 57102'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:32', station: "Gdynia G\u0142\xF3wna"}
@@ -38,6 +38,6 @@ operations:
   - {arrival: !!python/unicode '16:15', departure: !!python/unicode '16:27', station: "Czerwie\u0144\
       sk"}
   - {arrival: !!python/unicode '16:39', station: "Zielona G\xF3ra"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

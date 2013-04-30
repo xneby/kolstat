@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 79720'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '22:20', station: !!python/unicode 'Leszno'}
@@ -10,6 +10,6 @@ operations:
   - {arrival: !!python/unicode '22:32', departure: !!python/unicode '22:32', station: !!python/unicode 'Kaczkowo'}
   - {arrival: !!python/unicode '22:37', departure: !!python/unicode '22:38', station: !!python/unicode 'Bojanowo'}
   - {arrival: !!python/unicode '22:48', station: !!python/unicode 'Rawicz'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

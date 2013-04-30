@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 55025'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:36', station: "Toru\u0144 G\u0142\xF3wny"}
@@ -28,6 +28,6 @@ operations:
   - {arrival: !!python/unicode '17:24', departure: !!python/unicode '17:25', station: "Grudzi\u0105\
       dz Przedm."}
   - {arrival: !!python/unicode '17:30', station: "Grudzi\u0105dz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

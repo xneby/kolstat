@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 9337'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:47', station: "Gdynia G\u0142\xF3wna"}
@@ -18,6 +18,6 @@ operations:
   - {arrival: !!python/unicode '21:24', departure: !!python/unicode '21:25', station: !!python/unicode 'Puck'}
   - {arrival: !!python/unicode '21:32', departure: !!python/unicode '21:33', station: !!python/unicode 'Swarzewo'}
   - {arrival: !!python/unicode '21:42', station: "W\u0142adys\u0142awowo"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKM 200'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:46', station: !!python/unicode 'Luzino'}
@@ -57,6 +57,6 @@ operations:
   - {arrival: !!python/unicode '07:15', departure: !!python/unicode '07:15', station: "Gda\u0144\
       sk Stocznia"}
   - {arrival: !!python/unicode '07:18', station: "Gda\u0144sk G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: B

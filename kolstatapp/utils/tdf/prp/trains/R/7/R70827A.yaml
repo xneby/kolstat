@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 70827'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:03', station: "\u017Baga\u0144"}
@@ -23,6 +23,6 @@ operations:
   - {arrival: !!python/unicode '15:04', departure: !!python/unicode '15:04', station: "Bucha\u0142\
       \xF3w"}
   - {arrival: !!python/unicode '15:15', station: "Zielona G\xF3ra"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

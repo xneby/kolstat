@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 245'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '22:23', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -44,6 +44,6 @@ operations:
   - {arrival: !!python/unicode '23:49', departure: !!python/unicode '23:49', station: !!python/unicode 'Skierniewice
       Rawka'}
   - {arrival: !!python/unicode '23:55', station: !!python/unicode 'Skierniewice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

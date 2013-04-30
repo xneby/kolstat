@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 60441'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:19', station: !!python/unicode 'Nysa'}
@@ -23,6 +23,6 @@ operations:
       \ Wie\u015B"}
   - {arrival: !!python/unicode '06:09', departure: !!python/unicode '06:09', station: !!python/unicode 'Olszanka'}
   - {arrival: !!python/unicode '06:17', station: !!python/unicode 'Brzeg'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

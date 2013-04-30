@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 80424'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:05', station: !!python/unicode 'Kostrzyn'}
@@ -33,6 +33,6 @@ operations:
   - {arrival: !!python/unicode '10:33', departure: !!python/unicode '10:34', station: !!python/unicode 'Stare
       Bielice'}
   - {arrival: !!python/unicode '10:42', station: "Krzy\u017C"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

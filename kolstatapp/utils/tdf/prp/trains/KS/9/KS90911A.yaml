@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 90911'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:25', station: !!python/unicode 'Rybnik'}
@@ -27,6 +27,6 @@ operations:
   - {arrival: !!python/unicode '05:13', departure: !!python/unicode '05:14', station: "Racib\xF3\
       rz Markowice"}
   - {arrival: !!python/unicode '05:19', station: "Racib\xF3rz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

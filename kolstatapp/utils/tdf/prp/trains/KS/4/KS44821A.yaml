@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44821'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:22', station: !!python/unicode 'Katowice'}
@@ -53,6 +53,6 @@ operations:
   - {arrival: !!python/unicode '13:15', departure: !!python/unicode '13:15', station: "Racib\xF3\
       rz Markowice"}
   - {arrival: !!python/unicode '13:20', station: "Racib\xF3rz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

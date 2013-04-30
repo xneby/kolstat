@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 85040'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:24', station: !!python/unicode 'Wyrzysk Osiek'}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '05:08', departure: !!python/unicode '05:08', station: !!python/unicode 'Bydgoszcz
       Zach.'}
   - {arrival: !!python/unicode '05:14', station: "Bydgoszcz G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

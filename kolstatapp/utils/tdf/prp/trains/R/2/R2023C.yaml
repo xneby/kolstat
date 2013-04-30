@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 2023'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '07:28', station: "Bydgoszcz G\u0142\xF3wna"}
@@ -54,6 +54,6 @@ operations:
   - {arrival: !!python/unicode '10:39', departure: !!python/unicode '10:39', station: "Gdynia\
       \ Or\u0142owo"}
   - {arrival: !!python/unicode '10:47', station: "Gdynia G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: C

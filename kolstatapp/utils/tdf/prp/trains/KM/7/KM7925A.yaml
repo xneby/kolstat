@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 7925'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:50', station: "Warszawa Wile\u0144ska"}
@@ -44,6 +44,6 @@ operations:
       \ W\u0119growskie"}
   - {arrival: !!python/unicode '07:28', departure: !!python/unicode '07:28', station: "Prosty\u0144"}
   - {arrival: !!python/unicode '07:36', station: "Ma\u0142kinia"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

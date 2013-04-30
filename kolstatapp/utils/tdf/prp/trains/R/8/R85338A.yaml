@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 85338'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '18:30', station: !!python/unicode 'Szczecinek'}
@@ -21,6 +21,6 @@ operations:
   - {arrival: !!python/unicode '19:28', departure: !!python/unicode '19:29', station: "Brze\u017A\
       no Cz\u0142uchowskie"}
   - {arrival: !!python/unicode '19:38', station: !!python/unicode 'Chojnice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

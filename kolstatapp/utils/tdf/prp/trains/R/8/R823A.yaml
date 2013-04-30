@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 823'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '12:05', station: "Rzesz\xF3w G\u0142\xF3wny"}
@@ -36,6 +36,6 @@ operations:
       wka"}
   - {arrival: !!python/unicode '13:30', departure: !!python/unicode '13:31', station: !!python/unicode 'Szebnie'}
   - {arrival: !!python/unicode '13:51', station: "Jas\u0142o"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

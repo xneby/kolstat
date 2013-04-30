@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 940'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '07:33', station: "Ostrowiec \u015Awi\u0119tokrz."}
@@ -46,6 +46,6 @@ operations:
   - {arrival: !!python/unicode '09:09', departure: !!python/unicode '09:10', station: !!python/unicode 'Kielce
       Piaski'}
   - {arrival: !!python/unicode '09:12', station: !!python/unicode 'Kielce'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

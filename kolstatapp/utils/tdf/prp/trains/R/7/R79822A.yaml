@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 79822'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:20', station: "Suwa\u0142ki"}
@@ -42,6 +42,6 @@ operations:
   - {arrival: !!python/unicode '11:39', departure: !!python/unicode '11:39', station: "Wasilk\xF3\
       w"}
   - {arrival: !!python/unicode '11:46', station: "Bia\u0142ystok"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

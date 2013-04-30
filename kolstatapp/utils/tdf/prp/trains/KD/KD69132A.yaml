@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KD 69132'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:04', station: !!python/unicode 'Legnica'}
@@ -33,6 +33,6 @@ operations:
       cisko Dzier\u017C."}
   - {arrival: !!python/unicode '21:51', station: "Dzier\u017Coni\xF3w \u015Al\u0105\
       ski"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

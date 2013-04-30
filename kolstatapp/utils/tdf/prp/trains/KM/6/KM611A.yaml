@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 611'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:08', station: "Warszawa Gda\u0144ska"}
@@ -35,6 +35,6 @@ operations:
   - {arrival: !!python/unicode '16:02', departure: !!python/unicode '16:02', station: !!python/unicode 'Studzianki
       Nowe'}
   - {arrival: !!python/unicode '16:05', station: !!python/unicode 'Nasielsk'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

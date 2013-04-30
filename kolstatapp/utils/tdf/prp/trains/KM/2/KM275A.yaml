@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 275'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '23:30', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -35,6 +35,6 @@ operations:
   - {arrival: !!python/unicode '00:28', departure: !!python/unicode '00:28', station: "Mi\u0119\
       dzybor\xF3w"}
   - {arrival: !!python/unicode '00:32', station: "\u017Byrard\xF3w"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

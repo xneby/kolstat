@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 42207'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:48', station: "Cz\u0119stochowa Osobowa"}
@@ -44,6 +44,6 @@ operations:
   - {arrival: !!python/unicode '18:07', departure: !!python/unicode '18:08', station: !!python/unicode 'Kielce
       Herbskie'}
   - {arrival: !!python/unicode '18:12', station: !!python/unicode 'Kielce'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

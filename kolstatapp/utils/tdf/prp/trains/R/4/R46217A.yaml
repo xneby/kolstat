@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 46217'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '08:07', station: !!python/unicode 'Gliwice'}
@@ -29,6 +29,6 @@ operations:
   - {arrival: !!python/unicode '09:34', departure: !!python/unicode '09:35', station: !!python/unicode 'Opole
       Groszowice'}
   - {arrival: !!python/unicode '09:41', station: "Opole G\u0142\xF3wne"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

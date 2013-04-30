@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 66125'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:04', station: "Krak\xF3w G\u0142\xF3wny"}
@@ -106,6 +106,6 @@ operations:
   - {arrival: !!python/unicode '19:50', departure: !!python/unicode '19:50', station: "Powro\u017A\
       nik"}
   - {arrival: !!python/unicode '19:59', station: !!python/unicode 'Krynica'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

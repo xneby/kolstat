@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+{% load utils %}
+{% load plan_extras %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Plan podróży nr {{ connection.cid }}</title>
+
+		<style type="text/css">
+			body { margin: 0; border: 0; padding: 0;}
+			#container {
+				margin-left: auto;
+				margin-right: auto;
+				height: 148mm;
+				width: 210mm;
+				padding-left: 10px;
+				padding-right: 10px;
+				border: 1px solid;
+			}
+
+			header h1 {
+				text-align: center;
+			}
+
+			header p span.left {
+				float: left;
+				width: 50%;
+			}
+
+			header p span.right {
+				float: right;
+				width: 50%;
+			}
+
+			.clear {
+				clear: both;
+			}
+
+			section {
+				margin-top: 1em;
+			}
+
+			table {
+				margin-left: auto;
+				margin-right: auto;
+				width: 100%;
+				border-collapse: collapse;
+			}
+
+			td, th {
+				border: 1px solid;	
+			}
+
+			th#station {
+				width: 40%;
+			}
+
+			th#hour, th#track, th#train {
+				width: 20%;
+			}
+
+			td p {
+				margin: 0;
+			}
+
+			td p.source {
+				text-align: left;
+			}
+
+			td p.destination {
+				text-align: right;
+			}
+
+			td {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			footer p.greetings {
+				text-align: center;
+				font-weight: bold;
+			}
+
+			footer .qrcode img {
+				width: 120px;
+				height: 120px;
+			}
+
+			footer .qrcode {
+				float: right;
+			}
+
+			footer .qrcode p {
+				font-size: 70%;
+				text-align: center;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+		</style>
+	</head>
+
+	<body>
+	<div id="container">
+		<header>
+			<h1>Plan podróży</h1>
+
+			<p class="clear">
+				<span class="left">
+					<b>Od</b>: {{ connection.source.get_pretty_name }}
+				</span>
+				<span class="right">
+					<b>Do</b>: {{connection.destination.get_pretty_name }}
+				</span>
+			</p>
+			<p class="clear">
+				<span class="left">
+					<b>Przesiadki</b>: 
+					{% for s in connection.sections  %}
+						{% if not forloop.first %}
+						{{ s.source.get_pretty_name }}{% if not forloop.last %},{%else%}.{% endif%}
+						{% endif %}
+					{% endfor %}
+				</span>
+				<span class="right">
+					<b>Data</b>:
+					{% if connection.departure.date == connection.arrival.date %}
+						{{ connection.departure|date:"d.m.y" }}
+					{% else %}
+						{{ connection.departure|date:"d.m.y" }} - {{ connection.arrival|date:"d.m.y" }}
+					{% endif %}
+					<b>Czas trwania</b>: {{ connection.duration|timedelta }}
+				</span>
+			</p>
+			<p class="clear" />
+		</header>
+
+		<section>
+			<table>
+				<tr>
+					<th id="station"> Stacja / przystanek </th>
+					<th id="hour"> Godzina </th>
+					<th id="track"> Tor / peron </th>
+					<th id="train"> Pociąg </th>
+				</tr>
+
+				{% for s in connection.sections %}
+				<tr>
+					<td>
+						<p class="source">{{ s.source.get_pretty_name }}</p>
+						<p class="destination">{{ s.destination.get_pretty_name }}</p>
+					</td>
+					<td>
+						<p class="source"> {{ s.departure|time:"H:i" }}</p>
+						<p class="destination"> {{ s.arrival|time:"H:i" }}</p>
+					</td>
+
+					<td>
+						<p class="source"> </p>
+						<p class="destination"> </p>
+					</td>
+
+					<td>
+						<p> {{ s.train.category.name }} {{ s.train.number }}</p>
+					</td>
+				</tr>
+				{% if not forloop.last %}
+				<tr>
+					<td colspan="4"><b>{{ s.destination.get_pretty_name }}</b>: czas oczekiwania {{ s.transfer.time|timedelta }}</td>
+				</tr>
+				{% endif %}
+				{% endfor %}
+
+			</table>
+		</section>
+
+		<footer>
+			<div class="qrcode">
+				<img src="data:image/png;base64,{{ qrcode }}" alt="qrcode">
+				<p>Zeskanuj za pomocą</p>
+				<p>Kolstat Naviagator</p>
+			</div>
+			<p><b>Cena biletu</b> (przewidywana): {% get_price connection user.get_profile.discounts.all 'full' %}</p>
+
+			<p><b>Uwaga</b>! Plan podróży nie jest biletem na przejazd. Chcesz jechać - kup bilet.</p>
+
+			<p class="greetings clear">Życzymy przyjemnej podróży</p>
+
+		</footer>
+
+	</div>
+	</body>
+</html>

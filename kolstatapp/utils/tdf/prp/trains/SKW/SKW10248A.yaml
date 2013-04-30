@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKW 10248'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:05', station: !!python/unicode 'Warszawa Lot.
@@ -36,6 +36,6 @@ operations:
   - {arrival: !!python/unicode '13:53', departure: !!python/unicode '13:54', station: "Sulej\xF3\
       wek"}
   - {arrival: !!python/unicode '13:56', station: "Sulej\xF3wek Mi\u0142osna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -35,15 +35,10 @@ class TLKOferta(Oferta):
 		(1000, 83),
 	)
 
-	seat_ticket = ('15117', )
-
 	@classmethod
 	def is_valid(cls, train, start, end):
 		return train.category == cls.TLK
 
 	@classmethod
 	def _get_additional_prices(cls, train, disccount):
-		if train.number in cls.seat_ticket:
-			return [(SEAT, 3.00, None)]
-		else:
-			return []
+		return [(SEAT, 0.00, None)]

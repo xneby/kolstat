@@ -33,7 +33,16 @@ class TrainTimetable(models.Model):
 	def get_couplings(self, after = 0):
 		return [(x.stop1.timetable, x.stop1.order) for x in TrainCouple.objects.filter(stop2__in = self.stops()).filter(stop2__order__gt = after)]
 
-	def __unicode__(self):
+	def get_stations_id(self):
+		return self.trainstop_set.values_list('station__id', flat=True)
+
+	def interval(self, s1, s2):
+		o1 = self.trainstop_set.get(station = s1).order
+		o2 = self.trainstop_set.get(station = s2).order
+
+		return self.trainstop_set.filter(order__gte = o1).filter(order__lte = o2).order_by('order')
+
+	def __str__(self):
 		return "{} ({})".format(self.train, self.date)
 
 class TrainStop(models.Model):
@@ -80,7 +89,7 @@ class TrainStop(models.Model):
 	class Meta:
 		app_label = 'kolstatapp'
 
-	def __unicode__(self):
+	def __str__(self):
 		return "{} @ {} ({} - {})".format(self.timetable, self.station, self.arrival, self.departure)
 
 class TrainCouple(models.Model):

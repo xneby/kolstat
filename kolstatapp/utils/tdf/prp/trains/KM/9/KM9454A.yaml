@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 9454'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '16:54', station: !!python/unicode 'Sochaczew'}
@@ -27,6 +27,6 @@ operations:
   - {arrival: !!python/unicode '17:48', departure: !!python/unicode '17:48', station: !!python/unicode 'Warszawa
       Stadion'}
   - {arrival: !!python/unicode '17:50', station: !!python/unicode 'Warszawa Wschodnia'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

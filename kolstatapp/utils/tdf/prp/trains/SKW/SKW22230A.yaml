@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKW 22230'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '22:20', station: !!python/unicode 'Warszawa Lot.
@@ -16,6 +16,6 @@ operations:
   - {arrival: !!python/unicode '22:30', departure: !!python/unicode '22:31', station: !!python/unicode 'Warszawa
       Al.Jerozolimskie PKP'}
   - {arrival: !!python/unicode '22:35', station: !!python/unicode 'Warszawa Zachodnia'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

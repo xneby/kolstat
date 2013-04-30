@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 1930'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '17:44', station: !!python/unicode 'Laskowice Pomorskie'}
@@ -13,6 +13,6 @@ operations:
   - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: "G\xF3\
       rna Grupa"}
   - {arrival: !!python/unicode '18:22', station: "Grudzi\u0105dz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88626'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '16:12', station: "Szczecin G\u0142\xF3wny"}
@@ -14,6 +14,6 @@ operations:
       \ Gryfi\u0144skie"}
   - {arrival: !!python/unicode '16:36', departure: !!python/unicode '16:36', station: !!python/unicode 'Czepino'}
   - {arrival: !!python/unicode '16:42', station: !!python/unicode 'Gryfino'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

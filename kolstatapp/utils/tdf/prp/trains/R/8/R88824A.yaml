@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 88824'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:48', station: "Szczecin G\u0142\xF3wny"}
@@ -34,6 +34,6 @@ operations:
   - {arrival: !!python/unicode '12:59', departure: !!python/unicode '13:00', station: !!python/unicode 'Stary
       Borek'}
   - {arrival: !!python/unicode '13:12', station: "Ko\u0142obrzeg"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

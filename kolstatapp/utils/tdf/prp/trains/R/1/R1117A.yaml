@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 1117'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:26', station: "D\u0119blin"}
@@ -35,6 +35,6 @@ operations:
   - {arrival: !!python/unicode '16:35', departure: !!python/unicode '16:36', station: !!python/unicode 'Stasin
       Polny'}
   - {arrival: !!python/unicode '16:43', station: !!python/unicode 'Lublin'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 34231'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:28', station: "Krak\xF3w G\u0142\xF3wny"}
@@ -44,6 +44,6 @@ operations:
   - {arrival: !!python/unicode '16:09', departure: !!python/unicode '16:10', station: !!python/unicode 'Klecza
       Dolna'}
   - {arrival: !!python/unicode '16:14', station: !!python/unicode 'Wadowice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 89420'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:14', station: "Stargard Szczeci\u0144ski"}
@@ -34,6 +34,6 @@ operations:
   - {arrival: !!python/unicode '06:03', departure: !!python/unicode '06:04', station: !!python/unicode 'Silnowo'}
   - {arrival: !!python/unicode '06:12', departure: !!python/unicode '06:13', station: !!python/unicode 'Jelenino'}
   - {arrival: !!python/unicode '06:20', station: !!python/unicode 'Szczecinek'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

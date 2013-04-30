@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 58433'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:03', station: "Bydgoszcz G\u0142\xF3wna"}
@@ -30,6 +30,6 @@ operations:
       \ Kraje\u0144sk."}
   - {arrival: !!python/unicode '21:20', departure: !!python/unicode '21:21', station: !!python/unicode 'Kaczory'}
   - {arrival: !!python/unicode '21:30', station: "Pi\u0142a G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

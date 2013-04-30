@@ -2,7 +2,9 @@ from django import template
 from django.conf import settings
 from kolstatapp.models import Station
 
-register = template.Library()
+from django.core.urlresolvers import reverse
+
+register= template.Library()
 
 @register.simple_tag
 def get_class_if_main(station):
@@ -34,13 +36,18 @@ def gskID(station):
 
 @register.simple_tag
 def get_pretty_name(station):
+	def _get_pretty_name(station):
 	
-	if isinstance(station, Station):
-		return station.get_pretty_name()
+		if isinstance(station, Station):
+			return station
 	
-	try:
-		return Station.objects.get(hafasID = station.externalId).get_pretty_name()
-	except Station.DoesNotExist:
-		return station.name
-	except AttributeError:
-		return ''
+		try:
+			return Station.objects.get(hafasID = station.externalId)
+		except Station.DoesNotExist:
+			return station.name
+		except AttributeError:
+			return None
+	st = _get_pretty_name(station)
+	if st is None:
+		return '###ARG!'
+	return '<span class="station"><a href="{}">{}</a></span>'.format(reverse('kolstat-station-show', args = [st.slug]), st.get_pretty_name())

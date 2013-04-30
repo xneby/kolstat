@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 7020'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:27', station: "Zag\xF3rz"}
@@ -36,6 +36,6 @@ operations:
   - {arrival: !!python/unicode '08:21', departure: !!python/unicode '08:22', station: !!python/unicode 'Tarnowiec'}
   - {arrival: !!python/unicode '08:27', departure: !!python/unicode '08:28', station: !!python/unicode 'Gliniczek'}
   - {arrival: !!python/unicode '08:39', station: "Jas\u0142o"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

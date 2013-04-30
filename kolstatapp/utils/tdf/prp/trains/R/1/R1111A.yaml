@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 1111'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:04', station: "D\u0119blin"}
@@ -69,6 +69,6 @@ operations:
   - {arrival: !!python/unicode '06:56', departure: !!python/unicode '06:56', station: "W\xF3\
       lka Okopska"}
   - {arrival: !!python/unicode '07:01', station: !!python/unicode 'Dorohusk'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 44616'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:31', station: !!python/unicode 'Lubliniec'}
@@ -13,6 +13,6 @@ operations:
   - {arrival: !!python/unicode '07:23', departure: !!python/unicode '07:23', station: "Miasteczko\
       \ \u015Al\u0105skie"}
   - {arrival: !!python/unicode '07:34', station: "Tarnowskie G\xF3ry"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

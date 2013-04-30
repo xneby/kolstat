@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KW 77332'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '19:38', station: "Pozna\u0144 G\u0142\xF3wny"}
@@ -33,6 +33,6 @@ operations:
   - {arrival: !!python/unicode '20:59', departure: !!python/unicode '20:59', station: "T\u0142\
       oki"}
   - {arrival: !!python/unicode '21:07', station: !!python/unicode 'Wolsztyn'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

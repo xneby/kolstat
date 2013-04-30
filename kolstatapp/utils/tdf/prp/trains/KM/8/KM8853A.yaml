@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 8853'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '21:26', station: !!python/unicode 'Siedlce'}
@@ -19,6 +19,6 @@ operations:
   - {arrival: !!python/unicode '21:51', departure: !!python/unicode '21:51', station: "Krynka\
       \ \u0141ukowska"}
   - {arrival: !!python/unicode '21:58', station: "\u0141uk\xF3w"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

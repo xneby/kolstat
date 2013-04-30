@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 90016'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '15:11', station: "Bielsko Bia\u0142a G\u0142\xF3\
@@ -16,6 +16,6 @@ operations:
   - {arrival: !!python/unicode '15:54', departure: !!python/unicode '15:55', station: !!python/unicode 'Katowice
       Piotrowice'}
   - {arrival: !!python/unicode '16:04', station: !!python/unicode 'Katowice'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

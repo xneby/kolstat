@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 9508'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:29', station: !!python/unicode 'Otwock'}
@@ -38,6 +38,6 @@ operations:
   - {arrival: !!python/unicode '10:18', departure: !!python/unicode '10:18', station: !!python/unicode 'Warszawa
       Ochota'}
   - {arrival: !!python/unicode '10:21', station: !!python/unicode 'Warszawa Zachodnia'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

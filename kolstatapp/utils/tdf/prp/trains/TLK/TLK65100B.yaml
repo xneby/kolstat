@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 65100'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '06:56', station: "Wroc\u0142aw G\u0142\xF3wny"}
@@ -29,6 +29,6 @@ operations:
   - {arrival: !!python/unicode '12:55', departure: !!python/unicode '12:56', station: "Szczecin\
       \ D\u0105bie"}
   - {arrival: !!python/unicode '13:11', station: "Szczecin G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: B

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 11011'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:55', station: !!python/unicode 'Warszawa Zachodnia'}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '18:12', departure: !!python/unicode '18:13', station: "Ma\u0142\
       aszewicze"}
   - {arrival: !!python/unicode '18:22', station: !!python/unicode 'Terespol'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

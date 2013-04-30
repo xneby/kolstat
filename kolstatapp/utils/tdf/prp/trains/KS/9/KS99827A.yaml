@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 99827'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:55', station: "\u017Bywiec"}
@@ -20,6 +20,6 @@ operations:
   - {arrival: !!python/unicode '06:02', departure: !!python/unicode '06:02', station: "S\xF3\
       l"}
   - {arrival: !!python/unicode '06:15', station: "Zwardo\u0144"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

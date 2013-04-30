@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 66531'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:31', station: "Wroc\u0142aw G\u0142\xF3wny"}
@@ -41,6 +41,6 @@ operations:
   - {arrival: !!python/unicode '16:29', departure: !!python/unicode '16:29', station: !!python/unicode 'Zebrzydowa'}
   - {arrival: !!python/unicode '16:35', departure: !!python/unicode '16:35', station: !!python/unicode 'Zagajnik'}
   - {arrival: !!python/unicode '16:42', station: "W\u0119gliniec"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

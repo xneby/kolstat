@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 19135'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '09:05', station: !!python/unicode 'Brodnica'}
@@ -18,6 +18,6 @@ operations:
   - {arrival: !!python/unicode '10:09', departure: !!python/unicode '10:09', station: "Nicwa\u0142\
       d"}
   - {arrival: !!python/unicode '10:19', station: "Grudzi\u0105dz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

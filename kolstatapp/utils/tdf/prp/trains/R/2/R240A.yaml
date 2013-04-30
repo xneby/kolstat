@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 240'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:04', station: "Zamo\u015B\u0107"}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '05:06', departure: !!python/unicode '05:06', station: "Zagrody\
       \ Ko\u015Bci\xF3\u0142"}
   - {arrival: !!python/unicode '05:12', station: !!python/unicode 'Rejowiec'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

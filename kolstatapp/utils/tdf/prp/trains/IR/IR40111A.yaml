@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'IR 40111'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:11', station: "Toru\u0144 G\u0142\xF3wny"}
@@ -48,6 +48,6 @@ operations:
   - {arrival: !!python/unicode '09:24', departure: !!python/unicode '09:24', station: "Gdynia\
       \ Or\u0142owo"}
   - {arrival: !!python/unicode '09:33', station: "Gdynia G\u0142\xF3wna"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

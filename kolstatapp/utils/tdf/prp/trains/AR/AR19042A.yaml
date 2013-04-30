@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'AR 19042'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '18:21', station: !!python/unicode 'Chojnice'}
@@ -17,6 +17,6 @@ operations:
   - {arrival: !!python/unicode '19:03', departure: !!python/unicode '19:04', station: !!python/unicode 'Wierzchucin
       Stary'}
   - {arrival: !!python/unicode '19:08', station: !!python/unicode 'Wierzchucin'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

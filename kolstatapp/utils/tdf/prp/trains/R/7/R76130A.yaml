@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 76130'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:30', station: "\u017Bary"}
@@ -23,6 +23,6 @@ operations:
       kowice"}
   - {arrival: !!python/unicode '07:05', departure: !!python/unicode '07:05', station: !!python/unicode 'Jezierzany'}
   - {arrival: !!python/unicode '07:10', station: !!python/unicode 'Legnica'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

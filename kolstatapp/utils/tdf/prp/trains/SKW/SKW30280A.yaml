@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'SKW 30280'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '20:09', station: "Pruszk\xF3w"}
@@ -46,6 +46,6 @@ operations:
   - {arrival: !!python/unicode '21:10', departure: !!python/unicode '21:11', station: "\u015A\
       wider"}
   - {arrival: !!python/unicode '21:14', station: !!python/unicode 'Otwock'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

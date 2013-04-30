@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KW 77425'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '13:30', station: !!python/unicode 'Leszno'}
@@ -33,6 +33,6 @@ operations:
   - {arrival: !!python/unicode '14:57', departure: !!python/unicode '14:58', station: "Zb\u0105\
       szy\u0144"}
   - {arrival: !!python/unicode '15:05', station: "Zb\u0105szynek"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

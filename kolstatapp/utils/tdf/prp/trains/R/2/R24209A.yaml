@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 24209'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '14:15', station: "\u017Belis\u0142awice"}
@@ -22,6 +22,6 @@ operations:
   - {arrival: !!python/unicode '15:25', departure: !!python/unicode '15:26', station: "Cz\u0119\
       stochowa Rak\xF3w"}
   - {arrival: !!python/unicode '15:33', station: "Cz\u0119stochowa Osobowa"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

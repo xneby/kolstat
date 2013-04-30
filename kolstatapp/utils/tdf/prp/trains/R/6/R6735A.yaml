@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 6735'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:20', station: "Wroc\u0142aw G\u0142\xF3wny"}
@@ -59,6 +59,6 @@ operations:
   - {arrival: !!python/unicode '08:46', departure: !!python/unicode '08:47', station: !!python/unicode 'Stary
       Kisielin'}
   - {arrival: !!python/unicode '08:58', station: "Zielona G\xF3ra"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

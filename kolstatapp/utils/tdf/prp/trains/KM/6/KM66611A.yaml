@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 66611'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '05:37', station: !!python/unicode 'Nasielsk'}
@@ -23,6 +23,6 @@ operations:
   - {arrival: !!python/unicode '07:13', departure: !!python/unicode '07:13', station: !!python/unicode 'Zawidz'}
   - {arrival: !!python/unicode '07:21', departure: !!python/unicode '07:21', station: !!python/unicode 'Mieszaki'}
   - {arrival: !!python/unicode '07:31', station: !!python/unicode 'Sierpc'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'TLK 13203'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '01:38', station: !!python/unicode 'Warszawa Wschodnia'}
@@ -33,6 +33,6 @@ operations:
   - {arrival: !!python/unicode '09:42', departure: !!python/unicode '09:43', station: "Przemy\u015B\
       l Zasanie"}
   - {arrival: !!python/unicode '09:47', station: "Przemy\u015Bl G\u0142\xF3wny"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

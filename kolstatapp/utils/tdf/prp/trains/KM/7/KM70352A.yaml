@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KM 70352'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:43', station: "Wyszk\xF3w"}
@@ -15,6 +15,6 @@ operations:
   - {arrival: !!python/unicode '12:07', departure: !!python/unicode '12:07', station: "Jarz\u0119\
       bia \u0141\u0105ka"}
   - {arrival: !!python/unicode '12:11', station: "T\u0142uszcz"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

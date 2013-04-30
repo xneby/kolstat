@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 22011'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '04:51', station: !!python/unicode 'Koluszki'}
@@ -17,6 +17,6 @@ operations:
   - {arrival: !!python/unicode '05:20', departure: !!python/unicode '05:21', station: !!python/unicode 'Moszczenica'}
   - {arrival: !!python/unicode '05:25', departure: !!python/unicode '05:26', station: !!python/unicode 'Jarosty'}
   - {arrival: !!python/unicode '05:31', station: "Piotrk\xF3w Tryb."}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

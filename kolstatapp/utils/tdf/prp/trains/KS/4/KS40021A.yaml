@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'KS 40021'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '10:11', station: "Cz\u0119stochowa Osobowa"}
@@ -77,6 +77,6 @@ operations:
       l Kiczora"}
   - {arrival: !!python/unicode '14:12', departure: !!python/unicode '14:12', station: !!python/unicode 'Laliki'}
   - {arrival: !!python/unicode '14:18', station: "Zwardo\u0144"}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

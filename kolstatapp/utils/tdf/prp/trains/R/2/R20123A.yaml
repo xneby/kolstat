@@ -2,7 +2,7 @@ mode: normal
 name: !!python/unicode 'R 20123'
 operations:
 - date: 2013-02-05
-  from: 2013-02-06
+  from: 2013-04-26
   mode: interval
   timetable:
   - {departure: !!python/unicode '11:54', station: "Rzesz\xF3w G\u0142\xF3wny"}
@@ -21,6 +21,6 @@ operations:
   - {arrival: !!python/unicode '12:28', departure: !!python/unicode '12:29', station: "Grz\u0119\
       ska"}
   - {arrival: !!python/unicode '12:33', station: !!python/unicode 'Przeworsk'}
-  to: 2013-02-06
+  to: 2013-06-06
 type: train
 variant: A

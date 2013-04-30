@@ -2,6 +2,7 @@
 
 {% load utils %}
 {% load plan_extras %}
+{% load station_extras %}
 
 {% block title %}- wyniki zapytania{% endblock %}
 
@@ -30,7 +31,7 @@
 
 <div class="query">
 <p><b>Szczegóły zapytania</b></p>
-<p>Trasa: {{ source.get_pretty_name }} -- {{ destination.get_pretty_name }}</p>
+<p>Trasa: {% get_pretty_name source %} -- {% get_pretty_name destination %}</p>
 <p>Kiedy: {{ when }}</p>
 
 
@@ -42,14 +43,14 @@
 <div class="query_result">
 	<table class="overview">
 		<tr>
-			<td class="departure">{{ x.source.get_pretty_name }} <span class="time">{{ x.departure }}</span></td>
-			<td class="arrival">{{ x.destination.get_pretty_name }} <span class="time">{{ x.arrival }}</span></td>
+			<td class="departure">{% get_pretty_name x.source %} <span class="time">{{ x.departure }}</span></td>
+			<td class="arrival">{% get_pretty_name x.destination %} <span class="time">{{ x.arrival }}</span></td>
 		</tr>
 		<tr>
 			<td class="departure"><span class="vmiddle">Środki lokomocji:</span> {% for s in x.sections %}<a href="#"><img class="category" src="{{ s.train.category.url }}" alt="{{ s.train.category }} {{ s.train.number }}"/></a>{% endfor %}</td>
 	{% if x.transfers %}
 		<td class="departure">Przesiadki: {% if x.transfers|length > 1 %}<br />{% endif %}
-		{% for s in x.transfers %} {{ s.station.get_pretty_name }} ({{ s.time|timedelta }})
+		{% for s in x.transfers %} {% get_pretty_name s.station %} ({{ s.time|timedelta }})
 		{% if x.transfers > 1 and not forloop.last %}<br /> {% endif %}{% endfor %}</td>
 	{% else %}
 		<td />
@@ -62,7 +63,7 @@
 			{% for s in x.sections %}
 				<tr>
 					<td class="train">{{ s.train.category}} {{s.train.number}}</td>
-					<td class="station">{{ s.source.get_pretty_name}}</td>
+					<td class="station">{% get_pretty_name s.source %}</td>
 					<td class="time">{{ s.departure }}</td>
 					<td />
 					<td class="tivia"> S = {{ s.distance|floatformat:"0" }} km </td>
@@ -70,7 +71,7 @@
 				<tr>
 					<td colspan="2" />
 					<td class="time">{{ s.arrival }}</td>
-					<td class="station"> {{ s.destination.get_pretty_name }}</td>
+					<td class="station"> {% get_pretty_name s.destination %}</td>
 					<td class="trivia"> V<sub>śr</sub> = {{ s.average_velocity|floatformat:"0" }} km/h </td>
 				</tr>
 				<tr class="seperator"><td colspan="5">&nbsp;</td></tr>
@@ -82,7 +83,8 @@
 				<td colspan="5">V<sub>śr</sub> = {{ x.average_velocity|floatformat:"3" }} km/h </td>
 			</tr>
 			<tr class="info">
-				<td colspan="5">Cena biletu: {% get_price x user.get_profile.discounts.all %} zł (<a href="#">szczegóły</a>)</td>
+				<td colspan="4">Cena biletu: {% get_price x user.get_profile.discounts.all %} zł (<a href="{% url 'kolstat-prices-show' x.cid %}">szczegóły</a>)</td>
+				<td><a href="{% url 'kolstat-reiseplan' x.cid %}">Reiseplan</a></td>
 			</tr>
 		</table>
 	</div>

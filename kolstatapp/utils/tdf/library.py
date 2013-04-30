@@ -10,8 +10,6 @@ import threading
 
 from django.db import connection, transaction
 
-dijkstra_lock = threading.Lock()
-mysql_lock = threading.Lock()
 DZIEN = timedelta(days = 1)
 
 def time_from_yaml(t):
@@ -24,16 +22,15 @@ def time_from_yaml(t):
 		
 	return time(minute = t % 60, hour = t // 60)
 
-def import_train(yaml, mode):
-	global dijkstra_lock
-
+def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 	train = Train()
 
 	name = yaml['name']
 	category, number = name.split(' ')
 
 	try:
-		t, = train.search(name, variant = yaml['variant'])
+		with mysql_lock:
+			t, = train.search(name, variant = yaml['variant'])
 	except ValueError:
 		pass
 	else:
@@ -43,11 +40,14 @@ def import_train(yaml, mode):
 			return
 
 
-	train.category = TrainCategory.objects.get(name = category)
+	with mysql_lock:
+		train.category = TrainCategory.objects.get(name = category)
+	
 	train.number = number
 	train.variant = yaml['variant']
 
-	train.save()
+	with mysql_lock:
+		train.save()
 
 	operations = yaml['operations']
 
@@ -70,7 +70,8 @@ def import_train(yaml, mode):
 			tts.append(TrainTimetable(train = train, date = nstart))
 			nstart += DZIEN
 
-		TrainTimetable.objects.bulk_create(tts)
+		with mysql_lock:
+			TrainTimetable.objects.bulk_create(tts)
 
 		tts = train.traintimetable_set.all()
 		ttbd = {}
@@ -119,7 +120,8 @@ def import_train(yaml, mode):
 
 			i += 1
 
-		TrainStop.objects.bulk_create(stops)
+		with mysql_lock:
+			TrainStop.objects.bulk_create(stops)
 
 		cursor = connection.cursor()
 
@@ -128,10 +130,11 @@ def import_train(yaml, mode):
 			ttn = ttbd[end]
 
 			with mysql_lock:
-				cursor.execute(''' INSERT INTO kolstatapp_trainstop SELECT NULL, {}, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, `order` FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
+				cursor.execute(''' INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, "order") SELECT {}, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, "order" FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
 
 			end -= DZIEN
-		transaction.commit_unless_managed()
+		with mysql_lock:
+			transaction.commit_unless_managed()
 
 
 def import_couple(yaml, mode):
@@ -172,7 +175,7 @@ importers = {
 	'couple': import_couple,
 }
 
-def import_from_file(s):
+def import_from_file(s, dijkstra_lock, mysql_lock):
 	doc = yaml.load(s)
 
 	if doc['type'] not in importers:
@@ -182,5 +185,5 @@ def import_from_file(s):
 	else:
 		mode = 'normal'
 		
-	importers[doc['type']](doc, mode)
+	importers[doc['type']](doc, mode, dijkstra_lock, mysql_lock)
 	
