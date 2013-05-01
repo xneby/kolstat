@@ -30,6 +30,7 @@ urlpatterns = patterns('kolstatapp.views',
 	url(r'^plans/new/$', 'plans_new', name = 'kolstat-plans-new'),
 	url(r'^plans/query/from=(?P<st_start>[-a-z]+)/to=(?P<st_end>[-a-z]+)/when=(?P<when>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/$', 'plans_query', name = 'kolstat-plans-query'),
 	url(r'^plans/(?P<connection_id>[0-9a-f]{22})/reiseplan/$', 'reiseplan', name = 'kolstat-reiseplan'),
+	url(r'^plans/(?P<connection_id>[0-9a-f]{22})/json/$', 'get_plan_json', name = 'kolstat-plan-json'),
 
 	url(r'^prices/(?P<connection_id>[0-9a-f]{22})/$', 'prices_show', name = 'kolstat-prices-show'),
 

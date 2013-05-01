@@ -61,3 +61,6 @@ class Station(models.Model):
 
 	def __str__(self):
 		return "{self.name} ({self.hafasID}, {self.kurs90ID})".format(self = self)
+
+	def to_json(self):
+		return dict(id = self.id, name = self.get_pretty_name(), slug = self.slug)

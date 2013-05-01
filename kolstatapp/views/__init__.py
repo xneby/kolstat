@@ -1,4 +1,4 @@
-from .plans import plans_list, plans_new, plans_query, reiseplan
+from .plans import plans_list, plans_new, plans_query, reiseplan, get_plan_json
 from .home import home
 from .test import test
 from .trainsearch import trainsearch

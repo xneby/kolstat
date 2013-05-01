@@ -15,6 +15,7 @@ import shlex
 import qrcode
 import base64
 import io
+import json
 
 @login_required
 @expose('plans/list.html')
@@ -53,6 +54,33 @@ def plans_query(request, st_start, st_end, when):
 	connections = wrapper.make_query(st_start, st_end, when)
 
 	return dict(conn = connections, source = st_start, destination = st_end, when = when)
+
+def get_plan_json(request, connection_id):
+
+	conn = wrapper.Connection.load(connection_id)
+	print(conn)
+
+	answer = dict()
+	answer['cid'] = connection_id
+	answer['source'] = conn.source.to_json()
+	answer['destination'] = conn.destination.to_json()
+	answer['arrival'] = conn.arrival
+	answer['departure'] = conn.departure
+
+	sections = []
+	for s in conn.sections:
+		sec = dict()
+		sec['source'] = s.source.to_json()
+		sec['destination'] = s.destination.to_json()
+		sec['arrival'] = s.arrival
+		sec['departure'] = s.departure
+		sec['train'] = s.train.to_json()
+		sec['stops'] = list(x.to_json() for x in s.stops)
+		sections.append(sec)
+	answer['sections'] = sections
+
+	dthandler = lambda obj: obj.isoformat() if isinstance(obj, datetime) else None
+	return HttpResponse(json.dumps(answer, default = dthandler), mimetype='application/json')
 
 #@expose('plans/reiseplan.html')
 def reiseplan(request, connection_id):

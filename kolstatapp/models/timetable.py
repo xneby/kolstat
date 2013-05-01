@@ -39,6 +39,7 @@ class TrainTimetable(models.Model):
 	def interval(self, s1, s2):
 		o1 = self.trainstop_set.get(station = s1).order
 		o2 = self.trainstop_set.get(station = s2).order
+		print(s1,s2,o1,o2)
 
 		return self.trainstop_set.filter(order__gte = o1).filter(order__lte = o2).order_by('order')
 
@@ -80,11 +81,15 @@ class TrainStop(models.Model):
 			return None
 
 	def departure_datetime(self):
+		if self.departure is None: return None
 		return datetime.combine(self.timetable.date, self.departure) + timedelta(days = self.departure_overnight or 0)
 
 	def arrival_datetime(self):
+		if self.arrival is None: return None
 		return datetime.combine(self.timetable.date, self.arrival) + timedelta(days = self.arrival_overnight or 0)
 
+	def to_json(self):
+		return dict(station = self.station.to_json(), arrival = self.arrival_datetime(), departure = self.departure_datetime(), distance = self.distance)
 
 	class Meta:
 		app_label = 'kolstatapp'

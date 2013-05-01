@@ -17,6 +17,9 @@ class Train(models.Model):
 	source = models.ManyToManyField(Station, related_name = 'train_source')
 	destination = models.ManyToManyField(Station, related_name = 'train_destination')
 	
+	def to_json(self):
+		return dict(id = self.id, operator = self.category.operator.name, category = self.category.name, number = self.number)
+
 	@models.permalink
 	def get_absolute_url(self):
 		if self.has_variants():
