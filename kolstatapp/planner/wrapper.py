@@ -104,7 +104,7 @@ def subsets(iterable):
 	return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
 
 def make_connection(x):
-#	return Connection(x)
+	return Connection(x)
 	def print_tt(s):
 		print(s.train.category.name, s.train.number, s.first_stop().station.get_pretty_name(), s.last_stop().station.get_pretty_name())
 

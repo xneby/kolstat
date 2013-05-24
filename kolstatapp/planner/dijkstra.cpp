@@ -47,8 +47,10 @@ bool load_graph(){
 	graph.resize(num_vertices);
 
 	for(int i=0; i<num_vertices; i++){
-		printf("\rReading vertices... %4d/%4d (%6.2lf%%) ", i, num_vertices, 100.0 * i / num_vertices);
-		fflush(stdout);
+		if(i % 107 == 0){
+			printf("\rReading vertices... %4d/%4d (%6.2lf%%) ", i, num_vertices, 100.0 * i / num_vertices);
+			fflush(stdout);
+		}
 		int degree = read_int(file);
 		for(int j=1; j<=degree; j++){
 			int where = read_int(file);
@@ -62,8 +64,10 @@ bool load_graph(){
 	edges.resize(num_edges + 1);
 
 	for(int i=1; i <= num_edges; i++){
-		printf("\rReading connections... %4d/%4d (%6.2lf%%) ", i, num_edges, 100.0 * i / num_edges);
-		fflush(stdout);
+		if(i % 107 == 0){
+			printf("\rReading connections... %4d/%4d (%6.2lf%%) ", i, num_edges, 100.0 * i / num_edges);
+			fflush(stdout);
+		}
 		int num = read_int(file);
 		for(int j=1; j<=num; j++){
 			int t[6];

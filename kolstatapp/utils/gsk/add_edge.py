@@ -20,5 +20,5 @@ def add_edge(v1, v2, c):
 if __name__ == '__main__':
 	v1 = int(input('v1 '))
 	v2 = int(input('v2 '))
-	c = abs(float(input('c1 '))-float(input('c2 ')))/1000.0
+	c = abs(float(input('c ')))/1000.0
 	add_edge(v1, v2, c)

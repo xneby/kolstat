@@ -1,7 +1,7 @@
 # coding: utf-8
 import yaml
 
-from datetime import timedelta, time
+from datetime import timedelta, time, datetime
 
 from kolstatapp.models import Train, TrainCategory, TrainTimetable, Station, TrainStop, TrainCouple
 from kolstatapp.utils.gsk.dijkstra import Dijkstra
@@ -55,21 +55,21 @@ def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 		if oper['mode'] == 'interval':
 			start = oper['from']
 			end = oper['to']
-
+			dates = [ end ]
+			while start != end:
+				dates.append(start)
+				start += DZIEN
 		elif oper['mode'] == 'single':
-			start = oper['date']
-			end = oper['date']
-			service[date] = oper['timetable']
+			dates = [ oper['date'] ]
+		elif oper['mode'] == 'multi':
+			dates = oper['dates']
 
 		timetable = oper['timetable']
 		
 		tts = []
-		tts.append(TrainTimetable(train = train, date = end))
-		nstart = start
-		while nstart != end:
-			tts.append(TrainTimetable(train = train, date = nstart))
-			nstart += DZIEN
-
+		for i in dates:
+			tts.append(TrainTimetable(train = train, date =i))
+		
 		with mysql_lock:
 			TrainTimetable.objects.bulk_create(tts)
 
@@ -81,7 +81,7 @@ def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 
 		stops = []
 
-		tt = ttbd[start]
+		tt = ttbd[dates[0]]
 
 		i = 1
 		prev = None
@@ -94,17 +94,21 @@ def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 			except IndexError:
 				print(description)
 				raise
-			stop.departure = time_from_yaml(description.get('departure', None))
-			stop.arrival = time_from_yaml(description.get('arrival', None))
+			if 'departure' in description:
+				stop.departure = datetime.combine(tt.date, time_from_yaml(description.get('departure', None)))
+			if 'arrival' in description:
+				stop.arrival = datetime.combine(tt.date, time_from_yaml(description.get('arrival', None)))
+			stop.track = description.get('track', None)
+			stop.platform = description.get('platform', None)
 			stop.order = i
 
 			if prev is not None:
 				if arr_over or stop.arrival < prev.departure:
-					stop.arrival_overnight = 1
+#					stop.arrival_overnight = 1
 					arr_over = True
 			
 			if arr_over or (stop.arrival is not None and stop.departure is not None and stop.arrival > stop.departure):
-				stop.departure_overnight = 1
+#				stop.departure_overnight = 1
 				arr_over = True
 
 			if prev is None:
@@ -125,12 +129,13 @@ def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 
 		cursor = connection.cursor()
 
-		while start != end:
+		for d, tt in ttbd.items():
+			if d == dates[0]: continue
 			tto = ttbd[start]
 			ttn = ttbd[end]
 
 			with mysql_lock:
-				cursor.execute(''' INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, "order") SELECT {}, station_id, arrival, departure, arrival_overnight, departure_overnight, distance, "order" FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
+				cursor.execute(''' INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, track, platform, distance, "order") SELECT {}, station_id, arrival, departure, track, platform, distance, "order" FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
 
 			end -= DZIEN
 		with mysql_lock:

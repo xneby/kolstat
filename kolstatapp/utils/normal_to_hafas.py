@@ -7,7 +7,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'kolstat.settings'
 sys.path.extend(('../..', '../../..'))
 
 #from kolstatapp.models import Station
-from .hafas import Hafas, HafasTrain
+from hafas import Hafas, HafasTrain
 from datetime import date, timedelta
 from kolstatapp.models import Station
 from kolstatapp.exceptions import DeprecationError
@@ -19,7 +19,7 @@ import operator
 from xml.dom import minidom
 
 from django.conf import settings
-from . import cache
+import cache
 
 SERVER = 'rozklad-pkp.pl'
 

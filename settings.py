@@ -21,7 +21,7 @@ DEPLOY = not DEBUG
 
 MANAGERS = ADMINS
 
-if DEPLOY:
+if DEPLOY or True:
 	DATABASES = {
    	 'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -29,7 +29,7 @@ if DEPLOY:
         'USER': 'kolstat',
  	   }
 	}
-	DEBUG = False
+	DEBUG = not DEPLOY
 else:
 	DATABASES = {
 		'default': {

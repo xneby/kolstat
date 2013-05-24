@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import http.client, urllib.request, urllib.parse, urllib.error
@@ -6,7 +6,7 @@ from xml.dom.minidom import parseString
 from datetime import timedelta, time, datetime, date
 #from gsk.dijkstra import Dijkstra
 
-from . import cache
+import cache
 
 Station = None
 
@@ -521,7 +521,7 @@ class HafasObject(object):
 		"""dzieli stations na paczki po N"""
 		N = 10
 		result = []
-		for i in range(len(stations)/N+1):
+		for i in range(len(stations)//N+1):
 			result.extend(cls._searchStations(stations[i*N:(i+1)*N]))
 
 		return result
@@ -541,7 +541,7 @@ class HafasObject(object):
 		id = 1
 
 		for station in stations:
-			request += '<LocValReq id="{id:0>3}"><ReqLoc type="ST" match="{station}" /></LocValReq>'.format(id = id, station = station.decode('utf-8'))
+			request += '<LocValReq id="{id:0>3}"><ReqLoc type="ST" match="{station}" /></LocValReq>'.format(id = id, station = station)
 			id += 1
 
 		data = cls._performRequest(request)
@@ -587,12 +587,13 @@ class HafasObject(object):
 		data = response.read()
 
 		if not xml:
-			data = '<Response>{data}</Response>'.format(data=data)
+			data = '<Response>{data}</Response>'.format(data=data.decode('utf-8'))
 
 		try:
 			dom = parseString(data)
 		except:
 			raise
+
 
 		errs = dom.getElementsByTagName('Err')
 		for err in errs:
@@ -629,12 +630,13 @@ class HafasObject(object):
 		request += destination.toHafasString()
 		request += '</Dest>'
 		request += '<ReqT a="{departure}" date="{date}" time="{time}" />'.format(departure = 0 if departure else 1, date = datetime.strftime("%Y.%m.%d"), time = datetime.strftime("%H:%M"))
-		request += '<RFlags b="0" chExtension="0" f="{number}" />'.format(number = number)
+		request += '<RFlags getPrice="1" b="0" chExtension="0" f="{number}" />'.format(number = number)
 		request += '</ConReq>'
 
 		data = cls._performRequest(request)
 
 		dom = parseString(data)
+		print(dom.toprettyxml())
 
 		return HafasConnectionList.fromDOMElement(dom)
 
@@ -713,9 +715,9 @@ Hafas = HafasObject()
 
 if __name__ == '__main__':
 	from datetime import datetime, timedelta
-	START = "Augustów"
+	START = "Kraków"
 	END = "Warszawa Centralna"
-	dzien = datetime(2013,1,25,15,30)
+	dzien = datetime(2013,5,6,7,30)
 
 	def get_station(name):
 		stations = Hafas.searchStation(name)
@@ -733,7 +735,7 @@ if __name__ == '__main__':
 	start = get_station(START)
 	end = get_station(END)
 
-	cl = Hafas.searchConnections(start, end, dzien, only_direct = True, number=1)
+	cl = Hafas.searchConnections(start, end, dzien, only_direct = False, number=1)
 
 	for c in cl:
 		c.queryRelation()

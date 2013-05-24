@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import patterns, include, url
+from django.conf.urls import patterns, include, url
 from django.views.generic.base import RedirectView
 from django.conf import settings
 #from utils import lazy_reverse

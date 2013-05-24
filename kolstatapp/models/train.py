@@ -5,7 +5,7 @@ from datetime import datetime
 from kolstatapp.models import Composition, Station, TrainTimetable, TrainCategory, TrainStop
 from django.db.models.aggregates import Avg, Count
 
-from kolstatapp.utils.normal_to_hafas import get_relation, getId, acquire, save_cache
+#from kolstatapp.utils.normal_to_hafas import get_relation, getId, acquire, save_cache
 from kolstatapp.utils import cache
 from kolstatapp.exceptions import KolstatError
 
@@ -72,7 +72,6 @@ class Train(models.Model):
 		if len(tt) > 0:
 			raise KolstatError('Pociąg istnieje w bazie')
 		else:
-			xx = acquire(name, connection)
 			
 			if len(list(xx.keys())) == 0:
 				raise KolstatError('Brak pociągu w Hafasie')
@@ -91,13 +90,10 @@ class Train(models.Model):
 				t.update_relation(v['source'], v['destination'])
 				t.get_timetable(v['ids'])
 				t.save()
-				save_cache(name, k, v, hafas)
 
 			return t
 
 	def get_timetable(self, ids = None):
-		if ids is None:
-			ids = getId(self.category.name + ' ' + str(self.number))
 		to_add = []
 		for k,v in list(ids.items()):
 			tt = TrainTimetable(train = self, date = k, timetable = v)
@@ -109,8 +105,6 @@ class Train(models.Model):
 		TrainTimetable.objects.bulk_create(to_add)
 
 	def update_relation(self, s = None, d = None):
-		if s is None:
-			s, d = get_relation(self.category.name + ' ' + str(self.number))
 		
 		self.source = [ Station.objects.get(hafasID = x) for x in s]
 		self.destination = [ Station.objects.get(hafasID = x) for x in d]

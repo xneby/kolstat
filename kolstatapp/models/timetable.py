@@ -49,11 +49,14 @@ class TrainTimetable(models.Model):
 class TrainStop(models.Model):
 	timetable = models.ForeignKey(TrainTimetable)
 	station = models.ForeignKey('kolstatapp.Station')
-	arrival = models.TimeField(null = True)
-	departure = models.TimeField(null = True)
+	arrival = models.DateTimeField(null = True)
+	departure = models.DateTimeField(null = True)
+
+	track = models.CharField(max_length = 10, null = True)
+	platform = models.CharField(max_length = 10, null = True)
 	
-	arrival_overnight = models.IntegerField(null = True)
-	departure_overnight = models.IntegerField(null = True)
+#	arrival_overnight = models.IntegerField(null = True)
+#	departure_overnight = models.IntegerField(null = True)
 
 	distance = models.FloatField()
 
@@ -81,12 +84,14 @@ class TrainStop(models.Model):
 			return None
 
 	def departure_datetime(self):
-		if self.departure is None: return None
-		return datetime.combine(self.timetable.date, self.departure) + timedelta(days = self.departure_overnight or 0)
+#		if self.departure is None: return None
+#		return datetime.combine(self.timetable.date, self.departure) + timedelta(days = self.departure_overnight or 0)
+		return self.departure
 
 	def arrival_datetime(self):
-		if self.arrival is None: return None
-		return datetime.combine(self.timetable.date, self.arrival) + timedelta(days = self.arrival_overnight or 0)
+#		if self.arrival is None: return None
+#		return datetime.combine(self.timetable.date, self.arrival) + timedelta(days = self.arrival_overnight or 0)
+		return self.arrival
 
 	def to_json(self):
 		return dict(station = self.station.to_json(), arrival = self.arrival_datetime(), departure = self.departure_datetime(), distance = self.distance)

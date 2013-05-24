@@ -31,7 +31,7 @@ class Graph(object):
 		from django.db import connection
 		cursor = connection.cursor()
 
-		cursor.execute("""SELECT t1.station_id, t1.departure, t1.departure_overnight, t2.arrival, t2.arrival_overnight, t2.station_id, t1.id, t2.id, tt.date
+		cursor.execute("""SELECT t1.station_id, t1.departure, t2.arrival, t2.station_id, t1.id, t2.id, tt.date
 		                  FROM kolstatapp_trainstop AS t1
 		                  JOIN kolstatapp_trainstop AS t2 ON t1."order" + 1 = t2."order"
 		                  JOIN kolstatapp_traintimetable AS tt ON t1.timetable_id = tt.id
@@ -48,12 +48,6 @@ class Graph(object):
 
 		return result
 	
-	def make_datetime(self, date, time, overnight):
-		res = datetime.datetime.combine(date, time)
-		if overnight:
-			res += DZIEN
-		return res
-
 #	def make_connection(self, stop1, stop2):
 	def make_connection(self, st1, dep, ts1, st2, arr, ts2):
 		source = st1
@@ -89,11 +83,11 @@ class Graph(object):
 		l = len(query_result)
 
 		start_time = time.time()
-		for i, (st1, dep, depon, arr, arron, st2, ts1, ts2, date) in enumerate(query_result):
+		for i, (st1, dep, arr, st2, ts1, ts2, date) in enumerate(query_result):
 			if i % 128 == 0:
 				info('Generating graph... {:4}/{} ({:6.2f}%)'.format(i, l, 100.0*i/l))
 			
-			nr = self.make_connection(st1, self.make_datetime(date, dep, depon), ts1, st2, self.make_datetime(date, arr, arron), ts2)
+			nr = self.make_connection(st1, dep, ts1, st2, arr, ts2)
 			if nr is not None:
 				self.edges[st1].append((st2, nr))
 
