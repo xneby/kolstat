@@ -58,7 +58,6 @@ def plans_query(request, st_start, st_end, when):
 def get_plan_json(request, connection_id):
 
 	conn = wrapper.Connection.load(connection_id)
-	print(conn)
 
 	answer = dict()
 	answer['cid'] = connection_id

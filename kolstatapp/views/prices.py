@@ -34,6 +34,5 @@ def prices_show(request, connection_id):
 		razem += cena
 		odl += km
 
-	print(stats, operators)
 
 	return dict(out = outcome, stats = stats, razem = razem, plan = plan, date = None, operators = operators, odl = odl)
