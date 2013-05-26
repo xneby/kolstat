@@ -17,7 +17,7 @@ def get_operator(train):
 	return train.category.operator.name
 
 def get_category_class(train):
-	return train.category.get_type_display()
+	return train.category.get_type_class()
 
 def get_category(train):
 	return train.category.name

@@ -131,13 +131,12 @@ def import_train(yaml, mode, dijkstra_lock, mysql_lock):
 
 		for d, tt in ttbd.items():
 			if d == dates[0]: continue
-			tto = ttbd[start]
-			ttn = ttbd[end]
+			tto = ttbd[dates[0]]
+			ttn = ttbd[d]
 
 			with mysql_lock:
-				cursor.execute(''' INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, track, platform, distance, "order") SELECT {}, station_id, arrival, departure, track, platform, distance, "order" FROM kolstatapp_trainstop WHERE timetable_id = {}'''.format(ttn.pk, tto.pk))
+				cursor.execute(''' INSERT INTO kolstatapp_trainstop (timetable_id, station_id, arrival, departure, track, platform, distance, "order") SELECT {0}, station_id, arrival + '{2} days', departure + '{2} days', track, platform, distance, "order" FROM kolstatapp_trainstop WHERE timetable_id = {1}'''.format(ttn.pk, tto.pk, (d - dates[0]).days))
 
-			end -= DZIEN
 		with mysql_lock:
 			transaction.commit_unless_managed()
 

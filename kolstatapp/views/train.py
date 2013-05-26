@@ -19,6 +19,7 @@ def train(request, operator, number, variant = None):
 @expose('train-date.html')
 def train_date(request, operator, number, variant = None, date = None):
 	res = Train.search(operator + ' ' + number, variant)
+	print(res)
 	if len(res) != 1:
 		raise Redirect(reverse('kolstat-trains-search'))
 
@@ -31,25 +32,32 @@ def train_date(request, operator, number, variant = None, date = None):
 	except ValueError:
 		raise KolstatError('Pociąg nie kursuje w tym dniu')
 
+	print(tt)
+
 	table = {}
 	stations = []
 
 	trains = [tt] + tt.get_coupled()
+	print(trains)
 
 	juz = 0
 
 	for t in trains:
+		print(t)
 		ans = []
 		for s in t.stops():
 			ans.append((s.station, s))
+		print(ans)
 
 		not_added=[]
 
 		last = -1
 
 		for st, s in ans:
+			print(st, list(table.keys()))
 			if st in list(table.keys()):
-				while len(table[st]) != juz:
+				print(juz)
+				while len(table[st]) <= juz:
 					table[st].append("")
 				table[st].append(s)
 				idx = stations.index(st)

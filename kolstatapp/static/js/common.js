@@ -27,3 +27,11 @@ $.ajaxSetup({
 		}
 	}
 });
+
+function ready() {
+	$("a.del").click(function(){
+		return confirm("Jesteś pewien?");
+	});
+}
+
+$(document).ready(ready);

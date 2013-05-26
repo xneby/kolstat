@@ -8,6 +8,13 @@ class TrainType:
 	EXPRESS = 3
 	SUBURBAN = 4
 
+	DICT = {
+		LOCAL: "os",
+		FAST: "posp",
+		EXPRESS: "ex",
+		SUBURBAN: "skm",
+			}
+
 	@classmethod
 	def get_choices(cls):
 		return (
@@ -17,12 +24,16 @@ class TrainType:
 			(cls.EXPRESS, "Ekspres"),
 				)
 
+	@classmethod
+	def get_class(cls, num):
+		return cls.DICT[num]
+
 class Operator(models.Model):
 	name = models.CharField(max_length = 100)
 	website = models.URLField(null = True)
 	has_description = models.BooleanField()
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.name
 
 	class Meta:
@@ -37,10 +48,13 @@ class TrainCategory(models.Model):
 	type = models.IntegerField(choices = TrainType.get_choices())
 	operator = models.ForeignKey(Operator)
 
+	def get_type_class(self):
+		return TrainType.get_class(self.type)
+
 	def url(self):
 		return '{}img/traincat/{}.svg'.format(settings.STATIC_URL, self.pic_name)
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.name
 
 	class Meta:

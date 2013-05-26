@@ -49,10 +49,9 @@ class Station(models.Model):
 #		return HafasStation(self.name, self.hafasID, (self.xCoord, self.yCoord))
 
 	def next_departures(self, number):
-		tomorrow = datetime.date.today() + datetime.timedelta(days = 1)
-		all_stops = self.trainstop_set.filter(timetable__date__lte = tomorrow).filter(timetable__date__gte = datetime.date.today()).exclude(departure = None)
+		all_stops = self.trainstop_set.filter(departure__gte = datetime.datetime.now()).exclude(departure = None)
 
-		return list(x for x in sorted(all_stops, key = lambda x : x.departure_datetime()) if x.departure_datetime() > datetime.datetime.now() )[:5]
+		return sorted(all_stops, key = lambda x : x.departure_datetime())[:5]
 
 	class Meta:
 		app_label = 'kolstatapp'

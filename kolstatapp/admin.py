@@ -21,7 +21,7 @@ class TrainAdminForm(forms.ModelForm):
 
 class TrainAdmin(admin.ModelAdmin):
 	form = TrainAdminForm
-	list_display = ('__unicode__', 'get_relation_string')
+	list_display = ('__str__', 'get_relation_string')
 	fields = (('category', 'number'),)
 	list_filter = ('category', 'category__type', 'category__operator' )
 
@@ -43,11 +43,11 @@ admin.site.register(models.Station, StationAdmin)
 admin.site.register(models.Journey)
 
 class TrainCategoryAdmin(admin.ModelAdmin):
-	list_display = ('__unicode__', 'type', 'operator', 'full_name')
+	list_display = ('__str__', 'type', 'operator', 'full_name')
 admin.site.register(models.TrainCategory, TrainCategoryAdmin)
 
 class OperatorAdmin(admin.ModelAdmin):
-	list_display = ('__unicode__', 'website', 'has_description')
+	list_display = ('__str__', 'website', 'has_description')
 admin.site.register(models.Operator, OperatorAdmin)
 
 class TrainNameAdmin(admin.ModelAdmin):
