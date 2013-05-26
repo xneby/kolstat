@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-{% load static %}
 {% load utils %}
 {% load account %}
-{% get_static_prefix as STATIC_PREFIX %}
+{% load helpers %}
 <html>
 <head>
 	<meta charset="utf-8" />
@@ -11,37 +10,37 @@
 	<meta name="keywords" content="" />
 	<title>Kolstat - {% block title %}[untitled]{% endblock %}</title>
 
-	
-	<link type="text/css" href="{% static 'css/ui-lightness/jquery-ui-1.8.21.custom.css' %}" rel="stylesheet" />
-	<link type="image/x-icon" href="{% static 'img/favicon.ico' %}" rel="icon" />
-	<link type="text/less" href="{% static 'css/style.less' %}" rel="stylesheet/less" />
-	
-	<script type="text/javascript" src="{% static 'js/jquery-1.7.2.min.js'  %}"></script>
-	<script type="text/javascript" src="{% static 'js/common.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/jquery-ui-1.8.21.custom.min.js' %}"></script>
 
-	{% block head %}
+	{% link 'ui_lightness/jquery-ui-1.8.21.custom.css' %}
+	{% link 'favicon.ico' %}
+	{% link 'style.less' %}
 
-	{% endblock %}
-
-	<script type="text/javascript" src="{% static 'js/less-1.3.3.min.js' %}"></script>
+	{% link 'jquery-1.7.2.min.js' %}
+	{% link 'jquery-ui-1.8.21.custom.min.js' %}
+	{% link 'common.js' %}
+	{% block head %}{% endblock %}
+	{% link 'less-1.3.3.min.js' %}
 </head>
 
 <body>
 	<div id="container">
 		<div id="main-menu">
 			<ul>
-				<li> <a href="{% url 'kolstat-plans' %}"><div>Podróże</div></a></li>
-				<li> <a href="{% url 'kolstat-plans-new' %}"><div>Planuj</div></a></li>
-				<li> <a href="{% url 'kolstat-trains-search' %}"><div>Pociągi</div></a></li>
-				<li> <a href="{% url 'units-classes' %}"><div>Baza taboru</div></a></li>
-				<li> <a href="{% url 'kolstat-stations' %}"><div>Stacje</div></a></li>
+				<li><a href="{% url 'kolstat-plans' %}"><div>Podróże</div></a></li>
+				<li><a href="{% url 'kolstat-plans-new' %}"><div>Planuj</div></a></li>
+				<li><a href="{% url 'kolstat-trains-search' %}"><div>Pociągi</div></a></li>
+				<li><a href="{% url 'units-classes' %}"><div>Baza taboru</div></a></li>
+				<li><a href="{% url 'kolstat-stations' %}"><div>Stacje</div></a></li>
 			</ul>
 		</div>
 
 		<div id="topbar">
 			Dzisiaj jest {% now "DATE_FORMAT" %}, a Ty jesteś {% if user.is_authenticated %} {% user_display user %}.
-			<a href="{% url 'user-profile' %}">[profil]</a> <a href="{% url 'account_logout' %}">[wyloguj się]</a> {% else %} niezalogowany. <a href="{% url 'account_login' %}">[zaloguj się]</a> <a href="{% url 'account_signup' %}">[zarejestruj się]</a>{% endif %}
+			<a href="{% url 'user-profile' %}">[profil]</a>
+			<a href="{% url 'account_logout' %}">[wyloguj się]</a> {% else %} niezalogowany.
+			<a href="{% url 'account_login' %}">[zaloguj się]</a>
+			<a href="{% url 'account_signup' %}">[zarejestruj się]</a>
+			{% endif %}
 
 			{% if messages %}
 				<ul class="messages">
