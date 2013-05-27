@@ -6,7 +6,7 @@ from kolstatapp.models import Train, TrainTimetable
 from kolstatapp.exceptions import KolstatError
 
 import datetime 
-@expose('train.html')
+@expose('trains/show.html')
 def train(request, operator, number, variant = None):
 	res = Train.search(operator + ' ' + number, variant)
 	if len(res) != 1:
@@ -16,7 +16,7 @@ def train(request, operator, number, variant = None):
 
 	return dict(train = ktrain)
 
-@expose('train-date.html')
+@expose('trains/show-date.html')
 def train_date(request, operator, number, variant = None, date = None):
 	res = Train.search(operator + ' ' + number, variant)
 	if len(res) != 1:

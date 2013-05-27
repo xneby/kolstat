@@ -1,0 +1,12 @@
+<form action="{{ action }}" method="post">{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="Wyślij" />
+</form>
+<script type="text/javascript">
+	function prepare(){
+		$('#id_date').datepicker({dateFormat: "dd.mm.yy"});
+	}
+
+	$(document).ready(prepare);
+</script>
+

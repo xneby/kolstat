@@ -7,8 +7,6 @@
 {% block title %}strona informacyjna pociągu{% endblock %}
 
 {% block head %}
-<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
-
 {% endblock %}
 
 {% block content %}
@@ -54,6 +52,7 @@
 			</table>
 		</div>
 
+{% comment %}
 		<div class="notes">
 			<p>Średnia ocena opóźnienienia: <b>{% percentage train.get_average_delay 5 %}%</b></p>
 			<p>Średnia ocena czystości: <b>{% percentage train.get_average_clean 5 %}%</b></p>
@@ -68,6 +67,7 @@
 				{% endfor %}
 			</table>
 		</div>
+{% endcomment %}
 	</div>
 </div>
 

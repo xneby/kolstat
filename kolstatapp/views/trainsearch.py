@@ -3,7 +3,7 @@ from kolstatapp.decorators import expose, Redirect, reverse
 from kolstatapp.forms import TrainSearchForm
 from kolstatapp.models import Train
 
-@expose('train-search.html')
+@expose('trains/search.html')
 def trainsearch(request):
 	if request.method == 'POST':
 		form = TrainSearchForm(request.POST)

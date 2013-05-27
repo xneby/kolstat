@@ -6,9 +6,6 @@
 {% block title %}strona informacyjna pociągu{% endblock %}
 
 {% block head %}
-<link rel="stylesheet" href="{{STATIC_PREFIX}}/css/hselect.css" type="text/css" />
-
-</script>
 {% endblock %}
 
 {% block content %}
@@ -111,21 +108,6 @@
 						</tr>
 					{% endif %}
 			{% endfor %}
-			</table>
-		</div>
-
-		<div class="notes">
-			<p>Średnia ocena opóźnienienia: <b>{% percentage train.get_average_delay 5 %}%</b></p>
-			<p>Średnia ocena czystości: <b>{% percentage train.get_average_clean 5 %}%</b></p>
-			<p>Zestawienia:</p>
-			<table>
-				<tr><th>liczba</th><th>zestawienie</th></tr>
-				{% for row in train.get_compositions %}
-				<tr>
-					<td>{{row.num}}</td>
-					<td style="text-align: left;">{% print_composition row.composition__composition %}</td>
-				</tr>
-				{% endfor %}
 			</table>
 		</div>
 	</div>
