@@ -19,7 +19,7 @@
 	<tr>
 	{% with stop.timetable as tt %}
 		<td><img src="{% traincat_img_url tt.train%}" alt="{{ tt.train.category.name }}" /></td>
-		<td><b> {% train_name tt.train %}</b> </td>
+		<td><b> {% train tt %}</b> </td>
 		<td style="text-align:left">o {{ stop.departure|time:"H:i" }}
 		do stacji {% get_pretty_name tt.last_stop.station %}</td>
 	{% endwith %}

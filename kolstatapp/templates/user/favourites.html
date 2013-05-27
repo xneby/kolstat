@@ -1,12 +1,11 @@
 {% extends 'base.html' %}
 
-{% load static %}
-{% get_static_prefix as STATIC_PREFIX %}
+{% load helpers %}
 
 {% block title%} - panel użytkownika - ulubione stacje{% endblock %}
 
 {% block head %}
-<script type="text/javascript" src="{{STATIC_PREFIX}}js/stations.js" /></script>
+{% link 'stations.js' %}
 {% endblock %}
 
 {% block content %}

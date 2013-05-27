@@ -3,6 +3,7 @@
 {% load utils %}
 {% load plan_extras %}
 {% load station_extras %}
+{% load train_extras %}
 
 {% block title %}- wyniki zapytania{% endblock %}
 
@@ -62,7 +63,7 @@
 		<table class="sections">
 			{% for s in x.sections %}
 				<tr>
-					<td class="train">{{ s.train.category}} {{s.train.number}}</td>
+					<td class="train">{% train s.timetable %}</td>
 					<td class="station">{% get_pretty_name s.source %}</td>
 					<td class="time">{{ s.departure }}</td>
 					<td />

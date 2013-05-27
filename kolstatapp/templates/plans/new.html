@@ -1,15 +1,12 @@
 {% extends 'base.html' %}
-{% load static %}
-{% get_static_prefix as STATIC_PREFIX %}
+{% load helpers %}
 
 {% block title %}nowa podróż{% endblock %}
 
 {% block head %}
-<script type="text/javascript" src="{{STATIC_PREFIX}}js/stations.js"></script>
+{% link 'stations.js' %}
 <script type="text/javascript">
 	function prepare(){
-		$('input.station').stationField();
-
 		$('#id_date').datepicker({dateFormat: "dd.mm.yy"});
 	}
 

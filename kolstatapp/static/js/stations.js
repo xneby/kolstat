@@ -1,3 +1,16 @@
+var _fav_cache = [];
+
+function build_cache(next){
+	if(_fav_cache.length) return ;
+	jQuery.ajax({
+		url: '/kolstat/ajax/favourites/',
+		dataType: 'jsonp'
+	}).done(function(data){
+		_fav_cache = data;
+		next.stationField();
+	});
+}
+
 (function( $ ){
 	$.fn.stationField = function (){
 		return this.each(function(){
@@ -38,25 +51,24 @@
 				});
 					
 			});
-
-			$.ajax({
-				url: '/kolstat/ajax/favourites',
-				dataType: 'jsonp'
-			}).done(function(data){
-				$.each(data, function(key, value){
-					var btn = $('<img>').attr('src', '/static/img/picto/' + key + '.png').height($this.height()).addClass('picto');
-					var $value = value;
-					btn.click(function(){
-						$this.val($value);
-					});
-					div.append(btn);
+		
+			$.each(_fav_cache, function(key, value){
+				var btn = $('<img>').attr('src', '/static/img/picto/' + key + '.png').height($this.height()).addClass('picto');
+				var $value = value;
+				btn.click(function(){
+					$this.val($value);
 				});
+				div.append(btn);
 			});
-
 		});	
 	};
 
 	$(document).ready(function(){
-		$('.stationField').stationField();
+		fields = $('.stationField');
+		if(fields){
+			build_cache(fields);
+		} else {
+			fields.stationField();
+		}
 	});
 })(jQuery);

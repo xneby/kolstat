@@ -21,11 +21,18 @@ class Train(models.Model):
 		return dict(id = self.id, operator = self.category.operator.name, category = self.category.name, number = self.number)
 
 	@models.permalink
-	def get_absolute_url(self):
+	def get_absolute_url(self, date = None):
 		if self.has_variants():
-			return ('kolstat-train-variant', [self.category.name, self.number, self.variant])
+			if date is None:
+				return ('kolstat-train-variant', [self.category.name, self.number, self.variant])
+			else:
+				return ('kolstat-train-date-variant', [self.category.name, self.number, self.variant, date.strftime('%Y-%m-%d')])
+
 		else:
-			return ('kolstat-train', [self.category.name, self.number])
+			if date is None:
+				return ('kolstat-train', [self.category.name, self.number])
+			else:
+				return ('kolstat-train-date', [self.category.name, self.number, date.strftime('%Y-%m-%d')])
 
 	def timetables(self):
 		return self.traintimetable_set.order_by('date')

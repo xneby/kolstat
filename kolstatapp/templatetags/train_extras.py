@@ -2,7 +2,7 @@
 from django import template
 from django.conf import settings
 from kolstatapp.utils.traincat import get_img_url, get_operator, get_category_class, get_full_name, get_category, get_all
-from kolstatapp.models import TrainName
+from kolstatapp.models import Train, TrainTimetable
 
 register = template.Library()
 
@@ -24,7 +24,7 @@ def train_category(train):
 
 @register.simple_tag
 def train_name(train):
-	return TrainName.getName(train)
+	return ''
 
 @register.simple_tag
 def train_category_explanation(train):
@@ -53,4 +53,23 @@ def traincat_get(parser, token):
 def train_overview(train):
 	t = template.loader.get_template('trains/_train_overview.html')
 	return t.render(template.Context(dict(train = train)))
+
+@register.simple_tag
+def train(train, date = None):
+	link = None
+	if isinstance(train, Train):
+		link = train.get_absolute_url(date)
+		name = "{} {}".format(train.category.name, train.number)
+	elif isinstance(train, TrainTimetable):
+		link = train.train.get_absolute_url(train.date)
+		name = "{} {}".format(train.train.category.name, train.train.number)
+	else:
+		name = "###ARG!"
+
+	if link is not None:
+		result = '<a href="{link}">{name}</a>'.format(link = link, name = name)
+	else:
+		result = name
+
+	return '<span class="train">{}</span>'.format(result)
 
