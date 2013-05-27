@@ -96,15 +96,16 @@ int dijkstra(query_simple q, connection& result, simple_stats* st){
 
 	fill(vis, vis + num_vertices, false);
 	fill(d, d + num_vertices, INF_T);
+	fill(wsk, wsk + num_vertices + 1, 0);
 	
 	d[q.source_st] = q.dep_time;
 	p[q.source_st] = NULL;
 
-	Heap kol(kop, wsk);
-	kol.push(vbox(-q.dep_time, q.source_st));
+	Heap* kol = new Heap(kop, wsk);
+	kol->push(vbox(-q.dep_time, q.source_st));
 
-	while(!kol.empty()){
-		int v = kol.pop();
+	while(!kol->empty()){
+		int v = kol->pop();
 
 		st->num_pop ++;
 		if(vis[v]) continue;
@@ -126,12 +127,14 @@ int dijkstra(query_simple q, connection& result, simple_stats* st){
 			if(nt < d[u]){
 				d[u] = nt;
 				p[u] = conn;
-				kol.push(vbox(-nt, u));
-				if(kol.size > st->max_heap)
-					st->max_heap = kol.size;
+				kol->push(vbox(-nt, u));
+				if(kol->size > st->max_heap)
+					st->max_heap = kol->size;
 			}
 		}
 	}
+
+	delete kol;
 
 	delete[] vis;
 	delete[] wsk;
