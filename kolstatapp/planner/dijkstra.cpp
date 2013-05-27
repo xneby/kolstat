@@ -152,5 +152,7 @@ int dijkstra(query_simple q, connection& result, simple_stats* st){
 
 	result.sort();
 
+	delete[] p;
+	delete[] d;
 	return DIJ_OK;
 }
